@@ -1,0 +1,9 @@
+tap01,tap11,N,share,sample,label
+1,1,181688,0.376248982693889,national (balanced panel),"1 -> 1 (stable, has tap)"
+1,0,75030,0.155376035684924,national (balanced panel),1 -> 0 (lost tap)
+0,1,54626,0.113122368723506,national (balanced panel),0 -> 1 (gained tap)
+0,0,171549,0.355252612897681,national (balanced panel),"0 -> 0 (stable, no tap)"
+1,1,12209,0.143427745732646,uttar pradesh,"1 -> 1 (stable, has tap)"
+1,0,23022,0.270455693525839,uttar pradesh,1 -> 0 (lost tap)
+0,1,15833,0.186001433220164,uttar pradesh,0 -> 1 (gained tap)
+0,0,34059,0.400115127521351,uttar pradesh,"0 -> 0 (stable, no tap)"

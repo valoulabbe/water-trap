@@ -1,0 +1,13 @@
+sample,version,year,n,mean
+balanced panel,m0,1991,492880,0.1963
+balanced panel,m0,2001,493113,0.5262
+balanced panel,m0,2011,482902,0.4894
+balanced panel,listwise,1991,359902,0.2688
+balanced panel,listwise,2001,493120,0.5262
+balanced panel,listwise,2011,492128,0.4848
+balanced + single-village,m0,1991,488407,0.1946
+balanced + single-village,m0,2001,488647,0.5225
+balanced + single-village,m0,2011,478433,0.4868
+balanced + single-village,listwise,1991,355691,0.2672
+balanced + single-village,listwise,2001,488647,0.5225
+balanced + single-village,listwise,2011,487653,0.4822

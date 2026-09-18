@@ -1,6 +1,6 @@
 ==============================================================================
 LOG: output/logs/03_cgwb_long.log
-Run started: 2026-09-18 16:15:26
+Run started: 2026-09-18 21:12:27
 ==============================================================================
 
 STEP 3 -- CGWB MONITORING WELLS: LONG PANEL, PRE-MONSOON (MAY) READINGS
@@ -151,4 +151,4 @@ build/cgwb_wells.rds    : 28,076 wells (one row per WLCODE)
 STEP 3 COMPLETE
 ------------------------------------------------------------------------------
 
-Run finished: 2026-09-18 16:15:27
+Run finished: 2026-09-18 21:12:28

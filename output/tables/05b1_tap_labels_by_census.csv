@@ -1,0 +1,7 @@
+variable,census,stata_label,docs_description,docs_url
+pc91_vd_tap,1991,Tap Water,Tap Water,https://docs.devdatalab.org/SHRUG-Metadata/Population%20Census/Tables/vd91-metadata/
+pc01_vd_tap,2001,Tap Water (T),Tap Water (T),https://docs.devdatalab.org/SHRUG-Metadata/Population%20Census/Tables/vd01-metadata/
+pc11_vd_wat_tap_trt,2011,Tap Water-Treated,Tap Water-Treated,https://docs.devdatalab.org/SHRUG-Metadata/Population%20Census/Tables/vd11-metadata/
+pc11_vd_wat_tap_untrt,2011,Tap Water Untreated,Tap Water Untreated,https://docs.devdatalab.org/SHRUG-Metadata/Population%20Census/Tables/vd11-metadata/
+pc11_vd_wat_tap_trt_allyr,2011,Tap Water-Treated Functioning All round the year,Tap Water-Treated Functioning All round the year,https://docs.devdatalab.org/SHRUG-Metadata/Population%20Census/Tables/vd11-metadata/
+pc11_vd_wat_tap_trt_sum,2011,Tap Water-Treated Functioning in Summer months (April-September) (Status A(1)/NA,Tap Water-Treated Functioning in Summer months (April-September),https://docs.devdatalab.org/SHRUG-Metadata/Population%20Census/Tables/vd11-metadata/

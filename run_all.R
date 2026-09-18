@@ -38,7 +38,8 @@ STEPS <- c(
   "code/01_ingest_validate.R",
   "code/02_shrug_water.R",
   "code/03_cgwb_long.R",
-  "code/04_shrid_centroids_dist.R"
+  "code/04_shrid_centroids_dist.R",
+  "code/05_diag_missing_tap.R"
 )
 
 run_log <- file.path("output", "logs", "run_all.log")

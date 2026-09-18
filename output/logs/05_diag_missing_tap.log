@@ -1,0 +1,979 @@
+==============================================================================
+LOG: output/logs/05_diag_missing_tap.log
+Run started: 2026-09-18 21:19:06
+==============================================================================
+
+STEP 5 -- DIAGNOSTICS: 1991 MISSINGNESS BY GEOGRAPHY; TAP COMPARABILITY
+
+SCOPE: diagnostics on the water outcomes only. No RD, no depth. The
+outcome definitions in code/02_shrug_water.R are NOT modified here; any
+proposed change appears at the end as a QUESTION FOR THE PI.
+
+------------------------------------------------------------------------------
+(a) 1991 MISSINGNESS BY GEOGRAPHY
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+(a1) Share missing and N shrids, by state
+------------------------------------------------------------------------------
+                 state_name n_shrids miss_tap class_tap miss_tubewell
+                     <char>    <int>    <num>    <char>         <num>
+ 1:           uttar pradesh    95659   0.0000 scattered        0.0000
+ 2:          madhya pradesh    50014   0.9468 wholesale        0.9733
+ 3:                  odisha    46075   0.6823   partial        0.2581
+ 4:             maharashtra    39738   0.6688   partial        1.0000
+ 5:                   bihar    37986   0.0000 scattered        0.0000
+ 6:             west bengal    37100   0.0964 scattered        0.0179
+ 7:               rajasthan    36719   0.0007 scattered        0.0007
+ 8:               jharkhand    28754   0.0000 scattered        0.0000
+ 9:               karnataka    26422   0.0002 scattered        0.0002
+10:          andhra pradesh    25946   0.0901 scattered        0.0997
+11:                   assam    23072   0.8099   partial        0.4206
+12:                 gujarat    17784   0.5650   partial        0.8241
+13:        himachal pradesh    16628   0.0001 scattered        0.0001
+14:            chhattisgarh    15507   0.9380 wholesale        0.9457
+15:             uttarakhand    15207   0.0000 scattered        0.0000
+16:              tamil nadu    14082   0.0009 scattered        0.0013
+17:                  punjab    11177   0.0006 scattered        0.0008
+18:                    <NA>     6962   0.3434   partial        0.3156
+19:                 haryana     6547   0.0000 scattered        0.0000
+20:               meghalaya     4990   0.0000 scattered        0.0000
+21:                 manipur     1970   0.0005 scattered        0.0005
+22:       arunachal pradesh     1412   0.0064 scattered        0.0071
+23:                  kerala     1318   0.0000 scattered        0.0000
+24:                nagaland     1145   0.0009 scattered        0.0017
+25:                 tripura      814   0.0000 scattered        0.0000
+26:                 mizoram      552   0.0000 scattered        0.0000
+27:                  sikkim      420   0.0024 scattered        0.0119
+28:                     goa      356   0.0000 scattered        0.0000
+29: andaman nicobar islands      316   0.0000 scattered        0.0000
+30:              puducherry       81   0.0000 scattered        0.0000
+31:      dadra nagar haveli       70   0.7571   partial        0.9857
+32:               daman diu       23   0.0000 scattered        0.0000
+33:             lakshadweep        7   0.0000 scattered        0.0000
+34:              chandigarh        1   1.0000 wholesale        1.0000
+35:            nct of delhi        1   0.0000 scattered        0.0000
+                 state_name n_shrids miss_tap class_tap miss_tubewell
+                     <char>    <int>    <num>    <char>         <num>
+    class_tubewell miss_handpump class_handpump miss_well class_well
+            <char>         <num>         <char>     <num>     <char>
+ 1:      scattered        0.0000      scattered    0.0000  scattered
+ 2:      wholesale        0.1945        partial    0.1422    partial
+ 3:        partial        0.7265        partial    0.1730    partial
+ 4:      wholesale        0.5240        partial    0.1388    partial
+ 5:      scattered        0.0000      scattered    0.0000  scattered
+ 6:      scattered        0.1389        partial    0.0171  scattered
+ 7:      scattered        0.0007      scattered    0.0007  scattered
+ 8:      scattered        0.0000      scattered    0.0000  scattered
+ 9:      scattered        0.0002      scattered    0.0002  scattered
+10:      scattered        0.0328      scattered    0.0237  scattered
+11:        partial        0.9863      wholesale    0.3290    partial
+12:        partial        0.4814        partial    0.0554  scattered
+13:      scattered        0.0001      scattered    0.0001  scattered
+14:      wholesale        0.1475        partial    0.1990    partial
+15:      scattered        0.0000      scattered    0.0000  scattered
+16:      scattered        0.0009      scattered    0.0009  scattered
+17:      scattered        0.0003      scattered    0.0004  scattered
+18:        partial        0.3248        partial    0.1359    partial
+19:      scattered        0.0000      scattered    0.0000  scattered
+20:      scattered        0.0000      scattered    0.0000  scattered
+21:      scattered        0.0005      scattered    0.0005  scattered
+22:      scattered        0.0071      scattered    0.0071  scattered
+23:      scattered        0.0000      scattered    0.0000  scattered
+24:      scattered        0.0017      scattered    0.0009  scattered
+25:      scattered        0.0000      scattered    0.0000  scattered
+26:      scattered        0.0000      scattered    0.0000  scattered
+27:      scattered        0.0119      scattered    0.0119  scattered
+28:      scattered        0.0000      scattered    0.0000  scattered
+29:      scattered        0.0000      scattered    0.0000  scattered
+30:      scattered        0.0123      scattered    0.0123  scattered
+31:      wholesale        1.0000      wholesale    0.0857  scattered
+32:      scattered        0.0000      scattered    0.0000  scattered
+33:      scattered        0.0000      scattered    0.0000  scattered
+34:      wholesale        1.0000      wholesale    1.0000  wholesale
+35:      scattered        0.0000      scattered    0.0000  scattered
+    class_tubewell miss_handpump class_handpump miss_well class_well
+            <char>         <num>         <char>     <num>     <char>
+    miss_drnk_wat_f
+              <num>
+ 1:          0.0000
+ 2:          0.0000
+ 3:          0.0037
+ 4:          0.0022
+ 5:          0.0000
+ 6:          0.0002
+ 7:          0.0000
+ 8:          0.0000
+ 9:          0.0000
+10:          0.0028
+11:          0.0000
+12:          0.0000
+13:          0.0000
+14:          0.0000
+15:          0.0000
+16:          0.0005
+17:          0.0000
+18:          0.0109
+19:          0.0000
+20:          0.0026
+21:          0.0000
+22:          0.0000
+23:          0.0000
+24:          0.0000
+25:          0.0012
+26:          0.0000
+27:          0.0000
+28:          0.0000
+29:          0.0000
+30:          0.0000
+31:          0.0000
+32:          0.0000
+33:          0.0000
+34:          0.0000
+35:          0.0000
+    miss_drnk_wat_f
+              <num>
+
+Classification on pc91_vd_tap (wholesale >90%, partial 10-90%, scattered <10%):
+   class_tap states shrids
+      <char>  <int>  <int>
+1: scattered     26 365632
+2:   partial      6 133701
+3: wholesale      3  65522
+
+  WHOLESALE (3 states, 65,522 shrids):
+    madhya pradesh (95%); chhattisgarh (94%); chandigarh (100%)
+  PARTIAL (6 states, 133,701 shrids):
+    odisha (68%); maharashtra (67%); assam (81%); gujarat (57%); NA (34%); dadra nagar haveli (76%)
+  SCATTERED (26 states, 365,632 shrids):
+    uttar pradesh (0%); bihar (0%); west bengal (10%); rajasthan (0%); jharkhand (0%); karnataka (0%); andhra pradesh (9%); himachal pradesh (0%); uttarakhand (0%); tamil nadu (0%); punjab (0%); haryana (0%); meghalaya (0%); manipur (0%); arunachal pradesh (1%); kerala (0%); nagaland (0%); tripura (0%); mizoram (0%); sikkim (0%); goa (0%); andaman nicobar islands (0%); puducherry (0%); daman diu (0%); lakshadweep (0%); nct of delhi (0%)
+
+------------------------------------------------------------------------------
+(a3) Uttar Pradesh: share missing and N shrids, by district
+------------------------------------------------------------------------------
+                 district_name n_shrids miss_tap class_tap miss_tubewell
+                        <char>    <int>    <num>    <char>         <num>
+ 1:                   varanasi     1246    8e-04 scattered             0
+ 2:                   azamgarh     3662    0e+00 scattered             0
+ 3:                    jaunpur     3248    0e+00 scattered             0
+ 4:                      basti     3047    0e+00 scattered             0
+ 5:                  gorakhpur     2839    0e+00 scattered             0
+ 6:                  allahabad     2778    0e+00 scattered             0
+ 7:                   ghazipur     2545    0e+00 scattered             0
+ 8:                  sultanpur     2493    0e+00 scattered             0
+ 9:             siddharthnagar     2286    0e+00 scattered             0
+10:                 pratapgarh     2180    0e+00 scattered             0
+11:                    sitapur     2162    0e+00 scattered             0
+12:                     bijnor     2077    0e+00 scattered             0
+13:               shahjahanpur     2034    0e+00 scattered             0
+14:                     deoria     1976    0e+00 scattered             0
+15:                     hardoi     1873    0e+00 scattered             0
+16:                   bareilly     1827    0e+00 scattered             0
+17:                      gonda     1810    0e+00 scattered             0
+18:                 bara banki     1809    0e+00 scattered             0
+19:                     budaun     1767    0e+00 scattered             0
+20:                     ballia     1742    0e+00 scattered             0
+21:                 rae bareli     1719    0e+00 scattered             0
+22:                   mirzapur     1685    0e+00 scattered             0
+23:                      unnao     1680    0e+00 scattered             0
+24:                      kheri     1649    0e+00 scattered             0
+25:             ambedkar nagar     1637    0e+00 scattered             0
+26:                 kushinagar     1550    0e+00 scattered             0
+27:           sant kabir nagar     1541    0e+00 scattered             0
+28:                  moradabad     1514    0e+00 scattered             0
+29:                        mau     1432    0e+00 scattered             0
+30:                  sonbhadra     1352    0e+00 scattered             0
+31:                   bahraich     1350    0e+00 scattered             0
+32:                   fatehpur     1337    0e+00 scattered             0
+33:                  chandauli     1328    0e+00 scattered             0
+34:                   pilibhit     1263    0e+00 scattered             0
+35:                   faizabad     1223    0e+00 scattered             0
+36:                 saharanpur     1203    0e+00 scattered             0
+37:                 mahrajganj     1176    0e+00 scattered             0
+38:                    aligarh     1173    0e+00 scattered             0
+39:                bulandshahr     1164    0e+00 scattered             0
+40:                     rampur     1090    0e+00 scattered             0
+41: sant ravidas nagar bhadohi     1066    0e+00 scattered             0
+42:                  balrampur      993    0e+00 scattered             0
+43:               kanpur dehat      965    0e+00 scattered             0
+44:                     jalaun      929    0e+00 scattered             0
+45:        jyotiba phule nagar      913    0e+00 scattered             0
+46:                       agra      903    0e+00 scattered             0
+47:               kanpur nagar      891    0e+00 scattered             0
+48:              muzaffarnagar      872    0e+00 scattered             0
+49:                farrukhabad      856    0e+00 scattered             0
+50:                       etah      854    0e+00 scattered             0
+51:                   mainpuri      817    0e+00 scattered             0
+52:                    lucknow      800    0e+00 scattered             0
+53:                  firozabad      784    0e+00 scattered             0
+54:                    auraiya      766    0e+00 scattered             0
+55:                     jhansi      734    0e+00 scattered             0
+56:                  kaushambi      727    0e+00 scattered             0
+57:                    mathura      711    0e+00 scattered             0
+58:                    kannauj      686    0e+00 scattered             0
+59:                     etawah      683    0e+00 scattered             0
+60:                   lalitpur      676    0e+00 scattered             0
+61:             mahamaya nagar      656    0e+00 scattered             0
+62:                      banda      649    0e+00 scattered             0
+63:            kanshiram nagar      638    0e+00 scattered             0
+64:                     meerut      593    0e+00 scattered             0
+65:                 chitrakoot      542    0e+00 scattered             0
+66:                  ghaziabad      509    0e+00 scattered             0
+67:                  shrawasti      503    0e+00 scattered             0
+68:                   hamirpur      482    0e+00 scattered             0
+69:                     mahoba      422    0e+00 scattered             0
+70:        gautam buddha nagar      290    0e+00 scattered             0
+71:                    baghpat      282    0e+00 scattered             0
+                 district_name n_shrids miss_tap class_tap miss_tubewell
+                        <char>    <int>    <num>    <char>         <num>
+    miss_handpump miss_drnk_wat_f
+            <num>           <num>
+ 1:         8e-04           8e-04
+ 2:         0e+00           0e+00
+ 3:         0e+00           0e+00
+ 4:         0e+00           0e+00
+ 5:         0e+00           0e+00
+ 6:         0e+00           0e+00
+ 7:         0e+00           0e+00
+ 8:         0e+00           0e+00
+ 9:         0e+00           0e+00
+10:         0e+00           0e+00
+11:         0e+00           0e+00
+12:         0e+00           0e+00
+13:         0e+00           0e+00
+14:         0e+00           0e+00
+15:         0e+00           0e+00
+16:         0e+00           0e+00
+17:         0e+00           0e+00
+18:         0e+00           0e+00
+19:         0e+00           0e+00
+20:         0e+00           0e+00
+21:         0e+00           0e+00
+22:         0e+00           0e+00
+23:         0e+00           0e+00
+24:         0e+00           0e+00
+25:         0e+00           0e+00
+26:         0e+00           0e+00
+27:         0e+00           0e+00
+28:         0e+00           0e+00
+29:         0e+00           0e+00
+30:         0e+00           0e+00
+31:         0e+00           0e+00
+32:         0e+00           0e+00
+33:         0e+00           0e+00
+34:         0e+00           0e+00
+35:         0e+00           0e+00
+36:         0e+00           0e+00
+37:         0e+00           0e+00
+38:         0e+00           0e+00
+39:         0e+00           0e+00
+40:         0e+00           0e+00
+41:         0e+00           0e+00
+42:         0e+00           0e+00
+43:         0e+00           0e+00
+44:         0e+00           0e+00
+45:         0e+00           0e+00
+46:         0e+00           0e+00
+47:         0e+00           0e+00
+48:         0e+00           0e+00
+49:         0e+00           0e+00
+50:         0e+00           0e+00
+51:         0e+00           0e+00
+52:         0e+00           0e+00
+53:         0e+00           0e+00
+54:         0e+00           0e+00
+55:         0e+00           0e+00
+56:         0e+00           0e+00
+57:         0e+00           0e+00
+58:         0e+00           0e+00
+59:         0e+00           0e+00
+60:         0e+00           0e+00
+61:         0e+00           0e+00
+62:         0e+00           0e+00
+63:         0e+00           0e+00
+64:         0e+00           0e+00
+65:         0e+00           0e+00
+66:         0e+00           0e+00
+67:         0e+00           0e+00
+68:         0e+00           0e+00
+69:         0e+00           0e+00
+70:         0e+00           0e+00
+71:         0e+00           0e+00
+    miss_handpump miss_drnk_wat_f
+            <num>           <num>
+
+UP districts by tap-missingness class:
+   class_tap districts shrids
+      <char>     <int>  <int>
+1: scattered        71  95659
+
+------------------------------------------------------------------------------
+(a4) tap91_any and private_gw91_any: m0 vs listwise, by state
+------------------------------------------------------------------------------
+                 state_name n_shrids n_tap_lw lw_coverage tap_m0 tap_lw tap_gap
+                     <char>    <int>    <int>       <num>  <num>  <num>   <num>
+ 1:           uttar pradesh    97977    95658       1.000 0.1227 0.1227  0.0000
+ 2:          madhya pradesh    51986     2661       0.053 0.0294 0.5520  0.5227
+ 3:                  odisha    47570    14638       0.319 0.0061 0.0193  0.0131
+ 4:             maharashtra    41057    13160       0.332 0.3319 1.0000  0.6681
+ 5:               rajasthan    39772    36695       0.999 0.1467 0.1468  0.0001
+ 6:                   bihar    39117    37986       1.000 0.0094 0.0094  0.0000
+ 7:             west bengal    37847    33525       0.904 0.0386 0.0427  0.0041
+ 8:               jharkhand    29605    28754       1.000 0.0104 0.0104  0.0000
+ 9:               karnataka    27336    26417       1.000 0.1786 0.1787  0.0000
+10:          andhra pradesh    26396    23607       0.912 0.1145 0.1255  0.0110
+11:                   assam    25398     4386       0.190 0.1491 0.7845  0.6354
+12:            chhattisgarh    19637      961       0.062 0.0177 0.2851  0.2675
+13:                 gujarat    17948     7736       0.435 0.4350 1.0000  0.5650
+14:        himachal pradesh    17496    16626       1.000 0.9177 0.9178  0.0001
+15:             uttarakhand    15748    15207       1.000 0.8672 0.8672  0.0000
+16:              tamil nadu    15377    14070       1.000 0.3010 0.3011  0.0001
+17:                  punjab    12227    11170       0.999 0.3037 0.3039  0.0002
+18:                    <NA>     9187     4571       0.664 0.1175 0.1770  0.0595
+19:                 haryana     6668     6547       1.000 0.8263 0.8263  0.0000
+20:           jammu kashmir     6355        0         NaN    NaN    NaN     NaN
+21:               meghalaya     5508     4990       1.003 0.3128 0.3122 -0.0006
+22:       arunachal pradesh     3366     1403       0.994 0.6501 0.6543  0.0042
+23:                 manipur     2340     1969       0.999 0.1563 0.1564  0.0001
+24:                  kerala     1339     1318       1.000 0.6654 0.6654  0.0000
+25:                nagaland     1279     1144       0.999 0.6489 0.6495  0.0006
+26:                 tripura      863      814       1.001 0.3899 0.3894 -0.0005
+27:                 mizoram      683      552       1.000 0.2681 0.2681  0.0000
+28:                  sikkim      425      419       0.998 0.9643 0.9666  0.0023
+29: andaman nicobar islands      398      316       1.000 0.4462 0.4462  0.0000
+30:                     goa      360      356       1.000 0.6601 0.6601  0.0000
+31:              puducherry       92       81       1.000 1.0000 1.0000  0.0000
+32:      dadra nagar haveli       70       17       0.243 0.2429 1.0000  0.7571
+33:               daman diu       23       23       1.000 1.0000 1.0000  0.0000
+34:             lakshadweep        9        7       1.000 0.7143 0.7143  0.0000
+35:              chandigarh        1        0       0.000 0.0000    NaN     NaN
+36:            nct of delhi        1        1       1.000 1.0000 1.0000  0.0000
+                 state_name n_shrids n_tap_lw lw_coverage tap_m0 tap_lw tap_gap
+                     <char>    <int>    <int>       <num>  <num>  <num>   <num>
+    pgw_m0 pgw_lw pgw_gap
+     <num>  <num>   <num>
+ 1: 0.9336 0.9336  0.0000
+ 2: 0.8096 0.9100  0.1004
+ 3: 0.6515 0.6642  0.0127
+ 4: 0.4771    NaN     NaN
+ 5: 0.7502 0.7506  0.0005
+ 6: 0.9502 0.9502  0.0000
+ 7: 0.8332 0.8569  0.0237
+ 8: 0.6620 0.6620  0.0000
+ 9: 0.9397 0.9399  0.0002
+10: 0.6410 0.6302 -0.0108
+11: 0.5723 0.2590 -0.3133
+12: 0.8614 0.9498  0.0885
+13: 0.6524 1.0000  0.3476
+14: 0.0375 0.0375  0.0000
+15: 0.0788 0.0788  0.0000
+16: 0.6911 0.6913  0.0002
+17: 0.9599 0.9601  0.0001
+18: 0.4396 0.5050  0.0654
+19: 0.8343 0.8343  0.0000
+20:    NaN    NaN     NaN
+21: 0.0231 0.0230 -0.0001
+22: 0.0283 0.0285  0.0002
+23: 0.0421 0.0422  0.0000
+24: 0.8619 0.8619  0.0000
+25: 0.0000 0.0000  0.0000
+26: 0.7934 0.7924 -0.0010
+27: 0.0707 0.0707  0.0000
+28: 0.0000 0.0000  0.0000
+29: 0.0000 0.0000  0.0000
+30: 0.2191 0.2191  0.0000
+31: 0.7037 0.7000 -0.0037
+32: 0.0143    NaN     NaN
+33: 0.0000 0.0000  0.0000
+34: 0.7143 0.7143  0.0000
+35: 0.0000    NaN     NaN
+36: 1.0000 1.0000  0.0000
+    pgw_m0 pgw_lw pgw_gap
+     <num>  <num>   <num>
+
+DEGENERATE LISTWISE CELLS -- read these means as artefacts, not estimates:
+  madhya pradesh             n_lw = 2,661   (5.3% of m0)  tap_lw = 0.5520   -- listwise keeps under half the m0 sample
+  odisha                     n_lw = 14,638  (31.9% of m0)  tap_lw = 0.0193   -- listwise keeps under half the m0 sample
+  maharashtra                n_lw = 13,160  (33.2% of m0)  tap_lw = 1.0000   -- listwise mean is exactly 1
+  assam                      n_lw = 4,386   (19.0% of m0)  tap_lw = 0.7845   -- listwise keeps under half the m0 sample
+  chhattisgarh               n_lw = 961     (6.2% of m0)  tap_lw = 0.2851   -- listwise keeps under half the m0 sample
+  gujarat                    n_lw = 7,736   (43.5% of m0)  tap_lw = 1.0000   -- listwise mean is exactly 1
+  jammu kashmir              n_lw = 0       (0.0% of m0)  tap_lw = NaN      -- listwise sample is EMPTY
+  puducherry                 n_lw = 81      (100.0% of m0)  tap_lw = 1.0000   -- listwise mean is exactly 1
+  dadra nagar haveli         n_lw = 17      (24.3% of m0)  tap_lw = 1.0000   -- listwise mean is exactly 1
+  daman diu                  n_lw = 23      (100.0% of m0)  tap_lw = 1.0000   -- listwise mean is exactly 1
+  chandigarh                 n_lw = 0       (0.0% of m0)  tap_lw = NaN      -- listwise sample is EMPTY
+  nct of delhi               n_lw = 1       (100.0% of m0)  tap_lw = 1.0000   -- listwise mean is exactly 1
+
+  JAMMU & KASHMIR: the 1991 Census was not conducted there, so its 1991
+  outcomes are structurally ABSENT, not missing-at-random. It appears with
+  an empty 1991 sample above and is excluded from the 1991 tables in (a1),
+  which are built from the vd91 file itself.
+
+National tap91_any: m0 = 0.1795, listwise = 0.2485, gap = 0.0690
+
+Contribution to the national gap. A state contributes if its m0 sample
+holds shrids the listwise sample drops -- i.e. shrids coded 0 only
+because the source variable was missing:
+            state_name n_tap_m0 n_tap_lw dropped_by_lw share_of_all_dropped
+                <char>    <int>    <int>         <int>                <num>
+ 1:     madhya pradesh    50014     2661         47353               0.3023
+ 2:             odisha    45903    14638         31265               0.1996
+ 3:        maharashtra    39649    13160         26489               0.1691
+ 4:              assam    23071     4386         18685               0.1193
+ 5:       chhattisgarh    15507      961         14546               0.0929
+ 6:            gujarat    17784     7736         10048               0.0642
+ 7:        west bengal    37094    33525          3569               0.0228
+ 8:               <NA>     6886     4571          2315               0.0148
+ 9:     andhra pradesh    25874    23607          2267               0.0145
+10: dadra nagar haveli       70       17            53               0.0003
+11:          rajasthan    36719    36695            24               0.0002
+12:  arunachal pradesh     1412     1403             9               0.0001
+13:             punjab    11177    11170             7               0.0000
+14:          karnataka    26422    26417             5               0.0000
+15:         tamil nadu    14075    14070             5               0.0000
+    tap_gap
+      <num>
+ 1:  0.5227
+ 2:  0.0131
+ 3:  0.6681
+ 4:  0.6354
+ 5:  0.2675
+ 6:  0.5650
+ 7:  0.0041
+ 8:  0.0595
+ 9:  0.0110
+10:  0.7571
+11:  0.0001
+12:  0.0042
+13:  0.0002
+14:  0.0000
+15:  0.0001
+
+------------------------------------------------------------------------------
+(a5) BOTTOM LINE ON 1991
+------------------------------------------------------------------------------
+IS 1991 USABLE IN UTTAR PRADESH?
+  UP has 95,659 shrids; pc91_vd_tap is missing for 0.0% of them (class: scattered).
+  tap91_any: m0 = 0.1227 (N = 95,658) vs listwise = 0.1227 (N = 95,658); gap = 0.0000.
+  VERDICT: YES. Tap missingness in UP is scattered, so m0 and listwise
+  rest on nearly the same sample.
+
+IN WHICH STATES IS THE m0 VERSION MOSTLY IMPUTED ZEROS?
+A state's m0 version is 'mostly imputed zeros' where a large share of its
+m0 sample is made of shrids the listwise version drops.
+  chandigarh                  100.0% of the m0 sample is an imputed zero (1 shrids)
+  madhya pradesh               94.7% of the m0 sample is an imputed zero (47,353 shrids)
+  chhattisgarh                 93.8% of the m0 sample is an imputed zero (14,546 shrids)
+  assam                        81.0% of the m0 sample is an imputed zero (18,685 shrids)
+  dadra nagar haveli           75.7% of the m0 sample is an imputed zero (53 shrids)
+  odisha                       68.1% of the m0 sample is an imputed zero (31,265 shrids)
+  maharashtra                  66.8% of the m0 sample is an imputed zero (26,489 shrids)
+  gujarat                      56.5% of the m0 sample is an imputed zero (10,048 shrids)
+
+  States where 10-50% of the m0 sample is imputed:
+    NA (34%)
+
+------------------------------------------------------------------------------
+(b) COMPARABILITY OF 'TAP' ACROSS 1991, 2001 AND 2011
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+(b1) Verbatim variable labels and documentation descriptions
+------------------------------------------------------------------------------
+                    variable
+                      <char>
+1:               pc91_vd_tap
+2:               pc01_vd_tap
+3:       pc11_vd_wat_tap_trt
+4:     pc11_vd_wat_tap_untrt
+5: pc11_vd_wat_tap_trt_allyr
+6:   pc11_vd_wat_tap_trt_sum
+                                                                        stata_label
+                                                                             <char>
+1:                                                                        Tap Water
+2:                                                                    Tap Water (T)
+3:                                                                Tap Water-Treated
+4:                                                              Tap Water Untreated
+5:                                 Tap Water-Treated Functioning All round the year
+6: Tap Water-Treated Functioning in Summer months (April-September) (Status A(1)/NA
+
+                    variable
+                      <char>
+1:               pc91_vd_tap
+2:               pc01_vd_tap
+3:       pc11_vd_wat_tap_trt
+4:     pc11_vd_wat_tap_untrt
+5: pc11_vd_wat_tap_trt_allyr
+6:   pc11_vd_wat_tap_trt_sum
+                                                   docs_description
+                                                             <char>
+1:                                                        Tap Water
+2:                                                    Tap Water (T)
+3:                                                Tap Water-Treated
+4:                                              Tap Water Untreated
+5:                 Tap Water-Treated Functioning All round the year
+6: Tap Water-Treated Functioning in Summer months (April-September)
+
+Both metadata pages carry the same caveat verbatim:
+  "Variable descriptions are as listed in the original village
+  directories." -- i.e. the wording is the Census's own, and SHRUG does
+  not harmonise it across rounds.
+
+WORDING DIFFERENCES THAT MATTER:
+  1. TREATMENT SPLIT. 1991 and 2001 record a single undifferentiated
+     'Tap Water'. 2011 splits it into TREATED and UNTREATED. Our tap11_any
+     is the OR of the two, which is the only construction comparable to
+     the earlier rounds; tap_treated11 has no 1991 or 2001 counterpart.
+  2. AVAILABILITY vs FUNCTIONING. The 1991 and 2001 labels say only
+     'Tap Water' -- availability. The 2011 base variable is also
+     availability, but 2011 ADDS _allyr ('Functioning All round the year')
+     and _sum ('Functioning in Summer months'), a functioning distinction
+     that simply does not exist in 1991 or 2001. Our tap11_any uses the
+     BASE variable, so it is the availability concept -- the comparable
+     one. Switching to _allyr would break comparability.
+  3. CODING. The 2011 labels state the coding explicitly, e.g.
+     '(Status A(1)/NA(0))' -- 'NA' means NOT AVAILABLE, a real zero. The
+     1991/2001 labels do not state their coding at all.
+  4. UNIT. Neither metadata page states whether the source unit is the
+     village or the habitation. This is NOT resolved by the
+     documentation; a habitation-level source in one round and a
+     village-level source in another would shift levels without any real
+     change on the ground. Flagged, not settled.
+  5. AGGREGATION TO SHRID. 1991/2001 arrive as COUNTS of villages,
+     2011 as a BINARY max. Section (b3) tests whether this drives
+     anything by re-running on single-village shrids only.
+
+------------------------------------------------------------------------------
+(b2) Balanced panel: shrids present in all three VD files
+------------------------------------------------------------------------------
+  shrids in vd91: 564,855
+  shrids in vd01: 527,920
+  shrids in vd11: 588,973
+  present in ALL THREE (balanced panel): 493,122
+  [OK]   balanced panel row count matches
+  of which single-village in all three rounds: 488,647 (99.1%)
+Clé : <sample, version>
+                      sample  version mean_1991 mean_2001 mean_2011 n_1991
+                      <char>   <char>     <num>     <num>     <num>  <int>
+1: balanced + single-village listwise    0.2672    0.5225    0.4822 355691
+2: balanced + single-village       m0    0.1946    0.5225    0.4868 488407
+3:            balanced panel listwise    0.2688    0.5262    0.4848 359902
+4:            balanced panel       m0    0.1963    0.5262    0.4894 492880
+   n_2001 n_2011
+    <int>  <int>
+1: 488647 487653
+2: 488647 478433
+3: 493120 492128
+4: 493113 482902
+
+  The single-village restriction barely moves the series, so the
+  count-vs-binary aggregation difference is NOT what drives the pattern.
+                 state_name n_shrids  tap91  tap01  tap11 d_91_01 d_01_11
+                     <char>    <int>  <num>  <num>  <num>   <num>   <num>
+ 1:           uttar pradesh    95233 0.1224 0.3989 0.3294  0.2765 -0.0695
+ 2:          madhya pradesh    49850 0.0289 0.1259 0.2003  0.0970  0.0744
+ 3:             maharashtra    39457 0.3306 0.5635 0.7782  0.2329  0.2147
+ 4:                   bihar    36784 0.0092 0.0329 0.0947  0.0237  0.0618
+ 5:               rajasthan    36557 0.1456 0.9999 0.5069  0.8543 -0.4930
+ 6:               jharkhand    28572 0.0097 0.0250 0.0906  0.0152  0.0656
+ 7:               karnataka    26264 0.1770 0.5547 0.8961  0.3777  0.3414
+ 8:          andhra pradesh    25771 0.1129 0.9650 0.7736  0.8522 -0.1914
+ 9:                   assam    21730 0.1447 1.0000 0.5430  0.8553 -0.4570
+10:                  odisha    18617 0.0057 0.0502 0.1382  0.0445  0.0880
+11:                 gujarat    17653 0.4334 0.9994 0.8712  0.5660 -0.1283
+12:        himachal pradesh    16569 0.9196 0.9894 0.9929  0.0698  0.0035
+13:            chhattisgarh    15427 0.0167 0.0717 0.2022  0.0550  0.1306
+14:             uttarakhand    15137 0.8679 0.9411 0.9579  0.0732  0.0168
+15:              tamil nadu    13514 0.2984 0.9988 0.9697  0.7004 -0.0292
+16:                  punjab    10506 0.2913 0.5820 0.7750  0.2907  0.1930
+17:             west bengal     7874 0.0494 1.0000 0.1398  0.9506 -0.8602
+18:                 haryana     6478 0.8270 1.0000 1.0000  0.1730  0.0000
+19:               meghalaya     3436 0.2933 0.9886 0.5463  0.6954 -0.4424
+20:                 manipur     1827 0.1483 0.1970 0.2811  0.0487  0.0841
+21:       arunachal pradesh     1355 0.6561 1.0000 0.8022  0.3439 -0.1978
+22:                nagaland     1116 0.6514 0.9355 0.5600  0.2841 -0.3754
+23:                  kerala      985 0.6335 0.8467 0.9746  0.2132  0.1279
+24:                 tripura      784 0.3793 0.5880 0.6556  0.2087  0.0676
+25:                  sikkim      417 0.9664 1.0000 1.0000  0.0336  0.0000
+26:                 mizoram      416 0.2740 1.0000 0.4712  0.7260 -0.5288
+27:                     goa      319 0.6238 1.0000 0.9812  0.3762 -0.0188
+28: andaman nicobar islands      307 0.4528 0.9935 0.7180  0.5407 -0.2755
+29:              puducherry       79 1.0000 1.0000 1.0000  0.0000  0.0000
+30:      dadra nagar haveli       65 0.2308 1.0000 0.9692  0.7692 -0.0308
+31:               daman diu       17 1.0000 1.0000 1.0000  0.0000  0.0000
+32:             lakshadweep        4 0.5000 0.7500 0.7500  0.2500  0.0000
+33:              chandigarh        1 0.0000 1.0000 1.0000  1.0000  0.0000
+34:            nct of delhi        1 1.0000 1.0000 1.0000  0.0000  0.0000
+                 state_name n_shrids  tap91  tap01  tap11 d_91_01 d_01_11
+                     <char>    <int>  <num>  <num>  <num>   <num>   <num>
+
+------------------------------------------------------------------------------
+(b2d) Source saturation by state and round
+------------------------------------------------------------------------------
+A village cannot plausibly have EVERY drinking-water source at once. If a
+state shows near-100% presence of tap AND well AND handpump AND tubewell,
+its source list is saturated and its 'tap' variable carries no information.
+This is a direct test of whether a round is usable, and it is what the
+state tables above turn on.
+                 state_name n_2001 all_src_1991 all_src_2001 all_src_2011
+                     <char>  <int>        <num>        <num>        <num>
+ 1:           uttar pradesh  96794        0.000        0.047        0.000
+ 2:          madhya pradesh  51524        0.000        0.013        0.000
+ 3:             maharashtra  40714        0.000        0.000        0.000
+ 4:               rajasthan  39410        0.000        0.996        0.002
+ 5:                   bihar  37436        0.000        0.000        0.000
+ 6:               jharkhand  29096        0.000        0.000        0.002
+ 7:               karnataka  27033        0.000        0.000        0.001
+ 8:          andhra pradesh  26211        0.000        0.911        0.000
+ 9:                   assam  23049        0.000        0.999        0.001
+10:            chhattisgarh  19564        0.000        0.032        0.000
+11:                  odisha  19066        0.000        0.030        0.000
+12:                 gujarat  17882        0.000        0.998        0.000
+13:        himachal pradesh  17235        0.000        0.000        0.000
+14:             uttarakhand  15512        0.000        0.666        0.000
+15:              tamil nadu  14833        0.000        0.001        0.027
+16:                  punjab  11536        0.000        0.001        0.001
+17:             west bengal   8019        0.000        1.000        0.000
+18:                 haryana   6620        0.000        0.995        0.000
+19:           jammu kashmir   6252           NA        0.994        0.001
+20:                    <NA>   5798        0.000        0.397        0.000
+21:               meghalaya   3783        0.000        0.980        0.001
+22:       arunachal pradesh   3188        0.000        0.994        0.000
+23:                 manipur   2157        0.000        0.000        0.000
+24:                  kerala   1322        0.001        0.007        0.039
+25:                nagaland   1251        0.000        0.653        0.000
+26:                 tripura    824        0.000        0.011        0.020
+27:                 mizoram    469        0.000        0.991        0.000
+28:                  sikkim    423        0.000        0.000        0.000
+29: andaman nicobar islands    380        0.000        0.966        0.000
+30:                     goa    344        0.000        1.000        0.013
+31:              puducherry     92        0.000        1.000        0.000
+32:      dadra nagar haveli     70        0.000        1.000        0.000
+33:               daman diu     23        0.000        1.000        0.000
+34:             lakshadweep      8        0.000        0.000        0.000
+35:              chandigarh      1        0.000        0.000        0.000
+36:            nct of delhi      1        0.000        1.000        0.000
+                 state_name n_2001 all_src_1991 all_src_2001 all_src_2011
+                     <char>  <int>        <num>        <num>        <num>
+    nsrc_1991 nsrc_2001 nsrc_2011
+        <num>     <num>     <num>
+ 1:      1.84      2.91      2.97
+ 2:      1.81      2.53      3.23
+ 3:      1.85      2.99      3.89
+ 4:      2.23      9.99      3.59
+ 5:      2.72      2.23      2.77
+ 6:      2.52      2.29      3.21
+ 7:      2.03      2.94      4.12
+ 8:      1.61      9.30      3.20
+ 9:      1.83     10.00      4.05
+10:      1.91      2.78      3.75
+11:      2.09      2.82      3.34
+12:      2.91      9.99      3.54
+13:      1.37      2.05      2.40
+14:      1.33      7.61      2.02
+15:      2.05      4.20      4.47
+16:      2.14      2.30      2.68
+17:      1.33     10.00      2.93
+18:      2.90      9.99      3.37
+19:        NA      9.99      3.41
+20:      1.39      5.12      2.00
+21:      1.12      9.83      2.70
+22:      0.82      9.97      2.30
+23:      0.83      1.81      2.07
+24:      4.05      5.36      7.37
+25:      1.16      8.48      2.59
+26:      3.42      5.76      4.88
+27:      1.01      9.97      2.21
+28:      0.96      2.00      2.08
+29:      1.26      9.77      2.58
+30:      2.05     10.00      4.70
+31:      1.81     10.00      1.06
+32:      1.30     10.00      4.48
+33:      2.00     10.00      3.59
+34:      2.29      2.75      3.83
+35:      0.00      3.00      7.00
+36:      5.00     10.00      8.00
+    nsrc_1991 nsrc_2001 nsrc_2011
+        <num>     <num>     <num>
+
+Share of shrids with tap AND well AND handpump AND tubewell all present:
+                 state_name n_2001 all4_1991 all4_2001 all4_2011
+                     <char>  <int>     <num>     <num>     <num>
+ 1:           uttar pradesh  96794     0.003     0.129     0.012
+ 2:          madhya pradesh  51524     0.000     0.055     0.007
+ 3:             maharashtra  40714     0.000     0.136     0.070
+ 4:               rajasthan  39410     0.018     0.999     0.103
+ 5:                   bihar  37436     0.004     0.008     0.000
+ 6:               jharkhand  29096     0.001     0.002     0.005
+ 7:               karnataka  27033     0.002     0.172     0.071
+ 8:          andhra pradesh  26211     0.002     0.916     0.060
+ 9:                   assam  23049     0.000     1.000     0.180
+10:            chhattisgarh  19564     0.000     0.052     0.003
+11:                  odisha  19066     0.000     0.032     0.000
+12:                 gujarat  17882     0.029     0.999     0.000
+13:        himachal pradesh  17235     0.007     0.026     0.018
+14:             uttarakhand  15512     0.001     0.693     0.002
+15:              tamil nadu  14833     0.005     0.928     0.231
+16:                  punjab  11536     0.056     0.061     0.037
+17:             west bengal   8019     0.002     1.000     0.008
+18:                 haryana   6620     0.274     0.998     0.047
+19:           jammu kashmir   6252        NA     0.998     0.040
+20:                    <NA>   5798     0.005     0.456     0.000
+21:               meghalaya   3783     0.000     0.982     0.013
+22:       arunachal pradesh   3188     0.000     1.000     0.002
+23:                 manipur   2157     0.000     0.001     0.001
+24:                  kerala   1322     0.281     0.608     0.564
+25:                nagaland   1251     0.000     0.817     0.002
+26:                 tripura    824     0.039     0.353     0.142
+27:                 mizoram    469     0.000     1.000     0.000
+28:                  sikkim    423     0.000     0.000     0.000
+29: andaman nicobar islands    380     0.000     0.974     0.000
+30:                     goa    344     0.020     1.000     0.069
+31:              puducherry     92     0.000     1.000     0.000
+32:      dadra nagar haveli     70     0.000     1.000     0.000
+33:               daman diu     23     0.000     1.000     0.118
+34:             lakshadweep      8     0.000     0.000     0.000
+35:              chandigarh      1     0.000     0.000     1.000
+36:            nct of delhi      1     1.000     1.000     1.000
+                 state_name n_2001 all4_1991 all4_2001 all4_2011
+                     <char>  <int>     <num>     <num>     <num>
+
+STATES WHERE 2001 IS SATURATED (all four sources present in over 80% of shrids):
+  rajasthan                   39,410 shrids   all-four share = 0.999
+  andhra pradesh              26,211 shrids   all-four share = 0.916
+  assam                       23,049 shrids   all-four share = 1.000
+  gujarat                     17,882 shrids   all-four share = 0.999
+  tamil nadu                  14,833 shrids   all-four share = 0.928
+  west bengal                  8,019 shrids   all-four share = 1.000
+  haryana                      6,620 shrids   all-four share = 0.998
+  jammu kashmir                6,252 shrids   all-four share = 0.998
+  meghalaya                    3,783 shrids   all-four share = 0.982
+  arunachal pradesh            3,188 shrids   all-four share = 1.000
+  nagaland                     1,251 shrids   all-four share = 0.817
+  mizoram                        469 shrids   all-four share = 1.000
+  andaman nicobar islands        380 shrids   all-four share = 0.974
+  goa                            344 shrids   all-four share = 1.000
+  puducherry                      92 shrids   all-four share = 1.000
+  dadra nagar haveli              70 shrids   all-four share = 1.000
+  daman diu                       23 shrids   all-four share = 1.000
+  nct of delhi                     1 shrids   all-four share = 1.000
+
+  Total: 151,877 shrids, 28.8% of the 2001 file.
+  In these states pc01_vd_tap is 1 almost everywhere BECAUSE EVERY
+  SOURCE is 1 almost everywhere. The variable does not discriminate, so
+  a 2001 tap level from these states is not a measurement of tap access.
+
+  For contrast: 1 state(s) saturated in 1991 and 2 in 2011, versus 18 in 2001.
+
+------------------------------------------------------------------------------
+(b3) 2001 x 2011 transition table for tap_any
+------------------------------------------------------------------------------
+                      sample                    label      N  share
+                      <char>                   <char>  <int>  <num>
+1: national (balanced panel) 1 -> 1 (stable, has tap) 181688 0.3762
+2: national (balanced panel)        1 -> 0 (lost tap)  75030 0.1554
+3: national (balanced panel)      0 -> 1 (gained tap)  54626 0.1131
+4: national (balanced panel)  0 -> 0 (stable, no tap) 171549 0.3553
+5:             uttar pradesh 1 -> 1 (stable, has tap)  12209 0.1434
+6:             uttar pradesh        1 -> 0 (lost tap)  23022 0.2705
+7:             uttar pradesh      0 -> 1 (gained tap)  15833 0.1860
+8:             uttar pradesh  0 -> 0 (stable, no tap)  34059 0.4001
+
+  national (balanced panel): 15.5% lost tap, 11.3% gained, 73.2% stable (net -4.2 pp)
+
+  uttar pradesh: 27.0% lost tap, 18.6% gained, 54.4% stable (net -8.4 pp)
+
+  A large '1 -> 0' flow is not a credible real-world event: villages do
+  not commonly lose a tap supply over a decade. It is the signature of a
+  definitional or coding change between the two rounds.
+
+------------------------------------------------------------------------------
+(b4) Is the 2001->2011 decline concentrated or broad?
+------------------------------------------------------------------------------
+                 state_name n_shrids  tap01  tap11  change share_of_decline
+                     <char>    <int>  <num>  <num>   <num>            <num>
+ 1:               rajasthan    36557 0.9999 0.5069 -0.4930           0.3503
+ 2:                   assam    21730 1.0000 0.5430 -0.4570           0.1930
+ 3:             west bengal     7874 1.0000 0.1398 -0.8602           0.1316
+ 4:           uttar pradesh    95233 0.3989 0.3294 -0.0695           0.1286
+ 5:          andhra pradesh    25771 0.9650 0.7736 -0.1914           0.0959
+ 6:                 gujarat    17653 0.9994 0.8712 -0.1283           0.0440
+ 7:               meghalaya     3436 0.9886 0.5463 -0.4424           0.0295
+ 8:                nagaland     1116 0.9355 0.5600 -0.3754           0.0081
+ 9:              tamil nadu    13514 0.9988 0.9697 -0.0292           0.0077
+10:       arunachal pradesh     1355 1.0000 0.8022 -0.1978           0.0052
+11:                 mizoram      416 1.0000 0.4712 -0.5288           0.0043
+12: andaman nicobar islands      307 0.9935 0.7180 -0.2755           0.0016
+13:                     goa      319 1.0000 0.9812 -0.0188           0.0001
+14:      dadra nagar haveli       65 1.0000 0.9692 -0.0308           0.0000
+15:              chandigarh        1 1.0000 1.0000  0.0000               NA
+16:               daman diu       17 1.0000 1.0000  0.0000               NA
+17:                 haryana     6478 1.0000 1.0000  0.0000               NA
+18:             lakshadweep        4 0.7500 0.7500  0.0000               NA
+19:            nct of delhi        1 1.0000 1.0000  0.0000               NA
+20:              puducherry       79 1.0000 1.0000  0.0000               NA
+21:                  sikkim      417 1.0000 1.0000  0.0000               NA
+22:                 tripura      784 0.5880 0.6556  0.0676               NA
+23:        himachal pradesh    16569 0.9894 0.9929  0.0035               NA
+24:                  kerala      985 0.8467 0.9746  0.1279               NA
+25:                 manipur     1827 0.1970 0.2811  0.0841               NA
+26:             uttarakhand    15137 0.9411 0.9579  0.0168               NA
+27:                  odisha    18617 0.0502 0.1382  0.0880               NA
+28:               jharkhand    28572 0.0250 0.0906  0.0656               NA
+29:            chhattisgarh    15427 0.0717 0.2022  0.1306               NA
+30:                  punjab    10506 0.5820 0.7750  0.1930               NA
+31:                   bihar    36784 0.0329 0.0947  0.0618               NA
+32:          madhya pradesh    49850 0.1259 0.2003  0.0744               NA
+33:             maharashtra    39457 0.5635 0.7782  0.2147               NA
+34:               karnataka    26264 0.5547 0.8961  0.3414               NA
+                 state_name n_shrids  tap01  tap11  change share_of_decline
+                     <char>    <int>  <num>  <num>   <num>            <num>
+    sat01
+    <num>
+ 1: 0.999
+ 2: 1.000
+ 3: 1.000
+ 4: 0.129
+ 5: 0.916
+ 6: 0.999
+ 7: 0.982
+ 8: 0.817
+ 9: 0.928
+10: 1.000
+11: 1.000
+12: 0.974
+13: 1.000
+14: 1.000
+15: 0.000
+16: 1.000
+17: 0.998
+18: 0.000
+19: 1.000
+20: 1.000
+21: 0.000
+22: 0.353
+23: 0.026
+24: 0.608
+25: 0.001
+26: 0.693
+27: 0.032
+28: 0.002
+29: 0.052
+30: 0.061
+31: 0.008
+32: 0.055
+33: 0.136
+34: 0.172
+    sat01
+    <num>
+
+  14 of 34 states fall, 13 rise between 2001 and 2011.
+  The 5 largest contributors account for 89.9% of the total decline:
+    rajasthan (-0.493); assam (-0.457); west bengal (-0.860); uttar pradesh (-0.069); andhra pradesh (-0.191)
+
+  Mean 2001 saturation (shrid-weighted) among FALLING states: 0.617
+  Mean 2001 saturation (shrid-weighted) among RISING  states: 0.103
+  Share of the total decline contributed by states whose 2001 was
+  saturated above 80%: 87.1%
+
+  READING: the decline is CONCENTRATED, and it sits precisely where the
+  2001 round was saturated. Falling states start from an implausible
+  2001 near-1 level and fall to a plausible 2011 level; rising states
+  start from a plausible 2001 level and rise. That is the signature of a
+  BROKEN 2001 BASELINE, not of tap disappearing between the rounds.
+
+------------------------------------------------------------------------------
+(b5) BOTTOM LINE ON TAP COMPARABILITY
+------------------------------------------------------------------------------
+  Balanced panel, m0: tap_any = 0.1963 (1991), 0.5262 (2001), 0.4894 (2011).
+
+  CAN TAP BE COMPARED ACROSS 1991, 2001 AND 2011 FOR THE TIMING TESTS?
+
+  1991 vs later: NO, not at the level. 1991 tap is missing wholesale in
+  whole states (section a), so the 1991 level is an artefact of which
+  states happen to report. Any 1991-to-2001 change mixes a real change
+  with a change in reporting coverage.
+
+  2001 vs 2011: NO, not in the saturated states. Both rounds are
+  near-complete, and the single-village restriction shows the aggregation
+  difference is not driving anything. But the measured direction is a
+  DECLINE over a decade in which piped coverage certainly rose, and
+  15.5% of shrids nationally go 1 -> 0. Villages do not commonly lose
+  a tap supply, so that flow is a measurement artefact.
+
+  THE ARTEFACT IS IN 2001, NOT 2011. Section (b2d) shows that in
+  18 states (151,877 shrids, 29% of the 2001 file) the 2001 round flags
+  tap AND well AND handpump AND tubewell present in almost every shrid.
+  A village cannot have every source at once: the 2001 source list is
+  saturated there and pc01_vd_tap carries no information. Those same
+  states are where the 'decline' sits -- they contribute 87% of it.
+  The 2011 treated/untreated split is NOT the explanation: 2011 shows
+  saturation in 2 state(s) against 18 in 2001.
+
+  PRACTICAL READING: tap is usable for WITHIN-YEAR cross-sectional work,
+  which is what the RD needs -- but only in states where that year's
+  source list is not saturated. Do NOT read the across-census change in
+  tap as a trend, and do not use 2001 at all in the saturated states.
+  The timing tests need a usable-state list first, and
+  output/tables/05b2e_core4_saturation_by_state.csv is that list.
+
+  This cuts BOTH ways, and the two failures hit DIFFERENT states: 1991
+  fails where tap is missing wholesale, 2001 fails where the source list
+  is saturated. The per-state tables are the only safe way to pick a
+  sample; no single year is usable everywhere.
+
+------------------------------------------------------------------------------
+QUESTIONS FOR THE PI (proposed changes -- NOT applied)
+------------------------------------------------------------------------------
+The outcome definitions in code/02_shrug_water.R are unchanged. The
+following changes are PROPOSED for your decision:
+
+Q1. 1991 wholesale-missing states. Should the 1991 outcomes be restricted
+    to states where tap is not missing wholesale, with the excluded states
+    named in the paper? At present the m0 version silently assigns a zero
+    to entire states that never reported. See 05a1_miss91_by_state.csv.
+
+Q2. A coverage flag. Should we add a per-shrid flag marking that its
+    STATE is wholesale-missing in 1991, so every 1991 regression can be
+    run with and without those states without rebuilding?
+
+Q3. 2001 saturation -- the most consequential one. In the states listed in
+    (b2d), pc01_vd_tap is 1 almost everywhere because EVERY source is 1
+    almost everywhere. Should 2001 be dropped entirely in those states,
+    and should a saturation flag be carried per shrid? See
+    05b2e_core4_saturation_by_state.csv. This is a question about whether
+    the 2001 outcome is usable at all, not a refinement.
+
+Q4. Across-census comparability. On this evidence no across-census tap
+    TREND is defensible: 1991 fails in one set of states and 2001 in a
+    different set. Should the timing tests be dropped, or restricted to
+    the intersection of states clean in every round they use?
+
+Q5. Availability vs functioning. Should any robustness check use the 2011
+    _allyr ('Functioning All round the year') variable, accepting that it
+    has no 1991 or 2001 counterpart?
+
+Q6. Is the saturation upstream of SHRUG? We have not checked whether the
+    2001 saturation is in the Census source or introduced by SHRUG's
+    construction. Worth one query to Development Data Lab before we build
+    anything on 2001 -- the answer changes whether it can be repaired.
+
+------------------------------------------------------------------------------
+STEP 5 COMPLETE
+------------------------------------------------------------------------------
+Tables written to output/tables/:
+  05a1_miss91_by_state.csv
+  05a3_miss91_up_by_district.csv
+  05a4_tap91_m0_vs_lw_by_state.csv
+  05a4b_gap_contribution_by_state.csv
+  05b1_tap_labels_by_census.csv
+  05b2_tap_by_year_national.csv
+  05b2b_tap_by_year_by_state.csv
+  05b2c_tap_by_year_by_state_singlevillage.csv
+  05b2d_source_saturation_by_state.csv
+  05b2e_core4_saturation_by_state.csv
+  05b3_tap_transitions_01_11.csv
+  05b4_tap_decline_concentration.csv
+
+Run finished: 2026-09-18 21:19:35

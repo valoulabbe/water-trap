@@ -1,6 +1,6 @@
 ==============================================================================
 LOG: output/logs/01_ingest_validate.log
-Run started: 2026-09-18 16:14:06
+Run started: 2026-09-18 21:11:21
 ==============================================================================
 
 STEP 1 -- INGEST AND VALIDATE RAW DATA
@@ -11,9 +11,9 @@ No RD is estimated here and no depth value is joined to any water outcome.
 1a. SHA256 manifest in raw/README.md
 ------------------------------------------------------------------------------
   [OK]   raw/README.md exists
-  manifest file rows found: 13
+  manifest file rows found: 15
   [OK]   manifest contains at least one file row
-  [OK]   all 13 manifest rows carry a real 64-hex SHA256
+  [OK]   all 15 manifest rows carry a real 64-hex SHA256
 
 ------------------------------------------------------------------------------
 1b. SHA256 integrity of raw archives
@@ -22,26 +22,16 @@ No RD is estimated here and no depth value is joined to any water outcome.
   shrug-con-keys-dta.zip             MATCH
   shrug-ec-keys-dta.zip              MATCH
   shrug-pc-keys-dta.zip              MATCH
-  shrug-pc11dist-poly-gpkg.zip       NOT_IN_MANIFEST
+  shrug-pc11dist-poly-gpkg.zip       MATCH
   shrug-pca01-dta.zip                MATCH
   shrug-pca11-dta.zip                MATCH
   shrug-pca91-dta.zip                MATCH
   shrug-shrid-keys-dta.zip           MATCH
-  shrug-shrid-poly-gpkg.zip          NOT_IN_MANIFEST
+  shrug-shrid-poly-gpkg.zip          MATCH
   shrug-vd01-dta.zip                 MATCH
   shrug-vd11-dta.zip                 MATCH
   shrug-vd91-dta.zip                 MATCH
   [OK]   no SHA256 mismatch against the manifest
-
-------------------------------------------------------------------------------
-PROVENANCE GAP -- files in raw/ with no row in raw/README.md
-------------------------------------------------------------------------------
-  [WARNING] These files could NOT be integrity-checked. Add them to raw/README.md.
-  shrug-pc11dist-poly-gpkg.zip
-      computed SHA256: 2580E68507CB8DE9CDD1874EDD03D47EFB8D75CE05D258B6E80290A5F1813841
-  shrug-shrid-poly-gpkg.zip
-      computed SHA256: 8BA138D378D453D251C2E09F5E5EB10938CFEB218E971E44613E25A7AA85699D
-  [WARNING] Reported, not silently skipped. The build continues because these files are still validated on row count, key uniqueness and variables.
 
 ------------------------------------------------------------------------------
 1c. File-by-file validation
@@ -147,26 +137,25 @@ PROVENANCE GAP -- files in raw/ with no row in raw/README.md
 10:                                                             shrid2
   
 Clé : <file>
-                            file          status
-                          <char>          <char>
- 1:           CGWB_data_wide.csv           MATCH
- 2:       shrug-con-keys-dta.zip           MATCH
- 3:        shrug-ec-keys-dta.zip           MATCH
- 4:        shrug-pc-keys-dta.zip           MATCH
- 5: shrug-pc11dist-poly-gpkg.zip NOT_IN_MANIFEST
- 6:          shrug-pca01-dta.zip           MATCH
- 7:          shrug-pca11-dta.zip           MATCH
- 8:          shrug-pca91-dta.zip           MATCH
- 9:     shrug-shrid-keys-dta.zip           MATCH
-10:    shrug-shrid-poly-gpkg.zip NOT_IN_MANIFEST
-11:           shrug-vd01-dta.zip           MATCH
-12:           shrug-vd11-dta.zip           MATCH
-13:           shrug-vd91-dta.zip           MATCH
+                            file status
+                          <char> <char>
+ 1:           CGWB_data_wide.csv  MATCH
+ 2:       shrug-con-keys-dta.zip  MATCH
+ 3:        shrug-ec-keys-dta.zip  MATCH
+ 4:        shrug-pc-keys-dta.zip  MATCH
+ 5: shrug-pc11dist-poly-gpkg.zip  MATCH
+ 6:          shrug-pca01-dta.zip  MATCH
+ 7:          shrug-pca11-dta.zip  MATCH
+ 8:          shrug-pca91-dta.zip  MATCH
+ 9:     shrug-shrid-keys-dta.zip  MATCH
+10:    shrug-shrid-poly-gpkg.zip  MATCH
+11:           shrug-vd01-dta.zip  MATCH
+12:           shrug-vd11-dta.zip  MATCH
+13:           shrug-vd91-dta.zip  MATCH
 
 ------------------------------------------------------------------------------
 STEP 1 COMPLETE -- all validations passed
 ------------------------------------------------------------------------------
 Wrote build/inventory_raw.csv and build/inventory_raw_hashes.csv
-  [WARNING] ACTION FOR THE HUMAN: 2 raw file(s) still have no SHA256 row in raw/README.md (listed above).
 
-Run finished: 2026-09-18 16:14:50
+Run finished: 2026-09-18 21:11:57

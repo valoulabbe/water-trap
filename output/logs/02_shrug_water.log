@@ -1,6 +1,6 @@
 ==============================================================================
 LOG: output/logs/02_shrug_water.log
-Run started: 2026-09-18 16:14:50
+Run started: 2026-09-18 21:11:57
 ==============================================================================
 
 STEP 2 -- SHRUG PUBLIC-WATER OUTCOMES (1991 / 2001 / 2011)
@@ -179,4 +179,4 @@ STEP 2 COMPLETE
 Wrote build/shrug_water_shrid.{rds,csv} and build/shrug_water_sensitivity.csv
 REMINDER: the 2001/2011 anchor is a DEVIATION pending PI approval (top of log).
 
-Run finished: 2026-09-18 16:15:26
+Run finished: 2026-09-18 21:12:27

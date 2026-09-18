@@ -1,0 +1,36 @@
+state_name,n_shrids,miss_tap,miss_tubewell,miss_handpump,miss_well,miss_drnk_wat_f,class_tap,class_tubewell,class_handpump,class_well,class_drnk_wat_f
+uttar pradesh,95659,1.04537994334041e-05,0,1.04537994334041e-05,0,1.04537994334041e-05,scattered,scattered,scattered,scattered,scattered
+madhya pradesh,50014,0.94679489742872,0.973347462710441,0.194525532850802,0.14224017275163,0,wholesale,wholesale,partial,partial,scattered
+odisha,46075,0.682300596852957,0.258144329896907,0.726532826912642,0.172957135105806,0.00373304395008139,partial,partial,partial,partial,scattered
+maharashtra,39738,0.6688308420152,1,0.524007247470935,0.138809200261714,0.0022396698374352,partial,wholesale,partial,partial,scattered
+bihar,37986,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+west bengal,37100,0.0963611859838275,0.0178975741239892,0.138867924528302,0.0171159029649596,0.000161725067385445,scattered,scattered,partial,scattered,scattered
+rajasthan,36719,0.000653612571148452,0.000653612571148452,0.000653612571148452,0.000653612571148452,0,scattered,scattered,scattered,scattered,scattered
+jharkhand,28754,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+karnataka,26422,0.000189236242525168,0.000189236242525168,0.000189236242525168,0.000189236242525168,0,scattered,scattered,scattered,scattered,scattered
+andhra pradesh,25946,0.0901487705233948,0.0996685423572034,0.0327988900023125,0.0237030756185925,0.00277499421876204,scattered,scattered,scattered,scattered,scattered
+assam,23072,0.809899445214979,0.420596393897365,0.986347087378641,0.328970180305132,4.33425797503467e-05,partial,partial,wholesale,partial,scattered
+gujarat,17784,0.565002249212776,0.824111560953666,0.481443994601889,0.0553868645973909,0,partial,partial,partial,scattered,scattered
+himachal pradesh,16628,0.000120279047389945,0.000120279047389945,0.000120279047389945,0.000120279047389945,0,scattered,scattered,scattered,scattered,scattered
+chhattisgarh,15507,0.938027987360547,0.945701941058877,0.147546269426711,0.199006900109628,0,wholesale,wholesale,partial,partial,scattered
+uttarakhand,15207,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+tamil nadu,14082,0.000852151682999574,0.00127822752449936,0.000923164323249538,0.000923164323249538,0.000497088481749751,scattered,scattered,scattered,scattered,scattered
+punjab,11177,0.000626286123288897,0.000805225015657153,0.000268408338552384,0.000357877784736513,0,scattered,scattered,scattered,scattered,scattered
+,6962,0.343435794311979,0.315570238437231,0.324762999138179,0.135880494110888,0.0109164033323758,partial,partial,partial,partial,scattered
+haryana,6547,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+meghalaya,4990,0,0,0,0,0.00260521042084168,scattered,scattered,scattered,scattered,scattered
+manipur,1970,0.00050761421319797,0.00050761421319797,0.00050761421319797,0.00050761421319797,0,scattered,scattered,scattered,scattered,scattered
+arunachal pradesh,1412,0.00637393767705382,0.00708215297450425,0.00708215297450425,0.00708215297450425,0,scattered,scattered,scattered,scattered,scattered
+kerala,1318,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+nagaland,1145,0.000873362445414847,0.00174672489082969,0.00174672489082969,0.000873362445414847,0,scattered,scattered,scattered,scattered,scattered
+tripura,814,0,0,0,0,0.00122850122850123,scattered,scattered,scattered,scattered,scattered
+mizoram,552,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+sikkim,420,0.00238095238095238,0.0119047619047619,0.0119047619047619,0.0119047619047619,0,scattered,scattered,scattered,scattered,scattered
+goa,356,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+andaman nicobar islands,316,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+puducherry,81,0,0,0.0123456790123457,0.0123456790123457,0,scattered,scattered,scattered,scattered,scattered
+dadra nagar haveli,70,0.757142857142857,0.985714285714286,1,0.0857142857142857,0,partial,wholesale,wholesale,scattered,scattered
+daman diu,23,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+lakshadweep,7,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered
+chandigarh,1,1,1,1,1,0,wholesale,wholesale,wholesale,wholesale,scattered
+nct of delhi,1,0,0,0,0,0,scattered,scattered,scattered,scattered,scattered

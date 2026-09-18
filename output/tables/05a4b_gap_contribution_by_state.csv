@@ -1,0 +1,37 @@
+state_name,n_tap_m0,n_tap_lw,dropped_by_lw,share_of_all_dropped,tap_gap
+madhya pradesh,50014,2661,47353,0.3023,0.5227
+odisha,45903,14638,31265,0.1996,0.0131
+maharashtra,39649,13160,26489,0.1691,0.6681
+assam,23071,4386,18685,0.1193,0.6354
+chhattisgarh,15507,961,14546,0.0929,0.2675
+gujarat,17784,7736,10048,0.0642,0.565
+west bengal,37094,33525,3569,0.0228,0.0041
+,6886,4571,2315,0.0148,0.0595
+andhra pradesh,25874,23607,2267,0.0145,0.011
+dadra nagar haveli,70,17,53,3e-04,0.7571
+rajasthan,36719,36695,24,2e-04,1e-04
+arunachal pradesh,1412,1403,9,1e-04,0.0042
+punjab,11177,11170,7,0,2e-04
+karnataka,26422,26417,5,0,0
+tamil nadu,14075,14070,5,0,1e-04
+himachal pradesh,16628,16626,2,0,1e-04
+manipur,1970,1969,1,0,1e-04
+nagaland,1145,1144,1,0,6e-04
+sikkim,420,419,1,0,0.0023
+chandigarh,1,0,1,0,
+uttar pradesh,95658,95658,0,0,0
+bihar,37986,37986,0,0,0
+jharkhand,28754,28754,0,0,0
+uttarakhand,15207,15207,0,0,0
+haryana,6547,6547,0,0,0
+jammu kashmir,0,0,0,0,
+kerala,1318,1318,0,0,0
+mizoram,552,552,0,0,0
+andaman nicobar islands,316,316,0,0,0
+goa,356,356,0,0,0
+puducherry,81,81,0,0,0
+daman diu,23,23,0,0,0
+lakshadweep,7,7,0,0,0
+nct of delhi,1,1,0,0,0
+tripura,813,814,-1,0,-5e-04
+meghalaya,4977,4990,-13,-1e-04,-6e-04

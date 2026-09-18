@@ -1,6 +1,6 @@
 ==============================================================================
 LOG: output/logs/04_shrid_centroids_dist.log
-Run started: 2026-09-18 16:15:27
+Run started: 2026-09-18 21:12:28
 ==============================================================================
 
 STEP 4 -- SHRID CENTROIDS AND DISTANCE TO NEAREST CGWB WELL
@@ -179,4 +179,4 @@ build/shrid_nearest_well.rds: 595,438 shrids
 STEP 4 COMPLETE
 ------------------------------------------------------------------------------
 
-Run finished: 2026-09-18 16:16:41
+Run finished: 2026-09-18 21:19:06
