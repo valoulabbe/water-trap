@@ -1,0 +1,9 @@
+statistic,value
+n wells,1202
+mean SD,1.00678186070171
+median SD,0.728312139860084
+p90 SD,1.93396321913832
+share SD > 1m,0.355241264559068
+share SD > 2m,0.0956738768718802
+share straddling 8m,0.190515806988353
+share straddling | mean near 8m,0.540983606557377

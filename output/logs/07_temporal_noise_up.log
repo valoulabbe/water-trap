@@ -1,0 +1,215 @@
+==============================================================================
+LOG: output/logs/07_temporal_noise_up.log
+Run started: 2026-09-18 22:15:15
+==============================================================================
+
+STEP 7 -- TEMPORAL NOISE IN MAY DEPTH, UTTAR PRADESH WELLS
+
+Follow-up to step 6. No RD, no water outcome, and depth is predicted only
+at held-out WELL locations -- never at a shrid.
+
+------------------------------------------------------------------------------
+7a. Region
+------------------------------------------------------------------------------
+  [OK]   UP border: 71 pc11 districts with state id 09
+  predictor region (UP + 50 km buffer): 3,045 wells
+
+------------------------------------------------------------------------------
+7b. May readings 1996-2000
+------------------------------------------------------------------------------
+  readings in window: 7,997
+  implausible readings excluded (depth < 0 or > 100 m): 0
+  wells with >= 1 May reading in the window: 1,917 (UP: 1,309)
+
+  Readings per well in the window:
+   n_read     N
+    <int> <int>
+1:      1   121
+2:      2   122
+3:      3   172
+4:      4   394
+5:      5  1108
+
+------------------------------------------------------------------------------
+7c. (a) Within-well variation in May depth, UP wells with >= 3 readings
+------------------------------------------------------------------------------
+  [OK]   at least one UP well has 3+ May readings in 1996-2000
+  UP wells with >= 3 May readings in 1996-2000: 1,202
+
+  Distribution of the WITHIN-WELL standard deviation of May depth (m):
+   0%   10%   25%   50%   75%   90%   95%  100% 
+0.000 0.239 0.417 0.728 1.282 1.934 2.750 9.802 
+
+  mean within-well SD = 1.007 m; median = 0.728 m
+  share of wells with within-well SD above 1 m: 0.355
+  share above 2 m: 0.096
+
+  Within-well RANGE (max - min across years), m:
+    0%    10%    25%    50%    75%    90%    95%   100% 
+ 0.000  0.561  0.970  1.695  2.980  4.580  6.503 17.880 
+
+  HOW FUZZY IS 'ABOVE 8 m'?
+  Wells whose May readings fall on BOTH sides of 8 m in different
+  years: 229 of 1,202 (19.1%).
+  Among the 366 wells whose MEAN depth is within +/-2 m of 8 m,
+  54.1% straddle the cutoff across years.
+
+  Read that second number carefully: for wells sitting near the cutoff,
+  'above 8 m' is not a fixed property of the location at all. It flips
+  between years for a large share of them, using the SAME well and the
+  SAME pre-monsoon month -- before any interpolation error is added.
+
+------------------------------------------------------------------------------
+7d. (b) Variogram on mean May depth 1996-2000
+------------------------------------------------------------------------------
+
+  mean-depth set: 1,917 wells
+  May-1996 set:   1,711 wells
+
+  [OK]   mean 1996-2000: a variogram model converged
+  mean 1996-2000         Exp: nugget =   9.486  psill =  13.257  range =   70.3 km  nugget share = 0.417
+  [OK]   May 1996 only: a variogram model converged
+  May 1996 only          Exp: nugget =   4.506  psill =  17.483  range =   29.7 km  nugget share = 0.205
+
+  Nugget comparison on IDENTICAL wells (those with a May 1996 reading),
+  so that only the target definition differs:
+  [OK]   same wells: May 1996: a variogram model converged
+  same wells: May 1996   Exp: nugget =   4.506  psill =  17.483  range =   29.7 km  nugget share = 0.205
+  [OK]   same wells: mean: a variogram model converged
+  same wells: mean       Exp: nugget =   3.939  psill =  15.993  range =   31.0 km  nugget share = 0.198
+
+------------------------------------------------------------------------------
+7d(ii). How much of the nugget could be temporal?
+------------------------------------------------------------------------------
+  Mean within-well VARIANCE across years (UP, 3+ readings): 1.983 m2
+  Fitted nugget, single-year target, same wells:            4.506 m2
+  Temporal noise is therefore at most 44.0% of the nugget.
+
+  Averaging over k readings cuts the temporal part to roughly 1/k of that,
+  so the most averaging could remove is about 44.0% of the nugget --
+  and in practice less, since most wells have fewer than 5 readings.
+  The remaining majority of the nugget is genuine micro-scale spatial
+  variation plus measurement error, which no amount of temporal averaging
+  can touch.
+
+------------------------------------------------------------------------------
+7e. Leave-one-out: NN, IDW power 2, ordinary kriging
+------------------------------------------------------------------------------
+  mean 1996-2000: 1,917 predictors, 1,309 UP targets
+      300/1309
+      600/1309
+      900/1309
+      1200/1309
+      1309/1309 done
+  May 1996 only: 1,711 predictors, 1,223 UP targets
+      300/1223
+      600/1223
+      900/1223
+      1200/1223
+      1223/1223 done
+  runtime: 1.5 min
+
+------------------------------------------------------------------------------
+7f. Results: mean-depth target next to single-year target
+------------------------------------------------------------------------------
+           target             label     n nugget_share  rmse   mae   bias
+           <char>            <char> <int>        <num> <num> <num>  <num>
+1: mean 1996-2000 nearest neighbour  1309        0.417 4.257 2.768  0.022
+2: mean 1996-2000       IDW power 2  1309        0.417 3.395 2.266  0.017
+3: mean 1996-2000  ordinary kriging  1309        0.417 3.376 2.321  0.010
+4:  May 1996 only nearest neighbour  1223        0.205 4.379 3.016  0.051
+5:  May 1996 only       IDW power 2  1223        0.205 3.593 2.491  0.001
+6:  May 1996 only  ordinary kriging  1223        0.205 3.537 2.469 -0.003
+   wrong_side wrong_near8 naive_near8 improvement_pp
+        <num>       <num>       <num>          <num>
+1:     0.2468      0.3719      0.3399        -0.0320
+2:     0.2223      0.3448      0.3399        -0.0049
+3:     0.2406      0.3818      0.3399        -0.0419
+4:     0.2764      0.3913      0.3683        -0.0230
+5:     0.2453      0.3785      0.3683        -0.0102
+6:     0.2510      0.3913      0.3683        -0.0230
+
+  For continuity, step 6's single-year results (its own well sets):
+   vintage             label     n  rmse wrong_near8
+    <char>            <char> <int> <num>       <num>
+1: may1996 nearest neighbour  1223 4.379      0.3913
+2: may1996       IDW power 2  1223 3.593      0.3785
+3: may1996  ordinary kriging  1223 3.537      0.3913
+4: may2000 nearest neighbour  1309 4.512      0.3842
+5: may2000       IDW power 2  1309 3.591      0.3819
+6: may2000  ordinary kriging  1309 3.570      0.3962
+
+------------------------------------------------------------------------------
+7g. Like-for-like: identical wells, single-year vs mean target
+------------------------------------------------------------------------------
+  UP wells appearing in both runs: 1,223
+                          target             label     n  rmse wrong_near8
+                          <char>            <char> <int> <num>       <num>
+1: mean 1996-2000 (common wells) nearest neighbour  1223 4.187      0.3740
+2: mean 1996-2000 (common wells)       IDW power 2  1223 3.374      0.3475
+3: mean 1996-2000 (common wells)  ordinary kriging  1223 3.387      0.3767
+4:  May 1996 only (common wells) nearest neighbour  1223 4.379      0.3913
+5:  May 1996 only (common wells)       IDW power 2  1223 3.593      0.3785
+6:  May 1996 only (common wells)  ordinary kriging  1223 3.537      0.3913
+   naive_near8 improvement_pp
+         <num>          <num>
+1:      0.3342        -0.0398
+2:      0.3342        -0.0133
+3:      0.3342        -0.0424
+4:      0.3683        -0.0230
+5:      0.3683        -0.0102
+6:      0.3683        -0.0230
+
+------------------------------------------------------------------------------
+7h. BOTTOM LINE
+------------------------------------------------------------------------------
+DOES TEMPORAL AVERAGING REDUCE THE NUGGET?
+  Measured on IDENTICAL wells, so only the target definition changes:
+  nugget share 0.205 on the single-year target, 0.198 on the mean of
+  1996-2000 -- a change of -0.007.
+  Independently, the within-well variance across years is 1.983 m2
+  against a single-year nugget of 4.506 m2, so temporal noise can be
+  at most 44% of the nugget however the variogram is fitted.
+  Averaging barely moves the nugget. The short-range noise is therefore
+  NOT mainly year-to-year variation: it is genuine small-scale spatial
+  heterogeneity in the water table, which averaging cannot remove.
+
+DOES IT CHANGE THE CONCLUSION?
+  On identical wells, ordinary kriging RMSE moves from 3.537 m
+  (single year) to 3.387 m (mean), and near-cutoff misclassification
+  from 39.1% to 37.7%, against a no-information benchmark of 33.4%
+  and 36.8% respectively.
+  CONCLUSION UNCHANGED: even with an averaged target, interpolation does
+  not beat the no-information rule near the cutoff by a usable margin.
+  Step 6's finding survives temporal averaging.
+
+HOW FUZZY IS 'BEING ABOVE 8 m' IN REALITY?
+  Within a single well, the median year-to-year SD of pre-monsoon May
+  depth is 0.73 m, and 19.1% of UP wells with 3+ readings record
+  depths on BOTH sides of 8 m in different years. Among wells whose
+  mean sits within +/-2 m of the cutoff, 54.1% straddle it.
+
+  So the cutoff is fuzzy BEFORE any interpolation. Even a village with its
+  own monitoring well ON SITE would have an ambiguous treatment status in
+  a MAJORITY of near-cutoff cases (54.1%). That is a property of the water
+  table, not of our method, and it caps how sharp any 8 m RD built on
+  1990s CGWB readings can be -- which is a further argument for Sekhri's
+  own validated assignment over a reconstruction, and for treating the
+  design as fuzzy rather than sharp (PHASE0_SPEC.md 4.3).
+
+------------------------------------------------------------------------------
+SCOPE REMINDER
+------------------------------------------------------------------------------
+Wells only. No shrid prediction, no water outcome, no RD.
+
+------------------------------------------------------------------------------
+STEP 7 COMPLETE
+------------------------------------------------------------------------------
+Tables written to output/tables/:
+  07a_within_well_summary.csv
+  07a_within_well_variation.csv
+  07b_loo_metrics_mean_vs_single.csv
+  07c_like_for_like.csv
+  07d_nugget_decomposition.csv
+
+Run finished: 2026-09-18 22:16:49

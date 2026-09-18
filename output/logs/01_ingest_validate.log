@@ -1,6 +1,6 @@
 ==============================================================================
 LOG: output/logs/01_ingest_validate.log
-Run started: 2026-09-18 21:11:21
+Run started: 2026-09-18 22:08:41
 ==============================================================================
 
 STEP 1 -- INGEST AND VALIDATE RAW DATA
@@ -158,4 +158,4 @@ STEP 1 COMPLETE -- all validations passed
 ------------------------------------------------------------------------------
 Wrote build/inventory_raw.csv and build/inventory_raw_hashes.csv
 
-Run finished: 2026-09-18 21:11:57
+Run finished: 2026-09-18 22:09:16

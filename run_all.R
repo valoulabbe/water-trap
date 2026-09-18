@@ -39,7 +39,9 @@ STEPS <- c(
   "code/02_shrug_water.R",
   "code/03_cgwb_long.R",
   "code/04_shrid_centroids_dist.R",
-  "code/05_diag_missing_tap.R"
+  "code/05_diag_missing_tap.R",
+  "code/06_interp_loo_up.R",
+  "code/07_temporal_noise_up.R"
 )
 
 run_log <- file.path("output", "logs", "run_all.log")

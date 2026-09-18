@@ -1,6 +1,6 @@
 ==============================================================================
 LOG: output/logs/05_diag_missing_tap.log
-Run started: 2026-09-18 21:19:06
+Run started: 2026-09-18 22:10:47
 ==============================================================================
 
 STEP 5 -- DIAGNOSTICS: 1991 MISSINGNESS BY GEOGRAPHY; TAP COMPARABILITY
@@ -976,4 +976,4 @@ Tables written to output/tables/:
   05b3_tap_transitions_01_11.csv
   05b4_tap_decline_concentration.csv
 
-Run finished: 2026-09-18 21:19:35
+Run finished: 2026-09-18 22:11:17
