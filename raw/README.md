@@ -20,5 +20,8 @@ Documentation : https://docs.devdatalab.org
 
 Fichiers décompressés dans un dossier au nom de chaque zip ; zip d'origine conservés, rien n'est modifié.
 
+
 ## Sekhri
-(à remplir quand les packages seront récupérés)
+| Fichier | Contenu | Source | Téléchargé le | SHA256 |
+| --- | --- | --- | --- | --- |
+| 113902-V1.zip | Réplication Sekhri (2014), AEJ: Applied 6(3) | openICPSR projet 113902, V1 | 2026-09-18 | |2AC1D9D3EF1E8624ADB7858E8E1B24F73326A88EAA62930022FFB3010B17641A 
