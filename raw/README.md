@@ -17,6 +17,8 @@ Documentation : https://docs.devdatalab.org
 | shrug-vd01-dta.zip | | 2026-09-18 | BDF9977F2ABC5CB738A001CDFFB41162B200A03C43B56457D688D97A2BD36E49 |
 | shrug-vd11-dta.zip | | 2026-09-18 | 318A65FF58C70792A1DFB78494AD6656DB0EA3F43286BA5E8D9F7BFBA0C821C5 |
 | shrug-vd91-dta.zip | | 2026-09-18 | EBD975D24CF24AE27D7E2668F52334D5C512F821D88BC4A99DF7D416F2F4017B |
+| shrug-shrid-poly-gpkg.zip | Polygones des shrid (GeoPackage) | 2026-09-18 | 8BA138D378D453D251C2E09F5E5EB10938CFEB218E971E44613E25A7AA85699D |
+| shrug-pc11dist-poly-gpkg.zip | Polygones des districts PC11 (GeoPackage) | 2026-09-18 | 2580E68507CB8DE9CDD1874EDD03D47EFB8D75CE05D258B6E80290A5F1813841 |
 
 Fichiers décompressés dans un dossier au nom de chaque zip ; zip d'origine conservés, rien n'est modifié.
 

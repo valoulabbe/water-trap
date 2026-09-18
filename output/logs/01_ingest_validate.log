@@ -1,0 +1,172 @@
+==============================================================================
+LOG: output/logs/01_ingest_validate.log
+Run started: 2026-09-18 16:14:06
+==============================================================================
+
+STEP 1 -- INGEST AND VALIDATE RAW DATA
+Phase 0a is blocked; this prepares data every route will need.
+No RD is estimated here and no depth value is joined to any water outcome.
+
+------------------------------------------------------------------------------
+1a. SHA256 manifest in raw/README.md
+------------------------------------------------------------------------------
+  [OK]   raw/README.md exists
+  manifest file rows found: 13
+  [OK]   manifest contains at least one file row
+  [OK]   all 13 manifest rows carry a real 64-hex SHA256
+
+------------------------------------------------------------------------------
+1b. SHA256 integrity of raw archives
+------------------------------------------------------------------------------
+  CGWB_data_wide.csv                 MATCH
+  shrug-con-keys-dta.zip             MATCH
+  shrug-ec-keys-dta.zip              MATCH
+  shrug-pc-keys-dta.zip              MATCH
+  shrug-pc11dist-poly-gpkg.zip       NOT_IN_MANIFEST
+  shrug-pca01-dta.zip                MATCH
+  shrug-pca11-dta.zip                MATCH
+  shrug-pca91-dta.zip                MATCH
+  shrug-shrid-keys-dta.zip           MATCH
+  shrug-shrid-poly-gpkg.zip          NOT_IN_MANIFEST
+  shrug-vd01-dta.zip                 MATCH
+  shrug-vd11-dta.zip                 MATCH
+  shrug-vd91-dta.zip                 MATCH
+  [OK]   no SHA256 mismatch against the manifest
+
+------------------------------------------------------------------------------
+PROVENANCE GAP -- files in raw/ with no row in raw/README.md
+------------------------------------------------------------------------------
+  [WARNING] These files could NOT be integrity-checked. Add them to raw/README.md.
+  shrug-pc11dist-poly-gpkg.zip
+      computed SHA256: 2580E68507CB8DE9CDD1874EDD03D47EFB8D75CE05D258B6E80290A5F1813841
+  shrug-shrid-poly-gpkg.zip
+      computed SHA256: 8BA138D378D453D251C2E09F5E5EB10938CFEB218E971E44613E25A7AA85699D
+  [WARNING] Reported, not silently skipped. The build continues because these files are still validated on row count, key uniqueness and variables.
+
+------------------------------------------------------------------------------
+1c. File-by-file validation
+------------------------------------------------------------------------------
+  
+  FILE: raw/shrug/shrug-vd91-dta/pc91_vd_clean_shrid.dta
+  [OK]   vd91: file exists
+  [OK]   vd91: row count == 564,855
+  [OK]   vd91: all 23 named variables present
+  [OK]   vd91: key (shrid2) unique
+  [OK]   vd91: shrid2 is character
+  
+  FILE: raw/shrug/shrug-vd01-dta/pc01_vd_clean_shrid.dta
+  [OK]   vd01: file exists
+  [OK]   vd01: row count == 527,920
+  [OK]   vd01: all 14 named variables present
+  [OK]   vd01: key (shrid2) unique
+  [OK]   vd01: shrid2 is character
+  
+  FILE: raw/shrug/shrug-vd11-dta/pc11_vd_clean_shrid.dta
+  [OK]   vd11: file exists
+  [OK]   vd11: row count == 588,973
+  [OK]   vd11: all 16 named variables present
+  [OK]   vd11: key (shrid2) unique
+  [OK]   vd11: shrid2 is character
+  
+  FILE: raw/shrug/shrug-pc-keys-dta/pc91r_shrid_key.dta
+  [OK]   pc91r_key: file exists
+  [OK]   pc91r_key: row count == 570,426
+  [OK]   pc91r_key: all 5 named variables present
+  [OK]   pc91r_key: key (pc91_state_id+pc91_district_id+pc91_subdistrict_id+pc91_village_id) unique
+  [OK]   pc91r_key: shrid2 is character
+  
+  FILE: raw/shrug/shrug-pc-keys-dta/pc01r_shrid_key.dta
+  [OK]   pc01r_key: file exists
+  [OK]   pc01r_key: row count == 591,668
+  [OK]   pc01r_key: all 5 named variables present
+  [OK]   pc01r_key: key (pc01_state_id+pc01_district_id+pc01_subdistrict_id+pc01_village_id) unique
+  [OK]   pc01r_key: shrid2 is character
+  
+  FILE: raw/shrug/shrug-pc-keys-dta/pc11r_shrid_key.dta
+  [OK]   pc11r_key: file exists
+  [OK]   pc11r_key: row count == 597,597
+  [OK]   pc11r_key: all 5 named variables present
+  [OK]   pc11r_key: key (pc11_state_id+pc11_district_id+pc11_subdistrict_id+pc11_village_id) unique
+  [OK]   pc11r_key: shrid2 is character
+  
+  FILE: raw/shrug/shrug-shrid-keys-dta/shrid_loc_names.dta
+  [OK]   shrid_loc_names: file exists
+  [OK]   shrid_loc_names: row count == 596,389
+  [OK]   shrid_loc_names: all 5 named variables present
+  [OK]   shrid_loc_names: key (shrid2) unique
+  [OK]   shrid_loc_names: shrid2 is character
+  
+  FILE: raw/shrug/shrug-shrid-keys-dta/shrid2_spatial_stats.dta
+  [OK]   shrid2_spatial_stats: file exists
+  [OK]   shrid2_spatial_stats: row count == 596,358
+  [OK]   shrid2_spatial_stats: all 6 named variables present
+  [OK]   shrid2_spatial_stats: key (shrid2) unique
+  [OK]   shrid2_spatial_stats: shrid2 is character
+  
+  FILE: raw/cgwb/CGWB_data_wide.csv
+  [OK]   cgwb: file exists
+  [OK]   cgwb: row count == 28,076
+  [OK]   cgwb: all 27 named variables present
+  [OK]   cgwb: key (WLCODE) unique
+  [OK]   cgwb: no missing coordinates
+  [OK]   cgwb: all coordinates inside the India bounding box
+  
+  FILE: raw/shrug/shrug-shrid-poly-gpkg/shrid2_open.gpkg
+  [OK]   shrid_poly: file exists
+  [OK]   shrid_poly: layer 'shrid2' present
+  [OK]   shrid_poly: feature count == 595,438
+  shrid_poly CRS: WGS 84
+  [OK]   shrid_poly: CRS is WGS 84
+
+------------------------------------------------------------------------------
+1d. Inventory
+------------------------------------------------------------------------------
+                   label   rows  cols
+                  <char>  <int> <int>
+ 1:                 vd91 564855   100
+ 2:                 vd01 527920   110
+ 3:                 vd11 588973   284
+ 4:            pc91r_key 570426     7
+ 5:            pc01r_key 591668     7
+ 6:            pc11r_key 597597     7
+ 7:      shrid_loc_names 596389     7
+ 8: shrid2_spatial_stats 596358    20
+ 9:                 cgwb  28076    91
+10:           shrid_poly 595438    NA
+                                                              key_vars
+                                                                <char>
+ 1:                                                             shrid2
+ 2:                                                             shrid2
+ 3:                                                             shrid2
+ 4: pc91_state_id+pc91_district_id+pc91_subdistrict_id+pc91_village_id
+ 5: pc01_state_id+pc01_district_id+pc01_subdistrict_id+pc01_village_id
+ 6: pc11_state_id+pc11_district_id+pc11_subdistrict_id+pc11_village_id
+ 7:                                                             shrid2
+ 8:                                                             shrid2
+ 9:                                                             WLCODE
+10:                                                             shrid2
+  
+Clé : <file>
+                            file          status
+                          <char>          <char>
+ 1:           CGWB_data_wide.csv           MATCH
+ 2:       shrug-con-keys-dta.zip           MATCH
+ 3:        shrug-ec-keys-dta.zip           MATCH
+ 4:        shrug-pc-keys-dta.zip           MATCH
+ 5: shrug-pc11dist-poly-gpkg.zip NOT_IN_MANIFEST
+ 6:          shrug-pca01-dta.zip           MATCH
+ 7:          shrug-pca11-dta.zip           MATCH
+ 8:          shrug-pca91-dta.zip           MATCH
+ 9:     shrug-shrid-keys-dta.zip           MATCH
+10:    shrug-shrid-poly-gpkg.zip NOT_IN_MANIFEST
+11:           shrug-vd01-dta.zip           MATCH
+12:           shrug-vd11-dta.zip           MATCH
+13:           shrug-vd91-dta.zip           MATCH
+
+------------------------------------------------------------------------------
+STEP 1 COMPLETE -- all validations passed
+------------------------------------------------------------------------------
+Wrote build/inventory_raw.csv and build/inventory_raw_hashes.csv
+  [WARNING] ACTION FOR THE HUMAN: 2 raw file(s) still have no SHA256 row in raw/README.md (listed above).
+
+Run finished: 2026-09-18 16:14:50

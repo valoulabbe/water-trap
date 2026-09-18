@@ -1,0 +1,182 @@
+==============================================================================
+LOG: output/logs/04_shrid_centroids_dist.log
+Run started: 2026-09-18 16:15:27
+==============================================================================
+
+STEP 4 -- SHRID CENTROIDS AND DISTANCE TO NEAREST CGWB WELL
+Distances only. No water level is written to any output here.
+
+------------------------------------------------------------------------------
+4a. Centroids from shrid polygons
+------------------------------------------------------------------------------
+  [OK]   shrid_poly: 595,438 features
+  reading 595,438 polygons in chunks
+    chunk 6/24  cumulative rows: 150,000
+    chunk 12/24  cumulative rows: 300,000
+    chunk 18/24  cumulative rows: 450,000
+    chunk 24/24  cumulative rows: 595,438
+  invalid geometries repaired before centroiding: 103
+  [OK]   centroids: one row per polygon feature
+  [OK]   centroids: shrid2 is character
+  [OK]   centroids: key (shrid2) unique
+  [OK]   centroids: all coordinates finite
+  [OK]   centroids: all inside the India bounding box
+
+------------------------------------------------------------------------------
+4b. Cross-check vs shrid2_spatial_stats latitude/longitude
+------------------------------------------------------------------------------
+  polygons: 595,438 | spatial_stats: 596,358
+  in polygons only:       27
+  in spatial_stats only:  947
+  comparable on both:     595,411
+
+  Distance between our point_on_surface centroid and SHRUG's shipped point (km):
+     0%     25%     50%     75%     90%     99%    100% 
+  0.000   0.418   0.763   1.290   2.022   6.160 182.387 
+  share above 5 km:  0.0145
+  share above 25 km: 0.0013
+  [OK]   cross-check: median divergence below 5 km (observed 0.763 km)
+
+------------------------------------------------------------------------------
+4c. Distance to nearest CGWB monitoring well
+------------------------------------------------------------------------------
+  [OK]   well set may1996: 11,091 wells
+  [OK]   well set may2000: 13,883 wells
+  [OK]   well set 'may1996' is non-empty
+  well set 'may1996': 11,091 wells
+  [OK]   well set 'may2000' is non-empty
+  well set 'may2000': 13,883 wells
+  [OK]   may2000 well set is a superset of may1996
+  [OK]   dist_km_may2000 <= dist_km_may1996 everywhere
+  [OK]   no missing or infinite distances
+
+  Distance to nearest well, km:
+         10%  25%  50%   75%   90%    99%    100%
+may1996 2.76 4.60 7.54 12.66 33.22 121.40 1616.54
+may2000 2.54 4.23 6.83 11.12 24.36 108.44 1616.54
+
+  Share of shrids beyond a threshold:
+   threshold_km share_may1996 share_may2000
+          <num>         <num>         <num>
+1:           10    0.34998102    0.29519278
+2:           25    0.12124016    0.09802700
+3:           50    0.07107541    0.05838055
+
+  COVERAGE GAIN from accepting an earliest May reading up to 2000:
+   median distance 7.54 km -> 6.83 km; share beyond 25 km 0.1212 -> 0.0980
+
+------------------------------------------------------------------------------
+4d. Distance by state
+------------------------------------------------------------------------------
+                 state_name shrids med_km_may1996 med_km_may2000 p90_km_may1996
+                     <char>  <int>          <num>          <num>          <num>
+ 1:           uttar pradesh  98604           5.88           5.67          12.55
+ 2:          madhya pradesh  52319           7.44           7.15          14.21
+ 3:                  odisha  47666           5.54           5.37          12.03
+ 4:             maharashtra  41338           7.55           6.61          15.23
+ 5:               rajasthan  39916           9.71           8.66          25.15
+ 6:                   bihar  39235           7.42           6.62          13.70
+ 7:             west bengal  38036           5.74           5.17          11.86
+ 8:               jharkhand  29708           8.30           7.89          16.70
+ 9:               karnataka  27550           7.56           5.91          17.37
+10:          andhra pradesh  26476           7.63           6.95          15.70
+11:                   assam  25025          51.85          51.20          98.88
+12:            chhattisgarh  19634           6.96           6.87          14.98
+13:                 gujarat  18114           6.02           5.64          11.67
+14:        himachal pradesh  17548          41.70          17.49          78.02
+15:              tamil nadu  15994           6.39           5.43          12.32
+16:             uttarakhand  15819          71.88          66.82         116.69
+17:                  punjab  12379           5.16           4.60          11.30
+18:                 haryana   6758           4.92           4.18           9.66
+19:           jammu kashmir   6424          62.46          61.43         146.33
+20:               meghalaya   5502          14.97          12.73          36.15
+21:       arunachal pradesh   3288          71.31          71.24         125.45
+22:                 manipur   2365         168.12          43.48         199.48
+23:                  kerala   1450           3.23           2.83           5.92
+24:                nagaland   1288          62.32          62.32         102.06
+25:                 tripura    862           9.07           9.07          22.34
+26:                 mizoram    705         111.76         108.84         154.71
+27:                  sikkim    431          47.01          40.45          62.52
+28: andaman nicobar islands    401        1104.86        1104.86        1526.67
+29:                     goa    389          21.14          21.14          35.20
+30:              puducherry    100          10.96          10.47          15.88
+31:      dadra nagar haveli     71           9.76           9.50          15.90
+32:               daman diu     25           5.91           5.91           8.59
+33:             lakshadweep     12         304.35         304.35         383.59
+34:                    <NA>      4           4.02           2.95           5.81
+35:              chandigarh      1           8.83           8.83           8.83
+36:            nct of delhi      1          19.06          19.06          19.06
+                 state_name shrids med_km_may1996 med_km_may2000 p90_km_may1996
+                     <char>  <int>          <num>          <num>          <num>
+    share_gt25_may1996 share_gt25_may2000
+                 <num>              <num>
+ 1:             0.0103             0.0055
+ 2:             0.0068             0.0050
+ 3:             0.0003             0.0001
+ 4:             0.0079             0.0017
+ 5:             0.1013             0.0756
+ 6:             0.0021             0.0018
+ 7:             0.0264             0.0018
+ 8:             0.0210             0.0116
+ 9:             0.0446             0.0007
+10:             0.0120             0.0091
+11:             0.8506             0.8418
+12:             0.0148             0.0133
+13:             0.0002             0.0002
+14:             0.7615             0.3254
+15:             0.0001             0.0001
+16:             0.9282             0.9029
+17:             0.0010             0.0000
+18:             0.0004             0.0004
+19:             0.6585             0.6516
+20:             0.2435             0.1340
+21:             0.8297             0.8054
+22:             1.0000             0.8376
+23:             0.0000             0.0000
+24:             0.8781             0.8781
+25:             0.0754             0.0754
+26:             1.0000             1.0000
+27:             1.0000             0.9513
+28:             1.0000             1.0000
+29:             0.3368             0.3368
+30:             0.0000             0.0000
+31:             0.0000             0.0000
+32:             0.0000             0.0000
+33:             1.0000             1.0000
+34:             0.0000             0.0000
+35:             0.0000             0.0000
+36:             0.0000             0.0000
+    share_gt25_may1996 share_gt25_may2000
+                 <num>              <num>
+
+  COVERAGE WARNING. The CGWB file covers 24 states; several SHRUG states
+  have no monitoring well at all, so their shrids take a nearest well from
+  an adjacent state and the distance is large by construction. States with
+  a median nearest-well distance above 25 km (may1996 set):
+    assam                       25,025 shrids   median     51.9 km
+    himachal pradesh            17,548 shrids   median     41.7 km
+    uttarakhand                 15,819 shrids   median     71.9 km
+    jammu kashmir                6,424 shrids   median     62.5 km
+    arunachal pradesh            3,288 shrids   median     71.3 km
+    manipur                      2,365 shrids   median    168.1 km
+    nagaland                     1,288 shrids   median     62.3 km
+    mizoram                        705 shrids   median    111.8 km
+    sikkim                         431 shrids   median     47.0 km
+    andaman nicobar islands        401 shrids   median   1104.9 km
+    lakshadweep                     12 shrids   median    304.4 km
+  Total shrids in those states: 73,306 (12.3% of all shrids)
+  Read the per-state table before applying any distance cutoff.
+
+------------------------------------------------------------------------------
+4e. Write outputs
+------------------------------------------------------------------------------
+  [OK]   nearest-well output carries NO water level column
+build/shrid_centroids.rds   : 595,438 shrids
+build/shrid_nearest_well.rds: 595,438 shrids
+  columns: shrid2, wlcode_may1996, dist_km_may1996, wlcode_may2000, dist_km_may2000
+
+------------------------------------------------------------------------------
+STEP 4 COMPLETE
+------------------------------------------------------------------------------
+
+Run finished: 2026-09-18 16:16:41

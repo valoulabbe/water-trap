@@ -1,0 +1,154 @@
+==============================================================================
+LOG: output/logs/03_cgwb_long.log
+Run started: 2026-09-18 16:15:26
+==============================================================================
+
+STEP 3 -- CGWB MONITORING WELLS: LONG PANEL, PRE-MONSOON (MAY) READINGS
+
+PROVENANCE WARNING: raw/cgwb/CGWB_data_wide.csv is an UNOFFICIAL copy with
+NO LICENCE (see raw/README.md). Fine for internal Phase 0 preparation;
+re-source from India-WRIS/CGWB before publication or redistribution.
+  [OK]   cgwb: identifier columns intact after dropping the row index
+  [OK]   cgwb: all 21 May columns present
+  [OK]   cgwb: 28,076 wells
+  [OK]   cgwb: WLCODE unique
+
+------------------------------------------------------------------------------
+3a. Reshape wide -> long (May readings only)
+------------------------------------------------------------------------------
+  [OK]   long: 28,076 wells x 21 May columns
+  long rows (incl. missing): 589,596
+  non-missing May readings:  242,946
+
+------------------------------------------------------------------------------
+3b. Earliest pre-monsoon (May) reading per well
+------------------------------------------------------------------------------
+  [OK]   exactly one earliest-May row per well with any May reading
+  wells with >= 1 May reading: 26,948
+  wells with NO May reading:   1,128
+
+  Wells by earliest May reading year:
+    earliest_may_year     N
+                <int> <int>
+ 1:              1996 11091
+ 2:              1997   863
+ 3:              1998   411
+ 4:              1999   571
+ 5:              2000   947
+ 6:              2001   352
+ 7:              2002   196
+ 8:              2003   215
+ 9:              2004   317
+10:              2005  1738
+11:              2006   409
+12:              2007   272
+13:              2008   214
+14:              2009    65
+15:              2010    94
+16:              2011   256
+17:              2012   488
+18:              2013  4317
+19:              2014  2172
+20:              2015  1578
+21:              2016   382
+    earliest_may_year     N
+                <int> <int>
+
+  wells with a May 1996 reading:            11,091
+  wells with earliest May reading <= 2000:  13,883  (+25%)
+  [OK]   cgwb: 11,091 wells have a May 1996 reading
+  [OK]   cgwb: 13,883 wells have an earliest May reading <= 2000
+
+------------------------------------------------------------------------------
+3c. QC (anomalies are FLAGGED, never silently dropped)
+------------------------------------------------------------------------------
+                                    check     n
+                                   <char> <int>
+1:                       duplicate WLCODE     0
+2: rows sharing LAT/LON with another well  1482
+3:       wells with no May reading at all  1128
+4:                        blank SITE_TYPE   582
+5:       May readings with depth_mbgl < 0    50
+6:     May readings with depth_mbgl > 100   385
+7:     May readings with depth_mbgl > 300     4
+8:         coordinates outside India bbox     0
+                                                              action
+                                                              <char>
+1:                                                  hard stop if > 0
+2: flagged: co-located wells; relevant to the spec's clustering rule
+3:                                                 flagged, retained
+4:                                                 flagged, retained
+5:                             flagged, retained (artesian/rounding)
+6:                                                 flagged, retained
+7:                                                 flagged, retained
+8:                                                  hard stop if > 0
+  [OK]   QC: no duplicate WLCODE
+  [OK]   QC: all coordinates inside the India bounding box
+
+  Extreme May 1996 values (the 10 above 100 m and the 1 negative):
+    WLCODE  STATE    DISTRICT SITE_TYPE depth_mbgl
+    <char> <char>      <char>    <char>      <num>
+ 1: W08432     GJ Gandhinagar Tube Well     534.00
+ 2: W13542     PB     Sangrur Tube Well     268.00
+ 3: W08038     GJ       Patan Tube Well     131.00
+ 4: W07988     GJ    Mahesana Tube Well     126.03
+ 5: W08659     GJ    Mahesana               114.40
+ 6: W08021     GJ       Patan Tube Well     112.38
+ 7: W08631     GJ    Mahesana Tube Well     107.13
+ 8: W08636     GJ    Mahesana Tube Well     106.62
+ 9: W13938     RJ     Bikaner  Dug Well     103.80
+10: W08690     GJ    Mahesana Tube Well     102.84
+11: W13058     PB    Bathinda  Dug Well      -0.05
+
+  These are retained. A 534 m reading on a Dug Well is not physically
+  credible and would need excluding before any depth construction, but
+  that is a decision for the depth step, not for ingestion.
+  [OK]   wells table: 28,076 rows
+  [OK]   wells table: WLCODE unique
+
+------------------------------------------------------------------------------
+3d. Counts by state
+------------------------------------------------------------------------------
+     STATE wells with_any_may with_may1996 with_may_le_2000 median_earliest_may
+    <char> <int>        <int>        <int>            <int>               <num>
+ 1:     KA  2510         2424          742             1131              2002.0
+ 2:     MS  2326         2182          984             1267              1997.0
+ 3:     WB  2124         2017          664              809              2004.0
+ 4:     OD  1985         1940          927              970              2000.5
+ 5:     KL  1983         1917          575              772              2013.0
+ 6:     MP  1796         1769          923             1135              1996.0
+ 7:     AP  1736         1683          529              659              2005.0
+ 8:     RJ  1735         1691          723              958              1999.0
+ 9:     UP  1711         1673         1223             1309              1996.0
+10:     GJ  1637         1589          873             1105              1996.0
+11:     CG  1423         1370          559              592              2005.0
+12:     TN  1415         1342          625              941              1998.0
+13:     TG  1358         1288          349              456              2005.0
+14:     PB  1220         1161          346              414              2013.0
+15:     HR  1205         1066          386              470              2005.0
+16:     BR  1005          975          342              451              2004.0
+17:     JH   387          360          180              210              1996.5
+18:     JK   251          250           80               88              2005.0
+19:     HP   125          120            0               77              1998.0
+20:     TR    59           57           24               24              2003.0
+21:     ML    40           37           24               30              1996.0
+22:     AR    19           18           11               12              1996.0
+23:     NL    17           17            2                2              2003.0
+24:     MN     9            2            0                1              2005.5
+     STATE wells with_any_may with_may1996 with_may_le_2000 median_earliest_may
+    <char> <int>        <int>        <int>            <int>               <num>
+
+  states represented: 24
+  [OK]   cgwb: 24 states represented
+
+------------------------------------------------------------------------------
+3e. Write outputs
+------------------------------------------------------------------------------
+build/cgwb_may_long.rds : 242,946 non-missing May readings (one row per well-year)
+build/cgwb_wells.rds    : 28,076 wells (one row per WLCODE)
+
+------------------------------------------------------------------------------
+STEP 3 COMPLETE
+------------------------------------------------------------------------------
+
+Run finished: 2026-09-18 16:15:27
