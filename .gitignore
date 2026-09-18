@@ -1,0 +1,14 @@
+# données : jamais dans git
+raw/*
+!raw/README.md
+build/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# système
+.DS_Store
