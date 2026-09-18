@@ -24,4 +24,5 @@ Fichiers décompressés dans un dossier au nom de chaque zip ; zip d'origine con
 ## Sekhri
 | Fichier | Contenu | Source | Téléchargé le | SHA256 |
 | --- | --- | --- | --- | --- |
-| 113902-V1.zip | Réplication Sekhri (2014), AEJ: Applied 6(3) | openICPSR projet 113902, V1 | 2026-09-18 | |2AC1D9D3EF1E8624ADB7858E8E1B24F73326A88EAA62930022FFB3010B17641A 
+| 113902-V1.zip | Réplication Sekhri (2014), AEJ: Applied 6(3) | openICPSR projet 113902, V1 | 2026-09-18 | 2AC1D9D3EF1E8624ADB7858E8E1B24F73326A88EAA62930022FFB3010B17641A |
+| 113803-V1.zip | Réplication Sekhri (2011), AEJ: Applied 3(4) — code et Readme uniquement, aucune donnée | openICPSR projet 113803, V1 | 2026-09-18 | B99D959198E664CF813197886BEE036C22D16BA9C88327717B2DA48224624ECE |
