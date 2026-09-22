@@ -41,7 +41,8 @@ STEPS <- c(
   "code/04_shrid_centroids_dist.R",
   "code/05_diag_missing_tap.R",
   "code/06_interp_loo_up.R",
-  "code/07_temporal_noise_up.R"
+  "code/07_temporal_noise_up.R",
+  "code/08_wells_in_villages.R"
 )
 
 run_log <- file.path("output", "logs", "run_all.log")

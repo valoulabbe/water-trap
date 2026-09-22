@@ -1,0 +1,34 @@
+==============================================================================
+LOG: output/logs/00_convert_dta.log
+Run started: 2026-09-22 22:07:34
+==============================================================================
+
+CONVERSION DES .dta SHRUG EN .rds
+
+Motif : une politique de controle d'application bloque par intermittence
+le chargement des DLL de packages depuis le cache renv, ce qui rend haven
+indisponible sans preavis. Un .rds se lit sans aucun package tiers.
+
+raw/ reste immuable : ouvert en LECTURE SEULE. Les .rds de build/ sont des
+copies derivees, jamais la source de verite.
+
+Mode : --used-only (tables du pipeline seulement)
+
+------------------------------------------------------------------------------
+Inventaire des sources
+------------------------------------------------------------------------------
+  [OK]   au moins un .dta trouve dans raw/shrug/
+  [OK]   noms de base uniques (build/<base>.rds ne peut pas collisionner)
+  [OK]   toutes les tables du pipeline sont presentes
+  tables a examiner : 8
+  volume source    : 2540.6 Mo
+  dont tables du pipeline : 8 (converties en premier)
+
+------------------------------------------------------------------------------
+Manifeste
+------------------------------------------------------------------------------
+  build/dta_conversion_manifest.csv : absent, il sera cree
+
+------------------------------------------------------------------------------
+Conversion
+------------------------------------------------------------------------------

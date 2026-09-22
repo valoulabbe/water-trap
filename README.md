@@ -58,3 +58,50 @@ days is a successful Phase 0.
 The analyses and pass/fail criteria were fixed before seeing data and must not
 drift. If you revise a threshold or a definition in `PHASE0_SPEC.md`, update the
 RA-facing documents to match — the whole packet is meant to tell one story.
+
+## `build/` contient des copies converties des données SHRUG
+
+`build/` n'est pas seulement un dossier de sorties : il contient aussi une
+copie `.rds` de chaque table `.dta` de `raw/shrug/`, produite par
+`code/00_convert_dta.R`.
+
+**Pourquoi.** Sur la machine de développement, une politique de contrôle
+d'application Windows bloque par intermittence le chargement des DLL de
+packages R depuis le cache `renv` (message : *« LoadLibrary failure : Une
+stratégie de contrôle d'application a bloqué ce fichier »*, le plus souvent sur
+`cli.dll`). `haven` devient alors indisponible sans préavis et toute lecture de
+`.dta` échoue, parfois en pleine exécution du pipeline. Un `.rds` se lit avec
+`readRDS()`, sans aucun package tiers : une fois la conversion faite, le
+pipeline ne dépend plus de `haven`.
+
+**Statut des fichiers.** Les `.rds` sont des **copies dérivées, jamais la source
+de vérité**. `raw/` reste immuable et n'est ouvert qu'en lecture. Les objets
+sont enregistrés tels que `haven` les renvoie, étiquettes Stata comprises, pour
+que la lecture via `.rds` et via `.dta` donne exactement le même objet.
+`build/` étant dans `.gitignore`, ces copies ne sont pas versionnées : il faut
+relancer la conversion après un clone.
+
+**Usage.**
+
+```
+Rscript code/00_convert_dta.R                # les 59 tables (~3,9 Go de source)
+Rscript code/00_convert_dta.R --used-only    # les 8 tables lues par le pipeline
+```
+
+Le script se lance **seul**, il n'est pas dans `run_all.R`. Il est idempotent :
+le SHA256 de chaque `.dta` source est consigné dans
+`build/dta_conversion_manifest.csv`, et une table n'est reconvertie que si son
+`.rds` manque ou si le hachage de la source a changé. Il écrit le manifeste au
+fil de l'eau, donc une interruption ne perd rien et la relance reprend où elle
+s'était arrêtée. Les tables du pipeline sont converties en premier.
+
+**Effet sur les étapes.** Aucun appel à modifier : `read_dta_chk()` préfère
+`build/<nom>.rds` et ne retombe sur le `.dta` que si la copie est absente. Si
+les deux manquent, l'exécution s'arrête avec un message explicite plutôt que de
+planter sur une DLL.
+
+**Conséquence pour la validation.** Quand l'étape 1 lit une copie convertie,
+elle valide la conversion et non le `.dta` lui-même ; son log le signale
+fichier par fichier, et le SHA256 de la source se retrouve dans le manifeste de
+conversion. L'intégrité des archives `.zip` téléchargées reste vérifiée
+séparément contre `raw/README.md`.

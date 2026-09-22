@@ -125,6 +125,14 @@ validate_dta <- function(path, label, expected_rows, keys, vars) {
   msg("  FILE: ", path)
   check(file.exists(path), paste0(label, ": file exists"))
   d <- read_dta_chk(path)
+  src <- last_read_source()
+  if (identical(src$source, "rds")) {
+    note("source lue : ", src$path, "  [COPIE CONVERTIE]")
+    note("  le contenu valide ci-dessous vient de la conversion, pas du .dta ;")
+    note("  le SHA256 du .dta source est dans build/dta_conversion_manifest.csv")
+  } else {
+    note("source lue : ", path, "  [.dta d'origine]")
+  }
   check_rows(d, expected_rows, label)
   check_vars(d, vars, label)
   check_unique(d, keys, label)

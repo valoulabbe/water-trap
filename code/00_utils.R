@@ -9,8 +9,10 @@
 # holds data outputs only. Flagged for a CLAUDE.md fix.
 # ---------------------------------------------------------------------------
 
+# haven n'est PAS charge ici : il n'est requis que par read_dta_chk(), qui le
+# charge a la demande via son espace de noms. Les etapes qui ne lisent aucun
+# .dta n'ont donc aucune dependance a haven.
 suppressWarnings(suppressMessages({
-  library(haven)
   library(data.table)
 }))
 
@@ -106,10 +108,49 @@ check_chr_key <- function(d, key, label) {
 }
 
 # Read a .dta keeping shrid2 a string. haven preserves Stata strings as
-# character; we assert rather than coerce.
-read_dta_chk <- function(path) {
-  d <- haven::read_dta(path)
-  d
+# character; we assert rather than coerce. haven is loaded on demand here, not
+# at the top of this file, so steps that read no .dta do not depend on it.
+# Chemin de la copie convertie correspondant a un .dta de raw/shrug/.
+# Les noms de base des 59 .dta sont uniques (verifie), donc build/<base>.rds
+# ne peut pas entrer en collision.
+dta_rds_path <- function(dta_path)
+  file.path("build", paste0(sub("\\.dta$", "", basename(dta_path)), ".rds"))
+
+# Provenance de la derniere lecture, pour journalisation par l'appelant.
+.read_src <- new.env(parent = emptyenv())
+last_read_source <- function() as.list(.read_src)
+
+read_dta_chk <- function(path, prefer_rds = TRUE) {
+  rds <- dta_rds_path(path)
+  if (prefer_rds && file.exists(rds)) {
+    assign("source", "rds", envir = .read_src)
+    assign("path", rds, envir = .read_src)
+    return(readRDS(rds))
+  }
+  if (!requireNamespace("haven", quietly = TRUE))
+    stop("PACKAGE INDISPONIBLE : haven n'a pas pu etre charge et ", rds,
+         " est absent, donc ", path, " est illisible. ",
+         "Lancer d'abord : Rscript code/00_convert_dta.R . ",
+         "Arret -- aucune relance automatique.", call. = FALSE)
+  assign("source", "dta", envir = .read_src)
+  assign("path", path, envir = .read_src)
+  haven::read_dta(path)
+}
+
+# Lire une table SHRUG en preferant une conversion .rds deja faite, avec repli
+# sur le .dta d'origine via haven. Motif : sur cette machine une politique de
+# controle d'application bloque par intermittence le chargement des DLL de
+# packages depuis le cache renv, ce qui rend haven indisponible sans preavis.
+# Le .rds se lit sans aucun package tiers.
+# Renvoie une liste : $data (data.table) et $source ("rds" ou "dta").
+# Habillage de read_dta_chk() qui renvoie aussi la provenance, pour les appelants
+# qui veulent la journaliser. Une seule logique de repli, ici comme ailleurs.
+read_shrug_key <- function(rds_path, dta_path) {
+  d <- read_dta_chk(dta_path)
+  src <- last_read_source()
+  list(data = data.table::as.data.table(d),
+       source = src$source %||% "dta",
+       path   = src$path %||% dta_path)
 }
 
 # --- SHA256 manifest -------------------------------------------------------
