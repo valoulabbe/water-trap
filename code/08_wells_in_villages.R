@@ -24,6 +24,18 @@
 #               "PORTEE TEMPORELLE" en tete de log : 1990-1993 est hors de
 #               portee de cette source.
 #
+# LANCEMENT (depuis la racine du depot, dans un terminal) :
+#     Rscript code/08_wells_in_villages.R            # reprend ou il s'etait arrete
+#     Rscript code/08_wells_in_villages.R --force    # refait toutes les etapes
+#
+# ETAPES RESUMABLES, sorties intermediaires dans build/ :
+#   1. build/08_cgwb.rds      CGWB en format long + table des puits
+#   2. build/08_up_poly.gpkg  polygones shrid de l'UP (la plus longue, ~1 min)
+#   3. build/08_link.rds      puits -> village (st_within)
+# Une etape dont la sortie existe est relue, pas refaite ; l'etape 3 est
+# refaite si l'etape 1 ou 2 est plus recente. Les tableaux finaux sont
+# toujours recalcules (quelques secondes).
+#
 # Sorties : output/tables/08_*.csv, output/logs/08_wells_in_villages.log
 # ---------------------------------------------------------------------------
 
@@ -72,16 +84,35 @@ msg("recensement MI et ne doit pas etre presentee comme telle.")
 # ===========================================================================
 # 8a. Lecture et mise en forme longue du fichier CGWB
 # ===========================================================================
-hr("8a. Fichier CGWB")
+hr("8a. Fichier CGWB (etape 1 : build/08_cgwb.rds)")
 
-cg <- fread(p_raw("cgwb", "CGWB_data_wide.csv"))
-if ("V1" %in% names(cg)) cg[, V1 := NULL]   # 1re colonne du CSV : index sans nom
-check(nrow(cg) == 28076L, "CGWB : 28 076 puits")
-check(all(c("STATE", "DISTRICT", "LAT", "LON", "SITE_TYPE", "WLCODE") %in% names(cg)),
+# Etapes resumables (voir stage() dans 00_utils.R) : chaque sortie est ecrite
+# dans build/08_*.{rds,gpkg} des qu'elle existe ; une relance saute les
+# etapes deja faites. --force refait tout.
+# Les controles de validite portent sur la SORTIE de l'etape, pour tourner
+# aussi quand l'etape est relue plutot que refaite.
+f_cgwb <- p_build("08_cgwb.rds")
+cgwb <- stage("etape 1/3 CGWB -> format long", f_cgwb, function() {
+  cg <- fread(p_raw("cgwb", "CGWB_data_wide.csv"))
+  if ("V1" %in% names(cg)) cg[, V1 := NULL]   # 1re colonne du CSV : index sans nom
+  meas <- grep("^(Jan|May|Aug|Nov) [0-9]{4}$", names(cg), value = TRUE)
+  long <- melt(cg, id.vars = c("WLCODE", "STATE", "DISTRICT", "LAT", "LON", "SITE_TYPE"),
+               measure.vars = meas, variable.name = "col", value.name = "depth",
+               variable.factor = FALSE)
+  long[, month := sub(" .*$", "", col)]
+  long[, year  := as.integer(sub("^\\S+ ", "", col))]
+  long[, col := NULL]
+  list(n_rows = nrow(cg), cols = names(cg), meas = meas,
+       dup_wlcode = sum(duplicated(cg$WLCODE)),
+       wells = unique(cg[, .(WLCODE, STATE, DISTRICT, LAT, LON, SITE_TYPE)]),
+       long = long[!is.na(depth)])
+})
+
+check(cgwb$n_rows == 28076L, "CGWB : 28 076 puits")
+check(all(c("STATE", "DISTRICT", "LAT", "LON", "SITE_TYPE", "WLCODE") %in% cgwb$cols),
       "CGWB : colonnes d'identification presentes")
-check(sum(duplicated(cg$WLCODE)) == 0, "CGWB : WLCODE unique")
-
-meas <- grep("^(Jan|May|Aug|Nov) [0-9]{4}$", names(cg), value = TRUE)
+check(cgwb$dup_wlcode == 0, "CGWB : WLCODE unique")
+meas <- cgwb$meas
 check(length(meas) == 84L, "CGWB : 84 colonnes de mesure trimestrielles",
       sprintf("observe %d", length(meas)))
 yrs_all <- as.integer(sub("^\\S+ ", "", meas))
@@ -90,14 +121,7 @@ check(min(yrs_all) == 1996L, "CGWB : premiere annee de mesure = 1996",
 check(sum(yrs_all <= 1995L) == 0L,
       "CGWB : aucune colonne anterieure a 1996 (confirme que 1990-1993 est impossible)")
 msg("  colonnes de mesure : ", meas[1], " ... ", meas[length(meas)])
-
-long <- melt(cg, id.vars = c("WLCODE", "STATE", "DISTRICT", "LAT", "LON", "SITE_TYPE"),
-             measure.vars = meas, variable.name = "col", value.name = "depth",
-             variable.factor = FALSE)
-long[, month := sub(" .*$", "", col)]
-long[, year  := as.integer(sub("^\\S+ ", "", col))]
-long[, col := NULL]
-long <- long[!is.na(depth)]
+long <- cgwb$long
 msg("  lectures non manquantes : ", format(nrow(long), big.mark = ","))
 
 # ===========================================================================
@@ -105,7 +129,7 @@ msg("  lectures non manquantes : ", format(nrow(long), big.mark = ","))
 # ===========================================================================
 hr("8b. Puits en objet spatial")
 
-w <- unique(cg[, .(WLCODE, STATE, DISTRICT, LAT, LON, SITE_TYPE)])
+w <- cgwb$wells
 bad_coord <- w[is.na(LAT) | is.na(LON) |
                  !(LAT %between% c(6, 38)) | !(LON %between% c(67, 98))]
 msg("  puits : ", format(nrow(w), big.mark = ","))
@@ -157,19 +181,24 @@ lyr  <- sf::st_layers(gpkg)
 n_feat <- as.integer(lyr$features[match("shrid2", lyr$name)])
 check(n_feat == 595438L, "polygones shrid : 595 438 entites")
 
-# Lecture par blocs (fichier de 380 Mo) ; on ne conserve que l'UP.
-CHUNK <- 25000L
-offs  <- seq(0L, n_feat - 1L, by = CHUNK)
-parts <- vector("list", length(offs))
-for (i in seq_along(offs)) {
-  q <- sprintf("SELECT shrid2, geom FROM shrid2 LIMIT %d OFFSET %d", CHUNK, offs[i])
-  g <- sf::st_read(gpkg, query = q, quiet = TRUE)
-  g <- g[g$shrid2 %in% up_ids, ]
-  if (nrow(g) > 0) parts[[i]] <- g
-  if (i %% 8L == 0L || i == length(offs)) msg("    bloc ", i, "/", length(offs))
-}
-up_poly <- do.call(rbind, parts[!vapply(parts, is.null, logical(1))])
-up_poly <- sf::st_make_valid(up_poly)
+# Etape 2, la plus longue : lecture par blocs (fichier de 380 Mo), on ne
+# conserve que l'UP. Un horodatage par bloc.
+f_poly <- p_build("08_up_poly.gpkg")
+up_poly <- stage("etape 2/3 polygones UP", f_poly, function() {
+  CHUNK <- 25000L
+  offs  <- seq(0L, n_feat - 1L, by = CHUNK)
+  parts <- vector("list", length(offs))
+  for (i in seq_along(offs)) {
+    q <- sprintf("SELECT shrid2, geom FROM shrid2 LIMIT %d OFFSET %d", CHUNK, offs[i])
+    g <- sf::st_read(gpkg, query = q, quiet = TRUE)
+    g <- g[g$shrid2 %in% up_ids, ]
+    if (nrow(g) > 0) parts[[i]] <- g
+    tmsg("    bloc ", i, "/", length(offs), " : ", nrow(g), " polygones UP")
+  }
+  p <- do.call(rbind, parts[!vapply(parts, is.null, logical(1))])
+  tmsg("    st_make_valid sur ", format(nrow(p), big.mark = ","), " polygones ...")
+  sf::st_make_valid(p)
+})
 msg("  polygones UP recuperes : ", format(nrow(up_poly), big.mark = ","))
 check(nrow(up_poly) > 0, "au moins un polygone UP recupere")
 msg("  shrid UP sans polygone : ",
@@ -180,8 +209,11 @@ msg("  shrid UP sans polygone : ",
 # ===========================================================================
 hr("8d. Jointure spatiale st_within")
 
-j <- sf::st_join(w_sf, up_poly, join = sf::st_within, left = FALSE)
-link <- as.data.table(sf::st_drop_geometry(j))[, .(WLCODE, shrid2, STATE, SITE_TYPE)]
+# Etape 3 : refaite si l'etape 1 ou 2 est plus recente (voir stage()).
+link <- stage("etape 3/3 jointure st_within", p_build("08_link.rds"), function() {
+  j <- sf::st_join(w_sf, up_poly, join = sf::st_within, left = FALSE)
+  as.data.table(sf::st_drop_geometry(j))[, .(WLCODE, shrid2, STATE, SITE_TYPE)]
+}, after = c(f_cgwb, f_poly))
 check(sum(duplicated(link$WLCODE)) == 0,
       "chaque puits tombe dans au plus un polygone de village",
       sprintf("%d puits rattaches a plusieurs shrid", sum(duplicated(link$WLCODE))))
@@ -192,6 +224,27 @@ msg("")
 msg("  Etat CGWB des puits rattaches (un puits peut etre etiquete autrement")
 msg("  que 'UP' tout en tombant dans un polygone d'UP) :")
 print(link[, .N, by = STATE][order(-N)])
+
+# Distribution du nombre de puits par village, sur le rattachement seul (tous
+# les puits rattaches, avec ou sans lecture dans une fenetre donnee).
+hr("8d(ii). Puits par village (rattachement seul)")
+pv <- link[, .(n_wells = .N), by = shrid2][, .(villages = .N), by = n_wells][order(n_wells)]
+print(pv)
+fwrite(pv, p_tab("08_puits_par_village_rattachement.csv"))
+fwrite(link[order(shrid2, WLCODE)], p_tab("08_rattachement_puits_village.csv"))
+
+# ===========================================================================
+# 8e-8h : HERITAGE DU RD A 8 m -- DESACTIVE LE 2026-09-23
+# Profondeur de village, comptages dans les bandes de +/-1/3/7 m autour de
+# 8 m et test de changement de cote du seuil : construits pour le RD
+# abandonne. Code conserve tel quel mais NON EXECUTE. Mettre RD_LEGACY a TRUE
+# pour le relancer.
+# ===========================================================================
+RD_LEGACY <- FALSE
+msg("")
+msg("8e-8h (profondeur de village, bandes autour de 8 m) : DESACTIVE,")
+msg("heritage du RD abandonne. Voir RD_LEGACY dans le script.")
+if (RD_LEGACY) {
 
 # ===========================================================================
 # 8e. Profondeur du village, par fenetre et par mesure
@@ -338,6 +391,8 @@ msg(sprintf("  1998-2000, mai seul : %.1f%%.", 100 * r2$part_changeant_de_cote))
 msg("  C'est le test d'instabilite de l'etape 7, refait ici sur une mesure")
 msg("  SANS interpolation. L'instabilite qui subsiste vient donc du mouvement")
 msg("  reel de la nappe, pas de l'erreur de prediction spatiale.")
+
+}  # fin de if (RD_LEGACY)
 
 hr("RAPPEL DE PORTEE")
 msg("Aucune RD, aucune variable de resultat 'eau', aucune interpolation.")

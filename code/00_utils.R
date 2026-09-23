@@ -59,6 +59,66 @@ hr <- function(title) {
 }
 
 msg  <- function(...) cat(..., "\n", sep = "")
+
+# Message horodate, force sur disque aussitot : apres un arret brutal, la
+# derniere ligne du log dit exactement quelle etape etait en cours.
+tmsg <- function(...) {
+  cat("[", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), "] ", ..., "\n", sep = "")
+  if (!is.null(.log_con)) flush(.log_con)
+}
+
+# Duree ecoulee depuis t0, en secondes, pour les messages de fin d'etape.
+secs_since <- function(t0) sprintf("%.1f s", as.numeric(difftime(Sys.time(), t0, units = "secs")))
+
+# --- etapes resumables -----------------------------------------------------
+# stage(label, path, build, after) : si `path` existe, le relit ; sinon appelle
+# build(), ecrit le resultat dans `path` et le renvoie. L'etape est refaite si
+# --force est passe au script, si `path` manque, ou si l'un des fichiers amont
+# `after` est plus recent que `path` (une etape refaite invalide donc l'aval).
+# Ecriture atomique (.part puis renommage) : un arret en cours d'ecriture ne
+# laisse jamais un fichier tronque qui passerait pour valide.
+# Format selon l'extension : .gpkg (sf) ou .rds (tout le reste).
+FORCE <- "--force" %in% commandArgs(trailingOnly = TRUE)
+
+stage_read <- function(path) {
+  if (grepl("\\.gpkg$", path)) return(sf::st_read(path, quiet = TRUE))
+  x <- readRDS(path)
+  if (data.table::is.data.table(x)) data.table::setalloccol(x)
+  x
+}
+
+stage_write <- function(x, path, layer) {
+  if (grepl("\\.gpkg$", path)) {
+    sf::st_write(x, path, layer = layer, quiet = TRUE, delete_dsn = TRUE)
+  } else {
+    saveRDS(x, path)
+  }
+}
+
+stage <- function(label, path, build, after = character()) {
+  t0 <- Sys.time()
+  stale_up <- after[file.exists(after) & file.exists(path) &
+                      file.mtime(after) > file.mtime(path)]
+  if (file.exists(path) && !FORCE && length(stale_up) == 0L) {
+    tmsg(label, " : deja fait, relu depuis ", path, " (ecrit le ",
+         format(file.mtime(path), "%Y-%m-%d %H:%M"), ")")
+    out <- stage_read(path)
+    tmsg(label, " : relu (", secs_since(t0), ")")
+    return(out)
+  }
+  why <- if (FORCE) "--force" else if (length(stale_up)) paste("amont plus recent :",
+    paste(stale_up, collapse = ", ")) else "sortie absente"
+  tmsg(label, " : debut (", why, ")")
+  out <- withCallingHandlers(build(), error = function(e)
+    tmsg(label, " : ERREUR : ", conditionMessage(e)))
+  tmp <- sub("(\\.[^.]+)$", ".part\\1", path)
+  if (file.exists(tmp)) file.remove(tmp)
+  stage_write(out, tmp, layer = sub("\\.[^.]+$", "", basename(path)))
+  if (file.exists(path)) file.remove(path)
+  check(file.rename(tmp, path), paste0(label, " : sortie ecrite -> ", path))
+  tmsg(label, " : fini (", secs_since(t0), ")")
+  out
+}
 note <- function(...) cat("  ", ..., "\n", sep = "")
 warn <- function(...) cat("  [WARNING] ", ..., "\n", sep = "")
 

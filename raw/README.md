@@ -33,3 +33,8 @@ Fichiers décompressés dans un dossier au nom de chaque zip ; zip d'origine con
    | Fichier | Contenu | Source | Téléchargé le | SHA256 |
    | --- | --- | --- | --- | --- |
    | CGWB_data_wide.csv | 28 076 puits, niveaux trimestriels mai 1996–janv. 2017, lat/lon | github.com/craigdsouza/cgwb (données CGWB obtenues par mail par T. Hora, U. Waterloo ; copie non officielle, sans licence) | 2026-09-18 | 9C229185FB0153CBF0074CA65842622724866089097F33F3E8E64AC4FD65C14D |
+## Géologie — carte GSI 1:2M (NGDR)
+| Fichier | Contenu | Source | Téléchargé le | SHA256 |
+| --- | --- | --- | --- | --- |
+| geology/ngdr/NGDR_Geology_2M.parquet | Carte géologique de l'Inde au 1:2M, 4 531 polygones (GeoParquet 1.1, WKB, EPSG:4326) : unité stratigraphique, âge, super-groupe, groupe. Pas de type de roche ni de classe d'aquifère | GSI / National Geoscience Data Repository (geodataindia.gov.in), republié par ramSeraph/indian_land_features, release `geology` (2025-02-13) ; rangé par le republieur sous « not-so-open » ; licence annoncée « CC0 1.0, attribuer DataMeet et la source gouvernementale » | 2026-09-23 | 8BBEC03D2F0A3898648B3E95F4EF967F51F889395A29D6EA11748420973E6526 |
+| geology/ngdr/NGDR_Geology_2M.geojsonl.7z | Même couche en GeoJSONSeq compressé. **Inutilisable ici** : l'extraction par tar (Windows) échoue (PPMd) et produit un fichier corrompu ; GDAL local sans /vsi7z/. Conservé pour provenance ; lire le .parquet | idem | 2026-09-23 | 98C84FA8EF98CB7676334ED687FCEC76AF293BB469FD0F4F0AA9AEFF97631650 |

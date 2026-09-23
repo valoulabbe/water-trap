@@ -1,0 +1,25 @@
+Messages d'avis :
+1: le package 'sf' a été compilé avec la version R 4.5.3 
+2: le package 'data.table' a été compilé avec la version R 4.5.3 
+Tampon de 5 km autour d'un puits : erreur d'AIRE selon la projection
+(tampon construit ET mesure dans la meme projection ; reference = pi*R^2)
+
+     STATE   lat aeqd_pct lcc7755_pct laea_pct
+    <char> <num>    <num>       <num>    <num>
+ 1:     TN  8.08  -0.0457     -0.0457  -0.0457
+ 2:     TN 11.62  -0.0457     -0.0457  -0.0457
+ 3:     KA 14.29  -0.0457     -0.0457  -0.0457
+ 4:     KA 17.18  -0.0457     -0.0457  -0.0457
+ 5:     CG 19.37  -0.0457     -0.0457  -0.0457
+ 6:     MS 21.02  -0.0457     -0.0457  -0.0457
+ 7:     OD 22.24  -0.0457     -0.0457  -0.0457
+ 8:     WB 23.33  -0.0457     -0.0457  -0.0457
+ 9:     WB 24.77  -0.0457     -0.0457  -0.0457
+10:     UP 26.43  -0.0457     -0.0457  -0.0457
+11:     HR 29.06  -0.0457     -0.0457  -0.0457
+12:     JK 34.62  -0.0457     -0.0457  -0.0457
+
+Etendue entre puits (points de %) :
+  AEQD local : 0 
+  EPSG:7755  : 0 
+  LAEA Inde  : 0 

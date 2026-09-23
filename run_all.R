@@ -22,6 +22,9 @@
 #   code/02_shrug_water.R          public-water outcomes, 1991/2001/2011
 #   code/03_cgwb_long.R            CGWB May (pre-monsoon) panel + QC
 #   code/04_shrid_centroids_dist.R shrid centroids; distance to nearest well
+#   code/05_diag_missing_tap.R     missingness diagnostics
+#   code/08_wells_in_villages.R    CGWB well -> village link (st_within)
+#   (06, 07 frozen: interpolation for the dropped RD design; see STEPS below)
 #
 # Logs: output/logs/
 # ---------------------------------------------------------------------------
@@ -40,8 +43,10 @@ STEPS <- c(
   "code/03_cgwb_long.R",
   "code/04_shrid_centroids_dist.R",
   "code/05_diag_missing_tap.R",
-  "code/06_interp_loo_up.R",
-  "code/07_temporal_noise_up.R",
+  # 06 and 07 FROZEN (2026-09-23): interpolation built for the dropped 8 m RD
+  # design. Kept as committed, with their logs and tables; not rerun.
+  # Findings carried forward: within-well SD of May depth (median 0.73 m) and
+  # variogram range 30-70 km. Run by hand if ever needed.
   "code/08_wells_in_villages.R"
 )
 

@@ -4,6 +4,12 @@
 # A LANCER SEUL, PAS DANS run_all.R :
 #     Rscript code/00_convert_dta.R                # les 59 tables
 #     Rscript code/00_convert_dta.R --used-only    # les 8 tables du pipeline
+#     ... --force                                  # reconvertir meme si a jour
+#
+# OBSERVABILITE. Chaque sous-etape (chargement de haven, hachage, lecture,
+# ecriture) est horodatee et ecrite sur disque aussitot : si le script se
+# bloque, la derniere ligne du log nomme l'etape et la table en cause. Les
+# erreurs sont recopiees dans le log (sinon elles ne vont qu'au terminal).
 #
 # POURQUOI. Sur cette machine, une politique de controle d'application Windows
 # bloque par INTERMITTENCE le chargement des DLL de packages R depuis le cache
@@ -34,6 +40,7 @@ log_open(p_log("00_convert_dta.log"))
 
 args      <- commandArgs(trailingOnly = TRUE)
 used_only <- "--used-only" %in% args
+force     <- "--force" %in% args
 
 # Les tables effectivement lues par run_all.R (etapes 1, 2, 4, 5, 6, 8).
 TABLES_PIPELINE <- c(
@@ -51,7 +58,8 @@ msg("raw/ reste immuable : ouvert en LECTURE SEULE. Les .rds de build/ sont des"
 msg("copies derivees, jamais la source de verite.")
 msg("")
 msg("Mode : ", if (used_only) "--used-only (tables du pipeline seulement)"
-              else "complet (toutes les tables de raw/shrug/)")
+              else "complet (toutes les tables de raw/shrug/)",
+    if (force) " + --force (tout reconvertir)" else "")
 
 # ===========================================================================
 # Inventaire
@@ -118,7 +126,26 @@ sha256_of <- function(path) {
 # ===========================================================================
 # Conversion
 # ===========================================================================
+hr("Chargement de haven")
+
+# Etape isolee et chronometree : c'est ici que le blocage des DLL par la
+# politique de controle d'application se manifeste, pas dans la lecture.
+t_h <- Sys.time()
+tmsg("chargement de l'espace de noms haven ...")
+haven_ok <- requireNamespace("haven", quietly = TRUE)
+tmsg("haven ", if (haven_ok) "charge" else "INDISPONIBLE", " (", secs_since(t_h), ")")
+check(haven_ok, "haven se charge",
+      "probablement le blocage des DLL par la politique de controle d'application")
+
 hr("Conversion")
+
+# Restes d'une ecriture interrompue : jamais pris pour un .rds valide.
+parts <- list.files("build", pattern = "\\.rds\\.part$", full.names = TRUE)
+if (length(parts) > 0) {
+  msg("  fichiers partiels d'une execution interrompue, supprimes :")
+  for (f in parts) note("    ", f)
+  file.remove(parts)
+}
 
 res <- vector("list", length(dta))
 n_conv <- 0L; n_skip <- 0L
@@ -127,10 +154,16 @@ for (i in seq_along(dta)) {
   src <- dta[i]
   rel <- sub("^raw/", "", src)
   rds <- dta_rds_path(src)
+  lab <- sprintf("[%d/%d] %s", i, length(dta), bn[i])
+
+  t_s <- Sys.time()
+  tmsg(lab, " : hachage SHA256 (", sprintf("%.0f Mo", taille[i] / 1048576), ") ...")
   sha <- sha256_of(src)
+  tmsg(lab, " : hachage fait (", secs_since(t_s), ")")
 
   prev <- man[dta == rel]
-  a_jour <- file.exists(rds) && nrow(prev) == 1L && identical(prev$sha256[1], sha)
+  a_jour <- !force && file.exists(rds) && nrow(prev) == 1L &&
+    identical(prev$sha256[1], sha)
 
   if (a_jour) {
     n_skip <- n_skip + 1L
@@ -144,8 +177,28 @@ for (i in seq_along(dta)) {
 
   # Lecture DIRECTE du .dta : prefer_rds = FALSE, sinon on relirait la copie
   # qu'on est justement en train de reconstruire.
-  d <- read_dta_chk(src, prefer_rds = FALSE)
-  saveRDS(d, rds, compress = TRUE)
+  # Les erreurs sont recopiees dans le log avant d'arreter le script.
+  t_r <- Sys.time()
+  tmsg(lab, " : lecture du .dta ...")
+  d <- withCallingHandlers(
+    read_dta_chk(src, prefer_rds = FALSE),
+    error = function(e) tmsg(lab, " : ERREUR a la lecture : ", conditionMessage(e)))
+  tmsg(lab, " : lu, ", format(nrow(d), big.mark = ","), " x ", ncol(d),
+       " (", secs_since(t_r), ")")
+
+  # Ecriture atomique : .part puis renommage. Un arret pendant saveRDS laisse
+  # un .part (supprime a la relance), jamais un .rds tronque qui passerait
+  # pour valide.
+  t_w <- Sys.time()
+  tmsg(lab, " : ecriture de ", rds, " ...")
+  tmp <- paste0(rds, ".part")
+  withCallingHandlers({
+    saveRDS(d, tmp, compress = TRUE)
+    if (file.exists(rds)) file.remove(rds)
+    check(file.rename(tmp, rds), paste0(lab, " : renommage .part -> .rds"))
+  }, error = function(e) tmsg(lab, " : ERREUR a l'ecriture : ", conditionMessage(e)))
+  tmsg(lab, " : ecrit, ", sprintf("%.0f Mo", file.size(rds) / 1048576),
+       " (", secs_since(t_w), ")")
   n_conv <- n_conv + 1L
 
   res[[i]] <- data.table(dta = rel, sha256 = sha,
@@ -191,8 +244,8 @@ msg("  Les etapes du pipeline liront desormais ces .rds automatiquement :")
 msg("  read_dta_chk() prefere build/<base>.rds et ne retombe sur le .dta que si")
 msg("  le .rds est absent. Aucun appel a modifier dans les etapes.")
 msg("")
-msg("  Pour forcer une reconversion : supprimer build/dta_conversion_manifest.csv")
-msg("  (ou le .rds concerne) et relancer.")
+msg("  Pour forcer une reconversion : relancer avec --force (ou supprimer le .rds")
+msg("  concerne).")
 
 hr("CONVERSION TERMINEE")
 log_close()

@@ -1,0 +1,49 @@
+Messages d'avis :
+1: le package 'sf' a été compilé avec la version R 4.5.3 
+2: le package 'data.table' a été compilé avec la version R 4.5.3 
+=== Definition EPSG:7755 ===
++proj=lcc +lat_0=24 +lon_0=80 +lat_1=12.472955 +lat_2=35.1728044444444 +x_0=4000000 +y_0=4000000 +datum=WGS84 +units=m +no_defs 
+
+districts: 641 
+
+Messages d'avis :
+1: st_point_on_surface assumes attributes are constant over geometries 
+2: Dans st_point_on_surface.sfc(st_geometry(x)) :
+  st_point_on_surface may not give correct results for longitude/latitude data
+=== Erreur d'AIRE dans EPSG:7755 (conforme) ===
+    0%     5%    25%    50%    75%    95%   100% 
+-4.075 -4.070 -3.992 -3.757 -2.816  0.427  3.722 
+
+=== Erreur d'AIRE dans LAEA equivalente ===
+    0%     5%    25%    50%    75%    95%   100% 
+-0.424 -0.396 -0.281 -0.216 -0.168 -0.080  0.006 
+
+=== Erreur sur une DENSITE longueur/aire calculee dans 7755 ===
+    0%     5%    25%    50%    75%    95%   100% 
+-1.811 -0.213  1.438  1.933  2.058  2.100  2.102 
+
+=== Erreur d'aire 7755 par bande de latitude ===
+     bande     n err_aire_pct err_dens_pct
+    <fctr> <int>        <num>        <num>
+1:  (6,12]    45         1.09        -0.54
+2: (12,16]    39        -1.13         0.57
+3: (16,20]    57        -3.13         1.60
+4: (20,24]   148        -3.97         2.04
+5: (24,28]   227        -3.90         2.01
+6: (28,32]    98        -2.98         1.53
+7: (32,38]    27        -1.12         0.57
+
+=== Extremes (aire) ===
+                 dist   lat err_aire_pct err_dens_pct
+               <char> <num>        <num>        <num>
+1:             Bokaro 23.70        -4.07         2.10
+2:            Ramgarh 23.70        -4.07         2.10
+3:            Dhanbad 23.85        -4.07         2.10
+4: Thiruvananthapuram  8.58         2.67        -1.31
+5:      Kanniyakumari  8.33         2.95        -1.44
+6:           Nicobars  7.00         3.72        -1.81
+
+=== Uttar Pradesh seul (state 09) ===
+n = 71 
+erreur aire  : moyenne -3.713 % | min -4.059 | max -2.91 
+erreur densite: moyenne 1.91 % | min 1.487 | max 2.093 

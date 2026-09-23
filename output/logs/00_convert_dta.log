@@ -1,6 +1,6 @@
 ==============================================================================
 LOG: output/logs/00_convert_dta.log
-Run started: 2026-09-22 22:07:34
+Run started: 2026-09-23 16:17:14
 ==============================================================================
 
 CONVERSION DES .dta SHRUG EN .rds
@@ -30,5 +30,110 @@ Manifeste
   build/dta_conversion_manifest.csv : absent, il sera cree
 
 ------------------------------------------------------------------------------
+Chargement de haven
+------------------------------------------------------------------------------
+[2026-09-23 16:17:14] chargement de l'espace de noms haven ...
+[2026-09-23 16:17:14] haven charge (0.2 s)
+  [OK]   haven se charge
+
+------------------------------------------------------------------------------
 Conversion
 ------------------------------------------------------------------------------
+[2026-09-23 16:17:14] [1/8] pc01_vd_clean_shrid.dta : hachage SHA256 (450 Mo) ...
+[2026-09-23 16:17:15] [1/8] pc01_vd_clean_shrid.dta : hachage fait (0.5 s)
+[2026-09-23 16:17:15] [1/8] pc01_vd_clean_shrid.dta : lecture du .dta ...
+[2026-09-23 16:17:20] [1/8] pc01_vd_clean_shrid.dta : lu, 527,920 x 110 (5.1 s)
+[2026-09-23 16:17:20] [1/8] pc01_vd_clean_shrid.dta : ecriture de build/pc01_vd_clean_shrid.rds ...
+  [OK]   [1/8] pc01_vd_clean_shrid.dta : renommage .part -> .rds
+[2026-09-23 16:17:25] [1/8] pc01_vd_clean_shrid.dta : ecrit, 24 Mo (5.1 s)
+  [converti] pc01_vd_clean_shrid.dta                  527,920 lignes x 110 col.  SHA256 source 95D2E08288D228F1...
+[2026-09-23 16:17:25] [2/8] pc01r_shrid_key.dta : hachage SHA256 (28 Mo) ...
+[2026-09-23 16:17:25] [2/8] pc01r_shrid_key.dta : hachage fait (0.3 s)
+[2026-09-23 16:17:25] [2/8] pc01r_shrid_key.dta : lecture du .dta ...
+[2026-09-23 16:17:26] [2/8] pc01r_shrid_key.dta : lu, 591,668 x 7 (0.7 s)
+[2026-09-23 16:17:26] [2/8] pc01r_shrid_key.dta : ecriture de build/pc01r_shrid_key.rds ...
+  [OK]   [2/8] pc01r_shrid_key.dta : renommage .part -> .rds
+[2026-09-23 16:17:27] [2/8] pc01r_shrid_key.dta : ecrit, 6 Mo (1.1 s)
+  [converti] pc01r_shrid_key.dta                      591,668 lignes x   7 col.  SHA256 source 49FD094AE6CC932D...
+[2026-09-23 16:17:27] [3/8] pc11_vd_clean_shrid.dta : hachage SHA256 (1262 Mo) ...
+[2026-09-23 16:17:29] [3/8] pc11_vd_clean_shrid.dta : hachage fait (1.9 s)
+[2026-09-23 16:17:29] [3/8] pc11_vd_clean_shrid.dta : lecture du .dta ...
+[2026-09-23 16:17:44] [3/8] pc11_vd_clean_shrid.dta : lu, 588,973 x 284 (14.9 s)
+[2026-09-23 16:17:44] [3/8] pc11_vd_clean_shrid.dta : ecriture de build/pc11_vd_clean_shrid.rds ...
+  [OK]   [3/8] pc11_vd_clean_shrid.dta : renommage .part -> .rds
+[2026-09-23 16:17:56] [3/8] pc11_vd_clean_shrid.dta : ecrit, 45 Mo (12.1 s)
+  [converti] pc11_vd_clean_shrid.dta                  588,973 lignes x 284 col.  SHA256 source 476C79E44CF3800B...
+[2026-09-23 16:17:56] [4/8] pc11r_shrid_key.dta : hachage SHA256 (29 Mo) ...
+[2026-09-23 16:17:57] [4/8] pc11r_shrid_key.dta : hachage fait (0.3 s)
+[2026-09-23 16:17:57] [4/8] pc11r_shrid_key.dta : lecture du .dta ...
+[2026-09-23 16:17:58] [4/8] pc11r_shrid_key.dta : lu, 597,597 x 7 (0.8 s)
+[2026-09-23 16:17:58] [4/8] pc11r_shrid_key.dta : ecriture de build/pc11r_shrid_key.rds ...
+  [OK]   [4/8] pc11r_shrid_key.dta : renommage .part -> .rds
+[2026-09-23 16:17:59] [4/8] pc11r_shrid_key.dta : ecrit, 6 Mo (1.3 s)
+  [converti] pc11r_shrid_key.dta                      597,597 lignes x   7 col.  SHA256 source 95FB8D371E48193D...
+[2026-09-23 16:17:59] [5/8] pc91_vd_clean_shrid.dta : hachage SHA256 (436 Mo) ...
+[2026-09-23 16:18:00] [5/8] pc91_vd_clean_shrid.dta : hachage fait (0.7 s)
+[2026-09-23 16:18:00] [5/8] pc91_vd_clean_shrid.dta : lecture du .dta ...
+[2026-09-23 16:18:04] [5/8] pc91_vd_clean_shrid.dta : lu, 564,855 x 100 (4.0 s)
+[2026-09-23 16:18:04] [5/8] pc91_vd_clean_shrid.dta : ecriture de build/pc91_vd_clean_shrid.rds ...
+  [OK]   [5/8] pc91_vd_clean_shrid.dta : renommage .part -> .rds
+[2026-09-23 16:18:08] [5/8] pc91_vd_clean_shrid.dta : ecrit, 16 Mo (4.7 s)
+  [converti] pc91_vd_clean_shrid.dta                  564,855 lignes x 100 col.  SHA256 source 53EBF827DA98E195...
+[2026-09-23 16:18:09] [6/8] pc91r_shrid_key.dta : hachage SHA256 (25 Mo) ...
+[2026-09-23 16:18:09] [6/8] pc91r_shrid_key.dta : hachage fait (0.2 s)
+[2026-09-23 16:18:09] [6/8] pc91r_shrid_key.dta : lecture du .dta ...
+[2026-09-23 16:18:09] [6/8] pc91r_shrid_key.dta : lu, 570,426 x 7 (0.8 s)
+[2026-09-23 16:18:10] [6/8] pc91r_shrid_key.dta : ecriture de build/pc91r_shrid_key.rds ...
+  [OK]   [6/8] pc91r_shrid_key.dta : renommage .part -> .rds
+[2026-09-23 16:18:11] [6/8] pc91r_shrid_key.dta : ecrit, 5 Mo (1.6 s)
+  [converti] pc91r_shrid_key.dta                      570,426 lignes x   7 col.  SHA256 source 50E02D8B89B095C1...
+[2026-09-23 16:18:11] [7/8] shrid_loc_names.dta : hachage SHA256 (147 Mo) ...
+[2026-09-23 16:18:12] [7/8] shrid_loc_names.dta : hachage fait (0.4 s)
+[2026-09-23 16:18:12] [7/8] shrid_loc_names.dta : lecture du .dta ...
+[2026-09-23 16:18:13] [7/8] shrid_loc_names.dta : lu, 596,389 x 7 (1.6 s)
+[2026-09-23 16:18:13] [7/8] shrid_loc_names.dta : ecriture de build/shrid_loc_names.rds ...
+  [OK]   [7/8] shrid_loc_names.dta : renommage .part -> .rds
+[2026-09-23 16:18:15] [7/8] shrid_loc_names.dta : ecrit, 7 Mo (2.1 s)
+  [converti] shrid_loc_names.dta                      596,389 lignes x   7 col.  SHA256 source 5265FB011EEDEE57...
+[2026-09-23 16:18:16] [8/8] shrid2_spatial_stats.dta : hachage SHA256 (164 Mo) ...
+[2026-09-23 16:18:16] [8/8] shrid2_spatial_stats.dta : hachage fait (0.4 s)
+[2026-09-23 16:18:16] [8/8] shrid2_spatial_stats.dta : lecture du .dta ...
+[2026-09-23 16:18:18] [8/8] shrid2_spatial_stats.dta : lu, 596,358 x 20 (1.8 s)
+[2026-09-23 16:18:18] [8/8] shrid2_spatial_stats.dta : ecriture de build/shrid2_spatial_stats.rds ...
+  [OK]   [8/8] shrid2_spatial_stats.dta : renommage .part -> .rds
+[2026-09-23 16:18:21] [8/8] shrid2_spatial_stats.dta : ecrit, 32 Mo (3.0 s)
+  [converti] shrid2_spatial_stats.dta                 596,358 lignes x  20 col.  SHA256 source DEFD967DCE86B397...
+
+------------------------------------------------------------------------------
+BILAN
+------------------------------------------------------------------------------
+  tables converties : 8
+  tables inchangees : 0
+  manifeste         : build/dta_conversion_manifest.csv
+  .rds presents     : 8 / 8
+  volume .rds       : 140.3 Mo
+
+  Lignes par table :
+                      table lignes    col
+                     <char> <char> <char>
+1:  pc01_vd_clean_shrid.dta 527920    110
+2:      pc01r_shrid_key.dta 591668      7
+3:  pc11_vd_clean_shrid.dta 588973    284
+4:      pc11r_shrid_key.dta 597597      7
+5:  pc91_vd_clean_shrid.dta 564855    100
+6:      pc91r_shrid_key.dta 570426      7
+7:      shrid_loc_names.dta 596389      7
+8: shrid2_spatial_stats.dta 596358     20
+
+  Les etapes du pipeline liront desormais ces .rds automatiquement :
+  read_dta_chk() prefere build/<base>.rds et ne retombe sur le .dta que si
+  le .rds est absent. Aucun appel a modifier dans les etapes.
+
+  Pour forcer une reconversion : relancer avec --force (ou supprimer le .rds
+  concerne).
+
+------------------------------------------------------------------------------
+CONVERSION TERMINEE
+------------------------------------------------------------------------------
+
+Run finished: 2026-09-23 16:18:21
