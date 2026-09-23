@@ -1,0 +1,127 @@
+==============================================================================
+LOG: output/logs/09_geology_by_state.log
+Run started: 2026-09-23 16:43:10
+==============================================================================
+
+ETAPE 9 -- VARIATION GEOLOGIQUE ET PUITS CGWB, PAR ETAT
+
+Aucune regression, aucune variable de resultat. Geologie + puits seulement.
+La couche des aquiferes principaux CGWB (India-WRIS) n'est PAS utilisee :
+le serveur arc.indiawris.gov.in ne repond pas depuis cette machine (connexion
+TCP expiree le 2026-09-23). Seule la carte geologique GSI 1:2M est lue.
+
+------------------------------------------------------------------------------
+9a. Carte geologique GSI 1:2M (etape 1)
+------------------------------------------------------------------------------
+  [OK]   source presente : raw/geology/ngdr/NGDR_Geology_2M.parquet
+[2026-09-23 16:43:10] etape 1/3 geologie : debut (sortie absente)
+[2026-09-23 16:43:11]     4531 polygones lus ; invalides avant reparation : 99
+  [OK]   etape 1/3 geologie : sortie ecrite -> build/09_geologie_2m_laea.gpkg
+[2026-09-23 16:43:16] etape 1/3 geologie : fini (5.7 s)
+  [OK]   geologie : 4 531 polygones
+  [OK]   geologie : toutes les geometries valides apres reparation
+  aire totale : 3 264 421 km2 (Inde : ~3 287 000 km2)
+  [OK]   geologie : aire totale a +/-3 % de celle de l'Inde
+  unites : 504 ; ages : 72 ; super-groupes : 19 (dont '(aucun)')
+
+------------------------------------------------------------------------------
+9b. Grille de 5 km (etape 2)
+------------------------------------------------------------------------------
+[2026-09-23 16:43:19] etape 2/3 grille 5 km : debut (sortie absente)
+[2026-09-23 16:43:21]     384,780 points dans l'emprise ; rattachement aux districts ...
+[2026-09-23 16:43:23]     districts : 1 point(s) sur une frontiere, premier polygone garde
+[2026-09-23 16:43:23]     130,574 points dans un district ; rattachement a la geologie ...
+[2026-09-23 16:43:24]     geologie : 26 point(s) sur une frontiere, premier polygone garde
+  [OK]   etape 2/3 grille 5 km : sortie ecrite -> build/09_grille5km.rds
+[2026-09-23 16:43:24] etape 2/3 grille 5 km : fini (5.0 s)
+  points dans un district : 130,574, soit 3 264 350 km2
+  [OK]   grille : aire couverte a +/-5 % de celle de l'Inde
+  points hors de toute unite geologique : 838 (0.64 %)
+  points a age absent ou non cartographie (quat = NA) : 1,329
+
+------------------------------------------------------------------------------
+9c. Puits CGWB (etape 3)
+------------------------------------------------------------------------------
+[2026-09-23 16:43:24] etape 3/3 puits : debut (sortie absente)
+[2026-09-23 16:43:26]     districts : 0 point(s) sur une frontiere, premier polygone garde
+[2026-09-23 16:43:27]     geologie : 4 point(s) sur une frontiere, premier polygone garde
+  [OK]   etape 3/3 puits : sortie ecrite -> build/09_puits_geo.rds
+[2026-09-23 16:43:27] etape 3/3 puits : fini (2.7 s)
+  [OK]   puits CGWB : 28 076 dans build/cgwb_wells.rds
+  [OK]   puits : un seul rattachement par WLCODE
+  puits a coordonnees valides : 28,076 ; ecartes (coordonnees) : 0
+  puits hors de tout district pc11 : 13 (exclus des tableaux par Etat)
+  puits hors de toute unite geologique : 250
+  dont avec au moins une lecture de mai : 26,936 ; premiere lecture de mai <= 2000 : 13,875
+
+------------------------------------------------------------------------------
+9d. Noms d'Etat
+------------------------------------------------------------------------------
+  Etats nommes : 35
+
+------------------------------------------------------------------------------
+9e. Variation geologique au sein des districts (aires, grille)
+------------------------------------------------------------------------------
+  636 districts ; ecrit : 09_districts_geologie.csv
+
+------------------------------------------------------------------------------
+9f. Tableau par Etat
+------------------------------------------------------------------------------
+  Etats de plus de 5 000 km2, tries par ctr_q (decroissant).
+  km2 en milliers ; dens = puits avec une lecture de mai / 1 000 km2 ;
+  gs_dist = moyenne sur les districts de l'indice de Gini-Simpson des unites
+  (0 = une seule unite, ->1 = tres fragmente) ; dist_mixtes = part des
+  districts ou Quaternaire et non-Quaternaire couvrent chacun >= 10 % ;
+  ctr_q / ctr_u = puits dans un contraste intra-district (voir le code).
+
+                etat     id   km2  dist units u1pct  sgrp quat_aire gs_dist dist_mixtes puits p_mai p_9600  dens quat_puits eff_u ctr_q ctr_u
+              <char> <char> <num> <int> <int> <int> <int>     <num>   <num>       <num> <int> <int>  <int> <num>      <num> <num> <int> <int>
+ 1:   andhra pradesh     28   274    23    53    16     9      0.08    0.55        0.26  3089  2966   1114  10.8       0.12   5.4   342  1175
+ 2:          gujarat     24   182    26    40     9     4      0.51    0.33        0.58  1637  1589   1106   8.8       0.53   2.8   334   455
+ 3:           kerala     32    38    14    17     7     2      0.10    0.52        0.29  1974  1908    770  50.2       0.17   4.3   225   717
+ 4:           odisha     21   155    30    45    13     5      0.20    0.50        0.23  1983  1938    968  12.5       0.36   5.0   185   630
+ 5:      maharashtra     27   306    35    33     6     7      0.06    0.25        0.26  2328  2185   1268   7.1       0.09   1.8   183   442
+ 6:       tamil nadu     33   129    32    29     9     4      0.17    0.50        0.34  1423  1350    940  10.4       0.18   5.1   166   535
+ 7:      west bengal     19    82    19    20     5     1      0.82    0.14        0.21  2125  2018    810  24.6       0.87   1.3   150   174
+ 8:        rajasthan     08   341    33    66     8     7      0.70    0.39        0.33  1733  1689    955   5.0       0.69   2.1   144   354
+ 9:   madhya pradesh     23   309    50    41    12     5      0.12    0.45        0.30  1797  1770   1137   5.7       0.13   3.7   128   494
+10:    jammu kashmir     01   214    23    88    23     0      0.08    0.73        0.52   249   248     87   1.2       0.61   2.5    45    64
+11:    uttar pradesh     09   240    71    16     3     2      0.92    0.05        0.10  1710  1671   1307   7.0       0.95   1.1    41    52
+12: himachal pradesh     02    56    12    48    24     0      0.04    0.76        0.25   124   120     77   2.2       0.57   2.7    27    42
+13:        jharkhand     20    80    24    31    11     2      0.06    0.43        0.21   386   359    210   4.5       0.10   2.5    23    94
+14:            bihar     10    94    38    10     4     1      0.91    0.10        0.21  1005   975    451  10.4       0.98   1.0    20    20
+15:        karnataka     29   192    30    35    14     5      0.00    0.45        0.00  2509  2423   1131  12.6       0.00   4.3     9   680
+16:           punjab     03    50    20     4     2     0      0.97    0.06        0.15  1223  1164    415  23.2       0.99   1.0     8     8
+17:          haryana     06    44    21     8     1     1      0.98    0.07        0.14  1196  1057    468  23.9       0.99   1.0     7     7
+18:        meghalaya     17    22     7    15    11     1      0.02    0.64        0.14    38    35     28   1.6       0.17   5.9     5    15
+19: arunachal prades     12    81    16    33    18     1      0.06    0.62        0.25    19    18     12   0.2       0.50   3.0     2     2
+20:         nagaland     13    16    11    11     9     0      0.04    0.58        0.18    17    17      2   1.0       0.47   3.2     2     2
+21:     chhattisgarh     22   136    18    39    14     6      0.00    0.58        0.00  1424  1371    592  10.1       0.00   5.0     1   426
+22:      uttarakhand     05    53    13    44    17     0      0.16    0.63        0.23     1     1      0   0.0       1.00   1.0     0     0
+23:           sikkim     11     7     4    11     8     1      0.00    0.52        0.00     0     0      0   0.0         NA    NA     0     0
+24:          manipur     14    22     9     8     7     0      0.08    0.45        0.33     9     2      1   0.1       1.00   1.0     0     0
+25:          mizoram     15    21     8     3     3     0      0.00    0.15        0.00     0     0      0   0.0         NA    NA     0     0
+26:          tripura     16    10     4     3     3     0      0.00    0.55        0.00    59    57     24   5.6       0.00   2.0     0    19
+27:            assam     18    78    27    13     8     1      0.71    0.23        0.33     1     1      1   0.0       1.00   1.0     0     0
+28: andaman nicobar      35     6     3     7     5     0      0.00    0.58        0.00     0     0      0   0.0         NA    NA     0     0
+                etat     id   km2  dist units u1pct  sgrp quat_aire gs_dist dist_mixtes puits p_mai p_9600  dens quat_puits eff_u ctr_q ctr_u
+              <char> <char> <num> <int> <int> <int> <int>     <num>   <num>       <num> <int> <int>  <int> <num>      <num> <num> <int> <int>
+
+  Tableau complet (tous les Etats, sans arrondi) : 09_etats_geologie_puits.csv
+  Parts par unite : 09_puits_par_etat_unite.csv, 09_aire_par_etat_unite.csv
+
+------------------------------------------------------------------------------
+RAPPEL DE PORTEE
+------------------------------------------------------------------------------
+Geologie et position des puits seulement. Aucune profondeur regressee,
+aucune variable de resultat lue.
+
+------------------------------------------------------------------------------
+ETAPE 9 TERMINEE
+------------------------------------------------------------------------------
+  09_aire_par_etat_unite.csv
+  09_districts_geologie.csv
+  09_etats_geologie_puits.csv
+  09_puits_par_etat_unite.csv
+
+Run finished: 2026-09-23 16:43:29
