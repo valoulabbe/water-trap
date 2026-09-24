@@ -1,0 +1,55 @@
+unit,age,supergroup,group,principal_aquifer,system,hard_rock,confidence,note,km2_ap,wells_ap
+DECCAN TRAP,LATE CRETACEOUS - PALAEOCENE,DECCAN TRAP,"",Basalt,basalte,TRUE,sur,basaltes du Deccan,8825,105
+CHARNOCKITE GNEISSIC COMPLEX (EASTERN GHAT),ARCHAEAN - PROTEROZOIC,EASTERN GHAT,CHARNOCKITE,Charnockite,cristallin,TRUE,sur,Ghats orientaux,6775,45
+CHARNOCKITE GNEISSIC COMPLEX (SOUTHERN GRANULITE TERRAIN),ARCHAEAN - PROTEROZOIC,SOUTHERN GRANULITE TERRAIN,CHARNOCKITE,Charnockite,cristallin,TRUE,sur,"charnockites, terrain granulitique du sud",950,12
+KARIMNAGAR GRANULITE,ARCHAEAN- PALAEOPROTEROZOIC,"","",Charnockite,cristallin,TRUE,a verifier,"granulites de Karimnagar, rangees avec les charnockites (facies granulite)",250,2
+PENINSULAR GNEISSIC COMPLEX-II  (GNEISS DOMINATED),ARCHAEAN- PALAEOPROTEROZOIC,PENINSULAR GNEISSIC COMPLEX,PENINSULAR GNEISSIC COMPLEX-II,Gneiss,cristallin,TRUE,sur,"PGC-II, facies gneissique",36300,336
+MIGMATITE GNEISSIC COMPLEX (EASTERN GHAT),ARCHAEAN - PROTEROZOIC,EASTERN GHAT,MIGMATITE,Gneiss,cristallin,TRUE,sur,migmatites des Ghats orientaux,12125,147
+BENGPAL GNEISS / BIJAPUR GNEISSIC COMPLEX Gp.,ARCHAEAN,"",BENGPAL GNEISS,Gneiss,cristallin,TRUE,a verifier,gneiss de Bengpal / complexe de Bijapur,3325,16
+PENINSULAR GNEISSIC COMPLEX-I,ARCHAEAN,PENINSULAR GNEISSIC COMPLEX,PENINSULAR GNEISSIC COMPLEX-I,Gneiss,cristallin,TRUE,sur,PGC-I,650,7
+PROTEROZOIC EPIDOTE-HORNBLENDE GNEISS,PROTEROZOIC,"","",Gneiss,cristallin,TRUE,sur,gneiss,175,1
+SUKMA Gp.,ARCHAEAN,"",SUKMA,Gneiss,cristallin,TRUE,a verifier,"groupe de Sukma (gneiss, BIF, quartzites)",25,0
+PENINSULAR GNEISSIC COMPLEX-II (GRANITE DOMINATED),ARCHAEAN- PALAEOPROTEROZOIC,PENINSULAR GNEISSIC COMPLEX,PENINSULAR GNEISSIC COMPLEX-II,Granite,cristallin,TRUE,sur,"PGC-II, facies granitique",84825,1127
+CLOSEPET GRANITE,ARCHAEAN- PALAEOPROTEROZOIC,"","",Granite,cristallin,TRUE,sur,granite de Closepet,5875,71
+ACID  INTRUSIVE / GRANITE / GRANODIORITE,ARCHAEAN / NEOPROTEROZOIC / MESOPROTEROZOIC / PALAEOPROTEROZOIC / TERTIARY / MESOZOIC / MESOZOIC - TERTIARY / ARCHAEAN- PALAEOPROTEROZOIC / PROTEROZOIC / CENOZOIC,"","",Intrusive,cristallin,TRUE,sur,granites et granodiorites intrusifs,1625,16
+CHIMAKURTHI COMPLEX Gp.,MESOPROTEROZOIC,"",CHIMAKURTHI COMPLEX,Intrusive,cristallin,TRUE,sur,"complexe mafique-ultramafique (gabbro, anorthosite)",525,4
+TADPATRI SILLS / FLOWS,MESOPROTEROZOIC,"","",Intrusive,cristallin,TRUE,sur,sills et coulees basiques,225,1
+CHIMALPAD COMPLEX Fm.,ARCHAEAN,"","",Intrusive,cristallin,TRUE,sur,complexe anorthositique,125,2
+KUNAVARAM Fm. (ALKALINE INTRUSIVE),MESOPROTEROZOIC,"","",Intrusive,cristallin,TRUE,sur,intrusif alcalin,100,1
+BASIC INTRUSIVE (VEMPALLI SILLS / FLOWS),MESOPROTEROZOIC,"","",Intrusive,cristallin,TRUE,sur,sills basiques de Vempalli,25,0
+VEMPALLI SILLS / FLOWS,MESOPROTEROZOIC,"","",Intrusive,cristallin,TRUE,sur,sills basiques de Vempalli,0,1
+KHONDALITE GNEISSIC COMPLEX (EASTERN GHAT),ARCHAEAN - PROTEROZOIC,EASTERN GHAT,KHONDALITE,Khondalite,cristallin,TRUE,sur,Ghats orientaux,13450,120
+NELLORE GP. (DHARWAR SGp..),ARCHAEAN,DHARWAR,NELLORE,Schist,cristallin,TRUE,sur,ceinture de roches vertes / schistes (Dharwar),1475,12
+GADWAL Gp. (DHARWAR SGp.),ARCHAEAN,DHARWAR,GADWAL,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),1000,10
+RAMAGIRI - PENAKACHERLA  Gp. (DHARWAR SGp.).,ARCHAEAN,DHARWAR,RAMAGIRI-PENAKACHERLA,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),450,2
+KADIRI Gp. (DHARWAR SGp.),ARCHAEAN,DHARWAR,KADIRI,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),325,3
+VELIGALLU Gp. (DHARWAR SGp.),ARCHAEAN,DHARWAR,VELIGALLU,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),275,2
+KOLAR GOLD FIELD VOLCANICS Fm.(DHARWAR SGp.),ARCHAEAN,DHARWAR,KOLAR,Schist,cristallin,TRUE,sur,volcanites de Kolar (roches vertes),75,0
+PEDDAVURU Gp.(DHARWAR SGp.),ARCHAEAN,DHARWAR,PEDDAVURU,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),75,0
+BENGPAL Gp.,ARCHAEAN,"",BENGPAL,Schist,cristallin,TRUE,a verifier,"supracrustal de Bengpal (BIF, schistes)",50,0
+HUNGUND-KUSHTAGI Gp (DHARWAR SGp.),ARCHAEAN,DHARWAR,HUNGUND-KUSHTAGI,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),50,0
+JONNAGIRI Gp. (DHARWAR SGp.),ARCHAEAN,DHARWAR,JONNAGIRI,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),50,0
+TSUNDUPALLI Gp.(DHARWAR SGp.),ARCHAEAN,DHARWAR,TSUNDUPALLI,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),50,0
+SANDUR Gp. (DHARWAR SGp.),ARCHAEAN,DHARWAR,SANDUR,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),25,0
+YERRABALLI Gp.(DHARWAR SGp.),ARCHAEAN,"",YERRABALLI,Schist,cristallin,TRUE,sur,ceinture de schistes (Dharwar),25,0
+UNDIFF.FLUVIAL / AEOLIAN / COASTA & GLACIAL  SEDIMENTS,QUATERNARY,"","",Alluvium,non consolide,FALSE,sur,"alluvions, delta et cote",22775,359
+KURNOOL Gp.(KOILKUNTLA / NANDYAL/ NARJI /OWK/ / PANIAM Fm.),NEOPROTEROZOIC,"",KURNOOL,Limestone,sedimentaire consolide,TRUE,a verifier,"Kurnool : calcaires Narji/Koilkuntla + schistes Owk/Nandyal, quartzite Paniam ; code sur le calcaire dominant",12625,144
+PAPAGHNIi Gp.  (CUDDAPAH SGp.).,MESOPROTEROZOIC,CUDDAPAH,PAPAGHNI,Limestone,sedimentaire consolide,TRUE,a verifier,dolomie de Vempalli dominante + quartzite de Gulcheru a la base,2600,10
+MULUG Gp. (PAKHAL/ ALBAKA SGp.),MESOPROTEROZOIC,PAKHAL/ ALBAKA,MULUG,Limestone,sedimentaire consolide,TRUE,a verifier,"Pakhal inferieur : dolomies, calcaires, quartzites, schistes",2400,5
+PENGANGA Gp.,NEOPROTEROZOIC,"",PENGANGA,Limestone,sedimentaire consolide,TRUE,sur,calcaire de Chanda + schistes,1975,12
+BHIMA Gp,NEOPROTEROZOIC - CAMBRIAN,"",BHIMA,Limestone,sedimentaire consolide,TRUE,sur,calcaires et schistes du bassin de la Bhima,100,2
+NALLAMALAI Gp. (BAIRENKONDA Fm.),MESOPROTEROZOIC,CUDDAPAH,NALLAMALAI,Quartzite,sedimentaire consolide,TRUE,sur,quartzites de Bairenkonda (Nallamalai),5650,9
+UDAIGIRI Gp.,MESOPROTEROZOIC,"",UDAIGIRI,Quartzite,sedimentaire consolide,TRUE,a verifier,"metasediments de la ceinture de Nellore (quartzites, micaschistes, marbre)",3200,19
+SRISAILAM Fm.(CUDDAPAH SGp.),MESOPROTEROZOIC,CUDDAPAH,NALLAMALAI,Quartzite,sedimentaire consolide,TRUE,sur,quartzites de Srisailam,2575,10
+GANDIKOTA Fm (CHITRAVATI Gp),MESOPROTEROZOIC,CUDDAPAH,CHITRAVATI,Quartzite,sedimentaire consolide,TRUE,sur,quartzite de Gandikota,725,2
+KURNOOL Gp (BANGANAPALLI Fm.),NEOPROTEROZOIC,"",KURNOOL,Quartzite,sedimentaire consolide,TRUE,sur,quartzite de Banganapalli (base du Kurnool),175,0
+SULLAVAI (UNCLASFD) Gp.,NEOPROTEROZOIC,"",SULLAVAI (UNCLASFD),Sandstone,sedimentaire consolide,TRUE,sur,gres consolides neoproterozoiques (Sullavai),1050,10
+SULLAVAI Gp.,NEOPROTEROZOIC,"",SULLAVAI,Sandstone,sedimentaire consolide,TRUE,sur,gres de Sullavai,75,1
+NALLAMALAI Gp.(CUMBUM Fm.),MESOPROTEROZOIC,CUDDAPAH,NALLAMALAI,Shale,sedimentaire consolide,TRUE,sur,"phyllades, schistes argileux, dolomie subordonnee (bassin de Cuddapah)",12825,59
+CHITRAVATI Gp.(TADPATRI / PULIVENDLA Fm.),MESOPROTEROZOIC,CUDDAPAH,CHITRAVATI,Shale,sedimentaire consolide,TRUE,a verifier,"Tadpatri (schistes argileux, dolomie, volcanites) + quartzite de Pulivendla ; code sur Tadpatri",3300,38
+MALLAMPALLI Gp. (PAKHAL SGp.),MESOPROTEROZOIC,PAKHAL,MALLAMPALLI,Shale,sedimentaire consolide,TRUE,a verifier,"Pakhal : gres, schistes, dolomie",1575,4
+LATERITE / BAUXITE,CENOZOIC,"","",Laterite,semi-consolide,FALSE,sur,laterite / bauxite,775,17
+"UPPER GONDWANA Gp. (YERRAPALLI , TERANI , SRIPERUMPUDURF, KOTA, MALERI, Fm.Etc)",TRIASSIC - EARLY CRETACEOUS,GONDWANA,UPPER GONDWANA,Sandstone,semi-consolide,FALSE,sur,gres peu consolides (Gondwana superieur),10950,110
+"LOWER GONDWANA Gp.(BARREN MEASURE, KAMTHI, PALI Fm.)",LATE PERMIAN - EARLY TRIASSIC,GONDWANA,LOWER GONDWANA,Sandstone,semi-consolide,FALSE,sur,gres de Kamthi / Barren Measures (Gondwana inferieur),6500,56
+RAJAHMUNDRY Fm.,MIOCENE - PLIOCENE,"","",Sandstone,semi-consolide,FALSE,sur,gres tertiaires cotiers (Mio-Pliocene),1825,44
+"LOWER GONDWANA Gp.( TALCHIR,BARAKAR,RANIGANJ, KARHARBARI Fm.)",LATE CARBONIFEROUS - PERMIAN,GONDWANA,LOWER GONDWANA,Sandstone,semi-consolide,FALSE,sur,"Gondwana inferieur (Talchir, Barakar) : gres, schistes, charbon",300,9

@@ -13,7 +13,7 @@ Sep 18, 2026 · @Someone
 - **Identification (ouverte) :** plus de design imposé. Pour chaque piste, on cherche une variation exogène du **coût du substitut privé** — et non de la demande de service : géologie, prix du capital, date d'arrivée d'une technologie.
 - **Prochaine étape :** premier stage géologique sur les puits CGWB déjà téléchargés, vérification des données IHDS/NFHS sur les filtres, puis note de cadrage à Jack.
 - **Langage :** R (choix acté, pas encore confirmé par le PI).
-- **Règle d'or :** seules les analyses du §5 de la spec, dans l'ordre prévu ; verdict du §8 écrit avant toute discussion de variantes.
+- **Règle d'or :** critère de sortie écrit avant d'estimer, verdict écrit contre ce critère, aucune variante discutée avant le verdict. (Remplace la règle §5/§8 de la spec, retirée le 23/09 avec le design RD.)
 
 ## Trois pistes exploratoires (depuis le 23/09)
 
