@@ -1,0 +1,201 @@
+==============================================================================
+LOG: output/logs/10_piste_a_premier_stage_ap.log
+Run started: 2026-09-24 11:52:13
+==============================================================================
+
+ETAPE 10 -- PISTE A : PORTE DE FAISABILITE DU PREMIER STAGE (ANDHRA PRADESH)
+
+Critere fixe avant estimation : memo/piste_a_premier_stage_critere.md
+  (1) part intra-district de la variance de profondeur >= 0.25
+  (2) gain de R2 hors echantillon (plis = districts) du bloc geologie >= 0.05
+Aucun second stage, aucune variable de resultat.
+  [OK]   recodage AP : 54 unites
+
+------------------------------------------------------------------------------
+10a. Echantillon (etape 1)
+------------------------------------------------------------------------------
+[2026-09-24 11:52:13] etape 1/4 echantillon : debut (sortie absente)
+[2026-09-24 11:52:14]     puits AP avec unite geologique et lecture de mai 1996-2000 : 1113
+[2026-09-24 11:52:14]     dont socle : 884 ; dont khondalite (exclue) : 41
+  [OK]   etape 1/4 echantillon : sortie ecrite -> build/10_echantillon.rds
+[2026-09-24 11:52:14] etape 1/4 echantillon : fini (0.4 s)
+  [OK]   echantillon non vide
+  [OK]   echantillon : WLCODE unique
+  [OK]   profondeur dans [0, 200] m
+  puits : 843 ; districts : 23
+    principal_aquifer     N
+               <char> <int>
+ 1:           Granite   409
+ 2:            Gneiss   236
+ 3:         Limestone    52
+ 4:             Shale    42
+ 5:            Basalt    32
+ 6:         Quartzite    20
+ 7:            Schist    17
+ 8:       Charnockite    17
+ 9:         Intrusive    13
+10:         Sandstone     5
+
+------------------------------------------------------------------------------
+10b. Terrain, CartoDEM (etape 2)
+------------------------------------------------------------------------------
+[2026-09-24 11:52:14] etape 2/4 terrain : debut (sortie absente)
+[2026-09-24 11:52:14]     34 tuiles ; 843 puits a traiter
+[2026-09-24 11:52:16]     100/843
+[2026-09-24 11:52:19]     200/843
+[2026-09-24 11:52:21]     300/843
+[2026-09-24 11:52:23]     400/843
+[2026-09-24 11:52:26]     500/843
+[2026-09-24 11:52:28]     600/843
+[2026-09-24 11:52:31]     700/843
+[2026-09-24 11:52:34]     800/843
+  [OK]   etape 2/4 terrain : sortie ecrite -> build/10_terrain.rds
+[2026-09-24 11:52:35] etape 2/4 terrain : fini (21.1 s)
+  [OK]   terrain : une ligne par puits
+  valeurs manquantes -- altitude : 0, pente : 0, altitude relative : 0
+      elev slope_win relelev_win
+0%   -82.0       0.8       -84.5
+25%   71.0       1.7        -3.6
+50%  248.0       2.0        -0.8
+75%  376.5       2.8         2.1
+100% 995.0      23.5       187.3
+
+------------------------------------------------------------------------------
+10c. Sol, SLUSI (etape 3)
+------------------------------------------------------------------------------
+  [OK]   source presente : raw/slusi/SLUSI_SHC.parquet
+[2026-09-24 11:52:35] etape 3/4 sol : debut (sortie absente)
+[2026-09-24 11:52:36]     analyses SHC dans l'emprise : 450,824
+  [OK]   etape 3/4 sol : sortie ecrite -> build/10_sol.rds
+[2026-09-24 11:52:46] etape 3/4 sol : fini (11.3 s)
+  [OK]   sol : une ligne par puits
+  puits avec moins de 3 analyses a 5 km (sol manquant) : 18
+      n_shc soil_ph soil_oc
+0%      0.0    5.40    0.18
+25%    11.0    7.23    0.38
+50%    20.0    7.50    0.44
+75%    83.5    7.81    0.53
+100% 1064.0    8.58    1.98
+
+------------------------------------------------------------------------------
+10d. Villages du socle, SHRUG 1991 (etape 4)
+------------------------------------------------------------------------------
+[2026-09-24 11:52:46] etape 4/4 villages : debut (sortie absente)
+[2026-09-24 11:52:49]     villages AP du socle (hors khondalite) : 19897
+  [OK]   etape 4/4 villages : sortie ecrite -> build/10_villages.rds
+[2026-09-24 11:52:55] etape 4/4 villages : fini (9.0 s)
+  [OK]   villages : shrid2 unique
+  villages : 19,897 ; avec population 1991 : 19,627 ; avec VD 1991 : 19,614
+
+------------------------------------------------------------------------------
+10e. Test du critere
+------------------------------------------------------------------------------
+  puits avec tous les controles : 825 sur 843 (18 ecartes pour controle manquant)
+  (1) part intra-district de la variance : 0.849  (seuil 0.25) -> PASSE
+  (2) R2 hors echantillon (intra-district) : controles seuls 0.033 ; geologie + controles 0.027
+      gain du bloc geologie : -0.006  (seuil 0.05) -> ECHOUE
+      (23 plis, un par district)
+
+  Pour information (hors critere) : estimation sur tout l'echantillon,
+  effets fixes de district, erreurs groupees par district.
+                   Estimate  Std. Error     t value     Pr(>|t|)
+clsBasalt       0.117852676 0.445111750  0.26477098 0.7936507419
+clsCharnockite -1.635382143 1.029793760 -1.58806764 0.1265404137
+clsGneiss      -0.519115498 0.778488162 -0.66682517 0.5118174248
+clsIntrusive   -0.608673792 0.801360023 -0.75955098 0.4555854830
+clsLimestone    1.206792016 0.361189235  3.34116275 0.0029582335
+clsQuartzite   -0.171553010 0.739317322 -0.23204246 0.8186499071
+clsSandstone   -1.719633386 0.400524442 -4.29345429 0.0002946246
+clsSchist      -0.014180360 0.984125720 -0.01440909 0.9886334787
+clsShale        0.970674882 0.552149301  1.75799350 0.0926553234
+elev            0.007455366 0.001736661  4.29293149 0.0002950013
+slope_win      -0.070576456 0.045055244 -1.56644265 0.1315169444
+relelev_win     0.003351787 0.008359942  0.40093421 0.6923359396
+soil_ph         0.444779232 0.330259308  1.34675760 0.1917694066
+soil_oc        -0.291476246 0.743104095 -0.39224148 0.6986539921
+attr(,"vcov_type")
+[1] "Clustered (dist)"
+  F partiel (Wald groupe) du bloc geologie : 12.30, p = 0.000, ddl = 9
+
+------------------------------------------------------------------------------
+10f. Classes du socle et economie locale en 1991 (hors critere)
+------------------------------------------------------------------------------
+Chaque caracteristique regressee sur les classes (reference : Granite)
+avec effets fixes de district, erreurs groupees par district. Unite : village
+(centroide du shrid dans une classe du socle, hors khondalite).
+Scheduled Areas : absent de SHRUG ; proxy = part de population ST (a lire comme tel).
+     variable       terme   coef    se     p
+       <char>      <char>  <num> <num> <num>
+ 1:   log_pop      Basalt -0.210 0.089 0.028
+ 2:   log_pop Charnockite -0.842 0.378 0.037
+ 3:   log_pop      Gneiss -0.478 0.322 0.152
+ 4:   log_pop   Intrusive -0.742 0.222 0.003
+ 5:   log_pop   Limestone -0.323 0.155 0.049
+ 6:   log_pop   Quartzite -0.808 0.301 0.014
+ 7:   log_pop   Sandstone -0.189 0.164 0.263
+ 8:   log_pop      Schist -0.519 0.284 0.082
+ 9:   log_pop       Shale -0.696 0.168 0.000
+10:  lit_rate      Basalt -0.017 0.010 0.092
+11:  lit_rate Charnockite -0.076 0.039 0.064
+12:  lit_rate      Gneiss -0.034 0.036 0.365
+13:  lit_rate   Intrusive -0.072 0.035 0.052
+14:  lit_rate   Limestone  0.012 0.036 0.733
+15:  lit_rate   Quartzite -0.058 0.035 0.118
+16:  lit_rate   Sandstone -0.027 0.020 0.194
+17:  lit_rate      Schist -0.028 0.034 0.412
+18:  lit_rate       Shale -0.030 0.034 0.391
+19:  st_share      Basalt  0.118 0.101 0.256
+20:  st_share Charnockite  0.329 0.109 0.006
+21:  st_share      Gneiss  0.172 0.108 0.126
+22:  st_share   Intrusive  0.199 0.107 0.077
+23:  st_share   Limestone  0.116 0.054 0.045
+24:  st_share   Quartzite  0.200 0.088 0.034
+25:  st_share   Sandstone  0.086 0.062 0.183
+26:  st_share      Schist  0.144 0.086 0.108
+27:  st_share       Shale  0.199 0.083 0.026
+28:  canal_sh      Basalt  0.008 0.047 0.862
+29:  canal_sh Charnockite  1.142 1.186 0.347
+30:  canal_sh      Gneiss  0.400 0.368 0.290
+31:  canal_sh   Intrusive  0.152 0.212 0.483
+32:  canal_sh   Limestone  0.104 0.094 0.280
+33:  canal_sh   Quartzite  0.245 0.284 0.400
+34:  canal_sh   Sandstone  0.011 0.032 0.724
+35:  canal_sh      Schist  0.253 0.237 0.298
+36:  canal_sh       Shale  0.134 0.181 0.469
+37: dist_town      Basalt  5.992 3.736 0.124
+38: dist_town Charnockite 17.004 7.239 0.029
+39: dist_town      Gneiss  3.238 3.989 0.426
+40: dist_town   Intrusive 12.372 3.878 0.004
+41: dist_town   Limestone  2.646 2.624 0.325
+42: dist_town   Quartzite 19.242 9.977 0.067
+43: dist_town   Sandstone  8.851 9.391 0.357
+44: dist_town      Schist  8.108 4.459 0.083
+45: dist_town       Shale  7.814 2.424 0.004
+     variable       terme   coef    se     p
+       <char>      <char>  <num> <num> <num>
+
+  Test joint des classes, par caracteristique :
+    variable                             libelle     n moyenne_ref wald_F wald_p r2_within
+      <char>                              <char> <int>       <num>  <num>  <num>     <num>
+1:   log_pop                      log population 19627       7.316  10.72 0.0000    0.0222
+2:  lit_rate taux d'alphabetisation (7 ans et +) 19627       0.267   5.25 0.0008    0.0143
+3:  st_share     part ST (proxy Scheduled Areas) 19627       0.094   2.73 0.0279    0.0530
+4:  canal_sh             part irriguee par canal 17153       0.075   2.06 0.0850    0.0012
+5: dist_town            distance a la ville (km) 19614      24.341   6.06 0.0003    0.0423
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+Condition 1, part intra-district 0.849 >= 0.25 : remplie
+Condition 2, gain de R2 hors echantillon -0.006 >= 0.05 : NON remplie
+PORTE : ECHOUE
+La redaction du verdict et la lecture de 10f sont dans memo/, pas ici.
+
+------------------------------------------------------------------------------
+ETAPE 10 TERMINEE
+------------------------------------------------------------------------------
+  10_classes_economie_1991.csv
+  10_premier_stage_coefs.csv
+  10_premier_stage_verdict.csv
+
+Run finished: 2026-09-24 11:52:56

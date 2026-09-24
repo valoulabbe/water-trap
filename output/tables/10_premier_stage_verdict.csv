@@ -1,0 +1,2 @@
+n_puits,n_districts,part_intra,seuil_part_intra,r2cv_controles,r2cv_geo_controles,gain_r2cv,seuil_gain,f_partiel,p_f_partiel,verdict
+825,23,0.848597829218202,0.25,0.0325137206674555,0.0267281989013272,-0.00578552176612834,0.05,12.2975473313128,1.05614097298704e-06,ECHOUE
