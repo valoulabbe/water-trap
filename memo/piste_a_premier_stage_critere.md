@@ -15,6 +15,18 @@ profondeur ~ classe d'aquifère principal (bloc géologie) + contrôles de terra
 (CartoDEM) et de sol (SLUSI) + effets fixes de district ; erreurs types
 groupées par district.
 
+### Précision des contrôles (ajoutée le 24/09, avant exécution)
+SLUSI ne fournit que des Soil Health Cards : analyses chimiques de parcelles,
+vers 2015–2020, sans texture ni profondeur de sol.
+- **Sol :** pH et carbone organique, en médiane des analyses à 5 km au plus
+  (au moins 3 analyses, sinon puits écarté). EC, N, P, K et oligo-éléments sont
+  exclus (post-traitement). Le pH reflète en partie la roche mère : le garder
+  rend le test plus difficile à passer.
+- **Terrain (CartoDEM v3r1, 1″) :** altitude au puits ; pente moyenne et
+  altitude relative (altitude au puits − altitude moyenne) dans une fenêtre
+  carrée de ±0,009° autour du puits.
+- **Bloc géologie :** classes d'aquifère principal (référence : granite).
+
 ## Règle de passage (les deux conditions)
 1. **Part intra-district** de la variance de profondeur (échantillon ci-dessus)
    **≥ 25 %**.
