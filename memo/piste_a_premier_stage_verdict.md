@@ -79,6 +79,27 @@ tribale, qui pèsent directement sur la provision publique.
   hors périmètre. Changer de couche pour « sauver » la piste serait une variante
   discutée après le verdict.
 
+## Non poursuivi (piste A close le 25/09/2026)
+
+Variantes envisageables, consignées ici et **pas exécutées**. Chacune serait
+une variante discutée après le verdict :
+- **Lithologie au 1:50k (NGDR) ou lignes de fractures (GSI Bhukosh).** Un
+  premier stage peut-être meilleur, mais le diagnostic d'exclusion ne dépend
+  pas de l'échelle : collines, forêt et part ST suivent le terrain de socle
+  lui-même.
+- **Autres États de socle** (Karnataka, Tamil Nadu, Odisha) : même objection
+  sur l'exclusion.
+- **Bloc géologie au niveau des 54 unités** plutôt que des classes : beaucoup
+  de cellules de moins de 10 puits, et c'est une recherche de spécification.
+- **Correction des altitudes CartoDEM négatives** (104 puits) : biais attendu
+  vers le passage, pas vers l'échec.
+- **Contraste alluvions/roche** : exclu d'avance par le critère, car il porte
+  le clivage économique delta/plateau.
+- **Différence de différences géologie × choc temporel** (diffusion des pompes
+  submersibles, électrification rurale ; ROADMAP) : un autre design, qui
+  hériterait du même problème d'exclusion tant que le choc n'est pas propre au
+  coût de l'eau.
+
 ## Arrêt
 
 Pas de second stage, pas de variable de résultat.
