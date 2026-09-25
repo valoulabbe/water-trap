@@ -1,33 +1,42 @@
 # Water Trap RA — Feuille de route Phase 0
 
-Sep 18, 2026 · @Someone
+Sep 18, 2026 · @valentine
 
-<!-- COPIE. Source de vérité : https://claude.ai/code/artifact/9d308fe3-d2e6-4316-bbe3-191c1e737498
-     Régénérer à chaque pivot, ne pas éditer ici. -->
-     
 ## Statut
 
 **Pivot du 23/09/2026.** Visio avec Jack : la profondeur comme instrument n'était qu'une suggestion pour l'exercice d'exploration, pas une obligation. On abandonne Sekhri (Jack ne souhaite pas lui écrire) : les voies A et A′ sont closes et le RD à 8 m n'est plus le design de référence. On est en phase d'exploration, avec **trois pistes menées en parallèle** — eau souterraine, groupes électrogènes, filtres domestiques — sans en présélectionner une. Ce qui reste acquis du travail fait : le dépôt, l'environnement R, les outils spatiaux et les variables d'eau SHRUG 1991/2001/2011.
 
 - **Question du projet :** l'eau privée bon marché empêche-t-elle l'émergence du réseau public d'eau courante (piège), ou est-ce une allocation efficace des technologies ?
 - **Identification (ouverte) :** plus de design imposé. Pour chaque piste, on cherche une variation exogène du **coût du substitut privé** — et non de la demande de service : géologie, prix du capital, date d'arrivée d'une technologie.
-- **Prochaine étape :** premier stage géologique sur les puits CGWB déjà téléchargés, vérification des données IHDS/NFHS sur les filtres, puis note de cadrage à Jack.
-- **Langage :** R (choix acté, pas encore confirmé par le PI).
+- **Prochaine étape :** trouver la **variable de gauche** (mesure de la provision publique dans le temps) pour les pistes B et C — c'est le verrou, pas les données d'adoption. Puis note de cadrage à Jack.
+- **Langage :** R
 - **Règle d'or :** critère de sortie écrit avant d'estimer, verdict écrit contre ce critère, aucune variante discutée avant le verdict. (Remplace la règle §5/§8 de la spec, retirée le 23/09 avec le design RD.)
 
 ## Trois pistes exploratoires (depuis le 23/09)
 
-Cadre commun : le piège ne mord que si le bien public est un **réseau à coûts fixes élevés** — quand les ménages solvables sortent, le coût moyen par abonné restant monte et le rendement politique du réseau s'effondre (exit/voice). Prédiction testable : retrait public plus fort pour l'eau courante et l'électricité que pour les biens non-réseau.
+**Cadre commun — les cinq conditions du piège.** La question est celle qu'on posait avec Sekhri, élargie : le seuil des 8 m n'était qu'une façon parmi d'autres de déplacer le coût du substitut privé. Le raisonnement ne change pas ; seul change l'objet qui fait varier ce coût.
+
+1. **Le bien public est un réseau à coûts fixes élevés.** Sinon la sortie des uns ne renchérit pas le service des autres : il y a substitution, pas piège.
+2. **Le substitut privé est individuel, excluable et indivisible.** C'est ce qui trie par revenu : les ménages solvables sortent, les autres restent.
+3. **La variation identifiante porte sur le coût du privé, jamais sur la qualité du public.** Sinon on retombe sur la dépense défensive, où l'anticipation de la qualité publique explique l'adoption — causalité inverse.
+4. **L'issue mesurée est la provision publique, pas l'adoption privée.** C'est là que s'arrêtent Brehm, Johnston et Milton (JAERE 2024), qui calibrent la réponse publique au lieu de l'estimer. C'est notre apport.
+5. **Un canal explicite relie la sortie privée à la décision publique :** voix politique, assiette fiscale, coût par abonné restant.
+
+Deux distinctions à tenir. **Positif contre normatif :** que le public se retire est une question empirique ; que ce soit un *piège* suppose l'absence d'un régulateur qui redistribue l'économie réalisée — aux États-Unis le retrait est efficient et les non-adoptants y gagnent en facture. **La persistance est le cœur, pas un corollaire :** un retrait temporaire n'est pas un piège ; ce qui ferait le papier, c'est qu'un avantage initial du privé laisse vingt ans plus tard un territoire durablement moins équipé, alors que la somme des équipements individuels dépasse le coût du réseau jamais construit.
+
+**Critère de tri entre pistes :** gagne celle où les cinq conditions tiennent **et** où la variable de gauche existe.
 
 | Piste | Substitut privé | Variation identifiante | Statut |
 | --- | --- | --- | --- |
-| A — Eau souterraine | Forage et pompe | Géologie (roche, fractures, aquifère), à la Ryan & Sudarshan | Données en partie déjà là |
+| A — Eau souterraine | Forage et pompe | Géologie (roche, fractures, aquifère), à la Ryan & Sudarshan | Close le 23/09 — premier stage non concluant |
 | B — Électricité | Groupe électrogène | Prix du capital (importations, droits de douane), TVA diesel par État, normes CPCB en NCR | À cadrer, littérature à lire |
 | C — Eau potable | Filtre domestique | Arrivée du marché de masse : Pureit national début 2008, Tata Swach déc. 2009 | La plus prometteuse côté données |
 
 ### Piste A — La géologie comme instrument
 
 Ryan & Sudarshan (JPE 2022) instrumentent la profondeur du puits du paysan par le type de roche (62 catégories), le type d'aquifère (20), la densité de fractures et leurs interactions, en contrôlant élévation, pente et qualité des sols ; l'exclusion est l'absence d'effet direct sur les profits. Avantage pour nous : plus besoin de la profondeur observée village par village, donc plus besoin des microdonnées MI. Limite : la géologie est invariante dans le temps, et à l'échelle de l'Inde « alluvial vs socle » sépare aussi le revenu, la densité et la capacité administrative.
+
+**Verdict du 23/09 : la piste A échoue.** Sur l'Andhra Pradesh non divisé, puits avec relevé de mai avant 2000, 84,9 % de la variance de profondeur est intra-district — donc il y avait de quoi expliquer — mais le bloc géologie apporte un gain de R² hors échantillon de −0,006 en validation croisée par blocs de districts, contre un seuil de passage fixé d'avance à 0,05. Le F partiel de 12,3 ne tenait qu'à deux classes marginales. Second constat, plus général : au sein des districts, les classes du socle hors granite recoupent l'économie locale de 1991 (villages plus petits, 8 à 19 km plus loin d'une ville, part ST plus élevée, moins alphabétisés ; tests joints p < 0,03 sur 4 caractéristiques sur 5), donc la géologie atteint la provision publique par des canaux étrangers au coût de l'eau. La restriction d'exclusion aurait échoué même avec un premier stage solide — et cela vaut au-delà de l'AP et de la carte au 1:2M. Mémo : `memo/piste_a_premier_stage_verdict.md`.
 
 - [ ] Récupérer les couches publiques : aquifères principaux CGWB, lithologie GSI/Bhukosh ; GLiM et WHYMAP en secours
 - [ ] Premier stage sur les puits CGWB déjà téléchargés : profondeur \~ roche + fractures + contrôles de surface
@@ -48,11 +57,19 @@ Le prix du diesel est l'idée naturelle et l'impasse : il entre dans le transpor
 
 Le timing du marché de masse tombe très bien : Pureit introduit en 2005 à Chennai puis dans le Sud, lancement national début 2008 ; Tata Swach lancé le 7 décembre 2009 à moins de 1 000 ₹, sans électricité ni eau courante. La bascule tombe donc entre les recensements 2001 et 2011, entre NFHS-3 (2005-06) et NFHS-4 (2015-16), et entre IHDS-I (2004-05) et IHDS-II (2011-12, qui est un panel de ménages).
 
-- [ ] Vérifier IHDS-I/II : possession de filtre et source d'eau, panel exploitable ; taux d'adoption par district 2005 → 2012
-- [ ] Idem NFHS-3/4 sur le traitement de l'eau au niveau ménage, agrégé par district
-- [ ] Exposition = part de ménages sur eau non traitée au départ (et accès à l'électricité pour les purificateurs UV) × après 2008
-- [ ] Outcome = qualité et dépenses de potabilisation, **pas** couverture du réseau : le filtre remplace la station de traitement, pas le tuyau. `tap_treated11` est déjà construit
-- [ ] Formaliser le mécanisme politique (exit/voice) et chercher les précédents : écoles privées, cliniques privées
+**Repérage des données, 25/09.** *Variable de gauche.* Pas de panel de finances municipales avant 2015 : cityfinance.in couvre 2015-16 à 2021-22 pour environ 3 300 collectivités sur 4 700, et le rapport RBI est transversal sur 35 corporations. La version « dépenses » est donc impossible en Inde urbaine — abandonnée. En revanche le NSS Schedule 1.2 porte les deux côtés de l'équation : source principale d'eau de boisson (19 codes, dont piped into dwelling / to yard / from neighbour / public tap), suffisance toute l'année et mois de pénurie, distance, et surtout **l'accès codant si la source a été créée sur fonds publics ou privés** (codes 4-5 vs 6-7). Série Schedule 1.2 : 28e (1973-74), 44e (1988-89), 49e (janv-juin 1993), 58e (juil-déc 2002), 65e (juil 2008-juin 2009), 69e (juil-déc 2012), 76e (juil-déc 2018). Codes de district et de région NSS dans le bloc d'identification.
+
+*Le problème.* Le 58e round (2002) est une enquête « Housing Condition » : source et suffisance présentes (`B4_q1`, `B4_q2`), mais **pas de méthode de traitement de l'eau** — l'item n'apparaît qu'avec l'élargissement « Drinking Water, Sanitation, Hygiene ». Autrement dit la variable de gauche a une série longue, la variable de droite peut-être seulement à partir du 65e, c'est-à-dire pendant le choc. À vérifier : le 54e round (janv-juin 1998) a collecté eau, assainissement et hygiène mais via le **Schedule 31**, pas 1.2 — comparabilité inter-schedule à établir. Si l'item manque avant 2008, l'ancrage pré-choc doit venir d'IHDS-I (2004-05), qui cite Aquaguard et le filtre acheté dans le libellé.
+
+*Deux ruptures de série à retenir.* La qualité de l'eau de la source principale, collectée au 69e, n'est **pas** reprise au 76e. Et la méthode de traitement est à réponse unique : si plusieurs s'appliquent, c'est le premier code de la liste qui est enregistré — le purificateur électrique étant le code 1, il domine (pratique pour nous), mais un ménage qui bout *et* filtre est compté comme filtrant. Enfin le 76e ajoute les bénéfices reçus des programmes publics (NRDWP, AMRUT), utile mais postérieur à 2015.
+
+- [ ] **Priorité :** vérifier si le 54e round (Schedule 31, 1998) contient un item de traitement de l'eau, et si le 65e est le premier de la série 1.2 à l'avoir. C'est ce qui décide si la piste C a un avant
+- [ ] Ancrage pré-choc de secours : IHDS-I (2004-05), item traitement (bouillir / filtre acheté / Aquaguard / produits chimiques), panel avec IHDS-II (2011-12)
+- [ ] Construire la variable de gauche depuis le NSS : source principale publique vs privée, accès sur fonds public (codes 4-5) vs privé (6-7), suffisance, distance
+- [ ] Harmoniser les districts entre rounds, ou travailler à la maille des régions NSS, plus stables
+- [ ] Traiter le 65e round (juil 2008-juin 2009) comme période de transition, pas comme « après »
+- [ ] Compléments : recensements 2001/2011 pour la part d'eau traitée (`tap_treated11` déjà construit) ; budgets des États (publication annuelle RBI) pour une série longue mais grossière
+- [ ] Vérifier item par item les libellés avant toute comparaison inter-rounds
 
 ### À trancher avec Jack
 
@@ -196,6 +213,7 @@ Une ligne par décision, la plus récente en haut ; noter qui a tranché.
 
 | Date | Décision | Raison | Validée par |
 | --- | --- | --- | --- |
+| 23/09/2026 | Geler 06 et 07 (interpolation, variogrammes) et les sortir de run\_all.R ; garder leurs résultats comme constats | L'interpolation reconstruisait une profondeur au village pour le RD ; le premier stage de la piste A est au puits. À retenir : bruit de mesure médian 0,73 m (d'où la moyenne de plusieurs relevés de mai), portée du variogramme 30-70 km (point de départ pour des SE de Conley, à ré-estimer sur les résidus) | Valentine |
 | 23/09/2026 | Explorer trois pistes en parallèle : eau souterraine (géologie), groupes électrogènes, filtres domestiques | Phase d'exploration assumée : certaines ne marcheront pas, on ne présélectionne pas | Jack et Valentine (visio) |
 | 23/09/2026 | Abandon de Sekhri et du RD à 8 m comme design de référence | Jack ne souhaite pas écrire à Sekhri ; la profondeur comme instrument n'était qu'une suggestion pour l'exploration | Jack (visio) |
 | 18/09/2026 | Escalade : proposer la voie A (données de Sekhri) et préparer la voie B (E1) en parallèle | Packages 113902 et 113803 sans profondeur ni clés vers le recensement (0 % de match avec SHRUG) | Valentine ; en attente de Jack |
