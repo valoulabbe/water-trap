@@ -1,0 +1,1994 @@
+pays,code,SurveyId,annee,cle,IndicatorId,role,libelle,valeur
+Afghanistan,AF,AF2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Afghanistan,AF,AF2015DHS,2015,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Afghanistan,AF,AF2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71.2
+Afghanistan,AF,AF2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.3
+Afghanistan,AF,AF2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.8
+Afghanistan,AF,AF2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,14.2
+Afghanistan,AF,AF2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.5
+Afghanistan,AF,AF2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,20.1
+Albania,AL,AL2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,13.6
+Albania,AL,AL2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Albania,AL,AL2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,96.8
+Albania,AL,AL2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,52.1
+Albania,AL,AL2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.7
+Albania,AL,AL2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.7
+Albania,AL,AL2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.9
+Albania,AL,AL2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,4.4
+Albania,AL,AL2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,19.6
+Albania,AL,AL2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.6
+Albania,AL,AL2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,98.4
+Albania,AL,AL2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,48.8
+Albania,AL,AL2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.2
+Albania,AL,AL2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.4
+Albania,AL,AL2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,14.1
+Albania,AL,AL2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.4
+Angola,AO,AO2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.2
+Angola,AO,AO2015DHS,2015,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Angola,AO,AO2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.9
+Angola,AO,AO2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.3
+Angola,AO,AO2015DHS,2015,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,11.4
+Angola,AO,AO2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.7
+Angola,AO,AO2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.3
+Angola,AO,AO2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,9.7
+Angola,AO,AO2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.9
+Angola,AO,AO2023DHS,2023,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2
+Angola,AO,AO2023DHS,2023,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.4
+Angola,AO,AO2023DHS,2023,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,69.9
+Angola,AO,AO2023DHS,2023,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.5
+Angola,AO,AO2023DHS,2023,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,13.2
+Angola,AO,AO2023DHS,2023,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,15.9
+Angola,AO,AO2023DHS,2023,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8.9
+Angola,AO,AO2023DHS,2023,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,7.1
+Angola,AO,AO2023DHS,2023,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.8
+Armenia,AM,AM2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,93.1
+Armenia,AM,AM2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,62.8
+Armenia,AM,AM2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,24.1
+Armenia,AM,AM2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,4.9
+Armenia,AM,AM2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.1
+Armenia,AM,AM2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Armenia,AM,AM2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.2
+Armenia,AM,AM2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,75
+Armenia,AM,AM2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,14.8
+Armenia,AM,AM2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.4
+Armenia,AM,AM2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.1
+Armenia,AM,AM2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Armenia,AM,AM2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.6
+Armenia,AM,AM2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.5
+Armenia,AM,AM2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,80.3
+Armenia,AM,AM2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,11
+Armenia,AM,AM2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,1.5
+Armenia,AM,AM2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,4.4
+Armenia,AM,AM2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.4
+Armenia,AM,AM2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Armenia,AM,AM2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1
+Armenia,AM,AM2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.9
+Armenia,AM,AM2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,88.3
+Armenia,AM,AM2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,8
+Armenia,AM,AM2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.5
+Armenia,AM,AM2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.5
+Armenia,AM,AM2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.2
+Azerbaijan,AZ,AZ2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Azerbaijan,AZ,AZ2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.4
+Azerbaijan,AZ,AZ2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,90.6
+Azerbaijan,AZ,AZ2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,34
+Azerbaijan,AZ,AZ2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,19.7
+Azerbaijan,AZ,AZ2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.5
+Azerbaijan,AZ,AZ2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,9.5
+Azerbaijan,AZ,AZ2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,9.3
+Bangladesh,BD,BD1994DHS,1994,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,92.3
+Bangladesh,BD,BD1994DHS,1994,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.3
+Bangladesh,BD,BD1994DHS,1994,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.3
+Bangladesh,BD,BD1994DHS,1994,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,87.7
+Bangladesh,BD,BD1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,95.3
+Bangladesh,BD,BD1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4
+Bangladesh,BD,BD1997DHS,1997,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.1
+Bangladesh,BD,BD1997DHS,1997,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,90.2
+Bangladesh,BD,BD2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,96.3
+Bangladesh,BD,BD2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.6
+Bangladesh,BD,BD2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.5
+Bangladesh,BD,BD2000DHS,2000,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,90.2
+Bangladesh,BD,BD2004DHS,2004,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,96.8
+Bangladesh,BD,BD2004DHS,2004,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.1
+Bangladesh,BD,BD2004DHS,2004,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.8
+Bangladesh,BD,BD2004DHS,2004,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,86.8
+Bangladesh,BD,BD2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Bangladesh,BD,BD2007DHS,2007,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2
+Bangladesh,BD,BD2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,97.1
+Bangladesh,BD,BD2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.3
+Bangladesh,BD,BD2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.7
+Bangladesh,BD,BD2007DHS,2007,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.9
+Bangladesh,BD,BD2007DHS,2007,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,89.9
+Bangladesh,BD,BD2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Bangladesh,BD,BD2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",4.4
+Bangladesh,BD,BD2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,98.6
+Bangladesh,BD,BD2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.7
+Bangladesh,BD,BD2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.5
+Bangladesh,BD,BD2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.1
+Bangladesh,BD,BD2011DHS,2011,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Bangladesh,BD,BD2011DHS,2011,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,85.5
+Bangladesh,BD,BD2014DHS,2014,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Bangladesh,BD,BD2014DHS,2014,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",4.6
+Bangladesh,BD,BD2014DHS,2014,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,97.8
+Bangladesh,BD,BD2014DHS,2014,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.3
+Bangladesh,BD,BD2014DHS,2014,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.3
+Bangladesh,BD,BD2014DHS,2014,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.7
+Bangladesh,BD,BD2014DHS,2014,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Bangladesh,BD,BD2014DHS,2014,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,86.4
+Bangladesh,BD,BD2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Bangladesh,BD,BD2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",5.4
+Bangladesh,BD,BD2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,98.4
+Bangladesh,BD,BD2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.7
+Bangladesh,BD,BD2017DHS,2017,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,0.2
+Bangladesh,BD,BD2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.9
+Bangladesh,BD,BD2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.7
+Bangladesh,BD,BD2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Bangladesh,BD,BD2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,90
+Bangladesh,BD,BD2022DHS,2022,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.9
+Bangladesh,BD,BD2022DHS,2022,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",5.8
+Bangladesh,BD,BD2022DHS,2022,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.1
+Bangladesh,BD,BD2022DHS,2022,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.8
+Bangladesh,BD,BD2022DHS,2022,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,0.3
+Bangladesh,BD,BD2022DHS,2022,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.3
+Bangladesh,BD,BD2022DHS,2022,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.6
+Bangladesh,BD,BD2022DHS,2022,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Bangladesh,BD,BD2022DHS,2022,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,85
+Benin,BJ,BJ1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,63.4
+Benin,BJ,BJ1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.5
+Benin,BJ,BJ1996DHS,1996,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,18.6
+Benin,BJ,BJ1996DHS,1996,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.9
+Benin,BJ,BJ1996DHS,1996,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,15.3
+Benin,BJ,BJ2001DHS,2001,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Benin,BJ,BJ2001DHS,2001,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.5
+Benin,BJ,BJ2001DHS,2001,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,11
+Benin,BJ,BJ2001DHS,2001,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,19.8
+Benin,BJ,BJ2001DHS,2001,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.2
+Benin,BJ,BJ2001DHS,2001,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Benin,BJ,BJ2001DHS,2001,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,11.8
+Benin,BJ,BJ2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Benin,BJ,BJ2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Benin,BJ,BJ2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71
+Benin,BJ,BJ2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,10.7
+Benin,BJ,BJ2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,22.1
+Benin,BJ,BJ2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.1
+Benin,BJ,BJ2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Benin,BJ,BJ2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,14.5
+Benin,BJ,BJ2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Benin,BJ,BJ2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Benin,BJ,BJ2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.6
+Benin,BJ,BJ2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.3
+Benin,BJ,BJ2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,11.6
+Benin,BJ,BJ2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,28.3
+Benin,BJ,BJ2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Benin,BJ,BJ2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,19.9
+Benin,BJ,BJ2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Benin,BJ,BJ2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Benin,BJ,BJ2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71.7
+Benin,BJ,BJ2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.1
+Benin,BJ,BJ2017DHS,2017,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,14.9
+Benin,BJ,BJ2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.2
+Benin,BJ,BJ2017DHS,2017,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.2
+Benin,BJ,BJ2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13
+Benin,BJ,BJ2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Benin,BJ,BJ2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,28.9
+Bolivia,BO,BO1994DHS,1994,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,67.4
+Bolivia,BO,BO1994DHS,1994,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,54
+Bolivia,BO,BO1994DHS,1994,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.1
+Bolivia,BO,BO1994DHS,1994,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.7
+Bolivia,BO,BO1994DHS,1994,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.5
+Bolivia,BO,BO1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,76.4
+Bolivia,BO,BO1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,31.9
+Bolivia,BO,BO1998DHS,1998,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,8.6
+Bolivia,BO,BO1998DHS,1998,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,34.2
+Bolivia,BO,BO1998DHS,1998,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.7
+Bolivia,BO,BO2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,82.7
+Bolivia,BO,BO2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,22.3
+Bolivia,BO,BO2003DHS,2003,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,0.7
+Bolivia,BO,BO2003DHS,2003,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,5.9
+Bolivia,BO,BO2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,49.6
+Bolivia,BO,BO2003DHS,2003,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.8
+Bolivia,BO,BO2003DHS,2003,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.4
+Bolivia,BO,BO2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Bolivia,BO,BO2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,87.3
+Bolivia,BO,BO2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,24.6
+Bolivia,BO,BO2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,54.1
+Bolivia,BO,BO2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.3
+Bolivia,BO,BO2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.7
+Brazil,BR,BR1996DHS,1996,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.3
+Brazil,BR,BR1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,76
+Brazil,BR,BR1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,69.2
+Brazil,BR,BR1996DHS,1996,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.5
+Burkina Faso,BF,BF1993DHS,1993,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Burkina Faso,BF,BF1993DHS,1993,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,18.3
+Burkina Faso,BF,BF1993DHS,1993,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.7
+Burkina Faso,BF,BF1993DHS,1993,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.9
+Burkina Faso,BF,BF1993DHS,1993,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.7
+Burkina Faso,BF,BF1999DHS,1999,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Burkina Faso,BF,BF1999DHS,1999,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,50.7
+Burkina Faso,BF,BF1999DHS,1999,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.3
+Burkina Faso,BF,BF1999DHS,1999,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,9.8
+Burkina Faso,BF,BF1999DHS,1999,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,35.6
+Burkina Faso,BF,BF1999DHS,1999,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,1.1
+Burkina Faso,BF,BF2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,60.6
+Burkina Faso,BF,BF2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.5
+Burkina Faso,BF,BF2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.2
+Burkina Faso,BF,BF2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,14.6
+Burkina Faso,BF,BF2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Burkina Faso,BF,BF2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Burkina Faso,BF,BF2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,77
+Burkina Faso,BF,BF2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.7
+Burkina Faso,BF,BF2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.2
+Burkina Faso,BF,BF2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.7
+Burkina Faso,BF,BF2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Burkina Faso,BF,BF2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,43.2
+Burkina Faso,BF,BF2021DHS,2021,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Burkina Faso,BF,BF2021DHS,2021,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Burkina Faso,BF,BF2021DHS,2021,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,84.4
+Burkina Faso,BF,BF2021DHS,2021,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.4
+Burkina Faso,BF,BF2021DHS,2021,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,0.5
+Burkina Faso,BF,BF2021DHS,2021,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,14.1
+Burkina Faso,BF,BF2021DHS,2021,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,1.1
+Burkina Faso,BF,BF2021DHS,2021,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.9
+Burkina Faso,BF,BF2021DHS,2021,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Burkina Faso,BF,BF2021DHS,2021,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,44.8
+Burundi,BU,BU2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Burundi,BU,BU2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0
+Burundi,BU,BU2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75.3
+Burundi,BU,BU2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.2
+Burundi,BU,BU2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.6
+Burundi,BU,BU2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,23.4
+Burundi,BU,BU2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Burundi,BU,BU2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.3
+Burundi,BU,BU2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Burundi,BU,BU2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Burundi,BU,BU2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,82.9
+Burundi,BU,BU2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.1
+Burundi,BU,BU2016DHS,2016,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.4
+Burundi,BU,BU2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5
+Burundi,BU,BU2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,24
+Burundi,BU,BU2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Burundi,BU,BU2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.6
+Cambodia,KH,KH2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Cambodia,KH,KH2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,40.2
+Cambodia,KH,KH2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.3
+Cambodia,KH,KH2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.5
+Cambodia,KH,KH2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,3.3
+Cambodia,KH,KH2000DHS,2000,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.3
+Cambodia,KH,KH2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.1
+Cambodia,KH,KH2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",10.7
+Cambodia,KH,KH2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75.5
+Cambodia,KH,KH2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,10.1
+Cambodia,KH,KH2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.6
+Cambodia,KH,KH2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.3
+Cambodia,KH,KH2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1
+Cambodia,KH,KH2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,26.9
+Cambodia,KH,KH2014DHS,2014,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,9.6
+Cambodia,KH,KH2014DHS,2014,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",16.6
+Cambodia,KH,KH2014DHS,2014,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,83.7
+Cambodia,KH,KH2014DHS,2014,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,9.4
+Cambodia,KH,KH2014DHS,2014,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.8
+Cambodia,KH,KH2014DHS,2014,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.7
+Cambodia,KH,KH2014DHS,2014,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Cambodia,KH,KH2014DHS,2014,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,23
+Cambodia,KH,KH2021DHS,2021,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,23.3
+Cambodia,KH,KH2021DHS,2021,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",18.3
+Cambodia,KH,KH2021DHS,2021,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,91.9
+Cambodia,KH,KH2021DHS,2021,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,22.4
+Cambodia,KH,KH2021DHS,2021,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,0.2
+Cambodia,KH,KH2021DHS,2021,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.2
+Cambodia,KH,KH2021DHS,2021,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2
+Cambodia,KH,KH2021DHS,2021,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.1
+Cambodia,KH,KH2021DHS,2021,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,20.5
+Cameroon,CM,CM1991DHS,1991,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2
+Cameroon,CM,CM1991DHS,1991,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,43.8
+Cameroon,CM,CM1991DHS,1991,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,6.1
+Cameroon,CM,CM1991DHS,1991,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.6
+Cameroon,CM,CM1991DHS,1991,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.3
+Cameroon,CM,CM1991DHS,1991,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.6
+Cameroon,CM,CM1991DHS,1991,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.1
+Cameroon,CM,CM1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,46.1
+Cameroon,CM,CM1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.7
+Cameroon,CM,CM1998DHS,1998,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.6
+Cameroon,CM,CM1998DHS,1998,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.6
+Cameroon,CM,CM1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,21.9
+Cameroon,CM,CM1998DHS,1998,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.1
+Cameroon,CM,CM1998DHS,1998,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,1.3
+Cameroon,CM,CM2004DHS,2004,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,59.6
+Cameroon,CM,CM2004DHS,2004,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.2
+Cameroon,CM,CM2004DHS,2004,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.4
+Cameroon,CM,CM2004DHS,2004,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,22.3
+Cameroon,CM,CM2004DHS,2004,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.7
+Cameroon,CM,CM2004DHS,2004,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,11.6
+Cameroon,CM,CM2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.9
+Cameroon,CM,CM2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.7
+Cameroon,CM,CM2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71.1
+Cameroon,CM,CM2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.2
+Cameroon,CM,CM2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,7.6
+Cameroon,CM,CM2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,26.6
+Cameroon,CM,CM2011DHS,2011,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Cameroon,CM,CM2011DHS,2011,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,16
+Cameroon,CM,CM2018DHS,2018,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.9
+Cameroon,CM,CM2018DHS,2018,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",4.7
+Cameroon,CM,CM2018DHS,2018,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.8
+Cameroon,CM,CM2018DHS,2018,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.3
+Cameroon,CM,CM2018DHS,2018,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,9.8
+Cameroon,CM,CM2018DHS,2018,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.9
+Cameroon,CM,CM2018DHS,2018,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.3
+Cameroon,CM,CM2018DHS,2018,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.6
+Cameroon,CM,CM2018DHS,2018,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Cameroon,CM,CM2018DHS,2018,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,29.9
+Central African Republic,CF,CF1994DHS,1994,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,16.3
+Central African Republic,CF,CF1994DHS,1994,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.7
+Central African Republic,CF,CF1994DHS,1994,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,14.6
+Chad,TD,TD1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,35.1
+Chad,TD,TD1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.8
+Chad,TD,TD1997DHS,1997,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.9
+Chad,TD,TD1997DHS,1997,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Chad,TD,TD1997DHS,1997,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,7.7
+Chad,TD,TD2004DHS,2004,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,40.4
+Chad,TD,TD2004DHS,2004,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.7
+Chad,TD,TD2004DHS,2004,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.7
+Chad,TD,TD2004DHS,2004,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,4.6
+Chad,TD,TD2014DHS,2014,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Chad,TD,TD2014DHS,2014,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Chad,TD,TD2014DHS,2014,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,55.8
+Chad,TD,TD2014DHS,2014,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.6
+Chad,TD,TD2014DHS,2014,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3
+Chad,TD,TD2014DHS,2014,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.3
+Chad,TD,TD2014DHS,2014,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Chad,TD,TD2014DHS,2014,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,31.4
+Colombia,CO,CO1990DHS,1990,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,89.9
+Colombia,CO,CO1990DHS,1990,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,79.5
+Colombia,CO,CO1990DHS,1990,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,8.3
+Colombia,CO,CO1990DHS,1990,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.4
+Colombia,CO,CO1990DHS,1990,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.7
+Colombia,CO,CO1995DHS,1995,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,88.3
+Colombia,CO,CO1995DHS,1995,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,79.6
+Colombia,CO,CO1995DHS,1995,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,5.7
+Colombia,CO,CO1995DHS,1995,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.5
+Colombia,CO,CO1995DHS,1995,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Colombia,CO,CO2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,87
+Colombia,CO,CO2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,85
+Colombia,CO,CO2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.1
+Colombia,CO,CO2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Colombia,CO,CO2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.7
+Colombia,CO,CO2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,93.5
+Colombia,CO,CO2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,84.6
+Colombia,CO,CO2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.1
+Colombia,CO,CO2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Colombia,CO,CO2005DHS,2005,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.3
+Colombia,CO,CO2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,4.6
+Colombia,CO,CO2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,92.4
+Colombia,CO,CO2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,83.9
+Colombia,CO,CO2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.1
+Colombia,CO,CO2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Colombia,CO,CO2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.3
+Colombia,CO,CO2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,7
+Colombia,CO,CO2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,92.8
+Colombia,CO,CO2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,80.9
+Colombia,CO,CO2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.1
+Colombia,CO,CO2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.6
+Colombia,CO,CO2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.6
+Comoros,KM,KM1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,92.2
+Comoros,KM,KM1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,21.7
+Comoros,KM,KM1996DHS,1996,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,28.6
+Comoros,KM,KM2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.5
+Comoros,KM,KM2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Comoros,KM,KM2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,91
+Comoros,KM,KM2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,13.8
+Comoros,KM,KM2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,24.1
+Comoros,KM,KM2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,22.6
+Comoros,KM,KM2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.9
+Comoros,KM,KM2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.4
+Congo,CG,CG2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Congo,CG,CG2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.3
+Congo,CG,CG2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.6
+Congo,CG,CG2005DHS,2005,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,24.6
+Congo,CG,CG2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,22.3
+Congo,CG,CG2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.7
+Congo,CG,CG2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.5
+Congo,CG,CG2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Congo,CG,CG2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75.7
+Congo,CG,CG2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.5
+Congo,CG,CG2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,21.9
+Congo,CG,CG2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,27
+Congo,CG,CG2011DHS,2011,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,9.9
+Congo Democratic Republic,CD,CD2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Congo Democratic Republic,CD,CD2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,46.3
+Congo Democratic Republic,CD,CD2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.4
+Congo Democratic Republic,CD,CD2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.5
+Congo Democratic Republic,CD,CD2007DHS,2007,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,16.3
+Congo Democratic Republic,CD,CD2007DHS,2007,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Congo Democratic Republic,CD,CD2007DHS,2007,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.2
+Congo Democratic Republic,CD,CD2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.4
+Congo Democratic Republic,CD,CD2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Congo Democratic Republic,CD,CD2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,48.8
+Congo Democratic Republic,CD,CD2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.9
+Congo Democratic Republic,CD,CD2013DHS,2013,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,8.7
+Congo Democratic Republic,CD,CD2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.6
+Congo Democratic Republic,CD,CD2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,9.7
+Congo Democratic Republic,CD,CD2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Congo Democratic Republic,CD,CD2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.3
+Congo Democratic Republic,CD,CD2023DHS,2023,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.1
+Congo Democratic Republic,CD,CD2023DHS,2023,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Congo Democratic Republic,CD,CD2023DHS,2023,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,52.5
+Congo Democratic Republic,CD,CD2023DHS,2023,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.1
+Congo Democratic Republic,CD,CD2023DHS,2023,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.9
+Congo Democratic Republic,CD,CD2023DHS,2023,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,7.4
+Congo Democratic Republic,CD,CD2023DHS,2023,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.1
+Congo Democratic Republic,CD,CD2023DHS,2023,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11
+Congo Democratic Republic,CD,CD2023DHS,2023,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Congo Democratic Republic,CD,CD2023DHS,2023,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.2
+Cote d'Ivoire,CI,CI1994DHS,1994,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Cote d'Ivoire,CI,CI1994DHS,1994,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,46.7
+Cote d'Ivoire,CI,CI1994DHS,1994,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,23.2
+Cote d'Ivoire,CI,CI1994DHS,1994,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,23.3
+Cote d'Ivoire,CI,CI1994DHS,1994,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Cote d'Ivoire,CI,CI1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,50.2
+Cote d'Ivoire,CI,CI1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,27.7
+Cote d'Ivoire,CI,CI1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,22.4
+Cote d'Ivoire,CI,CI2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Cote d'Ivoire,CI,CI2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Cote d'Ivoire,CI,CI2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.4
+Cote d'Ivoire,CI,CI2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,11.2
+Cote d'Ivoire,CI,CI2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,20.3
+Cote d'Ivoire,CI,CI2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,16.2
+Cote d'Ivoire,CI,CI2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Cote d'Ivoire,CI,CI2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,12
+Cote d'Ivoire,CI,CI2021DHS,2021,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.8
+Cote d'Ivoire,CI,CI2021DHS,2021,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Cote d'Ivoire,CI,CI2021DHS,2021,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,84.9
+Cote d'Ivoire,CI,CI2021DHS,2021,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,23.6
+Cote d'Ivoire,CI,CI2021DHS,2021,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,4.6
+Cote d'Ivoire,CI,CI2021DHS,2021,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,12.7
+Cote d'Ivoire,CI,CI2021DHS,2021,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,1.1
+Cote d'Ivoire,CI,CI2021DHS,2021,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.5
+Cote d'Ivoire,CI,CI2021DHS,2021,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Cote d'Ivoire,CI,CI2021DHS,2021,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,13.3
+Dominican Republic,DR,DR1991DHS,1991,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,9
+Dominican Republic,DR,DR1991DHS,1991,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,86.1
+Dominican Republic,DR,DR1991DHS,1991,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,20.5
+Dominican Republic,DR,DR1991DHS,1991,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,46.5
+Dominican Republic,DR,DR1991DHS,1991,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.1
+Dominican Republic,DR,DR1996DHS,1996,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,25.2
+Dominican Republic,DR,DR1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,89.5
+Dominican Republic,DR,DR1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,17.5
+Dominican Republic,DR,DR1996DHS,1996,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,34.5
+Dominican Republic,DR,DR1996DHS,1996,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.6
+Dominican Republic,DR,DR1999DHS,1999,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,41.3
+Dominican Republic,DR,DR1999DHS,1999,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,93.8
+Dominican Republic,DR,DR1999DHS,1999,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,14.4
+Dominican Republic,DR,DR1999DHS,1999,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,23.9
+Dominican Republic,DR,DR1999DHS,1999,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.9
+Dominican Republic,DR,DR1999DHS,1999,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.8
+Dominican Republic,DR,DR2002DHS,2002,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,55
+Dominican Republic,DR,DR2002DHS,2002,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,94.4
+Dominican Republic,DR,DR2002DHS,2002,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,9.1
+Dominican Republic,DR,DR2002DHS,2002,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,19.3
+Dominican Republic,DR,DR2002DHS,2002,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2
+Dominican Republic,DR,DR2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,57
+Dominican Republic,DR,DR2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,97.8
+Dominican Republic,DR,DR2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.8
+Dominican Republic,DR,DR2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,12.7
+Dominican Republic,DR,DR2007DHS,2007,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.5
+Dominican Republic,DR,DR2007DHS,2007,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.9
+Dominican Republic,DR,DR2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,77.8
+Dominican Republic,DR,DR2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,98.7
+Dominican Republic,DR,DR2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.1
+Dominican Republic,DR,DR2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.6
+Dominican Republic,DR,DR2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Dominican Republic,DR,DR2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1
+Egypt,EG,EG1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,81.6
+Egypt,EG,EG1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,69.1
+Egypt,EG,EG1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,12.4
+Egypt,EG,EG1995DHS,1995,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,83.2
+Egypt,EG,EG1995DHS,1995,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,73.2
+Egypt,EG,EG1995DHS,1995,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.1
+Egypt,EG,EG2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Egypt,EG,EG2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,88.4
+Egypt,EG,EG2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,79.7
+Egypt,EG,EG2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.1
+Egypt,EG,EG2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.5
+Egypt,EG,EG2000DHS,2000,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,0.9
+Egypt,EG,EG2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,89.9
+Egypt,EG,EG2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,85.2
+Egypt,EG,EG2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.9
+Egypt,EG,EG2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.8
+Egypt,EG,EG2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Egypt,EG,EG2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.9
+Egypt,EG,EG2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,89.2
+Egypt,EG,EG2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.6
+Egypt,EG,EG2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.6
+Egypt,EG,EG2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Egypt,EG,EG2005DHS,2005,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.5
+Egypt,EG,EG2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Egypt,EG,EG2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.9
+Egypt,EG,EG2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.9
+Egypt,EG,EG2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,92
+Egypt,EG,EG2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.2
+Egypt,EG,EG2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.5
+Egypt,EG,EG2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.1
+Egypt,EG,EG2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.8
+Egypt,EG,EG2014DHS,2014,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.7
+Egypt,EG,EG2014DHS,2014,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",10
+Egypt,EG,EG2014DHS,2014,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.6
+Egypt,EG,EG2014DHS,2014,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,90.6
+Egypt,EG,EG2014DHS,2014,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.4
+Egypt,EG,EG2014DHS,2014,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3
+Egypt,EG,EG2014DHS,2014,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.7
+Egypt,EG,EG2014DHS,2014,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.5
+Eritrea,ER,ER1995DHS,1995,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Eritrea,ER,ER1995DHS,1995,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,31.5
+Eritrea,ER,ER1995DHS,1995,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,10.7
+Eritrea,ER,ER1995DHS,1995,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11
+Eritrea,ER,ER1995DHS,1995,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,9.1
+Eritrea,ER,ER1995DHS,1995,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,0.6
+Eritrea,ER,ER2002DHS,2002,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,67.4
+Eritrea,ER,ER2002DHS,2002,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,16.3
+Eritrea,ER,ER2002DHS,2002,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,20.8
+Eritrea,ER,ER2002DHS,2002,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,12.2
+Eswatini,SZ,SZ2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Eswatini,SZ,SZ2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.5
+Eswatini,SZ,SZ2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71.4
+Eswatini,SZ,SZ2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,17.4
+Eswatini,SZ,SZ2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,21.3
+Eswatini,SZ,SZ2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,17.6
+Eswatini,SZ,SZ2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.6
+Eswatini,SZ,SZ2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,6.9
+Ethiopia,ET,ET2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,25.3
+Ethiopia,ET,ET2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.1
+Ethiopia,ET,ET2000DHS,2000,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,12.9
+Ethiopia,ET,ET2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.6
+Ethiopia,ET,ET2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Ethiopia,ET,ET2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,61.6
+Ethiopia,ET,ET2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.4
+Ethiopia,ET,ET2005DHS,2005,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,16.7
+Ethiopia,ET,ET2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.6
+Ethiopia,ET,ET2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Ethiopia,ET,ET2005DHS,2005,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.1
+Ethiopia,ET,ET2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Ethiopia,ET,ET2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Ethiopia,ET,ET2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,54.4
+Ethiopia,ET,ET2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1
+Ethiopia,ET,ET2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,10.1
+Ethiopia,ET,ET2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,23.3
+Ethiopia,ET,ET2011DHS,2011,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Ethiopia,ET,ET2011DHS,2011,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.3
+Ethiopia,ET,ET2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Ethiopia,ET,ET2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.1
+Ethiopia,ET,ET2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,65.2
+Ethiopia,ET,ET2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.9
+Ethiopia,ET,ET2016DHS,2016,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.4
+Ethiopia,ET,ET2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,13.4
+Ethiopia,ET,ET2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,17.7
+Ethiopia,ET,ET2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Ethiopia,ET,ET2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,11.1
+Ethiopia,ET,ET2019DHS,2019,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.9
+Ethiopia,ET,ET2019DHS,2019,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,68.7
+Ethiopia,ET,ET2019DHS,2019,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.2
+Ethiopia,ET,ET2019DHS,2019,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.8
+Ethiopia,ET,ET2019DHS,2019,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,11.7
+Ethiopia,ET,ET2019DHS,2019,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,30.7
+Ethiopia,ET,ET2019DHS,2019,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Ethiopia,ET,ET2019DHS,2019,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.9
+Ethiopia,ET,ET2024DHS,2024,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.3
+Ethiopia,ET,ET2024DHS,2024,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.4
+Ethiopia,ET,ET2024DHS,2024,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,74.9
+Ethiopia,ET,ET2024DHS,2024,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.4
+Ethiopia,ET,ET2024DHS,2024,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.7
+Ethiopia,ET,ET2024DHS,2024,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,20.8
+Ethiopia,ET,ET2024DHS,2024,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.9
+Ethiopia,ET,ET2024DHS,2024,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.5
+Ethiopia,ET,ET2024DHS,2024,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,6.2
+Gabon,GA,GA2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Gabon,GA,GA2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.8
+Gabon,GA,GA2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,40.2
+Gabon,GA,GA2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,32.6
+Gabon,GA,GA2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.1
+Gabon,GA,GA2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.2
+Gabon,GA,GA2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,93.1
+Gabon,GA,GA2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,25.4
+Gabon,GA,GA2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,38.4
+Gabon,GA,GA2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,20.2
+Gabon,GA,GA2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Gabon,GA,GA2019DHS,2019,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,8.4
+Gabon,GA,GA2019DHS,2019,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",13.2
+Gabon,GA,GA2019DHS,2019,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,92.5
+Gabon,GA,GA2019DHS,2019,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,27.1
+Gabon,GA,GA2019DHS,2019,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,10.6
+Gabon,GA,GA2019DHS,2019,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,2.5
+Gabon,GA,GA2019DHS,2019,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,29.2
+Gabon,GA,GA2019DHS,2019,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.1
+Gabon,GA,GA2019DHS,2019,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,9.6
+Gabon,GA,GA2019DHS,2019,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Gabon,GA,GA2019DHS,2019,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.7
+Gambia,GM,GM2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.4
+Gambia,GM,GM2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Gambia,GM,GM2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,91
+Gambia,GM,GM2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.4
+Gambia,GM,GM2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,38.2
+Gambia,GM,GM2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,32.8
+Gambia,GM,GM2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.8
+Gambia,GM,GM2019DHS,2019,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.4
+Gambia,GM,GM2019DHS,2019,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.6
+Gambia,GM,GM2019DHS,2019,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,94.9
+Gambia,GM,GM2019DHS,2019,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.2
+Gambia,GM,GM2019DHS,2019,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,12.7
+Gambia,GM,GM2019DHS,2019,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,41.8
+Gambia,GM,GM2019DHS,2019,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,18
+Gambia,GM,GM2019DHS,2019,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,11.4
+Ghana,GH,GH1993DHS,1993,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,55.5
+Ghana,GH,GH1993DHS,1993,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,14.6
+Ghana,GH,GH1993DHS,1993,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,20.8
+Ghana,GH,GH1993DHS,1993,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Ghana,GH,GH1993DHS,1993,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,18.4
+Ghana,GH,GH1998DHS,1998,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Ghana,GH,GH1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,61.6
+Ghana,GH,GH1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,16.9
+Ghana,GH,GH1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,22.9
+Ghana,GH,GH1998DHS,1998,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.7
+Ghana,GH,GH1998DHS,1998,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,20.3
+Ghana,GH,GH2003DHS,2003,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Ghana,GH,GH2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,70
+Ghana,GH,GH2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.7
+Ghana,GH,GH2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,10.7
+Ghana,GH,GH2003DHS,2003,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,1.5
+Ghana,GH,GH2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,22.8
+Ghana,GH,GH2003DHS,2003,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.3
+Ghana,GH,GH2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.4
+Ghana,GH,GH2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.9
+Ghana,GH,GH2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,87.5
+Ghana,GH,GH2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,6.4
+Ghana,GH,GH2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,7.8
+Ghana,GH,GH2008DHS,2008,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,8.8
+Ghana,GH,GH2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,29
+Ghana,GH,GH2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.8
+Ghana,GH,GH2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,28
+Ghana,GH,GH2014DHS,2014,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.8
+Ghana,GH,GH2014DHS,2014,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Ghana,GH,GH2014DHS,2014,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,90.1
+Ghana,GH,GH2014DHS,2014,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.6
+Ghana,GH,GH2014DHS,2014,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.1
+Ghana,GH,GH2014DHS,2014,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,29
+Ghana,GH,GH2014DHS,2014,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,21
+Ghana,GH,GH2014DHS,2014,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Ghana,GH,GH2014DHS,2014,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,23.1
+Ghana,GH,GH2022DHS,2022,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.4
+Ghana,GH,GH2022DHS,2022,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Ghana,GH,GH2022DHS,2022,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,90.5
+Ghana,GH,GH2022DHS,2022,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.4
+Ghana,GH,GH2022DHS,2022,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,4.5
+Ghana,GH,GH2022DHS,2022,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.8
+Ghana,GH,GH2022DHS,2022,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,41.1
+Ghana,GH,GH2022DHS,2022,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.3
+Ghana,GH,GH2022DHS,2022,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Ghana,GH,GH2022DHS,2022,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,19.5
+Guatemala,GU,GU1995DHS,1995,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,9.2
+Guatemala,GU,GU1995DHS,1995,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,88.4
+Guatemala,GU,GU1995DHS,1995,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,9
+Guatemala,GU,GU1995DHS,1995,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,55.6
+Guatemala,GU,GU1995DHS,1995,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.1
+Guatemala,GU,GU1995DHS,1995,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,12.8
+Guatemala,GU,GU1999DHS,1999,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,15.4
+Guatemala,GU,GU1999DHS,1999,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.2
+Guatemala,GU,GU1999DHS,1999,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,2.7
+Guatemala,GU,GU1999DHS,1999,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,59.8
+Guatemala,GU,GU1999DHS,1999,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Guatemala,GU,GU2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,28.4
+Guatemala,GU,GU2015DHS,2015,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",4.2
+Guatemala,GU,GU2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,86.5
+Guatemala,GU,GU2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,20
+Guatemala,GU,GU2015DHS,2015,POY,WS_SRCE_H_POY,autre,Households using water piped outside yard/plot,3.1
+Guatemala,GU,GU2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,31.1
+Guatemala,GU,GU2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,1.9
+Guatemala,GU,GU2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Guinea,GN,GN1999DHS,1999,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,24.5
+Guinea,GN,GN1999DHS,1999,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.1
+Guinea,GN,GN1999DHS,1999,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.3
+Guinea,GN,GN1999DHS,1999,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.8
+Guinea,GN,GN1999DHS,1999,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Guinea,GN,GN2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,61.9
+Guinea,GN,GN2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.7
+Guinea,GN,GN2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.9
+Guinea,GN,GN2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13
+Guinea,GN,GN2005DHS,2005,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,31
+Guinea,GN,GN2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.7
+Guinea,GN,GN2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Guinea,GN,GN2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75
+Guinea,GN,GN2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.2
+Guinea,GN,GN2012DHS,2012,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,8.6
+Guinea,GN,GN2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.4
+Guinea,GN,GN2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.7
+Guinea,GN,GN2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,38.8
+Guinea,GN,GN2018DHS,2018,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.1
+Guinea,GN,GN2018DHS,2018,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Guinea,GN,GN2018DHS,2018,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79.3
+Guinea,GN,GN2018DHS,2018,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.5
+Guinea,GN,GN2018DHS,2018,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.4
+Guinea,GN,GN2018DHS,2018,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.8
+Guinea,GN,GN2018DHS,2018,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.9
+Guinea,GN,GN2018DHS,2018,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Guinea,GN,GN2018DHS,2018,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,41.5
+Guyana,GY,GY2009DHS,2009,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,32.2
+Guyana,GY,GY2009DHS,2009,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.7
+Guyana,GY,GY2009DHS,2009,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,94.8
+Guyana,GY,GY2009DHS,2009,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,14
+Guyana,GY,GY2009DHS,2009,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,18.4
+Guyana,GY,GY2009DHS,2009,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,1.1
+Guyana,GY,GY2009DHS,2009,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Guyana,GY,GY2009DHS,2009,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0
+Haiti,HT,HT1994DHS,1994,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Haiti,HT,HT1994DHS,1994,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,48.7
+Haiti,HT,HT1994DHS,1994,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,12
+Haiti,HT,HT1994DHS,1994,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,24.5
+Haiti,HT,HT1994DHS,1994,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.2
+Haiti,HT,HT1994DHS,1994,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,10
+Haiti,HT,HT2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.8
+Haiti,HT,HT2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,63.7
+Haiti,HT,HT2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,10.7
+Haiti,HT,HT2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,42.5
+Haiti,HT,HT2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Haiti,HT,HT2000DHS,2000,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,1
+Haiti,HT,HT2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,4.4
+Haiti,HT,HT2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.9
+Haiti,HT,HT2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.8
+Haiti,HT,HT2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.1
+Haiti,HT,HT2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,8.1
+Haiti,HT,HT2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,26.1
+Haiti,HT,HT2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.6
+Haiti,HT,HT2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,6.5
+Haiti,HT,HT2006DHS,2006,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,5.4
+Haiti,HT,HT2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,5.9
+Haiti,HT,HT2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.3
+Haiti,HT,HT2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,68.4
+Haiti,HT,HT2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.2
+Haiti,HT,HT2012DHS,2012,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,4.6
+Haiti,HT,HT2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.9
+Haiti,HT,HT2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,20.7
+Haiti,HT,HT2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.3
+Haiti,HT,HT2012DHS,2012,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,18.2
+Haiti,HT,HT2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.2
+Haiti,HT,HT2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.8
+Haiti,HT,HT2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75.6
+Haiti,HT,HT2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.2
+Haiti,HT,HT2016DHS,2016,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.8
+Haiti,HT,HT2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.3
+Haiti,HT,HT2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,18.8
+Haiti,HT,HT2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Haiti,HT,HT2016DHS,2016,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,31.2
+Honduras,HN,HN2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,25.6
+Honduras,HN,HN2005DHS,2005,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.3
+Honduras,HN,HN2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85
+Honduras,HN,HN2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,45.6
+Honduras,HN,HN2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.7
+Honduras,HN,HN2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.7
+Honduras,HN,HN2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.3
+Honduras,HN,HN2005DHS,2005,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.2
+Honduras,HN,HN2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,38.6
+Honduras,HN,HN2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.5
+Honduras,HN,HN2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,90.2
+Honduras,HN,HN2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,42.3
+Honduras,HN,HN2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.3
+Honduras,HN,HN2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.7
+Honduras,HN,HN2011DHS,2011,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Honduras,HN,HN2011DHS,2011,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.7
+India,IA,IA1993DHS,1993,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,68.6
+India,IA,IA1993DHS,1993,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,18.4
+India,IA,IA1993DHS,1993,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,14.8
+India,IA,IA1993DHS,1993,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+India,IA,IA1993DHS,1993,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,35.1
+India,IA,IA1999DHS,1999,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79
+India,IA,IA1999DHS,1999,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,21
+India,IA,IA1999DHS,1999,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,17.6
+India,IA,IA1999DHS,1999,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+India,IA,IA1999DHS,1999,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,39.2
+India,IA,IA2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.4
+India,IA,IA2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",6.6
+India,IA,IA2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,88.5
+India,IA,IA2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,13.1
+India,IA,IA2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,11.5
+India,IA,IA2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,17.5
+India,IA,IA2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+India,IA,IA2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,42.8
+India,IA,IA2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.1
+India,IA,IA2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,94.5
+India,IA,IA2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,16.6
+India,IA,IA2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,13.6
+India,IA,IA2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.9
+India,IA,IA2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.3
+India,IA,IA2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,39.2
+India,IA,IA2020DHS,2020,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.8
+India,IA,IA2020DHS,2020,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",7
+India,IA,IA2020DHS,2020,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,95.9
+India,IA,IA2020DHS,2020,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,19.4
+India,IA,IA2020DHS,2020,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.6
+India,IA,IA2020DHS,2020,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,13.5
+India,IA,IA2020DHS,2020,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.3
+India,IA,IA2020DHS,2020,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.2
+India,IA,IA2020DHS,2020,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,36
+Indonesia,ID,ID1991DHS,1991,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,27.7
+Indonesia,ID,ID1991DHS,1991,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.1
+Indonesia,ID,ID1991DHS,1991,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.6
+Indonesia,ID,ID1991DHS,1991,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.9
+Indonesia,ID,ID1991DHS,1991,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,10.9
+Indonesia,ID,ID1994DHS,1994,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71.7
+Indonesia,ID,ID1994DHS,1994,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.4
+Indonesia,ID,ID1994DHS,1994,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.6
+Indonesia,ID,ID1994DHS,1994,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.2
+Indonesia,ID,ID1994DHS,1994,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,10.8
+Indonesia,ID,ID1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,74.4
+Indonesia,ID,ID1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,11.2
+Indonesia,ID,ID1997DHS,1997,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.2
+Indonesia,ID,ID1997DHS,1997,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,4.7
+Indonesia,ID,ID1997DHS,1997,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,12.8
+Indonesia,ID,ID2003DHS,2003,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.3
+Indonesia,ID,ID2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.7
+Indonesia,ID,ID2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,12.4
+Indonesia,ID,ID2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.1
+Indonesia,ID,ID2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.6
+Indonesia,ID,ID2003DHS,2003,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.3
+Indonesia,ID,ID2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,8.7
+Indonesia,ID,ID2007DHS,2007,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",4.2
+Indonesia,ID,ID2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,69.2
+Indonesia,ID,ID2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,11.5
+Indonesia,ID,ID2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.9
+Indonesia,ID,ID2007DHS,2007,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3
+Indonesia,ID,ID2007DHS,2007,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.3
+Indonesia,ID,ID2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,10.1
+Indonesia,ID,ID2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.4
+Indonesia,ID,ID2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.6
+Indonesia,ID,ID2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,9
+Indonesia,ID,ID2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.9
+Indonesia,ID,ID2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,1.6
+Indonesia,ID,ID2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Indonesia,ID,ID2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,35
+Indonesia,ID,ID2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.5
+Indonesia,ID,ID2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,90.9
+Indonesia,ID,ID2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.3
+Indonesia,ID,ID2017DHS,2017,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,0.7
+Indonesia,ID,ID2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.1
+Indonesia,ID,ID2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.6
+Indonesia,ID,ID2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Indonesia,ID,ID2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,16.3
+Jordan,JO,JO1997DHS,1997,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Jordan,JO,JO1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,97.7
+Jordan,JO,JO1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,94.4
+Jordan,JO,JO1997DHS,1997,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.1
+Jordan,JO,JO1997DHS,1997,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.7
+Jordan,JO,JO2002DHS,2002,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,7.6
+Jordan,JO,JO2002DHS,2002,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.6
+Jordan,JO,JO2002DHS,2002,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,85.4
+Jordan,JO,JO2002DHS,2002,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.4
+Jordan,JO,JO2002DHS,2002,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0
+Jordan,JO,JO2002DHS,2002,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.7
+Jordan,JO,JO2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,21.5
+Jordan,JO,JO2007DHS,2007,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",16.4
+Jordan,JO,JO2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.6
+Jordan,JO,JO2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,69.6
+Jordan,JO,JO2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.7
+Jordan,JO,JO2007DHS,2007,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.1
+Jordan,JO,JO2009DHS,2009,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,31.5
+Jordan,JO,JO2009DHS,2009,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",21
+Jordan,JO,JO2009DHS,2009,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.6
+Jordan,JO,JO2009DHS,2009,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,59.5
+Jordan,JO,JO2009DHS,2009,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.2
+Jordan,JO,JO2009DHS,2009,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.8
+Jordan,JO,JO2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,43.1
+Jordan,JO,JO2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",23.3
+Jordan,JO,JO2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.6
+Jordan,JO,JO2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,49.4
+Jordan,JO,JO2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.2
+Jordan,JO,JO2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.6
+Jordan,JO,JO2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,37.8
+Jordan,JO,JO2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",30.8
+Jordan,JO,JO2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.8
+Jordan,JO,JO2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,57.2
+Jordan,JO,JO2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1
+Jordan,JO,JO2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1
+Jordan,JO,JO2023DHS,2023,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,46.6
+Jordan,JO,JO2023DHS,2023,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",32.7
+Jordan,JO,JO2023DHS,2023,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.9
+Jordan,JO,JO2023DHS,2023,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,49
+Jordan,JO,JO2023DHS,2023,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.2
+Jordan,JO,JO2023DHS,2023,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1
+Kazakhstan,KK,KK1995DHS,1995,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,86.7
+Kazakhstan,KK,KK1995DHS,1995,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,65.4
+Kazakhstan,KK,KK1995DHS,1995,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.6
+Kazakhstan,KK,KK1995DHS,1995,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.7
+Kazakhstan,KK,KK1999DHS,1999,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Kazakhstan,KK,KK1999DHS,1999,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,69.4
+Kazakhstan,KK,KK1999DHS,1999,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,49.5
+Kazakhstan,KK,KK1999DHS,1999,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.2
+Kazakhstan,KK,KK1999DHS,1999,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.6
+Kazakhstan,KK,KK1999DHS,1999,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,3
+Kenya,KE,KE1993DHS,1993,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,43.8
+Kenya,KE,KE1993DHS,1993,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,19.4
+Kenya,KE,KE1993DHS,1993,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.2
+Kenya,KE,KE1993DHS,1993,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.9
+Kenya,KE,KE1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,35.5
+Kenya,KE,KE1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,23.2
+Kenya,KE,KE1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11
+Kenya,KE,KE2003DHS,2003,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Kenya,KE,KE2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,45.4
+Kenya,KE,KE2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.6
+Kenya,KE,KE2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,13.4
+Kenya,KE,KE2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.6
+Kenya,KE,KE2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.4
+Kenya,KE,KE2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Kenya,KE,KE2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,64.8
+Kenya,KE,KE2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,9.4
+Kenya,KE,KE2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,15.2
+Kenya,KE,KE2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,9.7
+Kenya,KE,KE2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Kenya,KE,KE2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.8
+Kenya,KE,KE2014DHS,2014,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.9
+Kenya,KE,KE2014DHS,2014,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.6
+Kenya,KE,KE2014DHS,2014,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,73.1
+Kenya,KE,KE2014DHS,2014,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.4
+Kenya,KE,KE2014DHS,2014,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,20.5
+Kenya,KE,KE2014DHS,2014,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.8
+Kenya,KE,KE2014DHS,2014,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.5
+Kenya,KE,KE2014DHS,2014,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,6.3
+Kenya,KE,KE2022DHS,2022,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,7
+Kenya,KE,KE2022DHS,2022,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.1
+Kenya,KE,KE2022DHS,2022,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,80.4
+Kenya,KE,KE2022DHS,2022,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.1
+Kenya,KE,KE2022DHS,2022,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,5.1
+Kenya,KE,KE2022DHS,2022,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,17.2
+Kenya,KE,KE2022DHS,2022,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.1
+Kenya,KE,KE2022DHS,2022,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.4
+Kenya,KE,KE2022DHS,2022,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,7.6
+Kyrgyz Republic,KY,KY1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,74.9
+Kyrgyz Republic,KY,KY1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,51.9
+Kyrgyz Republic,KY,KY1997DHS,1997,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,22.6
+Kyrgyz Republic,KY,KY1997DHS,1997,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Kyrgyz Republic,KY,KY2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Kyrgyz Republic,KY,KY2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1
+Kyrgyz Republic,KY,KY2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,89.2
+Kyrgyz Republic,KY,KY2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,30.9
+Kyrgyz Republic,KY,KY2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,30.4
+Kyrgyz Republic,KY,KY2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,20.8
+Kyrgyz Republic,KY,KY2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Kyrgyz Republic,KY,KY2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.9
+Lesotho,LS,LS2004DHS,2004,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75.2
+Lesotho,LS,LS2004DHS,2004,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.3
+Lesotho,LS,LS2004DHS,2004,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,4.8
+Lesotho,LS,LS2004DHS,2004,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,10.5
+Lesotho,LS,LS2004DHS,2004,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,43.3
+Lesotho,LS,LS2004DHS,2004,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Lesotho,LS,LS2009DHS,2009,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Lesotho,LS,LS2009DHS,2009,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Lesotho,LS,LS2009DHS,2009,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79.4
+Lesotho,LS,LS2009DHS,2009,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3
+Lesotho,LS,LS2009DHS,2009,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,16.6
+Lesotho,LS,LS2009DHS,2009,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,44.3
+Lesotho,LS,LS2009DHS,2009,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.5
+Lesotho,LS,LS2009DHS,2009,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8
+Lesotho,LS,LS2014DHS,2014,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Lesotho,LS,LS2014DHS,2014,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Lesotho,LS,LS2014DHS,2014,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,83.9
+Lesotho,LS,LS2014DHS,2014,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3
+Lesotho,LS,LS2014DHS,2014,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.8
+Lesotho,LS,LS2014DHS,2014,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,22.6
+Lesotho,LS,LS2014DHS,2014,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,38.8
+Lesotho,LS,LS2014DHS,2014,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Lesotho,LS,LS2014DHS,2014,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,5.7
+Lesotho,LS,LS2023DHS,2023,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Lesotho,LS,LS2023DHS,2023,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Lesotho,LS,LS2023DHS,2023,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,91.3
+Lesotho,LS,LS2023DHS,2023,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.6
+Lesotho,LS,LS2023DHS,2023,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,4.9
+Lesotho,LS,LS2023DHS,2023,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,33.8
+Lesotho,LS,LS2023DHS,2023,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,39
+Lesotho,LS,LS2023DHS,2023,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.8
+Lesotho,LS,LS2023DHS,2023,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.8
+Liberia,LB,LB2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Liberia,LB,LB2007DHS,2007,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0
+Liberia,LB,LB2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,67.9
+Liberia,LB,LB2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.6
+Liberia,LB,LB2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.1
+Liberia,LB,LB2007DHS,2007,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,4.1
+Liberia,LB,LB2007DHS,2007,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.6
+Liberia,LB,LB2007DHS,2007,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.8
+Liberia,LB,LB2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.6
+Liberia,LB,LB2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Liberia,LB,LB2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75.5
+Liberia,LB,LB2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.6
+Liberia,LB,LB2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.5
+Liberia,LB,LB2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,1.8
+Liberia,LB,LB2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Liberia,LB,LB2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.2
+Liberia,LB,LB2019DHS,2019,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.5
+Liberia,LB,LB2019DHS,2019,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.9
+Liberia,LB,LB2019DHS,2019,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,84
+Liberia,LB,LB2019DHS,2019,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.3
+Liberia,LB,LB2019DHS,2019,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.5
+Liberia,LB,LB2019DHS,2019,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.3
+Liberia,LB,LB2019DHS,2019,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,16.7
+Liberia,LB,LB2019DHS,2019,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.3
+Liberia,LB,LB2019DHS,2019,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Liberia,LB,LB2019DHS,2019,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,54.4
+Madagascar,MD,MD1992DHS,1992,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.2
+Madagascar,MD,MD1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,18.2
+Madagascar,MD,MD1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.5
+Madagascar,MD,MD1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.4
+Madagascar,MD,MD1992DHS,1992,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Madagascar,MD,MD1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,20.9
+Madagascar,MD,MD1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.1
+Madagascar,MD,MD1997DHS,1997,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.9
+Madagascar,MD,MD1997DHS,1997,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.2
+Madagascar,MD,MD1997DHS,1997,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.5
+Madagascar,MD,MD1997DHS,1997,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.1
+Madagascar,MD,MD2004DHS,2004,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,34.8
+Madagascar,MD,MD2004DHS,2004,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.1
+Madagascar,MD,MD2004DHS,2004,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3
+Madagascar,MD,MD2004DHS,2004,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.3
+Madagascar,MD,MD2004DHS,2004,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Madagascar,MD,MD2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Madagascar,MD,MD2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Madagascar,MD,MD2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,41.5
+Madagascar,MD,MD2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.3
+Madagascar,MD,MD2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.6
+Madagascar,MD,MD2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,20.1
+Madagascar,MD,MD2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Madagascar,MD,MD2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.9
+Madagascar,MD,MD2021DHS,2021,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Madagascar,MD,MD2021DHS,2021,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.9
+Madagascar,MD,MD2021DHS,2021,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,48
+Madagascar,MD,MD2021DHS,2021,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.6
+Madagascar,MD,MD2021DHS,2021,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.5
+Madagascar,MD,MD2021DHS,2021,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.7
+Madagascar,MD,MD2021DHS,2021,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,18
+Madagascar,MD,MD2021DHS,2021,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Madagascar,MD,MD2021DHS,2021,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,4.1
+Malawi,MW,MW1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,47.2
+Malawi,MW,MW1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.8
+Malawi,MW,MW1992DHS,1992,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.6
+Malawi,MW,MW1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.8
+Malawi,MW,MW2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Malawi,MW,MW2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,65.2
+Malawi,MW,MW2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.8
+Malawi,MW,MW2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.3
+Malawi,MW,MW2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,16.2
+Malawi,MW,MW2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Malawi,MW,MW2000DHS,2000,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,35.8
+Malawi,MW,MW2004DHS,2004,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,63.6
+Malawi,MW,MW2004DHS,2004,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.9
+Malawi,MW,MW2004DHS,2004,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.4
+Malawi,MW,MW2004DHS,2004,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.7
+Malawi,MW,MW2004DHS,2004,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Malawi,MW,MW2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Malawi,MW,MW2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Malawi,MW,MW2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79.8
+Malawi,MW,MW2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2
+Malawi,MW,MW2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.7
+Malawi,MW,MW2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.9
+Malawi,MW,MW2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Malawi,MW,MW2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,51.2
+Malawi,MW,MW2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Malawi,MW,MW2015DHS,2015,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.5
+Malawi,MW,MW2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,87.2
+Malawi,MW,MW2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.4
+Malawi,MW,MW2015DHS,2015,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.7
+Malawi,MW,MW2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.8
+Malawi,MW,MW2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10
+Malawi,MW,MW2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Malawi,MW,MW2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,62.1
+Malawi,MW,MW2024DHS,2024,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Malawi,MW,MW2024DHS,2024,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Malawi,MW,MW2024DHS,2024,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,88.5
+Malawi,MW,MW2024DHS,2024,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.2
+Malawi,MW,MW2024DHS,2024,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.5
+Malawi,MW,MW2024DHS,2024,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.5
+Malawi,MW,MW2024DHS,2024,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8.3
+Malawi,MW,MW2024DHS,2024,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Malawi,MW,MW2024DHS,2024,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,64.7
+Maldives,MV,MV2009DHS,2009,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,13.3
+Maldives,MV,MV2009DHS,2009,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",5
+Maldives,MV,MV2009DHS,2009,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,97.8
+Maldives,MV,MV2009DHS,2009,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,15.6
+Maldives,MV,MV2009DHS,2009,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.9
+Maldives,MV,MV2009DHS,2009,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.3
+Maldives,MV,MV2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,36.7
+Maldives,MV,MV2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",16.3
+Maldives,MV,MV2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.7
+Maldives,MV,MV2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,13.3
+Maldives,MV,MV2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.5
+Maldives,MV,MV2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.1
+Mali,ML,ML1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,29.7
+Mali,ML,ML1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.8
+Mali,ML,ML1996DHS,1996,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.8
+Mali,ML,ML1996DHS,1996,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,14.2
+Mali,ML,ML2001DHS,2001,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Mali,ML,ML2001DHS,2001,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,41.9
+Mali,ML,ML2001DHS,2001,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.6
+Mali,ML,ML2001DHS,2001,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.3
+Mali,ML,ML2001DHS,2001,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.5
+Mali,ML,ML2001DHS,2001,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Mali,ML,ML2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Mali,ML,ML2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.5
+Mali,ML,ML2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,56
+Mali,ML,ML2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.9
+Mali,ML,ML2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.7
+Mali,ML,ML2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.3
+Mali,ML,ML2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Mali,ML,ML2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Mali,ML,ML2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.2
+Mali,ML,ML2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.5
+Mali,ML,ML2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.4
+Mali,ML,ML2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,16.8
+Mali,ML,ML2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Mali,ML,ML2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,22.1
+Mali,ML,ML2018DHS,2018,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Mali,ML,ML2018DHS,2018,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.5
+Mali,ML,ML2018DHS,2018,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,69.3
+Mali,ML,ML2018DHS,2018,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,6.8
+Mali,ML,ML2018DHS,2018,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.4
+Mali,ML,ML2018DHS,2018,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,7.2
+Mali,ML,ML2018DHS,2018,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.3
+Mali,ML,ML2018DHS,2018,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,17.3
+Mali,ML,ML2018DHS,2018,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Mali,ML,ML2018DHS,2018,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,22.9
+Mali,ML,ML2023DHS,2023,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.4
+Mali,ML,ML2023DHS,2023,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Mali,ML,ML2023DHS,2023,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,83.1
+Mali,ML,ML2023DHS,2023,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.8
+Mali,ML,ML2023DHS,2023,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,4.8
+Mali,ML,ML2023DHS,2023,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,16.3
+Mali,ML,ML2023DHS,2023,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.9
+Mali,ML,ML2023DHS,2023,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,21
+Mali,ML,ML2023DHS,2023,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Mali,ML,ML2023DHS,2023,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,24.5
+Mauritania,MR,MR2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.5
+Mauritania,MR,MR2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,17.9
+Mauritania,MR,MR2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,27.6
+Mauritania,MR,MR2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,4.1
+Mauritania,MR,MR2020DHS,2020,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Mauritania,MR,MR2020DHS,2020,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.9
+Mauritania,MR,MR2020DHS,2020,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,80.5
+Mauritania,MR,MR2020DHS,2020,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,26.1
+Mauritania,MR,MR2020DHS,2020,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.8
+Mauritania,MR,MR2020DHS,2020,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,18.2
+Mauritania,MR,MR2020DHS,2020,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8
+Mauritania,MR,MR2020DHS,2020,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,5.5
+Mauritania,MR,MR2020DHS,2020,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.7
+Moldova,MB,MB2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.5
+Moldova,MB,MB2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,94.7
+Moldova,MB,MB2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,29.6
+Moldova,MB,MB2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.4
+Moldova,MB,MB2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.9
+Moldova,MB,MB2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Moldova,MB,MB2005DHS,2005,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.3
+Morocco,MA,MA1992DHS,1992,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Morocco,MA,MA1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,58.5
+Morocco,MA,MA1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,41.8
+Morocco,MA,MA1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,12.9
+Morocco,MA,MA1992DHS,1992,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1
+Morocco,MA,MA2003DHS,2003,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.5
+Morocco,MA,MA2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79.8
+Morocco,MA,MA2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,58.2
+Morocco,MA,MA2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.2
+Morocco,MA,MA2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.9
+Morocco,MA,MA2003DHS,2003,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Mozambique,MZ,MZ1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,20.7
+Mozambique,MZ,MZ1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.9
+Mozambique,MZ,MZ1997DHS,1997,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,5.4
+Mozambique,MZ,MZ1997DHS,1997,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10
+Mozambique,MZ,MZ1997DHS,1997,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Mozambique,MZ,MZ2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,42
+Mozambique,MZ,MZ2003DHS,2003,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,10.2
+Mozambique,MZ,MZ2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,7.3
+Mozambique,MZ,MZ2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8.8
+Mozambique,MZ,MZ2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Mozambique,MZ,MZ2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Mozambique,MZ,MZ2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,51.2
+Mozambique,MZ,MZ2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.7
+Mozambique,MZ,MZ2011DHS,2011,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.3
+Mozambique,MZ,MZ2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,8.1
+Mozambique,MZ,MZ2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,14.6
+Mozambique,MZ,MZ2011DHS,2011,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Mozambique,MZ,MZ2011DHS,2011,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,11.7
+Mozambique,MZ,MZ2022DHS,2022,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1
+Mozambique,MZ,MZ2022DHS,2022,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Mozambique,MZ,MZ2022DHS,2022,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,61.6
+Mozambique,MZ,MZ2022DHS,2022,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.5
+Mozambique,MZ,MZ2022DHS,2022,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,7.8
+Mozambique,MZ,MZ2022DHS,2022,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,16
+Mozambique,MZ,MZ2022DHS,2022,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.2
+Mozambique,MZ,MZ2022DHS,2022,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.7
+Mozambique,MZ,MZ2022DHS,2022,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,17.8
+Myanmar,MM,MM2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,15.5
+Myanmar,MM,MM2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",8.7
+Myanmar,MM,MM2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,82.4
+Myanmar,MM,MM2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.1
+Myanmar,MM,MM2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.2
+Myanmar,MM,MM2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.2
+Myanmar,MM,MM2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.4
+Myanmar,MM,MM2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,28.1
+Namibia,NM,NM1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,58.3
+Namibia,NM,NM1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,37.7
+Namibia,NM,NM1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.2
+Namibia,NM,NM1992DHS,1992,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.6
+Namibia,NM,NM1992DHS,1992,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.8
+Namibia,NM,NM2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Namibia,NM,NM2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79.6
+Namibia,NM,NM2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,27.6
+Namibia,NM,NM2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,14.5
+Namibia,NM,NM2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,20.6
+Namibia,NM,NM2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Namibia,NM,NM2000DHS,2000,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,6.8
+Namibia,NM,NM2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.4
+Namibia,NM,NM2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.3
+Namibia,NM,NM2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,89.2
+Namibia,NM,NM2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,34.7
+Namibia,NM,NM2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,15.9
+Namibia,NM,NM2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,25.1
+Namibia,NM,NM2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Namibia,NM,NM2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,9
+Namibia,NM,NM2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.6
+Namibia,NM,NM2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.9
+Namibia,NM,NM2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,87.5
+Namibia,NM,NM2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,36.8
+Namibia,NM,NM2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,14.2
+Namibia,NM,NM2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,26.1
+Namibia,NM,NM2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Namibia,NM,NM2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,7.5
+Nepal,NP,NP1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,65
+Nepal,NP,NP1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.8
+Nepal,NP,NP1996DHS,1996,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,22.7
+Nepal,NP,NP1996DHS,1996,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,31.9
+Nepal,NP,NP2001DHS,2001,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,73.6
+Nepal,NP,NP2001DHS,2001,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.1
+Nepal,NP,NP2001DHS,2001,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,26.3
+Nepal,NP,NP2001DHS,2001,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,37.4
+Nepal,NP,NP2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Nepal,NP,NP2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",6.3
+Nepal,NP,NP2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85
+Nepal,NP,NP2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.7
+Nepal,NP,NP2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,11
+Nepal,NP,NP2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,26.2
+Nepal,NP,NP2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Nepal,NP,NP2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,37.8
+Nepal,NP,NP2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.9
+Nepal,NP,NP2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",10.3
+Nepal,NP,NP2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,92.3
+Nepal,NP,NP2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,5.5
+Nepal,NP,NP2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,16.9
+Nepal,NP,NP2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,24.5
+Nepal,NP,NP2011DHS,2011,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.7
+Nepal,NP,NP2011DHS,2011,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,38.9
+Nepal,NP,NP2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.6
+Nepal,NP,NP2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",13.2
+Nepal,NP,NP2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,96
+Nepal,NP,NP2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.1
+Nepal,NP,NP2016DHS,2016,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.8
+Nepal,NP,NP2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,24.4
+Nepal,NP,NP2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.9
+Nepal,NP,NP2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Nepal,NP,NP2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,35.9
+Nepal,NP,NP2022DHS,2022,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,8
+Nepal,NP,NP2022DHS,2022,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",15
+Nepal,NP,NP2022DHS,2022,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,98
+Nepal,NP,NP2022DHS,2022,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,9.3
+Nepal,NP,NP2022DHS,2022,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.6
+Nepal,NP,NP2022DHS,2022,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,34.4
+Nepal,NP,NP2022DHS,2022,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8.3
+Nepal,NP,NP2022DHS,2022,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Nepal,NP,NP2022DHS,2022,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,33.8
+Nicaragua,NC,NC1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,68.3
+Nicaragua,NC,NC1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,49.1
+Nicaragua,NC,NC1998DHS,1998,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,15
+Nicaragua,NC,NC1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.3
+Nicaragua,NC,NC1998DHS,1998,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,0.8
+Nicaragua,NC,NC2001DHS,2001,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,70.7
+Nicaragua,NC,NC2001DHS,2001,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,31.1
+Nicaragua,NC,NC2001DHS,2001,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.9
+Nicaragua,NC,NC2001DHS,2001,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,32
+Nicaragua,NC,NC2001DHS,2001,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.2
+Niger,NI,NI1992DHS,1992,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Niger,NI,NI1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,20.6
+Niger,NI,NI1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.1
+Niger,NI,NI1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.1
+Niger,NI,NI1992DHS,1992,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,5.3
+Niger,NI,NI1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,41.9
+Niger,NI,NI1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.9
+Niger,NI,NI1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.1
+Niger,NI,NI1998DHS,1998,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,14.2
+Niger,NI,NI2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Niger,NI,NI2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Niger,NI,NI2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,41.4
+Niger,NI,NI2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4.4
+Niger,NI,NI2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.7
+Niger,NI,NI2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,16.3
+Niger,NI,NI2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Niger,NI,NI2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Niger,NI,NI2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,67.1
+Niger,NI,NI2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.7
+Niger,NI,NI2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.5
+Niger,NI,NI2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,24.5
+Niger,NI,NI2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Niger,NI,NI2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,14.8
+Niger,NI,NI2012DHS,2012,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,0.1
+Nigeria,NG,NG2003DHS,2003,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.9
+Nigeria,NG,NG2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,49.3
+Nigeria,NG,NG2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.4
+Nigeria,NG,NG2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.2
+Nigeria,NG,NG2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.6
+Nigeria,NG,NG2003DHS,2003,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,3.3
+Nigeria,NG,NG2003DHS,2003,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,2.2
+Nigeria,NG,NG2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.8
+Nigeria,NG,NG2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.9
+Nigeria,NG,NG2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,60.4
+Nigeria,NG,NG2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2
+Nigeria,NG,NG2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.4
+Nigeria,NG,NG2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.2
+Nigeria,NG,NG2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.2
+Nigeria,NG,NG2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,28
+Nigeria,NG,NG2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.2
+Nigeria,NG,NG2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.7
+Nigeria,NG,NG2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,68.3
+Nigeria,NG,NG2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.6
+Nigeria,NG,NG2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.2
+Nigeria,NG,NG2013DHS,2013,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,5.8
+Nigeria,NG,NG2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.8
+Nigeria,NG,NG2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.1
+Nigeria,NG,NG2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,37.3
+Nigeria,NG,NG2018DHS,2018,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.7
+Nigeria,NG,NG2018DHS,2018,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Nigeria,NG,NG2018DHS,2018,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75.4
+Nigeria,NG,NG2018DHS,2018,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.7
+Nigeria,NG,NG2018DHS,2018,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,0.7
+Nigeria,NG,NG2018DHS,2018,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.4
+Nigeria,NG,NG2018DHS,2018,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,9.8
+Nigeria,NG,NG2018DHS,2018,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.5
+Nigeria,NG,NG2018DHS,2018,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.7
+Nigeria,NG,NG2018DHS,2018,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,37.2
+Nigeria,NG,NG2024DHS,2024,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.7
+Nigeria,NG,NG2024DHS,2024,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.4
+Nigeria,NG,NG2024DHS,2024,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.3
+Nigeria,NG,NG2024DHS,2024,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.8
+Nigeria,NG,NG2024DHS,2024,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.1
+Nigeria,NG,NG2024DHS,2024,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1
+Nigeria,NG,NG2024DHS,2024,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,15.8
+Nigeria,NG,NG2024DHS,2024,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.8
+Nigeria,NG,NG2024DHS,2024,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.6
+Nigeria,NG,NG2024DHS,2024,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,40.1
+Pakistan,PK,PK1991DHS,1991,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.4
+Pakistan,PK,PK1991DHS,1991,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,17.4
+Pakistan,PK,PK1991DHS,1991,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.1
+Pakistan,PK,PK1991DHS,1991,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.1
+Pakistan,PK,PK1991DHS,1991,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Pakistan,PK,PK1991DHS,1991,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,43.9
+Pakistan,PK,PK2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.6
+Pakistan,PK,PK2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.3
+Pakistan,PK,PK2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,94.1
+Pakistan,PK,PK2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,29.5
+Pakistan,PK,PK2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.3
+Pakistan,PK,PK2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.4
+Pakistan,PK,PK2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.8
+Pakistan,PK,PK2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,49.6
+Pakistan,PK,PK2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2
+Pakistan,PK,PK2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.7
+Pakistan,PK,PK2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,95
+Pakistan,PK,PK2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,28.7
+Pakistan,PK,PK2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.3
+Pakistan,PK,PK2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.6
+Pakistan,PK,PK2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.6
+Pakistan,PK,PK2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,48.5
+Pakistan,PK,PK2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3
+Pakistan,PK,PK2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1
+Pakistan,PK,PK2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,96
+Pakistan,PK,PK2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,20.4
+Pakistan,PK,PK2017DHS,2017,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.9
+Pakistan,PK,PK2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.2
+Pakistan,PK,PK2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.5
+Pakistan,PK,PK2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.6
+Pakistan,PK,PK2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,54.5
+Papua New Guinea,PG,PG2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Papua New Guinea,PG,PG2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Papua New Guinea,PG,PG2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,45.5
+Papua New Guinea,PG,PG2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,6.7
+Papua New Guinea,PG,PG2017DHS,2017,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.9
+Papua New Guinea,PG,PG2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4
+Papua New Guinea,PG,PG2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,4.2
+Papua New Guinea,PG,PG2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Papua New Guinea,PG,PG2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.4
+Peru,PE,PE1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,72.6
+Peru,PE,PE1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,58.9
+Peru,PE,PE1992DHS,1992,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.8
+Peru,PE,PE1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.8
+Peru,PE,PE1992DHS,1992,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.1
+Peru,PE,PE1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71.5
+Peru,PE,PE1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,59.2
+Peru,PE,PE1996DHS,1996,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.6
+Peru,PE,PE1996DHS,1996,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,4.6
+Peru,PE,PE2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,75.4
+Peru,PE,PE2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,62.1
+Peru,PE,PE2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.8
+Peru,PE,PE2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.4
+Peru,PE,PE2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,3.1
+Peru,PE,PE2004DHS,2004,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.4
+Peru,PE,PE2004DHS,2004,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Peru,PE,PE2004DHS,2004,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,77.4
+Peru,PE,PE2004DHS,2004,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,66.1
+Peru,PE,PE2004DHS,2004,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.5
+Peru,PE,PE2004DHS,2004,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.6
+Peru,PE,PE2004DHS,2004,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.8
+Peru,PE,PE2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.4
+Peru,PE,PE2007DHS,2007,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.5
+Peru,PE,PE2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,81.3
+Peru,PE,PE2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,69.1
+Peru,PE,PE2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.8
+Peru,PE,PE2007DHS,2007,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.8
+Peru,PE,PE2007DHS,2007,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1
+Peru,PE,PE2009DHS,2009,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.9
+Peru,PE,PE2009DHS,2009,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.6
+Peru,PE,PE2009DHS,2009,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,82.7
+Peru,PE,PE2009DHS,2009,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,68
+Peru,PE,PE2009DHS,2009,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.7
+Peru,PE,PE2009DHS,2009,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.5
+Peru,PE,PE2009DHS,2009,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.5
+Peru,PE,PE2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,4.3
+Peru,PE,PE2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.6
+Peru,PE,PE2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,84.1
+Peru,PE,PE2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,67.2
+Peru,PE,PE2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.3
+Peru,PE,PE2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3
+Peru,PE,PE2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,3.1
+Peru,PE,PE2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,5.4
+Peru,PE,PE2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Peru,PE,PE2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85.4
+Peru,PE,PE2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,69.8
+Peru,PE,PE2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.3
+Peru,PE,PE2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2
+Peru,PE,PE2011DHS,2011,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.7
+Peru,PE,PE2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,5.4
+Peru,PE,PE2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Peru,PE,PE2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85.9
+Peru,PE,PE2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,71.7
+Peru,PE,PE2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.8
+Peru,PE,PE2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.4
+Peru,PE,PE2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.5
+Philippines,PH,PH1993DHS,1993,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,70.3
+Philippines,PH,PH1993DHS,1993,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,45.2
+Philippines,PH,PH1993DHS,1993,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,8.2
+Philippines,PH,PH1993DHS,1993,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,9
+Philippines,PH,PH1998DHS,1998,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.8
+Philippines,PH,PH1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,88.6
+Philippines,PH,PH1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,30.2
+Philippines,PH,PH1998DHS,1998,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.6
+Philippines,PH,PH1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.6
+Philippines,PH,PH1998DHS,1998,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.1
+Philippines,PH,PH2003DHS,2003,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,5.7
+Philippines,PH,PH2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,91.3
+Philippines,PH,PH2003DHS,2003,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,34.3
+Philippines,PH,PH2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.3
+Philippines,PH,PH2003DHS,2003,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.1
+Philippines,PH,PH2003DHS,2003,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.5
+Philippines,PH,PH2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,21.2
+Philippines,PH,PH2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.9
+Philippines,PH,PH2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,92.9
+Philippines,PH,PH2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,24.3
+Philippines,PH,PH2008DHS,2008,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.5
+Philippines,PH,PH2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.8
+Philippines,PH,PH2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.1
+Philippines,PH,PH2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.9
+Philippines,PH,PH2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,21.7
+Philippines,PH,PH2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,36.6
+Philippines,PH,PH2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.8
+Philippines,PH,PH2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,95
+Philippines,PH,PH2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,20.1
+Philippines,PH,PH2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.4
+Philippines,PH,PH2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.4
+Philippines,PH,PH2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Philippines,PH,PH2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,16.5
+Philippines,PH,PH2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,44.6
+Philippines,PH,PH2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",3.1
+Philippines,PH,PH2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,96.5
+Philippines,PH,PH2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,20.1
+Philippines,PH,PH2017DHS,2017,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.3
+Philippines,PH,PH2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.3
+Philippines,PH,PH2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,3.2
+Philippines,PH,PH2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Philippines,PH,PH2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,12.4
+Philippines,PH,PH2022DHS,2022,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.6
+Philippines,PH,PH2022DHS,2022,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.4
+Philippines,PH,PH2022DHS,2022,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,98
+Philippines,PH,PH2022DHS,2022,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,15.8
+Philippines,PH,PH2022DHS,2022,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.7
+Philippines,PH,PH2022DHS,2022,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3
+Philippines,PH,PH2022DHS,2022,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.2
+Philippines,PH,PH2022DHS,2022,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Philippines,PH,PH2022DHS,2022,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,7.2
+Rwanda,RW,RW1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,24.3
+Rwanda,RW,RW1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.5
+Rwanda,RW,RW1992DHS,1992,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.2
+Rwanda,RW,RW1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,20.8
+Rwanda,RW,RW1992DHS,1992,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Rwanda,RW,RW1992DHS,1992,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.9
+Rwanda,RW,RW2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Rwanda,RW,RW2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,40.5
+Rwanda,RW,RW2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.9
+Rwanda,RW,RW2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.6
+Rwanda,RW,RW2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,29.1
+Rwanda,RW,RW2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Rwanda,RW,RW2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Rwanda,RW,RW2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,33.9
+Rwanda,RW,RW2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.5
+Rwanda,RW,RW2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.9
+Rwanda,RW,RW2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,24.9
+Rwanda,RW,RW2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Rwanda,RW,RW2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Rwanda,RW,RW2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,41.6
+Rwanda,RW,RW2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.3
+Rwanda,RW,RW2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.1
+Rwanda,RW,RW2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,32.2
+Rwanda,RW,RW2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Rwanda,RW,RW2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Rwanda,RW,RW2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Rwanda,RW,RW2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,73.8
+Rwanda,RW,RW2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.3
+Rwanda,RW,RW2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.3
+Rwanda,RW,RW2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,25.8
+Rwanda,RW,RW2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.3
+Rwanda,RW,RW2015DHS,2015,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",3.5
+Rwanda,RW,RW2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,73
+Rwanda,RW,RW2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.7
+Rwanda,RW,RW2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,8.8
+Rwanda,RW,RW2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,27.3
+Rwanda,RW,RW2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Rwanda,RW,RW2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.4
+Rwanda,RW,RW2019DHS,2019,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.2
+Rwanda,RW,RW2019DHS,2019,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.8
+Rwanda,RW,RW2019DHS,2019,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,80.4
+Rwanda,RW,RW2019DHS,2019,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.6
+Rwanda,RW,RW2019DHS,2019,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.7
+Rwanda,RW,RW2019DHS,2019,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,10.7
+Rwanda,RW,RW2019DHS,2019,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,30.1
+Rwanda,RW,RW2019DHS,2019,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Rwanda,RW,RW2019DHS,2019,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1.5
+Rwanda,RW,RW2025DHS,2025,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.5
+Rwanda,RW,RW2025DHS,2025,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.3
+Rwanda,RW,RW2025DHS,2025,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,82.8
+Rwanda,RW,RW2025DHS,2025,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.4
+Rwanda,RW,RW2025DHS,2025,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.6
+Rwanda,RW,RW2025DHS,2025,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,13.4
+Rwanda,RW,RW2025DHS,2025,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,35.2
+Rwanda,RW,RW2025DHS,2025,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Rwanda,RW,RW2025DHS,2025,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.2
+Sao Tome and Principe,ST,ST2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Sao Tome and Principe,ST,ST2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Sao Tome and Principe,ST,ST2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,94.2
+Sao Tome and Principe,ST,ST2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.9
+Sao Tome and Principe,ST,ST2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,26.7
+Sao Tome and Principe,ST,ST2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,57.7
+Sao Tome and Principe,ST,ST2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,0.3
+Senegal,SN,SN1993DHS,1993,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,52
+Senegal,SN,SN1993DHS,1993,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,27.2
+Senegal,SN,SN1993DHS,1993,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.6
+Senegal,SN,SN1993DHS,1993,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Senegal,SN,SN1993DHS,1993,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,5.2
+Senegal,SN,SN1997DHS,1997,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Senegal,SN,SN1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,53.3
+Senegal,SN,SN1997DHS,1997,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,31
+Senegal,SN,SN1997DHS,1997,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,18.4
+Senegal,SN,SN1997DHS,1997,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Senegal,SN,SN1997DHS,1997,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.5
+Senegal,SN,SN2005DHS,2005,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Senegal,SN,SN2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,70.6
+Senegal,SN,SN2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,27.8
+Senegal,SN,SN2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,17.1
+Senegal,SN,SN2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19
+Senegal,SN,SN2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Senegal,SN,SN2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.2
+Senegal,SN,SN2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.2
+Senegal,SN,SN2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79.7
+Senegal,SN,SN2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,38.5
+Senegal,SN,SN2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,14.4
+Senegal,SN,SN2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.8
+Senegal,SN,SN2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.7
+Senegal,SN,SN2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.3
+Senegal,SN,SN2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.1
+Senegal,SN,SN2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.8
+Senegal,SN,SN2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,23.2
+Senegal,SN,SN2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,28.4
+Senegal,SN,SN2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,17.2
+Senegal,SN,SN2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Senegal,SN,SN2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.4
+Senegal,SN,SN2014DHS,2014,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2
+Senegal,SN,SN2014DHS,2014,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.3
+Senegal,SN,SN2014DHS,2014,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,83.7
+Senegal,SN,SN2014DHS,2014,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,12.5
+Senegal,SN,SN2014DHS,2014,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,46.5
+Senegal,SN,SN2014DHS,2014,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.5
+Senegal,SN,SN2014DHS,2014,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Senegal,SN,SN2014DHS,2014,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.5
+Senegal,SN,SN2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.6
+Senegal,SN,SN2015DHS,2015,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.5
+Senegal,SN,SN2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.6
+Senegal,SN,SN2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,16.2
+Senegal,SN,SN2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,35.3
+Senegal,SN,SN2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,16.1
+Senegal,SN,SN2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Senegal,SN,SN2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.6
+Senegal,SN,SN2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3
+Senegal,SN,SN2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.1
+Senegal,SN,SN2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85.6
+Senegal,SN,SN2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,20.5
+Senegal,SN,SN2016DHS,2016,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6
+Senegal,SN,SN2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,32.7
+Senegal,SN,SN2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,12.7
+Senegal,SN,SN2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Senegal,SN,SN2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.8
+Senegal,SN,SN2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2
+Senegal,SN,SN2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.1
+Senegal,SN,SN2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85.1
+Senegal,SN,SN2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,26.1
+Senegal,SN,SN2017DHS,2017,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,5.1
+Senegal,SN,SN2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,31.8
+Senegal,SN,SN2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.9
+Senegal,SN,SN2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.4
+Senegal,SN,SN2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.6
+Senegal,SN,SN2018DHS,2018,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.8
+Senegal,SN,SN2018DHS,2018,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.1
+Senegal,SN,SN2018DHS,2018,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85.6
+Senegal,SN,SN2018DHS,2018,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,22.1
+Senegal,SN,SN2018DHS,2018,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,5.7
+Senegal,SN,SN2018DHS,2018,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,35.1
+Senegal,SN,SN2018DHS,2018,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.7
+Senegal,SN,SN2018DHS,2018,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Senegal,SN,SN2018DHS,2018,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.9
+Senegal,SN,SN2019DHS,2019,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,5.5
+Senegal,SN,SN2019DHS,2019,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1
+Senegal,SN,SN2019DHS,2019,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,86.2
+Senegal,SN,SN2019DHS,2019,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,27
+Senegal,SN,SN2019DHS,2019,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,5.3
+Senegal,SN,SN2019DHS,2019,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,25.6
+Senegal,SN,SN2019DHS,2019,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.4
+Senegal,SN,SN2019DHS,2019,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Senegal,SN,SN2019DHS,2019,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,4
+Senegal,SN,SN2023DHS,2023,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.5
+Senegal,SN,SN2023DHS,2023,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.2
+Senegal,SN,SN2023DHS,2023,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,90.9
+Senegal,SN,SN2023DHS,2023,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,35.9
+Senegal,SN,SN2023DHS,2023,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.3
+Senegal,SN,SN2023DHS,2023,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,31.7
+Senegal,SN,SN2023DHS,2023,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.4
+Senegal,SN,SN2023DHS,2023,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.4
+Senegal,SN,SN2023DHS,2023,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.6
+Senegal,SN,SN2023DHS,2023,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.7
+Sierra Leone,SL,SL2008DHS,2008,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Sierra Leone,SL,SL2008DHS,2008,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.4
+Sierra Leone,SL,SL2008DHS,2008,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,51.4
+Sierra Leone,SL,SL2008DHS,2008,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.6
+Sierra Leone,SL,SL2008DHS,2008,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6
+Sierra Leone,SL,SL2008DHS,2008,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.7
+Sierra Leone,SL,SL2008DHS,2008,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Sierra Leone,SL,SL2008DHS,2008,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,6.4
+Sierra Leone,SL,SL2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2.4
+Sierra Leone,SL,SL2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Sierra Leone,SL,SL2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,60.9
+Sierra Leone,SL,SL2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.1
+Sierra Leone,SL,SL2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,2.6
+Sierra Leone,SL,SL2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,16.3
+Sierra Leone,SL,SL2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Sierra Leone,SL,SL2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,16.4
+Sierra Leone,SL,SL2019DHS,2019,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.2
+Sierra Leone,SL,SL2019DHS,2019,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.6
+Sierra Leone,SL,SL2019DHS,2019,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,67
+Sierra Leone,SL,SL2019DHS,2019,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.3
+Sierra Leone,SL,SL2019DHS,2019,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.1
+Sierra Leone,SL,SL2019DHS,2019,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.5
+Sierra Leone,SL,SL2019DHS,2019,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,6.6
+Sierra Leone,SL,SL2019DHS,2019,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.3
+Sierra Leone,SL,SL2019DHS,2019,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Sierra Leone,SL,SL2019DHS,2019,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,18.3
+South Africa,ZA,ZA1998DHS,1998,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+South Africa,ZA,ZA1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,86.3
+South Africa,ZA,ZA1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,38.9
+South Africa,ZA,ZA1998DHS,1998,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,23
+South Africa,ZA,ZA1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19.5
+South Africa,ZA,ZA1998DHS,1998,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1
+South Africa,ZA,ZA1998DHS,1998,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3
+South Africa,ZA,ZA2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.9
+South Africa,ZA,ZA2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.4
+South Africa,ZA,ZA2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,95.3
+South Africa,ZA,ZA2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,45.1
+South Africa,ZA,ZA2016DHS,2016,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.8
+South Africa,ZA,ZA2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,25.7
+South Africa,ZA,ZA2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,14.1
+South Africa,ZA,ZA2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.1
+South Africa,ZA,ZA2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.8
+Tajikistan,TJ,TJ2012DHS,2012,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Tajikistan,TJ,TJ2012DHS,2012,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Tajikistan,TJ,TJ2012DHS,2012,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,82.5
+Tajikistan,TJ,TJ2012DHS,2012,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,18.6
+Tajikistan,TJ,TJ2012DHS,2012,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,20.7
+Tajikistan,TJ,TJ2012DHS,2012,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,24.6
+Tajikistan,TJ,TJ2012DHS,2012,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,4
+Tajikistan,TJ,TJ2012DHS,2012,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,7.7
+Tajikistan,TJ,TJ2017DHS,2017,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Tajikistan,TJ,TJ2017DHS,2017,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",2.7
+Tajikistan,TJ,TJ2017DHS,2017,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85.8
+Tajikistan,TJ,TJ2017DHS,2017,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,25.8
+Tajikistan,TJ,TJ2017DHS,2017,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,2.3
+Tajikistan,TJ,TJ2017DHS,2017,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,25
+Tajikistan,TJ,TJ2017DHS,2017,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.8
+Tajikistan,TJ,TJ2017DHS,2017,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,5.9
+Tajikistan,TJ,TJ2017DHS,2017,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,9.3
+Tajikistan,TJ,TJ2023DHS,2023,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Tajikistan,TJ,TJ2023DHS,2023,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1.4
+Tajikistan,TJ,TJ2023DHS,2023,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,93.9
+Tajikistan,TJ,TJ2023DHS,2023,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,23.2
+Tajikistan,TJ,TJ2023DHS,2023,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.5
+Tajikistan,TJ,TJ2023DHS,2023,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,40.7
+Tajikistan,TJ,TJ2023DHS,2023,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8.2
+Tajikistan,TJ,TJ2023DHS,2023,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Tajikistan,TJ,TJ2023DHS,2023,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.6
+Tanzania,TZ,TZ1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,33.8
+Tanzania,TZ,TZ1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,11.3
+Tanzania,TZ,TZ1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,22.2
+Tanzania,TZ,TZ1992DHS,1992,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Tanzania,TZ,TZ1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,37
+Tanzania,TZ,TZ1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8.6
+Tanzania,TZ,TZ1996DHS,1996,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,28.3
+Tanzania,TZ,TZ1999DHS,1999,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Tanzania,TZ,TZ1999DHS,1999,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.5
+Tanzania,TZ,TZ1999DHS,1999,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.1
+Tanzania,TZ,TZ1999DHS,1999,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,12.6
+Tanzania,TZ,TZ1999DHS,1999,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,21.8
+Tanzania,TZ,TZ1999DHS,1999,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.8
+Tanzania,TZ,TZ1999DHS,1999,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,9.2
+Tanzania,TZ,TZ2004DHS,2004,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Tanzania,TZ,TZ2004DHS,2004,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,51.3
+Tanzania,TZ,TZ2004DHS,2004,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.8
+Tanzania,TZ,TZ2004DHS,2004,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,11.2
+Tanzania,TZ,TZ2004DHS,2004,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.3
+Tanzania,TZ,TZ2004DHS,2004,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,16.9
+Tanzania,TZ,TZ2004DHS,2004,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.2
+Tanzania,TZ,TZ2004DHS,2004,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,1
+Tanzania,TZ,TZ2004DHS,2004,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,1.2
+Tanzania,TZ,TZ2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.7
+Tanzania,TZ,TZ2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.5
+Tanzania,TZ,TZ2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,51.8
+Tanzania,TZ,TZ2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.9
+Tanzania,TZ,TZ2010DHS,2010,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,10
+Tanzania,TZ,TZ2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,5.1
+Tanzania,TZ,TZ2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.1
+Tanzania,TZ,TZ2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1
+Tanzania,TZ,TZ2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.3
+Tanzania,TZ,TZ2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.6
+Tanzania,TZ,TZ2015DHS,2015,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.8
+Tanzania,TZ,TZ2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,64
+Tanzania,TZ,TZ2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.2
+Tanzania,TZ,TZ2015DHS,2015,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,11.4
+Tanzania,TZ,TZ2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,8
+Tanzania,TZ,TZ2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.5
+Tanzania,TZ,TZ2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.6
+Tanzania,TZ,TZ2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,4.6
+Tanzania,TZ,TZ2022DHS,2022,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.1
+Tanzania,TZ,TZ2022DHS,2022,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",1
+Tanzania,TZ,TZ2022DHS,2022,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,73.5
+Tanzania,TZ,TZ2022DHS,2022,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,9.8
+Tanzania,TZ,TZ2022DHS,2022,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,13.8
+Tanzania,TZ,TZ2022DHS,2022,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,11.5
+Tanzania,TZ,TZ2022DHS,2022,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.1
+Tanzania,TZ,TZ2022DHS,2022,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,17
+Tanzania,TZ,TZ2022DHS,2022,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Tanzania,TZ,TZ2022DHS,2022,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.9
+Timor-Leste,TL,TL2009DHS,2009,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,2
+Timor-Leste,TL,TL2009DHS,2009,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Timor-Leste,TL,TL2009DHS,2009,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,63.8
+Timor-Leste,TL,TL2009DHS,2009,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,3.9
+Timor-Leste,TL,TL2009DHS,2009,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,14
+Timor-Leste,TL,TL2009DHS,2009,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,26.6
+Timor-Leste,TL,TL2009DHS,2009,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Timor-Leste,TL,TL2009DHS,2009,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,4.9
+Timor-Leste,TL,TL2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,5.3
+Timor-Leste,TL,TL2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.6
+Timor-Leste,TL,TL2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,80.4
+Timor-Leste,TL,TL2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,22.8
+Timor-Leste,TL,TL2016DHS,2016,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,3.2
+Timor-Leste,TL,TL2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.7
+Timor-Leste,TL,TL2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,23.6
+Timor-Leste,TL,TL2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.8
+Timor-Leste,TL,TL2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,3.8
+Togo,TG,TG1998DHS,1998,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Togo,TG,TG1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,55.8
+Togo,TG,TG1998DHS,1998,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,4
+Togo,TG,TG1998DHS,1998,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,15.4
+Togo,TG,TG1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19
+Togo,TG,TG1998DHS,1998,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Togo,TG,TG1998DHS,1998,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,8.5
+Togo,TG,TG2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.6
+Togo,TG,TG2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Togo,TG,TG2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,67.7
+Togo,TG,TG2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.4
+Togo,TG,TG2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.3
+Togo,TG,TG2013DHS,2013,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,3.6
+Togo,TG,TG2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,22.2
+Togo,TG,TG2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Togo,TG,TG2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,28.6
+Turkey,TR,TR1993DHS,1993,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,8.4
+Turkey,TR,TR1993DHS,1993,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,80.8
+Turkey,TR,TR1993DHS,1993,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,62.9
+Turkey,TR,TR1993DHS,1993,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8.2
+Turkey,TR,TR1993DHS,1993,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,1.1
+Turkey,TR,TR1998DHS,1998,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,10.5
+Turkey,TR,TR1998DHS,1998,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,85.7
+Turkey,TR,TR1998DHS,1998,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,55.3
+Turkey,TR,TR1998DHS,1998,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,1
+Turkey,TR,TR1998DHS,1998,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.7
+Turkey,TR,TR2003DHS,2003,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,19.5
+Turkey,TR,TR2003DHS,2003,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,90
+Turkey,TR,TR2003DHS,2003,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,50.5
+Turkey,TR,TR2003DHS,2003,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Turkey,TR,TR2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,35.8
+Turkey,TR,TR2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,99.2
+Turkey,TR,TR2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,49.9
+Turkey,TR,TR2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,0.4
+Turkey,TR,TR2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,1.7
+Turkey,TR,TR2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Turkey,TR,TR2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,2.2
+Turkmenistan,TM,TM2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Turkmenistan,TM,TM2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,66.1
+Turkmenistan,TM,TM2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,25.7
+Turkmenistan,TM,TM2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,29.5
+Turkmenistan,TM,TM2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,6.9
+Turkmenistan,TM,TM2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,4
+Uganda,UG,UG1995DHS,1995,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Uganda,UG,UG1995DHS,1995,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,25.4
+Uganda,UG,UG1995DHS,1995,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,1.8
+Uganda,UG,UG1995DHS,1995,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.2
+Uganda,UG,UG1995DHS,1995,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,16.6
+Uganda,UG,UG2000DHS,2000,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Uganda,UG,UG2000DHS,2000,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,52.6
+Uganda,UG,UG2000DHS,2000,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.9
+Uganda,UG,UG2000DHS,2000,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,1.1
+Uganda,UG,UG2000DHS,2000,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8.9
+Uganda,UG,UG2000DHS,2000,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Uganda,UG,UG2000DHS,2000,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,24.7
+Uganda,UG,UG2006DHS,2006,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Uganda,UG,UG2006DHS,2006,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.5
+Uganda,UG,UG2006DHS,2006,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,68
+Uganda,UG,UG2006DHS,2006,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,0.9
+Uganda,UG,UG2006DHS,2006,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3
+Uganda,UG,UG2006DHS,2006,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,11.4
+Uganda,UG,UG2006DHS,2006,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Uganda,UG,UG2006DHS,2006,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,31.2
+Uganda,UG,UG2011DHS,2011,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.2
+Uganda,UG,UG2011DHS,2011,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.5
+Uganda,UG,UG2011DHS,2011,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71.4
+Uganda,UG,UG2011DHS,2011,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2.2
+Uganda,UG,UG2011DHS,2011,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,4.3
+Uganda,UG,UG2011DHS,2011,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,13.9
+Uganda,UG,UG2011DHS,2011,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Uganda,UG,UG2011DHS,2011,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,37.9
+Uganda,UG,UG2016DHS,2016,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.6
+Uganda,UG,UG2016DHS,2016,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.7
+Uganda,UG,UG2016DHS,2016,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79.2
+Uganda,UG,UG2016DHS,2016,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,2
+Uganda,UG,UG2016DHS,2016,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.3
+Uganda,UG,UG2016DHS,2016,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.1
+Uganda,UG,UG2016DHS,2016,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.2
+Uganda,UG,UG2016DHS,2016,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,7.7
+Uganda,UG,UG2016DHS,2016,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Uganda,UG,UG2016DHS,2016,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,38.8
+Ukraine,UA,UA2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,4.1
+Ukraine,UA,UA2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,98.8
+Ukraine,UA,UA2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,55.6
+Ukraine,UA,UA2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.6
+Ukraine,UA,UA2007DHS,2007,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,2.5
+Ukraine,UA,UA2007DHS,2007,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.6
+Ukraine,UA,UA2007DHS,2007,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,4
+Uzbekistan,UZ,UZ1996DHS,1996,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Uzbekistan,UZ,UZ1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,80.6
+Uzbekistan,UZ,UZ1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,59.7
+Uzbekistan,UZ,UZ1996DHS,1996,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,18
+Uzbekistan,UZ,UZ1996DHS,1996,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,2.3
+Vietnam,VN,VN1997DHS,1997,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Vietnam,VN,VN1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,31.1
+Vietnam,VN,VN1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,14.7
+Vietnam,VN,VN1997DHS,1997,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,1.3
+Vietnam,VN,VN1997DHS,1997,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Vietnam,VN,VN2002DHS,2002,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,32.2
+Vietnam,VN,VN2002DHS,2002,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,19.4
+Vietnam,VN,VN2002DHS,2002,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,0.7
+Vietnam,VN,VN2002DHS,2002,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Yemen,YE,YE1991DHS,1991,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,57.3
+Yemen,YE,YE1991DHS,1991,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,30.9
+Yemen,YE,YE1991DHS,1991,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,3.9
+Yemen,YE,YE1991DHS,1991,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,19.9
+Yemen,YE,YE1997DHS,1997,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,3.7
+Yemen,YE,YE1997DHS,1997,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,46.1
+Yemen,YE,YE1997DHS,1997,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,30.8
+Yemen,YE,YE1997DHS,1997,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,6.4
+Yemen,YE,YE1997DHS,1997,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,5.1
+Yemen,YE,YE2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,11.5
+Yemen,YE,YE2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",4.3
+Yemen,YE,YE2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,74.2
+Yemen,YE,YE2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,12.7
+Yemen,YE,YE2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,13.9
+Zambia,ZM,ZM1992DHS,1992,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,45.7
+Zambia,ZM,ZM1992DHS,1992,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,26.6
+Zambia,ZM,ZM1992DHS,1992,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,19
+Zambia,ZM,ZM1992DHS,1992,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Zambia,ZM,ZM1996DHS,1996,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,43.9
+Zambia,ZM,ZM1996DHS,1996,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,18.4
+Zambia,ZM,ZM1996DHS,1996,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.9
+Zambia,ZM,ZM1996DHS,1996,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,9.6
+Zambia,ZM,ZM2002DHS,2002,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0
+Zambia,ZM,ZM2002DHS,2002,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,51.3
+Zambia,ZM,ZM2002DHS,2002,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.3
+Zambia,ZM,ZM2002DHS,2002,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,0.5
+Zambia,ZM,ZM2002DHS,2002,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,8.6
+Zambia,ZM,ZM2002DHS,2002,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.8
+Zambia,ZM,ZM2002DHS,2002,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Zambia,ZM,ZM2007DHS,2007,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Zambia,ZM,ZM2007DHS,2007,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Zambia,ZM,ZM2007DHS,2007,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,41.1
+Zambia,ZM,ZM2007DHS,2007,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,6.2
+Zambia,ZM,ZM2007DHS,2007,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,8.5
+Zambia,ZM,ZM2007DHS,2007,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,14
+Zambia,ZM,ZM2007DHS,2007,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Zambia,ZM,ZM2013DHS,2013,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Zambia,ZM,ZM2013DHS,2013,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Zambia,ZM,ZM2013DHS,2013,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,64.7
+Zambia,ZM,ZM2013DHS,2013,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,8
+Zambia,ZM,ZM2013DHS,2013,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,10.1
+Zambia,ZM,ZM2013DHS,2013,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,15.2
+Zambia,ZM,ZM2013DHS,2013,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Zambia,ZM,ZM2013DHS,2013,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,22.1
+Zambia,ZM,ZM2018DHS,2018,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.3
+Zambia,ZM,ZM2018DHS,2018,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Zambia,ZM,ZM2018DHS,2018,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,72.3
+Zambia,ZM,ZM2018DHS,2018,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.3
+Zambia,ZM,ZM2018DHS,2018,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,7.2
+Zambia,ZM,ZM2018DHS,2018,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,11.8
+Zambia,ZM,ZM2018DHS,2018,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,8.3
+Zambia,ZM,ZM2018DHS,2018,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Zambia,ZM,ZM2018DHS,2018,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,23.9
+Zambia,ZM,ZM2024DHS,2024,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,1.5
+Zambia,ZM,ZM2024DHS,2024,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.1
+Zambia,ZM,ZM2024DHS,2024,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,71.4
+Zambia,ZM,ZM2024DHS,2024,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,7.4
+Zambia,ZM,ZM2024DHS,2024,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,6.6
+Zambia,ZM,ZM2024DHS,2024,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,11.9
+Zambia,ZM,ZM2024DHS,2024,SCH,WS_SRCE_H_SCH,substitut,Households using sachet water,0.6
+Zambia,ZM,ZM2024DHS,2024,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,4.9
+Zambia,ZM,ZM2024DHS,2024,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0
+Zambia,ZM,ZM2024DHS,2024,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,29.2
+Zambia,ZM,ZM2024DHS,2024,VND,WS_SRCE_H_VND,substitut,Households using water from a vendor/purchased water,0.6
+Zimbabwe,ZW,ZW1994DHS,1994,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.9
+Zimbabwe,ZW,ZW1994DHS,1994,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,32.6
+Zimbabwe,ZW,ZW1994DHS,1994,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,10.6
+Zimbabwe,ZW,ZW1994DHS,1994,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,29
+Zimbabwe,ZW,ZW1999DHS,1999,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,82.4
+Zimbabwe,ZW,ZW1999DHS,1999,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,20.2
+Zimbabwe,ZW,ZW1999DHS,1999,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,18.2
+Zimbabwe,ZW,ZW1999DHS,1999,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,9.8
+Zimbabwe,ZW,ZW1999DHS,1999,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,25.9
+Zimbabwe,ZW,ZW2005DHS,2005,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.2
+Zimbabwe,ZW,ZW2005DHS,2005,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.5
+Zimbabwe,ZW,ZW2005DHS,2005,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,25.6
+Zimbabwe,ZW,ZW2005DHS,2005,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,10.4
+Zimbabwe,ZW,ZW2005DHS,2005,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.3
+Zimbabwe,ZW,ZW2005DHS,2005,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.1
+Zimbabwe,ZW,ZW2005DHS,2005,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,24.9
+Zimbabwe,ZW,ZW2010DHS,2010,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.1
+Zimbabwe,ZW,ZW2010DHS,2010,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Zimbabwe,ZW,ZW2010DHS,2010,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,79
+Zimbabwe,ZW,ZW2010DHS,2010,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,18.9
+Zimbabwe,ZW,ZW2010DHS,2010,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.8
+Zimbabwe,ZW,ZW2010DHS,2010,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,4.7
+Zimbabwe,ZW,ZW2010DHS,2010,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.3
+Zimbabwe,ZW,ZW2010DHS,2010,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,28.4
+Zimbabwe,ZW,ZW2015DHS,2015,BOT,WS_SRCE_H_BOT,substitut,Households using bottled water,0.5
+Zimbabwe,ZW,ZW2015DHS,2015,CER,WS_WTRT_H_CER,substitut,"Households treating water using a ceramic, sand or other filter",0.3
+Zimbabwe,ZW,ZW2015DHS,2015,IMP,WS_SRCE_H_IMP,autre,Households using an improved water source,78.4
+Zimbabwe,ZW,ZW2015DHS,2015,PIP,WS_SRCE_H_PIP,public,Households using water piped into dwelling,14.1
+Zimbabwe,ZW,ZW2015DHS,2015,PNB,WS_SRCE_H_PNB,autre,Households using water piped to neighbor,1.1
+Zimbabwe,ZW,ZW2015DHS,2015,PYD,WS_SRCE_H_PYD,public,Households using water piped into yard/plot,9.3
+Zimbabwe,ZW,ZW2015DHS,2015,TAP,WS_SRCE_H_TAP,public,Households using a public tap/standpipe,5.5
+Zimbabwe,ZW,ZW2015DHS,2015,TNK,WS_SRCE_H_TNK,substitut,Households using tanker truck,0.2
+Zimbabwe,ZW,ZW2015DHS,2015,TUB,WS_SRCE_H_TUB,substitut,Households using a tubewell/borehole,29.6

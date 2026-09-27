@@ -1,0 +1,349 @@
+==============================================================================
+LOG: output/logs/11_piste_c_inventaire.log
+Run started: 2026-09-27 18:22:23
+==============================================================================
+
+ETAPE 11 -- PISTE C : INVENTAIRE NSS 58/69/76 ET IHDS-I/II
+Inventaire seulement : aucune fusion, aucune estimation, aucune part ponderee.
+
+------------------------------------------------------------------------------
+11a. Fichiers NSS (etape 1)
+------------------------------------------------------------------------------
+[2026-09-27 18:22:23] etape 1/3 fichiers NSS : debut (sortie absente)
+[2026-09-27 18:22:23]   lecture raw/nss/58/Block3-records.csv
+[2026-09-27 18:22:25]   lecture raw/nss/58/Block4-records.csv
+[2026-09-27 18:22:25]   lecture raw/nss/58/Block5-records.csv
+[2026-09-27 18:22:25]   lecture raw/nss/58/Block6-records.csv
+[2026-09-27 18:22:25]   lecture raw/nss/58/Block7-records.csv
+[2026-09-27 18:22:25]   lecture raw/nss/58/Block8-records.csv
+[2026-09-27 18:22:25]   lecture raw/nss/58/Block9-records.csv
+[2026-09-27 18:22:25]   lecture raw/nss/69/Block - 1 Identification of sample household - level 1.csv
+[2026-09-27 18:22:25]   lecture raw/nss/69/Block - 2 Particulars of field operations - level 8.csv
+[2026-09-27 18:22:25]   lecture raw/nss/69/Block - 3  Household characteristics - level 3.csv
+[2026-09-27 18:22:25]   lecture raw/nss/69/Block - 3 Household characteristics - level 2.csv
+[2026-09-27 18:22:25]   lecture raw/nss/69/Block - 4 Particulars of living facilities - drinking water, bathroom, sanitation etc - level 4.csv
+[2026-09-27 18:22:25]   lecture raw/nss/69/Block - 5 housing characteristics and micro environment - level 5.csv
+[2026-09-27 18:22:25]   lecture raw/nss/69/Block - 6 Pariculars of the dwelling - level 6.csv
+[2026-09-27 18:22:25]   lecture raw/nss/69/Block - 7 some general particulars of the households - level 7.csv
+[2026-09-27 18:22:25]   lecture raw/nss/76/L01_sample_household.csv
+[2026-09-27 18:22:25]   lecture raw/nss/76/L02_Demographic_particulars.csv
+[2026-09-27 18:22:26]   lecture raw/nss/76/L03_Household_characteristics.csv
+[2026-09-27 18:22:26]   lecture raw/nss/76/L04_Household characteristics_15_1_to_15_5.csv
+[2026-09-27 18:22:26]   lecture raw/nss/76/L05_Particulars_of_living_facilities.csv
+[2026-09-27 18:22:26]   lecture raw/nss/76/L06_Housing_characteristics_micro_environment.csv
+[2026-09-27 18:22:26]   lecture raw/nss/76/L07_Particulars_of_dwelling.csv
+[2026-09-27 18:22:26]   lecture raw/nss/76/L08_Some_general_particulars.csv
+[2026-09-27 18:22:26]   lecture raw/nss/76/L09_Particulars_of_field_operations.csv
+  [OK]   etape 1/3 fichiers NSS : sortie ecrite -> build/11_nss_fichiers.rds
+[2026-09-27 18:22:26] etape 1/3 fichiers NSS : fini (2.7 s)
+     round                                                                fichier lignes colonnes
+    <char>                                                                 <char>  <int>    <int>
+ 1:     58                                                     Block3-records.csv  97882       44
+ 2:     58                                                     Block4-records.csv  97882       47
+ 3:     58                                                     Block5-records.csv  97882       31
+ 4:     58                                                     Block6-records.csv  97882       43
+ 5:     58                                                     Block7-records.csv  40258       46
+ 6:     58                                                     Block8-records.csv  97882       28
+ 7:     58                                                     Block9-records.csv   5818       28
+ 8:     69             Block - 1 Identification of sample household - level 1.csv  95548       29
+ 9:     69                Block - 2 Particulars of field operations - level 8.csv  95514       36
+10:     69                     Block - 3  Household characteristics - level 3.csv  95548       37
+11:     69                      Block - 3 Household characteristics - level 2.csv  95548       42
+12:     69 Block - 4 Particulars of living facilities - drinking water, bathroom,  95548       75
+13:     69  Block - 5 housing characteristics and micro environment - level 5.csv  95505       41
+14:     69                     Block - 6 Pariculars of the dwelling - level 6.csv  95508       41
+15:     69     Block - 7 some general particulars of the households - level 7.csv  95507       36
+16:     76                                               L01_sample_household.csv 106838       25
+17:     76                                        L02_Demographic_particulars.csv 466527       34
+18:     76                                      L03_Household_characteristics.csv 106838       41
+19:     76                         L04_Household characteristics_15_1_to_15_5.csv 106838       36
+20:     76                               L05_Particulars_of_living_facilities.csv 106838       69
+21:     76                      L06_Housing_characteristics_micro_environment.csv 106804       49
+22:     76                                        L07_Particulars_of_dwelling.csv 106804       38
+23:     76                                       L08_Some_general_particulars.csv 106804       31
+24:     76                                L09_Particulars_of_field_operations.csv 106992       32
+     round                                                                fichier lignes colonnes
+    <char>                                                                 <char>  <int>    <int>
+
+------------------------------------------------------------------------------
+11b. Blocs eau NSS (etape 2)
+------------------------------------------------------------------------------
+[2026-09-27 18:22:26] etape 2/3 blocs eau NSS : debut (sortie absente)
+[2026-09-27 18:22:26]   lecture raw/nss/58/Block4-records.csv
+  [OK]   nss58: all 16 named variables present
+[2026-09-27 18:22:26]   lecture raw/nss/69/Block - 4 Particulars of living facilities - drinking water, bathroom, sanitation etc - level 4.csv
+  [OK]   nss69: all 30 named variables present
+[2026-09-27 18:22:26]   lecture raw/nss/76/L05_Particulars_of_living_facilities.csv
+  [OK]   nss76: all 28 named variables present
+  [OK]   etape 2/3 blocs eau NSS : sortie ecrite -> build/11_nss_eau.rds
+[2026-09-27 18:22:28] etape 2/3 blocs eau NSS : fini (1.7 s)
+
+nss58 : Block4-records.csv
+  [OK]   nss58: row count == 97,882
+  [OK]   nss58: key (Key_hhold) unique
+
+nss69 : Block - 4 Particulars of living facilities - drinking water, bathroom, sanitation etc - level 4.csv
+  [OK]   nss69: row count == 95,548
+  [OK]   nss69: key (Key_hhold) unique
+  [OK]   nss69 : menages par secteur (1 rural, 2 urbain) == documentation
+
+nss76 : L05_Particulars_of_living_facilities.csv
+  [OK]   nss76: row count == 106,838
+  [OK]   nss76: key (HHID) unique
+  [OK]   nss76 : menages par secteur (1 rural, 2 urbain) == documentation
+
+------------------------------------------------------------------------------
+11c. Codes observes contre codes des questionnaires (non ponderes)
+------------------------------------------------------------------------------
+  [OK]   liste de codes documentes lue
+     round    concept         variable  code                                                 libelle     N
+     <int>     <char>           <char> <int>                                                  <char> <int>
+  1:    58     source            B4_q1     0                                                    <NA>     1
+  2:    58     source            B4_q1     1                                                     tap 45535
+  3:    58     source            B4_q1     2                                   tube well / hand pump 34466
+  4:    58     source            B4_q1     3                                                    well 12609
+  5:    58     source            B4_q1     4                     tank / pond (reserved for drinking)  1040
+ ---                                                                                                      
+111:    76 traitement Method_treatment     4 treated: chemically treated with bleach/chlorine tablet  1114
+112:    76 traitement Method_treatment     5                          treated: non-electric purifier  6951
+113:    76 traitement Method_treatment     6                            treated: filtered with cloth 12027
+114:    76 traitement Method_treatment     7                                             not treated 62482
+115:    76 traitement Method_treatment     9                                         treated: others  2072
+  [WARNING] codes observes absents du questionnaire (a expliquer avant tout usage) :
+   round    concept variable  code code_brut libelle     N documente
+   <int>     <char>   <char> <int>    <char>  <char> <int>    <lgcl>
+1:    58     source    B4_q1     0         0    <NA>     1     FALSE
+2:    58 suffisance    B4_q2     9         9    <NA>    14     FALSE
+3:    58      acces    B4_q3     6         6    <NA>     1     FALSE
+4:    58      acces    B4_q3     9         9    <NA>     1     FALSE
+5:    58   distance    B4_q4     0         0    <NA>     4     FALSE
+6:    58   distance    B4_q4     8         8    <NA>   261     FALSE
+  Valeurs vides par variable :
+   round              variable manquants
+   <int>                <char>     <int>
+1:    58                 B4_q1        41
+2:    58                 B4_q2         9
+3:    58                 B4_q3         6
+4:    58                 B4_q4        17
+5:    69                 b4_q1        11
+6:    69                 b4_q4        32
+7:    69                 b4_q5       948
+8:    69                b4_q12        11
+9:    76 Distance_source_water       619
+  nss69 : valeurs des colonnes de mois = {, 1}
+          au_moins_un_mois
+suffisance FALSE  TRUE
+         1 81855     0
+         2     0 13693
+  nss76 : valeurs des colonnes de mois = {, 1}
+          au_moins_un_mois
+suffisance FALSE  TRUE
+         1 94360     0
+         2     0 12478
+
+------------------------------------------------------------------------------
+11d. Poids NSS : sommes (validation d'echelle seulement)
+------------------------------------------------------------------------------
+    round secteur menages Wgt_Combined    Wgt_SS  WGT_posted WGT_posted_sur_100 Combined_Weight MLT_regle_NSS ecart_max_regle Multiplier Multiplier_sur_100 NSC_valeurs
+   <char>  <char>   <int>        <num>     <num>       <num>              <num>           <num>         <num>           <num>      <num>              <num>      <char>
+1:  nss58       1   55966    148051155 293636276 29363627620          293636276              NA            NA              NA         NA                 NA        <NA>
+2:  nss58       2   41916     58521059 117042119 11704211894          117042119              NA            NA              NA         NA                 NA        <NA>
+3:  nss69       1   53393           NA        NA          NA                 NA       174012652     174012652               0         NA                 NA        <NA>
+4:  nss69       2   42155           NA        NA          NA                 NA        80524645      80524645               0         NA                 NA        <NA>
+5:  nss76       1   63736           NA        NA          NA                 NA              NA            NA              NA  178381593          1783815.9       1/2/4
+6:  nss76       2   43102           NA        NA          NA                 NA              NA            NA              NA   92723932           927239.3         1/2
+  Reference 76 : 271,10 millions de menages estimes (Report 584, Statement 1 : rural 178,38 ; urbain 92,72).
+
+------------------------------------------------------------------------------
+11e. Identifiants geographiques NSS
+------------------------------------------------------------------------------
+    round etats regions districts   fsu exemple_region exemple_district
+   <char> <int>   <int>     <int> <int>         <char>           <char>
+1:  nss58    35      78       509  8173              1               12
+2:  nss69    35      88       635  7970            171               01
+3:  nss76    36      88       682  8926            012               05
+Clé : <etat>
+     etat districts_nss58 districts_nss69 districts_nss76 regions_nss58 regions_nss69 regions_nss76
+    <int>           <int>           <int>           <int>         <int>         <int>         <int>
+ 1:     1              10              22              22             3             4             4
+ 2:     2              12              12              12             1             2             2
+ 3:     3              14              20              22             2             2             2
+ 4:     4               1               1               1             1             1             1
+ 5:     5              10              13              13             1             1             1
+ 6:     6              16              21              21             2             2             2
+ 7:     7               1               5               9             1             1             1
+ 8:     8              30              33              33             4             5             5
+ 9:     9              63              71              71             4             5             5
+10:    10              35              38              38             2             2             2
+11:    11               4               4               4             1             1             1
+12:    12              11              16              16             1             1             1
+13:    13               7              11              11             1             1             1
+14:    14               8               9               9             2             2             2
+15:    15               3               8               8             1             1             1
+16:    16               3               4               4             1             1             1
+17:    17               7               7               7             1             1             1
+18:    18              22              27              27             3             4             4
+19:    19              17              19              23             4             5             5
+20:    20              18              24              24             1             2             2
+21:    21              30              30              30             3             3             3
+22:    22               7              18              27             1             3             3
+23:    23              38              50              50             6             6             6
+24:    24              20              26              33             5             5             5
+25:    25               2               2               2             1             1             1
+26:    26               1               1               1             1             1             1
+27:    27              30              34              34             6             6             6
+28:    28              23              23              13             4             5             3
+29:    29              20              30              30             4             4             4
+30:    30               2               2               2             1             1             1
+31:    31               1               1               1             1             1             1
+32:    32              14              14              14             2             2             2
+33:    33              23              32              32             4             4             4
+34:    34               4               4               4             1             1             1
+35:    35               2               3               3             1             1             1
+36:    36              NA              NA              31            NA            NA             2
+     etat districts_nss58 districts_nss69 districts_nss76 regions_nss58 regions_nss69 regions_nss76
+    <int>           <int>           <int>           <int>         <int>         <int>         <int>
+
+------------------------------------------------------------------------------
+11f. IHDS-I et IHDS-II (etape 3)
+------------------------------------------------------------------------------
+[2026-09-27 18:22:29] etape 3/3 IHDS : debut (sortie absente)
+[2026-09-27 18:22:29]   lecture raw/ihds/2005/DS0002/22626-0002-Data.rda
+  [OK]   22626-0002-Data.rda: all 18 named variables present
+[2026-09-27 18:22:30]   lecture raw/ihds/2011/DS0002/36151-0002-Data.rda
+  [OK]   36151-0002-Data.rda: all 20 named variables present
+  [OK]   etape 3/3 IHDS : sortie ecrite -> build/11_ihds.rds
+[2026-09-27 18:22:31] etape 3/3 IHDS : fini (1.7 s)
+
+ihds1 : 22626-0002-Data.rda (945 variables)
+  [OK]   ihds1: row count == 41,554
+  [OK]   ihds1: key (STATEID+DISTID+PSUID+HHID+HHSPLITID) unique
+  [OK]   ihds1: key (IDHH) unique
+     variable                             libelle
+       <char>                              <char>
+ 1:   STATEID                          State code
+ 2:    DISTID                       District code
+ 3:     PSUID      PSU: village/neighborhood code
+ 4:      HHID                        Household ID
+ 5: HHSPLITID                  Split household ID
+ 6:      IDHH                HH ID 9-digit unique
+ 7:     IDPSU               PSU ID 6-digit unique
+ 8:    DIST01       H1sp: District ID Census 2001
+ 9:     URBAN           Census: 2001 village/town
+10:   SWEIGHT Design Weights using 2001 Districts
+11:       WA1         EH9 5.1 Water source: usual
+12:       WA2          EH9 5.2 Water within house
+13:      WA2A      EH9 5.2a Walking time to water
+14:       WA4    EH9 5.4 Same water source summer
+15:       WA5         EH9 5.5 Water source summer
+16:       WA7          EH9 5.7 Water Avail: usual
+17:       WA8         EH9 5.8 Water Avail: Summer
+18:      WA10               EH9 5.10 Purify water
+
+ihds2 : 36151-0002-Data.rda (758 variables)
+  [OK]   ihds2: row count == 42,152
+  [OK]   ihds2: key (STATEID+DISTID+PSUID+HHID+HHSPLITID) unique
+  [OK]   ihds2: key (IDHH) unique
+     variable
+       <char>
+ 1:   STATEID
+ 2:    DISTID
+ 3:     PSUID
+ 4:      HHID
+ 5: HHSPLITID
+ 6:      IDHH
+ 7:     IDPSU
+ 8:    DIST01
+ 9:  DISTRICT
+10: URBAN2011
+11:        WT
+12:       FWT
+13:      WA1A
+14:      WA1B
+15:      WA2A
+16:      WA2B
+17:      WA4A
+18:      WA5A
+19:      WA5B
+20:       WA7
+     variable
+       <char>
+                                                                       libelle
+                                                                        <char>
+ 1:                                                             HQ0 State code
+ 2:                                                          HQ0 District code
+ 3:                                         HQ0 PSU: village/neighborhood code
+ 4:                                                 HQ0 Household ID (3-digit)
+ 5:                                                     HQ0 Split household ID
+ 6:                                        Household id, unique 10 byte string
+ 7:                                    PSU id unique 6 digit long int =cluster
+ 8:                                          District ID corrected Census 2001
+ 9:                                2001 Census state id + district id, labeled
+10:                                           Urban residence from census 2011
+11:                                                         Weights in IHDS-II
+12:                                                 Integer weights in IHDS-II
+13:                                       EQ9 5.1a Main water source: normally
+14:                                         EQ9 5.1b Main water source: summer
+15:                  EQ9 5.2a Water inside or outside house/compound: normally
+16:                    EQ9 5.2b Water inside or outside house/compound: summer
+17: EQ9 5.4a Walking time to external water source (minutes one way): normally
+18:                             EQ9 5.5a Water availability adequate: normally
+19:                               EQ9 5.5b Water availability adequate: summer
+20:        EQ9 5.7 Purify water by boiling, filtering, Aquaguard, or chemicals
+                                                                       libelle
+                                                                        <char>
+      vague variable         niveau     N
+     <char>   <char>         <char> <int>
+  1:  ihds1    URBAN      (0) Rural 26734
+  2:  ihds1    URBAN      (1) Urban 14820
+  3:  ihds1      WA1     (01) Piped 19114
+  4:  ihds1      WA1 (02) Tube well  4293
+  5:  ihds1      WA1 (03) Hand pump 11226
+ ---                                     
+441:  ihds2     WA5B      (1) Yes 1 33630
+442:  ihds2      WA7    (1) Never 1 28637
+443:  ihds2      WA7   (2) Rarely 2  3857
+444:  ihds2      WA7  (3) Usually 3  3784
+445:  ihds2      WA7   (4) Always 4  5452
+
+------------------------------------------------------------------------------
+11g. Lien de panel IHDS-II -> IHDS-I
+------------------------------------------------------------------------------
+Clé : <HHSPLITID, nouveau, dans_I>
+   HHSPLITID nouveau dans_I     N
+       <num>  <lgcl> <lgcl> <int>
+1:         1   FALSE   TRUE 34621
+2:         2   FALSE   TRUE  4180
+3:         3   FALSE   TRUE   978
+4:         4   FALSE   TRUE   193
+5:         5   FALSE   TRUE    39
+6:         6   FALSE   TRUE     7
+7:         9    TRUE  FALSE    26
+8:         9    TRUE   TRUE  2108
+  [OK]   tout menage IHDS-II hors code 9 retrouve un menage IHDS-I par la cle recodee
+  Menages IHDS-I re-enquetes : 34643 sur 41554 (83.4 %) ; guide : 83 %
+  Menages IHDS-I scindes (>1 menage IHDS-II) : 4181
+  DIST01 identique entre vagues pour les menages lies : 99.11 %
+
+------------------------------------------------------------------------------
+11h. Poids IHDS (validation d'echelle)
+------------------------------------------------------------------------------
+    vague   poids menages     somme manquants
+   <char>  <char>   <int>     <num>     <int>
+1:  ihds1 SWEIGHT   41554 192124286         0
+2:  ihds2      WT   42152 255163471         0
+3:  ihds2     FWT   42152 255163973         0
+
+------------------------------------------------------------------------------
+ETAPE 11 TERMINEE
+------------------------------------------------------------------------------
+  11_ihds_codes_observes.csv
+  11_ihds_lien_panel.csv
+  11_ihds_poids.csv
+  11_nss_codes_observes.csv
+  11_nss_fichiers.csv
+  11_nss_geo.csv
+  11_nss_geo_par_etat.csv
+  11_nss_poids.csv
+
+Run finished: 2026-09-27 18:22:31

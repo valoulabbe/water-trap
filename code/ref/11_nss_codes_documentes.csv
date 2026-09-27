@@ -1,0 +1,101 @@
+round,concept,variable,code,libelle,source
+58,source,B4_q1,1,tap,NSS58_Schedule_12pt1.pdf bloc 4 item 1
+58,source,B4_q1,2,tube well / hand pump,NSS58_Schedule_12pt1.pdf bloc 4 item 1
+58,source,B4_q1,3,well,NSS58_Schedule_12pt1.pdf bloc 4 item 1
+58,source,B4_q1,4,tank / pond (reserved for drinking),NSS58_Schedule_12pt1.pdf bloc 4 item 1
+58,source,B4_q1,5,other tank / pond,NSS58_Schedule_12pt1.pdf bloc 4 item 1
+58,source,B4_q1,6,river / canal / lake,NSS58_Schedule_12pt1.pdf bloc 4 item 1
+58,source,B4_q1,7,spring,NSS58_Schedule_12pt1.pdf bloc 4 item 1
+58,source,B4_q1,9,others,NSS58_Schedule_12pt1.pdf bloc 4 item 1
+58,suffisance,B4_q2,1,yes,NSS58_Schedule_12pt1.pdf bloc 4 item 2
+58,suffisance,B4_q2,2,no,NSS58_Schedule_12pt1.pdf bloc 4 item 2
+58,acces,B4_q3,1,household's exclusive use,NSS58_Schedule_12pt1.pdf bloc 4 item 3
+58,acces,B4_q3,2,common use of households in the building,NSS58_Schedule_12pt1.pdf bloc 4 item 3
+58,acces,B4_q3,3,community use,NSS58_Schedule_12pt1.pdf bloc 4 item 3
+58,distance,B4_q4,1,within dwelling,NSS58_Schedule_12pt1.pdf bloc 4 item 4
+58,distance,B4_q4,2,outside dwelling but within the premises,NSS58_Schedule_12pt1.pdf bloc 4 item 4
+58,distance,B4_q4,3,outside premises: less than 0.2 km,NSS58_Schedule_12pt1.pdf bloc 4 item 4
+58,distance,B4_q4,4,0.2 to 0.5 km,NSS58_Schedule_12pt1.pdf bloc 4 item 4
+58,distance,B4_q4,5,0.5 to 1.0 km,NSS58_Schedule_12pt1.pdf bloc 4 item 4
+58,distance,B4_q4,6,1.0 to 1.6 km,NSS58_Schedule_12pt1.pdf bloc 4 item 4
+58,distance,B4_q4,7,1.6 km or more,NSS58_Schedule_12pt1.pdf bloc 4 item 4
+69,source,b4_q1,1,bottled water,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,2,piped water into dwelling,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,3,piped water to yard/plot,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,4,public tap/standpipe,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,5,tube well/borehole,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,6,well: protected,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,7,well: unprotected,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,8,spring: protected,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,9,spring: unprotected,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,10,rainwater collection,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,11,surface water: tank/pond,Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,12,"other surface water (river, dam, stream, canal, lake, etc.)",Schedule_69_1.pdf bloc 4 item 1
+69,source,b4_q1,19,"others (tanker-truck, cart with small tank or drum, etc)",Schedule_69_1.pdf bloc 4 item 1
+69,suffisance,b4_q2,1,yes,Schedule_69_1.pdf bloc 4 item 2
+69,suffisance,b4_q2,2,no,Schedule_69_1.pdf bloc 4 item 2
+69,acces,b4_q4,1,household's exclusive use,Schedule_69_1.pdf bloc 4 item 4
+69,acces,b4_q4,2,common use of households in the building,Schedule_69_1.pdf bloc 4 item 4
+69,acces,b4_q4,3,neighbour's source,Schedule_69_1.pdf bloc 4 item 4
+69,acces,b4_q4,4,community use: public source restricted to particular community,Schedule_69_1.pdf bloc 4 item 4
+69,acces,b4_q4,5,community use: public source unrestricted,Schedule_69_1.pdf bloc 4 item 4
+69,acces,b4_q4,6,community use: private source restricted to particular community,Schedule_69_1.pdf bloc 4 item 4
+69,acces,b4_q4,7,community use: private source unrestricted,Schedule_69_1.pdf bloc 4 item 4
+69,acces,b4_q4,9,others,Schedule_69_1.pdf bloc 4 item 4
+69,distance,b4_q5,1,within dwelling,Schedule_69_1.pdf bloc 4 item 5
+69,distance,b4_q5,2,outside dwelling but within the premises,Schedule_69_1.pdf bloc 4 item 5
+69,distance,b4_q5,3,outside premises: less than 0.2 km,Schedule_69_1.pdf bloc 4 item 5
+69,distance,b4_q5,4,0.2 to 0.5 km,Schedule_69_1.pdf bloc 4 item 5
+69,distance,b4_q5,5,0.5 to 1.0 km,Schedule_69_1.pdf bloc 4 item 5
+69,distance,b4_q5,6,1.0 to 1.5 km,Schedule_69_1.pdf bloc 4 item 5
+69,distance,b4_q5,7,1.5 km or more,Schedule_69_1.pdf bloc 4 item 5
+69,traitement,b4_q12,1,treated: electronic purifier,Schedule_69_1.pdf bloc 4 item 12
+69,traitement,b4_q12,2,treated: boiling,Schedule_69_1.pdf bloc 4 item 12
+69,traitement,b4_q12,3,treated: chemically treated with alum,Schedule_69_1.pdf bloc 4 item 12
+69,traitement,b4_q12,4,treated: chemically treated with bleach/chlorine tablets,Schedule_69_1.pdf bloc 4 item 12
+69,traitement,b4_q12,5,"treated: filtered with water filter (candle, ceramic, sand, etc.)",Schedule_69_1.pdf bloc 4 item 12
+69,traitement,b4_q12,6,treated: filtered with cloth,Schedule_69_1.pdf bloc 4 item 12
+69,traitement,b4_q12,9,treated: others,Schedule_69_1.pdf bloc 4 item 12
+69,traitement,b4_q12,7,not treated,Schedule_69_1.pdf bloc 4 item 12
+76,source,source_drinking_water,1,bottled water,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,2,piped water into dwelling,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,3,piped water to yard/plot,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,4,piped water from neighbour,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,5,public tap/standpipe,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,6,tube well,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,7,hand pump,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,8,well: protected,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,9,well: unprotected,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,10,tanker-truck: public,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,11,tanker-truck: private,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,12,spring: protected,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,13,spring: unprotected,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,14,rainwater collection,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,15,surface water: tank/pond,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,16,"other surface water (river, dam, stream, canal, lake, etc.)",NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,source_drinking_water,19,"others (cart with small tank or drum, etc)",NSS_76_sch_1.2.pdf bloc 5 item 1
+76,suffisance,water_sufficient_drink,1,yes,NSS_76_sch_1.2.pdf bloc 5 item 2
+76,suffisance,water_sufficient_drink,2,no,NSS_76_sch_1.2.pdf bloc 5 item 2
+76,acces,Access_source_water,1,exclusive use of household,NSS_76_sch_1.2.pdf bloc 5 item 4
+76,acces,Access_source_water,2,common use of households in the building,NSS_76_sch_1.2.pdf bloc 5 item 4
+76,acces,Access_source_water,3,neighbour's source,NSS_76_sch_1.2.pdf bloc 5 item 4
+76,acces,Access_source_water,4,community use: public source restricted to particular community,NSS_76_sch_1.2.pdf bloc 5 item 4
+76,acces,Access_source_water,5,community use: public source unrestricted,NSS_76_sch_1.2.pdf bloc 5 item 4
+76,acces,Access_source_water,6,community use: private source restricted to particular community,NSS_76_sch_1.2.pdf bloc 5 item 4
+76,acces,Access_source_water,7,community use: private source unrestricted,NSS_76_sch_1.2.pdf bloc 5 item 4
+76,acces,Access_source_water,9,others,NSS_76_sch_1.2.pdf bloc 5 item 4
+76,distance,Distance_source_water,1,within dwelling,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,Distance_source_water,2,outside dwelling but within the premises,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,Distance_source_water,3,outside premises: less than 0.2 km,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,Distance_source_water,4,0.2 to 0.5 km,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,Distance_source_water,5,0.5 to 1.0 km,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,Distance_source_water,6,1.0 to 1.5 km,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,Distance_source_water,7,1.5 km or more,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,traitement,Method_treatment,1,treated: electric purifier,NSS_76_sch_1.2.pdf bloc 5 item 12
+76,traitement,Method_treatment,2,treated: boiling,NSS_76_sch_1.2.pdf bloc 5 item 12
+76,traitement,Method_treatment,3,treated: chemically treated with alum,NSS_76_sch_1.2.pdf bloc 5 item 12
+76,traitement,Method_treatment,4,treated: chemically treated with bleach/chlorine tablets,NSS_76_sch_1.2.pdf bloc 5 item 12
+76,traitement,Method_treatment,5,treated: non-electric purifier,NSS_76_sch_1.2.pdf bloc 5 item 12
+76,traitement,Method_treatment,6,treated: filtered with cloth,NSS_76_sch_1.2.pdf bloc 5 item 12
+76,traitement,Method_treatment,9,treated: others,NSS_76_sch_1.2.pdf bloc 5 item 12
+76,traitement,Method_treatment,7,not treated,NSS_76_sch_1.2.pdf bloc 5 item 12

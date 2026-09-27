@@ -1,0 +1,126 @@
+==============================================================================
+LOG: output/logs/12_dhs_api_inventaire.log
+Run started: 2026-09-27 19:08:20
+==============================================================================
+
+ETAPE 12 -- PISTE D : AGREGATS NATIONAUX DHS (API)
+Descriptif seulement. Critere de selection : memo/piste_d_critere_selection.md
+  rdhs a modifie .gitignore : version d'origine restauree
+
+------------------------------------------------------------------------------
+12a. Appels API (etapes 1 a 3)
+------------------------------------------------------------------------------
+[2026-09-27 19:08:22] etape 1/3 indicateurs : deja fait, relu depuis build/12_indicateurs.rds (ecrit le 2026-09-27 19:06)
+[2026-09-27 19:08:22] etape 1/3 indicateurs : relu (0.0 s)
+  [OK]   les 15 indicateurs demandes existent
+  4655 indicateurs au total, 243 de la famille WS_
+[2026-09-27 19:08:22] etape 2/3 donnees nationales : deja fait, relu depuis build/12_donnees.rds (ecrit le 2026-09-27 19:06)
+[2026-09-27 19:08:22] etape 2/3 donnees nationales : relu (0.0 s)
+[2026-09-27 19:08:22] etape 3/3 fichiers GE : deja fait, relu depuis build/12_ge.rds (ecrit le 2026-09-27 19:06)
+[2026-09-27 19:08:22] etape 3/3 fichiers GE : relu (0.0 s)
+
+------------------------------------------------------------------------------
+12b. Validation, filtre SurveyType == DHS
+------------------------------------------------------------------------------
+  [OK]   dhs_data: all 9 named variables present
+  [OK]   dhs_data : niveau national seulement (Total)
+  [OK]   dhs_data : une valeur preferee par enquete et indicateur
+  [OK]   dhs_data: key (SurveyId+IndicatorId) unique
+  Types d'enquete dans dhs_data :
+Clé : <SurveyType>
+   SurveyType     N
+       <char> <int>
+1:        AIS    77
+2:        DHS  1993
+3:        MIS   316
+  [OK]   valeurs numeriques, sans manquant
+  Table tidy : 1993 lignes, 77 pays, 290 enquetes DHS
+  [OK]   une enquete DHS par pays-annee: key (code+annee) unique
+  [OK]   dhs_datasets GE: all 4 named variables present
+  Types d'enquete dans les fichiers GE :
+Clé : <SurveyType>
+   SurveyType     N
+       <char> <int>
+1:        AIS     6
+2:        DHS   195
+3:        MIS    38
+4:        OTH     3
+5:        SPA    18
+6:        SPE     1
+
+------------------------------------------------------------------------------
+12c. Couverture par pays et indicateur
+------------------------------------------------------------------------------
+  Pays a 3 vagues DHS ou plus, par substitut :
+Clé : <cle>
+      cle     N
+   <char> <int>
+1:    BOT    40
+2:    CER    26
+3:    SCH     2
+4:    TNK    40
+5:    TUB    32
+6:    VND     1
+  Composite public : 289 enquetes ; compositions :
+Clé : <composition>
+   composition     N
+        <char> <int>
+1:     PIP+PYD    23
+2: PIP+PYD+TAP   205
+3:     PIP+TAP    48
+4:         PYD     1
+5:     PYD+TAP    10
+6:         TAP     2
+
+------------------------------------------------------------------------------
+12d. Selection des cas selon le critere fixe
+------------------------------------------------------------------------------
+  Cas retenus : 6 (sur 300 couples pays x substitut)
+    rang      pays                   substitut n_vagues premiere derniere v_premiere v_derniere delta annee_decollage n_avant
+   <int>    <char>                      <char>    <int>    <int>    <int>      <num>      <num> <num>           <int>   <int>
+1:     1    Jordan            Eau en bouteille        7     1997     2023        0.3       46.6  46.3            2007       2
+2:     2     Ghana               Eau en sachet        4     2003     2022        1.5       41.1  39.6            2014       2
+3:     3 Indonesia            Eau en bouteille        4     2003     2017        3.3       35.0  31.7            2012       2
+4:     4  Cambodia            Eau en bouteille        4     2000     2021        0.1       23.3  23.2            2021       3
+5:     5  Cameroon Forage (propriete inconnue)        5     1991     2018        8.1       29.9  21.8            2004       2
+6:     6     Haiti                     Vendeur        5     1994     2016       10.0       31.2  21.2            2012       3
+  Echecs par condition (couples a 3 vagues ou plus) :
+Clé : <cle>
+      cle     n    c1    c2    c3 retenus
+   <char> <int> <int> <int> <int>   <int>
+1:    BOT    40     5    24     4       3
+2:    CER    26     0    10     0       0
+3:    SCH     2     1     1     2       1
+4:    TNK    40     0    29     0       0
+5:    TUB    32     4    22     3       1
+6:    VND     1     1     1     1       1
+
+------------------------------------------------------------------------------
+12e. Figures
+------------------------------------------------------------------------------
+  12_traj_BOT.pdf : 40 pays (page 1 composite, page 2 composantes)
+  12_traj_SCH.pdf : 2 pays (page 1 composite, page 2 composantes)
+  12_traj_VND.pdf : 1 pays (page 1 composite, page 2 composantes)
+  12_traj_TNK.pdf : 40 pays (page 1 composite, page 2 composantes)
+  12_traj_TUB.pdf : 32 pays (page 1 composite, page 2 composantes)
+  12_traj_CER.pdf : 26 pays (page 1 composite, page 2 composantes)
+  12_cas_feuille_de_route.pdf : 9 pays
+
+------------------------------------------------------------------------------
+ETAPE 12 TERMINEE
+------------------------------------------------------------------------------
+  12_cas_feuille_de_route.pdf
+  12_couverture.csv
+  12_dhs_ws_national.csv
+  12_indicateurs_ws.csv
+  12_public_composite.csv
+  12_selection_cas.tex
+  12_substituts_delta.csv
+  12_traj_BOT.pdf
+  12_traj_CER.pdf
+  12_traj_SCH.pdf
+  12_traj_TNK.pdf
+  12_traj_TUB.pdf
+  12_traj_VND.pdf
+
+Run finished: 2026-09-27 19:08:37

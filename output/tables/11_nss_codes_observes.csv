@@ -1,0 +1,116 @@
+round,concept,variable,code,code_brut,libelle,N,documente
+58,source,B4_q1,0,0,,1,FALSE
+58,source,B4_q1,1,1,tap,45535,TRUE
+58,source,B4_q1,2,2,tube well / hand pump,34466,TRUE
+58,source,B4_q1,3,3,well,12609,TRUE
+58,source,B4_q1,4,4,tank / pond (reserved for drinking),1040,TRUE
+58,source,B4_q1,5,5,other tank / pond,553,TRUE
+58,source,B4_q1,6,6,river / canal / lake,907,TRUE
+58,source,B4_q1,7,7,spring,1988,TRUE
+58,source,B4_q1,9,9,others,742,TRUE
+58,source,B4_q1,,"",,41,FALSE
+58,suffisance,B4_q2,1,1,yes,86103,TRUE
+58,suffisance,B4_q2,2,2,no,11756,TRUE
+58,suffisance,B4_q2,9,9,,14,FALSE
+58,suffisance,B4_q2,,"",,9,FALSE
+58,acces,B4_q3,1,1,household's exclusive use,32281,TRUE
+58,acces,B4_q3,2,2,common use of households in the building,14276,TRUE
+58,acces,B4_q3,3,3,community use,51317,TRUE
+58,acces,B4_q3,6,6,,1,FALSE
+58,acces,B4_q3,9,9,,1,FALSE
+58,acces,B4_q3,,"",,6,FALSE
+58,distance,B4_q4,0,0,,4,FALSE
+58,distance,B4_q4,1,1,within dwelling,29110,TRUE
+58,distance,B4_q4,2,2,outside dwelling but within the premises,20287,TRUE
+58,distance,B4_q4,3,3,outside premises: less than 0.2 km,40384,TRUE
+58,distance,B4_q4,4,4,0.2 to 0.5 km,6238,TRUE
+58,distance,B4_q4,5,5,0.5 to 1.0 km,1147,TRUE
+58,distance,B4_q4,6,6,1.0 to 1.6 km,215,TRUE
+58,distance,B4_q4,7,7,1.6 km or more,219,TRUE
+58,distance,B4_q4,8,8,,261,FALSE
+58,distance,B4_q4,,"",,17,FALSE
+69,source,b4_q1,1,01,bottled water,1759,TRUE
+69,source,b4_q1,2,02,piped water into dwelling,16825,TRUE
+69,source,b4_q1,3,03,piped water to yard/plot,13632,TRUE
+69,source,b4_q1,4,04,public tap/standpipe,15183,TRUE
+69,source,b4_q1,5,05,tube well/borehole,34796,TRUE
+69,source,b4_q1,6,06,well: protected,2444,TRUE
+69,source,b4_q1,7,07,well: unprotected,6411,TRUE
+69,source,b4_q1,8,08,spring: protected,968,TRUE
+69,source,b4_q1,9,09,spring: unprotected,660,TRUE
+69,source,b4_q1,10,10,rainwater collection,116,TRUE
+69,source,b4_q1,11,11,surface water: tank/pond,671,TRUE
+69,source,b4_q1,12,12,"other surface water (river, dam, stream, canal, lake, etc.)",598,TRUE
+69,source,b4_q1,19,19,"others (tanker-truck, cart with small tank or drum, etc)",1474,TRUE
+69,source,b4_q1,,"",,11,FALSE
+69,suffisance,b4_q2,1,1,yes,81855,TRUE
+69,suffisance,b4_q2,2,2,no,13693,TRUE
+69,acces,b4_q4,1,1,household's exclusive use,37160,TRUE
+69,acces,b4_q4,2,2,common use of households in the building,12948,TRUE
+69,acces,b4_q4,3,3,neighbour's source,4461,TRUE
+69,acces,b4_q4,4,4,community use: public source restricted to particular community,540,TRUE
+69,acces,b4_q4,5,5,community use: public source unrestricted,32918,TRUE
+69,acces,b4_q4,6,6,community use: private source restricted to particular community,252,TRUE
+69,acces,b4_q4,7,7,community use: private source unrestricted,1518,TRUE
+69,acces,b4_q4,9,9,others,5719,TRUE
+69,acces,b4_q4,,"",,32,FALSE
+69,distance,b4_q5,1,1,within dwelling,24315,TRUE
+69,distance,b4_q5,2,2,outside dwelling but within the premises,28120,TRUE
+69,distance,b4_q5,3,3,outside premises: less than 0.2 km,33428,TRUE
+69,distance,b4_q5,4,4,0.2 to 0.5 km,6601,TRUE
+69,distance,b4_q5,5,5,0.5 to 1.0 km,1384,TRUE
+69,distance,b4_q5,6,6,1.0 to 1.5 km,399,TRUE
+69,distance,b4_q5,7,7,1.5 km or more,353,TRUE
+69,distance,b4_q5,,"",,948,FALSE
+69,traitement,b4_q12,1,1,treated: electronic purifier,4438,TRUE
+69,traitement,b4_q12,2,2,treated: boiling,11643,TRUE
+69,traitement,b4_q12,3,3,treated: chemically treated with alum,515,TRUE
+69,traitement,b4_q12,4,4,treated: chemically treated with bleach/chlorine tablets,729,TRUE
+69,traitement,b4_q12,5,5,"treated: filtered with water filter (candle, ceramic, sand, etc.)",8136,TRUE
+69,traitement,b4_q12,6,6,treated: filtered with cloth,15463,TRUE
+69,traitement,b4_q12,7,7,not treated,52663,TRUE
+69,traitement,b4_q12,9,9,treated: others,1950,TRUE
+69,traitement,b4_q12,,"",,11,FALSE
+76,source,source_drinking_water,1,01,bottled water,5880,TRUE
+76,source,source_drinking_water,2,02,piped water into dwelling,26418,TRUE
+76,source,source_drinking_water,3,03,piped water to yard/plot,13635,TRUE
+76,source,source_drinking_water,4,04,piped water from neighbour,1137,TRUE
+76,source,source_drinking_water,5,05,public tap/standpipe,9594,TRUE
+76,source,source_drinking_water,6,06,tube well,11185,TRUE
+76,source,source_drinking_water,7,07,hand pump,28176,TRUE
+76,source,source_drinking_water,8,08,well: protected,3081,TRUE
+76,source,source_drinking_water,9,09,well: unprotected,3921,TRUE
+76,source,source_drinking_water,10,10,tanker-truck: public,262,TRUE
+76,source,source_drinking_water,11,11,tanker-truck: private,566,TRUE
+76,source,source_drinking_water,12,12,spring: protected,1032,TRUE
+76,source,source_drinking_water,13,13,spring: unprotected,361,TRUE
+76,source,source_drinking_water,14,14,rainwater collection,224,TRUE
+76,source,source_drinking_water,15,15,surface water: tank/pond,497,TRUE
+76,source,source_drinking_water,16,16,"other surface water (river, dam, stream, canal, lake, etc.)",370,TRUE
+76,source,source_drinking_water,19,19,"others (cart with small tank or drum, etc)",499,TRUE
+76,suffisance,water_sufficient_drink,1,1,yes,94360,TRUE
+76,suffisance,water_sufficient_drink,2,2,no,12478,TRUE
+76,acces,Access_source_water,1,1,exclusive use of household,58001,TRUE
+76,acces,Access_source_water,2,2,common use of households in the building,11823,TRUE
+76,acces,Access_source_water,3,3,neighbour's source,3508,TRUE
+76,acces,Access_source_water,4,4,community use: public source restricted to particular community,900,TRUE
+76,acces,Access_source_water,5,5,community use: public source unrestricted,22580,TRUE
+76,acces,Access_source_water,6,6,community use: private source restricted to particular community,165,TRUE
+76,acces,Access_source_water,7,7,community use: private source unrestricted,1118,TRUE
+76,acces,Access_source_water,9,9,others,8743,TRUE
+76,distance,Distance_source_water,1,1,within dwelling,41724,TRUE
+76,distance,Distance_source_water,2,2,outside dwelling but within the premises,30358,TRUE
+76,distance,Distance_source_water,3,3,outside premises: less than 0.2 km,24757,TRUE
+76,distance,Distance_source_water,4,4,0.2 to 0.5 km,6495,TRUE
+76,distance,Distance_source_water,5,5,0.5 to 1.0 km,1735,TRUE
+76,distance,Distance_source_water,6,6,1.0 to 1.5 km,458,TRUE
+76,distance,Distance_source_water,7,7,1.5 km or more,692,TRUE
+76,distance,Distance_source_water,,"",,619,FALSE
+76,traitement,Method_treatment,1,1,treated: electric purifier,9309,TRUE
+76,traitement,Method_treatment,2,2,treated: boiling,12262,TRUE
+76,traitement,Method_treatment,3,3,treated: chemically treated with alum,621,TRUE
+76,traitement,Method_treatment,4,4,treated: chemically treated with bleach/chlorine tablets,1114,TRUE
+76,traitement,Method_treatment,5,5,treated: non-electric purifier,6951,TRUE
+76,traitement,Method_treatment,6,6,treated: filtered with cloth,12027,TRUE
+76,traitement,Method_treatment,7,7,not treated,62482,TRUE
+76,traitement,Method_treatment,9,9,treated: others,2072,TRUE
