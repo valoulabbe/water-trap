@@ -1,0 +1,5 @@
+enquete,definition,categories,N_emballee,n_hv202_nonNA,n_canalisation,part,part_ponderee
+ghana_2022,stricte,canalisation_logement+canalisation_cour+borne_publique,5360,5358,2466,0.460074626865672,0.490517705869177
+ghana_2022,large,canalisation_logement+canalisation_cour+borne_publique+canalisation_voisin,5360,5358,3047,0.568470149253731,0.635219317920312
+indonesia_2017,stricte,canalisation_logement+canalisation_cour+borne_publique,17406,17387,5265,0.302481902792141,0.24769915338355
+indonesia_2017,large,canalisation_logement+canalisation_cour+borne_publique+canalisation_voisin,17406,17387,5437,0.312363552797886,0.255860100831443

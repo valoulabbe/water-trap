@@ -1,0 +1,10 @@
+enquete,archive,N,hv202_dictionnaire,hv201_present,hv201_part_nonNA,hv201_part_code_manquant,hv201_n_codes,hv202_present,hv202_part_nonNA,hv202_part_code_manquant,hv202_n_codes,n_hv201_emballee,hv202_nonNA_si_emballee,signal
+ghana_2003,GHHR4BDT,6251,absente du dictionnaire,TRUE,1,0,19,FALSE,,,,82,,ABSENTE
+ghana_2008,GHHR5ADT,11778,presente,TRUE,1,0,16,TRUE,1,0,15,957,1,""
+indonesia_2003,IDHR42DT,33088,absente du dictionnaire,TRUE,1,0,18,FALSE,,,,985,,ABSENTE
+indonesia_2017,IDHR71DT,47963,presente,TRUE,0.999937451785751,0,16,TRUE,0.362508600379459,0,16,17406,0.998908422383086,""
+ghana_1993,GHHR31DT,5822,presente,TRUE,1,0,12,TRUE,1,0,12,0,,""
+ghana_1998,GHHR41DT,6003,presente,TRUE,0.999833416625021,0,14,TRUE,1,0,13,2,1,""
+ghana_2014,GHHR72DT,11835,marquee NA (non posee),TRUE,1,0,15,TRUE,0,0,0,2611,0,VIDE
+ghana_2022,GHHR8CDT,17933,presente,TRUE,1,0,15,TRUE,0.298778787709809,0,14,5360,0.999626865671642,""
+indonesia_2007,IDHR51DT,40701,presente,TRUE,1,0,18,TRUE,1,0,17,3962,1,""

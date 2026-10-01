@@ -1,0 +1,19 @@
+enquete,selon,groupe,n,n_nonNA,part_nonNA
+indonesia_2017,hv201 (tous menages),,3,0,0
+indonesia_2017,hv201 (tous menages),autre,6,0,0
+indonesia_2017,hv201 (tous menages),canalisation,5323,5301,0.995866992297577
+indonesia_2017,hv201 (tous menages),citerne,586,0,0
+indonesia_2017,hv201 (tous menages),emballee,17406,11185,0.642594507641043
+indonesia_2017,hv201 (tous menages),pluie,1347,0,0
+indonesia_2017,hv201 (tous menages),puits_forage,16412,6172,0.376066292956373
+indonesia_2017,hv201 (tous menages),source,5776,0,0
+indonesia_2017,hv201 (tous menages),surface,1104,0,0
+indonesia_2017,hv202 (emballes seulement),(hv202 NA),19,0,0
+indonesia_2017,hv202 (emballes seulement),autre,3,0,0
+indonesia_2017,hv202 (emballes seulement),canalisation,5437,5405,0.99411440132426
+indonesia_2017,hv202 (emballes seulement),citerne,239,0,0
+indonesia_2017,hv202 (emballes seulement),emballee,206,0,0
+indonesia_2017,hv202 (emballes seulement),pluie,283,0,0
+indonesia_2017,hv202 (emballes seulement),puits_forage,10328,5780,0.559643687064291
+indonesia_2017,hv202 (emballes seulement),source,542,0,0
+indonesia_2017,hv202 (emballes seulement),surface,349,0,0

@@ -1,0 +1,901 @@
+==============================================================================
+LOG: output/logs/14_dhs_hv201_hv202.log
+Run started: 2026-10-01 12:43:12
+==============================================================================
+
+ETAPE 14 -- DHS : CACHE HR ALLEGE ET COUVERTURE DE hv201 / hv202
+Descriptif seulement : ni analyse, ni graphique, ni fusion.
+
+------------------------------------------------------------------------------
+14a. Inventaire des fichiers HR extraits
+------------------------------------------------------------------------------
+  [OK]   9 fichiers HR .DTA trouves sous raw/dhs/
+  [OK]   inventaire HR: key (enquete) unique
+  [OK]   GHHR31FL.DTA : format Stata 113 lisible par l'en-tete
+  [OK]   GHHR41FL.DTA : format Stata 113 lisible par l'en-tete
+  [OK]   GHHR4BFL.DTA : format Stata 111 lisible par l'en-tete
+  [OK]   GHHR5AFL.DTA : format Stata 111 lisible par l'en-tete
+  [OK]   GHHR72FL.DTA : format Stata 113 lisible par l'en-tete
+  [OK]   GHHR8CFL.DTA : format Stata 113 lisible par l'en-tete
+  [OK]   IDHR42FL.DTA : format Stata 111 lisible par l'en-tete
+  [OK]   IDHR51FL.DTA : format Stata 111 lisible par l'en-tete
+  [OK]   IDHR71FL.DTA : format Stata 113 lisible par l'en-tete
+        enquete  archive      fichier format     K     N
+         <char>   <char>       <char>  <int> <int> <int>
+     ghana_2003 GHHR4BDT GHHR4BFL.DTA    111  3309  6251
+     ghana_2008 GHHR5ADT GHHR5AFL.DTA    111  2130 11778
+ indonesia_2003 IDHR42DT IDHR42FL.DTA    111  1758 33088
+ indonesia_2017 IDHR71DT IDHR71FL.DTA    113  1283 47963
+     ghana_1993 GHHR31DT GHHR31FL.DTA    113  1357  5822
+     ghana_1998 GHHR41DT GHHR41FL.DTA    113   780  6003
+     ghana_2014 GHHR72DT GHHR72FL.DTA    113  3028 11835
+     ghana_2022 GHHR8CDT GHHR8CFL.DTA    113  3997 17933
+ indonesia_2007 IDHR51DT IDHR51FL.DTA    111  1414 40701
+
+------------------------------------------------------------------------------
+14b. Cache allege : une lecture par .DTA (stage)
+------------------------------------------------------------------------------
+[2026-10-01 12:43:12] cache ghana_2003 : deja fait, relu depuis build/14_dhs_GHHR4BDT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:12] cache ghana_2003 : relu (0.0 s)
+ghana_2003 : 6251 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv270 + 80 colonnes par membre (hv101_*, hv106_*)
+  [WARNING] ghana_2003 : colonnes absentes du fichier : hv202, hv201a
+  [OK]   ghana_2003 (N de l'en-tete Stata): row count == 6,251
+  [OK]   ghana_2003: all 5 named variables present
+  [OK]   ghana_2003: key (hhid) unique
+  [OK]   ghana_2003 : hv000 unique et prefixe GH
+[2026-10-01 12:43:12] cache ghana_2008 : deja fait, relu depuis build/14_dhs_GHHR5ADT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:12] cache ghana_2008 : relu (0.0 s)
+ghana_2008 : 11778 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv202, hv270 + 44 colonnes par membre (hv101_*, hv106_*)
+  [WARNING] ghana_2008 : colonnes absentes du fichier : hv201a
+  [OK]   ghana_2008 (N de l'en-tete Stata): row count == 11,778
+  [OK]   ghana_2008: all 5 named variables present
+  [OK]   ghana_2008: key (hhid) unique
+  [OK]   ghana_2008 : hv000 unique et prefixe GH
+[2026-10-01 12:43:12] cache indonesia_2003 : deja fait, relu depuis build/14_dhs_IDHR42DT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:12] cache indonesia_2003 : relu (0.0 s)
+indonesia_2003 : 33088 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv270 + 44 colonnes par membre (hv101_*, hv106_*)
+  [WARNING] indonesia_2003 : colonnes absentes du fichier : hv202, hv201a
+  [OK]   indonesia_2003 (N de l'en-tete Stata): row count == 33,088
+  [OK]   indonesia_2003: all 5 named variables present
+  [OK]   indonesia_2003: key (hhid) unique
+  [OK]   indonesia_2003 : hv000 unique et prefixe ID
+[2026-10-01 12:43:12] cache indonesia_2017 : deja fait, relu depuis build/14_dhs_IDHR71DT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:12] cache indonesia_2017 : relu (0.1 s)
+indonesia_2017 : 47963 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv202, hv201a, hv270 + 48 colonnes par membre (hv101_*, hv106_*)
+  [OK]   indonesia_2017 (N de l'en-tete Stata): row count == 47,963
+  [OK]   indonesia_2017: all 5 named variables present
+  [OK]   indonesia_2017: key (hhid) unique
+  [OK]   indonesia_2017 : hv000 unique et prefixe ID
+[2026-10-01 12:43:13] cache ghana_1993 : deja fait, relu depuis build/14_dhs_GHHR31DT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:13] cache ghana_1993 : relu (0.0 s)
+ghana_1993 : 5822 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv202 + 50 colonnes par membre (hv101_*, hv106_*)
+  [WARNING] ghana_1993 : colonnes absentes du fichier : hv201a, hv270
+  [OK]   ghana_1993 (N de l'en-tete Stata): row count == 5,822
+  [OK]   ghana_1993: all 5 named variables present
+  [OK]   ghana_1993: key (hhid) unique
+  [OK]   ghana_1993 : hv000 unique et prefixe GH
+[2026-10-01 12:43:13] cache ghana_1998 : deja fait, relu depuis build/14_dhs_GHHR41DT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:13] cache ghana_1998 : relu (0.0 s)
+ghana_1998 : 6003 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv202 + 46 colonnes par membre (hv101_*, hv106_*)
+  [WARNING] ghana_1998 : colonnes absentes du fichier : hv201a, hv270
+  [OK]   ghana_1998 (N de l'en-tete Stata): row count == 6,003
+  [OK]   ghana_1998: all 5 named variables present
+  [OK]   ghana_1998: key (hhid) unique
+  [OK]   ghana_1998 : hv000 unique et prefixe GH
+[2026-10-01 12:43:13] cache ghana_2014 : deja fait, relu depuis build/14_dhs_GHHR72DT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:13] cache ghana_2014 : relu (0.0 s)
+ghana_2014 : 11835 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv202, hv270 + 50 colonnes par membre (hv101_*, hv106_*)
+  [WARNING] ghana_2014 : colonnes absentes du fichier : hv201a
+  [OK]   ghana_2014 (N de l'en-tete Stata): row count == 11,835
+  [OK]   ghana_2014: all 5 named variables present
+  [OK]   ghana_2014: key (hhid) unique
+  [OK]   ghana_2014 : hv000 unique et prefixe GH
+[2026-10-01 12:43:13] cache ghana_2022 : deja fait, relu depuis build/14_dhs_GHHR8CDT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:13] cache ghana_2022 : relu (0.0 s)
+ghana_2022 : 17933 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv202, hv201a, hv270 + 70 colonnes par membre (hv101_*, hv106_*)
+  [OK]   ghana_2022 (N de l'en-tete Stata): row count == 17,933
+  [OK]   ghana_2022: all 5 named variables present
+  [OK]   ghana_2022: key (hhid) unique
+  [OK]   ghana_2022 : hv000 unique et prefixe GH
+[2026-10-01 12:43:13] cache indonesia_2007 : deja fait, relu depuis build/14_dhs_IDHR51DT.rds (ecrit le 2026-10-01 12:36)
+[2026-10-01 12:43:13] cache indonesia_2007 : relu (0.0 s)
+indonesia_2007 : 40701 lignes, colonnes gardees : hhid, hv000, hv001, hv005, hv007, hv021, hv024, hv025, hv201, hv202, hv270 + 38 colonnes par membre (hv101_*, hv106_*)
+  [WARNING] indonesia_2007 : colonnes absentes du fichier : hv201a
+  [OK]   indonesia_2007 (N de l'en-tete Stata): row count == 40,701
+  [OK]   indonesia_2007: all 5 named variables present
+  [OK]   indonesia_2007: key (hhid) unique
+  [OK]   indonesia_2007 : hv000 unique et prefixe ID
+
+------------------------------------------------------------------------------
+14b'. Table de correspondance des codes (code/ref/dhs_codes_source_eau.csv)
+------------------------------------------------------------------------------
+  [OK]   table de correspondance: all 6 named variables present
+  [OK]   table de correspondance: key (archive+variable+code) unique
+  [OK]   table de correspondance : categorie et groupe toujours renseignes
+  [OK]   ghana_2003 hv201 : 19 codes observes tous dans la table
+  [OK]   ghana_2003 hv201 : libelles identiques au fichier
+  [OK]   ghana_2008 hv201 : 16 codes observes tous dans la table
+  [OK]   ghana_2008 hv201 : libelles identiques au fichier
+  [OK]   ghana_2008 hv202 : 15 codes observes tous dans la table
+  [OK]   ghana_2008 hv202 : libelles identiques au fichier
+  [OK]   indonesia_2003 hv201 : 18 codes observes tous dans la table
+  [OK]   indonesia_2003 hv201 : libelles identiques au fichier
+  [OK]   indonesia_2017 hv201 : 16 codes observes tous dans la table
+  [OK]   indonesia_2017 hv201 : libelles identiques au fichier
+  [OK]   indonesia_2017 hv202 : 16 codes observes tous dans la table
+  [OK]   indonesia_2017 hv202 : libelles identiques au fichier
+  [OK]   ghana_1993 hv201 : 12 codes observes tous dans la table
+  [OK]   ghana_1993 hv201 : libelles identiques au fichier
+  [OK]   ghana_1993 hv202 : 12 codes observes tous dans la table
+  [OK]   ghana_1993 hv202 : libelles identiques au fichier
+  [OK]   ghana_1998 hv201 : 14 codes observes tous dans la table
+  [OK]   ghana_1998 hv201 : libelles identiques au fichier
+  [OK]   ghana_1998 hv202 : 13 codes observes tous dans la table
+  [OK]   ghana_1998 hv202 : libelles identiques au fichier
+  [OK]   ghana_2014 hv201 : 15 codes observes tous dans la table
+  [OK]   ghana_2014 hv201 : libelles identiques au fichier
+  [OK]   ghana_2014 hv202 : 0 codes observes tous dans la table
+  [OK]   ghana_2014 hv202 : libelles identiques au fichier
+  [OK]   ghana_2022 hv201 : 15 codes observes tous dans la table
+  [OK]   ghana_2022 hv201 : libelles identiques au fichier
+  [OK]   ghana_2022 hv202 : 14 codes observes tous dans la table
+  [OK]   ghana_2022 hv202 : libelles identiques au fichier
+  [OK]   indonesia_2007 hv201 : 18 codes observes tous dans la table
+  [OK]   indonesia_2007 hv201 : libelles identiques au fichier
+  [OK]   indonesia_2007 hv202 : 17 codes observes tous dans la table
+  [OK]   indonesia_2007 hv202 : libelles identiques au fichier
+
+------------------------------------------------------------------------------
+14c. Couverture de hv201 et hv202 (depuis le cache)
+------------------------------------------------------------------------------
+        enquete  archive     N      hv202_dictionnaire hv201_present
+         <char>   <char> <int>                  <char>        <lgcl>
+     ghana_2003 GHHR4BDT  6251 absente du dictionnaire          TRUE
+     ghana_2008 GHHR5ADT 11778                presente          TRUE
+ indonesia_2003 IDHR42DT 33088 absente du dictionnaire          TRUE
+ indonesia_2017 IDHR71DT 47963                presente          TRUE
+     ghana_1993 GHHR31DT  5822                presente          TRUE
+     ghana_1998 GHHR41DT  6003                presente          TRUE
+     ghana_2014 GHHR72DT 11835  marquee NA (non posee)          TRUE
+     ghana_2022 GHHR8CDT 17933                presente          TRUE
+ indonesia_2007 IDHR51DT 40701                presente          TRUE
+ hv201_part_nonNA hv201_part_code_manquant hv201_n_codes hv202_present
+            <num>                    <num>         <int>        <lgcl>
+        1.0000000                        0            19         FALSE
+        1.0000000                        0            16          TRUE
+        1.0000000                        0            18         FALSE
+        0.9999375                        0            16          TRUE
+        1.0000000                        0            12          TRUE
+        0.9998334                        0            14          TRUE
+        1.0000000                        0            15          TRUE
+        1.0000000                        0            15          TRUE
+        1.0000000                        0            18          TRUE
+ hv202_part_nonNA hv202_part_code_manquant hv202_n_codes n_hv201_emballee
+            <num>                    <num>         <int>            <int>
+               NA                       NA            NA               82
+        1.0000000                        0            15              957
+               NA                       NA            NA              985
+        0.3625086                        0            16            17406
+        1.0000000                        0            12                0
+        1.0000000                        0            13                2
+        0.0000000                        0             0             2611
+        0.2987788                        0            14             5360
+        1.0000000                        0            17             3962
+ hv202_nonNA_si_emballee  signal
+                   <num>  <char>
+                      NA ABSENTE
+               1.0000000        
+                      NA ABSENTE
+               0.9989084        
+                      NA        
+               1.0000000        
+               0.0000000    VIDE
+               0.9996269        
+               1.0000000        
+
+------------------------------------------------------------------------------
+14d. Tables de frequence des codes, avec etiquettes
+------------------------------------------------------------------------------
+
+== ghana_2003
+ variable  code                       libelle     n   part
+   <char> <num>                        <char> <int>  <num>
+    hv201    11           piped into dwelling   336 0.0538
+    hv201    12      piped into compound/plot   591 0.0945
+    hv201    13                    public tap  1258 0.2012
+    hv201    21         open well in dwelling    39 0.0062
+    hv201    22        open well in yard/plot    81 0.0130
+    hv201    23              open public well   633 0.1013
+    hv201    31    protected well in dwelling    37 0.0059
+    hv201    32   protected well in yard/plot    85 0.0136
+    hv201    33         protected public well  1795 0.2872
+    hv201    41                        spring    50 0.0080
+    hv201    42                 river, stream   909 0.1454
+    hv201    43                    pond, lake   112 0.0179
+    hv201    44                           dam   149 0.0238
+    hv201    51                     rainwater    16 0.0026
+    hv201    61                  tanker truck    63 0.0101
+    hv201    71                 bottled water     1 0.0002
+    hv201    81                 satchel water    81 0.0130
+    hv201    96                         other     8 0.0013
+    hv201    99              (sans etiquette)     7 0.0011
+    hv202    NA (variable absente du fichier)    NA     NA
+ variable  code                       libelle     n   part
+   <char> <num>                        <char> <int>  <num>
+
+== ghana_2008
+ variable  code                                              libelle     n
+   <char> <num>                                               <char> <int>
+    hv201    11                                  piped into dwelling   687
+    hv201    12                                   piped to yard/plot   868
+    hv201    13                                 public tap/standpipe  3179
+    hv201    21                                tube well or borehole  3781
+    hv201    31                                       protected well   558
+    hv201    32                                     unprotected well   271
+    hv201    41                                     protected spring     8
+    hv201    42                                   unprotected spring    77
+    hv201    43 river/dam/lake/ponds/stream/canal/irrigation channel  1256
+    hv201    51                                            rainwater    56
+    hv201    61                                         tanker truck    62
+    hv201    62                                 cart with small tank    16
+    hv201    71                                        bottled water    43
+    hv201    72                                         sachet water   914
+    hv201    96                                                other     1
+    hv201    99                                     (sans etiquette)     1
+    hv202    11                                  piped into dwelling   844
+    hv202    12                                   piped to yard/plot  1140
+    hv202    13                                 public tap/standpipe  3427
+    hv202    21                                tube well or borehole  3848
+    hv202    31                                       protected well   664
+    hv202    32                                     unprotected well   305
+    hv202    41                                     protected spring     8
+    hv202    42                                   unprotected spring    77
+    hv202    43 river/dam/lake/ponds/stream/canal/irrigation channel  1280
+    hv202    51                                            rainwater    61
+    hv202    61                                         tanker truck   101
+    hv202    62                                 cart with small tank    16
+    hv202    72                                         sachet water     4
+    hv202    96                                                other     1
+    hv202    99                                     (sans etiquette)     2
+ variable  code                                              libelle     n
+   <char> <num>                                               <char> <int>
+   part
+  <num>
+ 0.0583
+ 0.0737
+ 0.2699
+ 0.3210
+ 0.0474
+ 0.0230
+ 0.0007
+ 0.0065
+ 0.1066
+ 0.0048
+ 0.0053
+ 0.0014
+ 0.0037
+ 0.0776
+ 0.0001
+ 0.0001
+ 0.0717
+ 0.0968
+ 0.2910
+ 0.3267
+ 0.0564
+ 0.0259
+ 0.0007
+ 0.0065
+ 0.1087
+ 0.0052
+ 0.0086
+ 0.0014
+ 0.0003
+ 0.0001
+ 0.0002
+   part
+  <num>
+
+== indonesia_2003
+ variable  code                       libelle     n   part
+   <char> <num>                        <char> <int>  <num>
+    hv201    11           piped into dwelling  5015 0.1516
+    hv201    12          piped into yard/plot   879 0.0266
+    hv201    13                    public tap   946 0.0286
+    hv201    21         open well in dwelling  1462 0.0442
+    hv201    22        open well in yard/plot  3558 0.1075
+    hv201    23              open public well  1300 0.0393
+    hv201    31    protected well in dwelling  4591 0.1388
+    hv201    32   protected well in yard/plot  4514 0.1364
+    hv201    33         protected public well  2692 0.0814
+    hv201    41                        spring  3151 0.0952
+    hv201    42                 river, stream  1678 0.0507
+    hv201    43                    pond, lake    27 0.0008
+    hv201    44                           dam     7 0.0002
+    hv201    51                     rainwater  1383 0.0418
+    hv201    61                  tanker truck   665 0.0201
+    hv201    71                 bottled water   985 0.0298
+    hv201    96                         other   226 0.0068
+    hv201    99              (sans etiquette)     9 0.0003
+    hv202    NA (variable absente du fichier)    NA     NA
+
+== indonesia_2017
+ variable  code                                              libelle     n
+   <char> <num>                                               <char> <int>
+    hv201    11                                  piped into dwelling  4060
+    hv201    12                                   piped to yard/plot   642
+    hv201    13                                    piped to neighbor   389
+    hv201    14                                 public tap/standpipe   232
+    hv201    21                                tube well or borehole  6243
+    hv201    31                                       protected well  7655
+    hv201    32                                     unprotected well  2514
+    hv201    41                                     protected spring  4445
+    hv201    42                                   unprotected spring  1331
+    hv201    43 river/dam/lake/ponds/stream/canal/irrigation channel  1104
+    hv201    51                                            rainwater  1347
+    hv201    61                                         tanker truck   276
+    hv201    62                                 cart with small tank   310
+    hv201    71                                        bottled water  4568
+    hv201    72                                       refilled water 12838
+    hv201    96                                                other     6
+    hv201    NA                                         (NA systeme)     3
+    hv202    11                                  piped into dwelling  4603
+    hv202    12                                   piped to yard/plot   547
+    hv202    13                                    piped to neighbor   172
+    hv202    14                                 public tap/standpipe   115
+    hv202    21                                tube well or borehole  6090
+    hv202    31                                       protected well  3302
+    hv202    32                                     unprotected well   936
+    hv202    41                                     protected spring   441
+    hv202    42                                   unprotected spring   101
+    hv202    43 river/dam/lake/ponds/stream/canal/irrigation channel   349
+    hv202    51                                            rainwater   283
+    hv202    61                                         tanker truck   143
+    hv202    62                                 cart with small tank    96
+    hv202    71                                        bottled water    23
+    hv202    72                                       refilled water   183
+    hv202    96                                                other     3
+    hv202    NA                                         (NA systeme) 30576
+ variable  code                                              libelle     n
+   <char> <num>                                               <char> <int>
+   part
+  <num>
+ 0.0846
+ 0.0134
+ 0.0081
+ 0.0048
+ 0.1302
+ 0.1596
+ 0.0524
+ 0.0927
+ 0.0278
+ 0.0230
+ 0.0281
+ 0.0058
+ 0.0065
+ 0.0952
+ 0.2677
+ 0.0001
+ 0.0001
+ 0.0960
+ 0.0114
+ 0.0036
+ 0.0024
+ 0.1270
+ 0.0688
+ 0.0195
+ 0.0092
+ 0.0021
+ 0.0073
+ 0.0059
+ 0.0030
+ 0.0020
+ 0.0005
+ 0.0038
+ 0.0001
+ 0.6375
+   part
+  <num>
+
+== ghana_1993
+ variable  code              libelle     n   part
+   <char> <num>               <char> <int>  <num>
+    hv201    11 piped into residence   851 0.1462
+    hv201    12           public tap  1211 0.2080
+    hv201    21    well in residence    95 0.0163
+    hv201    22          public well   624 0.1072
+    hv201    23             borehole  1071 0.1840
+    hv201    31               spring    43 0.0074
+    hv201    32         river,stream  1488 0.2556
+    hv201    33            pond,lake   110 0.0189
+    hv201    34                  dam   151 0.0259
+    hv201    35               dugout    78 0.0134
+    hv201    41            rainwater    48 0.0082
+    hv201    51         tanker truck    52 0.0089
+    hv202    11 piped into residence   840 0.1443
+    hv202    12           public tap  1078 0.1852
+    hv202    21    well in residence   144 0.0247
+    hv202    22          public well   716 0.1230
+    hv202    23             borehole   940 0.1615
+    hv202    31               spring    42 0.0072
+    hv202    32         river,stream  1591 0.2733
+    hv202    33            pond,lake   122 0.0210
+    hv202    34                  dam   203 0.0349
+    hv202    35               dugout    87 0.0149
+    hv202    41            rainwater    22 0.0038
+    hv202    51         tanker truck    37 0.0064
+ variable  code              libelle     n   part
+   <char> <num>               <char> <int>  <num>
+
+== ghana_1998
+ variable  code                     libelle     n   part
+   <char> <num>                      <char> <int>  <num>
+    hv201    11        piped into residence   941 0.1568
+    hv201    12 public tap/neighbours house  1254 0.2089
+    hv201    21           well in residence    93 0.0155
+    hv201    22                 public well   691 0.1151
+    hv201    23                    borehole  1431 0.2384
+    hv201    31                spring water    55 0.0092
+    hv201    32                river/stream  1007 0.1677
+    hv201    33                   pond/lake    98 0.0163
+    hv201    34                         dam   234 0.0390
+    hv201    35                      dugout   120 0.0200
+    hv201    41                   rainwater    38 0.0063
+    hv201    51                tanker truck    37 0.0062
+    hv201    61               bottled water     2 0.0003
+    hv201    96                       other     1 0.0002
+    hv201    NA                (NA systeme)     1 0.0002
+    hv202    11        piped into residence   934 0.1556
+    hv202    12 public tap/neighbours house  1128 0.1879
+    hv202    21           well in residence   136 0.0227
+    hv202    22                 public well   754 0.1256
+    hv202    23                    borehole  1305 0.2174
+    hv202    31                spring water    54 0.0090
+    hv202    32                river/stream  1090 0.1816
+    hv202    33                   pond/lake   140 0.0233
+    hv202    34                         dam   278 0.0463
+    hv202    35                      dugout   137 0.0228
+    hv202    41                   rainwater    14 0.0023
+    hv202    51                tanker truck    31 0.0052
+    hv202    96                       other     2 0.0003
+ variable  code                     libelle     n   part
+   <char> <num>                      <char> <int>  <num>
+
+== ghana_2014
+ variable  code                                              libelle     n
+   <char> <num>                                               <char> <int>
+    hv201    11                                  piped into dwelling   451
+    hv201    12                                   piped to yard/plot   677
+    hv201    13                                 public tap/standpipe  2530
+    hv201    21                                tube well or borehole  3392
+    hv201    31                                       protected well   643
+    hv201    32                                     unprotected well   357
+    hv201    41                                     protected spring    28
+    hv201    42                                   unprotected spring    75
+    hv201    43 river/dam/lake/ponds/stream/canal/irrigation channel   966
+    hv201    51                                            rainwater    74
+    hv201    61                                         tanker truck    26
+    hv201    62                                 cart with small tank     3
+    hv201    71                                        bottled water    66
+    hv201    72                                         sachet water  2545
+    hv201    96                                                other     2
+    hv202    NA                                         (NA systeme) 11835
+   part
+  <num>
+ 0.0381
+ 0.0572
+ 0.2138
+ 0.2866
+ 0.0543
+ 0.0302
+ 0.0024
+ 0.0063
+ 0.0816
+ 0.0063
+ 0.0022
+ 0.0003
+ 0.0056
+ 0.2150
+ 0.0002
+ 1.0000
+
+== ghana_2022
+ variable  code                                              libelle     n
+   <char> <num>                                               <char> <int>
+    hv201    11                                  piped into dwelling   459
+    hv201    12                                   piped to yard/plot   900
+    hv201    13                                    piped to neighbor   718
+    hv201    14                                 public tap/standpipe  2289
+    hv201    21                                tube well or borehole  4662
+    hv201    31                                       protected well   847
+    hv201    32                                     unprotected well   537
+    hv201    41                                     protected spring    33
+    hv201    42                                   unprotected spring   177
+    hv201    43 river/dam/lake/ponds/stream/canal/irrigation channel  1783
+    hv201    51                                            rainwater   137
+    hv201    61                                         tanker truck    26
+    hv201    62                                 cart with small tank     5
+    hv201    71                                        bottled water   271
+    hv201    72                                         sachet water  5089
+    hv202    11                                  piped into dwelling   811
+    hv202    12                                   piped to yard/plot   846
+    hv202    13                                    piped to neighbor   581
+    hv202    14                                 public tap/standpipe   809
+    hv202    21                                tube well or borehole  1091
+    hv202    31                                       protected well   793
+    hv202    32                                     unprotected well   137
+    hv202    41                                     protected spring    12
+    hv202    42                                   unprotected spring     6
+    hv202    43 river/dam/lake/ponds/stream/canal/irrigation channel   108
+    hv202    51                                            rainwater    52
+    hv202    61                                         tanker truck    89
+    hv202    62                                 cart with small tank     4
+    hv202    96                                                other    19
+    hv202    NA                                         (NA systeme) 12575
+ variable  code                                              libelle     n
+   <char> <num>                                               <char> <int>
+   part
+  <num>
+ 0.0256
+ 0.0502
+ 0.0400
+ 0.1276
+ 0.2600
+ 0.0472
+ 0.0299
+ 0.0018
+ 0.0099
+ 0.0994
+ 0.0076
+ 0.0014
+ 0.0003
+ 0.0151
+ 0.2838
+ 0.0452
+ 0.0472
+ 0.0324
+ 0.0451
+ 0.0608
+ 0.0442
+ 0.0076
+ 0.0007
+ 0.0003
+ 0.0060
+ 0.0029
+ 0.0050
+ 0.0002
+ 0.0011
+ 0.7012
+   part
+  <num>
+
+== indonesia_2007
+ variable  code                       libelle     n   part
+   <char> <num>                        <char> <int>  <num>
+    hv201    11           piped into dwelling  5408 0.1329
+    hv201    12            piped to yard/plot  1114 0.0274
+    hv201    13          public tap/standpipe  1096 0.0269
+    hv201    33       open well - in dwelling  1266 0.0311
+    hv201    34      open well - in yard/plot  3267 0.0803
+    hv201    35            open well - public  1635 0.0402
+    hv201    36  protected well - in dwelling  4766 0.1171
+    hv201    37 protected well - in yard/plot  5305 0.1303
+    hv201    38       protected well - public  3380 0.0830
+    hv201    44                        spring  4888 0.1201
+    hv201    45                  river/stream  2112 0.0519
+    hv201    46                     pond/lake    44 0.0011
+    hv201    47                           dam    21 0.0005
+    hv201    51                     rainwater  1647 0.0405
+    hv201    61                  tanker truck   674 0.0166
+    hv201    71                 bottled water  3962 0.0973
+    hv201    96                         other    89 0.0022
+    hv201    99              (sans etiquette)    27 0.0007
+    hv202    11           piped into dwelling  6692 0.1644
+    hv202    12            piped to yard/plot  1239 0.0304
+    hv202    13          public tap/standpipe  1181 0.0290
+    hv202    33       open well - in dwelling  1477 0.0363
+    hv202    34      open well - in yard/plot  3477 0.0854
+    hv202    35            open well - public  1715 0.0421
+    hv202    36  protected well - in dwelling  5646 0.1387
+    hv202    37 protected well - in yard/plot  5757 0.1414
+    hv202    38       protected well - public  3635 0.0893
+    hv202    44                        spring  4933 0.1212
+    hv202    45                  river/stream  2161 0.0531
+    hv202    46                     pond/lake    45 0.0011
+    hv202    47                           dam    23 0.0006
+    hv202    51                     rainwater  1700 0.0418
+    hv202    61                  tanker truck   784 0.0193
+    hv202    96                         other   144 0.0035
+    hv202    99              (sans etiquette)    92 0.0023
+ variable  code                       libelle     n   part
+   <char> <num>                        <char> <int>  <num>
+
+------------------------------------------------------------------------------
+14e. hv202 dans l'univers restreint : menages buvant de l'eau emballee
+------------------------------------------------------------------------------
+  [OK]   ghana_2022 : hv202 renseignee pour > 99 % des emballes et < 1 % des autres
+  [OK]   indonesia_2017 : hv202 renseignee pour > 99 % des emballes et < 1 % des autres
+
+== ghana_2022 : distribution de hv202 chez les menages buvant de l'eau emballee
+  code                                              libelle
+ <num>                                               <char>
+    11                                  piped into dwelling
+    12                                   piped to yard/plot
+    13                                    piped to neighbor
+    14                                 public tap/standpipe
+    21                                tube well or borehole
+    31                                       protected well
+    32                                     unprotected well
+    41                                     protected spring
+    42                                   unprotected spring
+    43 river/dam/lake/ponds/stream/canal/irrigation channel
+    51                                            rainwater
+    61                                         tanker truck
+    62                                 cart with small tank
+    96                                                other
+    NA                                         (NA systeme)
+             categorie     n   part part_ponderee
+                <char> <int>  <num>         <num>
+ canalisation_logement   811 0.1513        0.1681
+     canalisation_cour   846 0.1578        0.1767
+   canalisation_voisin   581 0.1084        0.1447
+        borne_publique   809 0.1509        0.1457
+                forage  1091 0.2035        0.1699
+         puits_protege   793 0.1479        0.1294
+     puits_non_protege   137 0.0256        0.0188
+       source_protegee    12 0.0022        0.0015
+   source_non_protegee     6 0.0011        0.0006
+           eau_surface   108 0.0201        0.0137
+                 pluie    52 0.0097        0.0076
+        camion_citerne    89 0.0166        0.0185
+     charrette_citerne     4 0.0007        0.0003
+                 autre    19 0.0035        0.0045
+              manquant     2 0.0004        0.0001
+
+== indonesia_2017 : distribution de hv202 chez les menages buvant de l'eau emballee
+  code                                              libelle
+ <num>                                               <char>
+    11                                  piped into dwelling
+    12                                   piped to yard/plot
+    13                                    piped to neighbor
+    14                                 public tap/standpipe
+    21                                tube well or borehole
+    31                                       protected well
+    32                                     unprotected well
+    41                                     protected spring
+    42                                   unprotected spring
+    43 river/dam/lake/ponds/stream/canal/irrigation channel
+    51                                            rainwater
+    61                                         tanker truck
+    62                                 cart with small tank
+    71                                        bottled water
+    72                                       refilled water
+    96                                                other
+    NA                                         (NA systeme)
+             categorie     n   part part_ponderee
+                <char> <int>  <num>         <num>
+ canalisation_logement  4603 0.2644        0.2106
+     canalisation_cour   547 0.0314        0.0290
+   canalisation_voisin   172 0.0099        0.0082
+        borne_publique   115 0.0066        0.0081
+                forage  6090 0.3499        0.4244
+         puits_protege  3302 0.1897        0.1878
+     puits_non_protege   936 0.0538        0.0436
+       source_protegee   441 0.0253        0.0239
+   source_non_protegee   101 0.0058        0.0060
+           eau_surface   349 0.0201        0.0173
+                 pluie   283 0.0163        0.0109
+        camion_citerne   143 0.0082        0.0068
+     charrette_citerne    96 0.0055        0.0078
+         eau_bouteille    23 0.0013        0.0027
+         eau_rechargee   183 0.0105        0.0119
+                 autre     3 0.0002        0.0002
+              manquant    19 0.0011        0.0007
+
+        enquete definition
+         <char>     <char>
+     ghana_2022    stricte
+     ghana_2022      large
+ indonesia_2017    stricte
+ indonesia_2017      large
+                                                                 categories
+                                                                     <char>
+                     canalisation_logement+canalisation_cour+borne_publique
+ canalisation_logement+canalisation_cour+borne_publique+canalisation_voisin
+                     canalisation_logement+canalisation_cour+borne_publique
+ canalisation_logement+canalisation_cour+borne_publique+canalisation_voisin
+ N_emballee n_hv202_nonNA n_canalisation      part part_ponderee
+      <int>         <int>          <int>     <num>         <num>
+       5360          5358           2466 0.4600746     0.4905177
+       5360          5358           3047 0.5684701     0.6352193
+      17406         17387           5265 0.3024819     0.2476992
+      17406         17387           5437 0.3123636     0.2558601
+
+------------------------------------------------------------------------------
+14f. hv201a : eau indisponible au moins un jour sur les deux dernieres semaines
+------------------------------------------------------------------------------
+        enquete            dictionnaire present     N part_nonNA
+         <char>                  <char>  <lgcl> <int>      <num>
+     ghana_2003 absente du dictionnaire   FALSE  6251         NA
+     ghana_2008 absente du dictionnaire   FALSE 11778         NA
+ indonesia_2003 absente du dictionnaire   FALSE 33088         NA
+ indonesia_2017                presente    TRUE 47963  0.4724058
+     ghana_1993 absente du dictionnaire   FALSE  5822         NA
+     ghana_1998 absente du dictionnaire   FALSE  6003         NA
+     ghana_2014 absente du dictionnaire   FALSE 11835         NA
+     ghana_2022  marquee NA (non posee)    TRUE 17933  0.0000000
+ indonesia_2007 absente du dictionnaire   FALSE 40701         NA
+        enquete  code                                 libelle     n   part
+         <char> <num>                                  <char> <int>  <num>
+ indonesia_2017     0      no, not interrupted for a full day 18993 0.3960
+ indonesia_2017     1 yes, interrupted for a full day or more  3587 0.0748
+ indonesia_2017     8                              don't know    78 0.0016
+ indonesia_2017    NA                            (NA systeme) 25305 0.5276
+     ghana_2022    NA                            (NA systeme) 17933 1.0000
+        enquete                      selon       groupe     n n_nonNA
+         <char>                     <char>       <char> <int>   <int>
+ indonesia_2017       hv201 (tous menages)         <NA>     3       0
+ indonesia_2017       hv201 (tous menages)        autre     6       0
+ indonesia_2017       hv201 (tous menages) canalisation  5323    5301
+ indonesia_2017       hv201 (tous menages)      citerne   586       0
+ indonesia_2017       hv201 (tous menages)     emballee 17406   11185
+ indonesia_2017       hv201 (tous menages)        pluie  1347       0
+ indonesia_2017       hv201 (tous menages) puits_forage 16412    6172
+ indonesia_2017       hv201 (tous menages)       source  5776       0
+ indonesia_2017       hv201 (tous menages)      surface  1104       0
+ indonesia_2017 hv202 (emballes seulement)   (hv202 NA)    19       0
+ indonesia_2017 hv202 (emballes seulement)        autre     3       0
+ indonesia_2017 hv202 (emballes seulement) canalisation  5437    5405
+ indonesia_2017 hv202 (emballes seulement)      citerne   239       0
+ indonesia_2017 hv202 (emballes seulement)     emballee   206       0
+ indonesia_2017 hv202 (emballes seulement)        pluie   283       0
+ indonesia_2017 hv202 (emballes seulement) puits_forage 10328    5780
+ indonesia_2017 hv202 (emballes seulement)       source   542       0
+ indonesia_2017 hv202 (emballes seulement)      surface   349       0
+ part_nonNA
+      <num>
+     0.0000
+     0.0000
+     0.9959
+     0.0000
+     0.6426
+     0.0000
+     0.3761
+     0.0000
+     0.0000
+     0.0000
+     0.0000
+     0.9941
+     0.0000
+     0.0000
+     0.0000
+     0.5596
+     0.0000
+     0.0000
+
+------------------------------------------------------------------------------
+14g. Ghana 2008 contre 2022, univers constant : emballes, canalisation hors boisson
+------------------------------------------------------------------------------
+  [OK]   ghana_2008 : hv021 (PSU) sans NA
+  [OK]   ghana_2008 : hv202 renseignee pour > 99 % des emballes
+  [OK]   ghana_2022 : hv021 (PSU) sans NA
+  [OK]   ghana_2022 : hv202 renseignee pour > 99 % des emballes
+    enquete definition  ponderation N_emballee n_canalisation   part ic_bas
+     <char>     <char>       <char>      <num>          <num>  <num>  <num>
+ ghana_2008    stricte non ponderee        957            677 0.7074 0.6266
+ ghana_2008    stricte     ponderee        957            677 0.7147 0.6362
+ ghana_2008      large non ponderee        957            677 0.7074 0.6266
+ ghana_2008      large     ponderee        957            677 0.7147 0.6362
+ ghana_2022    stricte non ponderee       5360           2466 0.4601 0.4274
+ ghana_2022    stricte     ponderee       5360           2466 0.4905 0.4502
+ ghana_2022      large non ponderee       5360           3047 0.5685 0.5311
+ ghana_2022      large     ponderee       5360           3047 0.6352 0.5904
+ ic_haut n_psu
+   <num> <int>
+  0.7882   411
+  0.7932   411
+  0.7882   411
+  0.7932   411
+  0.4927   618
+  0.5309   618
+  0.6059   618
+  0.6801   618
+                                                       categories_presentes
+                                                                     <char>
+                     canalisation_logement+canalisation_cour+borne_publique
+                     canalisation_logement+canalisation_cour+borne_publique
+                     canalisation_logement+canalisation_cour+borne_publique
+                     canalisation_logement+canalisation_cour+borne_publique
+                     canalisation_logement+canalisation_cour+borne_publique
+                     canalisation_logement+canalisation_cour+borne_publique
+ canalisation_logement+canalisation_cour+borne_publique+canalisation_voisin
+ canalisation_logement+canalisation_cour+borne_publique+canalisation_voisin
+
+Difference 2022 - 2008 (points de part, IC 95 %) :
+ definition  ponderation part_2008 part_2022    diff  ic_bas ic_haut
+     <char>       <char>     <num>     <num>   <num>   <num>   <num>
+    stricte non ponderee    0.7074    0.4601 -0.2473 -0.3345 -0.1602
+    stricte     ponderee    0.7147    0.4905 -0.2242 -0.3124 -0.1360
+      large non ponderee    0.7074    0.5685 -0.1389 -0.2280 -0.0499
+      large     ponderee    0.7147    0.6352 -0.0795 -0.1699  0.0109
+
+------------------------------------------------------------------------------
+14h. Composition : emballes 2008 contre emballes 2022 (Ghana)
+------------------------------------------------------------------------------
+  [OK]   ghana_2008: all 2 named variables present
+  [OK]   ghana_2008 : 22 paires hv101_xx / hv106_xx dans le cache
+  [OK]   ghana_2008 : hv101 = 1 etiquete « head »
+  [OK]   ghana_2008 : un seul chef pour > 99 % des emballes
+  ghana_2008 : emballes sans chef identifie : 0 ; avec plus d'un : 0
+  [OK]   ghana_2022: all 2 named variables present
+  [OK]   ghana_2022 : 35 paires hv101_xx / hv106_xx dans le cache
+  [OK]   ghana_2022 : hv101 = 1 etiquete « head »
+  [OK]   ghana_2022 : un seul chef pour > 99 % des emballes
+  ghana_2022 : emballes sans chef identifie : 0 ; avec plus d'un : 0
+  [WARNING] [EQUIV] instruction_chef : « no education, preschool/early childhood education » (2022) traite comme « no education, preschool » (2008) ; « early childhood education » = prescolaire, code 0 dans les deux vagues
+  [OK]   instruction_chef : codes observes de meme libelle en 2008 et 2022
+  [OK]   milieu : codes observes de meme libelle en 2008 et 2022
+  [OK]   richesse : codes observes de meme libelle en 2008 et 2022
+
+== instruction_chef (emballes : 2008 N = 957, 2022 N = 5360)
+  code                 libelle n_2008 n_2022 p_2008 p_2022 pw_2008 pw_2022
+ <num>                  <char>  <int>  <int>  <num>  <num>   <num>   <num>
+     0 no education, preschool     55    434 0.0575 0.0810  0.0571  0.0749
+     1                 primary     70    466 0.0731 0.0869  0.0718  0.0881
+     2               secondary    612   3153 0.6395 0.5882  0.6465  0.6179
+     3                  higher    219   1297 0.2288 0.2420  0.2227  0.2168
+     8              don't know      1     10 0.0010 0.0019  0.0018  0.0023
+
+== milieu (emballes : 2008 N = 957, 2022 N = 5360)
+  code libelle n_2008 n_2022 p_2008 p_2022 pw_2008 pw_2022
+ <num>  <char>  <int>  <int>  <num>  <num>   <num>   <num>
+     1   urban    831   4140 0.8683 0.7724  0.8719  0.8235
+     2   rural    126   1220 0.1317 0.2276  0.1281  0.1765
+
+== richesse (emballes : 2008 N = 957, 2022 N = 5360)
+  code libelle n_2008 n_2022 p_2008 p_2022 pw_2008 pw_2022
+ <num>  <char>  <int>  <int>  <num>  <num>   <num>   <num>
+     1 poorest      1     43 0.0010 0.0080  0.0005  0.0078
+     2  poorer      7    220 0.0073 0.0410  0.0041  0.0350
+     3  middle     71    894 0.0742 0.1668  0.0712  0.1489
+     4  richer    262   1991 0.2738 0.3715  0.2712  0.3676
+     5 richest    616   2212 0.6437 0.4127  0.6530  0.4406
+
+Clé : <dimension>
+        dimension D_ponderee classe_ponderee D_non_ponderee classe_non_ponderee
+           <char>      <num>          <char>          <num>              <char>
+ instruction_chef      0.034     comparables          0.051         comparables
+           milieu      0.048     comparables          0.096         comparables
+         richesse      0.212     differentes          0.231         differentes
+
+VERDICT COMPOSITION (critere du memo) : POPULATIONS DIFFERENTES -- exercice nul
+
+------------------------------------------------------------------------------
+Signalements (critere ecrit en tete de script)
+------------------------------------------------------------------------------
+  [WARNING] ghana_2003 : hv202 ABSENTE (part non NA = -- %)
+  [WARNING] indonesia_2003 : hv202 ABSENTE (part non NA = -- %)
+  [WARNING] ghana_2014 : hv202 VIDE (part non NA = 0.0 %)
+
+------------------------------------------------------------------------------
+Fichiers ecrits
+------------------------------------------------------------------------------
+  build/14_dhs_GHHR4BDT.rds
+  build/14_dhs_GHHR5ADT.rds
+  build/14_dhs_IDHR42DT.rds
+  build/14_dhs_IDHR71DT.rds
+  build/14_dhs_GHHR31DT.rds
+  build/14_dhs_GHHR41DT.rds
+  build/14_dhs_GHHR72DT.rds
+  build/14_dhs_GHHR8CDT.rds
+  build/14_dhs_IDHR51DT.rds
+  output/tables/14_hv201_hv202_couverture.csv
+  output/tables/14_hv201_hv202_couverture.tex
+  output/tables/14_hv201_hv202_frequences.csv
+  output/tables/14_hv202_emballee_distribution.csv
+  output/tables/14_hv202_emballee_canalisation.csv
+  output/tables/14_hv202_emballee_canalisation.tex
+  output/tables/14_hv201a_couverture.csv
+  output/tables/14_hv201a_frequences.csv
+  output/tables/14_hv201a_univers.csv
+
+Run finished: 2026-10-01 12:43:14

@@ -1,0 +1,231 @@
+pays,annee,recode,archive,variable,code,libelle,categorie,groupe,lieu,categories_possibles,note,jugement
+ghana,1993,3,GHHR31DT,hv201,11,piped into residence,canalisation_residence,canalisation,logement_ou_cour,canalisation_logement|canalisation_cour,"residence = logement ou cour, non separables (recodes 2-4)","logement OU cour, non separables : correspond a la paire canalisation_logement|canalisation_cour ; hors des definitions stricte et large de 14e/14g"
+ghana,1993,3,GHHR31DT,hv201,12,public tap,borne_publique,canalisation,public,"","",""
+ghana,1993,3,GHHR31DT,hv201,21,well in residence,puits_protection_inconnue,puits_forage,logement_ou_cour,"",protection non renseignee avant 2003,protection inconnue : categorie a part plutot que protege/non protege
+ghana,1993,3,GHHR31DT,hv201,22,public well,puits_protection_inconnue,puits_forage,public,"",protection non renseignee avant 2003,protection inconnue : categorie a part plutot que protege/non protege
+ghana,1993,3,GHHR31DT,hv201,23,borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,1993,3,GHHR31DT,hv201,31,spring,source_protection_inconnue,source,"","",protection non renseignee,protection inconnue : categorie a part
+ghana,1993,3,GHHR31DT,hv201,32,"river,stream",eau_surface,surface,"","","",""
+ghana,1993,3,GHHR31DT,hv201,33,"pond,lake",eau_surface,surface,"","","",""
+ghana,1993,3,GHHR31DT,hv201,34,dam,eau_surface,surface,"","","",""
+ghana,1993,3,GHHR31DT,hv201,35,dugout,eau_surface,surface,"","","",dugout (mare creusee) range en eau de surface
+ghana,1993,3,GHHR31DT,hv201,41,rainwater,pluie,pluie,"","","",""
+ghana,1993,3,GHHR31DT,hv201,51,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,1993,3,GHHR31DT,hv202,11,piped into residence,canalisation_residence,canalisation,logement_ou_cour,canalisation_logement|canalisation_cour,"residence = logement ou cour, non separables (recodes 2-4)","logement OU cour, non separables : correspond a la paire canalisation_logement|canalisation_cour ; hors des definitions stricte et large de 14e/14g"
+ghana,1993,3,GHHR31DT,hv202,12,public tap,borne_publique,canalisation,public,"","",""
+ghana,1993,3,GHHR31DT,hv202,21,well in residence,puits_protection_inconnue,puits_forage,logement_ou_cour,"",protection non renseignee avant 2003,protection inconnue : categorie a part plutot que protege/non protege
+ghana,1993,3,GHHR31DT,hv202,22,public well,puits_protection_inconnue,puits_forage,public,"",protection non renseignee avant 2003,protection inconnue : categorie a part plutot que protege/non protege
+ghana,1993,3,GHHR31DT,hv202,23,borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,1993,3,GHHR31DT,hv202,31,spring,source_protection_inconnue,source,"","",protection non renseignee,protection inconnue : categorie a part
+ghana,1993,3,GHHR31DT,hv202,32,"river,stream",eau_surface,surface,"","","",""
+ghana,1993,3,GHHR31DT,hv202,33,"pond,lake",eau_surface,surface,"","","",""
+ghana,1993,3,GHHR31DT,hv202,34,dam,eau_surface,surface,"","","",""
+ghana,1993,3,GHHR31DT,hv202,35,dugout,eau_surface,surface,"","","",dugout (mare creusee) range en eau de surface
+ghana,1993,3,GHHR31DT,hv202,41,rainwater,pluie,pluie,"","","",""
+ghana,1993,3,GHHR31DT,hv202,51,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,1998,4,GHHR41DT,hv201,11,piped into residence,canalisation_residence,canalisation,logement_ou_cour,canalisation_logement|canalisation_cour,"residence = logement ou cour, non separables (recodes 2-4)","logement OU cour, non separables : correspond a la paire canalisation_logement|canalisation_cour ; hors des definitions stricte et large de 14e/14g"
+ghana,1998,4,GHHR41DT,hv201,12,public tap/neighbours house,borne_ou_voisin,non_resoluble,public_ou_voisin,borne_publique|canalisation_voisin,borne publique et maison du voisin confondues (Ghana 1998),"NON RESOLUBLE (Valentine, 01/10) : borne publique et voisin confondus, meme ambiguite que la rupture « voisin » 2008/2022 ; pas de groupe canalisation par defaut"
+ghana,1998,4,GHHR41DT,hv201,21,well in residence,puits_protection_inconnue,puits_forage,logement_ou_cour,"",protection non renseignee avant 2003,protection inconnue : categorie a part plutot que protege/non protege
+ghana,1998,4,GHHR41DT,hv201,22,public well,puits_protection_inconnue,puits_forage,public,"",protection non renseignee avant 2003,protection inconnue : categorie a part plutot que protege/non protege
+ghana,1998,4,GHHR41DT,hv201,23,borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,1998,4,GHHR41DT,hv201,31,spring water,source_protection_inconnue,source,"","",protection non renseignee,protection inconnue : categorie a part
+ghana,1998,4,GHHR41DT,hv201,32,river/stream,eau_surface,surface,"","","",""
+ghana,1998,4,GHHR41DT,hv201,33,pond/lake,eau_surface,surface,"","","",""
+ghana,1998,4,GHHR41DT,hv201,34,dam,eau_surface,surface,"","","",""
+ghana,1998,4,GHHR41DT,hv201,35,dugout,eau_surface,surface,"","","",dugout (mare creusee) range en eau de surface
+ghana,1998,4,GHHR41DT,hv201,41,rainwater,pluie,pluie,"","","",""
+ghana,1998,4,GHHR41DT,hv201,51,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,1998,4,GHHR41DT,hv201,61,bottled water,eau_bouteille,emballee,"","","",""
+ghana,1998,4,GHHR41DT,hv201,96,other,autre,autre,"","","",""
+ghana,1998,4,GHHR41DT,hv202,11,piped into residence,canalisation_residence,canalisation,logement_ou_cour,canalisation_logement|canalisation_cour,"residence = logement ou cour, non separables (recodes 2-4)","logement OU cour, non separables : correspond a la paire canalisation_logement|canalisation_cour ; hors des definitions stricte et large de 14e/14g"
+ghana,1998,4,GHHR41DT,hv202,12,public tap/neighbours house,borne_ou_voisin,non_resoluble,public_ou_voisin,borne_publique|canalisation_voisin,borne publique et maison du voisin confondues (Ghana 1998),"NON RESOLUBLE (Valentine, 01/10) : borne publique et voisin confondus, meme ambiguite que la rupture « voisin » 2008/2022 ; pas de groupe canalisation par defaut"
+ghana,1998,4,GHHR41DT,hv202,21,well in residence,puits_protection_inconnue,puits_forage,logement_ou_cour,"",protection non renseignee avant 2003,protection inconnue : categorie a part plutot que protege/non protege
+ghana,1998,4,GHHR41DT,hv202,22,public well,puits_protection_inconnue,puits_forage,public,"",protection non renseignee avant 2003,protection inconnue : categorie a part plutot que protege/non protege
+ghana,1998,4,GHHR41DT,hv202,23,borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,1998,4,GHHR41DT,hv202,31,spring water,source_protection_inconnue,source,"","",protection non renseignee,protection inconnue : categorie a part
+ghana,1998,4,GHHR41DT,hv202,32,river/stream,eau_surface,surface,"","","",""
+ghana,1998,4,GHHR41DT,hv202,33,pond/lake,eau_surface,surface,"","","",""
+ghana,1998,4,GHHR41DT,hv202,34,dam,eau_surface,surface,"","","",""
+ghana,1998,4,GHHR41DT,hv202,35,dugout,eau_surface,surface,"","","",dugout (mare creusee) range en eau de surface
+ghana,1998,4,GHHR41DT,hv202,41,rainwater,pluie,pluie,"","","",""
+ghana,1998,4,GHHR41DT,hv202,51,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,1998,4,GHHR41DT,hv202,96,other,autre,autre,"","","",""
+ghana,2003,4,GHHR4BDT,hv201,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+ghana,2003,4,GHHR4BDT,hv201,12,piped into compound/plot,canalisation_cour,canalisation,cour,"","",""
+ghana,2003,4,GHHR4BDT,hv201,13,public tap,borne_publique,canalisation,public,"","",""
+ghana,2003,4,GHHR4BDT,hv201,21,open well in dwelling,puits_non_protege,puits_forage,logement,"","",« open » lu comme non protege
+ghana,2003,4,GHHR4BDT,hv201,22,open well in yard/plot,puits_non_protege,puits_forage,cour,"","",« open » lu comme non protege
+ghana,2003,4,GHHR4BDT,hv201,23,open public well,puits_non_protege,puits_forage,public,"","",« open » lu comme non protege
+ghana,2003,4,GHHR4BDT,hv201,31,protected well in dwelling,puits_protege,puits_forage,logement,"","",""
+ghana,2003,4,GHHR4BDT,hv201,32,protected well in yard/plot,puits_protege,puits_forage,cour,"","",""
+ghana,2003,4,GHHR4BDT,hv201,33,protected public well,puits_protege,puits_forage,public,"","",""
+ghana,2003,4,GHHR4BDT,hv201,41,spring,source_protection_inconnue,source,"","",protection non renseignee,protection inconnue : categorie a part
+ghana,2003,4,GHHR4BDT,hv201,42,"river, stream",eau_surface,surface,"","","",""
+ghana,2003,4,GHHR4BDT,hv201,43,"pond, lake",eau_surface,surface,"","","",""
+ghana,2003,4,GHHR4BDT,hv201,44,dam,eau_surface,surface,"","","",""
+ghana,2003,4,GHHR4BDT,hv201,51,rainwater,pluie,pluie,"","","",""
+ghana,2003,4,GHHR4BDT,hv201,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2003,4,GHHR4BDT,hv201,71,bottled water,eau_bouteille,emballee,"","","",""
+ghana,2003,4,GHHR4BDT,hv201,81,satchel water,eau_sachet,emballee,"","",libelle d'origine « satchel water » ; code 72 a partir de 2008,« satchel » lu comme sachet
+ghana,2003,4,GHHR4BDT,hv201,96,other,autre,autre,"","","",""
+ghana,2003,4,GHHR4BDT,hv201,99,"",manquant,manquant,"","","code 99 sans etiquette, traite comme manquant (convention DHS)",code 99 sans etiquette traite comme manquant
+ghana,2008,5,GHHR5ADT,hv201,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+ghana,2008,5,GHHR5ADT,hv201,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+ghana,2008,5,GHHR5ADT,hv201,13,public tap/standpipe,borne_publique,canalisation,public,"","",""
+ghana,2008,5,GHHR5ADT,hv201,21,tube well or borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,2008,5,GHHR5ADT,hv201,31,protected well,puits_protege,puits_forage,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,32,unprotected well,puits_non_protege,puits_forage,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,41,protected spring,source_protegee,source,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,42,unprotected spring,source_non_protegee,source,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,51,rainwater,pluie,pluie,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2008,5,GHHR5ADT,hv201,62,cart with small tank,charrette_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2008,5,GHHR5ADT,hv201,71,bottled water,eau_bouteille,emballee,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,72,sachet water,eau_sachet,emballee,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,96,other,autre,autre,"","","",""
+ghana,2008,5,GHHR5ADT,hv201,99,"",manquant,manquant,"","","code 99 sans etiquette, traite comme manquant (convention DHS)",code 99 sans etiquette traite comme manquant
+ghana,2008,5,GHHR5ADT,hv202,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+ghana,2008,5,GHHR5ADT,hv202,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+ghana,2008,5,GHHR5ADT,hv202,13,public tap/standpipe,borne_publique,canalisation,public,"","",""
+ghana,2008,5,GHHR5ADT,hv202,21,tube well or borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,2008,5,GHHR5ADT,hv202,31,protected well,puits_protege,puits_forage,"","","",""
+ghana,2008,5,GHHR5ADT,hv202,32,unprotected well,puits_non_protege,puits_forage,"","","",""
+ghana,2008,5,GHHR5ADT,hv202,41,protected spring,source_protegee,source,"","","",""
+ghana,2008,5,GHHR5ADT,hv202,42,unprotected spring,source_non_protegee,source,"","","",""
+ghana,2008,5,GHHR5ADT,hv202,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,"","","",""
+ghana,2008,5,GHHR5ADT,hv202,51,rainwater,pluie,pluie,"","","",""
+ghana,2008,5,GHHR5ADT,hv202,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2008,5,GHHR5ADT,hv202,62,cart with small tank,charrette_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2008,5,GHHR5ADT,hv202,72,sachet water,eau_sachet,emballee,"","","",""
+ghana,2008,5,GHHR5ADT,hv202,96,other,autre,autre,"","","",""
+ghana,2008,5,GHHR5ADT,hv202,99,"",manquant,manquant,"","","code 99 sans etiquette, traite comme manquant (convention DHS)",code 99 sans etiquette traite comme manquant
+ghana,2014,7,GHHR72DT,hv201,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+ghana,2014,7,GHHR72DT,hv201,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+ghana,2014,7,GHHR72DT,hv201,13,public tap/standpipe,borne_publique,canalisation,public,"","",""
+ghana,2014,7,GHHR72DT,hv201,21,tube well or borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,2014,7,GHHR72DT,hv201,31,protected well,puits_protege,puits_forage,"","","",""
+ghana,2014,7,GHHR72DT,hv201,32,unprotected well,puits_non_protege,puits_forage,"","","",""
+ghana,2014,7,GHHR72DT,hv201,41,protected spring,source_protegee,source,"","","",""
+ghana,2014,7,GHHR72DT,hv201,42,unprotected spring,source_non_protegee,source,"","","",""
+ghana,2014,7,GHHR72DT,hv201,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,"","","",""
+ghana,2014,7,GHHR72DT,hv201,51,rainwater,pluie,pluie,"","","",""
+ghana,2014,7,GHHR72DT,hv201,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2014,7,GHHR72DT,hv201,62,cart with small tank,charrette_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2014,7,GHHR72DT,hv201,71,bottled water,eau_bouteille,emballee,"","","",""
+ghana,2014,7,GHHR72DT,hv201,72,sachet water,eau_sachet,emballee,"","","",""
+ghana,2014,7,GHHR72DT,hv201,96,other,autre,autre,"","","",""
+ghana,2022,8,GHHR8CDT,hv201,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+ghana,2022,8,GHHR8CDT,hv201,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+ghana,2022,8,GHHR8CDT,hv201,13,piped to neighbor,canalisation_voisin,canalisation,voisin,"",categorie apparue en DHS-7/8 ; borne publique passe alors au code 14,groupe canalisation (arrangement prive via le reseau) ; hors definition stricte
+ghana,2022,8,GHHR8CDT,hv201,14,public tap/standpipe,borne_publique,canalisation,public,"","",""
+ghana,2022,8,GHHR8CDT,hv201,21,tube well or borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,2022,8,GHHR8CDT,hv201,31,protected well,puits_protege,puits_forage,"","","",""
+ghana,2022,8,GHHR8CDT,hv201,32,unprotected well,puits_non_protege,puits_forage,"","","",""
+ghana,2022,8,GHHR8CDT,hv201,41,protected spring,source_protegee,source,"","","",""
+ghana,2022,8,GHHR8CDT,hv201,42,unprotected spring,source_non_protegee,source,"","","",""
+ghana,2022,8,GHHR8CDT,hv201,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,"","","",""
+ghana,2022,8,GHHR8CDT,hv201,51,rainwater,pluie,pluie,"","","",""
+ghana,2022,8,GHHR8CDT,hv201,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2022,8,GHHR8CDT,hv201,62,cart with small tank,charrette_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2022,8,GHHR8CDT,hv201,71,bottled water,eau_bouteille,emballee,"","","",""
+ghana,2022,8,GHHR8CDT,hv201,72,sachet water,eau_sachet,emballee,"","","",""
+ghana,2022,8,GHHR8CDT,hv202,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+ghana,2022,8,GHHR8CDT,hv202,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+ghana,2022,8,GHHR8CDT,hv202,13,piped to neighbor,canalisation_voisin,canalisation,voisin,"",categorie apparue en DHS-7/8 ; borne publique passe alors au code 14,groupe canalisation (arrangement prive via le reseau) ; hors definition stricte
+ghana,2022,8,GHHR8CDT,hv202,14,public tap/standpipe,borne_publique,canalisation,public,"","",""
+ghana,2022,8,GHHR8CDT,hv202,21,tube well or borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+ghana,2022,8,GHHR8CDT,hv202,31,protected well,puits_protege,puits_forage,"","","",""
+ghana,2022,8,GHHR8CDT,hv202,32,unprotected well,puits_non_protege,puits_forage,"","","",""
+ghana,2022,8,GHHR8CDT,hv202,41,protected spring,source_protegee,source,"","","",""
+ghana,2022,8,GHHR8CDT,hv202,42,unprotected spring,source_non_protegee,source,"","","",""
+ghana,2022,8,GHHR8CDT,hv202,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,"","","",""
+ghana,2022,8,GHHR8CDT,hv202,51,rainwater,pluie,pluie,"","","",""
+ghana,2022,8,GHHR8CDT,hv202,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2022,8,GHHR8CDT,hv202,62,cart with small tank,charrette_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+ghana,2022,8,GHHR8CDT,hv202,96,other,autre,autre,"","","",""
+indonesia,2003,4,IDHR42DT,hv201,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+indonesia,2003,4,IDHR42DT,hv201,12,piped into yard/plot,canalisation_cour,canalisation,cour,"","",""
+indonesia,2003,4,IDHR42DT,hv201,13,public tap,borne_publique,canalisation,public,"","",""
+indonesia,2003,4,IDHR42DT,hv201,21,open well in dwelling,puits_non_protege,puits_forage,logement,"","",« open » lu comme non protege
+indonesia,2003,4,IDHR42DT,hv201,22,open well in yard/plot,puits_non_protege,puits_forage,cour,"","",« open » lu comme non protege
+indonesia,2003,4,IDHR42DT,hv201,23,open public well,puits_non_protege,puits_forage,public,"","",« open » lu comme non protege
+indonesia,2003,4,IDHR42DT,hv201,31,protected well in dwelling,puits_protege,puits_forage,logement,"","",""
+indonesia,2003,4,IDHR42DT,hv201,32,protected well in yard/plot,puits_protege,puits_forage,cour,"","",""
+indonesia,2003,4,IDHR42DT,hv201,33,protected public well,puits_protege,puits_forage,public,"","",""
+indonesia,2003,4,IDHR42DT,hv201,41,spring,source_protection_inconnue,source,"","",protection non renseignee,protection inconnue : categorie a part
+indonesia,2003,4,IDHR42DT,hv201,42,"river, stream",eau_surface,surface,"","","",""
+indonesia,2003,4,IDHR42DT,hv201,43,"pond, lake",eau_surface,surface,"","","",""
+indonesia,2003,4,IDHR42DT,hv201,44,dam,eau_surface,surface,"","","",""
+indonesia,2003,4,IDHR42DT,hv201,51,rainwater,pluie,pluie,"","","",""
+indonesia,2003,4,IDHR42DT,hv201,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+indonesia,2003,4,IDHR42DT,hv201,71,bottled water,eau_bouteille,emballee,"","","",""
+indonesia,2003,4,IDHR42DT,hv201,96,other,autre,autre,"","","",""
+indonesia,2003,4,IDHR42DT,hv201,99,"",manquant,manquant,"","","code 99 sans etiquette, traite comme manquant (convention DHS)",code 99 sans etiquette traite comme manquant
+indonesia,2007,5,IDHR51DT,hv201,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+indonesia,2007,5,IDHR51DT,hv201,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+indonesia,2007,5,IDHR51DT,hv201,13,public tap/standpipe,borne_publique,canalisation,public,"","",""
+indonesia,2007,5,IDHR51DT,hv201,33,open well - in dwelling,puits_non_protege,puits_forage,logement,"",puits codes 33-38 en 2007 (21-33 en 2003),« open » lu comme non protege
+indonesia,2007,5,IDHR51DT,hv201,34,open well - in yard/plot,puits_non_protege,puits_forage,cour,"",puits codes 33-38 en 2007 (21-33 en 2003),« open » lu comme non protege
+indonesia,2007,5,IDHR51DT,hv201,35,open well - public,puits_non_protege,puits_forage,public,"",puits codes 33-38 en 2007 (21-33 en 2003),« open » lu comme non protege
+indonesia,2007,5,IDHR51DT,hv201,36,protected well - in dwelling,puits_protege,puits_forage,logement,"",puits codes 33-38 en 2007 (21-33 en 2003),""
+indonesia,2007,5,IDHR51DT,hv201,37,protected well - in yard/plot,puits_protege,puits_forage,cour,"",puits codes 33-38 en 2007 (21-33 en 2003),""
+indonesia,2007,5,IDHR51DT,hv201,38,protected well - public,puits_protege,puits_forage,public,"",puits codes 33-38 en 2007 (21-33 en 2003),""
+indonesia,2007,5,IDHR51DT,hv201,44,spring,source_protection_inconnue,source,"","",protection non renseignee,protection inconnue : categorie a part
+indonesia,2007,5,IDHR51DT,hv201,45,river/stream,eau_surface,surface,"","","",""
+indonesia,2007,5,IDHR51DT,hv201,46,pond/lake,eau_surface,surface,"","","",""
+indonesia,2007,5,IDHR51DT,hv201,47,dam,eau_surface,surface,"","","",""
+indonesia,2007,5,IDHR51DT,hv201,51,rainwater,pluie,pluie,"","","",""
+indonesia,2007,5,IDHR51DT,hv201,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+indonesia,2007,5,IDHR51DT,hv201,71,bottled water,eau_bouteille,emballee,"","","",""
+indonesia,2007,5,IDHR51DT,hv201,96,other,autre,autre,"","","",""
+indonesia,2007,5,IDHR51DT,hv201,99,"",manquant,manquant,"","","code 99 sans etiquette, traite comme manquant (convention DHS)",code 99 sans etiquette traite comme manquant
+indonesia,2007,5,IDHR51DT,hv202,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+indonesia,2007,5,IDHR51DT,hv202,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+indonesia,2007,5,IDHR51DT,hv202,13,public tap/standpipe,borne_publique,canalisation,public,"","",""
+indonesia,2007,5,IDHR51DT,hv202,33,open well - in dwelling,puits_non_protege,puits_forage,logement,"",puits codes 33-38 en 2007 (21-33 en 2003),« open » lu comme non protege
+indonesia,2007,5,IDHR51DT,hv202,34,open well - in yard/plot,puits_non_protege,puits_forage,cour,"",puits codes 33-38 en 2007 (21-33 en 2003),« open » lu comme non protege
+indonesia,2007,5,IDHR51DT,hv202,35,open well - public,puits_non_protege,puits_forage,public,"",puits codes 33-38 en 2007 (21-33 en 2003),« open » lu comme non protege
+indonesia,2007,5,IDHR51DT,hv202,36,protected well - in dwelling,puits_protege,puits_forage,logement,"",puits codes 33-38 en 2007 (21-33 en 2003),""
+indonesia,2007,5,IDHR51DT,hv202,37,protected well - in yard/plot,puits_protege,puits_forage,cour,"",puits codes 33-38 en 2007 (21-33 en 2003),""
+indonesia,2007,5,IDHR51DT,hv202,38,protected well - public,puits_protege,puits_forage,public,"",puits codes 33-38 en 2007 (21-33 en 2003),""
+indonesia,2007,5,IDHR51DT,hv202,44,spring,source_protection_inconnue,source,"","",protection non renseignee,protection inconnue : categorie a part
+indonesia,2007,5,IDHR51DT,hv202,45,river/stream,eau_surface,surface,"","","",""
+indonesia,2007,5,IDHR51DT,hv202,46,pond/lake,eau_surface,surface,"","","",""
+indonesia,2007,5,IDHR51DT,hv202,47,dam,eau_surface,surface,"","","",""
+indonesia,2007,5,IDHR51DT,hv202,51,rainwater,pluie,pluie,"","","",""
+indonesia,2007,5,IDHR51DT,hv202,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+indonesia,2007,5,IDHR51DT,hv202,96,other,autre,autre,"","","",""
+indonesia,2007,5,IDHR51DT,hv202,99,"",manquant,manquant,"","","code 99 sans etiquette, traite comme manquant (convention DHS)",code 99 sans etiquette traite comme manquant
+indonesia,2017,7,IDHR71DT,hv201,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+indonesia,2017,7,IDHR71DT,hv201,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+indonesia,2017,7,IDHR71DT,hv201,13,piped to neighbor,canalisation_voisin,canalisation,voisin,"",categorie apparue en DHS-7/8 ; borne publique passe alors au code 14,groupe canalisation (arrangement prive via le reseau) ; hors definition stricte
+indonesia,2017,7,IDHR71DT,hv201,14,public tap/standpipe,borne_publique,canalisation,public,"","",""
+indonesia,2017,7,IDHR71DT,hv201,21,tube well or borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+indonesia,2017,7,IDHR71DT,hv201,31,protected well,puits_protege,puits_forage,"","","",""
+indonesia,2017,7,IDHR71DT,hv201,32,unprotected well,puits_non_protege,puits_forage,"","","",""
+indonesia,2017,7,IDHR71DT,hv201,41,protected spring,source_protegee,source,"","","",""
+indonesia,2017,7,IDHR71DT,hv201,42,unprotected spring,source_non_protegee,source,"","","",""
+indonesia,2017,7,IDHR71DT,hv201,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,"","","",""
+indonesia,2017,7,IDHR71DT,hv201,51,rainwater,pluie,pluie,"","","",""
+indonesia,2017,7,IDHR71DT,hv201,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+indonesia,2017,7,IDHR71DT,hv201,62,cart with small tank,charrette_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+indonesia,2017,7,IDHR71DT,hv201,71,bottled water,eau_bouteille,emballee,"","","",""
+indonesia,2017,7,IDHR71DT,hv201,72,refilled water,eau_rechargee,emballee,"","","eau rechargee (depot de remplissage), propre a Indonesie 2017",eau rechargee rangee dans l'emballe (definit l'univers de 14e)
+indonesia,2017,7,IDHR71DT,hv201,96,other,autre,autre,"","","",""
+indonesia,2017,7,IDHR71DT,hv202,11,piped into dwelling,canalisation_logement,canalisation,logement,"","",""
+indonesia,2017,7,IDHR71DT,hv202,12,piped to yard/plot,canalisation_cour,canalisation,cour,"","",""
+indonesia,2017,7,IDHR71DT,hv202,13,piped to neighbor,canalisation_voisin,canalisation,voisin,"",categorie apparue en DHS-7/8 ; borne publique passe alors au code 14,groupe canalisation (arrangement prive via le reseau) ; hors definition stricte
+indonesia,2017,7,IDHR71DT,hv202,14,public tap/standpipe,borne_publique,canalisation,public,"","",""
+indonesia,2017,7,IDHR71DT,hv202,21,tube well or borehole,forage,puits_forage,"","","",forage range avec les puits ; propriete (privee/communautaire) inconnue
+indonesia,2017,7,IDHR71DT,hv202,31,protected well,puits_protege,puits_forage,"","","",""
+indonesia,2017,7,IDHR71DT,hv202,32,unprotected well,puits_non_protege,puits_forage,"","","",""
+indonesia,2017,7,IDHR71DT,hv202,41,protected spring,source_protegee,source,"","","",""
+indonesia,2017,7,IDHR71DT,hv202,42,unprotected spring,source_non_protegee,source,"","","",""
+indonesia,2017,7,IDHR71DT,hv202,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,"","","",""
+indonesia,2017,7,IDHR71DT,hv202,51,rainwater,pluie,pluie,"","","",""
+indonesia,2017,7,IDHR71DT,hv202,61,tanker truck,camion_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+indonesia,2017,7,IDHR71DT,hv202,62,cart with small tank,charrette_citerne,citerne,"","","","groupe citerne, operateur (public/prive) inconnu"
+indonesia,2017,7,IDHR71DT,hv202,71,bottled water,eau_bouteille,emballee,"","","",""
+indonesia,2017,7,IDHR71DT,hv202,72,refilled water,eau_rechargee,emballee,"","","eau rechargee (depot de remplissage), propre a Indonesie 2017",eau rechargee rangee dans l'emballe (definit l'univers de 14e)
+indonesia,2017,7,IDHR71DT,hv202,96,other,autre,autre,"","","",""

@@ -1,0 +1,9 @@
+enquete,definition,ponderation,categories_presentes,N_emballee,n_canalisation,part,se,ic_bas,ic_haut,n_psu
+ghana_2008,stricte,non ponderee,canalisation_logement+canalisation_cour+borne_publique,957,677,0.707419017763845,0.0412301030090739,0.626608015866061,0.78823001966163,411
+ghana_2008,stricte,ponderee,canalisation_logement+canalisation_cour+borne_publique,957,677,0.714726198488248,0.0400391634283865,0.636249438168611,0.793202958807886,411
+ghana_2008,large,non ponderee,canalisation_logement+canalisation_cour+borne_publique,957,677,0.707419017763845,0.0412301030090739,0.626608015866061,0.78823001966163,411
+ghana_2008,large,ponderee,canalisation_logement+canalisation_cour+borne_publique,957,677,0.714726198488248,0.0400391634283865,0.636249438168611,0.793202958807886,411
+ghana_2022,stricte,non ponderee,canalisation_logement+canalisation_cour+borne_publique,5360,2466,0.460074626865672,0.016655342734879,0.427430155105309,0.492719098626035,618
+ghana_2022,stricte,ponderee,canalisation_logement+canalisation_cour+borne_publique,5360,2466,0.490517705869177,0.0205780340649532,0.450184759101869,0.530850652636485,618
+ghana_2022,large,non ponderee,canalisation_logement+canalisation_cour+borne_publique+canalisation_voisin,5360,3047,0.568470149253731,0.0190873740037577,0.531058896206366,0.605881402301097,618
+ghana_2022,large,ponderee,canalisation_logement+canalisation_cour+borne_publique+canalisation_voisin,5360,3047,0.635219317920312,0.022876981553527,0.590380434075399,0.680058201765225,618

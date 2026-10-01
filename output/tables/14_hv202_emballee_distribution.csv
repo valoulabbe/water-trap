@@ -1,0 +1,33 @@
+enquete,N_emballee,code,libelle,categorie,groupe,n,part,part_ponderee
+ghana_2022,5360,11,piped into dwelling,canalisation_logement,canalisation,811,0.151305970149254,0.168130150653661
+ghana_2022,5360,12,piped to yard/plot,canalisation_cour,canalisation,846,0.157835820895522,0.1767337460956
+ghana_2022,5360,13,piped to neighbor,canalisation_voisin,canalisation,581,0.10839552238806,0.144701612051135
+ghana_2022,5360,14,public tap/standpipe,borne_publique,canalisation,809,0.150932835820896,0.145653809119916
+ghana_2022,5360,21,tube well or borehole,forage,puits_forage,1091,0.203544776119403,0.169885799440716
+ghana_2022,5360,31,protected well,puits_protege,puits_forage,793,0.14794776119403,0.129416115325042
+ghana_2022,5360,32,unprotected well,puits_non_protege,puits_forage,137,0.0255597014925373,0.0187730754885041
+ghana_2022,5360,41,protected spring,source_protegee,source,12,0.00223880597014925,0.00146408817276195
+ghana_2022,5360,42,unprotected spring,source_non_protegee,source,6,0.00111940298507463,0.000637692917866463
+ghana_2022,5360,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,108,0.0201492537313433,0.0136540910150509
+ghana_2022,5360,51,rainwater,pluie,pluie,52,0.00970149253731343,0.00758852202938584
+ghana_2022,5360,61,tanker truck,camion_citerne,citerne,89,0.0166044776119403,0.0185337219745151
+ghana_2022,5360,62,cart with small tank,charrette_citerne,citerne,4,0.000746268656716418,0.000275119793310518
+ghana_2022,5360,96,other,autre,autre,19,0.00354477611940299,0.00445166952313356
+ghana_2022,5360,,(NA systeme),manquant,manquant,2,0.000373134328358209,0.000100786399402274
+indonesia_2017,17406,11,piped into dwelling,canalisation_logement,canalisation,4603,0.264449040560726,0.210558652079156
+indonesia_2017,17406,12,piped to yard/plot,canalisation_cour,canalisation,547,0.0314259450764104,0.0290391316443983
+indonesia_2017,17406,13,piped to neighbor,canalisation_voisin,canalisation,172,0.00988165000574515,0.00816094744789302
+indonesia_2017,17406,14,public tap/standpipe,borne_publique,canalisation,115,0.00660691715500402,0.00810136965999411
+indonesia_2017,17406,21,tube well or borehole,forage,puits_forage,6090,0.349879351947604,0.42441283027889
+indonesia_2017,17406,31,protected well,puits_protege,puits_forage,3302,0.189704699528898,0.187841469878348
+indonesia_2017,17406,32,unprotected well,puits_non_protege,puits_forage,936,0.0537745604963806,0.0436312304174899
+indonesia_2017,17406,41,protected spring,source_protegee,source,441,0.0253360910031024,0.0239446237695066
+indonesia_2017,17406,42,unprotected spring,source_non_protegee,source,101,0.00580259680569919,0.0060258588193331
+indonesia_2017,17406,43,river/dam/lake/ponds/stream/canal/irrigation channel,eau_surface,surface,349,0.0200505572790992,0.0173038406848042
+indonesia_2017,17406,51,rainwater,pluie,pluie,283,0.0162587613466621,0.0108602179645468
+indonesia_2017,17406,61,tanker truck,camion_citerne,citerne,143,0.0082155578536137,0.00676517124880007
+indonesia_2017,17406,62,cart with small tank,charrette_citerne,citerne,96,0.00551533953809031,0.00777925654203265
+indonesia_2017,17406,71,bottled water,eau_bouteille,emballee,23,0.0013213834310008,0.00273500796115732
+indonesia_2017,17406,72,refilled water,eau_rechargee,emballee,183,0.0105136159944847,0.0118784297675994
+indonesia_2017,17406,96,other,autre,autre,3,0.000172354360565322,0.00023787028007324
+indonesia_2017,17406,,(NA systeme),manquant,manquant,19,0.00109157761691371,0.000724091555977785

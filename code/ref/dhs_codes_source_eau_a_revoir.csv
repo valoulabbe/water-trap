@@ -1,0 +1,25 @@
+code,libelle,categorie,groupe,categories_possibles,jugement,enquetes,variables,lignes
+12,public tap/neighbours house,borne_ou_voisin,non_resoluble,borne_publique|canalisation_voisin,"NON RESOLUBLE (Valentine, 01/10) : borne publique et voisin confondus, meme ambiguite que la rupture « voisin » 2008/2022 ; pas de groupe canalisation par defaut",ghana 1998,hv201+hv202,2
+51,tanker truck,camion_citerne,citerne,"","groupe citerne, operateur (public/prive) inconnu","ghana 1993, ghana 1998",hv201+hv202,4
+61,tanker truck,camion_citerne,citerne,"","groupe citerne, operateur (public/prive) inconnu","ghana 2003, ghana 2008, ghana 2014, ghana 2022, indonesia 2003, indonesia 2007, indonesia 2017",hv201+hv202,11
+11,piped into residence,canalisation_residence,canalisation,canalisation_logement|canalisation_cour,"logement OU cour, non separables : correspond a la paire canalisation_logement|canalisation_cour ; hors des definitions stricte et large de 14e/14g","ghana 1993, ghana 1998",hv201+hv202,4
+13,piped to neighbor,canalisation_voisin,canalisation,"",groupe canalisation (arrangement prive via le reseau) ; hors definition stricte,"ghana 2022, indonesia 2017",hv201+hv202,4
+62,cart with small tank,charrette_citerne,citerne,"","groupe citerne, operateur (public/prive) inconnu","ghana 2008, ghana 2014, ghana 2022, indonesia 2017",hv201+hv202,7
+72,refilled water,eau_rechargee,emballee,"",eau rechargee rangee dans l'emballe (definit l'univers de 14e),indonesia 2017,hv201+hv202,2
+81,satchel water,eau_sachet,emballee,"",« satchel » lu comme sachet,ghana 2003,hv201,1
+35,dugout,eau_surface,surface,"",dugout (mare creusee) range en eau de surface,"ghana 1993, ghana 1998",hv201+hv202,4
+21,tube well or borehole,forage,puits_forage,"",forage range avec les puits ; propriete (privee/communautaire) inconnue,"ghana 2008, ghana 2014, ghana 2022, indonesia 2017",hv201+hv202,7
+23,borehole,forage,puits_forage,"",forage range avec les puits ; propriete (privee/communautaire) inconnue,"ghana 1993, ghana 1998",hv201+hv202,4
+99,"",manquant,manquant,"",code 99 sans etiquette traite comme manquant,"ghana 2003, ghana 2008, indonesia 2003, indonesia 2007",hv201+hv202,6
+21,open well in dwelling,puits_non_protege,puits_forage,"",« open » lu comme non protege,"ghana 2003, indonesia 2003",hv201,2
+22,open well in yard/plot,puits_non_protege,puits_forage,"",« open » lu comme non protege,"ghana 2003, indonesia 2003",hv201,2
+23,open public well,puits_non_protege,puits_forage,"",« open » lu comme non protege,"ghana 2003, indonesia 2003",hv201,2
+33,open well - in dwelling,puits_non_protege,puits_forage,"",« open » lu comme non protege,indonesia 2007,hv201+hv202,2
+34,open well - in yard/plot,puits_non_protege,puits_forage,"",« open » lu comme non protege,indonesia 2007,hv201+hv202,2
+35,open well - public,puits_non_protege,puits_forage,"",« open » lu comme non protege,indonesia 2007,hv201+hv202,2
+21,well in residence,puits_protection_inconnue,puits_forage,"",protection inconnue : categorie a part plutot que protege/non protege,"ghana 1993, ghana 1998",hv201+hv202,4
+22,public well,puits_protection_inconnue,puits_forage,"",protection inconnue : categorie a part plutot que protege/non protege,"ghana 1993, ghana 1998",hv201+hv202,4
+31,spring,source_protection_inconnue,source,"",protection inconnue : categorie a part,ghana 1993,hv201+hv202,2
+31,spring water,source_protection_inconnue,source,"",protection inconnue : categorie a part,ghana 1998,hv201+hv202,2
+41,spring,source_protection_inconnue,source,"",protection inconnue : categorie a part,"ghana 2003, indonesia 2003",hv201,2
+44,spring,source_protection_inconnue,source,"",protection inconnue : categorie a part,indonesia 2007,hv201+hv202,2
