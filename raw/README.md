@@ -117,3 +117,35 @@ Accès : compte gratuit. Conditions d'utilisation ICPSR — redistribution inter
 Panel : IHDS-II ré-interroge l'essentiel des ménages d'IHDS-I. Item de traitement
 de l'eau formulé avec les modalités « bouillir / filtre acheté / Aquaguard /
 produits chimiques ». Seul ancrage pré-choc disponible pour l'adoption privée.
+
+## Prix des carburants — archive WDI (Banque mondiale), série GIZ
+Source : API Banque mondiale, source 57 « WDI Database Archives », version
+**202407** (juillet 2024), dernière version qui porte encore la série (vide à
+partir de 202409). Organisation source déclarée : GIZ. Prix à la pompe en US$ par
+litre, sans composante fiscale ; relevés 1991, 1992, 1995, 1998 puis tous les
+deux ans 2000–2016 ; le relevé 2018 n'y est jamais entré. Conditions : Banque
+mondiale, CC BY 4.0 par défaut, les indicateurs de source tierce restant soumis
+aux conditions de la source (non vérifié pour cette série).
+Requête : `https://api.worldbank.org/v2/sources/57/series/<série>/country/all/version/202407/time/all?format=json&per_page=20000`
+(une seule page, 19 564 lignes pays-agrégats × années, valeurs nulles comprises).
+Métadonnées pays (pour exclure les agrégats) : `https://api.worldbank.org/v2/country?format=json&per_page=400`
+(version courante au 2026-09-30, 295 entrées).
+
+| Fichier | Contenu | Téléchargé le | SHA256 |
+| --- | --- | --- | --- |
+| wdi_archive/wdi_arch_202407_EP.PMP.DESL.CD.json | Diesel, 2 327 valeurs non nulles | 2026-09-30 | 7EB9C2EF3FB5F8D47576F152CEEA7FBBAF9C581771B55F85E3FB5C2282FA667C |
+| wdi_archive/wdi_arch_202407_EP.PMP.SGAS.CD.json | Essence, 2 351 valeurs non nulles | 2026-09-30 | 965F26C5B04B24C3C690A3444525B5114934656E3AE9857D286C62B1F501FB59 |
+| wdi_archive/wdi_pays_metadata.json | Pays et agrégats WDI, région | 2026-09-30 | D29D57F8ADF954C5E2A1520A02FB2C7B45575D8DB3BD327A9DFF47D66914231C |
+
+## Prix des carburants — GIZ / TUMI Mobility Data Hub
+Source : https://hub.tumidata.org/dataset/worldwide-fuel-prices, ressource
+« Fuel prices from 1991 to 2020 » (XLSX), jeu v1.0.2 mis à jour le 2024-06-04,
+auteur Armin Wagner + GIZ. Licence affichée : « Creative Commons Attribution »,
+avec la mention « covered by different Terms of Use ». Le serveur refuse la
+connexion depuis cette machine (réinitialisée) : **téléchargement manuel par
+l'utilisatrice**, dans `raw/giz/`. Nom exact du fichier, date et SHA256 à
+compléter au dépôt.
+
+| Fichier | Contenu | Téléchargé le | SHA256 |
+| --- | --- | --- | --- |
+| giz/(à compléter) | Prix diesel, essence, super, 1991–2020 | | |

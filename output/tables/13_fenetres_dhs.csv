@@ -1,0 +1,97 @@
+pays,substitut,iso3,releve,date_releve,position,dans_fenetre,diesel_wdi_observe,diesel_giz_observe
+Jordan,Eau en bouteille,JOR,1991,1991-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Jordan,Eau en bouteille,JOR,1992,1992-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Jordan,Eau en bouteille,JOR,1993,1993-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Jordan,Eau en bouteille,JOR,1995,1995-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,1998,1998-11-15,entre JO1997DHS et JO2002DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2000,2000-11-15,entre JO1997DHS et JO2002DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2002,2002-11-15,entre JO2002DHS et JO2007DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2004,2004-11-15,entre JO2002DHS et JO2007DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2006,2006-11-15,entre JO2002DHS et JO2007DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2008,2008-11-15,entre JO2007DHS et JO2009DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2010,2010-11-15,entre JO2009DHS et JO2012DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2012,2012-11-15,pendant JO2012DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2014,2014-11-15,entre JO2012DHS et JO2017DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2016,2016-11-15,entre JO2012DHS et JO2017DHS,TRUE,TRUE,FALSE
+Jordan,Eau en bouteille,JOR,2018,2018-11-15,entre JO2017DHS et JO2023DHS,TRUE,FALSE,FALSE
+Jordan,Eau en bouteille,JOR,2020,2020-11-15,entre JO2017DHS et JO2023DHS,TRUE,FALSE,FALSE
+Ghana,Eau en sachet,GHA,1991,1991-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,1992,1992-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,1993,1993-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Ghana,Eau en sachet,GHA,1995,1995-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,1998,1998-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2000,2000-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2002,2002-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2004,2004-11-15,entre GH2003DHS et GH2008DHS,TRUE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2006,2006-11-15,entre GH2003DHS et GH2008DHS,TRUE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2008,2008-11-15,pendant GH2008DHS,TRUE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2010,2010-11-15,entre GH2008DHS et GH2014DHS,TRUE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2012,2012-11-15,entre GH2008DHS et GH2014DHS,TRUE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2014,2014-11-15,pendant GH2014DHS,TRUE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2016,2016-11-15,entre GH2014DHS et GH2022DHS,TRUE,TRUE,FALSE
+Ghana,Eau en sachet,GHA,2018,2018-11-15,entre GH2014DHS et GH2022DHS,TRUE,FALSE,FALSE
+Ghana,Eau en sachet,GHA,2020,2020-11-15,entre GH2014DHS et GH2022DHS,TRUE,FALSE,FALSE
+Indonesia,Eau en bouteille,IDN,1991,1991-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,1992,1992-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Indonesia,Eau en bouteille,IDN,1993,1993-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Indonesia,Eau en bouteille,IDN,1995,1995-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,1998,1998-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2000,2000-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2002,2002-11-15,pendant ID2003DHS,TRUE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2004,2004-11-15,entre ID2003DHS et ID2007DHS,TRUE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2006,2006-11-15,entre ID2003DHS et ID2007DHS,TRUE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2008,2008-11-15,entre ID2007DHS et ID2012DHS,TRUE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2010,2010-11-15,entre ID2007DHS et ID2012DHS,TRUE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2012,2012-11-15,entre ID2012DHS et ID2017DHS,TRUE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2014,2014-11-15,entre ID2012DHS et ID2017DHS,TRUE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2016,2016-11-15,entre ID2012DHS et ID2017DHS,TRUE,TRUE,FALSE
+Indonesia,Eau en bouteille,IDN,2018,2018-11-15,apres la derniere vague,FALSE,FALSE,FALSE
+Indonesia,Eau en bouteille,IDN,2020,2020-11-15,apres la derniere vague,FALSE,FALSE,FALSE
+Cambodia,Eau en bouteille,KHM,1991,1991-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Cambodia,Eau en bouteille,KHM,1992,1992-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Cambodia,Eau en bouteille,KHM,1993,1993-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Cambodia,Eau en bouteille,KHM,1995,1995-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Cambodia,Eau en bouteille,KHM,1998,1998-11-15,avant la 1re vague,FALSE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2000,2000-11-15,entre KH2000DHS et KH2010DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2002,2002-11-15,entre KH2000DHS et KH2010DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2004,2004-11-15,entre KH2000DHS et KH2010DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2006,2006-11-15,entre KH2000DHS et KH2010DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2008,2008-11-15,entre KH2000DHS et KH2010DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2010,2010-11-15,pendant KH2010DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2012,2012-11-15,entre KH2010DHS et KH2014DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2014,2014-11-15,pendant KH2014DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2016,2016-11-15,entre KH2014DHS et KH2021DHS,TRUE,TRUE,FALSE
+Cambodia,Eau en bouteille,KHM,2018,2018-11-15,entre KH2014DHS et KH2021DHS,TRUE,FALSE,FALSE
+Cambodia,Eau en bouteille,KHM,2020,2020-11-15,entre KH2014DHS et KH2021DHS,TRUE,FALSE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,1991,1991-11-15,entre CM1991DHS et CM1998DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,1992,1992-11-15,entre CM1991DHS et CM1998DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,1993,1993-11-15,entre CM1991DHS et CM1998DHS,TRUE,FALSE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,1995,1995-11-15,entre CM1991DHS et CM1998DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,1998,1998-11-15,entre CM1998DHS et CM2004DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2000,2000-11-15,entre CM1998DHS et CM2004DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2002,2002-11-15,entre CM1998DHS et CM2004DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2004,2004-11-15,entre CM2004DHS et CM2011DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2006,2006-11-15,entre CM2004DHS et CM2011DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2008,2008-11-15,entre CM2004DHS et CM2011DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2010,2010-11-15,entre CM2004DHS et CM2011DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2012,2012-11-15,entre CM2011DHS et CM2018DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2014,2014-11-15,entre CM2011DHS et CM2018DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2016,2016-11-15,entre CM2011DHS et CM2018DHS,TRUE,TRUE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2018,2018-11-15,pendant CM2018DHS,TRUE,FALSE,FALSE
+Cameroon,Forage (propriete inconnue),CMR,2020,2020-11-15,apres la derniere vague,FALSE,FALSE,FALSE
+Haiti,Vendeur,HTI,1991,1991-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Haiti,Vendeur,HTI,1992,1992-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Haiti,Vendeur,HTI,1993,1993-11-15,avant la 1re vague,FALSE,FALSE,FALSE
+Haiti,Vendeur,HTI,1995,1995-11-15,entre HT1994DHS et HT2000DHS,TRUE,FALSE,FALSE
+Haiti,Vendeur,HTI,1998,1998-11-15,entre HT1994DHS et HT2000DHS,TRUE,TRUE,FALSE
+Haiti,Vendeur,HTI,2000,2000-11-15,entre HT2000DHS et HT2006DHS,TRUE,TRUE,FALSE
+Haiti,Vendeur,HTI,2002,2002-11-15,entre HT2000DHS et HT2006DHS,TRUE,TRUE,FALSE
+Haiti,Vendeur,HTI,2004,2004-11-15,entre HT2000DHS et HT2006DHS,TRUE,TRUE,FALSE
+Haiti,Vendeur,HTI,2006,2006-11-15,entre HT2006DHS et HT2012DHS,TRUE,FALSE,FALSE
+Haiti,Vendeur,HTI,2008,2008-11-15,entre HT2006DHS et HT2012DHS,TRUE,TRUE,FALSE
+Haiti,Vendeur,HTI,2010,2010-11-15,entre HT2006DHS et HT2012DHS,TRUE,FALSE,FALSE
+Haiti,Vendeur,HTI,2012,2012-11-15,entre HT2012DHS et HT2016DHS,TRUE,TRUE,FALSE
+Haiti,Vendeur,HTI,2014,2014-11-15,entre HT2012DHS et HT2016DHS,TRUE,TRUE,FALSE
+Haiti,Vendeur,HTI,2016,2016-11-15,pendant HT2016DHS,TRUE,TRUE,FALSE
+Haiti,Vendeur,HTI,2018,2018-11-15,apres la derniere vague,FALSE,FALSE,FALSE
+Haiti,Vendeur,HTI,2020,2020-11-15,apres la derniere vague,FALSE,FALSE,FALSE

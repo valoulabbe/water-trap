@@ -1,0 +1,310 @@
+==============================================================================
+LOG: output/logs/13_giz_prix_carburant.log
+Run started: 2026-09-30 18:59:52
+==============================================================================
+
+ETAPE 13 -- PISTE D : PRIX DES CARBURANTS (GIZ), VARIATION ENTRE VAGUES DHS
+Mesure seulement. Critere : memo/piste_d_carburant_critere.md
+
+------------------------------------------------------------------------------
+13a. Sources : archive WDI, fichier GIZ/TUMI, API DHS
+------------------------------------------------------------------------------
+  [OK]   present : raw/wdi_archive/wdi_arch_202407_EP.PMP.DESL.CD.json
+  [OK]   raw/README.md : une ligne de manifeste pour wdi_archive/wdi_arch_202407_EP.PMP.DESL.CD.json
+  [OK]   raw/README.md : SHA256 renseigne pour wdi_archive/wdi_arch_202407_EP.PMP.DESL.CD.json
+  [OK]   SHA256 conforme : raw/wdi_archive/wdi_arch_202407_EP.PMP.DESL.CD.json
+  [OK]   present : raw/wdi_archive/wdi_arch_202407_EP.PMP.SGAS.CD.json
+  [OK]   raw/README.md : une ligne de manifeste pour wdi_archive/wdi_arch_202407_EP.PMP.SGAS.CD.json
+  [OK]   raw/README.md : SHA256 renseigne pour wdi_archive/wdi_arch_202407_EP.PMP.SGAS.CD.json
+  [OK]   SHA256 conforme : raw/wdi_archive/wdi_arch_202407_EP.PMP.SGAS.CD.json
+  [OK]   present : raw/wdi_archive/wdi_pays_metadata.json
+  [OK]   raw/README.md : une ligne de manifeste pour wdi_archive/wdi_pays_metadata.json
+  [OK]   raw/README.md : SHA256 renseigne pour wdi_archive/wdi_pays_metadata.json
+  [OK]   SHA256 conforme : raw/wdi_archive/wdi_pays_metadata.json
+[2026-09-30 18:59:52] etape 1/2 archive WDI : debut (sortie absente)
+  [OK]   metadonnees pays : une seule page
+  [OK]   metadonnees pays: all 3 named variables present
+  [OK]   metadonnees pays : region renseignee, categorie Aggregates presente
+  [OK]   metadonnees pays: key (iso3) unique
+  [OK]   WDI diesel : une page, 19 564 lignes
+  [OK]   WDI essence : une page, 19 564 lignes
+  [OK]   WDI : toutes les lignes en version 202407
+  [OK]   WDI : champ Time au format YRyyyy
+  [OK]   WDI : codes avec valeur hors metadonnees = agregats d'archive connus (FCS)
+  codes d'archive sans aucune valeur, ignores : 27
+  agregats regionaux exclus : 47 codes
+  [OK]   WDI pays: key (iso3+annee+carburant) unique
+  [OK]   WDI : prix strictement positifs
+  [OK]   etape 1/2 archive WDI : sortie ecrite -> build/13_wdi.rds
+[2026-09-30 18:59:54] etape 1/2 archive WDI : fini (1.5 s)
+  WDI : 3688 valeurs pays (diesel 1835, essence 1853), 182 pays
+Clé : <annee>
+    annee diesel essence
+    <int>  <int>   <int>
+ 1:  1991     49      49
+ 2:  1992     54      54
+ 3:  1995    101     102
+ 4:  1998    160     160
+ 5:  2000    154     154
+ 6:  2002    156     156
+ 7:  2004    167     167
+ 8:  2006    163     163
+ 9:  2008    167     172
+10:  2010    170     170
+11:  2012    165     166
+12:  2014    166     172
+13:  2016    163     168
+  [WARNING] raw/giz/ : aucun .xlsx. Source principale ABSENTE : la table 13b est
+  [WARNING] construite sur le WDI seul et la section 13c ne tournera pas.
+  rdhs a modifie .gitignore : version d'origine restauree
+[2026-09-30 18:59:56] etape 2/2 enquetes et pays DHS : debut (sortie absente)
+  [OK]   etape 2/2 enquetes et pays DHS : sortie ecrite -> build/13_dhs_enquetes.rds
+[2026-09-30 18:59:56] etape 2/2 enquetes et pays DHS : fini (0.4 s)
+  [OK]   cas retenus a l'etape 12: row count == 6
+  [OK]   dhs_surveys: all 3 named variables present
+  [OK]   dhs_countries: all 2 named variables present
+  [OK]   dates de terrain presentes pour toutes les vagues
+  [OK]   vagues retrouvees pour les six cas
+  [OK]   les six pays presents dans les prix
+Clé : <code>
+      code    cle  SurveyId      debut        fin
+    <char> <char>    <char>     <IDat>     <IDat>
+ 1:     CM    TUB CM1991DHS 1991-04-01 1991-09-30
+ 2:     CM    TUB CM1998DHS 1998-02-01 1998-06-30
+ 3:     CM    TUB CM2004DHS 2004-02-01 2004-08-31
+ 4:     CM    TUB CM2011DHS 2011-01-01 2011-08-31
+ 5:     CM    TUB CM2018DHS 2018-06-01 2018-12-31
+ 6:     GH    SCH GH2003DHS 2003-07-01 2003-10-31
+ 7:     GH    SCH GH2008DHS 2008-09-01 2008-11-30
+ 8:     GH    SCH GH2014DHS 2014-09-01 2014-12-31
+ 9:     GH    SCH GH2022DHS 2022-10-01 2023-01-31
+10:     HT    VND HT1994DHS 1994-07-01 1995-01-31
+11:     HT    VND HT2000DHS 2000-02-01 2000-07-31
+12:     HT    VND HT2006DHS 2005-10-01 2006-06-30
+13:     HT    VND HT2012DHS 2012-01-01 2012-06-30
+14:     HT    VND HT2016DHS 2016-11-01 2017-04-30
+15:     ID    BOT ID2003DHS 2002-10-01 2003-04-30
+16:     ID    BOT ID2007DHS 2007-06-01 2008-02-29
+17:     ID    BOT ID2012DHS 2012-05-01 2012-07-31
+18:     ID    BOT ID2017DHS 2017-07-01 2017-09-30
+19:     JO    BOT JO1997DHS 1997-06-01 1997-10-31
+20:     JO    BOT JO2002DHS 2002-07-01 2002-09-30
+21:     JO    BOT JO2007DHS 2007-06-01 2007-11-30
+22:     JO    BOT JO2009DHS 2009-10-01 2009-12-31
+23:     JO    BOT JO2012DHS 2012-09-01 2012-12-31
+24:     JO    BOT JO2017DHS 2017-10-01 2018-01-31
+25:     JO    BOT JO2023DHS 2023-01-01 2023-06-30
+26:     KH    BOT KH2000DHS 2000-02-01 2000-07-31
+27:     KH    BOT KH2010DHS 2010-07-01 2011-01-31
+28:     KH    BOT KH2014DHS 2014-06-01 2014-12-31
+29:     KH    BOT KH2021DHS 2021-09-01 2022-02-28
+      code    cle  SurveyId      debut        fin
+    <char> <char>    <char>     <IDat>     <IDat>
+
+------------------------------------------------------------------------------
+13b. Table pays-annee et journal des lacunes
+------------------------------------------------------------------------------
+  13_prix_carburant_pays_annee.csv : 1855 lignes pays-annee, 182 pays
+  Colonnes fiscales : aucune (non publiees par pays par la GIZ ni le WDI).
+  13_lacunes.csv, decompte par type :
+Clé : <source, carburant, type>
+   source carburant                          type     N
+   <char>    <char>                        <char> <int>
+1:    giz    diesel                source_absente     1
+2:    giz   essence                source_absente     1
+3:    wdi    diesel                 annee_ambigue     1
+4:    wdi    diesel pays_manquant_dans_sa_periode    77
+5:    wdi    diesel    releve_absent_de_la_source     3
+6:    wdi   essence                 annee_ambigue     1
+7:    wdi   essence pays_manquant_dans_sa_periode    67
+8:    wdi   essence    releve_absent_de_la_source     3
+  Lacunes des six pays :
+    source carburant   iso3 annee                          type
+    <char>    <char> <char> <int>                        <char>
+ 1:    giz    diesel   <NA>    NA                source_absente
+ 2:    giz   essence   <NA>    NA                source_absente
+ 3:    wdi    diesel    HTI  2006 pays_manquant_dans_sa_periode
+ 4:    wdi    diesel    HTI  2010 pays_manquant_dans_sa_periode
+ 5:    wdi    diesel    IDN  1992 pays_manquant_dans_sa_periode
+ 6:    wdi    diesel   <NA>  1992                 annee_ambigue
+ 7:    wdi    diesel   <NA>  1993    releve_absent_de_la_source
+ 8:    wdi    diesel   <NA>  2018    releve_absent_de_la_source
+ 9:    wdi    diesel   <NA>  2020    releve_absent_de_la_source
+10:    wdi   essence    HTI  2006 pays_manquant_dans_sa_periode
+11:    wdi   essence    HTI  2010 pays_manquant_dans_sa_periode
+12:    wdi   essence    IDN  1992 pays_manquant_dans_sa_periode
+13:    wdi   essence   <NA>  1992                 annee_ambigue
+14:    wdi   essence   <NA>  1993    releve_absent_de_la_source
+15:    wdi   essence   <NA>  2018    releve_absent_de_la_source
+16:    wdi   essence   <NA>  2020    releve_absent_de_la_source
+                                                                         detail
+                                                                         <char>
+ 1:                                           fichier raw/giz/ absent ou non lu
+ 2:                                           fichier raw/giz/ absent ou non lu
+ 3:                                                                            
+ 4:                                                                            
+ 5:                                                                            
+ 6: annee absente des releves publies par la GIZ (ex. WDI 1992 contre GIZ 1993)
+ 7:                                                                            
+ 8:                                                                            
+ 9:                                                                            
+10:                                                                            
+11:                                                                            
+12:                                                                            
+13: annee absente des releves publies par la GIZ (ex. WDI 1992 contre GIZ 1993)
+14:                                                                            
+15:                                                                            
+16:                                                                            
+
+------------------------------------------------------------------------------
+13c-pre. Releves par rapport aux vagues DHS (sans valeur de prix)
+------------------------------------------------------------------------------
+         pays releve                     position diesel_wdi_observe
+       <char>  <int>                       <char>             <lgcl>
+ 1:    Jordan   1998 entre JO1997DHS et JO2002DHS               TRUE
+ 2:    Jordan   2000 entre JO1997DHS et JO2002DHS               TRUE
+ 3:    Jordan   2002 entre JO2002DHS et JO2007DHS               TRUE
+ 4:    Jordan   2004 entre JO2002DHS et JO2007DHS               TRUE
+ 5:    Jordan   2006 entre JO2002DHS et JO2007DHS               TRUE
+ 6:    Jordan   2008 entre JO2007DHS et JO2009DHS               TRUE
+ 7:    Jordan   2010 entre JO2009DHS et JO2012DHS               TRUE
+ 8:    Jordan   2012            pendant JO2012DHS               TRUE
+ 9:    Jordan   2014 entre JO2012DHS et JO2017DHS               TRUE
+10:    Jordan   2016 entre JO2012DHS et JO2017DHS               TRUE
+11:    Jordan   2018 entre JO2017DHS et JO2023DHS              FALSE
+12:    Jordan   2020 entre JO2017DHS et JO2023DHS              FALSE
+13:     Ghana   2004 entre GH2003DHS et GH2008DHS               TRUE
+14:     Ghana   2006 entre GH2003DHS et GH2008DHS               TRUE
+15:     Ghana   2008            pendant GH2008DHS               TRUE
+16:     Ghana   2010 entre GH2008DHS et GH2014DHS               TRUE
+17:     Ghana   2012 entre GH2008DHS et GH2014DHS               TRUE
+18:     Ghana   2014            pendant GH2014DHS               TRUE
+19:     Ghana   2016 entre GH2014DHS et GH2022DHS               TRUE
+20:     Ghana   2018 entre GH2014DHS et GH2022DHS              FALSE
+21:     Ghana   2020 entre GH2014DHS et GH2022DHS              FALSE
+22: Indonesia   2002            pendant ID2003DHS               TRUE
+23: Indonesia   2004 entre ID2003DHS et ID2007DHS               TRUE
+24: Indonesia   2006 entre ID2003DHS et ID2007DHS               TRUE
+25: Indonesia   2008 entre ID2007DHS et ID2012DHS               TRUE
+26: Indonesia   2010 entre ID2007DHS et ID2012DHS               TRUE
+27: Indonesia   2012 entre ID2012DHS et ID2017DHS               TRUE
+28: Indonesia   2014 entre ID2012DHS et ID2017DHS               TRUE
+29: Indonesia   2016 entre ID2012DHS et ID2017DHS               TRUE
+30:  Cambodia   2000 entre KH2000DHS et KH2010DHS               TRUE
+31:  Cambodia   2002 entre KH2000DHS et KH2010DHS               TRUE
+32:  Cambodia   2004 entre KH2000DHS et KH2010DHS               TRUE
+33:  Cambodia   2006 entre KH2000DHS et KH2010DHS               TRUE
+34:  Cambodia   2008 entre KH2000DHS et KH2010DHS               TRUE
+35:  Cambodia   2010            pendant KH2010DHS               TRUE
+36:  Cambodia   2012 entre KH2010DHS et KH2014DHS               TRUE
+37:  Cambodia   2014            pendant KH2014DHS               TRUE
+38:  Cambodia   2016 entre KH2014DHS et KH2021DHS               TRUE
+39:  Cambodia   2018 entre KH2014DHS et KH2021DHS              FALSE
+40:  Cambodia   2020 entre KH2014DHS et KH2021DHS              FALSE
+41:  Cameroon   1991 entre CM1991DHS et CM1998DHS               TRUE
+42:  Cameroon   1992 entre CM1991DHS et CM1998DHS               TRUE
+43:  Cameroon   1993 entre CM1991DHS et CM1998DHS              FALSE
+44:  Cameroon   1995 entre CM1991DHS et CM1998DHS               TRUE
+45:  Cameroon   1998 entre CM1998DHS et CM2004DHS               TRUE
+46:  Cameroon   2000 entre CM1998DHS et CM2004DHS               TRUE
+47:  Cameroon   2002 entre CM1998DHS et CM2004DHS               TRUE
+48:  Cameroon   2004 entre CM2004DHS et CM2011DHS               TRUE
+49:  Cameroon   2006 entre CM2004DHS et CM2011DHS               TRUE
+50:  Cameroon   2008 entre CM2004DHS et CM2011DHS               TRUE
+51:  Cameroon   2010 entre CM2004DHS et CM2011DHS               TRUE
+52:  Cameroon   2012 entre CM2011DHS et CM2018DHS               TRUE
+53:  Cameroon   2014 entre CM2011DHS et CM2018DHS               TRUE
+54:  Cameroon   2016 entre CM2011DHS et CM2018DHS               TRUE
+55:  Cameroon   2018            pendant CM2018DHS              FALSE
+56:     Haiti   1995 entre HT1994DHS et HT2000DHS              FALSE
+57:     Haiti   1998 entre HT1994DHS et HT2000DHS               TRUE
+58:     Haiti   2000 entre HT2000DHS et HT2006DHS               TRUE
+59:     Haiti   2002 entre HT2000DHS et HT2006DHS               TRUE
+60:     Haiti   2004 entre HT2000DHS et HT2006DHS               TRUE
+61:     Haiti   2006 entre HT2006DHS et HT2012DHS              FALSE
+62:     Haiti   2008 entre HT2006DHS et HT2012DHS               TRUE
+63:     Haiti   2010 entre HT2006DHS et HT2012DHS              FALSE
+64:     Haiti   2012 entre HT2012DHS et HT2016DHS               TRUE
+65:     Haiti   2014 entre HT2012DHS et HT2016DHS               TRUE
+66:     Haiti   2016            pendant HT2016DHS               TRUE
+         pays releve                     position diesel_wdi_observe
+       <char>  <int>                       <char>             <lgcl>
+    diesel_giz_observe
+                <lgcl>
+ 1:              FALSE
+ 2:              FALSE
+ 3:              FALSE
+ 4:              FALSE
+ 5:              FALSE
+ 6:              FALSE
+ 7:              FALSE
+ 8:              FALSE
+ 9:              FALSE
+10:              FALSE
+11:              FALSE
+12:              FALSE
+13:              FALSE
+14:              FALSE
+15:              FALSE
+16:              FALSE
+17:              FALSE
+18:              FALSE
+19:              FALSE
+20:              FALSE
+21:              FALSE
+22:              FALSE
+23:              FALSE
+24:              FALSE
+25:              FALSE
+26:              FALSE
+27:              FALSE
+28:              FALSE
+29:              FALSE
+30:              FALSE
+31:              FALSE
+32:              FALSE
+33:              FALSE
+34:              FALSE
+35:              FALSE
+36:              FALSE
+37:              FALSE
+38:              FALSE
+39:              FALSE
+40:              FALSE
+41:              FALSE
+42:              FALSE
+43:              FALSE
+44:              FALSE
+45:              FALSE
+46:              FALSE
+47:              FALSE
+48:              FALSE
+49:              FALSE
+50:              FALSE
+51:              FALSE
+52:              FALSE
+53:              FALSE
+54:              FALSE
+55:              FALSE
+56:              FALSE
+57:              FALSE
+58:              FALSE
+59:              FALSE
+60:              FALSE
+61:              FALSE
+62:              FALSE
+63:              FALSE
+64:              FALSE
+65:              FALSE
+66:              FALSE
+    diesel_giz_observe
+                <lgcl>
+
+------------------------------------------------------------------------------
+13c. Variation brute et nette dans les fenetres DHS
+------------------------------------------------------------------------------
+  [OK]   memo : une ligne « Statut : »
+  [WARNING] critere au statut « PROPOSITION » : section 13c NON executee.
+  [WARNING] Fixer les seuils puis ecrire « Statut : FIXÉ » dans le memo.
+
+Run finished: 2026-09-30 18:59:57

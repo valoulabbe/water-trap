@@ -1,0 +1,1856 @@
+iso3,pays,annee,diesel_giz,essence_giz,diesel_wdi,essence_wdi
+AFG,Afghanistan,2002,,,0.27,0.34
+AFG,Afghanistan,2004,,,0.58,0.53
+AFG,Afghanistan,2006,,,0.65,0.68
+AFG,Afghanistan,2008,,,0.96,1.05
+AFG,Afghanistan,2010,,,1,1.15
+AFG,Afghanistan,2012,,,1.21,1.28
+AFG,Afghanistan,2014,,,1.19,1.07
+AFG,Afghanistan,2016,,,0.7,0.7
+AGO,Angola,1998,,,0.19,0.38
+AGO,Angola,2000,,,0.15,0.3
+AGO,Angola,2002,,,0.13,0.19
+AGO,Angola,2004,,,0.29,0.39
+AGO,Angola,2006,,,0.36,0.5
+AGO,Angola,2008,,,0.39,0.53
+AGO,Angola,2010,,,0.43,0.65
+AGO,Angola,2012,,,0.42,0.63
+AGO,Angola,2014,,,0.51,0.76
+AGO,Angola,2016,,,0.82,0.97
+ALB,Albania,1998,,,0.43,0.86
+ALB,Albania,2000,,,0.3,0.57
+ALB,Albania,2002,,,0.51,0.8
+ALB,Albania,2004,,,1.02,1.23
+ALB,Albania,2006,,,1.29,1.44
+ALB,Albania,2008,,,1.31,1.36
+ALB,Albania,2010,,,1.4,1.46
+ALB,Albania,2012,,,1.79,1.81
+ALB,Albania,2014,,,1.71,1.76
+ALB,Albania,2016,,,1.35,1.36
+AND,Andorra,2008,,,1.06,1.24
+AND,Andorra,2010,,,1.32,1.49
+AND,Andorra,2012,,,1.48,1.67
+AND,Andorra,2014,,,1.35,1.51
+ARE,United Arab Emirates,1998,,,0.15,0.23
+ARE,United Arab Emirates,2000,,,0.26,0.25
+ARE,United Arab Emirates,2002,,,0.3,0.29
+ARE,United Arab Emirates,2004,,,0.28,0.28
+ARE,United Arab Emirates,2006,,,0.53,0.37
+ARE,United Arab Emirates,2008,,,0.62,0.45
+ARE,United Arab Emirates,2010,,,0.71,0.47
+ARE,United Arab Emirates,2012,,,0.64,0.47
+ARE,United Arab Emirates,2014,,,0.64,0.47
+ARE,United Arab Emirates,2016,,,0.52,0.49
+ARG,Argentina,1992,,,0.29,0.79
+ARG,Argentina,1995,,,0.28,0.6
+ARG,Argentina,1998,,,0.42,0.94
+ARG,Argentina,2000,,,0.52,1.07
+ARG,Argentina,2002,,,0.46,0.63
+ARG,Argentina,2004,,,0.49,0.63
+ARG,Argentina,2006,,,0.48,0.62
+ARG,Argentina,2008,,,0.58,0.78
+ARG,Argentina,2010,,,1.05,0.96
+ARG,Argentina,2012,,,1.33,1.46
+ARG,Argentina,2014,,,1.33,1.52
+ARG,Argentina,2016,,,1,1.1
+ARM,Armenia,1998,,,0.25,0.49
+ARM,Armenia,2000,,,0.31,0.55
+ARM,Armenia,2002,,,0.29,0.42
+ARM,Armenia,2004,,,0.56,0.68
+ARM,Armenia,2006,,,0.77,0.96
+ARM,Armenia,2008,,,1.11,1.08
+ARM,Armenia,2010,,,0.99,1.08
+ARM,Armenia,2012,,,1.15,1.25
+ARM,Armenia,2014,,,1.16,1.3
+ARM,Armenia,2016,,,0.67,0.77
+ATG,Antigua and Barbuda,2000,,,0.56,0.56
+ATG,Antigua and Barbuda,2004,,,0.68,0.68
+ATG,Antigua and Barbuda,2006,,,0.85,0.97
+ATG,Antigua and Barbuda,2008,,,,1.11
+ATG,Antigua and Barbuda,2010,,,0.96,0.99
+AUS,Australia,1998,,,0.45,0.46
+AUS,Australia,2000,,,0.57,0.57
+AUS,Australia,2002,,,0.48,0.5
+AUS,Australia,2004,,,0.83,0.85
+AUS,Australia,2006,,,0.94,0.93
+AUS,Australia,2008,,,0.94,0.74
+AUS,Australia,2010,,,1.23,1.27
+AUS,Australia,2012,,,1.57,1.39
+AUS,Australia,2014,,,1.28,1.23
+AUS,Australia,2016,,,0.92,0.93
+AUT,Austria,1995,,,0.87,1.15
+AUT,Austria,1998,,,0.82,1.04
+AUT,Austria,2000,,,0.74,0.82
+AUT,Austria,2002,,,0.73,0.84
+AUT,Austria,2004,,,1.19,1.32
+AUT,Austria,2006,,,1.26,1.32
+AUT,Austria,2008,,,1.43,1.37
+AUT,Austria,2010,,,1.55,1.63
+AUT,Austria,2012,,,1.81,1.81
+AUT,Austria,2014,,,1.55,1.6
+AUT,Austria,2016,,,1.15,1.2
+AZE,Azerbaijan,1998,,,0.22,0.46
+AZE,Azerbaijan,2000,,,0.2,0.39
+AZE,Azerbaijan,2002,,,0.16,0.37
+AZE,Azerbaijan,2004,,,0.18,0.41
+AZE,Azerbaijan,2006,,,0.41,0.46
+AZE,Azerbaijan,2008,,,0.56,0.74
+AZE,Azerbaijan,2010,,,0.56,0.75
+AZE,Azerbaijan,2012,,,0.57,0.76
+AZE,Azerbaijan,2014,,,0.77,1.21
+AZE,Azerbaijan,2016,,,0.35,0.56
+BDI,Burundi,1991,,,0.61,0.63
+BDI,Burundi,1992,,,0.54,0.59
+BDI,Burundi,1995,,,0.48,0.52
+BDI,Burundi,1998,,,0.66,0.72
+BDI,Burundi,2000,,,0.71,1.01
+BDI,Burundi,2002,,,0.54,0.58
+BDI,Burundi,2004,,,1.08,1.04
+BDI,Burundi,2006,,,1.22,1.2
+BDI,Burundi,2008,,,1.23,1.39
+BDI,Burundi,2010,,,1.42,1.43
+BDI,Burundi,2012,,,1.47,1.47
+BDI,Burundi,2014,,,1.43,1.53
+BDI,Burundi,2016,,,1.14,1.21
+BEL,Belgium,1995,,,0.82,1.18
+BEL,Belgium,1998,,,0.85,1.12
+BEL,Belgium,2000,,,0.78,0.96
+BEL,Belgium,2002,,,0.8,1.04
+BEL,Belgium,2004,,,1.07,1.5
+BEL,Belgium,2006,,,1.34,1.63
+BEL,Belgium,2008,,,1.34,1.5
+BEL,Belgium,2010,,,1.62,1.87
+BEL,Belgium,2012,,,1.98,2.09
+BEL,Belgium,2014,,,1.69,1.9
+BEL,Belgium,2016,,,1.32,1.43
+BEN,Benin,1991,,,0.48,0.63
+BEN,Benin,1992,,,0.47,0.62
+BEN,Benin,1995,,,0.28,0.36
+BEN,Benin,1998,,,0.31,0.39
+BEN,Benin,2000,,,0.39,0.48
+BEN,Benin,2002,,,0.41,0.54
+BEN,Benin,2004,,,0.72,0.77
+BEN,Benin,2006,,,0.81,0.81
+BEN,Benin,2008,,,1.03,1.03
+BEN,Benin,2010,,,1.21,1.04
+BEN,Benin,2012,,,1.26,1.24
+BEN,Benin,2014,,,1.1,1.03
+BEN,Benin,2016,,,0.72,0.72
+BFA,Burkina Faso,1991,,,0.84,1.03
+BFA,Burkina Faso,1992,,,0.85,1
+BFA,Burkina Faso,1995,,,0.62,0.81
+BFA,Burkina Faso,1998,,,0.5,0.68
+BFA,Burkina Faso,2000,,,0.46,0.68
+BFA,Burkina Faso,2002,,,0.62,0.83
+BFA,Burkina Faso,2004,,,0.94,1.18
+BFA,Burkina Faso,2006,,,1.12,1.15
+BFA,Burkina Faso,2008,,,1.33,1.38
+BFA,Burkina Faso,2010,,,1.28,1.44
+BFA,Burkina Faso,2012,,,1.28,1.43
+BFA,Burkina Faso,2014,,,1.25,1.4
+BFA,Burkina Faso,2016,,,0.86,0.98
+BGD,Bangladesh,1995,,,0.31,0.36
+BGD,Bangladesh,1998,,,0.26,0.47
+BGD,Bangladesh,2000,,,0.29,0.46
+BGD,Bangladesh,2002,,,0.29,0.52
+BGD,Bangladesh,2004,,,0.34,0.59
+BGD,Bangladesh,2006,,,0.45,0.79
+BGD,Bangladesh,2008,,,0.7,1.17
+BGD,Bangladesh,2010,,,0.63,1.09
+BGD,Bangladesh,2012,,,0.76,1.15
+BGD,Bangladesh,2014,,,0.9,1.3
+BGD,Bangladesh,2016,,,0.84,1.12
+BGR,Bulgaria,1995,,,0.26,0.46
+BGR,Bulgaria,1998,,,0.52,0.66
+BGR,Bulgaria,2000,,,0.58,0.7
+BGR,Bulgaria,2002,,,0.59,0.68
+BGR,Bulgaria,2004,,,0.89,0.92
+BGR,Bulgaria,2006,,,1.08,1.05
+BGR,Bulgaria,2008,,,1.37,1.28
+BGR,Bulgaria,2010,,,1.58,1.51
+BGR,Bulgaria,2012,,,1.68,1.69
+BGR,Bulgaria,2014,,,1.51,1.49
+BGR,Bulgaria,2016,,,1.09,1.11
+BHR,Bahrain,1998,,,0.18,0.26
+BHR,Bahrain,2000,,,0.21,0.27
+BHR,Bahrain,2002,,,0.19,0.27
+BHR,Bahrain,2004,,,0.19,0.27
+BHR,Bahrain,2006,,,0.13,0.21
+BHR,Bahrain,2008,,,0.13,0.21
+BHR,Bahrain,2010,,,0.13,0.21
+BHR,Bahrain,2012,,,0.17,0.27
+BHR,Bahrain,2016,,,0.32,0.43
+BHS,"Bahamas, The",2014,,,,1.05
+BHS,"Bahamas, The",2016,,,,0.92
+BIH,Bosnia and Herzegovina,1998,,,0.6,0.66
+BIH,Bosnia and Herzegovina,2000,,,0.57,0.68
+BIH,Bosnia and Herzegovina,2002,,,0.74,0.74
+BIH,Bosnia and Herzegovina,2004,,,0.97,0.97
+BIH,Bosnia and Herzegovina,2006,,,1.24,1.34
+BIH,Bosnia and Herzegovina,2008,,,1.18,1.13
+BIH,Bosnia and Herzegovina,2010,,,1.42,1.42
+BIH,Bosnia and Herzegovina,2012,,,1.62,1.59
+BIH,Bosnia and Herzegovina,2014,,,1.54,1.51
+BIH,Bosnia and Herzegovina,2016,,,0.99,1.05
+BLR,Belarus,1998,,,0.13,0.34
+BLR,Belarus,2000,,,0.36,0.55
+BLR,Belarus,2002,,,0.36,0.5
+BLR,Belarus,2004,,,0.44,0.62
+BLR,Belarus,2006,,,0.55,0.79
+BLR,Belarus,2008,,,1.06,1.33
+BLR,Belarus,2010,,,0.86,1.08
+BLR,Belarus,2012,,,0.9,0.88
+BLR,Belarus,2014,,,1.06,1.06
+BLR,Belarus,2016,,,0.62,0.6
+BLZ,Belize,2004,,,0.8,1.2
+BLZ,Belize,2006,,,0.91,1.27
+BLZ,Belize,2008,,,0.53,0.7
+BLZ,Belize,2010,,,0.98,1.13
+BLZ,Belize,2012,,,1.21,1.44
+BLZ,Belize,2014,,,,1.37
+BLZ,Belize,2016,,,1,1.13
+BOL,Bolivia,1992,,,0.35,0.43
+BOL,Bolivia,1995,,,0.31,0.38
+BOL,Bolivia,1998,,,0.35,0.53
+BOL,Bolivia,2000,,,0.5,0.8
+BOL,Bolivia,2002,,,0.42,0.69
+BOL,Bolivia,2004,,,0.4,0.54
+BOL,Bolivia,2006,,,0.47,0.54
+BOL,Bolivia,2008,,,0.53,0.68
+BOL,Bolivia,2010,,,0.54,0.7
+BOL,Bolivia,2012,,,0.54,0.7
+BOL,Bolivia,2014,,,0.54,0.7
+BOL,Bolivia,2016,,,0.55,0.71
+BRA,Brazil,1992,,,0.38,0.53
+BRA,Brazil,1995,,,0.39,0.63
+BRA,Brazil,1998,,,0.34,0.8
+BRA,Brazil,2000,,,0.34,0.92
+BRA,Brazil,2002,,,0.31,0.55
+BRA,Brazil,2004,,,0.49,0.84
+BRA,Brazil,2006,,,0.84,1.26
+BRA,Brazil,2008,,,1.03,1.26
+BRA,Brazil,2010,,,1.14,1.58
+BRA,Brazil,2012,,,1.02,1.39
+BRA,Brazil,2014,,,1.02,1.27
+BRA,Brazil,2016,,,0.95,1.02
+BRB,Barbados,1998,,,0.62,0.72
+BRB,Barbados,2000,,,0.75,0.95
+BRB,Barbados,2002,,,0.53,0.66
+BRB,Barbados,2004,,,0.62,0.82
+BRB,Barbados,2006,,,0.79,1.11
+BRB,Barbados,2008,,,1.03,1
+BRB,Barbados,2010,,,1.14,1.25
+BRB,Barbados,2014,,,1.44,1.81
+BRN,Brunei Darussalam,1998,,,0.18,0.34
+BRN,Brunei Darussalam,2000,,,0.18,0.31
+BRN,Brunei Darussalam,2002,,,0.18,0.3
+BRN,Brunei Darussalam,2004,,,0.19,0.32
+BRN,Brunei Darussalam,2006,,,0.21,0.34
+BRN,Brunei Darussalam,2008,,,0.21,0.38
+BRN,Brunei Darussalam,2010,,,0.24,0.39
+BRN,Brunei Darussalam,2012,,,0.26,0.43
+BRN,Brunei Darussalam,2014,,,,0.41
+BRN,Brunei Darussalam,2016,,,0.22,0.37
+BTN,Bhutan,1998,,,0.26,0.59
+BTN,Bhutan,2000,,,0.38,0.58
+BTN,Bhutan,2004,,,0.59,0.78
+BTN,Bhutan,2008,,,,0.91
+BTN,Bhutan,2010,,,0.82,1.08
+BTN,Bhutan,2012,,,0.86,1.19
+BTN,Bhutan,2014,,,0.84,1.04
+BTN,Bhutan,2016,,,0.82,0.98
+BWA,Botswana,1991,,,0.61,0.68
+BWA,Botswana,1992,,,0.37,0.41
+BWA,Botswana,1995,,,0.35,0.38
+BWA,Botswana,1998,,,0.29,0.31
+BWA,Botswana,2000,,,0.39,0.42
+BWA,Botswana,2002,,,0.38,0.41
+BWA,Botswana,2004,,,0.61,0.66
+BWA,Botswana,2006,,,0.74,0.78
+BWA,Botswana,2008,,,1.02,0.88
+BWA,Botswana,2010,,,0.97,0.93
+BWA,Botswana,2012,,,1.25,1.23
+BWA,Botswana,2014,,,1.07,1.06
+BWA,Botswana,2016,,,0.67,0.71
+CAF,Central African Republic,1991,,,0.99,1.33
+CAF,Central African Republic,1992,,,0.98,1.28
+CAF,Central African Republic,1995,,,0.64,0.82
+CAF,Central African Republic,1998,,,0.65,0.81
+CAF,Central African Republic,2002,,,0.87,1
+CAF,Central African Republic,2004,,,1.14,1.29
+CAF,Central African Republic,2006,,,1.27,1.37
+CAF,Central African Republic,2008,,,1.44,1.44
+CAF,Central African Republic,2010,,,1.69,1.71
+CAF,Central African Republic,2012,,,1.69,1.71
+CAF,Central African Republic,2014,,,1.66,1.69
+CAF,Central African Republic,2016,,,1.4,1.41
+CAN,Canada,1992,,,0.39,0.47
+CAN,Canada,1995,,,0.36,0.45
+CAN,Canada,1998,,,0.39,0.41
+CAN,Canada,2000,,,0.47,0.58
+CAN,Canada,2002,,,0.43,0.51
+CAN,Canada,2004,,,0.68,0.68
+CAN,Canada,2006,,,0.78,0.84
+CAN,Canada,2008,,,0.9,0.76
+CAN,Canada,2010,,,1.08,1.21
+CAN,Canada,2012,,,1.23,1.32
+CAN,Canada,2014,,,1.16,1.17
+CAN,Canada,2016,,,0.73,0.81
+CHE,Switzerland,1995,,,1.01,1.02
+CHE,Switzerland,1998,,,0.91,0.86
+CHE,Switzerland,2000,,,0.84,0.78
+CHE,Switzerland,2002,,,0.93,0.89
+CHE,Switzerland,2004,,,1.37,1.29
+CHE,Switzerland,2006,,,1.36,1.27
+CHE,Switzerland,2008,,,1.52,1.3
+CHE,Switzerland,2010,,,1.77,1.66
+CHE,Switzerland,2012,,,2.06,1.88
+CHE,Switzerland,2014,,,1.79,1.74
+CHE,Switzerland,2016,,,1.46,1.45
+CHL,Chile,1992,,,0.31,0.43
+CHL,Chile,1995,,,0.33,0.53
+CHL,Chile,1998,,,0.29,0.49
+CHL,Chile,2000,,,0.47,0.64
+CHL,Chile,2002,,,0.39,0.58
+CHL,Chile,2004,,,0.64,0.85
+CHL,Chile,2006,,,0.86,1.09
+CHL,Chile,2008,,,0.95,0.95
+CHL,Chile,2010,,,1.02,1.38
+CHL,Chile,2012,,,1.24,1.56
+CHL,Chile,2014,,,1.09,1.52
+CHL,Chile,2016,,,0.65,1.03
+CHN,China,1995,,,0.24,0.27
+CHN,China,1998,,,0.25,0.28
+CHN,China,2000,,,0.45,0.4
+CHN,China,2002,,,0.37,0.42
+CHN,China,2004,,,0.43,0.48
+CHN,China,2006,,,0.61,0.69
+CHN,China,2008,,,1.01,0.99
+CHN,China,2010,,,1.04,1.11
+CHN,China,2012,,,1.28,1.37
+CHN,China,2014,,,1.09,1.17
+CHN,China,2016,,,0.81,0.96
+CIV,Cote d'Ivoire,1991,,,1.15,1.24
+CIV,Cote d'Ivoire,1992,,,0.86,1.23
+CIV,Cote d'Ivoire,1995,,,0.56,0.83
+CIV,Cote d'Ivoire,1998,,,0.45,0.74
+CIV,Cote d'Ivoire,2000,,,0.51,0.76
+CIV,Cote d'Ivoire,2002,,,0.6,0.85
+CIV,Cote d'Ivoire,2004,,,0.95,1.14
+CIV,Cote d'Ivoire,2006,,,1.06,1.2
+CIV,Cote d'Ivoire,2008,,,1.2,1.33
+CIV,Cote d'Ivoire,2010,,,1.3,1.68
+CIV,Cote d'Ivoire,2012,,,1.2,1.51
+CIV,Cote d'Ivoire,2014,,,1.17,1.42
+CIV,Cote d'Ivoire,2016,,,0.93,0.93
+CMR,Cameroon,1991,,,0.58,0.68
+CMR,Cameroon,1992,,,0.58,0.69
+CMR,Cameroon,1995,,,0.5,0.68
+CMR,Cameroon,1998,,,0.48,0.64
+CMR,Cameroon,2000,,,0.47,0.56
+CMR,Cameroon,2002,,,0.57,0.68
+CMR,Cameroon,2004,,,0.83,0.95
+CMR,Cameroon,2006,,,1.07,1.14
+CMR,Cameroon,2008,,,1.04,1.14
+CMR,Cameroon,2010,,,1.1,1.2
+CMR,Cameroon,2012,,,1.01,1.1
+CMR,Cameroon,2014,,,1.14,1.24
+CMR,Cameroon,2016,,,0.94,1.03
+COD,"Congo, Dem. Rep.",1991,,,0.73,0.81
+COD,"Congo, Dem. Rep.",1992,,,0.67,0.74
+COD,"Congo, Dem. Rep.",1995,,,0.7,0.73
+COD,"Congo, Dem. Rep.",1998,,,0.5,0.5
+COD,"Congo, Dem. Rep.",2000,,,0.93,1
+COD,"Congo, Dem. Rep.",2002,,,0.69,0.7
+COD,"Congo, Dem. Rep.",2004,,,0.81,0.92
+COD,"Congo, Dem. Rep.",2006,,,1,0.94
+COD,"Congo, Dem. Rep.",2008,,,1.21,1.23
+COD,"Congo, Dem. Rep.",2010,,,1.27,1.28
+COD,"Congo, Dem. Rep.",2012,,,1.48,1.48
+COD,"Congo, Dem. Rep.",2014,,,1.67,1.68
+COD,"Congo, Dem. Rep.",2016,,,1.2,1.49
+COG,"Congo, Rep.",1991,,,0.71,1.05
+COG,"Congo, Rep.",1998,,,0.4,0.72
+COG,"Congo, Rep.",2000,,,0.3,0.53
+COG,"Congo, Rep.",2002,,,0.48,0.69
+COG,"Congo, Rep.",2004,,,0.59,0.87
+COG,"Congo, Rep.",2006,,,0.67,0.96
+COG,"Congo, Rep.",2008,,,0.57,0.81
+COG,"Congo, Rep.",2010,,,0.84,1.27
+COG,"Congo, Rep.",2012,,,0.92,1.15
+COG,"Congo, Rep.",2014,,,0.9,1.13
+COG,"Congo, Rep.",2016,,,,0.97
+COL,Colombia,1992,,,0.19,0.23
+COL,Colombia,1995,,,0.27,0.35
+COL,Colombia,1998,,,0.2,0.24
+COL,Colombia,2000,,,0.35,0.49
+COL,Colombia,2002,,,0.24,0.44
+COL,Colombia,2004,,,0.36,0.72
+COL,Colombia,2006,,,0.57,0.98
+COL,Colombia,2008,,,0.73,1.04
+COL,Colombia,2010,,,0.95,1.41
+COL,Colombia,2012,,,1.18,1.28
+COL,Colombia,2014,,,1.04,1.08
+COL,Colombia,2016,,,0.64,0.68
+CPV,Cabo Verde,1991,,,0.4,0.68
+CPV,Cabo Verde,1998,,,0.43,0.81
+CPV,Cabo Verde,2000,,,0.39,0.59
+CPV,Cabo Verde,2004,,,0.81,1.4
+CPV,Cabo Verde,2008,,,1.43,1.84
+CPV,Cabo Verde,2010,,,1.33,1.84
+CPV,Cabo Verde,2012,,,1.58,2.3
+CPV,Cabo Verde,2014,,,1.31,1.56
+CPV,Cabo Verde,2016,,,0.81,1.02
+CRI,Costa Rica,2002,,,0.44,0.64
+CRI,Costa Rica,2004,,,0.56,0.78
+CRI,Costa Rica,2006,,,0.67,0.98
+CRI,Costa Rica,2008,,,1.1,1.24
+CRI,Costa Rica,2010,,,0.97,1.14
+CRI,Costa Rica,2012,,,1.36,1.57
+CRI,Costa Rica,2014,,,1.21,1.44
+CRI,Costa Rica,2016,,,0.79,0.98
+CUB,Cuba,1998,,,0.18,0.5
+CUB,Cuba,2002,,,0.45,0.9
+CUB,Cuba,2004,,,0.55,0.95
+CUB,Cuba,2006,,,0.91,1.1
+CUB,Cuba,2008,,,1.51,1.67
+CUB,Cuba,2010,,,1.24,1.72
+CUB,Cuba,2012,,,1.3,1.4
+CUB,Cuba,2014,,,1.2,1.4
+CYP,Cyprus,1998,,,0.25,0.78
+CYP,Cyprus,2000,,,0.18,0.57
+CYP,Cyprus,2002,,,0.44,0.83
+CYP,Cyprus,2004,,,0.95,1.08
+CYP,Cyprus,2006,,,1.2,1.25
+CYP,Cyprus,2008,,,1.25,1.28
+CYP,Cyprus,2010,,,1.47,1.47
+CYP,Cyprus,2012,,,1.78,1.77
+CYP,Cyprus,2014,,,1.65,1.61
+CYP,Cyprus,2016,,,1.23,1.23
+CZE,Czechia,1995,,,0.6,0.85
+CZE,Czechia,1998,,,0.6,0.72
+CZE,Czechia,2000,,,0.68,0.77
+CZE,Czechia,2002,,,0.71,0.81
+CZE,Czechia,2004,,,1.07,1.08
+CZE,Czechia,2006,,,1.29,1.3
+CZE,Czechia,2008,,,1.45,1.37
+CZE,Czechia,2010,,,1.69,1.75
+CZE,Czechia,2012,,,1.87,1.93
+CZE,Czechia,2014,,,1.6,1.67
+CZE,Czechia,2016,,,1.11,1.17
+DEU,Germany,1995,,,0.77,1.12
+DEU,Germany,1998,,,0.69,0.96
+DEU,Germany,2000,,,0.78,0.91
+DEU,Germany,2002,,,0.82,1.03
+DEU,Germany,2004,,,1.29,1.46
+DEU,Germany,2006,,,1.38,1.55
+DEU,Germany,2008,,,1.56,1.56
+DEU,Germany,2010,,,1.68,1.9
+DEU,Germany,2012,,,1.88,1.96
+DEU,Germany,2014,,,1.58,1.8
+DEU,Germany,2016,,,1.2,1.39
+DJI,Djibouti,2010,,,1.07,1.63
+DJI,Djibouti,2012,,,1.18,1.75
+DJI,Djibouti,2014,,,1.21,1.41
+DJI,Djibouti,2016,,,0.98,1.32
+DNK,Denmark,1995,,,0.87,1.08
+DNK,Denmark,1998,,,0.85,1.05
+DNK,Denmark,2000,,,0.9,1.01
+DNK,Denmark,2002,,,0.94,1.09
+DNK,Denmark,2004,,,1.35,1.51
+DNK,Denmark,2006,,,1.45,1.58
+DNK,Denmark,2008,,,1.54,1.54
+DNK,Denmark,2010,,,1.79,2
+DNK,Denmark,2012,,,1.89,2.02
+DNK,Denmark,2014,,,1.8,2.01
+DNK,Denmark,2016,,,1.35,1.55
+DOM,Dominican Republic,1995,,,0.28,0.4
+DOM,Dominican Republic,1998,,,0.22,0.4
+DOM,Dominican Republic,2000,,,0.39,0.71
+DOM,Dominican Republic,2002,,,0.27,0.49
+DOM,Dominican Republic,2004,,,0.61,0.85
+DOM,Dominican Republic,2006,,,0.75,1.03
+DOM,Dominican Republic,2008,,,0.94,1.04
+DOM,Dominican Republic,2010,,,1.03,1.23
+DOM,Dominican Republic,2012,,,1.35,1.58
+DOM,Dominican Republic,2014,,,1.21,1.41
+DOM,Dominican Republic,2016,,,0.91,1.07
+DZA,Algeria,1991,,,0.04,0.15
+DZA,Algeria,1992,,,0.09,0.2
+DZA,Algeria,1995,,,0.23,0.4
+DZA,Algeria,1998,,,0.16,0.31
+DZA,Algeria,2000,,,0.15,0.27
+DZA,Algeria,2002,,,0.1,0.22
+DZA,Algeria,2004,,,0.15,0.32
+DZA,Algeria,2006,,,0.19,0.32
+DZA,Algeria,2008,,,0.2,0.34
+DZA,Algeria,2010,,,0.19,0.32
+DZA,Algeria,2012,,,0.17,0.29
+DZA,Algeria,2014,,,0.16,0.27
+DZA,Algeria,2016,,,0.17,0.28
+ECU,Ecuador,1992,,,0.19,0.31
+ECU,Ecuador,1995,,,0.28,0.33
+ECU,Ecuador,1998,,,0.24,0.38
+ECU,Ecuador,2000,,,0.18,0.31
+ECU,Ecuador,2002,,,0.27,0.55
+ECU,Ecuador,2004,,,0.27,0.54
+ECU,Ecuador,2006,,,0.39,0.47
+ECU,Ecuador,2008,,,0.27,0.51
+ECU,Ecuador,2010,,,0.28,0.53
+ECU,Ecuador,2012,,,0.29,0.58
+ECU,Ecuador,2014,,,0.29,0.6
+ECU,Ecuador,2016,,,0.29,0.61
+EGY,"Egypt, Arab Rep.",1991,,,0.07,0.29
+EGY,"Egypt, Arab Rep.",1992,,,0.09,0.3
+EGY,"Egypt, Arab Rep.",1995,,,0.12,0.29
+EGY,"Egypt, Arab Rep.",1998,,,0.12,0.29
+EGY,"Egypt, Arab Rep.",2000,,,0.1,0.26
+EGY,"Egypt, Arab Rep.",2002,,,0.08,0.19
+EGY,"Egypt, Arab Rep.",2004,,,0.1,0.28
+EGY,"Egypt, Arab Rep.",2006,,,0.12,0.3
+EGY,"Egypt, Arab Rep.",2008,,,0.2,0.49
+EGY,"Egypt, Arab Rep.",2010,,,0.19,0.48
+EGY,"Egypt, Arab Rep.",2012,,,0.18,0.45
+EGY,"Egypt, Arab Rep.",2014,,,0.25,0.88
+EGY,"Egypt, Arab Rep.",2016,,,0.15,0.4
+ERI,Eritrea,1992,,,0.29,0.5
+ERI,Eritrea,1995,,,0.19,0.4
+ERI,Eritrea,1998,,,0.23,0.37
+ERI,Eritrea,2000,,,0.33,0.56
+ERI,Eritrea,2002,,,0.25,0.36
+ERI,Eritrea,2004,,,0.4,0.8
+ERI,Eritrea,2006,,,0.81,1.9
+ERI,Eritrea,2008,,,1.07,2.53
+ERI,Eritrea,2010,,,1.07,2.54
+ERI,Eritrea,2012,,,1.71,2.49
+ERI,Eritrea,2014,,,3,3.33
+ERI,Eritrea,2016,,,1.33,2
+ESP,Spain,1995,,,0.7,0.89
+ESP,Spain,1998,,,0.7,0.84
+ESP,Spain,2000,,,0.65,0.73
+ESP,Spain,2002,,,0.72,0.83
+ESP,Spain,2004,,,1.1,1.21
+ESP,Spain,2006,,,1.1,1.15
+ESP,Spain,2008,,,1.28,1.23
+ESP,Spain,2010,,,1.47,1.56
+ESP,Spain,2012,,,1.75,1.75
+ESP,Spain,2014,,,1.55,1.63
+ESP,Spain,2016,,,1.13,1.26
+EST,Estonia,1995,,,0.33,0.33
+EST,Estonia,1998,,,0.36,0.45
+EST,Estonia,2000,,,0.55,0.6
+EST,Estonia,2002,,,0.56,0.58
+EST,Estonia,2004,,,0.94,0.94
+EST,Estonia,2006,,,1.22,1.23
+EST,Estonia,2008,,,1.3,1.18
+EST,Estonia,2010,,,1.57,1.54
+EST,Estonia,2012,,,1.76,1.76
+EST,Estonia,2014,,,1.51,1.46
+EST,Estonia,2016,,,1.14,1.14
+ETH,Ethiopia,1991,,,0.14,0.27
+ETH,Ethiopia,1992,,,0.19,0.26
+ETH,Ethiopia,1995,,,0.24,0.32
+ETH,Ethiopia,1998,,,0.25,0.36
+ETH,Ethiopia,2000,,,0.27,0.46
+ETH,Ethiopia,2002,,,0.32,0.52
+ETH,Ethiopia,2004,,,0.42,0.6
+ETH,Ethiopia,2006,,,0.62,0.93
+ETH,Ethiopia,2008,,,0.89,0.92
+ETH,Ethiopia,2010,,,0.78,0.91
+ETH,Ethiopia,2012,,,0.94,1.05
+ETH,Ethiopia,2014,,,0.89,0.99
+ETH,Ethiopia,2016,,,0.64,0.75
+FIN,Finland,1995,,,0.85,1.2
+FIN,Finland,1998,,,0.79,1.17
+FIN,Finland,2000,,,0.84,1.06
+FIN,Finland,2002,,,0.8,1.12
+FIN,Finland,2004,,,1.21,1.54
+FIN,Finland,2006,,,1.26,1.55
+FIN,Finland,2008,,,1.39,1.57
+FIN,Finland,2010,,,1.6,1.94
+FIN,Finland,2012,,,1.95,2.08
+FIN,Finland,2014,,,1.78,1.89
+FIN,Finland,2016,,,1.34,1.45
+FJI,Fiji,1998,,,0.37,0.5
+FJI,Fiji,2004,,,0.73,0.91
+FJI,Fiji,2006,,,0.94,1.07
+FJI,Fiji,2008,,,1.04,1.15
+FJI,Fiji,2012,,,1.29,1.41
+FJI,Fiji,2014,,,1.18,1.34
+FJI,Fiji,2016,,,0.67,0.82
+FRA,France,1995,,,0.78,1.17
+FRA,France,1998,,,0.77,1.11
+FRA,France,2000,,,0.82,0.99
+FRA,France,2002,,,0.8,1.05
+FRA,France,2004,,,1.25,1.42
+FRA,France,2006,,,1.33,1.48
+FRA,France,2008,,,1.45,1.52
+FRA,France,2010,,,1.72,1.98
+FRA,France,2012,,,1.78,1.91
+FRA,France,2014,,,1.63,1.79
+FRA,France,2016,,,1.2,1.39
+GAB,Gabon,1991,,,0.83,1.18
+GAB,Gabon,1992,,,0.7,1.16
+GAB,Gabon,1998,,,0.39,0.63
+GAB,Gabon,2000,,,0.37,0.53
+GAB,Gabon,2002,,,0.53,0.69
+GAB,Gabon,2004,,,0.69,0.9
+GAB,Gabon,2006,,,0.39,0.64
+GAB,Gabon,2008,,,0.9,1.14
+GAB,Gabon,2012,,,0.91,1.04
+GAB,Gabon,2014,,,0.9,1.02
+GAB,Gabon,2016,,,0.79,0.92
+GBR,United Kingdom,1995,,,0.85,0.92
+GBR,United Kingdom,1998,,,1.11,1.11
+GBR,United Kingdom,2000,,,1.22,1.17
+GBR,United Kingdom,2002,,,1.2,1.18
+GBR,United Kingdom,2004,,,1.6,1.56
+GBR,United Kingdom,2006,,,1.73,1.63
+GBR,United Kingdom,2008,,,1.65,1.44
+GBR,United Kingdom,2010,,,1.98,1.92
+GBR,United Kingdom,2012,,,2.27,2.17
+GBR,United Kingdom,2014,,,1.99,1.92
+GBR,United Kingdom,2016,,,1.49,1.46
+GEO,Georgia,1998,,,0.25,0.46
+GEO,Georgia,2002,,,0.41,0.48
+GEO,Georgia,2004,,,0.67,0.73
+GEO,Georgia,2006,,,0.89,0.86
+GEO,Georgia,2008,,,1.16,1.09
+GEO,Georgia,2010,,,1.13,1.13
+GEO,Georgia,2012,,,1.37,1.34
+GEO,Georgia,2014,,,1.24,1.24
+GEO,Georgia,2016,,,0.74,0.76
+GHA,Ghana,1991,,,0.43,0.53
+GHA,Ghana,1992,,,0.45,0.53
+GHA,Ghana,1995,,,0.33,0.38
+GHA,Ghana,1998,,,0.3,0.32
+GHA,Ghana,2000,,,0.19,0.2
+GHA,Ghana,2002,,,0.23,0.28
+GHA,Ghana,2004,,,0.43,0.49
+GHA,Ghana,2006,,,0.84,0.86
+GHA,Ghana,2008,,,0.9,0.9
+GHA,Ghana,2010,,,0.83,0.82
+GHA,Ghana,2012,,,0.95,0.92
+GHA,Ghana,2014,,,1.03,1.06
+GHA,Ghana,2016,,,0.85,0.92
+GIN,Guinea,1991,,,0.61,0.67
+GIN,Guinea,1992,,,0.56,0.61
+GIN,Guinea,1998,,,0.56,0.68
+GIN,Guinea,2000,,,0.69,0.85
+GIN,Guinea,2002,,,0.56,0.66
+GIN,Guinea,2004,,,0.69,0.75
+GIN,Guinea,2006,,,0.82,0.79
+GIN,Guinea,2008,,,1.02,1.02
+GIN,Guinea,2010,,,0.95,0.95
+GIN,Guinea,2012,,,1.34,1.34
+GIN,Guinea,2014,,,1.45,1.45
+GIN,Guinea,2016,,,0.9,0.9
+GMB,"Gambia, The",1991,,,0.52,0.73
+GMB,"Gambia, The",1992,,,0.48,0.67
+GMB,"Gambia, The",1998,,,0.63,0.83
+GMB,"Gambia, The",2000,,,0.47,0.64
+GMB,"Gambia, The",2002,,,0.4,0.46
+GMB,"Gambia, The",2004,,,0.73,0.75
+GMB,"Gambia, The",2006,,,1.01,1.08
+GMB,"Gambia, The",2008,,,0.75,0.79
+GMB,"Gambia, The",2014,,,1.29,1.37
+GMB,"Gambia, The",2016,,,1.06,1.18
+GRC,Greece,1995,,,0.59,0.88
+GRC,Greece,1998,,,0.4,0.65
+GRC,Greece,2000,,,0.71,0.72
+GRC,Greece,2002,,,0.68,0.78
+GRC,Greece,2004,,,1.23,1.14
+GRC,Greece,2006,,,1.19,1.16
+GRC,Greece,2008,,,1.41,1.23
+GRC,Greece,2010,,,1.78,2.05
+GRC,Greece,2012,,,2.08,2.06
+GRC,Greece,2014,,,1.63,1.98
+GRC,Greece,2016,,,1.22,1.54
+GRD,Grenada,1998,,,0.41,0.54
+GRD,Grenada,2000,,,0.41,0.54
+GRD,Grenada,2002,,,0.41,0.54
+GRD,Grenada,2004,,,0.68,0.73
+GRD,Grenada,2006,,,0.89,0.89
+GRD,Grenada,2008,,,1.34,1.28
+GRD,Grenada,2010,,,1.02,1.02
+GRD,Grenada,2012,,,1.07,1.4
+GRD,Grenada,2016,,,1.04,1.12
+GTM,Guatemala,1992,,,0.25,0.32
+GTM,Guatemala,1995,,,0.28,0.39
+GTM,Guatemala,1998,,,0.32,0.41
+GTM,Guatemala,2000,,,0.42,0.53
+GTM,Guatemala,2002,,,0.32,0.48
+GTM,Guatemala,2004,,,0.63,0.68
+GTM,Guatemala,2006,,,0.64,0.78
+GTM,Guatemala,2008,,,0.82,0.86
+GTM,Guatemala,2010,,,0.85,0.95
+GTM,Guatemala,2012,,,1.04,1.14
+GTM,Guatemala,2014,,,0.9,1.01
+GTM,Guatemala,2016,,,0.65,0.79
+GUY,Guyana,1998,,,0.27,0.3
+GUY,Guyana,2000,,,0.37,0.37
+GUY,Guyana,2002,,,0.27,0.31
+GUY,Guyana,2004,,,0.61,0.74
+GUY,Guyana,2008,,,0.85,0.84
+GUY,Guyana,2010,,,0.85,0.93
+GUY,Guyana,2012,,,1.05,1.08
+GUY,Guyana,2014,,,1.11,1.15
+GUY,Guyana,2016,,,0.78,0.9
+HKG,"Hong Kong SAR, China",1991,,,0.57,0.82
+HKG,"Hong Kong SAR, China",1995,,,0.74,1.19
+HKG,"Hong Kong SAR, China",1998,,,0.85,1.36
+HKG,"Hong Kong SAR, China",2000,,,0.8,1.46
+HKG,"Hong Kong SAR, China",2002,,,0.77,1.47
+HKG,"Hong Kong SAR, China",2004,,,1,1.54
+HKG,"Hong Kong SAR, China",2006,,,1.06,1.69
+HKG,"Hong Kong SAR, China",2008,,,1.16,1.95
+HKG,"Hong Kong SAR, China",2010,,,1.32,1.92
+HKG,"Hong Kong SAR, China",2012,,,1.57,2.16
+HKG,"Hong Kong SAR, China",2014,,,1.56,2.06
+HKG,"Hong Kong SAR, China",2016,,,1.42,1.86
+HND,Honduras,1992,,,0.26,0.41
+HND,Honduras,1995,,,0.25,0.35
+HND,Honduras,1998,,,0.3,0.5
+HND,Honduras,2000,,,0.46,0.62
+HND,Honduras,2002,,,0.46,0.63
+HND,Honduras,2004,,,0.66,0.81
+HND,Honduras,2006,,,0.73,0.89
+HND,Honduras,2008,,,0.8,0.8
+HND,Honduras,2010,,,0.92,1.04
+HND,Honduras,2012,,,1.15,1.25
+HND,Honduras,2014,,,1.03,1.2
+HND,Honduras,2016,,,0.8,0.98
+HRV,Croatia,1995,,,0.64,0.75
+HRV,Croatia,1998,,,0.61,0.67
+HRV,Croatia,2000,,,0.6,0.76
+HRV,Croatia,2002,,,0.74,0.89
+HRV,Croatia,2004,,,1.13,1.24
+HRV,Croatia,2006,,,1.22,1.34
+HRV,Croatia,2008,,,1.37,1.27
+HRV,Croatia,2010,,,1.49,1.59
+HRV,Croatia,2012,,,1.7,1.77
+HRV,Croatia,2014,,,1.59,1.66
+HRV,Croatia,2016,,,1.17,1.26
+HTI,Haiti,1998,,,0.36,0.59
+HTI,Haiti,2000,,,0.35,0.64
+HTI,Haiti,2002,,,0.3,0.54
+HTI,Haiti,2004,,,0.6,0.88
+HTI,Haiti,2008,,,0.89,1.16
+HTI,Haiti,2012,,,1.03,1.25
+HTI,Haiti,2014,,,0.94,1.16
+HTI,Haiti,2016,,,0.62,0.81
+HUN,Hungary,1995,,,0.65,0.74
+HUN,Hungary,1998,,,0.64,0.72
+HUN,Hungary,2000,,,0.79,0.81
+HUN,Hungary,2002,,,0.85,0.94
+HUN,Hungary,2004,,,1.22,1.3
+HUN,Hungary,2006,,,1.31,1.3
+HUN,Hungary,2008,,,1.38,1.27
+HUN,Hungary,2010,,,1.61,1.67
+HUN,Hungary,2012,,,1.91,1.84
+HUN,Hungary,2014,,,1.65,1.58
+HUN,Hungary,2016,,,1.2,1.18
+IDN,Indonesia,1991,,,0.13,0.24
+IDN,Indonesia,1995,,,0.2,0.44
+IDN,Indonesia,1998,,,0.07,0.16
+IDN,Indonesia,2000,,,0.06,0.17
+IDN,Indonesia,2002,,,0.19,0.27
+IDN,Indonesia,2004,,,0.18,0.27
+IDN,Indonesia,2006,,,0.44,0.57
+IDN,Indonesia,2008,,,0.42,0.5
+IDN,Indonesia,2010,,,0.51,0.79
+IDN,Indonesia,2012,,,0.47,0.47
+IDN,Indonesia,2014,,,0.62,0.93
+IDN,Indonesia,2016,,,0.61,0.63
+IND,India,1991,,,0.23,0.56
+IND,India,1995,,,0.19,0.48
+IND,India,1998,,,0.21,0.56
+IND,India,2000,,,0.39,0.6
+IND,India,2002,,,0.41,0.66
+IND,India,2004,,,0.62,0.87
+IND,India,2006,,,0.75,1.01
+IND,India,2008,,,0.7,1.09
+IND,India,2010,,,0.82,1.15
+IND,India,2012,,,0.86,1.25
+IND,India,2014,,,0.91,1.1
+IND,India,2016,,,0.81,0.97
+IRL,Ireland,1995,,,0.87,0.96
+IRL,Ireland,1998,,,1.02,1.02
+IRL,Ireland,2000,,,0.72,0.72
+IRL,Ireland,2002,,,0.8,0.9
+IRL,Ireland,2004,,,1.29,1.29
+IRL,Ireland,2006,,,1.35,1.34
+IRL,Ireland,2008,,,1.64,1.56
+IRL,Ireland,2010,,,1.69,1.78
+IRL,Ireland,2012,,,1.98,2.02
+IRL,Ireland,2014,,,1.84,1.92
+IRL,Ireland,2016,,,1.29,1.37
+IRN,"Iran, Islamic Rep.",1998,,,0.01,0.08
+IRN,"Iran, Islamic Rep.",2000,,,0.02,0.05
+IRN,"Iran, Islamic Rep.",2002,,,0.02,0.07
+IRN,"Iran, Islamic Rep.",2004,,,0.02,0.09
+IRN,"Iran, Islamic Rep.",2006,,,0.03,0.09
+IRN,"Iran, Islamic Rep.",2008,,,0.03,0.1
+IRN,"Iran, Islamic Rep.",2010,,,0.016,0.097
+IRN,"Iran, Islamic Rep.",2012,,,0.124,0.33
+IRN,"Iran, Islamic Rep.",2014,,,0.187,0.374
+IRN,"Iran, Islamic Rep.",2016,,,0.216,0.399
+IRQ,Iraq,2010,,,0.56,0.78
+IRQ,Iraq,2014,,,,0.43
+IRQ,Iraq,2016,,,0.7,0.61
+ISL,Iceland,1998,,,0.4,1.12
+ISL,Iceland,2000,,,0.45,1.05
+ISL,Iceland,2002,,,0.62,1.16
+ISL,Iceland,2004,,,0.88,1.64
+ISL,Iceland,2006,,,1.78,1.86
+ISL,Iceland,2008,,,1.31,1.15
+ISL,Iceland,2010,,,1.71,1.71
+ISL,Iceland,2012,,,2.06,1.99
+ISL,Iceland,2014,,,1.86,1.85
+ISL,Iceland,2016,,,1.63,1.69
+ISR,Israel,1995,,,0.31,0.73
+ISR,Israel,1998,,,0.31,0.86
+ISR,Israel,2000,,,0.64,1.14
+ISR,Israel,2002,,,0.62,0.9
+ISR,Israel,2004,,,0.8,1.05
+ISR,Israel,2006,,,1.27,1.47
+ISR,Israel,2008,,,1.7,1.37
+ISR,Israel,2010,,,1.87,1.85
+ISR,Israel,2012,,,2.12,2.01
+ISR,Israel,2014,,,2.08,1.88
+ISR,Israel,2016,,,,1.57
+ITA,Italy,1995,,,0.86,1.18
+ITA,Italy,1998,,,0.93,1.19
+ITA,Italy,2000,,,0.83,0.97
+ITA,Italy,2002,,,0.86,1.05
+ITA,Italy,2004,,,1.31,1.53
+ITA,Italy,2006,,,1.49,1.56
+ITA,Italy,2008,,,1.63,1.57
+ITA,Italy,2010,,,1.69,1.87
+ITA,Italy,2012,,,2.18,2.28
+ITA,Italy,2014,,,2.01,2.14
+ITA,Italy,2016,,,1.44,1.61
+JAM,Jamaica,1998,,,0.33,0.37
+JAM,Jamaica,2000,,,0.49,0.62
+JAM,Jamaica,2002,,,0.44,0.52
+JAM,Jamaica,2004,,,0.57,0.63
+JAM,Jamaica,2006,,,0.75,0.82
+JAM,Jamaica,2008,,,0.84,0.74
+JAM,Jamaica,2010,,,0.98,0.98
+JAM,Jamaica,2012,,,1.19,1.2
+JAM,Jamaica,2014,,,1.06,1.14
+JAM,Jamaica,2016,,,,1.11
+JOR,Jordan,1995,,,0.15,0.4
+JOR,Jordan,1998,,,0.15,0.42
+JOR,Jordan,2000,,,0.15,0.45
+JOR,Jordan,2002,,,0.17,0.52
+JOR,Jordan,2004,,,0.19,0.61
+JOR,Jordan,2006,,,0.45,0.86
+JOR,Jordan,2008,,,0.61,0.61
+JOR,Jordan,2010,,,0.73,1.04
+JOR,Jordan,2012,,,0.97,1.44
+JOR,Jordan,2014,,,0.82,1.27
+JOR,Jordan,2016,,,0.64,1.1
+JPN,Japan,1995,,,0.75,1.25
+JPN,Japan,1998,,,0.69,1.02
+JPN,Japan,2000,,,0.76,1.06
+JPN,Japan,2002,,,0.66,0.91
+JPN,Japan,2004,,,0.95,1.26
+JPN,Japan,2006,,,0.9,1.09
+JPN,Japan,2008,,,1.3,1.42
+JPN,Japan,2010,,,1.37,1.6
+JPN,Japan,2012,,,1.61,2
+JPN,Japan,2014,,,1.1,1.38
+JPN,Japan,2016,,,0.88,1.06
+KAZ,Kazakhstan,1995,,,,0.3
+KAZ,Kazakhstan,1998,,,0.24,0.3
+KAZ,Kazakhstan,2000,,,0.29,0.36
+KAZ,Kazakhstan,2002,,,0.29,0.35
+KAZ,Kazakhstan,2004,,,0.38,0.52
+KAZ,Kazakhstan,2006,,,0.45,0.7
+KAZ,Kazakhstan,2008,,,0.72,0.83
+KAZ,Kazakhstan,2010,,,0.51,0.71
+KAZ,Kazakhstan,2012,,,0.67,1.01
+KAZ,Kazakhstan,2014,,,0.64,0.81
+KAZ,Kazakhstan,2016,,,0.4,0.42
+KEN,Kenya,1991,,,0.37,0.53
+KEN,Kenya,1992,,,0.33,0.4
+KEN,Kenya,1995,,,0.43,0.56
+KEN,Kenya,1998,,,0.54,0.7
+KEN,Kenya,2000,,,0.6,0.71
+KEN,Kenya,2002,,,0.56,0.7
+KEN,Kenya,2004,,,0.76,0.92
+KEN,Kenya,2006,,,0.98,1.12
+KEN,Kenya,2008,,,1.14,1.2
+KEN,Kenya,2010,,,1.27,1.33
+KEN,Kenya,2012,,,1.26,1.37
+KEN,Kenya,2014,,,1.07,1.21
+KEN,Kenya,2016,,,0.82,0.95
+KGZ,Kyrgyz Republic,1998,,,0.27,0.47
+KGZ,Kyrgyz Republic,2000,,,0.33,0.44
+KGZ,Kyrgyz Republic,2002,,,0.25,0.39
+KGZ,Kyrgyz Republic,2004,,,0.43,0.48
+KGZ,Kyrgyz Republic,2006,,,0.54,0.64
+KGZ,Kyrgyz Republic,2008,,,0.88,0.8
+KGZ,Kyrgyz Republic,2010,,,0.79,0.85
+KGZ,Kyrgyz Republic,2012,,,,0.89
+KGZ,Kyrgyz Republic,2014,,,0.76,0.94
+KGZ,Kyrgyz Republic,2016,,,0.49,0.56
+KHM,Cambodia,1998,,,0.28,0.47
+KHM,Cambodia,2000,,,0.44,0.61
+KHM,Cambodia,2002,,,0.44,0.63
+KHM,Cambodia,2004,,,0.61,0.79
+KHM,Cambodia,2006,,,0.78,1.01
+KHM,Cambodia,2008,,,0.89,0.94
+KHM,Cambodia,2010,,,0.98,1.15
+KHM,Cambodia,2012,,,1.27,1.35
+KHM,Cambodia,2014,,,1.24,1.34
+KHM,Cambodia,2016,,,0.8,0.9
+KOR,"Korea, Rep.",1991,,,0.25,0.54
+KOR,"Korea, Rep.",1995,,,0.33,0.79
+KOR,"Korea, Rep.",1998,,,0.41,0.93
+KOR,"Korea, Rep.",2000,,,0.66,0.92
+KOR,"Korea, Rep.",2002,,,0.64,1.09
+KOR,"Korea, Rep.",2004,,,0.95,1.35
+KOR,"Korea, Rep.",2006,,,1.33,1.65
+KOR,"Korea, Rep.",2008,,,1.4,1.51
+KOR,"Korea, Rep.",2010,,,1.35,1.52
+KOR,"Korea, Rep.",2012,,,1.63,1.8
+KOR,"Korea, Rep.",2014,,,1.37,1.55
+KOR,"Korea, Rep.",2016,,,1.05,1.22
+KWT,Kuwait,1998,,,0.13,0.17
+KWT,Kuwait,2000,,,0.18,0.21
+KWT,Kuwait,2002,,,0.18,0.2
+KWT,Kuwait,2004,,,0.24,0.24
+KWT,Kuwait,2006,,,0.21,0.22
+KWT,Kuwait,2008,,,0.2,0.24
+KWT,Kuwait,2010,,,0.21,0.23
+KWT,Kuwait,2012,,,0.2,0.23
+KWT,Kuwait,2014,,,0.19,0.22
+KWT,Kuwait,2016,,,0.31,0.35
+LAO,Lao PDR,1998,,,0.24,0.31
+LAO,Lao PDR,2000,,,0.32,0.41
+LAO,Lao PDR,2002,,,0.3,0.36
+LAO,Lao PDR,2004,,,0.48,0.54
+LAO,Lao PDR,2006,,,0.73,0.86
+LAO,Lao PDR,2008,,,0.76,0.92
+LAO,Lao PDR,2010,,,0.97,1.26
+LAO,Lao PDR,2012,,,1.18,1.33
+LAO,Lao PDR,2014,,,1.08,1.4
+LAO,Lao PDR,2016,,,0.8,0.93
+LBN,Lebanon,1998,,,0.22,0.35
+LBN,Lebanon,2000,,,0.31,0.53
+LBN,Lebanon,2002,,,0.25,0.65
+LBN,Lebanon,2004,,,0.43,0.71
+LBN,Lebanon,2006,,,0.62,0.74
+LBN,Lebanon,2008,,,0.76,0.76
+LBN,Lebanon,2010,,,0.77,1.13
+LBN,Lebanon,2012,,,0.94,1.11
+LBN,Lebanon,2014,,,0.73,0.96
+LBN,Lebanon,2016,,,0.47,0.74
+LBR,Liberia,2004,,,0.77,0.75
+LBR,Liberia,2006,,,0.85,0.79
+LBR,Liberia,2008,,,1.03,0.77
+LBR,Liberia,2010,,,0.96,0.98
+LBR,Liberia,2012,,,1.22,1.17
+LBR,Liberia,2014,,,0.94,0.91
+LBR,Liberia,2016,,,0.83,0.8
+LBY,Libya,1998,,,0.17,0.22
+LBY,Libya,2000,,,0.16,0.25
+LBY,Libya,2002,,,0.08,0.1
+LBY,Libya,2004,,,0.08,0.09
+LBY,Libya,2006,,,0.06,0.12
+LBY,Libya,2008,,,0.12,0.14
+LBY,Libya,2010,,,0.13,0.17
+LBY,Libya,2012,,,0.1,0.12
+LBY,Libya,2016,,,0.11,0.11
+LCA,St. Lucia,2014,,,,1.3
+LIE,Liechtenstein,1998,,,0.89,0.85
+LIE,Liechtenstein,2000,,,0.84,0.81
+LIE,Liechtenstein,2002,,,0.93,0.89
+LIE,Liechtenstein,2004,,,1.37,1.29
+LIE,Liechtenstein,2006,,,1.36,1.27
+LIE,Liechtenstein,2008,,,1.52,1.3
+LIE,Liechtenstein,2010,,,1.77,1.66
+LIE,Liechtenstein,2012,,,2.06,1.88
+LIE,Liechtenstein,2014,,,1.79,1.74
+LKA,Sri Lanka,1991,,,0.27,0.75
+LKA,Sri Lanka,1995,,,0.23,0.75
+LKA,Sri Lanka,1998,,,0.3,0.84
+LKA,Sri Lanka,2000,,,0.27,0.66
+LKA,Sri Lanka,2002,,,0.31,0.54
+LKA,Sri Lanka,2004,,,0.41,0.72
+LKA,Sri Lanka,2006,,,0.55,0.88
+LKA,Sri Lanka,2008,,,0.75,1.43
+LKA,Sri Lanka,2010,,,0.66,1.19
+LKA,Sri Lanka,2012,,,0.93,1.29
+LKA,Sri Lanka,2014,,,0.9,1.27
+LKA,Sri Lanka,2016,,,0.65,0.88
+LSO,Lesotho,1998,,,0.38,0.39
+LSO,Lesotho,2000,,,0.47,0.5
+LSO,Lesotho,2004,,,0.68,0.73
+LSO,Lesotho,2006,,,0.88,0.89
+LSO,Lesotho,2008,,,0.93,0.79
+LSO,Lesotho,2010,,,1.07,0.97
+LSO,Lesotho,2012,,,1.31,1.24
+LSO,Lesotho,2014,,,1.07,1.03
+LSO,Lesotho,2016,,,0.73,0.7
+LTU,Lithuania,1995,,,0.3,0.35
+LTU,Lithuania,1998,,,0.34,0.51
+LTU,Lithuania,2000,,,0.55,0.66
+LTU,Lithuania,2002,,,0.59,0.69
+LTU,Lithuania,2004,,,1.02,1.03
+LTU,Lithuania,2006,,,1.09,1.08
+LTU,Lithuania,2008,,,1.22,1.13
+LTU,Lithuania,2010,,,1.42,1.59
+LTU,Lithuania,2012,,,1.7,1.83
+LTU,Lithuania,2014,,,1.5,1.57
+LTU,Lithuania,2016,,,1.05,1.16
+LUX,Luxembourg,1995,,,0.68,0.84
+LUX,Luxembourg,1998,,,0.61,0.78
+LUX,Luxembourg,2000,,,0.67,0.75
+LUX,Luxembourg,2002,,,0.65,0.76
+LUX,Luxembourg,2004,,,0.98,1.19
+LUX,Luxembourg,2006,,,1.14,1.29
+LUX,Luxembourg,2008,,,1.33,1.4
+LUX,Luxembourg,2010,,,1.36,1.55
+LUX,Luxembourg,2012,,,1.64,1.64
+LUX,Luxembourg,2014,,,1.39,1.52
+LUX,Luxembourg,2016,,,1.03,1.19
+LVA,Latvia,1995,,,0.34,0.41
+LVA,Latvia,1998,,,0.35,0.55
+LVA,Latvia,2000,,,0.58,0.67
+LVA,Latvia,2002,,,0.65,0.7
+LVA,Latvia,2004,,,0.9,0.94
+LVA,Latvia,2006,,,1.15,1.2
+LVA,Latvia,2008,,,1.23,1.12
+LVA,Latvia,2010,,,1.49,1.48
+LVA,Latvia,2012,,,1.77,1.8
+LVA,Latvia,2014,,,1.49,1.48
+LVA,Latvia,2016,,,1.07,1.16
+MAR,Morocco,1991,,,0.45,0.82
+MAR,Morocco,1992,,,0.41,0.75
+MAR,Morocco,1995,,,0.47,0.94
+MAR,Morocco,1998,,,0.47,0.79
+MAR,Morocco,2000,,,0.53,0.82
+MAR,Morocco,2002,,,0.55,0.87
+MAR,Morocco,2004,,,0.7,1.1
+MAR,Morocco,2006,,,0.87,1.22
+MAR,Morocco,2008,,,0.83,1.29
+MAR,Morocco,2010,,,0.88,1.23
+MAR,Morocco,2012,,,0.96,1.42
+MAR,Morocco,2014,,,1.11,1.38
+MAR,Morocco,2016,,,0.86,0.99
+MCO,Monaco,2008,,,1.55,1.64
+MCO,Monaco,2010,,,1.69,1.92
+MCO,Monaco,2012,,,2.04,2.23
+MCO,Monaco,2014,,,1.78,2
+MDA,Moldova,2008,,,1.04,1.2
+MDA,Moldova,2010,,,1.08,1.21
+MDA,Moldova,2012,,,1.4,1.42
+MDA,Moldova,2014,,,1.16,1.21
+MDA,Moldova,2016,,,0.69,0.8
+MDG,Madagascar,1991,,,0.25,0.43
+MDG,Madagascar,1992,,,0.31,0.54
+MDG,Madagascar,1995,,,0.32,0.47
+MDG,Madagascar,1998,,,0.33,0.47
+MDG,Madagascar,2000,,,0.45,0.76
+MDG,Madagascar,2002,,,0.65,1.08
+MDG,Madagascar,2004,,,0.79,1.05
+MDG,Madagascar,2006,,,1,1.15
+MDG,Madagascar,2008,,,1.43,1.55
+MDG,Madagascar,2010,,,1.26,1.52
+MDG,Madagascar,2012,,,1.22,1.49
+MDG,Madagascar,2014,,,1.09,1.35
+MDG,Madagascar,2016,,,0.93,1.11
+MDV,Maldives,2010,,,0.83,0.84
+MDV,Maldives,2012,,,1.09,1.1
+MDV,Maldives,2014,,,0.98,1.63
+MEX,Mexico,1992,,,0.28,0.39
+MEX,Mexico,1995,,,0.25,0.32
+MEX,Mexico,1998,,,0.28,0.36
+MEX,Mexico,2000,,,0.45,0.61
+MEX,Mexico,2002,,,0.47,0.62
+MEX,Mexico,2004,,,0.45,0.59
+MEX,Mexico,2006,,,0.52,0.74
+MEX,Mexico,2008,,,0.54,0.74
+MEX,Mexico,2010,,,0.72,0.81
+MEX,Mexico,2012,,,0.85,0.86
+MEX,Mexico,2014,,,1.02,1.03
+MEX,Mexico,2016,,,0.72,0.73
+MHL,Marshall Islands,2014,,,1.47,1.44
+MKD,North Macedonia,1995,,,0.59,0.93
+MKD,North Macedonia,1998,,,0.46,0.7
+MKD,North Macedonia,2000,,,0.56,0.76
+MKD,North Macedonia,2002,,,0.63,0.85
+MKD,North Macedonia,2004,,,0.92,1.17
+MKD,North Macedonia,2006,,,1.09,1.23
+MKD,North Macedonia,2008,,,1.12,1.15
+MKD,North Macedonia,2010,,,1.27,1.52
+MKD,North Macedonia,2012,,,1.55,1.75
+MKD,North Macedonia,2014,,,1.27,1.49
+MKD,North Macedonia,2016,,,0.88,1.11
+MLI,Mali,1991,,,0.74,1.12
+MLI,Mali,1992,,,0.74,1.14
+MLI,Mali,1995,,,0.57,0.82
+MLI,Mali,1998,,,0.48,0.77
+MLI,Mali,2000,,,0.43,0.7
+MLI,Mali,2002,,,0.55,0.69
+MLI,Mali,2004,,,0.9,1.16
+MLI,Mali,2006,,,1.04,1.22
+MLI,Mali,2008,,,1.1,1.3
+MLI,Mali,2010,,,1.25,1.42
+MLI,Mali,2012,,,1.25,1.41
+MLI,Mali,2014,,,1.29,1.47
+MLI,Mali,2016,,,0.98,1.12
+MLT,Malta,1998,,,0.49,0.77
+MLT,Malta,2000,,,0.44,0.81
+MLT,Malta,2002,,,0.53,0.87
+MLT,Malta,2004,,,0.97,1.18
+MLT,Malta,2006,,,1.26,1.38
+MLT,Malta,2008,,,1.56,1.66
+MLT,Malta,2010,,,1.66,1.63
+MLT,Malta,2012,,,1.75,1.92
+MLT,Malta,2014,,,1.7,1.8
+MLT,Malta,2016,,,1.22,1.36
+MMR,Myanmar,1998,,,0.12,0.13
+MMR,Myanmar,2000,,,0.12,0.33
+MMR,Myanmar,2002,,,0.28,0.36
+MMR,Myanmar,2004,,,0.1,0.12
+MMR,Myanmar,2006,,,0.75,0.66
+MMR,Myanmar,2008,,,0.52,0.43
+MMR,Myanmar,2010,,,0.8,0.8
+MMR,Myanmar,2012,,,,1.04
+MMR,Myanmar,2014,,,0.93,1.14
+MMR,Myanmar,2016,,,0.51,0.54
+MNE,Montenegro,1995,,,0.84,0.76
+MNE,Montenegro,1998,,,0.43,0.61
+MNE,Montenegro,2000,,,0.56,0.56
+MNE,Montenegro,2002,,,0.66,0.74
+MNE,Montenegro,2004,,,1.06,1.2
+MNE,Montenegro,2006,,,1.27,1.51
+MNE,Montenegro,2008,,,1.21,1.27
+MNE,Montenegro,2010,,,1.49,1.62
+MNE,Montenegro,2012,,,1.75,1.82
+MNE,Montenegro,2014,,,1.49,1.6
+MNE,Montenegro,2016,,,1.02,1.16
+MNG,Mongolia,1998,,,0.22,0.23
+MNG,Mongolia,2000,,,0.38,0.38
+MNG,Mongolia,2002,,,0.37,0.38
+MNG,Mongolia,2004,,,0.67,0.61
+MNG,Mongolia,2006,,,0.87,0.88
+MNG,Mongolia,2008,,,1.42,1.38
+MNG,Mongolia,2010,,,1.04,1.11
+MNG,Mongolia,2012,,,1.22,1.29
+MNG,Mongolia,2014,,,0.96,1.01
+MNG,Mongolia,2016,,,0.67,0.72
+MOZ,Mozambique,1991,,,0.26,0.74
+MOZ,Mozambique,1992,,,0.21,0.48
+MOZ,Mozambique,1995,,,0.32,0.53
+MOZ,Mozambique,1998,,,0.41,0.55
+MOZ,Mozambique,2000,,,0.54,0.56
+MOZ,Mozambique,2002,,,0.43,0.46
+MOZ,Mozambique,2004,,,0.79,0.88
+MOZ,Mozambique,2006,,,1.06,1.15
+MOZ,Mozambique,2008,,,1.37,1.71
+MOZ,Mozambique,2010,,,0.86,1.11
+MOZ,Mozambique,2012,,,1.23,1.58
+MOZ,Mozambique,2014,,,1.2,1.55
+MOZ,Mozambique,2016,,,0.6,0.65
+MRT,Mauritania,1991,,,0.53,0.86
+MRT,Mauritania,1992,,,0.43,0.85
+MRT,Mauritania,1998,,,0.31,0.59
+MRT,Mauritania,2000,,,0.4,0.67
+MRT,Mauritania,2002,,,0.39,0.63
+MRT,Mauritania,2004,,,0.59,0.8
+MRT,Mauritania,2006,,,0.84,0.97
+MRT,Mauritania,2008,,,1.06,1.49
+MRT,Mauritania,2010,,,0.99,1.16
+MRT,Mauritania,2012,,,1.27,1.43
+MRT,Mauritania,2014,,,1.35,1.53
+MRT,Mauritania,2016,,,1.09,1.13
+MUS,Mauritius,2010,,,1.23,1.55
+MUS,Mauritius,2012,,,1.38,1.65
+MUS,Mauritius,2014,,,1.38,1.65
+MUS,Mauritius,2016,,,0.85,1.12
+MWI,Malawi,1991,,,0.56,0.64
+MWI,Malawi,1992,,,0.67,0.71
+MWI,Malawi,1995,,,0.55,0.65
+MWI,Malawi,1998,,,0.45,0.51
+MWI,Malawi,2000,,,0.68,0.69
+MWI,Malawi,2002,,,0.62,0.66
+MWI,Malawi,2004,,,0.88,0.95
+MWI,Malawi,2006,,,1.12,1.17
+MWI,Malawi,2008,,,1.67,1.78
+MWI,Malawi,2010,,,1.54,1.71
+MWI,Malawi,2012,,,1.9,1.93
+MWI,Malawi,2014,,,1.8,1.78
+MWI,Malawi,2016,,,1.14,1.15
+MYS,Malaysia,1991,,,0.22,0.4
+MYS,Malaysia,1995,,,0.26,0.42
+MYS,Malaysia,1998,,,0.17,0.28
+MYS,Malaysia,2000,,,0.16,0.28
+MYS,Malaysia,2002,,,0.19,0.35
+MYS,Malaysia,2004,,,0.22,0.37
+MYS,Malaysia,2006,,,0.4,0.53
+MYS,Malaysia,2008,,,0.53,0.53
+MYS,Malaysia,2010,,,0.56,0.59
+MYS,Malaysia,2012,,,0.59,0.62
+MYS,Malaysia,2014,,,0.65,0.68
+MYS,Malaysia,2016,,,0.44,0.45
+NAM,Namibia,1991,,,0.41,0.46
+NAM,Namibia,1992,,,0.38,0.42
+NAM,Namibia,1998,,,0.36,0.38
+NAM,Namibia,2000,,,0.44,0.47
+NAM,Namibia,2002,,,0.43,0.45
+NAM,Namibia,2004,,,0.65,0.68
+NAM,Namibia,2006,,,0.87,0.87
+NAM,Namibia,2008,,,0.88,0.78
+NAM,Namibia,2010,,,1.09,1.06
+NAM,Namibia,2012,,,1.31,1.24
+NAM,Namibia,2014,,,1.12,1.08
+NAM,Namibia,2016,,,0.74,0.76
+NER,Niger,1991,,,0.81,0.94
+NER,Niger,1992,,,0.6,0.92
+NER,Niger,1995,,,0.55,0.79
+NER,Niger,1998,,,0.52,0.76
+NER,Niger,2000,,,0.48,0.68
+NER,Niger,2002,,,0.55,0.77
+NER,Niger,2004,,,0.91,1.02
+NER,Niger,2006,,,1.11,1.14
+NER,Niger,2008,,,0.97,0.99
+NER,Niger,2010,,,1.16,1.07
+NER,Niger,2012,,,1.12,1.12
+NER,Niger,2014,,,1.03,1.09
+NER,Niger,2016,,,0.88,0.88
+NGA,Nigeria,1991,,,0.04,0.05
+NGA,Nigeria,1992,,,0.01,0.02
+NGA,Nigeria,1995,,,0.03,0.13
+NGA,Nigeria,1998,,,0.1,0.13
+NGA,Nigeria,2000,,,0.27,0.27
+NGA,Nigeria,2002,,,0.19,0.2
+NGA,Nigeria,2004,,,0.45,0.39
+NGA,Nigeria,2006,,,0.66,0.51
+NGA,Nigeria,2008,,,1.13,0.59
+NGA,Nigeria,2010,,,0.77,0.44
+NGA,Nigeria,2012,,,1.09,0.62
+NGA,Nigeria,2014,,,0.84,0.56
+NGA,Nigeria,2016,,,0.64,0.46
+NIC,Nicaragua,1992,,,0.3,0.69
+NIC,Nicaragua,1995,,,0.31,0.62
+NIC,Nicaragua,1998,,,0.35,0.47
+NIC,Nicaragua,2000,,,0.54,0.62
+NIC,Nicaragua,2002,,,0.41,0.54
+NIC,Nicaragua,2004,,,0.64,0.69
+NIC,Nicaragua,2006,,,0.58,0.67
+NIC,Nicaragua,2008,,,0.82,0.87
+NIC,Nicaragua,2010,,,0.99,1.09
+NIC,Nicaragua,2012,,,1.19,1.23
+NIC,Nicaragua,2014,,,1.04,1.18
+NIC,Nicaragua,2016,,,0.75,0.91
+NLD,Netherlands,1995,,,0.82,1.21
+NLD,Netherlands,1998,,,0.79,1.14
+NLD,Netherlands,2000,,,0.78,1.03
+NLD,Netherlands,2002,,,0.81,1.12
+NLD,Netherlands,2004,,,1.23,1.62
+NLD,Netherlands,2006,,,1.32,1.7
+NLD,Netherlands,2008,,,1.45,1.68
+NLD,Netherlands,2010,,,1.71,2.13
+NLD,Netherlands,2012,,,1.95,2.33
+NLD,Netherlands,2014,,,1.8,2.15
+NLD,Netherlands,2016,,,1.34,1.68
+NOR,Norway,1995,,,1.09,1.33
+NOR,Norway,1998,,,1.1,1.21
+NOR,Norway,2000,,,1.15,1.19
+NOR,Norway,2002,,,1.18,1.23
+NOR,Norway,2004,,,1.44,1.61
+NOR,Norway,2006,,,1.66,1.8
+NOR,Norway,2008,,,1.63,1.63
+NOR,Norway,2010,,,2.01,2.12
+NOR,Norway,2012,,,2.35,2.53
+NOR,Norway,2014,,,2.11,2.27
+NOR,Norway,2016,,,1.63,1.78
+NPL,Nepal,1991,,,0.31,0.65
+NPL,Nepal,1995,,,0.22,0.52
+NPL,Nepal,1998,,,0.24,0.59
+NPL,Nepal,2000,,,0.37,0.63
+NPL,Nepal,2002,,,0.34,0.66
+NPL,Nepal,2004,,,0.49,0.72
+NPL,Nepal,2006,,,0.73,0.94
+NPL,Nepal,2008,,,0.82,1.13
+NPL,Nepal,2010,,,0.91,1.18
+NPL,Nepal,2012,,,1.09,1.44
+NPL,Nepal,2014,,,1.04,1.31
+NPL,Nepal,2016,,,0.68,0.91
+NRU,Naoero,2010,,,1.57,1.6
+NZL,New Zealand,1995,,,0.32,0.61
+NZL,New Zealand,1998,,,0.39,0.64
+NZL,New Zealand,2000,,,0.34,0.48
+NZL,New Zealand,2002,,,0.33,0.55
+NZL,New Zealand,2004,,,0.41,0.77
+NZL,New Zealand,2006,,,0.7,0.98
+NZL,New Zealand,2008,,,0.85,1.09
+NZL,New Zealand,2010,,,0.97,1.47
+NZL,New Zealand,2012,,,1.24,1.77
+NZL,New Zealand,2014,,,1.11,1.71
+NZL,New Zealand,2016,,,0.79,1.4
+OMN,Oman,1998,,,0.26,0.31
+OMN,Oman,2000,,,0.29,0.31
+OMN,Oman,2002,,,0.26,0.31
+OMN,Oman,2004,,,0.26,0.31
+OMN,Oman,2006,,,0.39,0.31
+OMN,Oman,2008,,,0.38,0.31
+OMN,Oman,2010,,,0.38,0.31
+OMN,Oman,2012,,,0.38,0.31
+OMN,Oman,2014,,,0.38,0.31
+OMN,Oman,2016,,,0.49,0.45
+PAK,Pakistan,1995,,,0.2,0.47
+PAK,Pakistan,1998,,,0.19,0.46
+PAK,Pakistan,2000,,,0.27,0.53
+PAK,Pakistan,2002,,,0.35,0.52
+PAK,Pakistan,2004,,,0.41,0.62
+PAK,Pakistan,2006,,,0.64,1.01
+PAK,Pakistan,2008,,,0.77,0.84
+PAK,Pakistan,2010,,,0.92,0.86
+PAK,Pakistan,2012,,,1.2,1.14
+PAK,Pakistan,2014,,,1.01,0.94
+PAK,Pakistan,2016,,,0.7,0.79
+PAN,Panama,1992,,,0.3,0.43
+PAN,Panama,1998,,,0.28,0.41
+PAN,Panama,2000,,,0.41,0.53
+PAN,Panama,2002,,,0.36,0.51
+PAN,Panama,2004,,,0.48,0.54
+PAN,Panama,2006,,,0.6,0.7
+PAN,Panama,2008,,,0.68,0.67
+PAN,Panama,2010,,,0.77,0.85
+PAN,Panama,2012,,,1.02,1.05
+PAN,Panama,2014,,,0.85,0.96
+PAN,Panama,2016,,,0.61,0.74
+PER,Peru,1992,,,0.32,0.56
+PER,Peru,1995,,,0.43,0.68
+PER,Peru,1998,,,0.33,0.55
+PER,Peru,2000,,,0.54,0.8
+PER,Peru,2002,,,0.48,0.74
+PER,Peru,2004,,,0.76,1.12
+PER,Peru,2006,,,0.86,1.22
+PER,Peru,2008,,,0.99,1.42
+PER,Peru,2010,,,1.1,1.41
+PER,Peru,2012,,,1.41,1.63
+PER,Peru,2014,,,1.17,1.46
+PER,Peru,2016,,,0.88,0.99
+PHL,Philippines,1991,,,0.25,0.4
+PHL,Philippines,1995,,,0.27,0.34
+PHL,Philippines,1998,,,0.22,0.34
+PHL,Philippines,2000,,,0.28,0.37
+PHL,Philippines,2002,,,0.27,0.35
+PHL,Philippines,2004,,,0.34,0.52
+PHL,Philippines,2006,,,0.67,0.76
+PHL,Philippines,2008,,,0.81,0.91
+PHL,Philippines,2010,,,0.84,1.05
+PHL,Philippines,2012,,,1.01,1.25
+PHL,Philippines,2014,,,0.82,1.05
+PHL,Philippines,2016,,,0.58,0.86
+PNG,Papua New Guinea,1998,,,0.28,0.41
+PNG,Papua New Guinea,2000,,,0.34,0.53
+PNG,Papua New Guinea,2004,,,0.64,0.94
+PNG,Papua New Guinea,2008,,,0.9,0.94
+PNG,Papua New Guinea,2014,,,1.13,1.36
+POL,Poland,1995,,,0.42,0.55
+POL,Poland,1998,,,0.44,0.54
+POL,Poland,2000,,,0.65,0.76
+POL,Poland,2002,,,0.68,0.83
+POL,Poland,2004,,,1.09,1.2
+POL,Poland,2006,,,1.3,1.3
+POL,Poland,2008,,,1.4,1.43
+POL,Poland,2010,,,1.5,1.57
+POL,Poland,2012,,,1.73,1.74
+POL,Poland,2014,,,1.39,1.42
+POL,Poland,2016,,,1.04,1.07
+PRK,"Korea, Dem. People's Rep.",1998,,,0.41,0.73
+PRK,"Korea, Dem. People's Rep.",2000,,,0.35,0.55
+PRK,"Korea, Dem. People's Rep.",2002,,,0.41,0.55
+PRK,"Korea, Dem. People's Rep.",2004,,,0.61,0.78
+PRK,"Korea, Dem. People's Rep.",2006,,,0.79,0.71
+PRK,"Korea, Dem. People's Rep.",2008,,,0.95,0.76
+PRK,"Korea, Dem. People's Rep.",2012,,,1.31,
+PRK,"Korea, Dem. People's Rep.",2014,,,,0.94
+PRK,"Korea, Dem. People's Rep.",2016,,,0.73,0.58
+PRT,Portugal,1998,,,0.71,1.02
+PRT,Portugal,2000,,,0.54,0.77
+PRT,Portugal,2002,,,0.71,0.97
+PRT,Portugal,2004,,,1.08,1.38
+PRT,Portugal,2006,,,1.1,1.56
+PRT,Portugal,2008,,,1.47,1.61
+PRT,Portugal,2010,,,1.58,1.85
+PRT,Portugal,2012,,,1.89,2.15
+PRT,Portugal,2014,,,1.64,1.89
+PRT,Portugal,2016,,,1.3,1.54
+PRY,Paraguay,1992,,,0.27,0.43
+PRY,Paraguay,1995,,,0.28,0.44
+PRY,Paraguay,1998,,,0.24,0.47
+PRY,Paraguay,2000,,,0.34,0.72
+PRY,Paraguay,2002,,,0.34,0.56
+PRY,Paraguay,2004,,,0.51,0.62
+PRY,Paraguay,2006,,,0.77,0.97
+PRY,Paraguay,2008,,,0.96,1.17
+PRY,Paraguay,2010,,,1.01,1.28
+PRY,Paraguay,2012,,,1.31,1.74
+PRY,Paraguay,2014,,,1.16,1.59
+PRY,Paraguay,2016,,,0.74,1.04
+PSE,West Bank and Gaza,1998,,,0.31,0.86
+PSE,West Bank and Gaza,2000,,,0.61,1.08
+PSE,West Bank and Gaza,2002,,,0.52,0.99
+PSE,West Bank and Gaza,2004,,,0.7,1.17
+PSE,West Bank and Gaza,2006,,,0.98,1.29
+PSE,West Bank and Gaza,2008,,,1.25,1.34
+PSE,West Bank and Gaza,2010,,,1.54,1.71
+PSE,West Bank and Gaza,2012,,,1.68,1.87
+PSE,West Bank and Gaza,2014,,,1.63,1.77
+PSE,West Bank and Gaza,2016,,,1.41,1.54
+PYF,French Polynesia,2006,,,1.19,1.49
+PYF,French Polynesia,2008,,,1.39,1.58
+PYF,French Polynesia,2010,,,1.56,1.7
+QAT,Qatar,1998,,,0.15,0.16
+QAT,Qatar,2004,,,0.16,0.21
+QAT,Qatar,2006,,,0.19,0.19
+QAT,Qatar,2008,,,,0.22
+QAT,Qatar,2010,,,0.19,0.19
+QAT,Qatar,2012,,,0.27,0.27
+QAT,Qatar,2014,,,0.41,0.23
+QAT,Qatar,2016,,,0.38,0.4
+ROU,Romania,1995,,,0.19,0.29
+ROU,Romania,1998,,,0.4,0.53
+ROU,Romania,2000,,,0.35,0.46
+ROU,Romania,2002,,,0.57,0.64
+ROU,Romania,2004,,,0.91,0.96
+ROU,Romania,2006,,,1.24,1.26
+ROU,Romania,2008,,,1.22,1.11
+ROU,Romania,2010,,,1.46,1.46
+ROU,Romania,2012,,,1.73,1.7
+ROU,Romania,2014,,,1.71,1.59
+ROU,Romania,2016,,,1.14,1.16
+RUS,Russian Federation,1995,,,0.28,0.35
+RUS,Russian Federation,1998,,,0.18,0.28
+RUS,Russian Federation,2000,,,0.29,0.33
+RUS,Russian Federation,2002,,,0.25,0.35
+RUS,Russian Federation,2004,,,0.45,0.55
+RUS,Russian Federation,2006,,,0.66,0.77
+RUS,Russian Federation,2008,,,0.86,0.89
+RUS,Russian Federation,2010,,,0.72,0.84
+RUS,Russian Federation,2012,,,1,0.99
+RUS,Russian Federation,2014,,,0.75,0.81
+RUS,Russian Federation,2016,,,0.55,0.59
+RWA,Rwanda,1991,,,0.79,0.81
+RWA,Rwanda,1992,,,0.88,0.93
+RWA,Rwanda,1998,,,0.72,0.72
+RWA,Rwanda,2000,,,0.84,0.89
+RWA,Rwanda,2002,,,0.84,0.84
+RWA,Rwanda,2004,,,0.99,0.98
+RWA,Rwanda,2006,,,1.08,1.11
+RWA,Rwanda,2008,,,1.37,1.37
+RWA,Rwanda,2010,,,1.62,1.63
+RWA,Rwanda,2012,,,1.73,1.73
+RWA,Rwanda,2014,,,1.41,1.41
+RWA,Rwanda,2016,,,1.13,1.17
+SAU,Saudi Arabia,1995,,,0.09,0.16
+SAU,Saudi Arabia,1998,,,0.1,0.16
+SAU,Saudi Arabia,2000,,,0.1,0.24
+SAU,Saudi Arabia,2002,,,0.1,0.24
+SAU,Saudi Arabia,2004,,,0.1,0.24
+SAU,Saudi Arabia,2006,,,0.07,0.16
+SAU,Saudi Arabia,2008,,,0.09,0.16
+SAU,Saudi Arabia,2010,,,0.067,0.16
+SAU,Saudi Arabia,2012,,,0.067,0.16
+SAU,Saudi Arabia,2014,,,0.07,0.16
+SAU,Saudi Arabia,2016,,,0.12,0.24
+SDN,Sudan,1991,,,0.06,0.07
+SDN,Sudan,1992,,,0.58,0.58
+SDN,Sudan,1995,,,0.25,0.5
+SDN,Sudan,1998,,,0.26,0.33
+SDN,Sudan,2000,,,0.24,0.28
+SDN,Sudan,2002,,,0.24,0.3
+SDN,Sudan,2004,,,0.29,0.47
+SDN,Sudan,2006,,,0.49,0.72
+SDN,Sudan,2008,,,0.45,0.65
+SDN,Sudan,2010,,,0.43,0.62
+SDN,Sudan,2012,,,0.42,0.63
+SDN,Sudan,2014,,,0.55,0.82
+SDN,Sudan,2016,,,0.61,0.95
+SEN,Senegal,1991,,,0.74,1.19
+SEN,Senegal,1992,,,0.88,1.23
+SEN,Senegal,1995,,,0.62,0.94
+SEN,Senegal,1998,,,0.48,0.71
+SEN,Senegal,2000,,,0.52,0.73
+SEN,Senegal,2002,,,0.53,0.75
+SEN,Senegal,2004,,,0.9,1.1
+SEN,Senegal,2006,,,1.09,1.31
+SEN,Senegal,2008,,,1.26,1.35
+SEN,Senegal,2010,,,1.34,1.57
+SEN,Senegal,2012,,,1.53,1.72
+SEN,Senegal,2014,,,1.51,1.7
+SEN,Senegal,2016,,,0.97,1.14
+SGP,Singapore,1991,,,0.28,0.61
+SGP,Singapore,1995,,,0.33,0.85
+SGP,Singapore,1998,,,0.36,0.72
+SGP,Singapore,2000,,,0.38,0.84
+SGP,Singapore,2002,,,0.38,0.85
+SGP,Singapore,2004,,,0.55,0.89
+SGP,Singapore,2006,,,0.63,0.92
+SGP,Singapore,2008,,,0.9,1.07
+SGP,Singapore,2010,,,1.04,1.42
+SGP,Singapore,2012,,,1.26,1.68
+SGP,Singapore,2014,,,1.16,1.58
+SGP,Singapore,2016,,,0.77,1.25
+SLE,Sierra Leone,1991,,,0.43,0.45
+SLE,Sierra Leone,1992,,,0.44,0.49
+SLE,Sierra Leone,1998,,,0.53,0.61
+SLE,Sierra Leone,2002,,,0.5,0.51
+SLE,Sierra Leone,2004,,,0.89,0.76
+SLE,Sierra Leone,2006,,,0.98,0.98
+SLE,Sierra Leone,2008,,,0.91,0.91
+SLE,Sierra Leone,2010,,,0.94,0.94
+SLE,Sierra Leone,2012,,,1.05,1.05
+SLE,Sierra Leone,2014,,,1.04,1.04
+SLE,Sierra Leone,2016,,,1.08,1.08
+SLV,El Salvador,1998,,,0.3,0.54
+SLV,El Salvador,2000,,,0.4,0.67
+SLV,El Salvador,2002,,,0.33,0.46
+SLV,El Salvador,2004,,,0.58,0.65
+SLV,El Salvador,2006,,,0.8,0.82
+SLV,El Salvador,2008,,,0.81,0.78
+SLV,El Salvador,2010,,,0.89,0.92
+SLV,El Salvador,2012,,,1.17,1.26
+SLV,El Salvador,2014,,,1.02,1.12
+SLV,El Salvador,2016,,,0.7,0.83
+SOM,"Somalia, Fed. Rep.",2002,,,0.29,0.35
+SOM,"Somalia, Fed. Rep.",2004,,,0.89,1.36
+SOM,"Somalia, Fed. Rep.",2006,,,0.67,0.74
+SOM,"Somalia, Fed. Rep.",2008,,,1.15,1.12
+SOM,"Somalia, Fed. Rep.",2016,,,1.18,1.41
+SRB,Serbia,1995,,,0.84,0.76
+SRB,Serbia,1998,,,0.43,0.61
+SRB,Serbia,2000,,,0.56,0.56
+SRB,Serbia,2002,,,0.66,0.74
+SRB,Serbia,2004,,,0.85,1
+SRB,Serbia,2006,,,1.35,1.45
+SRB,Serbia,2008,,,1.14,1.29
+SRB,Serbia,2010,,,1.48,1.5
+SRB,Serbia,2012,,,1.8,1.78
+SRB,Serbia,2014,,,1.66,1.55
+SRB,Serbia,2016,,,1.21,1.16
+SSD,South Sudan,2006,,,1.22,1.76
+SSD,South Sudan,2008,,,1.25,1.59
+SSD,South Sudan,2010,,,1.07,1.5
+SSD,South Sudan,2012,,,1.97,1.97
+SSD,South Sudan,2014,,,1.98,1.98
+SSD,South Sudan,2016,,,0.28,0.28
+SUR,Suriname,1998,,,0.41,0.56
+SUR,Suriname,2000,,,0.41,0.56
+SUR,Suriname,2002,,,0.41,0.56
+SUR,Suriname,2004,,,0.5,0.5
+SUR,Suriname,2006,,,0.94,0.94
+SUR,Suriname,2008,,,,0.91
+SUR,Suriname,2010,,,1.12,1.14
+SUR,Suriname,2012,,,1.52,1.57
+SUR,Suriname,2014,,,1.34,1.29
+SVK,Slovak Republic,1995,,,0.4,0.66
+SVK,Slovak Republic,1998,,,0.54,0.61
+SVK,Slovak Republic,2000,,,0.68,0.69
+SVK,Slovak Republic,2002,,,0.7,0.74
+SVK,Slovak Republic,2004,,,1.19,1.17
+SVK,Slovak Republic,2006,,,1.43,1.35
+SVK,Slovak Republic,2008,,,1.68,1.57
+SVK,Slovak Republic,2010,,,1.53,1.7
+SVK,Slovak Republic,2012,,,1.85,1.98
+SVK,Slovak Republic,2014,,,1.61,1.77
+SVK,Slovak Republic,2016,,,1.16,1.32
+SVN,Slovenia,1995,,,0.5,0.59
+SVN,Slovenia,1998,,,0.64,0.66
+SVN,Slovenia,2000,,,0.66,0.63
+SVN,Slovenia,2002,,,0.67,0.76
+SVN,Slovenia,2004,,,1.11,1.12
+SVN,Slovenia,2006,,,1.21,1.23
+SVN,Slovenia,2008,,,1.26,1.18
+SVN,Slovenia,2010,,,1.62,1.67
+SVN,Slovenia,2012,,,1.77,1.86
+SVN,Slovenia,2014,,,1.68,1.78
+SVN,Slovenia,2016,,,1.21,1.32
+SWE,Sweden,1995,,,1.01,1.17
+SWE,Sweden,1998,,,0.84,1.09
+SWE,Sweden,2000,,,0.8,0.94
+SWE,Sweden,2002,,,0.96,1.06
+SWE,Sweden,2004,,,1.37,1.51
+SWE,Sweden,2006,,,1.44,1.46
+SWE,Sweden,2008,,,1.52,1.38
+SWE,Sweden,2010,,,1.82,1.87
+SWE,Sweden,2012,,,2.16,2.1
+SWE,Sweden,2014,,,1.82,1.82
+SWE,Sweden,2016,,,1.42,1.42
+SWZ,Eswatini,1991,,,0.41,0.46
+SWZ,Eswatini,1992,,,0.4,0.43
+SWZ,Eswatini,1998,,,0.36,0.37
+SWZ,Eswatini,2000,,,0.44,0.47
+SWZ,Eswatini,2004,,,0.73,0.76
+SWZ,Eswatini,2006,,,0.85,0.8
+SWZ,Eswatini,2008,,,0.93,0.86
+SWZ,Eswatini,2010,,,1.1,1.07
+SWZ,Eswatini,2012,,,1.34,1.3
+SWZ,Eswatini,2014,,,1.16,1.14
+SWZ,Eswatini,2016,,,0.77,0.77
+SYR,Syrian Arab Republic,1998,,,0.14,0.45
+SYR,Syrian Arab Republic,2000,,,0.13,0.44
+SYR,Syrian Arab Republic,2002,,,0.18,0.53
+SYR,Syrian Arab Republic,2004,,,0.13,0.46
+SYR,Syrian Arab Republic,2006,,,0.13,0.6
+SYR,Syrian Arab Republic,2008,,,0.53,0.85
+SYR,Syrian Arab Republic,2010,,,0.45,0.96
+SYR,Syrian Arab Republic,2012,,,0.36,0.79
+SYR,Syrian Arab Republic,2014,,,0.47,0.83
+TCD,Chad,1991,,,0.97,1.05
+TCD,Chad,1992,,,0.95,1.02
+TCD,Chad,1995,,,0.7,0.8
+TCD,Chad,1998,,,0.61,0.7
+TCD,Chad,2000,,,0.6,0.68
+TCD,Chad,2002,,,0.77,0.79
+TCD,Chad,2004,,,1.01,1.17
+TCD,Chad,2006,,,1.2,1.31
+TCD,Chad,2008,,,1.32,1.3
+TCD,Chad,2010,,,1.31,1.32
+TCD,Chad,2012,,,1.16,0.95
+TCD,Chad,2014,,,0.99,0.9
+TCD,Chad,2016,,,0.85,0.78
+TGO,Togo,1991,,,0.66,0.81
+TGO,Togo,1992,,,0.63,0.72
+TGO,Togo,1995,,,0.4,0.47
+TGO,Togo,1998,,,0.37,0.42
+TGO,Togo,2000,,,0.4,0.48
+TGO,Togo,2002,,,0.46,0.56
+TGO,Togo,2004,,,0.83,0.85
+TGO,Togo,2006,,,1.01,1.03
+TGO,Togo,2008,,,0.88,0.89
+TGO,Togo,2010,,,1.17,1.18
+TGO,Togo,2012,,,1.22,1.16
+TGO,Togo,2014,,,1.29,1.25
+TGO,Togo,2016,,,0.71,0.71
+THA,Thailand,1991,,,0.26,0.36
+THA,Thailand,1995,,,0.3,0.34
+THA,Thailand,1998,,,0.27,0.3
+THA,Thailand,2000,,,0.35,0.39
+THA,Thailand,2002,,,0.32,0.36
+THA,Thailand,2004,,,0.37,0.54
+THA,Thailand,2006,,,0.65,0.7
+THA,Thailand,2008,,,0.64,0.87
+THA,Thailand,2010,,,0.95,1.41
+THA,Thailand,2012,,,0.97,1.56
+THA,Thailand,2014,,,0.9,1.29
+THA,Thailand,2016,,,0.68,0.71
+TJK,Tajikistan,1998,,,0.13,0.26
+TJK,Tajikistan,2000,,,0.55,0.45
+TJK,Tajikistan,2002,,,0.24,0.36
+TJK,Tajikistan,2004,,,0.59,0.67
+TJK,Tajikistan,2006,,,0.74,0.8
+TJK,Tajikistan,2008,,,1,1.03
+TJK,Tajikistan,2010,,,0.91,1.02
+TJK,Tajikistan,2012,,,,1.45
+TJK,Tajikistan,2014,,,1.18,1.32
+TJK,Tajikistan,2016,,,0.69,0.71
+TKM,Turkmenistan,1998,,,0.05,0.09
+TKM,Turkmenistan,2000,,,0.02,0.02
+TKM,Turkmenistan,2002,,,0.01,0.02
+TKM,Turkmenistan,2004,,,0.01,0.02
+TKM,Turkmenistan,2006,,,0.01,0.02
+TKM,Turkmenistan,2008,,,0.2,0.22
+TKM,Turkmenistan,2010,,,0.2,0.22
+TKM,Turkmenistan,2012,,,0.2,0.22
+TKM,Turkmenistan,2014,,,0.2,0.22
+TKM,Turkmenistan,2016,,,0.27,0.29
+TLS,Timor-Leste,2004,,,0.65,0.65
+TLS,Timor-Leste,2006,,,0.88,0.98
+TLS,Timor-Leste,2008,,,1.35,1.22
+TLS,Timor-Leste,2010,,,0.9,1.4
+TLS,Timor-Leste,2012,,,1.43,1.65
+TLS,Timor-Leste,2014,,,1.6,1.17
+TLS,Timor-Leste,2016,,,0.8,1.1
+TTO,Trinidad and Tobago,1998,,,0.2,0.39
+TTO,Trinidad and Tobago,2000,,,0.2,0.39
+TTO,Trinidad and Tobago,2002,,,0.21,0.4
+TTO,Trinidad and Tobago,2004,,,0.24,0.35
+TTO,Trinidad and Tobago,2006,,,0.24,0.43
+TTO,Trinidad and Tobago,2008,,,,0.36
+TTO,Trinidad and Tobago,2016,,,0.3,0.54
+TUN,Tunisia,1991,,,0.33,0.58
+TUN,Tunisia,1992,,,0.31,0.52
+TUN,Tunisia,1995,,,0.44,0.64
+TUN,Tunisia,1998,,,0.33,0.6
+TUN,Tunisia,2000,,,0.29,0.49
+TUN,Tunisia,2002,,,0.19,0.29
+TUN,Tunisia,2004,,,0.39,0.68
+TUN,Tunisia,2006,,,0.57,0.83
+TUN,Tunisia,2008,,,0.84,0.96
+TUN,Tunisia,2010,,,0.82,0.94
+TUN,Tunisia,2012,,,0.69,0.93
+TUN,Tunisia,2014,,,0.68,0.91
+TUN,Tunisia,2016,,,0.62,0.73
+TUR,Turkiye,1995,,,0.37,0.56
+TUR,Turkiye,1998,,,0.47,0.78
+TUR,Turkiye,2000,,,0.66,0.88
+TUR,Turkiye,2002,,,0.78,1.02
+TUR,Turkiye,2004,,,1.12,1.44
+TUR,Turkiye,2006,,,1.62,1.88
+TUR,Turkiye,2008,,,1.63,1.87
+TUR,Turkiye,2010,,,2.03,2.52
+TUR,Turkiye,2012,,,2.33,2.54
+TUR,Turkiye,2014,,,1.9,2.06
+TUR,Turkiye,2016,,,1.23,1.42
+TZA,Tanzania,1991,,,0.25,0.42
+TZA,Tanzania,1992,,,0.3,0.43
+TZA,Tanzania,1995,,,0.44,0.56
+TZA,Tanzania,1998,,,0.57,0.63
+TZA,Tanzania,2000,,,0.73,0.75
+TZA,Tanzania,2002,,,0.61,0.67
+TZA,Tanzania,2004,,,0.87,0.93
+TZA,Tanzania,2006,,,0.99,1.04
+TZA,Tanzania,2008,,,1.3,1.11
+TZA,Tanzania,2010,,,1.19,1.22
+TZA,Tanzania,2012,,,1.27,1.31
+TZA,Tanzania,2014,,,1.2,1.29
+TZA,Tanzania,2016,,,0.8,0.87
+UGA,Uganda,1991,,,0.55,0.69
+UGA,Uganda,1992,,,0.71,0.79
+UGA,Uganda,1995,,,0.85,0.98
+UGA,Uganda,1998,,,0.68,0.86
+UGA,Uganda,2000,,,0.75,0.86
+UGA,Uganda,2002,,,0.7,0.83
+UGA,Uganda,2004,,,0.88,1.02
+UGA,Uganda,2006,,,1.01,1.17
+UGA,Uganda,2008,,,1.22,1.3
+UGA,Uganda,2010,,,1.11,1.42
+UGA,Uganda,2012,,,1.35,
+UGA,Uganda,2014,,,1.11,1.4
+UGA,Uganda,2016,,,0.79,0.94
+UKR,Ukraine,1998,,,0.25,0.49
+UKR,Ukraine,2000,,,0.3,0.37
+UKR,Ukraine,2002,,,0.34,0.47
+UKR,Ukraine,2004,,,0.44,0.55
+UKR,Ukraine,2006,,,0.87,0.81
+UKR,Ukraine,2008,,,0.96,0.88
+UKR,Ukraine,2010,,,0.92,1.01
+UKR,Ukraine,2012,,,1.25,1.35
+UKR,Ukraine,2014,,,1.16,1.17
+UKR,Ukraine,2016,,,0.73,0.83
+URY,Uruguay,1995,,,0.38,0.89
+URY,Uruguay,1998,,,0.42,0.9
+URY,Uruguay,2000,,,0.53,1.19
+URY,Uruguay,2002,,,0.2,0.46
+URY,Uruguay,2004,,,0.71,1.13
+URY,Uruguay,2006,,,0.94,1.23
+URY,Uruguay,2008,,,1.17,1.18
+URY,Uruguay,2010,,,1.44,1.49
+URY,Uruguay,2012,,,1.88,1.97
+URY,Uruguay,2014,,,1.72,1.8
+URY,Uruguay,2016,,,1.36,1.5
+USA,United States,1992,,,0.28,0.32
+USA,United States,1995,,,0.33,0.34
+USA,United States,1998,,,0.27,0.32
+USA,United States,2000,,,0.48,0.47
+USA,United States,2002,,,0.39,0.4
+USA,United States,2004,,,0.57,0.54
+USA,United States,2006,,,0.69,0.63
+USA,United States,2008,,,0.78,0.56
+USA,United States,2010,,,0.84,0.76
+USA,United States,2012,,,1.05,0.97
+USA,United States,2014,,,0.97,0.76
+USA,United States,2016,,,0.65,0.71
+UZB,Uzbekistan,1995,,,0.31,0.32
+UZB,Uzbekistan,1998,,,0.09,0.11
+UZB,Uzbekistan,2000,,,0.09,0.14
+UZB,Uzbekistan,2002,,,0.26,0.38
+UZB,Uzbekistan,2004,,,0.3,0.35
+UZB,Uzbekistan,2006,,,0.54,0.85
+UZB,Uzbekistan,2008,,,0.75,1.35
+UZB,Uzbekistan,2010,,,0.83,0.92
+UZB,Uzbekistan,2012,,,0.87,1.02
+UZB,Uzbekistan,2014,,,1.93,1.02
+UZB,Uzbekistan,2016,,,1.28,1.03
+VEN,"Venezuela, RB",1995,,,0.01,0.03
+VEN,"Venezuela, RB",1998,,,0.08,0.14
+VEN,"Venezuela, RB",2000,,,0.06,0.12
+VEN,"Venezuela, RB",2002,,,0.05,0.05
+VEN,"Venezuela, RB",2004,,,0.02,0.04
+VEN,"Venezuela, RB",2006,,,0.02,0.03
+VEN,"Venezuela, RB",2008,,,0.01,0.02
+VEN,"Venezuela, RB",2010,,,0.011,0.023
+VEN,"Venezuela, RB",2012,,,0.011,0.023
+VEN,"Venezuela, RB",2014,,,0.008,0.015
+VEN,"Venezuela, RB",2016,,,,8e-05
+VNM,Viet Nam,1995,,,0.25,0.34
+VNM,Viet Nam,1998,,,0.26,0.35
+VNM,Viet Nam,2000,,,0.27,0.38
+VNM,Viet Nam,2002,,,0.27,0.34
+VNM,Viet Nam,2004,,,0.32,0.48
+VNM,Viet Nam,2006,,,0.53,0.67
+VNM,Viet Nam,2008,,,0.77,0.8
+VNM,Viet Nam,2010,,,0.77,0.88
+VNM,Viet Nam,2012,,,1.06,1.15
+VNM,Viet Nam,2014,,,0.91,1.04
+VNM,Viet Nam,2016,,,0.59,0.8
+VUT,Vanuatu,2016,,,1.2,1.31
+WSM,Samoa,2010,,,1.06,1.03
+WSM,Samoa,2016,,,0.87,0.91
+XKX,Kosovo,1995,,,0.84,0.76
+XKX,Kosovo,1998,,,0.43,0.61
+XKX,Kosovo,2000,,,0.56,0.56
+XKX,Kosovo,2002,,,0.66,0.74
+XKX,Kosovo,2004,,,1.03,1.16
+XKX,Kosovo,2006,,,1.19,1.22
+XKX,Kosovo,2008,,,1.21,1.1
+XKX,Kosovo,2010,,,1.6,1.63
+XKX,Kosovo,2012,,,1.6,1.65
+XKX,Kosovo,2014,,,1.55,1.54
+XKX,Kosovo,2016,,,1.06,1.11
+YEM,"Yemen, Rep.",1998,,,0.07,0.26
+YEM,"Yemen, Rep.",2000,,,0.06,0.21
+YEM,"Yemen, Rep.",2002,,,0.1,0.21
+YEM,"Yemen, Rep.",2004,,,0.09,0.19
+YEM,"Yemen, Rep.",2006,,,0.28,0.3
+YEM,"Yemen, Rep.",2008,,,0.17,0.3
+YEM,"Yemen, Rep.",2010,,,0.23,0.35
+YEM,"Yemen, Rep.",2012,,,0.47,0.58
+YEM,"Yemen, Rep.",2014,,,0.7,0.7
+YEM,"Yemen, Rep.",2016,,,0.76,0.92
+ZAF,South Africa,1992,,,0.52,0.52
+ZAF,South Africa,1995,,,0.46,0.51
+ZAF,South Africa,1998,,,0.39,0.43
+ZAF,South Africa,2000,,,0.5,0.5
+ZAF,South Africa,2002,,,0.4,0.43
+ZAF,South Africa,2004,,,0.8,0.81
+ZAF,South Africa,2006,,,0.84,0.85
+ZAF,South Africa,2008,,,0.95,0.87
+ZAF,South Africa,2010,,,1.14,1.19
+ZAF,South Africa,2012,,,1.42,1.38
+ZAF,South Africa,2014,,,1.17,1.19
+ZAF,South Africa,2016,,,0.9,0.92
+ZMB,Zambia,1991,,,0.24,0.4
+ZMB,Zambia,1992,,,0.66,0.72
+ZMB,Zambia,1995,,,0.57,0.6
+ZMB,Zambia,1998,,,0.49,0.53
+ZMB,Zambia,2002,,,0.6,0.72
+ZMB,Zambia,2004,,,0.98,1.1
+ZMB,Zambia,2006,,,1.22,1.31
+ZMB,Zambia,2008,,,1.61,1.7
+ZMB,Zambia,2010,,,1.52,1.66
+ZMB,Zambia,2012,,,1.48,1.48
+ZMB,Zambia,2014,,,1.59,1.68
+ZMB,Zambia,2016,,,1.16,1.4
+ZWE,Zimbabwe,1991,,,0.37,0.68
+ZWE,Zimbabwe,1992,,,0.28,0.47
+ZWE,Zimbabwe,1995,,,0.29,0.38
+ZWE,Zimbabwe,1998,,,0.22,0.26
+ZWE,Zimbabwe,2000,,,0.72,0.85
+ZWE,Zimbabwe,2002,,,0.05,0.05
+ZWE,Zimbabwe,2004,,,0.65,0.61
+ZWE,Zimbabwe,2008,,,1.05,1.3
+ZWE,Zimbabwe,2010,,,1.15,1.29
+ZWE,Zimbabwe,2012,,,1.4,1.52
+ZWE,Zimbabwe,2014,,,1.48,1.56
+ZWE,Zimbabwe,2016,,,1.18,1.34
