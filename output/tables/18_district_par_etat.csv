@@ -1,0 +1,36 @@
+state_name,districts,districts_5_puits,ecart_m,etat_identifiant
+uttar pradesh,71,67,13.56,TRUE
+madhya pradesh,50,49,10.29,TRUE
+bihar,38,35,5.76,TRUE
+maharashtra,35,33,9.33,TRUE
+tamil nadu,32,32,10.76,TRUE
+karnataka,30,30,9.77,TRUE
+odisha,30,29,6.02,TRUE
+rajasthan,33,28,46.63,TRUE
+gujarat,26,26,37.39,TRUE
+andhra pradesh,23,23,7.88,TRUE
+jharkhand,24,22,3.77,FALSE
+punjab,20,20,20.44,TRUE
+haryana,21,20,16.36,TRUE
+west bengal,19,18,4.46,FALSE
+chhattisgarh,18,17,4.6,FALSE
+kerala,14,14,6.32,TRUE
+himachal pradesh,12,5,9.99,TRUE
+jammu kashmir,23,4,2.3,FALSE
+meghalaya,7,3,1.45,FALSE
+tripura,4,2,1.34,FALSE
+chandigarh,1,0,,FALSE
+uttarakhand,13,0,,FALSE
+nct of delhi,9,0,,FALSE
+sikkim,4,0,,FALSE
+arunachal pradesh,16,0,,FALSE
+nagaland,11,0,,FALSE
+manipur,9,0,,FALSE
+mizoram,8,0,,FALSE
+assam,27,0,,FALSE
+daman diu,2,0,,FALSE
+dadra nagar haveli,1,0,,FALSE
+goa,2,0,,FALSE
+lakshadweep,1,0,,FALSE
+puducherry,4,0,,FALSE
+andaman nicobar islands,3,0,,FALSE

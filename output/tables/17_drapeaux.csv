@@ -1,0 +1,58 @@
+annee,state_name,villages,drapeaux
+1991,uttar pradesh,95659,INCOHERENT
+1991,madhya pradesh,50014,MANQUANT
+1991,odisha,46075,MANQUANT ZEROS_SUSPECTS SATURE
+1991,maharashtra,39738,MANQUANT
+1991,bihar,37986,-
+1991,west bengal,37100,-
+1991,rajasthan,36719,INCOHERENT
+1991,jharkhand,28754,QUASI_NUL
+1991,karnataka,26422,-
+1991,andhra pradesh,25946,INCOHERENT
+1991,assam,23072,MANQUANT
+1991,gujarat,17784,MANQUANT
+1991,himachal pradesh,16628,QUASI_NUL
+1991,chhattisgarh,15507,MANQUANT
+1991,uttarakhand,15207,-
+1991,tamil nadu,14082,QUASI_NUL
+1991,punjab,11177,-
+1991,haryana,6547,-
+1991,meghalaya,4990,ZEROS_SUSPECTS
+1991,manipur,1970,ZEROS_SUSPECTS
+1991,arunachal pradesh,1412,ZEROS_SUSPECTS
+1991,kerala,1318,-
+1991,nagaland,1145,ZEROS_SUSPECTS QUASI_NUL
+1991,tripura,814,-
+1991,mizoram,552,QUASI_NUL
+1991,sikkim,420,ZEROS_SUSPECTS
+1991,goa,356,ZEROS_SUSPECTS
+1991,andaman nicobar islands,316,ZEROS_SUSPECTS QUASI_NUL
+2001,uttar pradesh,96794,ZEROS_SUSPECTS
+2001,madhya pradesh,51524,ZEROS_SUSPECTS
+2001,maharashtra,40714,ZEROS_SUSPECTS
+2001,rajasthan,39410,-
+2001,bihar,37436,-
+2001,jharkhand,29096,QUASI_NUL
+2001,karnataka,27033,-
+2001,andhra pradesh,26211,-
+2001,assam,23049,QUASI_NUL
+2001,chhattisgarh,19564,-
+2001,odisha,19066,-
+2001,gujarat,17882,-
+2001,himachal pradesh,17235,QUASI_NUL
+2001,uttarakhand,15512,-
+2001,tamil nadu,14833,ZEROS_SUSPECTS
+2001,punjab,11536,-
+2001,west bengal,8019,-
+2001,haryana,6620,-
+2001,jammu kashmir,6252,QUASI_NUL
+2001,meghalaya,3783,ZEROS_SUSPECTS
+2001,arunachal pradesh,3188,ZEROS_SUSPECTS
+2001,manipur,2157,ZEROS_SUSPECTS
+2001,kerala,1322,-
+2001,nagaland,1251,ZEROS_SUSPECTS
+2001,tripura,824,-
+2001,mizoram,469,ZEROS_SUSPECTS
+2001,sikkim,423,QUASI_NUL
+2001,andaman nicobar islands,380,MANQUANT ZEROS_SUSPECTS QUASI_NUL
+2001,goa,344,QUASI_NUL

@@ -1,0 +1,139 @@
+==============================================================================
+LOG: output/logs/17_shrug_exposition_tubewells.log
+Run started: 2026-10-02 11:54:19
+==============================================================================
+
+ETAPE 17 -- PISTE E : EXPOSITION FORAGE ELECTRIQUE (SHRUG 1991, 2001)
+Descriptif : aucune variable d'eau potable lue.
+
+------------------------------------------------------------------------------
+17a. Construction de l'exposition par village (etape resumable)
+------------------------------------------------------------------------------
+  [OK]   shrid_loc_names: key (shrid2) unique
+[2026-10-02 11:54:21] etape 1/1 exposition village : deja fait, relu depuis build/17_exposition_village.rds (ecrit le 2026-10-02 11:50)
+[2026-10-02 11:54:22] etape 1/1 exposition village : relu (0.6 s)
+  [OK]   1991 : >= 98,5 % des shrid ont un nom d'Etat
+  [OK]   1991 : mediane tot_irr / area <= 1 (memes unites)
+  1991 : mediane tot_irr / area (villages irrigues a surface connue) = 0.241
+  [OK]   2001 : >= 98,5 % des shrid ont un nom d'Etat
+  [OK]   2001 : mediane tot_irr / area <= 1 (memes unites)
+  2001 : mediane tot_irr / area (villages irrigues a surface connue) = 0.282
+  shrid sans nom d'Etat exclus : 1991 = 6962 ; 2001 = 5798
+  expo plafonnee a 1 quand tw_w_el > tot_irr (comptes dans 'incoherent').
+
+------------------------------------------------------------------------------
+17b. Distribution nationale par annee
+------------------------------------------------------------------------------
+   annee villages tw_manquant_pct tot_irr_manquant_pct irrigues_pct ventil_vide_pct sol_vide_pct incoherent_pct zeros_susp_pct tw_pos_parmi_irrigues_pct expo_moy_irr expo_med_irr expo_p10_irr expo_p90_irr expo_sd_irr
+   <int>    <int>           <num>                <num>        <num>           <num>        <num>          <num>          <num>                     <num>        <num>        <num>        <num>        <num>       <num>
+1:  2001   522122             0.2                  0.1         70.1             6.5          6.5            0.1           13.0                        30        0.157            0            0        0.750       0.308
+2:  1991   557893            33.6                 15.1         34.1             3.1          4.7            7.3            6.5                        20        0.114            0            0        0.565       0.274
+   sature_pct_irr interieur_pct_irr expo_moy_tous expo_sd_tous expo_p90_tous
+            <num>             <num>         <num>        <num>         <num>
+1:            7.1              20.6         0.110        0.268         0.516
+2:            4.9              14.0         0.054        0.197         0.000
+  [ATTENDU]  A1 : 1991, tw_w_el manquant ~34 % -- observe : 33.6 %
+  [ATTENDU]  A2 : 2001, tw_w_el presque jamais manquant -- observe : 0.2 %
+
+------------------------------------------------------------------------------
+17c. Par Etat et par annee, avec drapeaux
+------------------------------------------------------------------------------
+    annee              state_name villages tw_manquant_pct zeros_susp_pct irrigues_pct tw_pos_parmi_irrigues_pct expo_med_irr expo_p10_irr expo_p90_irr expo_sd_irr sature_pct_irr interieur_pct_irr expo_sd_tous                          drapeaux
+    <int>                  <char>    <int>           <num>          <num>        <num>                     <num>        <num>        <num>        <num>       <num>          <num>             <num>        <num>                            <char>
+ 1:  1991           uttar pradesh    95659             0.2            8.4          2.2                      61.5        0.250        0.000        0.833       0.336            7.1              53.4        0.088                        INCOHERENT
+ 2:  1991          madhya pradesh    50014            95.4            0.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN           NA                          MANQUANT
+ 3:  1991                  odisha    46075            73.6           29.0          0.1                     100.0        1.000        1.000        1.000       0.000          100.0               0.0        0.016    MANQUANT ZEROS_SUSPECTS SATURE
+ 4:  1991             maharashtra    39738           100.0            NaN         69.9                       NaN           NA           NA           NA          NA            NaN               NaN           NA                          MANQUANT
+ 5:  1991                   bihar    37986             0.0            0.4         96.8                      14.9        0.000        0.000        0.200       0.182            1.3              12.6        0.180                                 -
+ 6:  1991             west bengal    37100            21.0            1.0         82.8                      12.9        0.000        0.000        0.333       0.233            3.8               8.9        0.216                                 -
+ 7:  1991               rajasthan    36719             0.1            1.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                        INCOHERENT
+ 8:  1991               jharkhand    28754             0.0            0.8         85.3                       1.4        0.000        0.000        0.000       0.065            0.2               1.0        0.060                         QUASI_NUL
+ 9:  1991               karnataka    26422             0.0            0.3         83.2                      26.6        0.000        0.000        0.673       0.294            6.0              19.0        0.273                                 -
+10:  1991          andhra pradesh    25946             9.3            4.5         20.3                      17.5        0.000        0.000        0.145       0.172            1.2              13.2        0.072                        INCOHERENT
+11:  1991                   assam    23072           100.0            NaN          0.0                       NaN           NA           NA           NA          NA            NaN               NaN           NA                          MANQUANT
+12:  1991                 gujarat    17784            96.9            0.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN           NA                          MANQUANT
+13:  1991        himachal pradesh    16628             0.0            0.8         42.0                       2.9        0.000        0.000        0.000       0.144            1.9               0.9        0.094                         QUASI_NUL
+14:  1991            chhattisgarh    15507            97.1            0.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN           NA                          MANQUANT
+15:  1991             uttarakhand    15207             0.1            3.7          1.5                      50.4        0.005        0.000        0.884       0.330            8.9              37.9        0.050                                 -
+16:  1991              tamil nadu    14082             0.1            0.9         94.8                       2.7        0.000        0.000        0.000       0.125            1.4               1.2        0.122                         QUASI_NUL
+17:  1991                  punjab    11177             0.0            0.0         97.2                      78.9        0.565        0.000        1.000       0.388           23.5              52.5        0.392                                 -
+18:  1991                 haryana     6547             0.0            0.0         98.4                      73.2        0.462        0.000        1.000       0.420           26.1              41.0        0.421                                 -
+19:  1991               meghalaya     4990             0.0          100.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+20:  1991                 manipur     1970             0.1          100.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+21:  1991       arunachal pradesh     1412             0.7          100.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+22:  1991                  kerala     1318             0.0            0.0         88.8                       5.0        0.000        0.000        0.000       0.046            0.1               2.4        0.043                                 -
+23:  1991                nagaland     1145             0.2           26.2         68.0                       0.0        0.000        0.000        0.000       0.000            0.0               0.0        0.000          ZEROS_SUSPECTS QUASI_NUL
+24:  1991                 tripura      814             0.0            5.3         71.7                      17.3        0.000        0.000        1.000       0.376           17.0               0.3        0.327                                 -
+25:  1991                 mizoram      552             0.0            3.1         62.9                       0.0        0.000        0.000        0.000       0.000            0.0               0.0        0.000                         QUASI_NUL
+26:  1991                  sikkim      420             1.2           88.2          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+27:  1991                     goa      356             0.0           80.3          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+28:  1991 andaman nicobar islands      316             0.0           52.5          1.3                       0.0        0.000        0.000        0.000       0.000            0.0               0.0        0.000          ZEROS_SUSPECTS QUASI_NUL
+29:  1991              puducherry       81             0.0            1.2         98.8                       1.2        0.000        0.000        0.000       0.112            1.2               0.0        0.111           (moins de 100 villages)
+30:  1991      dadra nagar haveli       70            84.3            0.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN           NA           (moins de 100 villages)
+31:  1991               daman diu       23             0.0            0.0         87.0                      25.0        0.000        0.000        0.376       0.181            0.0              20.0        0.171           (moins de 100 villages)
+32:  1991             lakshadweep        7             0.0           14.3         71.4                       0.0        0.000        0.000        0.000       0.000            0.0               0.0        0.000           (moins de 100 villages)
+33:  1991              chandigarh        1           100.0            NaN          0.0                       NaN           NA           NA           NA          NA            NaN               NaN           NA           (moins de 100 villages)
+34:  1991            nct of delhi        1             0.0            0.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN           NA           (moins de 100 villages)
+35:  2001           uttar pradesh    96794             0.0           18.1         77.3                      38.1        0.000        0.000        0.697       0.301            5.9              29.3        0.275                    ZEROS_SUSPECTS
+36:  2001          madhya pradesh    51524             0.0           16.2         73.4                      34.2        0.000        0.000        0.774       0.315            6.8              25.3        0.281                    ZEROS_SUSPECTS
+37:  2001             maharashtra    40714             0.2           28.9         48.9                      27.9        0.000        0.000        0.333       0.212            2.5              21.4        0.155                    ZEROS_SUSPECTS
+38:  2001               rajasthan    39410             0.7           13.2         75.1                      12.5        0.000        0.000        0.157       0.236            4.7               6.8        0.207                                 -
+39:  2001                   bihar    37436             0.0            0.9         94.8                       9.8        0.000        0.000        0.000       0.153            0.9               8.2        0.149                                 -
+40:  2001               jharkhand    29096             0.0            1.4         83.3                       1.5        0.000        0.000        0.000       0.066            0.2               1.2        0.060                         QUASI_NUL
+41:  2001               karnataka    27033             0.0            6.6         84.0                      68.4        0.300        0.000        1.000       0.415           25.3              39.4        0.411                                 -
+42:  2001          andhra pradesh    26211             1.0            5.7         82.2                      49.9        0.000        0.000        0.827       0.326            7.2              37.8        0.308                                 -
+43:  2001                   assam    23049             0.0            7.9         21.3                       2.6        0.000        0.000        0.000       0.105            0.9               1.5        0.049                         QUASI_NUL
+44:  2001            chhattisgarh    19564             0.0            4.9         64.6                      25.8        0.000        0.000        0.936       0.330            9.9              12.7        0.275                                 -
+45:  2001                  odisha    19066             0.0            3.6         47.7                       8.4        0.000        0.000        0.000       0.219            4.1               3.9        0.154                                 -
+46:  2001                 gujarat    17882             0.0            8.7         79.0                      31.2        0.000        0.000        1.000       0.365           13.5              16.7        0.336                                 -
+47:  2001        himachal pradesh    17235             0.0            3.9         39.2                       4.4        0.000        0.000        0.000       0.179            2.8               1.6        0.114                         QUASI_NUL
+48:  2001             uttarakhand    15512             0.0           10.6         49.8                       8.8        0.000        0.000        0.000       0.171            1.5               6.6        0.123                                 -
+49:  2001              tamil nadu    14833             0.1           15.4         81.9                      29.2        0.000        0.000        0.418       0.258            5.0              18.3        0.237                    ZEROS_SUSPECTS
+50:  2001                  punjab    11536             0.0            0.5         96.8                      83.8        0.616        0.000        1.000       0.377           22.8              57.7        0.383                                 -
+51:  2001             west bengal     8019             0.0            0.7         90.4                      14.6        0.000        0.000        0.294       0.209            1.6              12.5        0.200                                 -
+52:  2001                 haryana     6620             0.1            1.8         97.0                      76.4        0.618        0.000        1.000       0.423           31.9              39.5        0.427                                 -
+53:  2001           jammu kashmir     6252             0.2            0.8         83.5                       0.4        0.000        0.000        0.000       0.047            0.2               0.2        0.043                         QUASI_NUL
+54:  2001               meghalaya     3783             0.0          100.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+55:  2001       arunachal pradesh     3188             0.0          100.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+56:  2001                 manipur     2157             1.4          100.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+57:  2001                  kerala     1322             0.0            1.3         92.1                      19.6        0.000        0.000        0.059       0.084            0.0              11.6        0.081                                 -
+58:  2001                nagaland     1251             0.0           97.7          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+59:  2001                 tripura      824             0.0            6.2         70.4                      16.0        0.000        0.000        1.000       0.365           15.7               0.3        0.315                                 -
+60:  2001                 mizoram      469             0.0          100.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000                    ZEROS_SUSPECTS
+61:  2001                  sikkim      423             0.0            6.4         81.8                       0.0        0.000        0.000        0.000       0.000            0.0               0.0        0.000                         QUASI_NUL
+62:  2001 andaman nicobar islands      380            97.1           54.5          6.1                       0.0        0.000        0.000        0.000          NA            0.0               0.0        0.000 MANQUANT ZEROS_SUSPECTS QUASI_NUL
+63:  2001                     goa      344             0.0            0.9         81.7                       2.5        0.000        0.000        0.000       0.071            0.4               2.1        0.064                         QUASI_NUL
+64:  2001              puducherry       92             0.0            0.0        100.0                      91.3        1.000        0.001        1.000       0.459           68.5               4.3        0.459           (moins de 100 villages)
+65:  2001      dadra nagar haveli       70             0.0           11.4         62.9                      13.6        0.000        0.000        0.036       0.137            0.0               9.1        0.109           (moins de 100 villages)
+66:  2001               daman diu       23             0.0           82.6         17.4                      25.0        0.000        0.000        0.700       0.500           25.0               0.0        0.209           (moins de 100 villages)
+67:  2001             lakshadweep        8             0.0            0.0          0.0                       NaN           NA           NA           NA          NA            NaN               NaN        0.000           (moins de 100 villages)
+68:  2001              chandigarh        1             0.0            0.0        100.0                     100.0        0.972        0.972        0.972          NA          100.0               0.0           NA           (moins de 100 villages)
+69:  2001            nct of delhi        1             0.0            0.0        100.0                     100.0        0.725        0.725        0.725          NA            0.0             100.0           NA           (moins de 100 villages)
+    annee              state_name villages tw_manquant_pct zeros_susp_pct irrigues_pct tw_pos_parmi_irrigues_pct expo_med_irr expo_p10_irr expo_p90_irr expo_sd_irr sature_pct_irr interieur_pct_irr expo_sd_tous                          drapeaux
+    <int>                  <char>    <int>           <num>          <num>        <num>                     <num>        <num>        <num>        <num>       <num>          <num>             <num>        <num>                            <char>
+
+------------------------------------------------------------------------------
+17d. Drapeaux : recapitulatif
+------------------------------------------------------------------------------
+   annee                           drapeau                                                                                                            etats
+   <int>                            <char>                                                                                                           <char>
+1:  1991                        INCOHERENT                                                                         uttar pradesh, rajasthan, andhra pradesh
+2:  1991                          MANQUANT                                                        madhya pradesh, maharashtra, assam, gujarat, chhattisgarh
+3:  1991    MANQUANT ZEROS_SUSPECTS SATURE                                                                                                           odisha
+4:  1991                         QUASI_NUL                                                                 jharkhand, himachal pradesh, tamil nadu, mizoram
+5:  1991                    ZEROS_SUSPECTS                                                               meghalaya, manipur, arunachal pradesh, sikkim, goa
+6:  1991          ZEROS_SUSPECTS QUASI_NUL                                                                                nagaland, andaman nicobar islands
+7:  2001 MANQUANT ZEROS_SUSPECTS QUASI_NUL                                                                                          andaman nicobar islands
+8:  2001                         QUASI_NUL                                                   jharkhand, assam, himachal pradesh, jammu kashmir, sikkim, goa
+9:  2001                    ZEROS_SUSPECTS uttar pradesh, madhya pradesh, maharashtra, tamil nadu, meghalaya, arunachal pradesh, manipur, nagaland, mizoram
+  [ECART]    A3 : Punjab/Haryana/UP, mediane > 0,5 et au moins un SATURE -- observe : uttar pradesh 1991 med=0.25 [INCOHERENT] ; punjab 1991 med=0.56 [-] ; haryana 1991 med=0.46 [-] ; uttar pradesh 2001 med=0.00 [ZEROS_SUSPECTS] ; punjab 2001 med=0.62 [-] ; haryana 2001 med=0.62 [-]  <-- a signaler
+  [ECART]    A4 : Nord-Est / Kerala / collines QUASI_NUL -- observe : assam 1991 [MANQUANT] ; himachal pradesh 1991 [QUASI_NUL] ; uttarakhand 1991 [-] ; meghalaya 1991 [ZEROS_SUSPECTS] ; manipur 1991 [ZEROS_SUSPECTS] ; arunachal pradesh 1991 [ZEROS_SUSPECTS] ; kerala 1991 [-] ; nagaland 1991 [ZEROS_SUSPECTS QUASI_NUL] ; tripura 1991 [-] ; mizoram 1991 [QUASI_NUL] ; sikkim 1991 [ZEROS_SUSPECTS] ; assam 2001 [QUASI_NUL] ; himachal pradesh 2001 [QUASI_NUL] ; uttarakhand 2001 [-] ; jammu kashmir 2001 [QUASI_NUL] ; meghalaya 2001 [ZEROS_SUSPECTS] ; arunachal pradesh 2001 [ZEROS_SUSPECTS] ; manipur 2001 [ZEROS_SUSPECTS] ; kerala 2001 [-] ; nagaland 2001 [ZEROS_SUSPECTS] ; tripura 2001 [-] ; mizoram 2001 [ZEROS_SUSPECTS] ; sikkim 2001 [QUASI_NUL]  <-- a signaler
+
+------------------------------------------------------------------------------
+ETAPE 17 TERMINEE
+------------------------------------------------------------------------------
+  17_drapeaux.csv
+  17_national.csv
+  17_par_etat_annee.csv
+
+Run finished: 2026-10-02 11:54:25

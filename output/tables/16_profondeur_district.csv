@@ -1,0 +1,1283 @@
+fenetre,pc11_state_id,state_name,pc11_district_id,district_name,n_puits,prof_moy,prof_med,prof_min,prof_max
+base_1996_2000,01,jammu kashmir,000,,0,,,,
+base_1996_2000,01,jammu kashmir,001,Kupwara,0,,,,
+base_1996_2000,01,jammu kashmir,002,Badgam,0,,,,
+base_1996_2000,01,jammu kashmir,003,Leh(Ladakh),0,,,,
+base_1996_2000,01,jammu kashmir,004,Kargil,0,,,,
+base_1996_2000,01,jammu kashmir,005,Punch,0,,,,
+base_1996_2000,01,jammu kashmir,006,Rajouri,0,,,,
+base_1996_2000,01,jammu kashmir,007,Kathua,33,6.35,4.5,1.41,25.96
+base_1996_2000,01,jammu kashmir,008,Baramula,0,,,,
+base_1996_2000,01,jammu kashmir,009,Bandipore,0,,,,
+base_1996_2000,01,jammu kashmir,010,Srinagar,0,,,,
+base_1996_2000,01,jammu kashmir,011,Ganderbal,0,,,,
+base_1996_2000,01,jammu kashmir,012,Pulwama,0,,,,
+base_1996_2000,01,jammu kashmir,013,Shupiyan,0,,,,
+base_1996_2000,01,jammu kashmir,014,Anantnag,0,,,,
+base_1996_2000,01,jammu kashmir,015,Kulgam,0,,,,
+base_1996_2000,01,jammu kashmir,016,Doda,0,,,,
+base_1996_2000,01,jammu kashmir,017,Ramban,0,,,,
+base_1996_2000,01,jammu kashmir,018,Kishtwar,0,,,,
+base_1996_2000,01,jammu kashmir,019,Udhampur,5,5.15,4.52,2.04,8.48
+base_1996_2000,01,jammu kashmir,020,Reasi,3,10.89,4.16,3.93,24.56
+base_1996_2000,01,jammu kashmir,021,Jammu,33,7.45,4.38,0.88,33.13
+base_1996_2000,01,jammu kashmir,022,Samba,13,6.05,4.53,2.11,14.76
+base_1996_2000,02,himachal pradesh,023,Chamba,1,1.22,1.22,1.22,1.22
+base_1996_2000,02,himachal pradesh,024,Kangra,22,5.01,4.23,0.99,11.92
+base_1996_2000,02,himachal pradesh,025,Lahul & Spiti,0,,,,
+base_1996_2000,02,himachal pradesh,026,Kullu,2,2.98,2.98,1.49,4.48
+base_1996_2000,02,himachal pradesh,027,Mandi,10,6.59,4.13,0.87,21.81
+base_1996_2000,02,himachal pradesh,028,Hamirpur,0,,,,
+base_1996_2000,02,himachal pradesh,029,Una,19,9.43,4.68,2.08,58.46
+base_1996_2000,02,himachal pradesh,030,Bilaspur,0,,,,
+base_1996_2000,02,himachal pradesh,031,Solan,11,11.24,10.88,3.3,23.24
+base_1996_2000,02,himachal pradesh,032,Sirmaur,12,15,11.13,3.42,39.51
+base_1996_2000,02,himachal pradesh,033,Shimla,0,,,,
+base_1996_2000,02,himachal pradesh,034,Kinnaur,0,,,,
+base_1996_2000,03,punjab,035,Gurdaspur,44,6.84,5.34,0.93,21.75
+base_1996_2000,03,punjab,036,Kapurthala,13,8.62,6.82,4.13,22.77
+base_1996_2000,03,punjab,037,Jalandhar,23,11.13,11.08,4.3,20.46
+base_1996_2000,03,punjab,038,Hoshiarpur,35,8.66,5.62,2.16,31.07
+base_1996_2000,03,punjab,039,Shahid Bhagat Singh Nagar,11,11.44,10.6,3.86,27.55
+base_1996_2000,03,punjab,040,Fatehgarh Sahib,10,10.04,8.49,5.47,16.18
+base_1996_2000,03,punjab,041,Ludhiana,37,9.25,9.29,3.33,14.53
+base_1996_2000,03,punjab,042,Moga,18,9.43,8.69,3.74,14.63
+base_1996_2000,03,punjab,043,Firozpur,25,5.23,4.11,0.6,15.47
+base_1996_2000,03,punjab,044,Muktsar,16,2.54,2.36,0.05,5.77
+base_1996_2000,03,punjab,045,Faridkot,11,4.81,4.59,1.37,10.38
+base_1996_2000,03,punjab,046,Bathinda,28,7.85,7.9,2.81,12.85
+base_1996_2000,03,punjab,047,Mansa,17,3.34,3.57,1.19,5.32
+base_1996_2000,03,punjab,048,Patiala,23,9.3,8.87,3.64,14.77
+base_1996_2000,03,punjab,049,Amritsar,22,7.62,7.97,3.52,18.36
+base_1996_2000,03,punjab,050,Tarn Taran,12,9.31,8.83,5.53,15.84
+base_1996_2000,03,punjab,051,Rupnagar,22,6.78,4.68,2.26,16.64
+base_1996_2000,03,punjab,052,Sahibzada Ajit Singh Nagar,17,6.51,4.9,2.68,18.41
+base_1996_2000,03,punjab,053,Sangrur,18,22.98,7.56,4.95,268
+base_1996_2000,03,punjab,054,Barnala,13,16.97,11.45,0.21,100
+base_1996_2000,04,chandigarh,055,Chandigarh,0,,,,
+base_1996_2000,05,uttarakhand,056,Uttarkashi,0,,,,
+base_1996_2000,05,uttarakhand,057,Chamoli,0,,,,
+base_1996_2000,05,uttarakhand,058,Rudraprayag,0,,,,
+base_1996_2000,05,uttarakhand,059,Tehri Garhwal,0,,,,
+base_1996_2000,05,uttarakhand,060,Dehradun,0,,,,
+base_1996_2000,05,uttarakhand,061,Garhwal,0,,,,
+base_1996_2000,05,uttarakhand,062,Pithoragarh,0,,,,
+base_1996_2000,05,uttarakhand,063,Bageshwar,0,,,,
+base_1996_2000,05,uttarakhand,064,Almora,0,,,,
+base_1996_2000,05,uttarakhand,065,Champawat,0,,,,
+base_1996_2000,05,uttarakhand,066,Nainital,0,,,,
+base_1996_2000,05,uttarakhand,067,Udham Singh Nagar,0,,,,
+base_1996_2000,05,uttarakhand,068,Hardwar,0,,,,
+base_1996_2000,06,haryana,069,Panchkula,9,16.72,13.11,8.46,32.38
+base_1996_2000,06,haryana,070,Ambala,22,9.01,5.99,2,29.78
+base_1996_2000,06,haryana,071,Yamunanagar,21,9,7.5,3.85,17.39
+base_1996_2000,06,haryana,072,Kurukshetra,15,15.67,15.84,9.18,20.61
+base_1996_2000,06,haryana,073,Kaithal,21,7.64,7.88,2.2,18.05
+base_1996_2000,06,haryana,074,Karnal,31,8.08,7.51,3.47,16.71
+base_1996_2000,06,haryana,075,Panipat,19,7.9,7.76,2.76,11.88
+base_1996_2000,06,haryana,076,Sonipat,34,4.67,4.05,2.32,14.5
+base_1996_2000,06,haryana,077,Jind,31,6.41,5.49,1.86,15.08
+base_1996_2000,06,haryana,078,Fatehabad,21,7.99,6.78,0.86,27.32
+base_1996_2000,06,haryana,079,Sirsa,45,10.1,9.96,2.17,22.25
+base_1996_2000,06,haryana,080,Hisar,37,7.69,6.36,0.46,20.25
+base_1996_2000,06,haryana,081,Bhiwani,35,12.67,9.86,1.62,42.97
+base_1996_2000,06,haryana,082,Rohtak,22,7.76,3.42,2.13,47.85
+base_1996_2000,06,haryana,083,Jhajjar,26,5.24,4.15,1.91,15.1
+base_1996_2000,06,haryana,084,Mahendragarh,16,21.03,20.24,9.7,40.42
+base_1996_2000,06,haryana,085,Rewari,20,15.52,14.97,6.15,29.05
+base_1996_2000,06,haryana,086,Gurgaon,12,14.95,15.32,6.9,25.94
+base_1996_2000,06,haryana,087,Mewat,19,5.23,3.73,1.45,21.84
+base_1996_2000,06,haryana,088,Faridabad,2,6.65,6.65,5.83,7.47
+base_1996_2000,06,haryana,089,Palwal,10,5.66,4.41,2.55,13.58
+base_1996_2000,07,nct of delhi,090,North West,1,6.61,6.61,6.61,6.61
+base_1996_2000,07,nct of delhi,091,North,0,,,,
+base_1996_2000,07,nct of delhi,092,North East,0,,,,
+base_1996_2000,07,nct of delhi,093,East,0,,,,
+base_1996_2000,07,nct of delhi,094,New Delhi,0,,,,
+base_1996_2000,07,nct of delhi,095,Central,0,,,,
+base_1996_2000,07,nct of delhi,096,West,0,,,,
+base_1996_2000,07,nct of delhi,097,South West,0,,,,
+base_1996_2000,07,nct of delhi,098,South,0,,,,
+base_1996_2000,08,rajasthan,099,Ganganagar,15,18.02,15.87,9.44,29.44
+base_1996_2000,08,rajasthan,100,Hanumangarh,8,27.85,21.58,7.3,51.29
+base_1996_2000,08,rajasthan,101,Bikaner,67,53.11,48.39,10.43,110.2
+base_1996_2000,08,rajasthan,102,Churu,52,35.88,36.57,7.45,62.67
+base_1996_2000,08,rajasthan,103,Jhunjhunun,0,,,,
+base_1996_2000,08,rajasthan,104,Alwar,52,14.76,12.18,4.26,49.87
+base_1996_2000,08,rajasthan,105,Bharatpur,36,6.49,5.55,2.75,14.1
+base_1996_2000,08,rajasthan,106,Dhaulpur,0,,,,
+base_1996_2000,08,rajasthan,107,Karauli,19,14.62,12.02,7,31.64
+base_1996_2000,08,rajasthan,108,Sawai Madhopur,22,9.02,8.59,3.03,25.06
+base_1996_2000,08,rajasthan,109,Dausa,26,14.69,12.83,5.76,33.11
+base_1996_2000,08,rajasthan,110,Jaipur,65,18.96,15.89,3.76,53.95
+base_1996_2000,08,rajasthan,111,Sikar,35,32.34,35.49,3.06,54.05
+base_1996_2000,08,rajasthan,112,Nagaur,56,31.34,29.07,6.24,63.94
+base_1996_2000,08,rajasthan,113,Jodhpur,60,30.67,25.9,4.9,82.16
+base_1996_2000,08,rajasthan,114,Jaisalmer,69,37.92,35.38,2.29,106.49
+base_1996_2000,08,rajasthan,115,Barmer,83,32.68,25.44,4.75,116
+base_1996_2000,08,rajasthan,116,Jalor,0,,,,
+base_1996_2000,08,rajasthan,117,Sirohi,21,14.45,13.51,7.02,28.36
+base_1996_2000,08,rajasthan,118,Pali,30,12.88,10.71,3.12,28.35
+base_1996_2000,08,rajasthan,119,Ajmer,28,10.08,9.04,4.75,22.22
+base_1996_2000,08,rajasthan,120,Tonk,19,8.32,7.03,3.39,15.63
+base_1996_2000,08,rajasthan,121,Bundi,18,9.64,8.92,2.8,25.08
+base_1996_2000,08,rajasthan,122,Bhilwara,34,11.47,10.31,4.39,19.07
+base_1996_2000,08,rajasthan,123,Rajsamand,23,11.61,11.58,2.78,21.56
+base_1996_2000,08,rajasthan,124,Dungarpur,15,7.68,7.08,3.88,12.83
+base_1996_2000,08,rajasthan,125,Banswara,0,,,,
+base_1996_2000,08,rajasthan,126,Chittaurgarh,1,5.17,5.17,5.17,5.17
+base_1996_2000,08,rajasthan,127,Kota,19,8.75,8,2.42,18.57
+base_1996_2000,08,rajasthan,128,Baran,18,7.24,6.45,3.02,14.38
+base_1996_2000,08,rajasthan,129,Jhalawar,9,10.66,8.84,5.98,23.52
+base_1996_2000,08,rajasthan,130,Udaipur,50,10.7,9.3,2.99,28.05
+base_1996_2000,08,rajasthan,131,Pratapgarh,5,6.48,5.43,3.92,10.35
+base_1996_2000,09,uttar pradesh,132,Saharanpur,12,8.78,6.92,3.73,34.64
+base_1996_2000,09,uttar pradesh,133,Muzaffarnagar,18,6.83,5.39,2.7,13.5
+base_1996_2000,09,uttar pradesh,134,Bijnor,20,9.18,7.98,3.89,21.3
+base_1996_2000,09,uttar pradesh,135,Moradabad,10,5.99,6.55,2.88,9.82
+base_1996_2000,09,uttar pradesh,136,Rampur,11,5.68,5.2,4.18,9.3
+base_1996_2000,09,uttar pradesh,137,Jyotiba Phule Nagar,2,2.93,2.93,2.8,3.06
+base_1996_2000,09,uttar pradesh,138,Meerut,9,7.9,6.79,4.4,14.26
+base_1996_2000,09,uttar pradesh,139,Baghpat,6,12.15,11.66,9.87,17.6
+base_1996_2000,09,uttar pradesh,140,Ghaziabad,7,7.1,6.54,3.06,12.31
+base_1996_2000,09,uttar pradesh,141,Gautam Buddha Nagar,5,10.27,8.9,6.43,15.24
+base_1996_2000,09,uttar pradesh,142,Bulandshahr,16,7.65,7.61,3.9,11.5
+base_1996_2000,09,uttar pradesh,143,Aligarh,24,7.63,6.14,2.41,14.75
+base_1996_2000,09,uttar pradesh,144,Mahamaya Nagar,9,9.29,9.53,3.91,13.34
+base_1996_2000,09,uttar pradesh,145,Mathura,18,6.97,5.46,2.36,16.54
+base_1996_2000,09,uttar pradesh,146,Agra,19,15.5,14.61,3.63,31.68
+base_1996_2000,09,uttar pradesh,147,Firozabad,0,,,,
+base_1996_2000,09,uttar pradesh,148,Mainpuri,10,4.63,4.58,0.97,8.1
+base_1996_2000,09,uttar pradesh,149,Budaun,22,7.03,6.47,3.28,12.66
+base_1996_2000,09,uttar pradesh,150,Bareilly,15,6.24,5.87,4.1,10.1
+base_1996_2000,09,uttar pradesh,151,Pilibhit,10,3.61,3.63,2.68,4.35
+base_1996_2000,09,uttar pradesh,152,Shahjahanpur,11,6.11,6.32,3.61,9.55
+base_1996_2000,09,uttar pradesh,153,Kheri,16,5.33,4.63,2.55,10.28
+base_1996_2000,09,uttar pradesh,154,Sitapur,27,5.04,5.08,2.41,8.81
+base_1996_2000,09,uttar pradesh,155,Hardoi,38,4.71,4.25,1.32,13.58
+base_1996_2000,09,uttar pradesh,156,Unnao,46,5.49,5.19,1.56,13.19
+base_1996_2000,09,uttar pradesh,157,Lucknow,22,7.78,7.63,3.72,13.96
+base_1996_2000,09,uttar pradesh,158,Rae Bareli,60,6.25,5.97,3.1,13.35
+base_1996_2000,09,uttar pradesh,159,Farrukhabad,6,9.28,9.95,6.4,11.2
+base_1996_2000,09,uttar pradesh,160,Kannauj,5,7.63,7.9,4.54,9.83
+base_1996_2000,09,uttar pradesh,161,Etawah,13,17.12,11.62,3.61,38.65
+base_1996_2000,09,uttar pradesh,162,Auraiya,15,5.44,4.96,2.7,8.96
+base_1996_2000,09,uttar pradesh,163,Kanpur Dehat,19,9.81,6.5,2.86,30
+base_1996_2000,09,uttar pradesh,164,Kanpur Nagar,23,11.06,11.63,2.47,26.57
+base_1996_2000,09,uttar pradesh,165,Jalaun,24,9.33,6.33,1.97,30.3
+base_1996_2000,09,uttar pradesh,166,Jhansi,21,8.07,7.5,3.89,17.23
+base_1996_2000,09,uttar pradesh,167,Lalitpur,18,6.69,6.12,1.44,10.84
+base_1996_2000,09,uttar pradesh,168,Hamirpur,17,13.12,11.77,4,31.29
+base_1996_2000,09,uttar pradesh,169,Mahoba,14,5.69,5.49,3.17,10.27
+base_1996_2000,09,uttar pradesh,170,Banda,26,10.15,7.53,3.52,25.03
+base_1996_2000,09,uttar pradesh,171,Chitrakoot,19,10.88,9.25,6.34,19.68
+base_1996_2000,09,uttar pradesh,172,Fatehpur,37,10.47,10.38,4.03,20.42
+base_1996_2000,09,uttar pradesh,173,Pratapgarh,36,7.44,6.27,2.81,13.31
+base_1996_2000,09,uttar pradesh,174,Kaushambi,16,13.68,13.94,5.11,26.71
+base_1996_2000,09,uttar pradesh,175,Allahabad,43,7.66,6.7,2.1,17.57
+base_1996_2000,09,uttar pradesh,176,Bara Banki,33,5.89,5.37,3.07,9.79
+base_1996_2000,09,uttar pradesh,177,Faizabad,24,5.32,5.32,3.24,7.61
+base_1996_2000,09,uttar pradesh,178,Ambedkar Nagar,12,5.19,5.35,2.82,7.11
+base_1996_2000,09,uttar pradesh,179,Sultanpur,56,6.29,5.58,3.07,13.78
+base_1996_2000,09,uttar pradesh,180,Bahraich,23,5.83,5.08,2.23,13.31
+base_1996_2000,09,uttar pradesh,181,Shrawasti,14,4.39,3.87,3.03,7.3
+base_1996_2000,09,uttar pradesh,182,Balrampur,15,4.62,4.4,2.16,9.08
+base_1996_2000,09,uttar pradesh,183,Gonda,15,4.62,4.19,3.25,7.35
+base_1996_2000,09,uttar pradesh,184,Siddharthnagar,12,4.27,4.05,3.67,5.82
+base_1996_2000,09,uttar pradesh,185,Basti,12,4.39,4.1,3.41,6.44
+base_1996_2000,09,uttar pradesh,186,Sant Kabir Nagar,7,5.09,4.92,3.76,6.66
+base_1996_2000,09,uttar pradesh,187,Mahrajganj,11,3.56,3.79,1.64,4.83
+base_1996_2000,09,uttar pradesh,188,Gorakhpur,15,4.89,4.98,2.73,7.23
+base_1996_2000,09,uttar pradesh,189,Kushinagar,16,3.62,3.71,2.36,5.78
+base_1996_2000,09,uttar pradesh,190,Deoria,15,4.26,4.04,2.64,7.2
+base_1996_2000,09,uttar pradesh,191,Azamgarh,30,5.48,5.43,2.66,8.99
+base_1996_2000,09,uttar pradesh,192,Mau,17,5.22,4.91,3.14,8.72
+base_1996_2000,09,uttar pradesh,193,Ballia,30,5.45,5.23,2.75,9.15
+base_1996_2000,09,uttar pradesh,194,Jaunpur,45,6.52,6.22,3.16,13.7
+base_1996_2000,09,uttar pradesh,195,Ghazipur,0,,,,
+base_1996_2000,09,uttar pradesh,196,Chandauli,13,7.01,6.55,2.99,17.04
+base_1996_2000,09,uttar pradesh,197,Varanasi,15,7.76,6.92,3.98,14.76
+base_1996_2000,09,uttar pradesh,198,Sant Ravidas Nagar (Bhadohi),6,9.25,9.93,5.61,12.01
+base_1996_2000,09,uttar pradesh,199,Mirzapur,17,9.12,8.86,3.98,17.75
+base_1996_2000,09,uttar pradesh,200,Sonbhadra,25,8.38,7.86,4.27,17.47
+base_1996_2000,09,uttar pradesh,201,Etah,13,6.87,6.99,3.78,11.42
+base_1996_2000,09,uttar pradesh,202,Kanshiram Nagar,1,6.35,6.35,6.35,6.35
+base_1996_2000,10,bihar,203,Pashchim Champaran,15,3.76,3.39,2.86,5.15
+base_1996_2000,10,bihar,204,Purba Champaran,22,4.14,4.12,3.13,5.34
+base_1996_2000,10,bihar,205,Sheohar,1,3.18,3.18,3.18,3.18
+base_1996_2000,10,bihar,206,Sitamarhi,9,3.61,3.65,3.06,4.3
+base_1996_2000,10,bihar,207,Madhubani,17,3.28,3.37,2.15,5.24
+base_1996_2000,10,bihar,208,Supaul,11,2.59,2.54,2.01,3.72
+base_1996_2000,10,bihar,209,Araria,4,3.32,3.33,2.12,4.5
+base_1996_2000,10,bihar,210,Kishanganj,6,3.77,3.46,2.13,6.78
+base_1996_2000,10,bihar,211,Purnia,12,3.74,3.64,2.5,4.44
+base_1996_2000,10,bihar,212,Katihar,17,4.74,4.7,1.55,6.43
+base_1996_2000,10,bihar,213,Madhepura,8,3.17,3.11,2.95,3.67
+base_1996_2000,10,bihar,214,Saharsa,9,2.87,2.95,2.19,3.52
+base_1996_2000,10,bihar,215,Darbhanga,14,3.53,3.46,2.52,5.39
+base_1996_2000,10,bihar,216,Muzaffarpur,35,4.15,4.28,1.46,5.82
+base_1996_2000,10,bihar,217,Gopalganj,22,3.44,3.32,2.21,4.65
+base_1996_2000,10,bihar,218,Siwan,22,4.26,4.22,2.56,5.9
+base_1996_2000,10,bihar,219,Saran,17,6.23,6.05,2.97,8.94
+base_1996_2000,10,bihar,220,Vaishali,11,5.73,5.61,5.02,6.71
+base_1996_2000,10,bihar,221,Samastipur,10,5.67,5.71,4.12,6.69
+base_1996_2000,10,bihar,222,Begusarai,11,5.77,6.03,4.35,6.83
+base_1996_2000,10,bihar,223,Khagaria,8,6.14,6.37,5.4,6.55
+base_1996_2000,10,bihar,224,Bhagalpur,12,5.35,5.11,3.02,8.03
+base_1996_2000,10,bihar,225,Banka,8,5.04,4.69,4.37,6.4
+base_1996_2000,10,bihar,226,Munger,12,5.25,4.83,3.25,7.24
+base_1996_2000,10,bihar,227,Lakhisarai,5,6.71,6.57,5.31,8.39
+base_1996_2000,10,bihar,228,Sheikhpura,2,6.7,6.7,5.62,7.79
+base_1996_2000,10,bihar,229,Nalanda,15,3.87,3.72,2.75,5.62
+base_1996_2000,10,bihar,230,Patna,17,5.75,5.21,1.81,8.96
+base_1996_2000,10,bihar,231,Bhojpur,12,5.46,5.47,4.22,7.42
+base_1996_2000,10,bihar,232,Buxar,5,6.55,6.05,5.41,8.36
+base_1996_2000,10,bihar,233,Kaimur (Bhabua),10,7.5,7.47,5.08,9.07
+base_1996_2000,10,bihar,234,Rohtas,14,6.78,6.37,4.56,10.12
+base_1996_2000,10,bihar,235,Aurangabad,12,5.33,5.18,3.72,7.38
+base_1996_2000,10,bihar,236,Gaya,14,5.54,4.93,3.03,11.98
+base_1996_2000,10,bihar,237,Nawada,13,4.74,4.65,3.72,6.38
+base_1996_2000,10,bihar,238,Jamui,7,8.35,8.78,4.2,13.11
+base_1996_2000,10,bihar,239,Jehanabad,7,4.96,5.13,4.07,6.04
+base_1996_2000,10,bihar,240,Arwal,5,5.03,5.01,3.68,7.13
+base_1996_2000,11,sikkim,241,North  District,0,,,,
+base_1996_2000,11,sikkim,242,West District,0,,,,
+base_1996_2000,11,sikkim,243,South District,0,,,,
+base_1996_2000,11,sikkim,244,East District,0,,,,
+base_1996_2000,12,arunachal pradesh,245,Tawang,0,,,,
+base_1996_2000,12,arunachal pradesh,246,West Kameng,0,,,,
+base_1996_2000,12,arunachal pradesh,247,East Kameng,0,,,,
+base_1996_2000,12,arunachal pradesh,248,Papum Pare,3,1.9,1.41,1.11,3.19
+base_1996_2000,12,arunachal pradesh,249,Upper Subansiri,0,,,,
+base_1996_2000,12,arunachal pradesh,250,West Siang,0,,,,
+base_1996_2000,12,arunachal pradesh,251,East Siang,1,4.02,4.02,4.02,4.02
+base_1996_2000,12,arunachal pradesh,252,Upper Siang,0,,,,
+base_1996_2000,12,arunachal pradesh,253,Changlang,4,3.65,3.8,2.77,4.23
+base_1996_2000,12,arunachal pradesh,254,Tirap,3,4.22,3.92,3.59,5.15
+base_1996_2000,12,arunachal pradesh,255,Lower Subansiri,0,,,,
+base_1996_2000,12,arunachal pradesh,256,Kurung Kumey,0,,,,
+base_1996_2000,12,arunachal pradesh,257,Dibang Valley,0,,,,
+base_1996_2000,12,arunachal pradesh,258,Lower Dibang Valley,0,,,,
+base_1996_2000,12,arunachal pradesh,259,Lohit,1,4.48,4.48,4.48,4.48
+base_1996_2000,12,arunachal pradesh,260,Anjaw,0,,,,
+base_1996_2000,13,nagaland,261,Mon,1,1.83,1.83,1.83,1.83
+base_1996_2000,13,nagaland,262,Mokokchung,1,3.01,3.01,3.01,3.01
+base_1996_2000,13,nagaland,263,Zunheboto,0,,,,
+base_1996_2000,13,nagaland,264,Wokha,0,,,,
+base_1996_2000,13,nagaland,265,Dimapur,0,,,,
+base_1996_2000,13,nagaland,266,Phek,0,,,,
+base_1996_2000,13,nagaland,267,Tuensang,0,,,,
+base_1996_2000,13,nagaland,268,Longleng,0,,,,
+base_1996_2000,13,nagaland,269,Kiphire,0,,,,
+base_1996_2000,13,nagaland,270,Kohima,0,,,,
+base_1996_2000,13,nagaland,271,Peren,0,,,,
+base_1996_2000,14,manipur,272,Senapati,0,,,,
+base_1996_2000,14,manipur,273,Tamenglong,0,,,,
+base_1996_2000,14,manipur,274,Churachandpur,0,,,,
+base_1996_2000,14,manipur,275,Bishnupur,0,,,,
+base_1996_2000,14,manipur,276,Thoubal,1,2.53,2.53,2.53,2.53
+base_1996_2000,14,manipur,277,Imphal West,0,,,,
+base_1996_2000,14,manipur,278,Imphal East,0,,,,
+base_1996_2000,14,manipur,279,Ukhrul,0,,,,
+base_1996_2000,14,manipur,280,Chandel,0,,,,
+base_1996_2000,15,mizoram,281,Mamit,0,,,,
+base_1996_2000,15,mizoram,282,Kolasib,0,,,,
+base_1996_2000,15,mizoram,283,Aizawl,0,,,,
+base_1996_2000,15,mizoram,284,Champhai,0,,,,
+base_1996_2000,15,mizoram,285,Serchhip,0,,,,
+base_1996_2000,15,mizoram,286,Lunglei,0,,,,
+base_1996_2000,15,mizoram,287,Lawngtlai,0,,,,
+base_1996_2000,15,mizoram,288,Saiha,0,,,,
+base_1996_2000,16,tripura,289,West Tripura,13,4.29,4.5,2.3,8.1
+base_1996_2000,16,tripura,290,South Tripura,5,2.95,3.05,2.04,3.38
+base_1996_2000,16,tripura,291,Dhalai,4,3.02,2.57,1.35,5.59
+base_1996_2000,16,tripura,292,North Tripura,2,4.86,4.86,1.58,8.14
+base_1996_2000,17,meghalaya,293,West Garo Hills,10,3.33,3.38,2.21,5.12
+base_1996_2000,17,meghalaya,294,East Garo Hills,8,2.54,2.56,1.48,3.28
+base_1996_2000,17,meghalaya,295,South Garo Hills,0,,,,
+base_1996_2000,17,meghalaya,296,West Khasi Hills,2,1,1,0.8,1.2
+base_1996_2000,17,meghalaya,297,Ribhoi,1,2.08,2.08,2.08,2.08
+base_1996_2000,17,meghalaya,298,East Khasi Hills,5,1.88,0.87,0.18,5.63
+base_1996_2000,17,meghalaya,299,Jaintia Hills,2,2.77,2.77,1.52,4.02
+base_1996_2000,18,assam,300,Kokrajhar,0,,,,
+base_1996_2000,18,assam,301,Dhubri,1,3.8,3.8,3.8,3.8
+base_1996_2000,18,assam,302,Goalpara,0,,,,
+base_1996_2000,18,assam,303,Barpeta,0,,,,
+base_1996_2000,18,assam,304,Morigaon,0,,,,
+base_1996_2000,18,assam,305,Nagaon,0,,,,
+base_1996_2000,18,assam,306,Sonitpur,0,,,,
+base_1996_2000,18,assam,307,Lakhimpur,0,,,,
+base_1996_2000,18,assam,308,Dhemaji,0,,,,
+base_1996_2000,18,assam,309,Tinsukia,0,,,,
+base_1996_2000,18,assam,310,Dibrugarh,0,,,,
+base_1996_2000,18,assam,311,Sivasagar,0,,,,
+base_1996_2000,18,assam,312,Jorhat,0,,,,
+base_1996_2000,18,assam,313,Golaghat,0,,,,
+base_1996_2000,18,assam,314,Karbi Anglong,0,,,,
+base_1996_2000,18,assam,315,Dima Hasao,0,,,,
+base_1996_2000,18,assam,316,Cachar,0,,,,
+base_1996_2000,18,assam,317,Karimganj,0,,,,
+base_1996_2000,18,assam,318,Hailakandi,0,,,,
+base_1996_2000,18,assam,319,Bongaigaon,0,,,,
+base_1996_2000,18,assam,320,Chirang,0,,,,
+base_1996_2000,18,assam,321,Kamrup,0,,,,
+base_1996_2000,18,assam,322,Kamrup Metropolitan,0,,,,
+base_1996_2000,18,assam,323,Nalbari,0,,,,
+base_1996_2000,18,assam,324,Baksa,0,,,,
+base_1996_2000,18,assam,325,Darrang,0,,,,
+base_1996_2000,18,assam,326,Udalguri,0,,,,
+base_1996_2000,19,west bengal,327,Darjiling,12,4.13,3.3,2.32,8.76
+base_1996_2000,19,west bengal,328,Jalpaiguri,33,5.17,4.35,1.62,16.8
+base_1996_2000,19,west bengal,329,Koch Bihar,20,3.48,3.45,2.34,4.94
+base_1996_2000,19,west bengal,330,Uttar Dinajpur,27,4.27,4.26,2.37,8.32
+base_1996_2000,19,west bengal,331,Dakshin Dinajpur,9,4.3,3.89,2.36,7.49
+base_1996_2000,19,west bengal,332,Maldah,41,6.84,6.22,2.61,19.16
+base_1996_2000,19,west bengal,333,Murshidabad,66,6,4.98,1.78,17.86
+base_1996_2000,19,west bengal,334,Birbhum,94,6.9,6.24,0.29,19.89
+base_1996_2000,19,west bengal,335,Barddhaman,86,7.18,6.68,1.59,18.02
+base_1996_2000,19,west bengal,336,Nadia,40,5.27,5.18,2.92,7.42
+base_1996_2000,19,west bengal,337,North Twenty Four Parganas,37,5.17,4.61,1.15,15.45
+base_1996_2000,19,west bengal,338,Hugli,38,7.64,8.07,1.04,14.64
+base_1996_2000,19,west bengal,339,Bankura,91,6.8,6.06,1.23,19.21
+base_1996_2000,19,west bengal,340,Puruliya,60,6.8,6.35,3.5,12.81
+base_1996_2000,19,west bengal,341,Haora,21,5.4,4.52,1.35,14.55
+base_1996_2000,19,west bengal,342,Kolkata,1,0.32,0.32,0.32,0.32
+base_1996_2000,19,west bengal,343,South Twenty Four Parganas,61,4.62,4.38,1.27,14.87
+base_1996_2000,19,west bengal,344,Paschim Medinipur,40,7.94,7.56,1.64,12.8
+base_1996_2000,19,west bengal,345,Purba Medinipur,33,7.49,7.65,2.26,11.84
+base_1996_2000,20,jharkhand,346,Garhwa,7,6.4,6.41,4.14,7.69
+base_1996_2000,20,jharkhand,347,Chatra,6,8.25,7.38,6.52,11.01
+base_1996_2000,20,jharkhand,348,Kodarma,0,,,,
+base_1996_2000,20,jharkhand,349,Giridih,14,6.84,6.81,4.32,8.52
+base_1996_2000,20,jharkhand,350,Deoghar,10,7.17,6.99,5.65,9.65
+base_1996_2000,20,jharkhand,351,Godda,10,6.96,6.18,4.51,11.17
+base_1996_2000,20,jharkhand,352,Sahibganj,8,6.09,5.61,2.99,12.24
+base_1996_2000,20,jharkhand,353,Pakur,7,6.7,5.82,4,12.24
+base_1996_2000,20,jharkhand,354,Dhanbad,9,5.23,4.83,1.67,13.54
+base_1996_2000,20,jharkhand,355,Bokaro,9,7.43,7.17,5.95,8.64
+base_1996_2000,20,jharkhand,356,Lohardaga,8,8.3,7.34,6.69,12.11
+base_1996_2000,20,jharkhand,357,Purbi Singhbhum,10,9,9.03,5.08,15.62
+base_1996_2000,20,jharkhand,358,Palamu,13,7.35,7.32,5.17,10.86
+base_1996_2000,20,jharkhand,359,Latehar,9,7.98,7.95,5.82,9.9
+base_1996_2000,20,jharkhand,360,Hazaribagh,5,7.95,7.91,7.14,9.21
+base_1996_2000,20,jharkhand,361,Ramgarh,6,7.17,7.19,4.85,9.86
+base_1996_2000,20,jharkhand,362,Dumka,19,6.61,6.5,4.46,9
+base_1996_2000,20,jharkhand,363,Jamtara,4,7.45,7.19,6.64,8.79
+base_1996_2000,20,jharkhand,364,Ranchi,14,7.22,7.14,2.68,9.93
+base_1996_2000,20,jharkhand,365,Khunti,6,8.09,7.69,4.67,11.62
+base_1996_2000,20,jharkhand,366,Gumla,13,5.38,5.89,2.47,7.89
+base_1996_2000,20,jharkhand,367,Simdega,7,6.95,7.42,5.12,8.19
+base_1996_2000,20,jharkhand,368,Pashchimi Singhbhum,10,6.55,5.76,2.76,13.35
+base_1996_2000,20,jharkhand,369,Saraikela-Kharsawan,6,7.08,6.64,3.39,11.19
+base_1996_2000,21,odisha,370,Bargarh,50,4.69,5.04,0.75,10.3
+base_1996_2000,21,odisha,371,Jharsuguda,9,5.92,6.34,4.57,6.8
+base_1996_2000,21,odisha,372,Sambalpur,41,5.43,5.59,0.65,9.71
+base_1996_2000,21,odisha,373,Debagarh,3,5.34,6.08,3.78,6.16
+base_1996_2000,21,odisha,374,Sundargarh,39,6.58,6.04,1.57,13.36
+base_1996_2000,21,odisha,375,Kendujhar,54,6.2,6.33,1.05,11.8
+base_1996_2000,21,odisha,376,Mayurbhanj,67,7.36,6.91,2,15.52
+base_1996_2000,21,odisha,377,Baleshwar,30,5.19,4.71,2.16,13.19
+base_1996_2000,21,odisha,378,Bhadrak,18,3.97,3.96,1.04,6.88
+base_1996_2000,21,odisha,379,Kendrapara,11,3.34,3.08,1.16,5.43
+base_1996_2000,21,odisha,380,Jagatsinghapur,20,3.04,2.98,1.13,5.42
+base_1996_2000,21,odisha,381,Cuttack,42,3.92,3.45,0.96,9.25
+base_1996_2000,21,odisha,382,Jajapur,31,3.83,3.39,1.34,7.04
+base_1996_2000,21,odisha,383,Dhenkanal,39,6.34,6.35,1.97,9.94
+base_1996_2000,21,odisha,384,Anugul,34,6.29,6.39,2.65,13.4
+base_1996_2000,21,odisha,385,Nayagarh,16,5.23,5.12,0.83,9.89
+base_1996_2000,21,odisha,386,Khordha,22,6.04,6.21,1.71,13.15
+base_1996_2000,21,odisha,387,Puri,45,2.95,2.88,1.21,6.33
+base_1996_2000,21,odisha,388,Ganjam,84,5.11,5,1.22,9.88
+base_1996_2000,21,odisha,389,Gajapati,16,6.71,5.71,3.31,10.84
+base_1996_2000,21,odisha,390,Kandhamal,32,8.97,9,5.38,13.55
+base_1996_2000,21,odisha,391,Baudh,26,6.29,6.44,3.97,8.13
+base_1996_2000,21,odisha,392,Subarnapur,24,4.33,4.28,0.75,7.58
+base_1996_2000,21,odisha,393,Balangir,41,5.9,5.92,2.1,8.13
+base_1996_2000,21,odisha,394,Nuapada,16,6.34,6.04,3.73,12.34
+base_1996_2000,21,odisha,395,Kalahandi,47,5.97,5.73,2.15,10.07
+base_1996_2000,21,odisha,396,Rayagada,19,5.84,5.42,2.14,12.88
+base_1996_2000,21,odisha,397,Nabarangapur,17,6.81,6.74,3.9,11.65
+base_1996_2000,21,odisha,398,Koraput,48,6.42,5.92,1.54,13.36
+base_1996_2000,21,odisha,399,Malkangiri,27,6.35,6.55,2.64,9.8
+base_1996_2000,22,chhattisgarh,400,Koriya,17,6.88,6.06,3.84,12.42
+base_1996_2000,22,chhattisgarh,401,Surguja,107,7.71,7.24,3.27,17.38
+base_1996_2000,22,chhattisgarh,402,Jashpur,25,6.54,6.6,2.31,9.96
+base_1996_2000,22,chhattisgarh,403,Raigarh,0,,,,
+base_1996_2000,22,chhattisgarh,404,Korba,30,7.63,7.61,3.08,13.28
+base_1996_2000,22,chhattisgarh,405,Janjgir - Champa,51,7.22,7.32,1.54,13.19
+base_1996_2000,22,chhattisgarh,406,Bilaspur,69,7.91,8.08,1.14,19.42
+base_1996_2000,22,chhattisgarh,407,Kabeerdham,10,10.43,7.4,3.49,32
+base_1996_2000,22,chhattisgarh,408,Rajnandgaon,22,7.31,7.05,2.75,14.82
+base_1996_2000,22,chhattisgarh,409,Durg,25,6.67,6.29,2.01,18.39
+base_1996_2000,22,chhattisgarh,410,Raipur,42,7.23,7.19,1.32,14.23
+base_1996_2000,22,chhattisgarh,411,Mahasamund,22,9.29,8.2,4.3,33
+base_1996_2000,22,chhattisgarh,412,Dhamtari,14,6.13,6.01,2.95,9.18
+base_1996_2000,22,chhattisgarh,413,Uttar Bastar Kanker,21,7.28,7.43,3.79,10.58
+base_1996_2000,22,chhattisgarh,414,Bastar,84,7.29,7.01,1.53,14.78
+base_1996_2000,22,chhattisgarh,415,Narayanpur,16,5.83,6.56,1.35,9.34
+base_1996_2000,22,chhattisgarh,416,Dakshin Bastar Dantewada,22,7.19,6.64,2.37,15.12
+base_1996_2000,22,chhattisgarh,417,Bijapur,15,6.92,6.65,4.7,10.04
+base_1996_2000,23,madhya pradesh,418,Sheopur,21,10.76,9,2.8,30.96
+base_1996_2000,23,madhya pradesh,419,Morena,18,11.19,10.68,3.18,40.37
+base_1996_2000,23,madhya pradesh,420,Bhind,27,14.72,13.13,3.77,32.68
+base_1996_2000,23,madhya pradesh,421,Gwalior,22,10.72,9.88,3.77,19.11
+base_1996_2000,23,madhya pradesh,422,Datia,8,11.7,9.87,5.4,25.63
+base_1996_2000,23,madhya pradesh,423,Shivpuri,34,9.89,8.91,4.64,28.48
+base_1996_2000,23,madhya pradesh,424,Tikamgarh,18,7.43,6.87,3.98,11.33
+base_1996_2000,23,madhya pradesh,425,Chhatarpur,32,8.05,7.87,4.22,14.85
+base_1996_2000,23,madhya pradesh,426,Panna,19,8.83,7.92,4.53,19.03
+base_1996_2000,23,madhya pradesh,427,Sagar,35,9.81,8.76,3.84,23.54
+base_1996_2000,23,madhya pradesh,428,Damoh,25,10.63,9,3.93,31.47
+base_1996_2000,23,madhya pradesh,429,Satna,29,9.32,9.34,3.89,16.28
+base_1996_2000,23,madhya pradesh,430,Rewa,24,10.93,10.38,6.59,15.15
+base_1996_2000,23,madhya pradesh,431,Umaria,12,7.43,6.9,4.64,14.89
+base_1996_2000,23,madhya pradesh,432,Neemuch,24,11.95,10.69,6.47,36.2
+base_1996_2000,23,madhya pradesh,433,Mandsaur,29,15.29,11.17,8.27,56.8
+base_1996_2000,23,madhya pradesh,434,Ratlam,32,14.62,11.88,4.34,56.58
+base_1996_2000,23,madhya pradesh,435,Ujjain,30,11.75,10.16,3.97,44.21
+base_1996_2000,23,madhya pradesh,436,Shajapur,29,12.02,10.38,5.71,34.24
+base_1996_2000,23,madhya pradesh,437,Dewas,28,12.41,10.12,2.46,61.59
+base_1996_2000,23,madhya pradesh,438,Dhar,34,14.17,10.69,6.32,42.02
+base_1996_2000,23,madhya pradesh,439,Indore,23,14.54,12.95,5.96,25.8
+base_1996_2000,23,madhya pradesh,440,Khargone (West Nimar),25,10.16,9.68,3.66,33.55
+base_1996_2000,23,madhya pradesh,441,Barwani,11,12.79,9.65,6.58,34.81
+base_1996_2000,23,madhya pradesh,442,Rajgarh,22,10.86,10.57,5.81,18.83
+base_1996_2000,23,madhya pradesh,443,Vidisha,27,10.08,9.81,4.68,22.14
+base_1996_2000,23,madhya pradesh,444,Bhopal,11,12.17,10.01,7.36,19.04
+base_1996_2000,23,madhya pradesh,445,Sehore,24,13.54,9.63,3.51,37.02
+base_1996_2000,23,madhya pradesh,446,Raisen,27,9.53,9.32,3.43,21.5
+base_1996_2000,23,madhya pradesh,447,Betul,30,11.34,9.54,4.27,52.28
+base_1996_2000,23,madhya pradesh,448,Harda,13,9.76,9.62,3.69,13.92
+base_1996_2000,23,madhya pradesh,449,Hoshangabad,22,7.58,6.85,3.69,15
+base_1996_2000,23,madhya pradesh,450,Katni,17,8.48,7.81,2.51,14.25
+base_1996_2000,23,madhya pradesh,451,Jabalpur,24,8.23,7.9,2.79,18.74
+base_1996_2000,23,madhya pradesh,452,Narsimhapur,29,11.07,9.51,4.7,21.89
+base_1996_2000,23,madhya pradesh,453,Dindori,10,5,4.48,2.77,9.64
+base_1996_2000,23,madhya pradesh,454,Mandla,21,6.03,5.6,2.54,10.84
+base_1996_2000,23,madhya pradesh,455,Chhindwara,44,10.14,8.73,2.04,28.15
+base_1996_2000,23,madhya pradesh,456,Seoni,37,9.29,6.98,1.24,48.95
+base_1996_2000,23,madhya pradesh,457,Balaghat,40,7.53,7.2,2.37,13.22
+base_1996_2000,23,madhya pradesh,458,Guna,22,13.2,8.57,4.18,45.52
+base_1996_2000,23,madhya pradesh,459,Ashoknagar,14,10.42,10.73,5.14,15
+base_1996_2000,23,madhya pradesh,460,Shahdol,14,7.62,6.83,4.95,10.69
+base_1996_2000,23,madhya pradesh,461,Anuppur,11,8.15,7.51,4.89,14.71
+base_1996_2000,23,madhya pradesh,462,Sidhi,22,10.64,9.18,4.55,21.53
+base_1996_2000,23,madhya pradesh,463,Singrauli,4,7.91,8.16,5.59,9.73
+base_1996_2000,23,madhya pradesh,464,Jhabua,14,9.8,6.62,2.58,28.78
+base_1996_2000,23,madhya pradesh,465,Alirajpur,11,8.25,7.14,3.92,20.71
+base_1996_2000,23,madhya pradesh,466,Khandwa (East Nimar),24,10.66,8.33,3.41,36.06
+base_1996_2000,23,madhya pradesh,467,Burhanpur,14,14.16,12.19,4.2,30.66
+base_1996_2000,24,gujarat,468,Kachchh,114,15.68,11.84,1.8,60.9
+base_1996_2000,24,gujarat,469,Banas Kantha,78,20.09,17.34,2.74,76.36
+base_1996_2000,24,gujarat,470,Patan,35,21.99,9.72,2.76,134.48
+base_1996_2000,24,gujarat,471,Mahesana,46,30.45,15.66,3.1,129.46
+base_1996_2000,24,gujarat,472,Sabar Kantha,55,13.42,11.98,6.13,31.83
+base_1996_2000,24,gujarat,473,Gandhinagar,8,43.34,36.54,10.88,90.94
+base_1996_2000,24,gujarat,474,Ahmadabad,49,12.19,10.1,2.65,71.79
+base_1996_2000,24,gujarat,475,Surendranagar,52,12.47,9.21,1.2,83.52
+base_1996_2000,24,gujarat,476,Rajkot,65,12.99,11.15,3.32,44.96
+base_1996_2000,24,gujarat,477,Jamnagar,65,11.61,9.95,4.15,23.59
+base_1996_2000,24,gujarat,478,Porbandar,18,12.52,12.94,2.97,23.8
+base_1996_2000,24,gujarat,479,Junagadh,66,15.83,14.45,4.57,59.74
+base_1996_2000,24,gujarat,480,Amreli,69,17.02,14.32,3.73,59.8
+base_1996_2000,24,gujarat,481,Bhavnagar,54,14.88,13.89,4.12,38.34
+base_1996_2000,24,gujarat,482,Anand,26,7.76,6.04,2.16,23.48
+base_1996_2000,24,gujarat,483,Kheda,27,11.45,7.53,1.71,37.81
+base_1996_2000,24,gujarat,484,Panch Mahals,26,8.46,8.05,3.29,16.01
+base_1996_2000,24,gujarat,485,Dohad,23,7.1,7.35,0.98,13.55
+base_1996_2000,24,gujarat,486,Vadodara,58,12.36,9.7,2.27,47.5
+base_1996_2000,24,gujarat,487,Narmada,18,12.89,9.57,1.31,31.05
+base_1996_2000,24,gujarat,488,Bharuch,42,8.63,8.49,1.67,20.37
+base_1996_2000,24,gujarat,489,The Dangs,23,5.95,5.54,1.49,15.77
+base_1996_2000,24,gujarat,490,Navsari,18,7.36,7.54,3.67,10.99
+base_1996_2000,24,gujarat,491,Valsad,20,7.58,7.35,2.29,15.99
+base_1996_2000,24,gujarat,492,Surat,40,6.66,6.02,1.72,17.33
+base_1996_2000,24,gujarat,493,Tapi,8,6.92,5.98,3.52,12.73
+base_1996_2000,25,daman diu,494,Diu,0,,,,
+base_1996_2000,25,daman diu,495,Daman,0,,,,
+base_1996_2000,26,dadra nagar haveli,496,Dadra & Nagar Haveli,0,,,,
+base_1996_2000,27,maharashtra,497,Nandurbar,11,9.48,8.96,5.42,15.81
+base_1996_2000,27,maharashtra,498,Dhule,27,8.35,7.82,3.02,16.03
+base_1996_2000,27,maharashtra,499,Jalgaon,40,11.09,7.79,2.27,45.56
+base_1996_2000,27,maharashtra,500,Buldana,38,8.41,7.62,1.7,16.04
+base_1996_2000,27,maharashtra,501,Akola,27,12.83,12.37,3.94,27.04
+base_1996_2000,27,maharashtra,502,Washim,27,7.94,7.99,4.58,12.05
+base_1996_2000,27,maharashtra,503,Amravati,63,9.23,8.28,1.97,26.84
+base_1996_2000,27,maharashtra,504,Wardha,51,7.63,7.63,2.14,13.5
+base_1996_2000,27,maharashtra,505,Nagpur,41,6.83,6.27,1.6,13.4
+base_1996_2000,27,maharashtra,506,Bhandara,28,8.44,8.34,2.86,15.07
+base_1996_2000,27,maharashtra,507,Gondiya,24,7.53,7.15,3.16,12.24
+base_1996_2000,27,maharashtra,508,Gadchiroli,62,7.93,7.7,4.86,16.82
+base_1996_2000,27,maharashtra,509,Chandrapur,47,7.46,7.14,1.31,16.77
+base_1996_2000,27,maharashtra,510,Yavatmal,54,7.49,7.26,2.16,20.8
+base_1996_2000,27,maharashtra,511,Nanded,47,7.71,7.56,1.76,17.81
+base_1996_2000,27,maharashtra,512,Hingoli,16,8.67,7.04,4.91,20.24
+base_1996_2000,27,maharashtra,513,Parbhani,21,7.48,7.62,1.98,12.89
+base_1996_2000,27,maharashtra,514,Jalna,29,8.97,8.92,3.13,18.11
+base_1996_2000,27,maharashtra,515,Aurangabad,17,9.89,9.72,4.86,15.4
+base_1996_2000,27,maharashtra,516,Nashik,58,7.63,6.81,0.96,24.75
+base_1996_2000,27,maharashtra,517,Thane,46,4.18,4.33,0.39,8.63
+base_1996_2000,27,maharashtra,518,Mumbai Suburban,3,3.48,3.08,1.73,5.63
+base_1996_2000,27,maharashtra,519,Mumbai,2,3.04,3.04,2.21,3.87
+base_1996_2000,27,maharashtra,520,Raigarh,30,3.5,3.26,0.91,7.96
+base_1996_2000,27,maharashtra,521,Pune,52,6.29,6.19,0.81,22.62
+base_1996_2000,27,maharashtra,522,Ahmadnagar,43,8.18,7.62,2.95,19.38
+base_1996_2000,27,maharashtra,523,Bid,37,8.78,7.96,3.3,23.15
+base_1996_2000,27,maharashtra,524,Latur,29,10.28,10.4,3.18,22.29
+base_1996_2000,27,maharashtra,525,Osmanabad,32,11.09,7.82,4.3,52.83
+base_1996_2000,27,maharashtra,526,Solapur,64,8.08,6.71,0.01,45.86
+base_1996_2000,27,maharashtra,527,Satara,49,7.27,5.86,1.17,16.5
+base_1996_2000,27,maharashtra,528,Ratnagiri,47,7.08,5.69,2.34,19.94
+base_1996_2000,27,maharashtra,529,Sindhudurg,38,7.16,6.67,2.26,16.53
+base_1996_2000,27,maharashtra,530,Kolhapur,34,6.71,6.2,0.92,13.46
+base_1996_2000,27,maharashtra,531,Sangli,34,6.96,6.44,2.43,15.56
+base_1996_2000,28,andhra pradesh,532,Adilabad,67,7.61,6.81,0.3,21.5
+base_1996_2000,28,andhra pradesh,533,Nizamabad,50,9.04,8.91,2.53,19.2
+base_1996_2000,28,andhra pradesh,534,Karimnagar,51,7.66,7.58,1.5,16.25
+base_1996_2000,28,andhra pradesh,535,Medak,26,12.93,8.69,4.81,39.04
+base_1996_2000,28,andhra pradesh,536,Hyderabad,10,7.33,7.77,1.87,13.43
+base_1996_2000,28,andhra pradesh,537,Rangareddy,39,9.62,8.8,2.8,21.55
+base_1996_2000,28,andhra pradesh,538,Mahbubnagar,57,9.68,9.26,3.74,25.67
+base_1996_2000,28,andhra pradesh,539,Nalgonda,66,8.12,7.77,3.16,16.4
+base_1996_2000,28,andhra pradesh,540,Warangal,36,7.87,7.33,1.17,18.71
+base_1996_2000,28,andhra pradesh,541,Khammam,53,7.62,7.25,2.37,15.72
+base_1996_2000,28,andhra pradesh,542,Srikakulam,30,6.66,6.67,2.4,12.39
+base_1996_2000,28,andhra pradesh,543,Vizianagaram,23,6.4,6.16,2.24,10.63
+base_1996_2000,28,andhra pradesh,544,Visakhapatnam,40,6.13,5.43,2.36,17.04
+base_1996_2000,28,andhra pradesh,545,East Godavari,60,5.64,3.92,1.68,35.66
+base_1996_2000,28,andhra pradesh,546,West Godavari,45,9.15,7.3,1.31,28.89
+base_1996_2000,28,andhra pradesh,547,Krishna,37,5.86,4.94,1.56,24.34
+base_1996_2000,28,andhra pradesh,548,Guntur,42,5.05,4.58,1.7,21.34
+base_1996_2000,28,andhra pradesh,549,Prakasam,48,5.17,5.02,1.11,10.26
+base_1996_2000,28,andhra pradesh,550,Sri Potti Sriramulu Nellore,58,5.44,5.25,1.57,12.28
+base_1996_2000,28,andhra pradesh,551,Y.S.R.,46,8.08,7.79,2.17,20.33
+base_1996_2000,28,andhra pradesh,552,Kurnool,77,6.76,6.33,1.71,15
+base_1996_2000,28,andhra pradesh,553,Anantapur,93,8.72,8.18,2.1,30.11
+base_1996_2000,28,andhra pradesh,554,Chittoor,60,7.28,6.87,2.25,13.2
+base_1996_2000,29,karnataka,555,Belgaum,93,9.59,8.56,1.4,35.2
+base_1996_2000,29,karnataka,556,Bagalkot,31,7.98,6.17,1.91,24.24
+base_1996_2000,29,karnataka,557,Bijapur,67,7.68,7,1.11,15.7
+base_1996_2000,29,karnataka,558,Bidar,40,11.2,10.74,1.9,35.63
+base_1996_2000,29,karnataka,559,Raichur,35,4.94,4.6,1.23,8.92
+base_1996_2000,29,karnataka,560,Koppal,31,7.33,6.75,2.08,14.64
+base_1996_2000,29,karnataka,561,Gadag,21,11.79,9.83,3.14,28.85
+base_1996_2000,29,karnataka,562,Dharwad,21,11.54,10.13,1.81,25.24
+base_1996_2000,29,karnataka,563,Uttara Kannada,47,7.69,7.06,1.05,27.42
+base_1996_2000,29,karnataka,564,Haveri,27,14.71,13.72,3.9,33.45
+base_1996_2000,29,karnataka,565,Bellary,53,9.45,6.93,1.29,39.04
+base_1996_2000,29,karnataka,566,Chitradurga,42,9.14,8.79,3.78,20.17
+base_1996_2000,29,karnataka,567,Davanagere,26,9.7,9.21,2.2,17.63
+base_1996_2000,29,karnataka,568,Shimoga,34,8.87,9.03,1.39,19.9
+base_1996_2000,29,karnataka,569,Udupi,22,8.84,9.06,2.13,14.74
+base_1996_2000,29,karnataka,570,Chikmagalur,38,8.51,7.93,2.32,18.08
+base_1996_2000,29,karnataka,571,Tumkur,63,10.82,8.05,2.1,31.84
+base_1996_2000,29,karnataka,572,Bangalore,23,11.14,8.26,2.89,34.32
+base_1996_2000,29,karnataka,573,Mandya,39,7.03,6.47,1.04,23.58
+base_1996_2000,29,karnataka,574,Hassan,46,9.7,9.35,1.46,24.25
+base_1996_2000,29,karnataka,575,Dakshina Kannada,32,8.2,7.76,2.89,14.04
+base_1996_2000,29,karnataka,576,Kodagu,34,8.98,8.05,1.47,26.15
+base_1996_2000,29,karnataka,577,Mysore,43,8.22,6.61,2.35,25.22
+base_1996_2000,29,karnataka,578,Chamarajanagar,19,8.01,7.07,2.8,21.56
+base_1996_2000,29,karnataka,579,Gulbarga,86,9.46,8.68,3.53,37.4
+base_1996_2000,29,karnataka,580,Yadgir,33,6.82,7.33,1.31,12.61
+base_1996_2000,29,karnataka,581,Kolar,6,14.52,12.4,0.84,32.74
+base_1996_2000,29,karnataka,582,Chikkaballapura,26,11.41,8.38,3.45,34.56
+base_1996_2000,29,karnataka,583,Bangalore Rural,21,11.38,10.09,2.63,24.82
+base_1996_2000,29,karnataka,584,Ramanagara,32,7.73,6.81,1.37,21.77
+base_1996_2000,30,goa,585,North Goa,0,,,,
+base_1996_2000,30,goa,586,South Goa,0,,,,
+base_1996_2000,31,lakshadweep,587,Lakshadweep,0,,,,
+base_1996_2000,32,kerala,588,Kasaragod,51,10.81,10.54,2.25,24.73
+base_1996_2000,32,kerala,589,Kannur,53,8.16,7.86,1.92,21.84
+base_1996_2000,32,kerala,590,Wayanad,35,7.35,7.22,1.1,18.01
+base_1996_2000,32,kerala,591,Kozhikode,40,5.61,5.17,1.45,15.41
+base_1996_2000,32,kerala,592,Malappuram,75,8.06,7.48,0.95,24.8
+base_1996_2000,32,kerala,593,Palakkad,69,6.74,6.45,0.78,12.8
+base_1996_2000,32,kerala,594,Thrissur,57,7.26,6.23,1.58,26.25
+base_1996_2000,32,kerala,595,Ernakulam,65,5.22,5.2,0.75,12.75
+base_1996_2000,32,kerala,596,Idukki,43,6.27,4.99,1.12,36.3
+base_1996_2000,32,kerala,597,Kottayam,64,5.97,5.71,1.28,13.79
+base_1996_2000,32,kerala,598,Alappuzha,61,4.49,2.62,0.17,20.32
+base_1996_2000,32,kerala,599,Pathanamthitta,45,5.95,5.44,0.9,27.3
+base_1996_2000,32,kerala,600,Kollam,60,8.64,7.86,1.1,22.56
+base_1996_2000,32,kerala,601,Thiruvananthapuram,52,9.41,7.58,1.51,54.01
+base_1996_2000,33,tamil nadu,602,Thiruvallur,21,5.66,5.36,2.54,11.71
+base_1996_2000,33,tamil nadu,603,Chennai,15,4.92,5.12,2.52,8.56
+base_1996_2000,33,tamil nadu,604,Kancheepuram,38,4.63,4.11,1.96,7.84
+base_1996_2000,33,tamil nadu,605,Vellore,52,8.28,8.2,0.6,18.8
+base_1996_2000,33,tamil nadu,606,Tiruvannamalai,28,7.2,7.53,2.96,14.85
+base_1996_2000,33,tamil nadu,607,Viluppuram,46,5.75,5.24,2.74,10.32
+base_1996_2000,33,tamil nadu,608,Salem,50,10.69,9.93,2.4,26.54
+base_1996_2000,33,tamil nadu,609,Namakkal,43,11.99,12.3,1.84,28.47
+base_1996_2000,33,tamil nadu,610,Erode,47,10.07,8.67,2.68,28.83
+base_1996_2000,33,tamil nadu,611,The Nilgiris,11,5.16,3.96,1.7,17.23
+base_1996_2000,33,tamil nadu,612,Dindigul,45,8.26,7.44,2.64,18.38
+base_1996_2000,33,tamil nadu,613,Karur,13,5.83,4.53,2.57,10.7
+base_1996_2000,33,tamil nadu,614,Tiruchirappalli,25,7.17,6.36,1.63,18.6
+base_1996_2000,33,tamil nadu,615,Perambalur,10,6.07,5.4,4.5,9.17
+base_1996_2000,33,tamil nadu,616,Ariyalur,12,12.69,6.81,2.81,39.92
+base_1996_2000,33,tamil nadu,617,Cuddalore,32,10.88,6.72,2.2,39.56
+base_1996_2000,33,tamil nadu,618,Nagapattinam,9,3.5,3.7,1.78,5.65
+base_1996_2000,33,tamil nadu,619,Thiruvarur,13,4.31,3.81,2.49,6.65
+base_1996_2000,33,tamil nadu,620,Thanjavur,27,5.95,4.11,2.21,25.97
+base_1996_2000,33,tamil nadu,621,Pudukkottai,28,5.37,5.14,0.98,11.97
+base_1996_2000,33,tamil nadu,622,Sivaganga,24,8.48,6.57,3,23.36
+base_1996_2000,33,tamil nadu,623,Madurai,19,6.05,5.11,1.78,12.87
+base_1996_2000,33,tamil nadu,624,Theni,17,9.49,6.4,2.58,30.15
+base_1996_2000,33,tamil nadu,625,Virudhunagar,26,6.45,6.24,3.52,11.71
+base_1996_2000,33,tamil nadu,626,Ramanathapuram,29,7.05,4.12,1.72,39.2
+base_1996_2000,33,tamil nadu,627,Thoothukkudi,37,6.63,5.92,1.32,13.24
+base_1996_2000,33,tamil nadu,628,Tirunelveli,51,6.7,6.04,1.86,17.03
+base_1996_2000,33,tamil nadu,629,Kanniyakumari,22,10.99,11.64,2.46,21.6
+base_1996_2000,33,tamil nadu,630,Dharmapuri,25,7.98,7,3.44,17.52
+base_1996_2000,33,tamil nadu,631,Krishnagiri,34,7.55,7.44,2.28,15.5
+base_1996_2000,33,tamil nadu,632,Coimbatore,48,14.26,11.25,1.52,45.3
+base_1996_2000,33,tamil nadu,633,Tiruppur,43,11.02,9.18,1.5,31.3
+base_1996_2000,34,puducherry,634,Yanam,0,,,,
+base_1996_2000,34,puducherry,635,Puducherry,0,,,,
+base_1996_2000,34,puducherry,636,Mahe,0,,,,
+base_1996_2000,34,puducherry,637,Karaikal,0,,,,
+base_1996_2000,35,andaman nicobar islands,638,Nicobars,0,,,,
+base_1996_2000,35,andaman nicobar islands,639,North  & Middle Andaman,0,,,,
+base_1996_2000,35,andaman nicobar islands,640,South Andaman,0,,,,
+toutes_1996_2016,01,jammu kashmir,000,,0,,,,
+toutes_1996_2016,01,jammu kashmir,001,Kupwara,11,2.72,2.34,1.06,7.23
+toutes_1996_2016,01,jammu kashmir,002,Badgam,0,,,,
+toutes_1996_2016,01,jammu kashmir,003,Leh(Ladakh),0,,,,
+toutes_1996_2016,01,jammu kashmir,004,Kargil,0,,,,
+toutes_1996_2016,01,jammu kashmir,005,Punch,0,,,,
+toutes_1996_2016,01,jammu kashmir,006,Rajouri,16,3.21,2.75,1.53,7.55
+toutes_1996_2016,01,jammu kashmir,007,Kathua,49,6.37,4.31,1.23,27.77
+toutes_1996_2016,01,jammu kashmir,008,Baramula,9,1.26,1.3,0.3,1.93
+toutes_1996_2016,01,jammu kashmir,009,Bandipore,1,3.88,3.88,3.88,3.88
+toutes_1996_2016,01,jammu kashmir,010,Srinagar,4,6.1,5.82,2.98,9.8
+toutes_1996_2016,01,jammu kashmir,011,Ganderbal,0,,,,
+toutes_1996_2016,01,jammu kashmir,012,Pulwama,4,5.76,3.62,0.9,14.88
+toutes_1996_2016,01,jammu kashmir,013,Shupiyan,0,,,,
+toutes_1996_2016,01,jammu kashmir,014,Anantnag,1,16.39,16.39,16.39,16.39
+toutes_1996_2016,01,jammu kashmir,015,Kulgam,0,,,,
+toutes_1996_2016,01,jammu kashmir,016,Doda,0,,,,
+toutes_1996_2016,01,jammu kashmir,017,Ramban,0,,,,
+toutes_1996_2016,01,jammu kashmir,018,Kishtwar,0,,,,
+toutes_1996_2016,01,jammu kashmir,019,Udhampur,23,3.26,2.85,0.96,8.61
+toutes_1996_2016,01,jammu kashmir,020,Reasi,9,5.96,4.08,2.56,24.58
+toutes_1996_2016,01,jammu kashmir,021,Jammu,85,6.85,4.07,1.13,35.68
+toutes_1996_2016,01,jammu kashmir,022,Samba,36,6.57,4.76,0.99,21.85
+toutes_1996_2016,02,himachal pradesh,023,Chamba,1,1.54,1.54,1.54,1.54
+toutes_1996_2016,02,himachal pradesh,024,Kangra,39,5.71,4.26,0.88,14.25
+toutes_1996_2016,02,himachal pradesh,025,Lahul & Spiti,0,,,,
+toutes_1996_2016,02,himachal pradesh,026,Kullu,3,3.57,3.86,1.75,5.09
+toutes_1996_2016,02,himachal pradesh,027,Mandi,10,6.58,5.57,0.71,14.08
+toutes_1996_2016,02,himachal pradesh,028,Hamirpur,0,,,,
+toutes_1996_2016,02,himachal pradesh,029,Una,38,9.69,5.36,1.96,55.29
+toutes_1996_2016,02,himachal pradesh,030,Bilaspur,0,,,,
+toutes_1996_2016,02,himachal pradesh,031,Solan,13,13.65,11.93,3.89,28.14
+toutes_1996_2016,02,himachal pradesh,032,Sirmaur,16,14.98,12.04,3.21,39.52
+toutes_1996_2016,02,himachal pradesh,033,Shimla,0,,,,
+toutes_1996_2016,02,himachal pradesh,034,Kinnaur,0,,,,
+toutes_1996_2016,03,punjab,035,Gurdaspur,104,7.41,6.25,2.28,19.9
+toutes_1996_2016,03,punjab,036,Kapurthala,51,12.71,10.7,3.38,26.35
+toutes_1996_2016,03,punjab,037,Jalandhar,87,19.63,18.95,5.78,36.1
+toutes_1996_2016,03,punjab,038,Hoshiarpur,83,12.46,10,2.16,41.18
+toutes_1996_2016,03,punjab,039,Shahid Bhagat Singh Nagar,24,15.08,14.86,5.47,32.62
+toutes_1996_2016,03,punjab,040,Fatehgarh Sahib,39,16.89,16.68,6.14,29.97
+toutes_1996_2016,03,punjab,041,Ludhiana,106,14.23,12.9,3.27,37.66
+toutes_1996_2016,03,punjab,042,Moga,44,16.79,15.97,3.74,30.26
+toutes_1996_2016,03,punjab,043,Firozpur,95,7.42,6.01,1.16,26.25
+toutes_1996_2016,03,punjab,044,Muktsar,50,2.94,2.42,0.11,9.3
+toutes_1996_2016,03,punjab,045,Faridkot,28,7,6.6,1.6,15.72
+toutes_1996_2016,03,punjab,046,Bathinda,82,12.67,11.64,4.12,26.76
+toutes_1996_2016,03,punjab,047,Mansa,45,8.63,7.34,1.8,24.5
+toutes_1996_2016,03,punjab,048,Patiala,61,19.4,20.33,3.85,37.87
+toutes_1996_2016,03,punjab,049,Amritsar,67,11.78,10.79,3.71,25.25
+toutes_1996_2016,03,punjab,050,Tarn Taran,60,14.12,14.91,5.53,21.21
+toutes_1996_2016,03,punjab,051,Rupnagar,27,9.73,8.02,2.74,33.05
+toutes_1996_2016,03,punjab,052,Sahibzada Ajit Singh Nagar,38,12.19,9.4,2.27,53.25
+toutes_1996_2016,03,punjab,053,Sangrur,44,26.46,24.05,6.03,268
+toutes_1996_2016,03,punjab,054,Barnala,29,20.95,20.07,0.21,44.54
+toutes_1996_2016,04,chandigarh,055,Chandigarh,0,,,,
+toutes_1996_2016,05,uttarakhand,056,Uttarkashi,0,,,,
+toutes_1996_2016,05,uttarakhand,057,Chamoli,0,,,,
+toutes_1996_2016,05,uttarakhand,058,Rudraprayag,0,,,,
+toutes_1996_2016,05,uttarakhand,059,Tehri Garhwal,0,,,,
+toutes_1996_2016,05,uttarakhand,060,Dehradun,0,,,,
+toutes_1996_2016,05,uttarakhand,061,Garhwal,0,,,,
+toutes_1996_2016,05,uttarakhand,062,Pithoragarh,0,,,,
+toutes_1996_2016,05,uttarakhand,063,Bageshwar,0,,,,
+toutes_1996_2016,05,uttarakhand,064,Almora,0,,,,
+toutes_1996_2016,05,uttarakhand,065,Champawat,0,,,,
+toutes_1996_2016,05,uttarakhand,066,Nainital,0,,,,
+toutes_1996_2016,05,uttarakhand,067,Udham Singh Nagar,1,5.24,5.24,5.24,5.24
+toutes_1996_2016,05,uttarakhand,068,Hardwar,0,,,,
+toutes_1996_2016,06,haryana,069,Panchkula,19,13.96,12.61,3.62,49.06
+toutes_1996_2016,06,haryana,070,Ambala,45,17.26,8.74,1.09,204
+toutes_1996_2016,06,haryana,071,Yamunanagar,45,12.99,12.66,3.49,29.99
+toutes_1996_2016,06,haryana,072,Kurukshetra,48,27.45,29.97,6.47,41.9
+toutes_1996_2016,06,haryana,073,Kaithal,55,18.43,14.94,2.3,40.25
+toutes_1996_2016,06,haryana,074,Karnal,99,14.83,13.89,3.47,34.46
+toutes_1996_2016,06,haryana,075,Panipat,49,15.2,12.22,2.3,63.79
+toutes_1996_2016,06,haryana,076,Sonipat,79,9.15,5.23,2,33.32
+toutes_1996_2016,06,haryana,077,Jind,72,12.57,10.58,2.1,35.89
+toutes_1996_2016,06,haryana,078,Fatehabad,45,14.38,8.94,1.81,52
+toutes_1996_2016,06,haryana,079,Sirsa,75,12.79,9.47,1.63,62.79
+toutes_1996_2016,06,haryana,080,Hisar,74,7.55,7.13,0.95,19.12
+toutes_1996_2016,06,haryana,081,Bhiwani,70,16.81,10.08,1.5,64.43
+toutes_1996_2016,06,haryana,082,Rohtak,37,4.52,3.21,0.77,26.09
+toutes_1996_2016,06,haryana,083,Jhajjar,39,6.55,4.54,1.38,25.3
+toutes_1996_2016,06,haryana,084,Mahendragarh,32,31.88,24.26,9.7,92.5
+toutes_1996_2016,06,haryana,085,Rewari,44,17.51,15.05,3.3,70.92
+toutes_1996_2016,06,haryana,086,Gurgaon,43,22.15,21.99,5.7,51.66
+toutes_1996_2016,06,haryana,087,Mewat,31,9.49,5.8,1.51,32.67
+toutes_1996_2016,06,haryana,088,Faridabad,23,17.58,16.27,4.4,47.97
+toutes_1996_2016,06,haryana,089,Palwal,32,8.12,7.1,1.14,20.17
+toutes_1996_2016,07,nct of delhi,090,North West,2,4.8,4.8,2.31,7.29
+toutes_1996_2016,07,nct of delhi,091,North,0,,,,
+toutes_1996_2016,07,nct of delhi,092,North East,0,,,,
+toutes_1996_2016,07,nct of delhi,093,East,0,,,,
+toutes_1996_2016,07,nct of delhi,094,New Delhi,0,,,,
+toutes_1996_2016,07,nct of delhi,095,Central,0,,,,
+toutes_1996_2016,07,nct of delhi,096,West,0,,,,
+toutes_1996_2016,07,nct of delhi,097,South West,2,2.39,2.39,2.37,2.42
+toutes_1996_2016,07,nct of delhi,098,South,0,,,,
+toutes_1996_2016,08,rajasthan,099,Ganganagar,47,16.01,13.44,0.59,45.13
+toutes_1996_2016,08,rajasthan,100,Hanumangarh,54,17.78,17.29,1.8,48.85
+toutes_1996_2016,08,rajasthan,101,Bikaner,110,51.07,49.36,6.96,115.63
+toutes_1996_2016,08,rajasthan,102,Churu,68,35.61,36.88,7.37,62.68
+toutes_1996_2016,08,rajasthan,103,Jhunjhunun,40,53,51.92,16.45,83.88
+toutes_1996_2016,08,rajasthan,104,Alwar,77,21.23,18.68,5,65.92
+toutes_1996_2016,08,rajasthan,105,Bharatpur,61,9.99,7.59,2.01,45.59
+toutes_1996_2016,08,rajasthan,106,Dhaulpur,20,15.72,12.89,5.88,42.47
+toutes_1996_2016,08,rajasthan,107,Karauli,30,16,13.7,4.28,35.9
+toutes_1996_2016,08,rajasthan,108,Sawai Madhopur,26,13.54,11.62,4.91,43.81
+toutes_1996_2016,08,rajasthan,109,Dausa,45,20.94,17.88,8.62,46.68
+toutes_1996_2016,08,rajasthan,110,Jaipur,111,29.88,29.04,2.9,75.86
+toutes_1996_2016,08,rajasthan,111,Sikar,69,39.38,41.54,3.91,70.9
+toutes_1996_2016,08,rajasthan,112,Nagaur,69,33.72,33.6,5.67,67.7
+toutes_1996_2016,08,rajasthan,113,Jodhpur,97,34.41,28.88,3,116.13
+toutes_1996_2016,08,rajasthan,114,Jaisalmer,102,42.22,38.38,2.61,116.32
+toutes_1996_2016,08,rajasthan,115,Barmer,102,36,28.37,4.59,114.63
+toutes_1996_2016,08,rajasthan,116,Jalor,40,31.59,28.07,2.21,78.8
+toutes_1996_2016,08,rajasthan,117,Sirohi,32,15.18,13.09,6.74,44.1
+toutes_1996_2016,08,rajasthan,118,Pali,39,14.14,12.5,2.69,35.5
+toutes_1996_2016,08,rajasthan,119,Ajmer,45,11.55,10.66,3.4,26.68
+toutes_1996_2016,08,rajasthan,120,Tonk,26,9.51,8.16,4.49,21.93
+toutes_1996_2016,08,rajasthan,121,Bundi,20,9.71,8.61,3.08,25.08
+toutes_1996_2016,08,rajasthan,122,Bhilwara,48,13.15,12.18,4.66,28.5
+toutes_1996_2016,08,rajasthan,123,Rajsamand,34,12.22,11.74,1.86,26.15
+toutes_1996_2016,08,rajasthan,124,Dungarpur,29,9.37,7.93,3.37,34.38
+toutes_1996_2016,08,rajasthan,125,Banswara,52,6.55,6.79,2.17,13.3
+toutes_1996_2016,08,rajasthan,126,Chittaurgarh,26,13.72,15.19,0.61,26.56
+toutes_1996_2016,08,rajasthan,127,Kota,21,8.86,6.15,2.45,22.87
+toutes_1996_2016,08,rajasthan,128,Baran,24,9.76,7.31,3.46,49.47
+toutes_1996_2016,08,rajasthan,129,Jhalawar,31,11,10.44,6.31,20.1
+toutes_1996_2016,08,rajasthan,130,Udaipur,69,9.83,9.97,3.16,26.76
+toutes_1996_2016,08,rajasthan,131,Pratapgarh,25,8.64,8.11,4.17,17.69
+toutes_1996_2016,09,uttar pradesh,132,Saharanpur,23,9.61,7.48,3.8,37.06
+toutes_1996_2016,09,uttar pradesh,133,Muzaffarnagar,30,9.76,8.82,3.74,22.22
+toutes_1996_2016,09,uttar pradesh,134,Bijnor,31,9.97,8.58,3.12,27.5
+toutes_1996_2016,09,uttar pradesh,135,Moradabad,29,9.65,10.68,2.93,15.38
+toutes_1996_2016,09,uttar pradesh,136,Rampur,17,6.13,5.41,4.18,9.76
+toutes_1996_2016,09,uttar pradesh,137,Jyotiba Phule Nagar,12,10.6,12.67,2.8,15.88
+toutes_1996_2016,09,uttar pradesh,138,Meerut,27,8.9,8.38,2.95,16.17
+toutes_1996_2016,09,uttar pradesh,139,Baghpat,10,16.24,13.33,9.87,27.88
+toutes_1996_2016,09,uttar pradesh,140,Ghaziabad,22,9.21,8.53,3.21,18.74
+toutes_1996_2016,09,uttar pradesh,141,Gautam Buddha Nagar,12,12.91,12.09,6.29,25.45
+toutes_1996_2016,09,uttar pradesh,142,Bulandshahr,23,7.92,8.11,4.31,12.06
+toutes_1996_2016,09,uttar pradesh,143,Aligarh,27,7.67,6.44,2.39,14.75
+toutes_1996_2016,09,uttar pradesh,144,Mahamaya Nagar,19,12.05,11.69,3.84,22.9
+toutes_1996_2016,09,uttar pradesh,145,Mathura,23,7.15,5.92,2.51,16.54
+toutes_1996_2016,09,uttar pradesh,146,Agra,34,16.45,14.81,1.89,34.73
+toutes_1996_2016,09,uttar pradesh,147,Firozabad,0,,,,
+toutes_1996_2016,09,uttar pradesh,148,Mainpuri,15,6.58,5.59,1.34,25.51
+toutes_1996_2016,09,uttar pradesh,149,Budaun,43,8.3,7.87,3.57,15.52
+toutes_1996_2016,09,uttar pradesh,150,Bareilly,31,6.2,5.85,3.19,11.07
+toutes_1996_2016,09,uttar pradesh,151,Pilibhit,15,3.92,3.77,3,5.22
+toutes_1996_2016,09,uttar pradesh,152,Shahjahanpur,18,5.66,5.49,1.44,8.12
+toutes_1996_2016,09,uttar pradesh,153,Kheri,16,5.33,4.75,2.44,9.8
+toutes_1996_2016,09,uttar pradesh,154,Sitapur,29,5.35,5.1,2.36,9.32
+toutes_1996_2016,09,uttar pradesh,155,Hardoi,38,4.91,4.33,1.32,12.43
+toutes_1996_2016,09,uttar pradesh,156,Unnao,50,5.97,5.78,2.22,13.04
+toutes_1996_2016,09,uttar pradesh,157,Lucknow,73,12.98,10.89,2.83,33.7
+toutes_1996_2016,09,uttar pradesh,158,Rae Bareli,64,6.25,5.78,2.36,13.35
+toutes_1996_2016,09,uttar pradesh,159,Farrukhabad,12,11.31,10.58,5.56,19.83
+toutes_1996_2016,09,uttar pradesh,160,Kannauj,12,10.9,8.13,0.87,24.76
+toutes_1996_2016,09,uttar pradesh,161,Etawah,18,14.45,8.59,3.36,38.65
+toutes_1996_2016,09,uttar pradesh,162,Auraiya,16,6.36,5.61,3.32,13.81
+toutes_1996_2016,09,uttar pradesh,163,Kanpur Dehat,19,10.37,7.24,2.94,30
+toutes_1996_2016,09,uttar pradesh,164,Kanpur Nagar,26,12.65,12.23,2.93,40.51
+toutes_1996_2016,09,uttar pradesh,165,Jalaun,33,9.11,6.81,2.14,29.79
+toutes_1996_2016,09,uttar pradesh,166,Jhansi,29,7.79,7.27,3.96,19.29
+toutes_1996_2016,09,uttar pradesh,167,Lalitpur,24,6.83,7.44,1.75,11.82
+toutes_1996_2016,09,uttar pradesh,168,Hamirpur,17,13.95,12.19,7.53,25.19
+toutes_1996_2016,09,uttar pradesh,169,Mahoba,14,6.44,5.63,4.57,11.18
+toutes_1996_2016,09,uttar pradesh,170,Banda,26,10.44,8.03,3.16,25.03
+toutes_1996_2016,09,uttar pradesh,171,Chitrakoot,20,12.24,11.36,6.58,22.05
+toutes_1996_2016,09,uttar pradesh,172,Fatehpur,39,11.46,11.18,3.68,22.38
+toutes_1996_2016,09,uttar pradesh,173,Pratapgarh,37,7.95,6.77,3.69,13.81
+toutes_1996_2016,09,uttar pradesh,174,Kaushambi,17,13.61,14.84,4.02,24.99
+toutes_1996_2016,09,uttar pradesh,175,Allahabad,43,8.09,6.42,2.65,19.48
+toutes_1996_2016,09,uttar pradesh,176,Bara Banki,35,5.95,5.65,3.2,10.11
+toutes_1996_2016,09,uttar pradesh,177,Faizabad,26,5.19,5.35,2.78,7.39
+toutes_1996_2016,09,uttar pradesh,178,Ambedkar Nagar,19,5.36,5.46,2.78,7.54
+toutes_1996_2016,09,uttar pradesh,179,Sultanpur,65,6.65,5.64,2.14,13.97
+toutes_1996_2016,09,uttar pradesh,180,Bahraich,23,5.93,5.2,2.28,13.31
+toutes_1996_2016,09,uttar pradesh,181,Shrawasti,14,4.58,4.06,3.52,7.3
+toutes_1996_2016,09,uttar pradesh,182,Balrampur,16,4.53,4.24,1.76,8.48
+toutes_1996_2016,09,uttar pradesh,183,Gonda,15,4.73,4.42,3.32,7.35
+toutes_1996_2016,09,uttar pradesh,184,Siddharthnagar,12,4.58,4.17,3.97,6.62
+toutes_1996_2016,09,uttar pradesh,185,Basti,12,4.25,3.88,3.44,6.15
+toutes_1996_2016,09,uttar pradesh,186,Sant Kabir Nagar,7,4.91,4.92,3.45,6.66
+toutes_1996_2016,09,uttar pradesh,187,Mahrajganj,13,3.73,3.84,2.42,5.01
+toutes_1996_2016,09,uttar pradesh,188,Gorakhpur,15,4.87,4.96,2.78,7.14
+toutes_1996_2016,09,uttar pradesh,189,Kushinagar,18,3.82,3.74,2.4,5.78
+toutes_1996_2016,09,uttar pradesh,190,Deoria,17,4.62,4.04,3.13,7.05
+toutes_1996_2016,09,uttar pradesh,191,Azamgarh,30,5.52,5.38,2.72,8.86
+toutes_1996_2016,09,uttar pradesh,192,Mau,17,5.45,5.5,3.13,8.72
+toutes_1996_2016,09,uttar pradesh,193,Ballia,30,5.68,5.61,2.75,9.18
+toutes_1996_2016,09,uttar pradesh,194,Jaunpur,49,6.9,6.83,2.6,13.7
+toutes_1996_2016,09,uttar pradesh,195,Ghazipur,0,,,,
+toutes_1996_2016,09,uttar pradesh,196,Chandauli,13,7.42,7.2,2.9,17.62
+toutes_1996_2016,09,uttar pradesh,197,Varanasi,17,9.59,9.08,4.48,16.9
+toutes_1996_2016,09,uttar pradesh,198,Sant Ravidas Nagar (Bhadohi),7,9.2,9.22,5.64,13.11
+toutes_1996_2016,09,uttar pradesh,199,Mirzapur,17,10.8,11.27,5,17.75
+toutes_1996_2016,09,uttar pradesh,200,Sonbhadra,26,8.74,7.92,3.48,19.5
+toutes_1996_2016,09,uttar pradesh,201,Etah,24,7.56,7.74,2.61,11.04
+toutes_1996_2016,09,uttar pradesh,202,Kanshiram Nagar,1,6.51,6.51,6.51,6.51
+toutes_1996_2016,10,bihar,203,Pashchim Champaran,25,3.98,3.97,2.98,5.43
+toutes_1996_2016,10,bihar,204,Purba Champaran,45,4.1,4.04,2.67,5.74
+toutes_1996_2016,10,bihar,205,Sheohar,3,4.02,4.12,3.43,4.52
+toutes_1996_2016,10,bihar,206,Sitamarhi,24,3.9,3.76,2.96,6.2
+toutes_1996_2016,10,bihar,207,Madhubani,44,3.85,3.7,1.91,9.84
+toutes_1996_2016,10,bihar,208,Supaul,27,2.87,2.72,2.03,4.33
+toutes_1996_2016,10,bihar,209,Araria,12,3.48,3.28,2.23,4.5
+toutes_1996_2016,10,bihar,210,Kishanganj,13,4.07,3.69,2.16,8.81
+toutes_1996_2016,10,bihar,211,Purnia,25,4.44,4.44,2.86,6.63
+toutes_1996_2016,10,bihar,212,Katihar,35,4.78,4.72,2.44,7.4
+toutes_1996_2016,10,bihar,213,Madhepura,21,3.98,3.87,2.99,6.38
+toutes_1996_2016,10,bihar,214,Saharsa,28,3.33,3.28,2,4.35
+toutes_1996_2016,10,bihar,215,Darbhanga,23,4.33,4.11,2.66,6.89
+toutes_1996_2016,10,bihar,216,Muzaffarpur,49,4.7,4.57,2.95,7.62
+toutes_1996_2016,10,bihar,217,Gopalganj,39,3.79,3.69,2.4,5.65
+toutes_1996_2016,10,bihar,218,Siwan,37,5.21,4.45,2.97,30.19
+toutes_1996_2016,10,bihar,219,Saran,44,5.39,4.82,1.63,9.11
+toutes_1996_2016,10,bihar,220,Vaishali,24,6.35,6.17,4.53,8.92
+toutes_1996_2016,10,bihar,221,Samastipur,23,6.93,6.93,3.87,15
+toutes_1996_2016,10,bihar,222,Begusarai,29,6.73,6.62,5.01,9.43
+toutes_1996_2016,10,bihar,223,Khagaria,18,5.99,6.09,3.32,6.99
+toutes_1996_2016,10,bihar,224,Bhagalpur,22,6.57,5.95,3.51,14.36
+toutes_1996_2016,10,bihar,225,Banka,16,4.96,4.51,2.95,8.03
+toutes_1996_2016,10,bihar,226,Munger,21,5.71,5.96,1.76,10.1
+toutes_1996_2016,10,bihar,227,Lakhisarai,10,7.58,7.53,4.79,9.95
+toutes_1996_2016,10,bihar,228,Sheikhpura,8,5.69,5.27,3.39,8.97
+toutes_1996_2016,10,bihar,229,Nalanda,40,5.29,4.82,2.01,9.73
+toutes_1996_2016,10,bihar,230,Patna,55,7.42,7.02,2.48,14
+toutes_1996_2016,10,bihar,231,Bhojpur,38,6.58,6.68,4.48,9.6
+toutes_1996_2016,10,bihar,232,Buxar,26,7.54,7.41,4.35,10.97
+toutes_1996_2016,10,bihar,233,Kaimur (Bhabua),12,7.51,7.46,5.18,9.21
+toutes_1996_2016,10,bihar,234,Rohtas,22,6.9,6.91,4.07,10.92
+toutes_1996_2016,10,bihar,235,Aurangabad,25,6.25,5.94,3.64,11
+toutes_1996_2016,10,bihar,236,Gaya,29,8.52,6.38,4.04,40.25
+toutes_1996_2016,10,bihar,237,Nawada,18,5.37,5.6,2.65,7.52
+toutes_1996_2016,10,bihar,238,Jamui,22,8.47,8.18,4.08,13.33
+toutes_1996_2016,10,bihar,239,Jehanabad,11,5.2,5.07,3.55,7.95
+toutes_1996_2016,10,bihar,240,Arwal,12,4.98,5.03,3.81,7.17
+toutes_1996_2016,11,sikkim,241,North  District,0,,,,
+toutes_1996_2016,11,sikkim,242,West District,0,,,,
+toutes_1996_2016,11,sikkim,243,South District,0,,,,
+toutes_1996_2016,11,sikkim,244,East District,0,,,,
+toutes_1996_2016,12,arunachal pradesh,245,Tawang,0,,,,
+toutes_1996_2016,12,arunachal pradesh,246,West Kameng,0,,,,
+toutes_1996_2016,12,arunachal pradesh,247,East Kameng,0,,,,
+toutes_1996_2016,12,arunachal pradesh,248,Papum Pare,4,3.39,2.32,1.14,7.77
+toutes_1996_2016,12,arunachal pradesh,249,Upper Subansiri,0,,,,
+toutes_1996_2016,12,arunachal pradesh,250,West Siang,0,,,,
+toutes_1996_2016,12,arunachal pradesh,251,East Siang,4,5.58,4.7,1.87,11.06
+toutes_1996_2016,12,arunachal pradesh,252,Upper Siang,0,,,,
+toutes_1996_2016,12,arunachal pradesh,253,Changlang,4,3.56,3.38,3.11,4.38
+toutes_1996_2016,12,arunachal pradesh,254,Tirap,3,4.94,4.66,4.23,5.94
+toutes_1996_2016,12,arunachal pradesh,255,Lower Subansiri,0,,,,
+toutes_1996_2016,12,arunachal pradesh,256,Kurung Kumey,0,,,,
+toutes_1996_2016,12,arunachal pradesh,257,Dibang Valley,0,,,,
+toutes_1996_2016,12,arunachal pradesh,258,Lower Dibang Valley,0,,,,
+toutes_1996_2016,12,arunachal pradesh,259,Lohit,3,3.29,3.19,2.18,4.49
+toutes_1996_2016,12,arunachal pradesh,260,Anjaw,0,,,,
+toutes_1996_2016,13,nagaland,261,Mon,1,2.33,2.33,2.33,2.33
+toutes_1996_2016,13,nagaland,262,Mokokchung,1,3.12,3.12,3.12,3.12
+toutes_1996_2016,13,nagaland,263,Zunheboto,0,,,,
+toutes_1996_2016,13,nagaland,264,Wokha,2,3.79,3.79,3.26,4.31
+toutes_1996_2016,13,nagaland,265,Dimapur,10,7.01,5.71,3.52,15.47
+toutes_1996_2016,13,nagaland,266,Phek,0,,,,
+toutes_1996_2016,13,nagaland,267,Tuensang,0,,,,
+toutes_1996_2016,13,nagaland,268,Longleng,0,,,,
+toutes_1996_2016,13,nagaland,269,Kiphire,0,,,,
+toutes_1996_2016,13,nagaland,270,Kohima,3,4.96,5.11,3.27,6.49
+toutes_1996_2016,13,nagaland,271,Peren,0,,,,
+toutes_1996_2016,14,manipur,272,Senapati,0,,,,
+toutes_1996_2016,14,manipur,273,Tamenglong,0,,,,
+toutes_1996_2016,14,manipur,274,Churachandpur,0,,,,
+toutes_1996_2016,14,manipur,275,Bishnupur,0,,,,
+toutes_1996_2016,14,manipur,276,Thoubal,1,2.53,2.53,2.53,2.53
+toutes_1996_2016,14,manipur,277,Imphal West,1,4.2,4.2,4.2,4.2
+toutes_1996_2016,14,manipur,278,Imphal East,0,,,,
+toutes_1996_2016,14,manipur,279,Ukhrul,0,,,,
+toutes_1996_2016,14,manipur,280,Chandel,0,,,,
+toutes_1996_2016,15,mizoram,281,Mamit,0,,,,
+toutes_1996_2016,15,mizoram,282,Kolasib,0,,,,
+toutes_1996_2016,15,mizoram,283,Aizawl,0,,,,
+toutes_1996_2016,15,mizoram,284,Champhai,0,,,,
+toutes_1996_2016,15,mizoram,285,Serchhip,0,,,,
+toutes_1996_2016,15,mizoram,286,Lunglei,0,,,,
+toutes_1996_2016,15,mizoram,287,Lawngtlai,0,,,,
+toutes_1996_2016,15,mizoram,288,Saiha,0,,,,
+toutes_1996_2016,16,tripura,289,West Tripura,27,7.48,5.03,1.79,28.99
+toutes_1996_2016,16,tripura,290,South Tripura,13,3.51,3.34,1.22,6.1
+toutes_1996_2016,16,tripura,291,Dhalai,7,3.17,2.55,1.44,5.57
+toutes_1996_2016,16,tripura,292,North Tripura,10,3.92,4.22,1.08,6.85
+toutes_1996_2016,17,meghalaya,293,West Garo Hills,14,3.53,3.3,1.78,6.45
+toutes_1996_2016,17,meghalaya,294,East Garo Hills,9,2.48,2.63,1.49,3.69
+toutes_1996_2016,17,meghalaya,295,South Garo Hills,0,,,,
+toutes_1996_2016,17,meghalaya,296,West Khasi Hills,2,0.93,0.93,0.8,1.06
+toutes_1996_2016,17,meghalaya,297,Ribhoi,3,2.31,2.18,1.78,2.98
+toutes_1996_2016,17,meghalaya,298,East Khasi Hills,5,1.89,1.1,0.12,5.34
+toutes_1996_2016,17,meghalaya,299,Jaintia Hills,2,2.48,2.48,1.92,3.04
+toutes_1996_2016,18,assam,300,Kokrajhar,0,,,,
+toutes_1996_2016,18,assam,301,Dhubri,1,4.06,4.06,4.06,4.06
+toutes_1996_2016,18,assam,302,Goalpara,0,,,,
+toutes_1996_2016,18,assam,303,Barpeta,0,,,,
+toutes_1996_2016,18,assam,304,Morigaon,0,,,,
+toutes_1996_2016,18,assam,305,Nagaon,0,,,,
+toutes_1996_2016,18,assam,306,Sonitpur,0,,,,
+toutes_1996_2016,18,assam,307,Lakhimpur,0,,,,
+toutes_1996_2016,18,assam,308,Dhemaji,0,,,,
+toutes_1996_2016,18,assam,309,Tinsukia,0,,,,
+toutes_1996_2016,18,assam,310,Dibrugarh,0,,,,
+toutes_1996_2016,18,assam,311,Sivasagar,0,,,,
+toutes_1996_2016,18,assam,312,Jorhat,0,,,,
+toutes_1996_2016,18,assam,313,Golaghat,0,,,,
+toutes_1996_2016,18,assam,314,Karbi Anglong,0,,,,
+toutes_1996_2016,18,assam,315,Dima Hasao,0,,,,
+toutes_1996_2016,18,assam,316,Cachar,0,,,,
+toutes_1996_2016,18,assam,317,Karimganj,0,,,,
+toutes_1996_2016,18,assam,318,Hailakandi,0,,,,
+toutes_1996_2016,18,assam,319,Bongaigaon,0,,,,
+toutes_1996_2016,18,assam,320,Chirang,0,,,,
+toutes_1996_2016,18,assam,321,Kamrup,0,,,,
+toutes_1996_2016,18,assam,322,Kamrup Metropolitan,0,,,,
+toutes_1996_2016,18,assam,323,Nalbari,0,,,,
+toutes_1996_2016,18,assam,324,Baksa,0,,,,
+toutes_1996_2016,18,assam,325,Darrang,0,,,,
+toutes_1996_2016,18,assam,326,Udalguri,0,,,,
+toutes_1996_2016,19,west bengal,327,Darjiling,40,4.67,4.03,1.36,12.05
+toutes_1996_2016,19,west bengal,328,Jalpaiguri,67,4.72,3.81,1.57,17.85
+toutes_1996_2016,19,west bengal,329,Koch Bihar,38,3.55,3.39,1.67,6.5
+toutes_1996_2016,19,west bengal,330,Uttar Dinajpur,48,4.69,4.47,2.35,10.1
+toutes_1996_2016,19,west bengal,331,Dakshin Dinajpur,52,7.98,7.22,2.46,17.13
+toutes_1996_2016,19,west bengal,332,Maldah,100,7.4,6.28,3.13,31.43
+toutes_1996_2016,19,west bengal,333,Murshidabad,202,9.27,6.61,1.5,23.85
+toutes_1996_2016,19,west bengal,334,Birbhum,202,8.74,7.69,0.48,22.67
+toutes_1996_2016,19,west bengal,335,Barddhaman,218,9.22,7.65,1.52,24.15
+toutes_1996_2016,19,west bengal,336,Nadia,131,5.82,5.66,2.92,9.59
+toutes_1996_2016,19,west bengal,337,North Twenty Four Parganas,141,5.73,5.5,1.09,15.68
+toutes_1996_2016,19,west bengal,338,Hugli,88,10.79,11.85,0.8,19.64
+toutes_1996_2016,19,west bengal,339,Bankura,189,6.17,5.79,0.99,18.52
+toutes_1996_2016,19,west bengal,340,Puruliya,105,6.82,6.52,3.3,12.47
+toutes_1996_2016,19,west bengal,341,Haora,51,6.05,4.98,0.78,15.47
+toutes_1996_2016,19,west bengal,342,Kolkata,7,6.1,5.77,0.28,13.5
+toutes_1996_2016,19,west bengal,343,South Twenty Four Parganas,148,5.87,5.66,0.37,15.18
+toutes_1996_2016,19,west bengal,344,Paschim Medinipur,115,10.2,10,1.52,23.93
+toutes_1996_2016,19,west bengal,345,Purba Medinipur,76,11.39,10.91,2.26,21.32
+toutes_1996_2016,20,jharkhand,346,Garhwa,8,6.6,6.56,3.74,8.61
+toutes_1996_2016,20,jharkhand,347,Chatra,11,8.42,7.77,6.56,12.1
+toutes_1996_2016,20,jharkhand,348,Kodarma,5,6.16,6.5,4.91,6.91
+toutes_1996_2016,20,jharkhand,349,Giridih,19,7.87,7.83,4.02,10.4
+toutes_1996_2016,20,jharkhand,350,Deoghar,14,7.72,7.64,6.36,10.36
+toutes_1996_2016,20,jharkhand,351,Godda,14,6.95,6.38,4.6,11.48
+toutes_1996_2016,20,jharkhand,352,Sahibganj,12,7.06,7.57,4.56,8.81
+toutes_1996_2016,20,jharkhand,353,Pakur,8,7.24,6.99,4.38,9.73
+toutes_1996_2016,20,jharkhand,354,Dhanbad,20,6.75,6,0.5,14.6
+toutes_1996_2016,20,jharkhand,355,Bokaro,13,7.83,7.89,5.15,11.02
+toutes_1996_2016,20,jharkhand,356,Lohardaga,15,7.96,7.83,5.82,11.09
+toutes_1996_2016,20,jharkhand,357,Purbi Singhbhum,19,8.46,7.65,4.04,17.52
+toutes_1996_2016,20,jharkhand,358,Palamu,17,8.18,7.88,6.63,11.42
+toutes_1996_2016,20,jharkhand,359,Latehar,10,7.83,8.08,3.26,10.88
+toutes_1996_2016,20,jharkhand,360,Hazaribagh,17,8.03,7.74,5.13,10.8
+toutes_1996_2016,20,jharkhand,361,Ramgarh,19,6.72,7,2.25,9.23
+toutes_1996_2016,20,jharkhand,362,Dumka,21,6.85,7.12,2.8,9.68
+toutes_1996_2016,20,jharkhand,363,Jamtara,5,7.45,6.98,6.3,9.57
+toutes_1996_2016,20,jharkhand,364,Ranchi,48,6.93,6.62,1.47,11.83
+toutes_1996_2016,20,jharkhand,365,Khunti,14,7.98,7.91,4.74,11.16
+toutes_1996_2016,20,jharkhand,366,Gumla,18,5.97,6.75,1.65,8.68
+toutes_1996_2016,20,jharkhand,367,Simdega,11,6.78,6.62,3.6,9.57
+toutes_1996_2016,20,jharkhand,368,Pashchimi Singhbhum,12,7.19,6.62,3.97,12.88
+toutes_1996_2016,20,jharkhand,369,Saraikela-Kharsawan,9,7.44,7.56,3.67,11.46
+toutes_1996_2016,21,odisha,370,Bargarh,99,4.57,4.98,0.56,10.26
+toutes_1996_2016,21,odisha,371,Jharsuguda,16,5.5,5.43,2.26,7.82
+toutes_1996_2016,21,odisha,372,Sambalpur,89,5.27,5.4,0.45,11.28
+toutes_1996_2016,21,odisha,373,Debagarh,14,5.88,5.93,4.12,7.8
+toutes_1996_2016,21,odisha,374,Sundargarh,106,5.8,5.8,0.78,11.66
+toutes_1996_2016,21,odisha,375,Kendujhar,109,6.4,6.42,2.13,12.11
+toutes_1996_2016,21,odisha,376,Mayurbhanj,108,7.3,6.96,2.67,14
+toutes_1996_2016,21,odisha,377,Baleshwar,60,5.54,5.53,2.55,11.09
+toutes_1996_2016,21,odisha,378,Bhadrak,40,4.49,4.44,2.05,6.9
+toutes_1996_2016,21,odisha,379,Kendrapara,33,3.59,3.43,1.86,6.17
+toutes_1996_2016,21,odisha,380,Jagatsinghapur,39,3.06,2.9,0.88,5.42
+toutes_1996_2016,21,odisha,381,Cuttack,111,3.9,3.62,0.48,9.25
+toutes_1996_2016,21,odisha,382,Jajapur,67,5.24,5.06,1.59,9.59
+toutes_1996_2016,21,odisha,383,Dhenkanal,58,6.47,6.05,2.34,10.46
+toutes_1996_2016,21,odisha,384,Anugul,68,6.84,6.45,2.05,14.64
+toutes_1996_2016,21,odisha,385,Nayagarh,50,4.98,4.9,1.46,9.58
+toutes_1996_2016,21,odisha,386,Khordha,92,5.33,5.34,0.62,12.9
+toutes_1996_2016,21,odisha,387,Puri,112,3.42,3.05,1.13,11.09
+toutes_1996_2016,21,odisha,388,Ganjam,110,5.17,5.08,1.58,9.55
+toutes_1996_2016,21,odisha,389,Gajapati,44,5.75,5.06,2.16,10.66
+toutes_1996_2016,21,odisha,390,Kandhamal,32,8.67,8.84,5.7,11.99
+toutes_1996_2016,21,odisha,391,Baudh,59,5.46,5.41,2.5,7.62
+toutes_1996_2016,21,odisha,392,Subarnapur,50,4.32,4.31,0.52,7.41
+toutes_1996_2016,21,odisha,393,Balangir,93,5.31,5.26,2.05,9.36
+toutes_1996_2016,21,odisha,394,Nuapada,34,6.21,6.16,3.18,15.05
+toutes_1996_2016,21,odisha,395,Kalahandi,68,5.46,5.51,2.74,9.17
+toutes_1996_2016,21,odisha,396,Rayagada,31,6.09,5.09,1.94,31.61
+toutes_1996_2016,21,odisha,397,Nabarangapur,36,6.19,6.34,2.8,10.13
+toutes_1996_2016,21,odisha,398,Koraput,70,6.23,5.84,1.21,13.65
+toutes_1996_2016,21,odisha,399,Malkangiri,40,5.67,5.18,2.28,9.8
+toutes_1996_2016,22,chhattisgarh,400,Koriya,37,8.35,7.91,2.9,21.92
+toutes_1996_2016,22,chhattisgarh,401,Surguja,170,8.39,7.63,2.85,18.33
+toutes_1996_2016,22,chhattisgarh,402,Jashpur,68,7.63,7.29,2.92,17.6
+toutes_1996_2016,22,chhattisgarh,403,Raigarh,0,,,,
+toutes_1996_2016,22,chhattisgarh,404,Korba,119,8.8,7.91,2.35,57.35
+toutes_1996_2016,22,chhattisgarh,405,Janjgir - Champa,89,7.71,7.34,1.27,20.44
+toutes_1996_2016,22,chhattisgarh,406,Bilaspur,185,8.61,7.89,1.38,30.25
+toutes_1996_2016,22,chhattisgarh,407,Kabeerdham,32,10.24,8.34,3.95,22.65
+toutes_1996_2016,22,chhattisgarh,408,Rajnandgaon,75,7.97,7.73,2.17,21.8
+toutes_1996_2016,22,chhattisgarh,409,Durg,134,9.97,7.22,1.87,41.6
+toutes_1996_2016,22,chhattisgarh,410,Raipur,171,7.77,6.93,1.09,42.12
+toutes_1996_2016,22,chhattisgarh,411,Mahasamund,59,9.57,8.68,1.92,30.63
+toutes_1996_2016,22,chhattisgarh,412,Dhamtari,40,7.54,5.96,1.34,31.6
+toutes_1996_2016,22,chhattisgarh,413,Uttar Bastar Kanker,31,6.96,7,2.2,10.08
+toutes_1996_2016,22,chhattisgarh,414,Bastar,106,7.1,6.81,1.2,16.74
+toutes_1996_2016,22,chhattisgarh,415,Narayanpur,16,5.85,6.56,1.35,9.34
+toutes_1996_2016,22,chhattisgarh,416,Dakshin Bastar Dantewada,24,6.72,6.8,0.56,10.79
+toutes_1996_2016,22,chhattisgarh,417,Bijapur,15,6.94,6.65,5.03,10.43
+toutes_1996_2016,23,madhya pradesh,418,Sheopur,25,13.51,11.39,4.44,30.43
+toutes_1996_2016,23,madhya pradesh,419,Morena,24,15.88,12.41,5.97,40.68
+toutes_1996_2016,23,madhya pradesh,420,Bhind,29,17.02,16.51,2.92,36.75
+toutes_1996_2016,23,madhya pradesh,421,Gwalior,29,13.08,11.01,3.82,36.03
+toutes_1996_2016,23,madhya pradesh,422,Datia,12,10.98,9.7,4.29,26.87
+toutes_1996_2016,23,madhya pradesh,423,Shivpuri,44,11.4,9.63,4.94,42.8
+toutes_1996_2016,23,madhya pradesh,424,Tikamgarh,28,8.6,8.17,3.3,16.59
+toutes_1996_2016,23,madhya pradesh,425,Chhatarpur,42,9.14,8.78,4.21,14.78
+toutes_1996_2016,23,madhya pradesh,426,Panna,31,9.45,8.4,3.23,32.25
+toutes_1996_2016,23,madhya pradesh,427,Sagar,46,11.87,9.37,3.66,51.95
+toutes_1996_2016,23,madhya pradesh,428,Damoh,30,9.98,8.49,3.07,30.91
+toutes_1996_2016,23,madhya pradesh,429,Satna,59,9.99,9.29,3.06,29.73
+toutes_1996_2016,23,madhya pradesh,430,Rewa,43,11.26,10.94,4.24,18.73
+toutes_1996_2016,23,madhya pradesh,431,Umaria,19,9.51,8.01,5.13,28.22
+toutes_1996_2016,23,madhya pradesh,432,Neemuch,43,12.89,10.63,4.92,45.47
+toutes_1996_2016,23,madhya pradesh,433,Mandsaur,51,17.68,12.25,4.76,59.88
+toutes_1996_2016,23,madhya pradesh,434,Ratlam,63,18.96,15.61,6.04,49.8
+toutes_1996_2016,23,madhya pradesh,435,Ujjain,64,13.32,11.25,4.83,43.71
+toutes_1996_2016,23,madhya pradesh,436,Shajapur,42,11.94,10.5,3.34,31
+toutes_1996_2016,23,madhya pradesh,437,Dewas,40,13.67,10.68,4.59,46.12
+toutes_1996_2016,23,madhya pradesh,438,Dhar,57,13.2,10.74,2.91,45.14
+toutes_1996_2016,23,madhya pradesh,439,Indore,56,15.26,13.17,2.65,42.57
+toutes_1996_2016,23,madhya pradesh,440,Khargone (West Nimar),32,10.18,9.23,3.47,34.56
+toutes_1996_2016,23,madhya pradesh,441,Barwani,14,13.92,9.62,7.26,28.71
+toutes_1996_2016,23,madhya pradesh,442,Rajgarh,37,13.02,11.17,4.96,59.33
+toutes_1996_2016,23,madhya pradesh,443,Vidisha,35,10.38,9.81,4.14,21.77
+toutes_1996_2016,23,madhya pradesh,444,Bhopal,37,9.54,8.21,2.41,33.92
+toutes_1996_2016,23,madhya pradesh,445,Sehore,38,13.46,11.04,5.16,43.11
+toutes_1996_2016,23,madhya pradesh,446,Raisen,37,10.15,9.76,4.42,23.72
+toutes_1996_2016,23,madhya pradesh,447,Betul,38,11.76,9.45,2.75,62.33
+toutes_1996_2016,23,madhya pradesh,448,Harda,19,9.09,8.97,3.65,21.99
+toutes_1996_2016,23,madhya pradesh,449,Hoshangabad,30,8.62,7.13,4.23,15.92
+toutes_1996_2016,23,madhya pradesh,450,Katni,18,10.01,9.95,3.67,14.81
+toutes_1996_2016,23,madhya pradesh,451,Jabalpur,49,7.25,6.85,1.47,23.3
+toutes_1996_2016,23,madhya pradesh,452,Narsimhapur,37,12.5,11.16,3.8,37.47
+toutes_1996_2016,23,madhya pradesh,453,Dindori,17,6.78,5.16,2.97,25.02
+toutes_1996_2016,23,madhya pradesh,454,Mandla,36,6.69,5.71,2.18,24.7
+toutes_1996_2016,23,madhya pradesh,455,Chhindwara,55,11.96,9.98,4.75,46.3
+toutes_1996_2016,23,madhya pradesh,456,Seoni,53,7.87,6.97,1.86,22.67
+toutes_1996_2016,23,madhya pradesh,457,Balaghat,55,7.61,7.13,3.36,13.74
+toutes_1996_2016,23,madhya pradesh,458,Guna,36,12.52,10.44,3.65,45.37
+toutes_1996_2016,23,madhya pradesh,459,Ashoknagar,18,11.09,10.33,2.61,21.28
+toutes_1996_2016,23,madhya pradesh,460,Shahdol,26,8.79,8.12,5.63,15.28
+toutes_1996_2016,23,madhya pradesh,461,Anuppur,22,8.05,7.67,4.26,14.77
+toutes_1996_2016,23,madhya pradesh,462,Sidhi,36,10.11,9.23,3.64,19.73
+toutes_1996_2016,23,madhya pradesh,463,Singrauli,23,9.51,8.39,4.22,21.41
+toutes_1996_2016,23,madhya pradesh,464,Jhabua,17,10.78,6.54,3.06,33.94
+toutes_1996_2016,23,madhya pradesh,465,Alirajpur,14,9.14,8.25,4.46,22.5
+toutes_1996_2016,23,madhya pradesh,466,Khandwa (East Nimar),40,10.28,8.52,5,38.31
+toutes_1996_2016,23,madhya pradesh,467,Burhanpur,24,13.88,12.48,5,32.35
+toutes_1996_2016,24,gujarat,468,Kachchh,135,15.8,12.37,2.12,67.19
+toutes_1996_2016,24,gujarat,469,Banas Kantha,118,33.11,22.71,2.74,175.11
+toutes_1996_2016,24,gujarat,470,Patan,53,36,14,2.76,146.11
+toutes_1996_2016,24,gujarat,471,Mahesana,88,42.42,18.29,2.78,167.3
+toutes_1996_2016,24,gujarat,472,Sabar Kantha,82,15.26,13.52,4.43,44.1
+toutes_1996_2016,24,gujarat,473,Gandhinagar,32,80.33,88.07,7.61,180.08
+toutes_1996_2016,24,gujarat,474,Ahmadabad,88,24.59,12.5,1.85,107.77
+toutes_1996_2016,24,gujarat,475,Surendranagar,77,11.43,8.8,1.96,83.52
+toutes_1996_2016,24,gujarat,476,Rajkot,79,11.17,10.19,2.3,44.96
+toutes_1996_2016,24,gujarat,477,Jamnagar,75,11.07,9.39,3.37,28.98
+toutes_1996_2016,24,gujarat,478,Porbandar,37,12.47,13.59,3.35,24.18
+toutes_1996_2016,24,gujarat,479,Junagadh,92,14.81,13.76,3.62,59.74
+toutes_1996_2016,24,gujarat,480,Amreli,83,16.27,14.14,3.05,60.6
+toutes_1996_2016,24,gujarat,481,Bhavnagar,68,15.93,13.25,3.08,103.43
+toutes_1996_2016,24,gujarat,482,Anand,36,10.74,9.87,2.16,23.71
+toutes_1996_2016,24,gujarat,483,Kheda,35,12.98,8.23,1.4,45.73
+toutes_1996_2016,24,gujarat,484,Panch Mahals,46,11.02,10.19,3.7,27.04
+toutes_1996_2016,24,gujarat,485,Dohad,31,8.74,9.28,2.96,15.1
+toutes_1996_2016,24,gujarat,486,Vadodara,78,14.84,11.15,2.3,47.5
+toutes_1996_2016,24,gujarat,487,Narmada,31,12.11,8.5,1.79,31.2
+toutes_1996_2016,24,gujarat,488,Bharuch,54,8.48,8.32,2.2,18.3
+toutes_1996_2016,24,gujarat,489,The Dangs,31,7.26,6.94,3.04,15.86
+toutes_1996_2016,24,gujarat,490,Navsari,26,8.46,8.29,3.48,25.04
+toutes_1996_2016,24,gujarat,491,Valsad,26,8.36,8.18,3.37,18.55
+toutes_1996_2016,24,gujarat,492,Surat,62,7.42,6.26,1.72,20.86
+toutes_1996_2016,24,gujarat,493,Tapi,24,8.32,8.45,2.94,14.2
+toutes_1996_2016,25,daman diu,494,Diu,0,,,,
+toutes_1996_2016,25,daman diu,495,Daman,0,,,,
+toutes_1996_2016,26,dadra nagar haveli,496,Dadra & Nagar Haveli,0,,,,
+toutes_1996_2016,27,maharashtra,497,Nandurbar,30,10.53,8.7,1.66,34.09
+toutes_1996_2016,27,maharashtra,498,Dhule,45,9.2,8.35,2.98,19.97
+toutes_1996_2016,27,maharashtra,499,Jalgaon,76,14.64,9.9,1.8,59.05
+toutes_1996_2016,27,maharashtra,500,Buldana,79,10.74,9.17,3.23,30.05
+toutes_1996_2016,27,maharashtra,501,Akola,48,13.75,11.66,3.94,28.93
+toutes_1996_2016,27,maharashtra,502,Washim,48,8.36,8.15,4.26,13.25
+toutes_1996_2016,27,maharashtra,503,Amravati,137,10.95,9.3,1.5,33.27
+toutes_1996_2016,27,maharashtra,504,Wardha,80,8.47,8.28,2.66,17.78
+toutes_1996_2016,27,maharashtra,505,Nagpur,96,8.32,7.62,1.72,33.11
+toutes_1996_2016,27,maharashtra,506,Bhandara,44,8.53,7.92,2.99,17.77
+toutes_1996_2016,27,maharashtra,507,Gondiya,38,7.78,7.66,3,13.2
+toutes_1996_2016,27,maharashtra,508,Gadchiroli,69,8.13,7.89,3.73,15.55
+toutes_1996_2016,27,maharashtra,509,Chandrapur,87,8.02,7.81,2.54,17.8
+toutes_1996_2016,27,maharashtra,510,Yavatmal,100,8.14,7.44,2.1,22.7
+toutes_1996_2016,27,maharashtra,511,Nanded,83,9.04,8.03,1.76,31.67
+toutes_1996_2016,27,maharashtra,512,Hingoli,39,10.52,9.71,4.73,25.67
+toutes_1996_2016,27,maharashtra,513,Parbhani,52,11.74,9.91,2.79,33.52
+toutes_1996_2016,27,maharashtra,514,Jalna,58,10.84,10.9,4.14,20.6
+toutes_1996_2016,27,maharashtra,515,Aurangabad,47,11.82,11.5,6,24.54
+toutes_1996_2016,27,maharashtra,516,Nashik,98,9.39,7.57,1.46,28.25
+toutes_1996_2016,27,maharashtra,517,Thane,62,4.72,4.68,0.29,15.86
+toutes_1996_2016,27,maharashtra,518,Mumbai Suburban,3,4.79,4.51,2.31,7.56
+toutes_1996_2016,27,maharashtra,519,Mumbai,3,3.56,3.84,2.53,4.33
+toutes_1996_2016,27,maharashtra,520,Raigarh,44,4.23,3.99,1.29,9.09
+toutes_1996_2016,27,maharashtra,521,Pune,75,7,6.84,0.89,18.25
+toutes_1996_2016,27,maharashtra,522,Ahmadnagar,86,11.17,8.99,2.72,81.76
+toutes_1996_2016,27,maharashtra,523,Bid,61,10.41,9.85,3.26,20.86
+toutes_1996_2016,27,maharashtra,524,Latur,53,12.71,10.9,4.01,45.17
+toutes_1996_2016,27,maharashtra,525,Osmanabad,59,11.74,9.09,5.26,55.75
+toutes_1996_2016,27,maharashtra,526,Solapur,78,9.51,8.21,0.25,44.2
+toutes_1996_2016,27,maharashtra,527,Satara,67,7.56,6.68,1.17,22.72
+toutes_1996_2016,27,maharashtra,528,Ratnagiri,75,8.16,6.31,1.85,25.45
+toutes_1996_2016,27,maharashtra,529,Sindhudurg,57,7.45,6.83,2.61,16.93
+toutes_1996_2016,27,maharashtra,530,Kolhapur,48,6.09,5.73,0.94,17.95
+toutes_1996_2016,27,maharashtra,531,Sangli,60,7.98,7.15,1.52,22.73
+toutes_1996_2016,28,andhra pradesh,532,Adilabad,135,8.83,7.47,0.49,29.33
+toutes_1996_2016,28,andhra pradesh,533,Nizamabad,93,10.16,9.42,2.24,28.02
+toutes_1996_2016,28,andhra pradesh,534,Karimnagar,146,10.98,9.35,1.18,74.5
+toutes_1996_2016,28,andhra pradesh,535,Medak,102,16.35,13.52,3.15,56.11
+toutes_1996_2016,28,andhra pradesh,536,Hyderabad,50,11.87,10.24,2.04,35.59
+toutes_1996_2016,28,andhra pradesh,537,Rangareddy,171,13.02,11.63,0.94,57.39
+toutes_1996_2016,28,andhra pradesh,538,Mahbubnagar,156,14.78,12.73,2.09,58.98
+toutes_1996_2016,28,andhra pradesh,539,Nalgonda,179,9.42,8.22,2.52,48.35
+toutes_1996_2016,28,andhra pradesh,540,Warangal,165,9.71,8.94,1.2,30.68
+toutes_1996_2016,28,andhra pradesh,541,Khammam,90,7.62,7.06,2.38,17.11
+toutes_1996_2016,28,andhra pradesh,542,Srikakulam,78,6.09,5.57,1.13,33.15
+toutes_1996_2016,28,andhra pradesh,543,Vizianagaram,53,5.17,4.86,1.79,10.02
+toutes_1996_2016,28,andhra pradesh,544,Visakhapatnam,100,5.55,4.87,0.9,22.47
+toutes_1996_2016,28,andhra pradesh,545,East Godavari,161,5.73,3.8,0.62,53.18
+toutes_1996_2016,28,andhra pradesh,546,West Godavari,129,9.45,5.99,0.81,62.22
+toutes_1996_2016,28,andhra pradesh,547,Krishna,132,7.54,5.17,1,51.47
+toutes_1996_2016,28,andhra pradesh,548,Guntur,184,5.98,4.27,0.61,33.37
+toutes_1996_2016,28,andhra pradesh,549,Prakasam,97,6.05,5.23,1.31,39.03
+toutes_1996_2016,28,andhra pradesh,550,Sri Potti Sriramulu Nellore,126,6.08,5.62,1.26,14.91
+toutes_1996_2016,28,andhra pradesh,551,Y.S.R.,109,11.96,9.32,3.06,51.47
+toutes_1996_2016,28,andhra pradesh,552,Kurnool,170,9.73,7.93,0.67,51.5
+toutes_1996_2016,28,andhra pradesh,553,Anantapur,190,12.31,10.49,0.75,70.93
+toutes_1996_2016,28,andhra pradesh,554,Chittoor,150,10.81,9.01,2.25,40.53
+toutes_1996_2016,29,karnataka,555,Belgaum,144,10.01,8.28,0.95,41.36
+toutes_1996_2016,29,karnataka,556,Bagalkot,61,11.24,7.64,1.95,40.87
+toutes_1996_2016,29,karnataka,557,Bijapur,110,9.64,7.5,1.52,46.05
+toutes_1996_2016,29,karnataka,558,Bidar,75,14.39,12.42,1.94,92.5
+toutes_1996_2016,29,karnataka,559,Raichur,81,6.48,5.63,1.11,45.18
+toutes_1996_2016,29,karnataka,560,Koppal,55,8.38,7.67,2.1,22.98
+toutes_1996_2016,29,karnataka,561,Gadag,39,13.58,11.08,3.08,64.4
+toutes_1996_2016,29,karnataka,562,Dharwad,48,10.85,9.29,2.91,23.68
+toutes_1996_2016,29,karnataka,563,Uttara Kannada,99,8.09,7.76,1.78,27.33
+toutes_1996_2016,29,karnataka,564,Haveri,61,12.31,11.5,1.65,40.43
+toutes_1996_2016,29,karnataka,565,Bellary,79,8.63,6.41,1.57,36.45
+toutes_1996_2016,29,karnataka,566,Chitradurga,80,9.94,8.78,0.79,28.82
+toutes_1996_2016,29,karnataka,567,Davanagere,82,6.99,6.51,0.75,23.24
+toutes_1996_2016,29,karnataka,568,Shimoga,97,9.1,9.05,0.92,49.3
+toutes_1996_2016,29,karnataka,569,Udupi,71,8.36,8.43,2.68,16.68
+toutes_1996_2016,29,karnataka,570,Chikmagalur,102,7.96,8.06,1.5,21.31
+toutes_1996_2016,29,karnataka,571,Tumkur,130,11.19,8.53,2.1,41.15
+toutes_1996_2016,29,karnataka,572,Bangalore,63,11.33,7.12,0.5,43.04
+toutes_1996_2016,29,karnataka,573,Mandya,79,6.62,5.61,1.15,23.45
+toutes_1996_2016,29,karnataka,574,Hassan,118,9.77,8.53,0.86,49.3
+toutes_1996_2016,29,karnataka,575,Dakshina Kannada,116,8.08,7.44,1.47,25.47
+toutes_1996_2016,29,karnataka,576,Kodagu,89,9.2,8.09,1.27,37.7
+toutes_1996_2016,29,karnataka,577,Mysore,95,8.7,7.22,1.31,29.2
+toutes_1996_2016,29,karnataka,578,Chamarajanagar,50,9.88,8.01,2.87,41.06
+toutes_1996_2016,29,karnataka,579,Gulbarga,122,10.55,8.57,1.72,55.8
+toutes_1996_2016,29,karnataka,580,Yadgir,49,6.81,6.46,1.36,19.09
+toutes_1996_2016,29,karnataka,581,Kolar,76,13.46,8.54,0.68,59.45
+toutes_1996_2016,29,karnataka,582,Chikkaballapura,59,14.07,10.41,2.1,61.64
+toutes_1996_2016,29,karnataka,583,Bangalore Rural,33,13.08,10.33,3.34,39.25
+toutes_1996_2016,29,karnataka,584,Ramanagara,60,9.56,7.65,2.64,37.79
+toutes_1996_2016,30,goa,585,North Goa,0,,,,
+toutes_1996_2016,30,goa,586,South Goa,0,,,,
+toutes_1996_2016,31,lakshadweep,587,Lakshadweep,0,,,,
+toutes_1996_2016,32,kerala,588,Kasaragod,149,10.75,10.71,2.13,24.4
+toutes_1996_2016,32,kerala,589,Kannur,126,7.88,7.71,1.79,21.69
+toutes_1996_2016,32,kerala,590,Wayanad,92,7.54,7.39,1.47,18.91
+toutes_1996_2016,32,kerala,591,Kozhikode,110,5.85,5.06,1.21,26.63
+toutes_1996_2016,32,kerala,592,Malappuram,151,8.61,7.79,0.95,26.89
+toutes_1996_2016,32,kerala,593,Palakkad,169,8.56,6.94,1.36,53.55
+toutes_1996_2016,32,kerala,594,Thrissur,159,6.94,6.7,0.95,23.17
+toutes_1996_2016,32,kerala,595,Ernakulam,170,5.12,5.1,0.63,14.66
+toutes_1996_2016,32,kerala,596,Idukki,100,5.55,4.47,0.54,39.77
+toutes_1996_2016,32,kerala,597,Kottayam,148,5.61,5.3,1.27,13.88
+toutes_1996_2016,32,kerala,598,Alappuzha,134,4.11,2.47,0.53,19.96
+toutes_1996_2016,32,kerala,599,Pathanamthitta,113,5.72,5.68,1.31,18.75
+toutes_1996_2016,32,kerala,600,Kollam,142,8.47,7.93,0.61,34.95
+toutes_1996_2016,32,kerala,601,Thiruvananthapuram,145,10.02,8.43,1.11,56.37
+toutes_1996_2016,33,tamil nadu,602,Thiruvallur,35,6.21,5.66,2.13,15.65
+toutes_1996_2016,33,tamil nadu,603,Chennai,24,5.01,4.78,1.72,8.25
+toutes_1996_2016,33,tamil nadu,604,Kancheepuram,67,5.35,4.57,2.44,18.4
+toutes_1996_2016,33,tamil nadu,605,Vellore,87,9.68,8.92,0.95,25.61
+toutes_1996_2016,33,tamil nadu,606,Tiruvannamalai,38,7.04,6.87,3.62,13.92
+toutes_1996_2016,33,tamil nadu,607,Viluppuram,48,5.87,5.31,2.74,11.81
+toutes_1996_2016,33,tamil nadu,608,Salem,61,10.59,9.94,0.1,28.46
+toutes_1996_2016,33,tamil nadu,609,Namakkal,49,12.55,12.3,1.63,42.92
+toutes_1996_2016,33,tamil nadu,610,Erode,71,11.68,7.99,2.41,50
+toutes_1996_2016,33,tamil nadu,611,The Nilgiris,11,5.08,4.07,1.32,16.64
+toutes_1996_2016,33,tamil nadu,612,Dindigul,50,8.65,9.02,2.17,18.69
+toutes_1996_2016,33,tamil nadu,613,Karur,18,8.45,7.22,2.48,22.33
+toutes_1996_2016,33,tamil nadu,614,Tiruchirappalli,31,6.62,5.58,2.47,18.72
+toutes_1996_2016,33,tamil nadu,615,Perambalur,15,6.72,5.86,3.81,11.27
+toutes_1996_2016,33,tamil nadu,616,Ariyalur,16,13.49,7.75,2.52,47.1
+toutes_1996_2016,33,tamil nadu,617,Cuddalore,60,17.35,10.26,2.57,63.01
+toutes_1996_2016,33,tamil nadu,618,Nagapattinam,20,4.6,3.82,1.6,10.56
+toutes_1996_2016,33,tamil nadu,619,Thiruvarur,14,4.51,4.05,2.93,6.36
+toutes_1996_2016,33,tamil nadu,620,Thanjavur,31,6.31,4.81,2.58,25.97
+toutes_1996_2016,33,tamil nadu,621,Pudukkottai,37,5.75,5.41,0.9,12.56
+toutes_1996_2016,33,tamil nadu,622,Sivaganga,31,8.3,6.18,3.13,22.27
+toutes_1996_2016,33,tamil nadu,623,Madurai,62,7.05,6.44,1.88,18.2
+toutes_1996_2016,33,tamil nadu,624,Theni,46,15.39,11.17,1.56,51
+toutes_1996_2016,33,tamil nadu,625,Virudhunagar,34,7.35,6.94,3.33,12.28
+toutes_1996_2016,33,tamil nadu,626,Ramanathapuram,39,7.33,4.73,1.64,46.66
+toutes_1996_2016,33,tamil nadu,627,Thoothukkudi,44,6.19,5.55,1.87,12.95
+toutes_1996_2016,33,tamil nadu,628,Tirunelveli,66,6.65,5.36,1.3,45.6
+toutes_1996_2016,33,tamil nadu,629,Kanniyakumari,22,10.47,12.17,2.39,18.77
+toutes_1996_2016,33,tamil nadu,630,Dharmapuri,37,10.07,9.35,4.55,24.56
+toutes_1996_2016,33,tamil nadu,631,Krishnagiri,48,11.11,8.7,2.35,46
+toutes_1996_2016,33,tamil nadu,632,Coimbatore,80,14.24,11.63,1.7,51
+toutes_1996_2016,33,tamil nadu,633,Tiruppur,58,10.6,9.44,1.49,26.45
+toutes_1996_2016,34,puducherry,634,Yanam,0,,,,
+toutes_1996_2016,34,puducherry,635,Puducherry,0,,,,
+toutes_1996_2016,34,puducherry,636,Mahe,0,,,,
+toutes_1996_2016,34,puducherry,637,Karaikal,0,,,,
+toutes_1996_2016,35,andaman nicobar islands,638,Nicobars,0,,,,
+toutes_1996_2016,35,andaman nicobar islands,639,North  & Middle Andaman,0,,,,
+toutes_1996_2016,35,andaman nicobar islands,640,South Andaman,0,,,,

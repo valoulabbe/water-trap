@@ -1,0 +1,71 @@
+fenetre,pc11_state_id,state_name,districts,zero_puits,moins_de_5,au_moins_5,puits,ecart_prof_moy_entre_districts
+base_1996_2000,09,uttar pradesh,71,2,4,67,1307,14.2
+base_1996_2000,27,maharashtra,35,0,2,33,1268,9.8
+base_1996_2000,23,madhya pradesh,50,0,1,49,1137,10.3
+base_1996_2000,29,karnataka,30,0,0,30,1131,9.8
+base_1996_2000,28,andhra pradesh,23,0,0,23,1114,7.9
+base_1996_2000,24,gujarat,26,0,0,26,1103,37.4
+base_1996_2000,21,odisha,30,0,1,29,968,6
+base_1996_2000,08,rajasthan,33,4,5,28,955,47.9
+base_1996_2000,33,tamil nadu,32,0,0,32,940,10.8
+base_1996_2000,19,west bengal,19,0,1,18,810,7.6
+base_1996_2000,32,kerala,14,0,0,14,770,6.3
+base_1996_2000,22,chhattisgarh,18,1,1,17,592,4.6
+base_1996_2000,06,haryana,21,0,1,20,468,16.4
+base_1996_2000,10,bihar,38,0,3,35,451,5.8
+base_1996_2000,03,punjab,20,0,0,20,415,20.4
+base_1996_2000,20,jharkhand,24,1,2,22,210,3.8
+base_1996_2000,01,jammu kashmir,23,18,19,4,87,5.7
+base_1996_2000,02,himachal pradesh,12,5,7,5,77,13.8
+base_1996_2000,17,meghalaya,7,1,4,3,28,2.3
+base_1996_2000,16,tripura,4,0,2,2,24,1.9
+base_1996_2000,12,arunachal pradesh,16,11,16,0,12,2.6
+base_1996_2000,13,nagaland,11,9,11,0,2,1.2
+base_1996_2000,07,nct of delhi,9,8,9,0,1,0
+base_1996_2000,14,manipur,9,8,9,0,1,0
+base_1996_2000,18,assam,27,26,27,0,1,0
+base_1996_2000,04,chandigarh,1,1,1,0,0,
+base_1996_2000,05,uttarakhand,13,13,13,0,0,
+base_1996_2000,11,sikkim,4,4,4,0,0,
+base_1996_2000,15,mizoram,8,8,8,0,0,
+base_1996_2000,25,daman diu,2,2,2,0,0,
+base_1996_2000,26,dadra nagar haveli,1,1,1,0,0,
+base_1996_2000,30,goa,2,2,2,0,0,
+base_1996_2000,31,lakshadweep,1,1,1,0,0,
+base_1996_2000,34,puducherry,4,4,4,0,0,
+base_1996_2000,35,andaman nicobar islands,3,3,3,0,0,
+toutes_1996_2016,28,andhra pradesh,23,0,0,23,2966,11.2
+toutes_1996_2016,29,karnataka,30,0,0,30,2423,7.9
+toutes_1996_2016,27,maharashtra,35,0,2,33,2185,11.1
+toutes_1996_2016,19,west bengal,19,0,0,19,2018,7.8
+toutes_1996_2016,21,odisha,30,0,0,30,1938,5.6
+toutes_1996_2016,32,kerala,14,0,0,14,1908,6.6
+toutes_1996_2016,23,madhya pradesh,50,0,0,50,1770,12.3
+toutes_1996_2016,08,rajasthan,33,0,0,33,1689,46.5
+toutes_1996_2016,09,uttar pradesh,71,2,3,68,1671,12.7
+toutes_1996_2016,24,gujarat,26,0,0,26,1587,73.1
+toutes_1996_2016,22,chhattisgarh,18,1,1,17,1371,4.4
+toutes_1996_2016,33,tamil nadu,32,0,0,32,1350,12.8
+toutes_1996_2016,03,punjab,20,0,0,20,1164,23.5
+toutes_1996_2016,06,haryana,21,0,0,21,1056,27.4
+toutes_1996_2016,10,bihar,38,0,1,37,975,5.6
+toutes_1996_2016,20,jharkhand,24,0,0,24,359,2.5
+toutes_1996_2016,01,jammu kashmir,23,11,15,8,248,15.1
+toutes_1996_2016,02,himachal pradesh,12,5,7,5,120,13.4
+toutes_1996_2016,16,tripura,4,0,0,4,57,4.3
+toutes_1996_2016,17,meghalaya,7,1,4,3,35,2.6
+toutes_1996_2016,12,arunachal pradesh,16,11,16,0,18,2.3
+toutes_1996_2016,13,nagaland,11,6,10,1,17,4.7
+toutes_1996_2016,07,nct of delhi,9,7,9,0,4,2.4
+toutes_1996_2016,14,manipur,9,7,9,0,2,1.7
+toutes_1996_2016,05,uttarakhand,13,12,13,0,1,0
+toutes_1996_2016,18,assam,27,26,27,0,1,0
+toutes_1996_2016,04,chandigarh,1,1,1,0,0,
+toutes_1996_2016,11,sikkim,4,4,4,0,0,
+toutes_1996_2016,15,mizoram,8,8,8,0,0,
+toutes_1996_2016,25,daman diu,2,2,2,0,0,
+toutes_1996_2016,26,dadra nagar haveli,1,1,1,0,0,
+toutes_1996_2016,30,goa,2,2,2,0,0,
+toutes_1996_2016,31,lakshadweep,1,1,1,0,0,
+toutes_1996_2016,34,puducherry,4,4,4,0,0,
+toutes_1996_2016,35,andaman nicobar islands,3,3,3,0,0,

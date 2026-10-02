@@ -1,0 +1,137 @@
+==============================================================================
+LOG: output/logs/16_cgwb_profondeur_district.log
+Run started: 2026-10-02 11:48:36
+==============================================================================
+
+ETAPE 16 -- PISTE E : PROFONDEUR CGWB AU DISTRICT PC11
+Descriptif : aucune variable de resultat lue.
+
+------------------------------------------------------------------------------
+16a. Entrees et controles
+------------------------------------------------------------------------------
+  [OK]   cgwb_wells: row count == 28,076
+  [OK]   cgwb_wells: key (WLCODE) unique
+  [OK]   cgwb_may_long: row count == 242,946
+  [OK]   cgwb_may_long: all 3 named variables present
+  [OK]   district.gpkg: all 3 named variables present
+  [OK]   district.gpkg : 641 polygones
+  [OK]   district.gpkg: key (pc11_district_id) unique
+
+------------------------------------------------------------------------------
+16b. Puits -> district PC11 (etape resumable)
+------------------------------------------------------------------------------
+[2026-10-02 11:48:37] etape 1/1 puits -> district : deja fait, relu depuis build/16_puits_district.rds (ecrit le 2026-10-02 11:48)
+[2026-10-02 11:48:37] etape 1/1 puits -> district : relu (0.0 s)
+  [OK]   puits -> district: row count == 28,076
+  [OK]   au plus 1 % des puits hors de tout district
+  puits hors de tout district : 13
+  [OK]   rattachement identique a l'etape 09 pour tous les puits
+
+------------------------------------------------------------------------------
+16c. Profondeur par puits, par fenetre
+------------------------------------------------------------------------------
+  lectures > 300 m exclues : 4 (WLCODE : W08432, W08672, W08685, W16099)
+  lectures negatives gardees : 50
+            fenetre puits lectures_med prof_med
+             <char> <int>        <num>    <num>
+1:   base_1996_2000 13872            5     7.09
+2: toutes_1996_2016 26933            6     7.57
+  [ATTENDU]  D1 : 13 000 a 14 500 puits dans la fenetre de base -- observe : 13 872
+
+------------------------------------------------------------------------------
+16d. Agregation au district
+------------------------------------------------------------------------------
+  [OK]   une ligne par district et par fenetre
+  ecrit : 16_profondeur_district.csv (1282 lignes, agregats de district)
+
+------------------------------------------------------------------------------
+16e. Couverture : districts sans puits, a moins de 5 puits
+------------------------------------------------------------------------------
+            fenetre districts zero_puits moins_de_5 puits
+             <char>     <int>      <int>      <int> <int>
+1:   base_1996_2000       641        133        164 13872
+2: toutes_1996_2016       641        115        143 26933
+   puits_med_par_district zero_pct moins_de_5_pct
+                    <num>    <num>          <num>
+1:                     17     20.7           25.6
+2:                     31     17.9           22.3
+  [ATTENDU]  D2 : 10 a 35 % des districts sans puits de base -- observe : 20.7 %
+  [ATTENDU]  D2 : 20 a 50 % des districts a moins de 5 puits de base -- observe : 25.6 %
+
+  Par Etat, fenetre de base (districts PC11, puits dans la fenetre 1996-2000) :
+    pc11_state_id              state_name districts zero_puits moins_de_5 au_moins_5 puits ecart_prof_moy_entre_districts
+           <char>                  <char>     <int>      <int>      <int>      <int> <int>                          <num>
+ 1:            09           uttar pradesh        71          2          4         67  1307                           14.2
+ 2:            27             maharashtra        35          0          2         33  1268                            9.8
+ 3:            23          madhya pradesh        50          0          1         49  1137                           10.3
+ 4:            29               karnataka        30          0          0         30  1131                            9.8
+ 5:            28          andhra pradesh        23          0          0         23  1114                            7.9
+ 6:            24                 gujarat        26          0          0         26  1103                           37.4
+ 7:            21                  odisha        30          0          1         29   968                            6.0
+ 8:            08               rajasthan        33          4          5         28   955                           47.9
+ 9:            33              tamil nadu        32          0          0         32   940                           10.8
+10:            19             west bengal        19          0          1         18   810                            7.6
+11:            32                  kerala        14          0          0         14   770                            6.3
+12:            22            chhattisgarh        18          1          1         17   592                            4.6
+13:            06                 haryana        21          0          1         20   468                           16.4
+14:            10                   bihar        38          0          3         35   451                            5.8
+15:            03                  punjab        20          0          0         20   415                           20.4
+16:            20               jharkhand        24          1          2         22   210                            3.8
+17:            01           jammu kashmir        23         18         19          4    87                            5.7
+18:            02        himachal pradesh        12          5          7          5    77                           13.8
+19:            17               meghalaya         7          1          4          3    28                            2.3
+20:            16                 tripura         4          0          2          2    24                            1.9
+21:            12       arunachal pradesh        16         11         16          0    12                            2.6
+22:            13                nagaland        11          9         11          0     2                            1.2
+23:            07            nct of delhi         9          8          9          0     1                            0.0
+24:            14                 manipur         9          8          9          0     1                            0.0
+25:            18                   assam        27         26         27          0     1                            0.0
+26:            04              chandigarh         1          1          1          0     0                             NA
+27:            05             uttarakhand        13         13         13          0     0                             NA
+28:            11                  sikkim         4          4          4          0     0                             NA
+29:            15                 mizoram         8          8          8          0     0                             NA
+30:            25               daman diu         2          2          2          0     0                             NA
+31:            26      dadra nagar haveli         1          1          1          0     0                             NA
+32:            30                     goa         2          2          2          0     0                             NA
+33:            31             lakshadweep         1          1          1          0     0                             NA
+34:            34              puducherry         4          4          4          0     0                             NA
+35:            35 andaman nicobar islands         3          3          3          0     0                             NA
+    pc11_state_id              state_name districts zero_puits moins_de_5 au_moins_5 puits ecart_prof_moy_entre_districts
+           <char>                  <char>     <int>      <int>      <int>      <int> <int>                          <num>
+
+  Districts sans aucun puits de base, par Etat :
+                 state_name     N
+                     <char> <int>
+ 1:                   assam    26
+ 2:           jammu kashmir    18
+ 3:             uttarakhand    13
+ 4:       arunachal pradesh    11
+ 5:                nagaland     9
+ 6:            nct of delhi     8
+ 7:                 manipur     8
+ 8:                 mizoram     8
+ 9:        himachal pradesh     5
+10:               rajasthan     4
+11:                  sikkim     4
+12:              puducherry     4
+13: andaman nicobar islands     3
+14:           uttar pradesh     2
+15:               daman diu     2
+16:                     goa     2
+17:              chandigarh     1
+18:               meghalaya     1
+19:               jharkhand     1
+20:            chhattisgarh     1
+21:      dadra nagar haveli     1
+22:             lakshadweep     1
+                 state_name     N
+                     <char> <int>
+
+------------------------------------------------------------------------------
+ETAPE 16 TERMINEE
+------------------------------------------------------------------------------
+  16_couverture_nationale.csv
+  16_couverture_par_etat.csv
+  16_profondeur_district.csv
+
+Run finished: 2026-10-02 11:48:41

@@ -1,0 +1,5 @@
+intervalle,bras,etats_identifiants,villages_identifiants,verdict
+1991-2001,village (SHRUG),4,44231,AUCUNE
+2001-2011,village (SHRUG),7,108789,AUCUNE
+1991-2001 (base CGWB en cours d'intervalle),district (CGWB),14,,MINCE
+2001-2011,district (CGWB),14,,MINCE

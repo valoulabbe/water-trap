@@ -1,0 +1,194 @@
+==============================================================================
+LOG: output/logs/18_puissance_descriptive.log
+Run started: 2026-10-02 11:54:59
+==============================================================================
+
+ETAPE 18 -- PISTE E : PUISSANCE DESCRIPTIVE (comptes seulement)
+  [OK]   sorties des etapes 16 et 17 presentes
+  [OK]   17_drapeaux.csv posterieur a l'exposition village (etape 17 allee au bout)
+
+------------------------------------------------------------------------------
+18a. Bras village (SHRUG)
+------------------------------------------------------------------------------
+   intervalle villages_debut  panel panel_expo_connue identifiants
+       <char>          <int>  <int>             <int>        <int>
+1:  1991-2001         557893 495118            291273       218489
+2:  2001-2011         522122 519862            518379       228653
+    intervalle              state_name villages panel identifiants                          drapeaux   p10        p90         sd p90_p10 etat_identifiant
+        <char>                  <char>    <int> <int>        <int>                            <char> <num>      <num>      <num>   <num>           <lgcl>
+ 1:  1991-2001           uttar pradesh    95659 95437        59461                        INCOHERENT     0 0.00000000 0.08787323   0.000            FALSE
+ 2:  1991-2001                   bihar    37986 36843        36842                                 -     0 0.19295246 0.18140925   0.193            FALSE
+ 3:  1991-2001               rajasthan    36719 36638        33712                        INCOHERENT     0 0.00000000 0.00000000   0.000            FALSE
+ 4:  1991-2001               karnataka    26422 26342        26337                                 -     0 0.57041336 0.27339961   0.570             TRUE
+ 5:  1991-2001          andhra pradesh    25946 25895        22121                        INCOHERENT     0 0.00000000 0.07181120   0.000            FALSE
+ 6:  1991-2001             uttarakhand    15207 15170        14530                                 -     0 0.00000000 0.05023929   0.000            FALSE
+ 7:  1991-2001                  punjab    11177 10552        10552                                 -     0 1.00000000 0.39254865   1.000             TRUE
+ 8:  1991-2001                 haryana     6547  6535         6535                                 -     0 1.00000000 0.42064115   1.000             TRUE
+ 9:  1991-2001             west bengal    37100  7958         6291                                 -     0 0.00000000 0.22462616   0.000            FALSE
+10:  1991-2001                  kerala     1318  1301         1301                                 -     0 0.00000000 0.04348369   0.000            FALSE
+11:  1991-2001                 tripura      814   807          807                                 -     0 1.00000000 0.32859158   1.000             TRUE
+12:  1991-2001 andaman nicobar islands      316   309            0          ZEROS_SUSPECTS QUASI_NUL    NA         NA         NA      NA            FALSE
+13:  1991-2001       arunachal pradesh     1412  1358            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+14:  1991-2001                   assam    23072 21805            0                          MANQUANT    NA         NA         NA      NA            FALSE
+15:  1991-2001              chandigarh        1     1            0                              <NA>    NA         NA         NA      NA            FALSE
+16:  1991-2001            chhattisgarh    15507 15502            0                          MANQUANT    NA         NA         NA      NA            FALSE
+17:  1991-2001      dadra nagar haveli       70    70            0                              <NA>    NA         NA         NA      NA            FALSE
+18:  1991-2001               daman diu       23    23            0                              <NA>    NA         NA         NA      NA            FALSE
+19:  1991-2001                     goa      356   341            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+20:  1991-2001                 gujarat    17784 17753            0                          MANQUANT    NA         NA         NA      NA            FALSE
+21:  1991-2001        himachal pradesh    16628 16573            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+22:  1991-2001               jharkhand    28754 28668            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+23:  1991-2001             lakshadweep        7     7            0                              <NA>    NA         NA         NA      NA            FALSE
+24:  1991-2001          madhya pradesh    50014 49929            0                          MANQUANT    NA         NA         NA      NA            FALSE
+25:  1991-2001             maharashtra    39738 39626            0                          MANQUANT    NA         NA         NA      NA            FALSE
+26:  1991-2001                 manipur     1970  1844            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+27:  1991-2001               meghalaya     4990  3437            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+28:  1991-2001                 mizoram      552   417            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+29:  1991-2001                nagaland     1145  1131            0          ZEROS_SUSPECTS QUASI_NUL    NA         NA         NA      NA            FALSE
+30:  1991-2001            nct of delhi        1     1            0                              <NA>    NA         NA         NA      NA            FALSE
+31:  1991-2001                  odisha    46075 18652            0    MANQUANT ZEROS_SUSPECTS SATURE    NA         NA         NA      NA            FALSE
+32:  1991-2001              puducherry       81    81            0                              <NA>    NA         NA         NA      NA            FALSE
+33:  1991-2001                  sikkim      420   420            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+34:  1991-2001              tamil nadu    14082 13692            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+35:  2001-2011               rajasthan    39410 39322        39064                                 -     0 0.00000000 0.20683290   0.000            FALSE
+36:  2001-2011                   bihar    37436 37372        37371                                 -     0 0.00000000 0.14865854   0.000            FALSE
+37:  2001-2011               karnataka    27033 26952        26942                                 -     0 1.00000000 0.41119841   1.000             TRUE
+38:  2001-2011          andhra pradesh    26211 26050        25791                                 -     0 0.74375288 0.30780672   0.744             TRUE
+39:  2001-2011            chhattisgarh    19564 19474        19473                                 -     0 0.46153846 0.27505762   0.462             TRUE
+40:  2001-2011                  odisha    19066 19029        19029                                 -     0 0.00000000 0.15392791   0.000            FALSE
+41:  2001-2011                 gujarat    17882 17755        17753                                 -     0 0.98816969 0.33514789   0.988             TRUE
+42:  2001-2011             uttarakhand    15512 15478        15478                                 -     0 0.00000000 0.12207431   0.000            FALSE
+43:  2001-2011                  punjab    11536 11479        11474                                 -     0 1.00000000 0.38355559   1.000             TRUE
+44:  2001-2011             west bengal     8019  7932         7930                                 -     0 0.23809524 0.19912604   0.238            FALSE
+45:  2001-2011                 haryana     6620  6562         6556                                 -     0 1.00000000 0.42663775   1.000             TRUE
+46:  2001-2011                  kerala     1322   992          992                                 -     0 0.02858642 0.06118839   0.029            FALSE
+47:  2001-2011                 tripura      824   800          800                                 -     0 1.00000000 0.31126523   1.000             TRUE
+48:  2001-2011 andaman nicobar islands      380   378            0 MANQUANT ZEROS_SUSPECTS QUASI_NUL    NA         NA         NA      NA            FALSE
+49:  2001-2011       arunachal pradesh     3188  3180            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+50:  2001-2011                   assam    23049 22971            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+51:  2001-2011              chandigarh        1     1            0                              <NA>    NA         NA         NA      NA            FALSE
+52:  2001-2011      dadra nagar haveli       70    65            0                              <NA>    NA         NA         NA      NA            FALSE
+53:  2001-2011               daman diu       23    17            0                              <NA>    NA         NA         NA      NA            FALSE
+54:  2001-2011                     goa      344   319            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+55:  2001-2011        himachal pradesh    17235 17231            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+56:  2001-2011           jammu kashmir     6252  6207            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+57:  2001-2011               jharkhand    29096 28991            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+58:  2001-2011             lakshadweep        8     5            0                              <NA>    NA         NA         NA      NA            FALSE
+59:  2001-2011          madhya pradesh    51524 51433            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+60:  2001-2011             maharashtra    40714 40527            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+61:  2001-2011                 manipur     2157  2137            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+62:  2001-2011               meghalaya     3783  3782            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+63:  2001-2011                 mizoram      469   468            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+64:  2001-2011                nagaland     1251  1234            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+65:  2001-2011            nct of delhi        1     1            0                              <NA>    NA         NA         NA      NA            FALSE
+66:  2001-2011              puducherry       92    90            0                              <NA>    NA         NA         NA      NA            FALSE
+67:  2001-2011                  sikkim      423   420            0                         QUASI_NUL    NA         NA         NA      NA            FALSE
+68:  2001-2011              tamil nadu    14833 14622            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+69:  2001-2011           uttar pradesh    96794 96586            0                    ZEROS_SUSPECTS    NA         NA         NA      NA            FALSE
+    intervalle              state_name villages panel identifiants                          drapeaux   p10        p90         sd p90_p10 etat_identifiant
+        <char>                  <char>    <int> <int>        <int>                            <char> <num>      <num>      <num>   <num>           <lgcl>
+
+------------------------------------------------------------------------------
+18b. Bras district (CGWB, fenetre 1996-2000)
+------------------------------------------------------------------------------
+                 state_name districts districts_5_puits ecart_m
+                     <char>     <int>             <int>   <num>
+ 1:           uttar pradesh        71                67   13.56
+ 2:          madhya pradesh        50                49   10.29
+ 3:                   bihar        38                35    5.76
+ 4:             maharashtra        35                33    9.33
+ 5:              tamil nadu        32                32   10.76
+ 6:               karnataka        30                30    9.77
+ 7:                  odisha        30                29    6.02
+ 8:               rajasthan        33                28   46.63
+ 9:                 gujarat        26                26   37.39
+10:          andhra pradesh        23                23    7.88
+11:               jharkhand        24                22    3.77
+12:                  punjab        20                20   20.44
+13:                 haryana        21                20   16.36
+14:             west bengal        19                18    4.46
+15:            chhattisgarh        18                17    4.60
+16:                  kerala        14                14    6.32
+17:        himachal pradesh        12                 5    9.99
+18:           jammu kashmir        23                 4    2.30
+19:               meghalaya         7                 3    1.45
+20:                 tripura         4                 2    1.34
+21:              chandigarh         1                 0      NA
+22:             uttarakhand        13                 0      NA
+23:            nct of delhi         9                 0      NA
+24:                  sikkim         4                 0      NA
+25:       arunachal pradesh        16                 0      NA
+26:                nagaland        11                 0      NA
+27:                 manipur         9                 0      NA
+28:                 mizoram         8                 0      NA
+29:                   assam        27                 0      NA
+30:               daman diu         2                 0      NA
+31:      dadra nagar haveli         1                 0      NA
+32:                     goa         2                 0      NA
+33:             lakshadweep         1                 0      NA
+34:              puducherry         4                 0      NA
+35: andaman nicobar islands         3                 0      NA
+                 state_name districts districts_5_puits ecart_m
+                     <char>     <int>             <int>   <num>
+    etat_identifiant
+              <lgcl>
+ 1:             TRUE
+ 2:             TRUE
+ 3:             TRUE
+ 4:             TRUE
+ 5:             TRUE
+ 6:             TRUE
+ 7:             TRUE
+ 8:             TRUE
+ 9:             TRUE
+10:             TRUE
+11:            FALSE
+12:             TRUE
+13:             TRUE
+14:            FALSE
+15:            FALSE
+16:             TRUE
+17:             TRUE
+18:            FALSE
+19:            FALSE
+20:            FALSE
+21:            FALSE
+22:            FALSE
+23:            FALSE
+24:            FALSE
+25:            FALSE
+26:            FALSE
+27:            FALSE
+28:            FALSE
+29:            FALSE
+30:            FALSE
+31:            FALSE
+32:            FALSE
+33:            FALSE
+34:            FALSE
+35:            FALSE
+    etat_identifiant
+              <lgcl>
+
+------------------------------------------------------------------------------
+18c. Verdict contre le critere ecrit
+------------------------------------------------------------------------------
+                                    intervalle            bras
+                                        <char>          <char>
+1:                                   1991-2001 village (SHRUG)
+2:                                   2001-2011 village (SHRUG)
+3: 1991-2001 (base CGWB en cours d'intervalle) district (CGWB)
+4:                                   2001-2011 district (CGWB)
+   etats_identifiants villages_identifiants verdict
+                <int>                 <int>  <char>
+1:                  4                 44231  AUCUNE
+2:                  7                108789  AUCUNE
+3:                 14                    NA   MINCE
+4:                 14                    NA   MINCE
+  Bornes superieures : les Etats sans changement de tarif dans l'intervalle n'identifient pas.
+
+------------------------------------------------------------------------------
+ETAPE 18 TERMINEE
+------------------------------------------------------------------------------
+
+Run finished: 2026-10-02 11:55:07

@@ -1,0 +1,105 @@
+==============================================================================
+LOG: output/logs/19_declaratif_vs_administratif.log
+Run started: 2026-10-02 11:56:12
+==============================================================================
+
+ETAPE 19 -- PISTE E : DECLARATIF MENAGE CONTRE QUESTIONNAIRE VILLAGE (IHDS-II)
+Controle de mesure : accords non ponderes, aucune estimation.
+
+------------------------------------------------------------------------------
+19a. Lien au recensement 2011 (diagnostic, non bloquant)
+------------------------------------------------------------------------------
+   villages vill_min vill_max vill_valeurs_distinctes vill_egal_psuid_pct
+      <int>    <num>    <num>                   <int>               <num>
+1:     1410        1       88                      29                97.5
+   cle_etat_dist_vill_unique
+                      <lgcl>
+1:                     FALSE
+  VILL n'est pas un code du recensement : comparaison faite au questionnaire village IHDS-II.
+
+------------------------------------------------------------------------------
+19b. Entrees et lien menage -> village
+------------------------------------------------------------------------------
+  [OK]   sorties de l'etape 15 presentes
+  [OK]   village IHDS-II: row count == 1,410
+  [OK]   village IHDS-II: key (STATEID+DISTID+PSUID) unique
+  [OK]   menages IHDS-II: row count == 42,152
+  [OK]   >= 90 % des menages ruraux relies a un village renseigne
+  menages ruraux : 27579 ; relies a un village renseigne : 96.2 %
+  [OK]   codes de source dans 1 a 11
+  echantillon de comparaison : 26446 menages, 1359 villages
+
+------------------------------------------------------------------------------
+19c. M1 : source du menage parmi les sources listees par le village
+------------------------------------------------------------------------------
+     code source_menage menages accord accord_pct
+    <num>        <char>   <int>  <int>      <num>
+ 1:     1         Piped    9780   8791       89.9
+ 2:     2     Tube well    3274   2465       75.3
+ 3:     3     Hand pump    9405   8696       92.5
+ 4:     4     Open well    2749   1951       71.0
+ 5:     5  Covered well     254     97       38.2
+ 6:     6   River/canal     354    201       56.8
+ 7:     7          Pond     148     58       39.2
+ 8:     8        Tanker     224    106       47.3
+ 9:     9     Rainwater      14      9       64.3
+10:    10       Bottled      33     15       45.5
+11:    11         Other     211     15        7.1
+12:    NA         TOTAL   26446  22404       84.7
+  [ATTENDU]  M1 >= 70 % -- observe : 84.7 %
+
+------------------------------------------------------------------------------
+19d. M2 : eau courante, au niveau du village
+------------------------------------------------------------------------------
+Clé : <cas>
+             cas villages   pct
+          <char>    <int> <num>
+1:    accord_non      453  33.3
+2:    accord_oui      690  50.8
+3: menages_seuls      145  10.7
+4:  village_seul       71   5.2
+  [ATTENDU]  M2 >= 80 % -- observe : 84.1 %
+Clé : <village_liste_piped, village_piped_principal>
+   village_liste_piped village_piped_principal villages part_menages_piped_med
+                <lgcl>                  <lgcl>    <int>                  <num>
+1:               FALSE                   FALSE      598                    0.0
+2:                TRUE                   FALSE      131                    0.2
+3:                TRUE                    TRUE      630                    0.8
+   part_menages_piped_moy
+                    <num>
+1:                   0.08
+2:                   0.33
+3:                   0.68
+
+------------------------------------------------------------------------------
+19e. M3 : eau courante, au niveau du menage
+------------------------------------------------------------------------------
+Clé : <menage_piped, village_liste_piped>
+   menage_piped village_liste_piped menages   pct
+         <lgcl>              <lgcl>   <int> <num>
+1:        FALSE               FALSE   11061  41.8
+2:        FALSE                TRUE    5605  21.2
+3:         TRUE               FALSE     989   3.7
+4:         TRUE                TRUE    8791  33.2
+
+------------------------------------------------------------------------------
+19f. Verdict contre le critere ecrit
+------------------------------------------------------------------------------
+   m1_accord_pct m2_accord_pct m2_menages_seuls_pct m2_village_seul_pct
+           <num>         <num>                <num>               <num>
+1:          84.7          84.1                 10.7                 5.2
+          verdict                                         reference
+           <char>                                            <char>
+1: NON UTILISABLE questionnaire village IHDS-II (pas administratif)
+
+------------------------------------------------------------------------------
+ETAPE 19 TERMINEE
+------------------------------------------------------------------------------
+  19_lien_recensement.csv
+  19_m1_menage_dans_liste.csv
+  19_m2_piped_village.csv
+  19_m2b_intensite.csv
+  19_m3_piped_menage.csv
+  19_verdict.csv
+
+Run finished: 2026-10-02 11:56:12
