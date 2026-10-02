@@ -1,0 +1,31 @@
+vague,variable,libelle,non_na_pct
+ihds1,STATEID,State code,100
+ihds1,DISTID,District code,100
+ihds1,PSUID,PSU: village/neighborhood code,100
+ihds1,HHID,Household ID,100
+ihds1,HHSPLITID,Split household ID,100
+ihds1,URBAN,Census: 2001 village/town,100
+ihds1,SWEIGHT,Design Weights using 2001 Districts,100
+ihds1,COPC,HH19 12. Monthly consumption per capita,99.8
+ihds1,CG4,HH22 13.4 Own: Generator set,99.8
+ihds1,FU1,EH10 7.1 HH electricity,99.3
+ihds1,FU1A,EH10 7.1a Electricity hours,80.9
+ihds1,WA1,EH9 5.1 Water source: usual,99.9
+ihds1,FM32A,HH9 4.32a Own: Tubewells,6.4
+ihds1,FM32B,HH9 4.32b Own: Electric Pumps,5.9
+ihds1,FM32C,HH9 4.32c Own: Diesel pumps,3.7
+ihds2,STATEID,HQ0 State code,100
+ihds2,DISTID,HQ0 District code,100
+ihds2,PSUID,HQ0 PSU: village/neighborhood code,100
+ihds2,HHID,HQ0 Household ID (3-digit),100
+ihds2,HHSPLITID,HQ0 Split household ID,100
+ihds2,URBAN2011,Urban residence from census 2011,100
+ihds2,WT,Weights in IHDS-II,100
+ihds2,COPC,HQ23 14. Household expenditure /capita,99.9
+ihds2,CG6,HQ26 15.6 Own: Generator set,99.9
+ihds2,FU1,EQ10 7.1 Household has electricity,99.6
+ihds2,FU1A,EQ10 7.1a Electricity access hours/day,86.8
+ihds2,WA1A,EQ9 5.1a Main water source: normally,99.6
+ihds2,FM40A,HQ10 5.40a Own: Tubewells,40.4
+ihds2,FM40B,HQ10 5.40b Own: Electric Pumps,40.3
+ihds2,FM40C,HQ10 5.40c Own: Diesel pumps,40.3

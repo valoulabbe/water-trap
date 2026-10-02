@@ -1,0 +1,25 @@
+vague,variable,code,niveau,N
+ihds1,WA1,,,62
+ihds1,WA1,1,(01) Piped,19114
+ihds1,WA1,2,(02) Tube well,4293
+ihds1,WA1,3,(03) Hand pump,11226
+ihds1,WA1,4,(04) Open well,4893
+ihds1,WA1,5,(05) Covered well,824
+ihds1,WA1,6,(06) River,323
+ihds1,WA1,7,(07) Pond,155
+ihds1,WA1,8,(08) Truck,371
+ihds1,WA1,9,(09) Rainwater,28
+ihds1,WA1,10,(10) Bottled,42
+ihds1,WA1,11,(11) Other,223
+ihds2,WA1A,,,157
+ihds2,WA1A,1,(01) Piped (public supply) 1,20303
+ihds2,WA1A,2,(02) Tube well 2,4660
+ihds2,WA1A,3,(03) Hand pump 3,11144
+ihds2,WA1A,4,(04) Open well 4,3522
+ihds2,WA1A,5,(05) Covered well 5,652
+ihds2,WA1A,6,"(06) River, canal, stream 6",424
+ihds2,WA1A,7,(07) Pond 7,162
+ihds2,WA1A,8,(08) Tanker truck 8,513
+ihds2,WA1A,9,(09) Rainwater 9,26
+ihds2,WA1A,10,(10) Bottled 10,199
+ihds2,WA1A,11,(11) Others 11,390

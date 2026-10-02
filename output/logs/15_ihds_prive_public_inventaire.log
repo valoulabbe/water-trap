@@ -1,0 +1,323 @@
+==============================================================================
+LOG: output/logs/15_ihds_prive_public_inventaire.log
+Run started: 2026-10-02 11:07:43
+==============================================================================
+
+ETAPE 15 -- IHDS : SUBSTITUT PRIVE ET COUVERTURE DE LA PROVISION PUBLIQUE
+Couverture et cote prive seulement : aucune part de provision publique calculee.
+
+------------------------------------------------------------------------------
+15a. Extraits menages (etape 1)
+------------------------------------------------------------------------------
+[2026-10-02 11:07:43] etape 1/2 menages IHDS : deja fait, relu depuis build/15_ihds_menages.rds (ecrit le 2026-10-02 11:05)
+[2026-10-02 11:07:43] etape 1/2 menages IHDS : relu (0.0 s)
+
+ihds1 : 22626-0002-Data.rda
+  [OK]   ihds1: row count == 41,554
+  [OK]   ihds1: key (STATEID+DISTID+PSUID+HHID+HHSPLITID) unique
+     variable                                 libelle
+       <char>                                  <char>
+ 1:   STATEID                              State code
+ 2:    DISTID                           District code
+ 3:     PSUID          PSU: village/neighborhood code
+ 4:      HHID                            Household ID
+ 5: HHSPLITID                      Split household ID
+ 6:     URBAN               Census: 2001 village/town
+ 7:   SWEIGHT     Design Weights using 2001 Districts
+ 8:      COPC HH19 12. Monthly consumption per capita
+ 9:       CG4            HH22 13.4 Own: Generator set
+10:       FU1                 EH10 7.1 HH electricity
+11:      FU1A             EH10 7.1a Electricity hours
+12:       WA1             EH9 5.1 Water source: usual
+13:     FM32A                HH9 4.32a Own: Tubewells
+14:     FM32B           HH9 4.32b Own: Electric Pumps
+15:     FM32C             HH9 4.32c Own: Diesel pumps
+
+ihds2 : 36151-0002-Data.rda
+  [OK]   ihds2: row count == 42,152
+  [OK]   ihds2: key (STATEID+DISTID+PSUID+HHID+HHSPLITID) unique
+     variable                                libelle
+       <char>                                 <char>
+ 1:   STATEID                         HQ0 State code
+ 2:    DISTID                      HQ0 District code
+ 3:     PSUID     HQ0 PSU: village/neighborhood code
+ 4:      HHID             HQ0 Household ID (3-digit)
+ 5: HHSPLITID                 HQ0 Split household ID
+ 6: URBAN2011       Urban residence from census 2011
+ 7:        WT                     Weights in IHDS-II
+ 8:      COPC HQ23 14. Household expenditure /capita
+ 9:       CG6           HQ26 15.6 Own: Generator set
+10:       FU1     EQ10 7.1 Household has electricity
+11:      FU1A EQ10 7.1a Electricity access hours/day
+12:      WA1A   EQ9 5.1a Main water source: normally
+13:     FM40A              HQ10 5.40a Own: Tubewells
+14:     FM40B         HQ10 5.40b Own: Electric Pumps
+15:     FM40C           HQ10 5.40c Own: Diesel pumps
+
+------------------------------------------------------------------------------
+15b. Couverture des variables menage (non NA, non pondere)
+------------------------------------------------------------------------------
+     vague  variable                                 libelle non_na_pct
+    <char>    <char>                                  <char>      <num>
+ 1:  ihds1   STATEID                              State code      100.0
+ 2:  ihds1    DISTID                           District code      100.0
+ 3:  ihds1     PSUID          PSU: village/neighborhood code      100.0
+ 4:  ihds1      HHID                            Household ID      100.0
+ 5:  ihds1 HHSPLITID                      Split household ID      100.0
+ 6:  ihds1     URBAN               Census: 2001 village/town      100.0
+ 7:  ihds1   SWEIGHT     Design Weights using 2001 Districts      100.0
+ 8:  ihds1      COPC HH19 12. Monthly consumption per capita       99.8
+ 9:  ihds1       CG4            HH22 13.4 Own: Generator set       99.8
+10:  ihds1       FU1                 EH10 7.1 HH electricity       99.3
+11:  ihds1      FU1A             EH10 7.1a Electricity hours       80.9
+12:  ihds1       WA1             EH9 5.1 Water source: usual       99.9
+13:  ihds1     FM32A                HH9 4.32a Own: Tubewells        6.4
+14:  ihds1     FM32B           HH9 4.32b Own: Electric Pumps        5.9
+15:  ihds1     FM32C             HH9 4.32c Own: Diesel pumps        3.7
+16:  ihds2   STATEID                          HQ0 State code      100.0
+17:  ihds2    DISTID                       HQ0 District code      100.0
+18:  ihds2     PSUID      HQ0 PSU: village/neighborhood code      100.0
+19:  ihds2      HHID              HQ0 Household ID (3-digit)      100.0
+20:  ihds2 HHSPLITID                  HQ0 Split household ID      100.0
+21:  ihds2 URBAN2011        Urban residence from census 2011      100.0
+22:  ihds2        WT                      Weights in IHDS-II      100.0
+23:  ihds2      COPC  HQ23 14. Household expenditure /capita       99.9
+24:  ihds2       CG6            HQ26 15.6 Own: Generator set       99.9
+25:  ihds2       FU1      EQ10 7.1 Household has electricity       99.6
+26:  ihds2      FU1A  EQ10 7.1a Electricity access hours/day       86.8
+27:  ihds2      WA1A    EQ9 5.1a Main water source: normally       99.6
+28:  ihds2     FM40A               HQ10 5.40a Own: Tubewells       40.4
+29:  ihds2     FM40B          HQ10 5.40b Own: Electric Pumps       40.3
+30:  ihds2     FM40C            HQ10 5.40c Own: Diesel pumps       40.3
+     vague  variable                                 libelle non_na_pct
+    <char>    <char>                                  <char>      <num>
+  Source d'eau de boisson, codes observes (non pondere) :
+     vague variable  code                       niveau     N
+    <char>   <char> <num>                       <char> <int>
+ 1:  ihds1      WA1    NA                         <NA>    62
+ 2:  ihds1      WA1     1                   (01) Piped 19114
+ 3:  ihds1      WA1     2               (02) Tube well  4293
+ 4:  ihds1      WA1     3               (03) Hand pump 11226
+ 5:  ihds1      WA1     4               (04) Open well  4893
+ 6:  ihds1      WA1     5            (05) Covered well   824
+ 7:  ihds1      WA1     6                   (06) River   323
+ 8:  ihds1      WA1     7                    (07) Pond   155
+ 9:  ihds1      WA1     8                   (08) Truck   371
+10:  ihds1      WA1     9               (09) Rainwater    28
+11:  ihds1      WA1    10                 (10) Bottled    42
+12:  ihds1      WA1    11                   (11) Other   223
+13:  ihds2     WA1A    NA                         <NA>   157
+14:  ihds2     WA1A     1 (01) Piped (public supply) 1 20303
+15:  ihds2     WA1A     2             (02) Tube well 2  4660
+16:  ihds2     WA1A     3             (03) Hand pump 3 11144
+17:  ihds2     WA1A     4             (04) Open well 4  3522
+18:  ihds2     WA1A     5          (05) Covered well 5   652
+19:  ihds2     WA1A     6  (06) River, canal, stream 6   424
+20:  ihds2     WA1A     7                  (07) Pond 7   162
+21:  ihds2     WA1A     8          (08) Tanker truck 8   513
+22:  ihds2     WA1A     9             (09) Rainwater 9    26
+23:  ihds2     WA1A    10              (10) Bottled 10   199
+24:  ihds2     WA1A    11               (11) Others 11   390
+     vague variable  code                       niveau     N
+    <char>   <char> <num>                       <char> <int>
+
+------------------------------------------------------------------------------
+15c. Groupe electrogene : niveau par vague (cote prive)
+------------------------------------------------------------------------------
+    vague urbain menages possesseurs part_brute_pct part_ponderee_pct
+   <char> <char>   <int>       <int>          <num>             <num>
+1:  ihds1  rural   26685         198           0.74              0.48
+2:  ihds1 urbain   14767         371           2.51              2.19
+3:  ihds2  rural   27564         336           1.22              1.21
+4:  ihds2 urbain   14560         484           3.32              3.63
+
+------------------------------------------------------------------------------
+15d. Groupe electrogene par quintile de consommation (pondere)
+------------------------------------------------------------------------------
+     vague urbain quintile menages possesseurs part_ponderee_pct
+    <char> <char>    <num>   <int>       <int>             <num>
+ 1:  ihds1  rural        1    5123           3              0.04
+ 2:  ihds1  rural        2    4912          16              0.25
+ 3:  ihds1  rural        3    5017          12              0.16
+ 4:  ihds1  rural        4    5470          35              0.47
+ 5:  ihds1  rural        5    6144         131              1.45
+ 6:  ihds1 urbain        1    2950          16              0.52
+ 7:  ihds1 urbain        2    2834          21              0.65
+ 8:  ihds1 urbain        3    2909          24              0.77
+ 9:  ihds1 urbain        4    2944          60              1.87
+10:  ihds1 urbain        5    3109         247              7.10
+11:  ihds2  rural        1    4796          16              0.51
+12:  ihds2  rural        2    5156          19              0.36
+13:  ihds2  rural        3    5617          41              0.81
+14:  ihds2  rural        4    5914          74              1.29
+15:  ihds2  rural        5    6072         186              3.11
+16:  ihds2 urbain        1    2924          19              0.77
+17:  ihds2 urbain        2    2850          26              1.07
+18:  ihds2 urbain        3    2857          58              2.36
+19:  ihds2 urbain        4    2889         113              4.11
+20:  ihds2 urbain        5    3034         268              9.85
+     vague urbain quintile menages possesseurs part_ponderee_pct
+    <char> <char>    <num>   <int>       <int>             <num>
+
+------------------------------------------------------------------------------
+15e. Groupe electrogene : transitions dans le panel (non pondere)
+------------------------------------------------------------------------------
+  [OK]   panel : plus de 30 000 menages IHDS-II relies a IHDS-I
+Clé : <gen_I, gen_II>
+   gen_I gen_II     N part_pct
+   <num>  <num> <int>    <num>
+1:     0      0 38722    96.99
+2:     0      1   689     1.73
+3:     1      0   419     1.05
+4:     1      1    94     0.24
+
+------------------------------------------------------------------------------
+15f. Fichier village IHDS-II (etape 2)
+------------------------------------------------------------------------------
+[2026-10-02 11:07:43] etape 2/2 village IHDS-II : deja fait, relu depuis build/15_ihds_village.rds (ecrit le 2026-10-02 11:05)
+[2026-10-02 11:07:43] etape 2/2 village IHDS-II : relu (0.0 s)
+  [OK]   village IHDS-II: row count == 1,410
+  [OK]   village IHDS-II: key (STATEID+DISTID+PSUID) unique
+    variable                            libelle
+      <char>                             <char>
+ 1:  STATEID                          VQ9 STATE
+ 2:   DISTID                       VQ9 DISTRICT
+ 3:    PSUID                            VQ9 PSU
+ 4:     VQ9Y             VQ1 9c. Interview year
+ 5:     VI4A         VQ7 7.4a Electricity yesno
+ 6:     VI4B    VQ7 7.4b Electricity first year
+ 7:     VI4C       VQ7 7.4c Electricity N years
+ 8:     VI4D VQ7 7.4d Electiricty hours per day
+ 9:    VI10A  VQ7 7.10a drinking water Source 1
+10:    VI10B  VQ7 7.10b drinking water Source 2
+11:    VI10C  VQ7 7.10c drinking water Source 3
+12:    VI18K      VQ9 7.18k Safe Drinking Water
+    variable                            libelle non_na_pct
+      <char>                             <char>      <num>
+ 1:  STATEID                          VQ9 STATE      100.0
+ 2:   DISTID                       VQ9 DISTRICT      100.0
+ 3:    PSUID                            VQ9 PSU      100.0
+ 4:     VQ9Y             VQ1 9c. Interview year       99.9
+ 5:     VI4A         VQ7 7.4a Electricity yesno       99.3
+ 6:     VI4B    VQ7 7.4b Electricity first year       48.9
+ 7:     VI4C       VQ7 7.4c Electricity N years       50.3
+ 8:     VI4D VQ7 7.4d Electiricty hours per day       98.0
+ 9:    VI10A  VQ7 7.10a drinking water Source 1       99.8
+10:    VI10B  VQ7 7.10b drinking water Source 2       84.5
+11:    VI10C  VQ7 7.10c drinking water Source 3       47.6
+12:    VI18K      VQ9 7.18k Safe Drinking Water       99.7
+
+------------------------------------------------------------------------------
+15g. Lien des menages ruraux au fichier village (STATEID + DISTID + PSUID)
+------------------------------------------------------------------------------
+    vague urbain menages   psu menages_lies psu_lies
+   <char> <char>   <int> <int>        <int>    <int>
+1:  ihds2  rural   27579  1420        26583     1362
+2:  ihds2 urbain   14573  1042          806       48
+3:  ihds1  rural   26734  1485        25185     1396
+4:  ihds1 urbain   14820   989          193       13
+  [OK]   IHDS-II : plus de 80 % des menages ruraux relies a un village
+  [OK]   chaque PSU est tout rural ou tout urbain au sein d'une vague
+Clé : <statut_psu>
+                   statut_psu     N
+                       <char> <int>
+1: reclasse_rural_vers_urbain    35
+2:                rural_rural  1362
+3:   urbain_urbain_inexplique    13
+  [OK]   toute fiche village est reliee a un PSU de menages IHDS-II
+  [OK]   au plus 13 fiches village urbaines aux deux vagues (chiffre du diagnostic du 02/10)
+   psu_ruraux_I psu_ruraux_II psu_deux_vagues menages_par_psu_med_I
+          <int>         <int>           <int>                 <int>
+1:         1485          1420            1418                    20
+   menages_par_psu_med_II psu_deux_vagues_dans_village
+                    <num>                        <int>
+1:                     20                         1361
+
+------------------------------------------------------------------------------
+15h. Date d'electrification du village (VI4B, ou VQ9Y - VI4C)
+------------------------------------------------------------------------------
+  VQ9Y observe : 11 -> 166 ; 12 -> 1239 ; 13 -> 4 ; NA -> 1
+  [OK]   VQ9Y code sur deux chiffres (11 a 13)
+  VI4B hors 1900-2013 (mis a NA) : 8 ; VI4C == 99 (mis a NA) : 1
+  Coherence quand VI4B et VI4C sont tous deux renseignes :
+    14 villages ; |VI4B - (entretien - VI4C)| <= 1 an : 11 ; <= 3 ans : 12
+Clé : <source_date>
+                source_date     N
+                     <char> <int>
+1:               VI4B annee   681
+2: annee d'entretien - VI4C   694
+3:                   aucune    35
+Clé : <periode>
+                      periode villages heures_med part_menages_elec_med
+                       <char>    <int>      <num>                 <num>
+1:                    1980-89      332         12                    90
+2:                    1990-99      206         12                    80
+3:                    2000-04       58          9                    60
+4: 2005-12 (entre les vagues)       82          8                    50
+5:                 avant 1980      696         14                    95
+6:                   inconnue       36         12                     0
+
+------------------------------------------------------------------------------
+15i. Codes eau du fichier village (non pondere, couverture)
+------------------------------------------------------------------------------
+    variable  code                   niveau     N
+      <char> <num>                   <char> <int>
+ 1:    VI10A    NA                     <NA>     3
+ 2:    VI10A     1             (01) Piped 1   655
+ 3:    VI10A     2         (02) Tube well 2   171
+ 4:    VI10A     3         (03) Hand pump 3   444
+ 5:    VI10A     4    (04) Dug, open well 4    81
+ 6:    VI10A     5      (05) Covered well 5    12
+ 7:    VI10A     6 (06) River, canal etc. 6    17
+ 8:    VI10A     7              (07) Pond 7     4
+ 9:    VI10A     8      (08) Tanker truck 8     8
+10:    VI10A     9         (09) Rainwater 9     1
+11:    VI10A    10          (10) Bottled 10     8
+12:    VI10A    11            (11) Other 11     6
+13:    VI10B    NA                     <NA>   219
+14:    VI10B     1             (01) Piped 1   102
+15:    VI10B     2         (02) Tube well 2   368
+16:    VI10B     3         (03) Hand pump 3   319
+17:    VI10B     4    (04) Dug, open well 4   215
+18:    VI10B     5      (05) Covered well 5    39
+19:    VI10B     6 (06) River, canal etc. 6    71
+20:    VI10B     7              (07) Pond 7    21
+21:    VI10B     8      (08) Tanker truck 8    19
+22:    VI10B     9         (09) Rainwater 9    19
+23:    VI10B    10          (10) Bottled 10     7
+24:    VI10B    11            (11) Other 11    11
+25:    VI10C    NA                     <NA>   739
+26:    VI10C     1             (01) Piped 1    40
+27:    VI10C     2         (02) Tube well 2   129
+28:    VI10C     3         (03) Hand pump 3   153
+29:    VI10C     4    (04) Dug, open well 4   129
+30:    VI10C     5      (05) Covered well 5    57
+31:    VI10C     6 (06) River, canal etc. 6    36
+32:    VI10C     7              (07) Pond 7    36
+33:    VI10C     8      (08) Tanker truck 8    35
+34:    VI10C     9         (09) Rainwater 9    14
+35:    VI10C    10          (10) Bottled 10    23
+36:    VI10C    11            (11) Other 11    19
+37:    VI18K    NA                     <NA>     4
+38:    VI18K     0                 (0) No 0   653
+39:    VI18K     1                (1) Yes 1   753
+    variable  code                   niveau     N
+      <char> <num>                   <char> <int>
+
+------------------------------------------------------------------------------
+ETAPE 15 TERMINEE
+------------------------------------------------------------------------------
+  15_couverture_menages.csv
+  15_couverture_village.csv
+  15_eau_codes_menages.csv
+  15_generateur_panel.csv
+  15_generateur_par_vague.csv
+  15_generateur_quintile.csv
+  15_psu_ruraux_panel.csv
+  15_village_codes_eau.csv
+  15_village_electrification.csv
+  15_village_lien.csv
+  15_village_psu_inexpliques.csv
+  15_village_statut_psu.csv
+
+Run finished: 2026-10-02 11:07:44

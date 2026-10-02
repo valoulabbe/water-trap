@@ -1,0 +1,13 @@
+variable,libelle,non_na_pct
+STATEID,VQ9 STATE,100
+DISTID,VQ9 DISTRICT,100
+PSUID,VQ9 PSU,100
+VQ9Y,VQ1 9c. Interview year,99.9
+VI4A,VQ7 7.4a Electricity yesno,99.3
+VI4B,VQ7 7.4b Electricity first year,48.9
+VI4C,VQ7 7.4c Electricity N years,50.3
+VI4D,VQ7 7.4d Electiricty hours per day,98
+VI10A,VQ7 7.10a drinking water Source 1,99.8
+VI10B,VQ7 7.10b drinking water Source 2,84.5
+VI10C,VQ7 7.10c drinking water Source 3,47.6
+VI18K,VQ9 7.18k Safe Drinking Water,99.7

@@ -1,0 +1,40 @@
+variable,code,niveau,N
+VI10A,,,3
+VI10A,1,(01) Piped 1,655
+VI10A,2,(02) Tube well 2,171
+VI10A,3,(03) Hand pump 3,444
+VI10A,4,"(04) Dug, open well 4",81
+VI10A,5,(05) Covered well 5,12
+VI10A,6,"(06) River, canal etc. 6",17
+VI10A,7,(07) Pond 7,4
+VI10A,8,(08) Tanker truck 8,8
+VI10A,9,(09) Rainwater 9,1
+VI10A,10,(10) Bottled 10,8
+VI10A,11,(11) Other 11,6
+VI10B,,,219
+VI10B,1,(01) Piped 1,102
+VI10B,2,(02) Tube well 2,368
+VI10B,3,(03) Hand pump 3,319
+VI10B,4,"(04) Dug, open well 4",215
+VI10B,5,(05) Covered well 5,39
+VI10B,6,"(06) River, canal etc. 6",71
+VI10B,7,(07) Pond 7,21
+VI10B,8,(08) Tanker truck 8,19
+VI10B,9,(09) Rainwater 9,19
+VI10B,10,(10) Bottled 10,7
+VI10B,11,(11) Other 11,11
+VI10C,,,739
+VI10C,1,(01) Piped 1,40
+VI10C,2,(02) Tube well 2,129
+VI10C,3,(03) Hand pump 3,153
+VI10C,4,"(04) Dug, open well 4",129
+VI10C,5,(05) Covered well 5,57
+VI10C,6,"(06) River, canal etc. 6",36
+VI10C,7,(07) Pond 7,36
+VI10C,8,(08) Tanker truck 8,35
+VI10C,9,(09) Rainwater 9,14
+VI10C,10,(10) Bottled 10,23
+VI10C,11,(11) Other 11,19
+VI18K,,,4
+VI18K,0,(0) No 0,653
+VI18K,1,(1) Yes 1,753
