@@ -1,0 +1,858 @@
+==============================================================================
+LOG: output/logs/20_inspection_topalova.log
+Run started: 2026-10-02 13:28:34
+==============================================================================
+
+
+------------------------------------------------------------------------------
+A0 -- presence des huit .dta
+------------------------------------------------------------------------------
+  trouves : agriwage_data, asi_data, indpremia_data, migration_data, price_data, rural_data, rural_region_data, urban_data
+  [OK]   A0 : les 8 .dta du Readme, ni plus ni moins
+
+------------------------------------------------------------------------------
+Etape 1 -- inventaire des huit .dta
+------------------------------------------------------------------------------
+[2026-10-02 13:28:34] agriwage_data          3,732 x  10  | temps : year: 1987-1999 (13 valeurs)  (0.0 s)
+[2026-10-02 13:28:34] asi_data               1,898 x  10  | temps : yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)  (0.0 s)
+[2026-10-02 13:28:34] indpremia_data           928 x   9  | temps : round: 38,43,55 (3 valeurs)  (0.0 s)
+[2026-10-02 13:28:35] migration_data     1,263,381 x   9  | temps : round: 43,55 (2 valeurs)  (0.8 s)
+[2026-10-02 13:28:36] price_data             5,888 x   7  | temps : year: 1987-2002 (16 valeurs)  (0.0 s)
+[2026-10-02 13:28:36] rural_data             1,152 x  48  | temps : round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)  (0.0 s)
+[2026-10-02 13:28:36] rural_region_data        227 x  48  | temps : round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)  (0.0 s)
+[2026-10-02 13:28:36] urban_data               204 x  36  | temps : round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)  (0.0 s)
+  table ecrite : output/tables/20_inventaire_topalova.csv (177 lignes = variables)
+
+------------------------------------------------------------------------------
+Etape 1 -- variables et etiquettes, fichier par fichier
+------------------------------------------------------------------------------
+
+## agriwage_data
+  code61                 numeric        n=3732    dist=272    [101, 1717]  District code as per 1961 census
+  year                   numeric        n=3732    dist=13     [1987, 1999]  
+  tariff                 numeric        n=3460    dist=3264   [0.00331416, 0.693939]  District scaled tariffs
+  lagtariff              numeric        n=3460    dist=3264   [0.00331416, 0.693939]  Lagged District Scaled Tarif
+  trallmtariff           numeric        n=3460    dist=3264   [0.0303847, 1.18014]  District unscaled tariffs
+  lagtrallmtariff        numeric        n=3460    dist=3264   [0.0303847, 1.18014]  Lagged District Unscaled Tarif
+  districtname           character      n=3732    dist=270    [NA, NA]  
+  wage                   numeric        n=2941    dist=684    [2.2, 140]  Agricultural wage
+  rwage                  numeric        n=2941    dist=1933   [0.468092, 20.9814]  Agricultural wage (const prices)
+  logrwage               numeric        n=2941    dist=1933   [-0.75909, 3.04364]  Log Agricultural wage (const prices)
+
+## asi_data
+  groupnic               numeric        n=1898    dist=188    [38, 1035]  Industry identifier
+  yr                     numeric        n=1898    dist=11     [1987, 1997]  yr
+  tariff                 numeric        n=1627    dist=600    [0, 3.28077]  Industry tariff
+  S                      numeric        n=1898    dist=1876   [1.00747e-07, 0.111822]  Share of Employment
+  S_K                    numeric        n=1898    dist=1878   [0, 0.432259]  Share of Capital
+  lagtariff              numeric        n=1474    dist=521    [0, 3.28077]  Lagged Industry Tariff
+  logrealwagework        numeric        n=1895    dist=1882   [8.02688, 12.1522]  Log Wage per Worker (const prices)
+  logoutput              numeric        n=1897    dist=1885   [1.89446, 15.7107]  Log output (const prices)
+  logemployment          numeric        n=1898    dist=1843   [0, 13.8269]  Log Number of Employees
+  logK                   numeric        n=1895    dist=1825   [0, 16.2489]  Log Fixed Capital (const prices)
+
+## indpremia_data
+  sector                 numeric        n=928     dist=2      [1, 2]  1-rural, 2-urban
+  avecoeff               numeric        n=928     dist=2      [0.142262, 0.448149]  Average coefficient on industry dummy
+  round                  numeric        n=928     dist=3      [38, 55]  Survey round
+  coeff                  numeric        n=801     dist=799    [-1.36677, 2.60274]  Coefficient on industry dummy
+  stderr                 numeric        n=928     dist=799    [0, 1]  Standard error of coefficient on industry dummy
+  pr_group98             numeric        n=928     dist=232    [1, 232]  Industry identifiers
+  tariff                 numeric        n=484     dist=181    [0, 2.43846]  Industry tariff
+  w1                     numeric        n=801     dist=799    [1, 7860.72]  Weight = 1/Stderr^2
+  premium                numeric        n=801     dist=800    [-1.50903, 2.46048]  Industry wage premium (coeff - avecoeff)
+
+## migration_data
+  sex                    numeric        n=1263381 dist=2      [1, 2]  
+  moved                  numeric        n=1261780 dist=3      [0, 1]  1 if Place of Birth Different than Place of Residence
+  mult                   numeric        n=1263381 dist=26413  [0, 54939100]  Survey multiplier
+  moved2                 numeric        n=1263381 dist=2      [0, 1]  1 if Moved within the past 10 years
+  moved3                 numeric        n=1263381 dist=2      [0, 1]  1 if Moved within the past 10 yrs excl within district
+  movedrur_urb           numeric        n=1263381 dist=2      [0, 1]  1 if Moved within the past 10 yrs from urban to rural or viceverse
+  movedwork              numeric        n=1263381 dist=2      [0, 1]  1 if Moved within the past 10 years for work excl within district
+  sector                 numeric        n=1263381 dist=2      [1, 2]  1-rural, 2-urban
+  round                  numeric        n=1263381 dist=2      [43, 55]  Survey round
+
+## price_data
+  code80                 numeric        n=5888    dist=368    [1101010000, 1.313e+09]  Item code
+  year                   numeric        n=5888    dist=16     [1987, 2002]  
+  priceindex             numeric        n=4991    dist=3838   [47.3661, 3605.72]  Price Index
+  item80                 character      n=5888    dist=317    [NA, NA]  Item description
+  tariff                 numeric        n=5033    dist=311    [0, 2.66429]  Product Tariff
+  logfiscprice           numeric        n=5000    dist=3836   [3.82162, 8.03117]  Log Price Index (fiscal year)
+  lagtariff              numeric        n=5033    dist=311    [0, 2.66429]  Lagged Tariff
+
+## rural_data
+  st_code43              numeric        n=1152    dist=20     [2, 29]  State Code (as per 43rd round)
+  dist_code43            numeric        n=1149    dist=57     [1, 56]  District Code (as per 43rd round)
+  round                  numeric        n=1152    dist=3      [38, 55]  NSS Survey Round
+  n55                    numeric        n=372     dist=228    [12, 815]  Number of surveyed households in district in Sch 10, 55th Round
+  n43                    numeric        n=381     dist=314    [1, 824]  Number of surveyed households in district in Sch 10, 43rd Round
+  logpce10               numeric        n=753     dist=617    [3.43495, 5.42023]  Log Per Capita Consumption 10th Percentile (Sch 10)
+  logpce20               numeric        n=753     dist=614    [3.70535, 5.60061]  Log Per Capita Consumption 20th Percentile (Sch 10)
+  logpce40               numeric        n=753     dist=637    [4.00725, 5.65592]  Log Per Capita Consumption 40th Percentile (Sch 10)
+  logpce60               numeric        n=753     dist=648    [4.32904, 5.77374]  Log Per Capita Consumption 60th Percentile (Sch 10)
+  logpce80               numeric        n=753     dist=666    [4.54231, 6.08364]  Log Per Capita Consumption 80th Percentile (Sch 10)
+  logpce90               numeric        n=753     dist=687    [4.82636, 6.4735]  Log Per Capita Consumption 90th Percentile (Sch 10)
+  regcod50               numeric        n=1149    dist=68     [21, 311]  Region Code (as per 43rd round)
+  inpov                  numeric        n=1134    dist=817    [0, 0.859318]  Poverty rate
+  povgap                 numeric        n=1134    dist=817    [0, 0.369853]  Poverty gap
+  n                      numeric        n=1134    dist=266    [1, 4054]  Number of households in district
+  tariff                 numeric        n=732     dist=733    [0.00331416, 0.693939]  Scaled Tariff
+  trallmtariff           numeric        n=732     dist=733    [0.0308444, 1.59561]  Unscaled Tariff
+  minmfgmfdi             numeric        n=732     dist=368    [0, 0.677278]  district’s exposure to fdi
+  minmfgmlicense         numeric        n=732     dist=733    [0.000623729, 1.16717]  district’s exposure to licensing
+  free                   numeric        n=732     dist=733    [0.00127417, 0.336562]  district’s exposure to NTB (scaled)
+  logmean                numeric        n=1133    dist=818    [4.36896, 6.68658]  Log Per Capita Consumption
+  pcnt_lit               numeric        n=1098    dist=367    [0.104246, 0.851054]  Share literate
+  pcnt_scst              numeric        n=1098    dist=367    [0.0186018, 0.984647]  Share SC/ST
+  pcnt_mfg               numeric        n=1098    dist=367    [0.00969905, 0.322756]  Share Manufacturing
+  pcnt_farm              numeric        n=1098    dist=367    [0.170297, 0.949399]  Share Farming
+  pcnt_min               numeric        n=1098    dist=367    [0, 0.224559]  Share Mining
+  pcnt_constr            numeric        n=1098    dist=367    [0.0010646, 0.122921]  Share Construction
+  pcnt_trade             numeric        n=1098    dist=367    [0.00928323, 0.151387]  Share Trade
+  pcnt_tran              numeric        n=1098    dist=367    [0.00123288, 0.0928155]  Share Transport
+  pcnt_serv              numeric        n=1098    dist=367    [0.0200391, 0.271842]  Share Service
+  post                   numeric        n=1152    dist=2      [0, 1]  1 if round==55
+  pcnt_servpost          numeric        n=1098    dist=368    [0, 0.271842]  Share Service * Post
+  pcnt_tranpost          numeric        n=1098    dist=368    [0, 0.0928155]  Share Transport * Post
+  pcnt_tradepost         numeric        n=1098    dist=368    [0, 0.151387]  Share Trade * Post
+  pcnt_minpost           numeric        n=1098    dist=367    [0, 0.224559]  Share Mining * Post
+  pcnt_farmpost          numeric        n=1098    dist=368    [0, 0.949399]  Share Farming * Post
+  pcnt_mfgpost           numeric        n=1098    dist=368    [0, 0.322756]  Share Manufacturing * Post
+  pcnt_litpost           numeric        n=1098    dist=368    [0, 0.851054]  Share literate * Post
+  pcnt_scstpost          numeric        n=1098    dist=368    [0, 0.984647]  Share SC/ST * Post
+  moved_fromoutside      numeric        n=752     dist=709    [0, 0.26275]  Share of migrants in the past 10 years from outside district
+  m_moved_fromoutside    numeric        n=752     dist=645    [0, 0.315041]  Share of male migrants in the past 10 years from outside district
+  logtotalpop            numeric        n=746     dist=747    [9.84411, 15.9704]  Log Total District Population (Census)
+  logtotalpopmale        numeric        n=746     dist=747    [9.14527, 15.2989]  Log Total District Male Population (Census)
+  district               numeric        n=1149    dist=385    [2001, 29003]  Unique district identifier
+  stateyear              numeric        n=1152    dist=60     [2038, 29055]  State-year identifier
+  goodlaw                numeric        n=1101    dist=3      [0, 1]  1 if State has Pro-Employer Labor Laws
+  post_law               numeric        n=1152    dist=2      [0, 1]  Goodlaw * Post
+  bankpercap             numeric        n=740     dist=739    [0.301678, 2.5564]  Number of Banks per 10,000 people
+
+## rural_region_data
+  st_code43              numeric        n=227     dist=31     [2, 32]  State Code (as per 43rd round)
+  regcod50               numeric        n=224     dist=80     [21, 331]  Region Code (as per 43rd round)
+  round                  numeric        n=227     dist=3      [38, 55]  NSS Survey Round
+  n55                    numeric        n=77      dist=78     [84, 3787]  Number of surveyed households in region in Sch 10, 55th Round
+  n43                    numeric        n=76      dist=76     [70, 4057]  Number of surveyed households in region in Sch 10, 43rd Round
+  logpce10               numeric        n=153     dist=147    [3.69248, 5.22633]  Log Per Capita Consumption 10th Percentile (Sch 10)
+  logpce20               numeric        n=153     dist=149    [3.9658, 5.41801]  Log Per Capita Consumption 20th Percentile (Sch 10)
+  logpce40               numeric        n=153     dist=148    [4.36626, 5.64368]  Log Per Capita Consumption 40th Percentile (Sch 10)
+  logpce60               numeric        n=153     dist=148    [4.55333, 5.85369]  Log Per Capita Consumption 60th Percentile (Sch 10)
+  logpce80               numeric        n=153     dist=147    [4.79719, 6.28928]  Log Per Capita Consumption 80th Percentile (Sch 10)
+  logpce90               numeric        n=153     dist=148    [4.93407, 6.33337]  Log Per Capita Consumption 90th Percentile (Sch 10)
+  logtotalpop            numeric        n=131     dist=132    [9.84411, 17.8894]  Log Total region Population (Census)
+  logtotalpopmale        numeric        n=131     dist=132    [9.14527, 17.2191]  Log Total region Male Population (Census)
+  inpov                  numeric        n=200     dist=199    [0.00131342, 0.807565]  Poverty rate
+  povgap                 numeric        n=200     dist=199    [0.000103314, 0.314876]  Poverty gap
+  n                      numeric        n=200     dist=189    [30, 4054]  Number of households in district
+  tariff                 numeric        n=128     dist=129    [0.00752653, 0.411076]  Scaled Tariff
+  trallmtariff           numeric        n=128     dist=129    [0.0945709, 1.08346]  Unscaled Tariff
+  minmfgmtariff          numeric        n=128     dist=129    [0.241516, 1.16165]  
+  agralltariff           numeric        n=128     dist=129    [0.0242936, 1.34258]  
+  minmfgmfdi             numeric        n=128     dist=66     [0, 0.568263]  region's exposure to fdi
+  minmfgmlicense         numeric        n=128     dist=129    [0.0027415, 0.768332]  region's exposure to licensing
+  free                   numeric        n=128     dist=129    [0.00205501, 0.21091]  region's exposure to NTB-scaled
+  logmean                numeric        n=201     dist=200    [4.36896, 6.68658]  Log Per Capita Consumption
+  pcnt_lit               numeric        n=192     dist=65     [0.19357, 0.801896]  Share literate
+  pcnt_scst              numeric        n=192     dist=65     [0.0186018, 0.852902]  Share SC/ST
+  pcnt_mfg               numeric        n=192     dist=65     [0.0133218, 0.322756]  Share Manufacturing
+  pcnt_farm              numeric        n=192     dist=65     [0.170297, 0.908245]  Share Farming
+  pcnt_min               numeric        n=192     dist=65     [8.61069e-05, 0.0572199]  Share Mining
+  pcnt_constr            numeric        n=192     dist=65     [0.00317467, 0.0881611]  Share Construction
+  pcnt_trade             numeric        n=192     dist=65     [0.0137402, 0.134265]  Share Trade
+  pcnt_tran              numeric        n=192     dist=65     [0.00367632, 0.0928155]  Share Transport
+  pcnt_serv              numeric        n=192     dist=65     [0.0321823, 0.271842]  Share Service
+  post                   numeric        n=204     dist=3      [0, 1]  1 if round==55
+  stateyear              numeric        n=204     dist=61     [2038, 29055]  State-year identifier
+  goodlaw                numeric        n=186     dist=3      [0, 1]  1 if State has Pro-Employer Labor Laws
+  post_law               numeric        n=204     dist=3      [0, 1]  Goodlaw * Post
+  pcnt_servpost          numeric        n=192     dist=66     [0, 0.271842]  Share Service * Post
+  pcnt_tranpost          numeric        n=192     dist=66     [0, 0.0928155]  Share Transport * Post
+  pcnt_tradepost         numeric        n=192     dist=66     [0, 0.134265]  Share Trade * Post
+  pcnt_minpost           numeric        n=192     dist=66     [0, 0.0572199]  Share Mining * Post
+  pcnt_farmpost          numeric        n=192     dist=66     [0, 0.908245]  Share Farming * Post
+  pcnt_mfgpost           numeric        n=192     dist=66     [0, 0.322756]  Share Manufacturing * Post
+  pcnt_litpost           numeric        n=192     dist=66     [0, 0.801896]  Share literate * Post
+  pcnt_scstpost          numeric        n=192     dist=66     [0, 0.852902]  Share SC/ST * Post
+  moved_fromoutside      numeric        n=133     dist=134    [0, 0.26275]  Share of migrants in the past 10 years from outside district
+  m_moved_fromoutside    numeric        n=133     dist=133    [0, 0.315041]  Share of male migrants in the past 10 years from outside district
+  bankpercap             numeric        n=128     dist=128    [0.391422, 2.47907]  Number of Banks per 10,000 people
+
+## urban_data
+  st_code43              numeric        n=204     dist=20     [2, 29]  State Code (as per 43rd round)
+  regcod50               numeric        n=201     dist=68     [21, 311]  Region Code (as per 43rd round)
+  round                  numeric        n=204     dist=3      [38, 55]  NSS Survey Round
+  inpov                  numeric        n=198     dist=197    [0, 0.701332]  Poverty rate
+  povgap                 numeric        n=198     dist=197    [0, 0.231447]  Poverty gap
+  n                      numeric        n=198     dist=153    [9, 2811]  Number of households in district
+  tariff                 numeric        n=128     dist=129    [0.0275327, 0.445306]  Scaled Tariff
+  trallmtariff           numeric        n=128     dist=129    [0.174307, 1.03181]  Unscaled Tariff
+  minmfgmtariff          numeric        n=128     dist=129    [0.197632, 1.20888]  
+  agralltariff           numeric        n=128     dist=129    [0.102691, 0.978733]  
+  minmfgmfdi             numeric        n=128     dist=66     [0, 0.546576]  region's exposure to fdi
+  minmfgmlicense         numeric        n=128     dist=129    [0.003761, 0.696845]  region's exposure to licensing
+  free                   numeric        n=128     dist=129    [0.00738203, 0.281567]  region's exposure to NTB-scaled
+  logmean                numeric        n=199     dist=198    [4.67069, 6.97038]  Log Per Capita Consumption
+  pcnt_lit               numeric        n=192     dist=65     [0.447269, 0.819696]  Share literate
+  pcnt_scst              numeric        n=192     dist=65     [0.0248128, 0.357592]  Share SC/ST
+  pcnt_mfg               numeric        n=192     dist=65     [0.0806016, 0.505956]  Share Manufacturing
+  pcnt_farm              numeric        n=192     dist=65     [0.011518, 0.369195]  Share Farming
+  pcnt_min               numeric        n=192     dist=65     [5.55042e-05, 0.137795]  Share Mining
+  pcnt_constr            numeric        n=192     dist=65     [0.0184588, 0.0988098]  Share Construction
+  pcnt_trade             numeric        n=192     dist=65     [0.153, 0.300452]  Share Trade
+  pcnt_tran              numeric        n=192     dist=65     [0.0457633, 0.192634]  Share Transport
+  pcnt_serv              numeric        n=192     dist=65     [0.150558, 0.444121]  Share Service
+  post                   numeric        n=204     dist=2      [0, 1]  1 if round==55
+  stateyear              numeric        n=204     dist=60     [2038, 29055]  State-year identifier
+  goodlaw                numeric        n=186     dist=3      [0, 1]  1 if State has Pro-Employer Labor Laws
+  post_law               numeric        n=204     dist=2      [0, 1]  Goodlaw * Post
+  pcnt_servpost          numeric        n=192     dist=66     [0, 0.444121]  Share Service * Post
+  pcnt_tranpost          numeric        n=192     dist=66     [0, 0.192634]  Share Transport * Post
+  pcnt_tradepost         numeric        n=192     dist=66     [0, 0.300452]  Share Trade * Post
+  pcnt_minpost           numeric        n=192     dist=66     [0, 0.137795]  Share Mining * Post
+  pcnt_farmpost          numeric        n=192     dist=66     [0, 0.369195]  Share Farming * Post
+  pcnt_mfgpost           numeric        n=192     dist=66     [0, 0.505956]  Share Manufacturing * Post
+  pcnt_litpost           numeric        n=192     dist=66     [0, 0.819696]  Share literate * Post
+  pcnt_scstpost          numeric        n=192     dist=66     [0, 0.357592]  Share SC/ST * Post
+  bankpercap             numeric        n=128     dist=128    [0.391422, 2.47907]  Number of Banks per 10,000 people
+
+------------------------------------------------------------------------------
+A1 -- signaux HS6 et niveau d'agregation des tarifs
+------------------------------------------------------------------------------
+  aucun signal HS (nom, etiquette, valeurs a 6 chiffres)
+  variables qui mentionnent un tarif :
+              fichier        variable                      etiquette n_non_manq
+               <char>          <char>                         <char>      <int>
+ 1:     agriwage_data          tariff        District scaled tariffs       3460
+ 2:     agriwage_data       lagtariff   Lagged District Scaled Tarif       3460
+ 3:     agriwage_data    trallmtariff      District unscaled tariffs       3460
+ 4:     agriwage_data lagtrallmtariff Lagged District Unscaled Tarif       3460
+ 5:          asi_data          tariff                Industry tariff       1627
+ 6:          asi_data       lagtariff         Lagged Industry Tariff       1474
+ 7:    indpremia_data          tariff                Industry tariff        484
+ 8:        price_data          tariff                 Product Tariff       5033
+ 9:        price_data       lagtariff                  Lagged Tariff       5033
+10:        rural_data          tariff                  Scaled Tariff        732
+11:        rural_data    trallmtariff                Unscaled Tariff        732
+12: rural_region_data          tariff                  Scaled Tariff        128
+13: rural_region_data    trallmtariff                Unscaled Tariff        128
+14: rural_region_data   minmfgmtariff                                       128
+15: rural_region_data    agralltariff                                       128
+16:        urban_data          tariff                  Scaled Tariff        128
+17:        urban_data    trallmtariff                Unscaled Tariff        128
+18:        urban_data   minmfgmtariff                                       128
+19:        urban_data    agralltariff                                       128
+
+------------------------------------------------------------------------------
+Etape 2 -- price_data : articles WPI x annee
+------------------------------------------------------------------------------
+  [OK]   price_data: all 7 named variables present
+  [OK]   A2 price_data: key (code80+year) unique
+  [WARNING] A2 d'origine TOMBEE : 832 lignes (52 codes) sans description ; voir AMENDEMENT A2 en en-tete
+  codes sans description : 0 avec un indice de prix, 52 avec un tarif
+  [OK]   A2 amendee : chaque code qui porte un indice de prix a une description
+  [OK]   A2 : une seule description par code80 sur toutes les annees
+  [OK]   A2 : nombre d'articles <= 447 (panier WPI 1981-82)
+  368 articles (code80), 317 descriptions distinctes ; annees 1987-2002
+  articles avec prix ET tarif la meme annee au moins une fois : 282 ; avec prix seulement : 32 ; tarif seulement : 54 ; aucun des deux : 0
+  couverture par annee (articles avec prix / avec tarif) :
+     year avec_prix avec_tarif avec_logfisc
+    <num>     <int>      <int>        <int>
+ 1:  1987       312        335          312
+ 2:  1988       312        335          313
+ 3:  1989       313        335          312
+ 4:  1990       312        334          312
+ 5:  1991       312        335          312
+ 6:  1992       312        335          312
+ 7:  1993       312        336          313
+ 8:  1994       313        336          313
+ 9:  1995       312        336          313
+10:  1996       312        336          313
+11:  1997       312        336          312
+12:  1998       311        336          312
+13:  1999       311        336          313
+14:  2000       311        336          312
+15:  2001       312        336          313
+16:  2002       312          0          313
+  liste complete ecrite : output/tables/20_price_articles_wpi.csv
+
+------------------------------------------------------------------------------
+Etape 2 -- liste complete des articles (code80 | annees prix | annees tarif | description)
+------------------------------------------------------------------------------
+  1101010101 | 1987-2002 | 1987-2001 | Rice
+  1101010102 | 1987-2002 | 1987-2001 | Wheat
+  1101010103 | 1987-2002 | 1987-2001 | Jowar
+  1101010104 | 1987-2002 | 1987-2001 | Bajra
+  1101010105 | 1987-2002 | 1987-2001 | Maize
+  1101010106 | 1987-2002 | 1987-2001 | Barley
+  1101010107 | 1987-2002 | 1987-2001 | Ragi
+  1101010201 | 1987-2002 | 1987-2001 | Gram
+  1101010202 | 1987-2002 | 1987-2001 | Arhar
+  1101010203 | 1987-2002 | 1987-2001 | Urad
+  1101020101 | 1987-2002 | 1987-2001 | Potatoes
+  1101020102 | 1987-2002 | 1987-2001 | Sweet Potatoes
+  1101020103 | 1987-2002 | 1987-2001 | Onions
+  1101020104 | 1987-2002 | 1987-2001 | Tapioca
+  1101020105 | 1987-2002 | 1987-2001 | Ginger (fresh)
+  1101020106 | 1987-2002 | 1987-2001 | Peas Green
+  1101020107 | 1987-2002 | 1987-2001 | Tomatoes
+  1101020108 | 1987-2002 | 1987-2001 | Cauliflower
+  1101020201 | 1987-2002 | 1987-2001 | Banana
+  1101020202 | 1987-2002 | 1987-2001 | Mangoes
+  1101020203 | 1987-2002 | 1987-2001 | Apples
+  1101020204 | 1987-2002 | 1987-2001 | Oranges
+  1101020205 | 1987-2002 | 1987-2001 | Cashewnuts
+  1101020206 | 1987-2002 | 1987-2001 | Coconut (Fresh)
+  1101020207 | 1987-2002 | 1987-2001 | Papaya
+  1101020208 | 1987-2002 | 1987-2001 | Grapes
+  1101030001 | 1987-2002 | 1987-2001 | Milk
+  1101040001 | 1987-2002 | 1987-2001 | Eggs
+  1101040002 | 1987-2002 | 1987-2001 | Fish
+  1101040003 | 1987-2002 | 1987-2001 | Mutton
+  1101040004 | 1987-2002 | 1987-2001 | Chicken
+  1101040005 | 1987-2002 | 1987-2001 | Pork
+  1101050001 | 1987-2002 | 1987-2001 | Black Pepper
+  1101050002 | 1987-2002 |           | Chillies (Dry)
+  1101050003 | 1987-2002 | 1987-2001 | Turmeric
+  1101050004 | 1987-2002 | 1987-2001 | Cardamoms
+  1101050005 | 1987-2002 | 1987-2001 | Ginger (dry)
+  1101050006 | 1987-2002 |           | Betelnuts
+  1101050007 | 1987-2002 | 1987-2001 | Cummin
+  1101050008 | 1987-2002 | 1987-2001 | Garlic
+  1101060001 | 1987-2002 | 1987-2001 | Tea
+  1101060002 | 1987-2002 | 1987-2001 | Coffee
+  1102010001 | 1987-2002 | 1987-2001 | Raw Cotton
+  1102010002 | 1987-2002 | 1987-2001 | Raw Jute
+  1102010003 | 1987-2002 |           | Mesta
+  1102010004 |           | 1987-2001 | (sans description -- tarif seul)
+  1102010005 | 1987-2002 | 1987-2001 | Raw Wool
+  1102010006 | 1987-2002 | 1987-2001 | Raw Silk
+  1102010007 | 1987-2002 | 1987-2001 | Coir Fibre
+  1102020001 | 1987-2002 | 1987-2001 | Grountnut Seed
+  1102020002 | 1987-2002 | 1987-2001 | Rape & Mustard Seed
+  1102020003 | 1987-2002 | 1987-2001 | Cotton Seed
+  1102020004 | 1987-2002 | 1987-2001 | Copra
+  1102020005 | 1987-2002 | 1987-2001 | Gingelly Seed
+  1102020006 | 1987-2002 | 1987-2001 | Linseed
+  1102020007 | 1987-2002 | 1987-2001 | Castor seed
+  1102020008 | 1987-2002 | 1987-2001 | Niger seed
+  1102020009 | 1987-2002 | 1987-2001 | Safflower (Kardi seed)
+  1102020010 | 1987-2002 | 1987-2001 | Sunflower
+  1102020011 | 1987-2002 | 1987-2001 | Soyabean
+  1102020012 |           | 1987-2001 | (sans description -- tarif seul)
+  1102030001 | 1987-2002 | 1987-2001 | Raw Hides
+  1102030002 | 1987-2002 | 1987-2001 | Raw Skins
+  1102030003 | 1987-2002 | 1987-2001 | Tanning Materials
+  1102030004 | 1987-2002 | 1987-2001 | Sugarcane
+  1102030005 | 1987-2002 | 1993-2001 | Tobacco
+  1102030006 | 1987-2002 |           | Raw Rubber
+  1102030007 |           | 1987-2001 | (sans description -- tarif seul)
+  1102030008 | 1987-2002 |           | Logs & Timber
+  1102030009 | 1987-2002 |           | Fodder
+  1103010001 | 1987-2002 | 1987-2001 | Iron Ore
+  1103010002 | 1987-2002 | 1987-2001 | Manganese Ore
+  1103010003 | 1987-2002 | 1987-2001 | Bauxite
+  1103010004 | 1987-2002 | 1987-2001 | Chromite
+  1103020001 | 1987-2002 | 1987-2001 | Lime stone
+  1103020002 |           | 1987-2001 | (sans description -- tarif seul)
+  1103020003 | 1987-2002 | 1987-2001 | Fluorite
+  1103020004 | 1987-2002 | 1987-2001 | Gypsum
+  1103020005 | 1987-2002 | 1987-2001 | Fire Clay
+  1103020006 | 1987-2002 | 1987-2001 | Kaolin (China clay)
+  1103020007 | 1987-2002 | 1987-2001 | Dolomite
+  1103020008 | 1987-2002 | 1987-2001 | Magnesite
+  1103020009 | 1987-2002 | 1987-2001 | Asbestos
+  1103020010 |           | 1987-2001 | (sans description -- tarif seul)
+  1103020011 | 1987-2002 | 1987-2001 | Rock Phosphate
+  1103020012 | 1987-2002 | 1987-2001 | Barytes
+  1103020013 |           | 1987-2001 | (sans description -- tarif seul)
+  1103020014 |           | 1987-2001 | Steatite
+  1103020015 | 1987-2002 | 1987-2001 | Silica Sand
+  1200010001 | 1987-2002 | 1987-2001 | Coking coal
+  1200010002 | 1987-2002 | 1987-2001 | Non-Coking coal
+  1200010003 | 1987-2002 | 1987-2001 | Coke
+  1200010004 | 1987-2002 | 1987-2001 | Lignite
+  1200020001 | 1987-2002 | 1987-2001 | Liquefied Petroleum Gas
+  1200020002 | 1987-2002 | 1987-2001 | Petrol
+  1200020003 | 1987-2002 | 1987-2001 | Kerosene
+  1200020004 | 1987-2002 |           | Aviation Turbine Fuel
+  1200020005 | 1987-2002 |           | High Speed Diesel Oil
+  1200020006 | 1987-2002 |           | Light Diesel Oil
+  1200020007 | 1987-2002 | 1987-2001 | Naphta
+  1200020008 | 1987-2002 | 1987-2001 | Bitumin
+  1200020009 | 1987-2002 |           | Furnace Oil
+  1200020010 | 1987-2002 |           | Lubricants
+  1200030001 | 1987-2002 | 1987-2001 | Elec. (Domestic)
+  1200030002 | 1987-2002 | 1987-2001 | Elec. (Power)
+  1200030003 | 1987-2002 | 1987-2001 | Elec. (Irrigation)
+  1200030004 | 1987-2002 | 1987-2001 | Elec. (Industrial)
+  1200030005 |           | 1987-2001 | (sans description -- tarif seul)
+  1200030006 |           | 1987-2001 | (sans description -- tarif seul)
+  1301010001 |           | 1987-2001 | (sans description -- tarif seul)
+  1301010002 | 1987-2002 | 1987-2001 | Butter
+  1301010003 | 1987-2002 | 1987-2001 | Ghee
+  1301010004 | 1987-2002 |           | Baby Food
+  1301010005 | 1987-2002 | 1987-2001 | Skimmed Milk Powder
+  1301020001 |           | 1987-2001 | (sans description -- tarif seul)
+  1301020002 |           | 1987-2001 | (sans description -- tarif seul)
+  1301030001 | 1987-2002 | 1987-2001 | Canned Fish
+  1301040001 | 1987-2002 | 1987-2001 | Maida
+  1301040002 | 1987-2002 | 1987-2001 | Suji (rawa)
+  1301040003 | 1987-2002 | 1987-2001 | Atta
+  1301040004 | 1987-2002 | 1987-2001 | Bran
+  1301050001 | 1987-2002 | 1987-2001 | Bread
+  1301050002 | 1987-2002 | 1987-2001 | Biscuits
+  1301060001 | 1987-2002 | 1987-2001 | Sugar
+  1301060002 | 1987-2002 | 1987-2001 | Khandsari
+  1301060003 | 1987-2002 | 1987-2001 | Gur
+  1301070001 | 1987-2002 | 1987-2001 | Salt
+  1301080001 | 1987-2002 | 1987-2001 | Sugar & Sweet Meat Confectionary
+  1301090001 | 1987-2002 | 1987-2001 | Hydrogenated Vanaspati
+  1301090002 | 1987-2002 | 1987-2001 | Gingelly Oil
+  1301090003 |           | 1987-2001 | (sans description -- tarif seul)
+  1301090004 |           | 1987-2001 | (sans description -- tarif seul)
+  1301090005 | 1987-2002 | 1987-2001 | Solvent Extracted Groundnut Oil
+  1301090006 | 1987-2002 | 1987-2001 | Rape & mustard Oil
+  1301090007 | 1987-2002 | 1987-2001 | Coconum Oil
+  1301090008 | 1987-2002 | 1987-2001 | Groundnut Oil
+  1301090009 | 1987-2002 | 1987-2001 | Cotton Seed Oil
+  1301090010 | 1987-2002 | 1987-2001 | Rice Bran Oil
+  1301090011 | 1987-2002 | 1987-2001 | Imported Edible Oil
+  1301100001 | 1987-2002 | 1987-2001 | Rape & mustard seed cake
+  1301100002 | 1987-2002 | 1987-2001 | Groundnut cake
+  1301100003 | 1987-2002 | 1987-2001 | Cotton Seed Oil Cake
+  1301100004 | 1987-2002 |           | Deoiled Meal Cake
+  1301100005 |           | 1987-2001 | (sans description -- tarif seul)
+  1301100006 |           | 1987-2001 | (sans description -- tarif seul)
+  1301100007 |           | 1987-2001 | (sans description -- tarif seul)
+  1301100008 |           | 1987-2001 | (sans description -- tarif seul)
+  1301110001 | 1987-2002 | 1987-2001 | Packed Tea
+  1301110002 |           | 1987-2001 | (sans description -- tarif seul)
+  1301120001 | 1987-2002 | 1987-2001 | Cattle Feed
+  1301120002 |           | 1987-2001 | (sans description -- tarif seul)
+  1301120003 |           | 1987-2001 | (sans description -- tarif seul)
+  1301120004 |           | 1987-2001 | (sans description -- tarif seul)
+  1301120005 | 1987-2002 | 1987-2001 | Malted Food
+  1302010001 | 1987-2002 | 1987-2001 | Rectified Spirit (Industrial alcohol)
+  1302010002 | 1987-2002 | 1987-2001 | Indian Made Foreign Spirit
+  1302020001 | 1987-2002 | 1987-2001 | Beer
+  1302030001 | 1987-2002 | 1987-2001 | Soft Drinks
+  1302040001 | 1987-2002 | 1987-2001 | Bidi
+  1302040002 | 1987-2002 | 1987-2001 | Cigarettes
+  1302040003 | 1987-2002 | 1987-2001 | Zarda
+  1303010101 | 1987-2002 | 1987-2001 | Hanks
+  1303010102 | 1987-2002 | 1987-2001 | Cones
+  1303010201 | 1987-2002 | 1987-2001 | Long Cloth / Sheeting
+  1303010202 | 1987-2002 | 1987-2001 | Poplin/Shirting
+  1303010203 |           | 1987-2001 | (sans description -- tarif seul)
+  1303010204 | 1987-2002 | 1987-2001 | Dhoties, Sarees & Voils
+  1303010205 | 1987-2002 | 1987-2001 | MIscellaneous
+  1303010301 |           | 1987-2001 | (sans description -- tarif seul)
+  1303010401 |           | 1987-2001 | (sans description -- tarif seul)
+  1303010501 |           | 1987-2001 | (sans description -- tarif seul)
+  1303020001 | 1987-2002 | 1987-2001 | Viscose Staple Fibre
+  1303020002 | 1987-2002 | 1987-2001 | Polyester Staple Fibre
+  1303020003 | 1987-2002 | 1987-2001 | Viscose Filament Yarn
+  1303020004 | 1987-2002 | 1987-2001 | Filament Yarn Synthetic
+  1303020005 | 1987-2002 | 1987-2001 | Blended Mixed Cotton
+  1303020006 | 1987-2002 |           | Art Silk Cloth
+  1303030001 | 1987-2002 | 1987-2001 | Woolen yarn
+  1303030002 | 1987-2002 | 1987-2001 | Woollen Cloth
+  1303040001 | 1987-2002 | 1987-2001 | Hessian Cloth
+  1303040002 | 1987-2002 | 1987-2001 | Hessian & sackling Bags
+  1303040003 |           | 1987-2001 | (sans description -- tarif seul)
+  1303050001 |           | 1987-2001 | (sans description -- tarif seul)
+  1303050002 |           | 1987-2001 | (sans description -- tarif seul)
+  1303050003 |           | 1987-2001 | (sans description -- tarif seul)
+  1303050004 |           | 1987-2001 | (sans description -- tarif seul)
+  1304000001 | 1987-2002 | 1987-2001 | Plywood commercial planks
+  1304000002 | 1987-2002 | 1987-2001 | Timber planks
+  1305010001 | 1987-2002 | 1987-2001 | Pulp
+  1305010002 | 1987-2002 | 1987-2001 | Printing Paper White
+  1305010003 | 1987-2002 | 1987-2001 | Map Litho Paper
+  1305010004 | 1987-2002 |           | Cream Laid Woven Paper
+  1305010005 | 1987-2002 | 1987-2001 | M.G. paper poster
+  1305010006 | 1987-2002 | 1987-2001 | Kraft Paper
+  1305010007 | 1987-2002 | 1987-2001 | Newsprint
+  1305020001 | 1987-2002 | 1987-2001 | Duplex Board
+  1305020003 | 1987-2002 | 1987-2001 | Other Boards
+  1305030001 | 1987-2002 | 1987-2001 | Newspaper
+  1306000003 | 1987-2002 | 1987-2001 | Footwear Western Type
+  1307010101 | 1987-2002 | 1987-2001 | Giant Tyres
+  1307010102 | 1987-2002 | 1987-2001 | Motor tyres
+  1307010103 | 1987-2002 | 1987-2001 | Cycle tyres
+  1307010104 | 1987-2002 | 1987-2001 | Tractor Tyres
+  1307010201 | 1987-2002 | 1987-2001 | Giant Tubes
+  1307010202 | 1987-2002 | 1987-2001 | Cycle Tubes
+  1307020001 | 1987-2002 | 1987-2001 | PVC Pipes & Tubings
+  1307020002 | 1987-2002 | 1987-2001 | Decorative Laminates
+  1307030001 | 1987-2002 | 1987-2001 | Rubber & Canvas Footwear
+  1307030002 |           | 1987-2001 | (sans description -- tarif seul)
+  1307030003 |           | 1987-2001 | (sans description -- tarif seul)
+  1307030004 |           | 1987-2001 | (sans description -- tarif seul)
+  1307030005 |           | 1987-2001 | (sans description -- tarif seul)
+  1308010001 | 1987-2002 | 1987-2001 | Sodium Hydroxide (Caustic Soda)
+  1308010002 | 1987-2002 | 1987-2001 | Sodium Carbonate (Soda Ash)
+  1308010003 | 1987-2002 | 1987-2001 | Oxygen
+  1308010004 |           | 1987-2001 | (sans description -- tarif seul)
+  1308010005 |           | 1987-2001 | (sans description -- tarif seul)
+  1308010006 |           | 1987-2001 | (sans description -- tarif seul)
+  1308010007 | 1987-2002 | 1987-2001 | Titanium Dioxide
+  1308010008 | 1987-2002 | 1987-2001 | Sulphuric Acid
+  1308010009 | 1987-2002 | 1987-2001 | Liquid Chlorine
+  1308020001 | 1987-2002 | 1987-2001 | benzene
+  1308020005 | 1987-2002 | 1987-2001 | acetylene
+  1308030101 | 1987-2002 | 1987-2001 | ammonium sulphate N-contenet
+  1308030102 | 1987-2002 | 1987-2001 | UreaN-content
+  1308030103 | 1987-2002 | 1987-2001 | fertilizers N-content
+  1308030104 | 1987-2002 | 1987-2001 | di ammonium posphateN-content
+  1308030105 | 1987-2002 | 1987-2001 | Phoshphate Pocontent
+  1308030106 |           | 1987-2001 | (sans description -- tarif seul)
+  1308030107 | 1987-2002 | 1987-2001 | complex fertilisers NPK content
+  1308030108 | 1987-2002 | 1987-2001 | calcium ammonium nitrate Ncontent
+  1308030201 | 1987-2002 |           | pesticides
+  1308040001 | 1987-2002 | 1987-2001 | paints(except alum paints)
+  1308040002 | 1987-2002 | 1987-2001 | enamels
+  1308040003 | 1987-2002 | 1987-2001 | varnishes
+  1308050001 |           | 1987-2001 | (sans description -- tarif seul)
+  1308050002 |           | 1987-2001 | (sans description -- tarif seul)
+  1308050003 | 1987-2002 | 1987-2001 | organic pigments
+  1308060001 | 1987-2002 | 1987-2001 | vitamin tablets(A,B,C,D&others)
+  1308060002 |           | 1987-2001 | (sans description -- tarif seul)
+  1308060003 | 1987-2002 | 1987-2001 | vitamin liquids
+  1308060005 | 1987-2002 | 1987-2001 | penicillin
+  1308060006 |           | 1987-2001 | (sans description -- tarif seul)
+  1308060007 |           | 1987-2001 | (sans description -- tarif seul)
+  1308060008 | 1987-2002 | 1987-2001 | powder/granules(other than vit)
+  1308060009 | 1987-2002 | 1987-2001 | liquid oral(other than vit)
+  1308060010 | 1987-2002 | 1987-2001 | liquid injectable(other than vit)
+  1308060011 | 1987-2002 | 1987-2001 | capsules(other than vit&antibiotics)
+  1308060012 | 1987-2002 | 1987-2001 | tablets(except vit&penicillin)
+  1308060013 | 1987-2002 | 1987-2001 | ointments
+  1308060014 | 1987-2002 | 1987-2001 | syrup
+  1308060015 | 1987-2002 | 1987-2001 | drugs&pharmaceuticals n.e.c
+  1308060016 | 1987-2002 | 1987-2001 | ayurvedic medicines
+  1308070101 | 1987-2002 | 1987-2001 | laundry soap
+  1308070102 | 1987-2002 | 1987-2001 | toilet soap
+  1308070103 | 1987-2002 | 1987-2001 | synthetic detergents
+  1308070201 |           | 1987-2001 | (sans description -- tarif seul)
+  1308070202 | 1987-2002 | 1987-2001 | tooth paste
+  1308070205 | 1987-2002 | 1987-2001 | hair oils
+  1308080001 | 1987-2002 | 1987-2001 | sythetic resins
+  1308080002 | 1987-2002 | 1987-2001 | syntheic rubber
+  1308080004 | 1987-2002 |           | rubber chemicals
+  1308080005 | 1987-2002 | 1987-2001 | P.V.C resins
+  1308080008 | 1987-2002 | 1987-2001 | polysterene
+  1308090001 | 1987-2002 | 1987-2001 | safety matches
+  1308090002 | 1987-2002 | 1987-2001 | blasting powder
+  1308090003 | 1987-2002 | 1987-2001 | cine colour positive
+  1308090004 | 1987-2002 | 1987-2001 | printing ink
+  1308090005 | 1987-2002 | 1987-2001 | carbon black
+  1308090007 | 1987-2002 | 1987-2001 | fire works
+  1309010001 | 1987-2002 |           | firebrick
+  1309010003 | 1987-2002 | 1987-2001 | buuilding bricks
+  1309010004 | 1987-2002 | 1987-2001 | ceramic tiles
+  1309020001 | 1987-2002 | 1987-2001 | bottles
+  1309020002 | 1987-2002 | 1987-2001 | sheet glass
+  1309030101 | 1987-2002 | 1987-2001 | cement
+  1309030201 |           | 1987-2001 | (sans description -- tarif seul)
+  1309040001 |           | 1987-2001 | (sans description -- tarif seul)
+  1309050001 | 1987-2002 | 1987-2001 | asbestoscementcorrugatedsheets
+  1309050006 | 1987-2002 | 1987-2001 | electrodes
+  1310010101 | 1987-2002 | 1987-2001 | basic pig iron
+  1310010102 | 1987-2002 | 1987-2001 | foundry pig iron
+  1310010104 | 1987-2002 | 1987-2001 | steel ingots(plain carbon)
+  1310010105 | 1987-2002 |           | blooms
+  1310010106 | 1987-2002 |           | billets&slabs(semis)
+  1310010107 | 1987-2002 | 1987-2001 | skelps
+  1310010108 | 1987-2002 |           | oromild steel tensile plates
+  1310010109 | 1987-2002 | 1987-2001 | angles,channels&sections
+  1310010110 | 1987-2002 |           | joists&rolls
+  1310010111 | 1987-2002 | 1987-2001 | bars&rods
+  1310010202 | 1987-2002 |           | Ordinary castings
+  1310010203 |           | 1987-2001 | (sans description -- tarif seul)
+  1310010204 | 1987-2002 |           | stampings&forgings
+  1310010205 | 1987-2002 | 1987-2001 | heavy/lightstructurals
+  1310010207 | 1987-2002 | 1987-2001 | heavy rails
+  1310010210 | 1987-2002 |           | bright bars
+  1310010301 | 1987-2002 | 1987-2001 | pipes &tubes
+  1310010302 | 1987-2002 | 1987-2001 | spun pipes
+  1310010304 | 1994-1994 | 1987-2001 | steel wire
+  1310010305 |           | 1987-2001 | Wiires
+  1310010401 | 1987-2002 | 1987-2001 | ferro manganese
+  1310010402 | 1987-2002 | 1987-2001 | ferro silicone
+  1310010403 | 1987-2002 | 1987-2001 | alloysteel,stainless steel
+  1310020101 | 1987-2002 | 1987-2001 | aluminium ingots
+  1310020102 | 1987-2002 | 1987-2001 | aluminium sheets &strips
+  1310020103 | 1987-1989 | 1987-2001 | aluminium bars &rods
+  1310020104 | 1987-2002 | 1987-2001 | aluminium foils
+  1310020105 | 1987-2002 | 1987-2001 | aluminium rolled products
+  1310020201 | 1987-2002 | 1987-2001 | copper&brass rods
+  1310020202 | 1987-2002 | 1987-2001 | brass sheets&strips
+  1310020204 | 1987-2002 | 1987-2001 | lead
+  1310020205 | 1987-2002 | 1987-2001 | nickel
+  1310020206 | 1987-2002 | 1987-2001 | zinc
+  1310030001 | 1987-2002 |           | barrels
+  1310030003 | 1987-2002 | 1987-2001 | tin boxes/containers
+  1310030004 | 1987-2002 | 1987-2001 | bolts/nuts
+  1310030005 | 1987-2002 | 1987-2001 | utenssils
+  1310030013 | 1987-2002 |           | steel  furniture
+  1311010101 | 1987-2002 | 1987-2001 | tractors
+  1311010102 |           | 1987-2001 | (sans description -- tarif seul)
+  1311010103 | 1987-2002 | 1987-2001 | boilers
+  1311010104 | 1987-2002 | 1987-2001 | internal combustion engines
+  1311010105 | 1987-2002 | 1987-2001 | Diesel Engines
+  1311010107 | 1987-2002 | 1987-2001 | Mining machinery
+  1311010202 | 1987-2002 | 1987-2001 | Ring spinning &doubling frame
+  1311010203 | 1987-2002 | 1987-2001 | Powerlooms
+  1311010204 |           | 1987-2001 | (sans description -- tarif seul)
+  1311010302 | 1987-2002 | 1987-2001 | Driven pumps
+  1311010303 | 1987-2002 | 1987-2001 | Air & gas compressors
+  1311010304 | 1987-2002 | 1987-2001 | Ball Bearings
+  1311010307 | 1987-2002 | 1987-2001 | Computing machinery
+  1311010308 | 1987-2002 | 1987-2001 | Sewing machinery
+  1311010309 | 1987-2002 | 1987-2001 | Air conditioners
+  1311020103 | 1987-2002 |           | Switch gears
+  1311020104 | 1987-2002 |           | Components &accessories of switch gears
+  1311020105 | 1987-2002 | 1987-2001 | Electric motors phase one HP
+  1311020106 | 1987-2002 | 1987-2001 | Electric motors phase three HP
+  1311020107 | 1987-2002 | 1987-2001 | Staters
+  1311020108 | 1987-2002 |           | Alternators
+  1311020109 | 1989-2002 | 1987-2001 | Electric motor contractors
+  1311020201 | 1987-2002 | 1987-2001 | Enamelled copper wires
+  1311020202 | 1987-2002 | 1987-2001 | P.V.C.Insulated cables
+  1311020206 | 1987-2002 | 1987-2001 | Rubber insulated &other cables
+  1311020301 | 1987-2002 | 1987-2001 | Batteries
+  1311020302 | 1987-2002 | 1987-2001 | Dry cells
+  1311020401 |           | 1987-2001 | (sans description -- tarif seul)
+  1311020402 | 1987-2002 | 1987-2001 | Ceilling fans
+  1311020403 | 1987-2002 | 1987-2001 | GLS lamps
+  1311020404 | 1987-2002 | 1987-2001 | Fluorescent lamp
+  1311020501 |           | 1987-2001 | (sans description -- tarif seul)
+  1311020502 | 1987-2002 | 1987-2001 | T.V.sets AC
+  1311020503 | 1987-2002 |           | Electronic automatic indicators
+  1312020001 | 1987-2002 | 1987-2001 | Broad gauge Diesel locomotives
+  1312020002 | 1987-2002 | 1987-2001 | Broad gauge passenger carriages
+  1312020003 | 1987-2002 | 1987-2001 | Broad gauge open wagons
+  1312030001 | 1987-2002 | 1987-2001 | Truck chassis (diesel)
+  1312030002 | 1987-2002 | 1987-2001 | Car chassis(assembled)
+  1312030003 | 1987-2002 | 1987-2001 | Bus chassis(diesel)
+  1312030004 | 1987-2002 | 1987-2001 | Body manufactured for buses
+  1312030005 | 1987-2002 | 1987-2001 | Body manufactured for trucks,vans, etc.
+  1312030008 | 1987-2002 | 1987-2001 | Jeeps
+  1312030009 | 1987-2002 |           | Three wheelers
+  1312030010 | 1987-2002 | 1987-2001 | Motorcycles
+  1312030011 | 1987-2002 | 1987-2001 | Scooters
+  1312030012 | 1987-2002 | 1987-2001 | Bicycle
+  1312030018 | 1987-2002 | 1987-2001 | Springes
+  1312030019 | 1987-2002 | 1987-2001 | Automobile spare parts
+  1313000001 |           | 1987-2001 | (sans description -- tarif seul)
+
+------------------------------------------------------------------------------
+Etape 2 -- recherche large : groupe electrogene, moteur diesel, alternateur, machine electrique
+------------------------------------------------------------------------------
+  31 articles repondent au motif large
+  1200020004 | prix 1987-2002 | tarif           | Aviation Turbine Fuel
+  1200020005 | prix 1987-2002 | tarif           | High Speed Diesel Oil
+  1200020006 | prix 1987-2002 | tarif           | Light Diesel Oil
+  1200030001 | prix 1987-2002 | tarif 1987-2001 | Elec. (Domestic)
+  1200030002 | prix 1987-2002 | tarif 1987-2001 | Elec. (Power)
+  1200030003 | prix 1987-2002 | tarif 1987-2001 | Elec. (Irrigation)
+  1200030004 | prix 1987-2002 | tarif 1987-2001 | Elec. (Industrial)
+  1307010102 | prix 1987-2002 | tarif 1987-2001 | Motor tyres
+  1309050006 | prix 1987-2002 | tarif 1987-2001 | electrodes
+  1310010304 | prix 1994-1994 | tarif 1987-2001 | steel wire
+  1311010104 | prix 1987-2002 | tarif 1987-2001 | internal combustion engines
+  1311010105 | prix 1987-2002 | tarif 1987-2001 | Diesel Engines
+  1311010107 | prix 1987-2002 | tarif 1987-2001 | Mining machinery
+  1311010203 | prix 1987-2002 | tarif 1987-2001 | Powerlooms
+  1311010302 | prix 1987-2002 | tarif 1987-2001 | Driven pumps
+  1311010307 | prix 1987-2002 | tarif 1987-2001 | Computing machinery
+  1311010308 | prix 1987-2002 | tarif 1987-2001 | Sewing machinery
+  1311020103 | prix 1987-2002 | tarif           | Switch gears
+  1311020104 | prix 1987-2002 | tarif           | Components &accessories of switch gears
+  1311020105 | prix 1987-2002 | tarif 1987-2001 | Electric motors phase one HP
+  1311020106 | prix 1987-2002 | tarif 1987-2001 | Electric motors phase three HP
+  1311020108 | prix 1987-2002 | tarif           | Alternators
+  1311020109 | prix 1989-2002 | tarif 1987-2001 | Electric motor contractors
+  1311020201 | prix 1987-2002 | tarif 1987-2001 | Enamelled copper wires
+  1311020202 | prix 1987-2002 | tarif 1987-2001 | P.V.C.Insulated cables
+  1311020206 | prix 1987-2002 | tarif 1987-2001 | Rubber insulated &other cables
+  1311020503 | prix 1987-2002 | tarif           | Electronic automatic indicators
+  1312020001 | prix 1987-2002 | tarif 1987-2001 | Broad gauge Diesel locomotives
+  1312030001 | prix 1987-2002 | tarif 1987-2001 | Truck chassis (diesel)
+  1312030003 | prix 1987-2002 | tarif 1987-2001 | Bus chassis(diesel)
+  1312030010 | prix 1987-2002 | tarif 1987-2001 | Motorcycles
+  articles des memes groupes (6 premiers chiffres de code80) :
+  1200020001 | Liquefied Petroleum Gas
+  1200020002 | Petrol
+  1200020003 | Kerosene
+  1200020007 | Naphta
+  1200020008 | Bitumin
+  1200020009 | Furnace Oil
+  1200020010 | Lubricants
+  1200030005 | (sans description -- tarif seul)
+  1200030006 | (sans description -- tarif seul)
+  1307010101 | Giant Tyres
+  1307010103 | Cycle tyres
+  1307010104 | Tractor Tyres
+  1307010201 | Giant Tubes
+  1307010202 | Cycle Tubes
+  1309050001 | asbestoscementcorrugatedsheets
+  1310010101 | basic pig iron
+  1310010102 | foundry pig iron
+  1310010104 | steel ingots(plain carbon)
+  1310010105 | blooms
+  1310010106 | billets&slabs(semis)
+  1310010107 | skelps
+  1310010108 | oromild steel tensile plates
+  1310010109 | angles,channels&sections
+  1310010110 | joists&rolls
+  1310010111 | bars&rods
+  1310010202 | Ordinary castings
+  1310010203 | (sans description -- tarif seul)
+  1310010204 | stampings&forgings
+  1310010205 | heavy/lightstructurals
+  1310010207 | heavy rails
+  1310010210 | bright bars
+  1310010301 | pipes &tubes
+  1310010302 | spun pipes
+  1310010305 | Wiires
+  1310010401 | ferro manganese
+  1310010402 | ferro silicone
+  1310010403 | alloysteel,stainless steel
+  1311010101 | tractors
+  1311010102 | (sans description -- tarif seul)
+  1311010103 | boilers
+  1311010202 | Ring spinning &doubling frame
+  1311010204 | (sans description -- tarif seul)
+  1311010303 | Air & gas compressors
+  1311010304 | Ball Bearings
+  1311010309 | Air conditioners
+  1311020107 | Staters
+  1311020301 | Batteries
+  1311020302 | Dry cells
+  1311020401 | (sans description -- tarif seul)
+  1311020402 | Ceilling fans
+  1311020403 | GLS lamps
+  1311020404 | Fluorescent lamp
+  1311020501 | (sans description -- tarif seul)
+  1311020502 | T.V.sets AC
+  1312020002 | Broad gauge passenger carriages
+  1312020003 | Broad gauge open wagons
+  1312030002 | Car chassis(assembled)
+  1312030004 | Body manufactured for buses
+  1312030005 | Body manufactured for trucks,vans, etc.
+  1312030008 | Jeeps
+  1312030009 | Three wheelers
+  1312030011 | Scooters
+  1312030012 | Bicycle
+  1312030018 | Springes
+  1312030019 | Automobile spare parts
+
+------------------------------------------------------------------------------
+Etape 2 -- series prix et tarif des moteurs (description seulement, pas d'estimation)
+------------------------------------------------------------------------------
+  [OK]   cibles : code80 et description concordent
+          code                      item80  year priceindex logfiscprice
+        <char>                      <char> <num>      <num>        <num>
+ 1: 1311010104 internal combustion engines  1987   129.1000     4.873670
+ 2: 1311010104 internal combustion engines  1988   143.7000     4.987708
+ 3: 1311010104 internal combustion engines  1989   148.4000     4.989071
+ 4: 1311010104 internal combustion engines  1990   157.6000     5.118592
+ 5: 1311010104 internal combustion engines  1991   180.4000     5.203457
+ 6: 1311010104 internal combustion engines  1992   194.2000     5.290789
+ 7: 1311010104 internal combustion engines  1993   203.2000     5.321057
+ 8: 1311010104 internal combustion engines  1994   235.2000     5.525054
+ 9: 1311010104 internal combustion engines  1995   258.8768     5.579567
+10: 1311010104 internal combustion engines  1996   277.3680     5.647479
+11: 1311010104 internal combustion engines  1997   287.5280     5.672418
+12: 1311010104 internal combustion engines  1998   304.1904     5.742395
+13: 1311010104 internal combustion engines  1999   313.3344     5.754786
+14: 1311010104 internal combustion engines  2000   333.6544     5.849329
+15: 1311010104 internal combustion engines  2001   364.3376     5.913831
+16: 1311010104 internal combustion engines  2002   380.7968     5.958163
+17: 1311010105              Diesel Engines  1987   124.5000     4.837075
+18: 1311010105              Diesel Engines  1988   134.6000     4.918520
+19: 1311010105              Diesel Engines  1989   146.8000     5.022564
+20: 1311010105              Diesel Engines  1990   161.6000     5.099257
+21: 1311010105              Diesel Engines  1991   172.8000     5.176714
+22: 1311010105              Diesel Engines  1992   186.2000     5.232712
+23: 1311010105              Diesel Engines  1993   193.0000     5.270946
+24: 1311010105              Diesel Engines  1994   216.3000     5.430223
+25: 1311010105              Diesel Engines  1995   245.8820     5.529457
+26: 1311010105              Diesel Engines  1996   263.4450     5.597368
+27: 1311010105              Diesel Engines  1997   273.0950     5.622307
+28: 1311010105              Diesel Engines  1998   288.9210     5.692285
+29: 1311010105              Diesel Engines  1999   297.6060     5.704675
+30: 1311010105              Diesel Engines  2000   316.9060     5.799219
+31: 1311010105              Diesel Engines  2001   346.0490     5.863720
+32: 1311010105              Diesel Engines  2002   361.6820     5.908052
+          code                      item80  year priceindex logfiscprice
+        <char>                      <char> <num>      <num>        <num>
+       tariff
+        <num>
+ 1: 1.1000000
+ 2: 1.1000000
+ 3: 1.1000000
+ 4: 0.9863636
+ 5: 1.1000000
+ 6: 0.6500000
+ 7: 0.8500000
+ 8: 0.2500000
+ 9: 0.2500000
+10: 0.2363636
+11: 0.1863636
+12: 0.2000000
+13: 0.2772727
+14: 0.2772727
+15: 0.2318182
+16:        NA
+17: 1.1000000
+18: 1.1000000
+19: 1.1000000
+20: 0.9863636
+21: 1.1000000
+22: 0.6500000
+23: 0.8500000
+24: 0.2500000
+25: 0.2500000
+26: 0.2363636
+27: 0.1863636
+28: 0.2000000
+29: 0.2772727
+30: 0.2772727
+31: 0.2318182
+32:        NA
+       tariff
+        <num>
+  figure ecrite : output/figures/20_moteurs_prix_tarif.pdf
+
+------------------------------------------------------------------------------
+Etape 3 -- asi_data : electricite ou combustible ?
+------------------------------------------------------------------------------
+  groupnic           Industry identifier
+  yr                 yr
+  tariff             Industry tariff
+  S                  Share of Employment
+  S_K                Share of Capital
+  lagtariff          Lagged Industry Tariff
+  logrealwagework    Log Wage per Worker (const prices)
+  logoutput          Log output (const prices)
+  logemployment      Log Number of Employees
+  logK               Log Fixed Capital (const prices)
+  variables energie (motif elec|fuel|power|energ|combust|coal|kwh|oil) : 0
+  [OK]   A3 : aucune variable electricite ou combustible dans asi_data (prediction)
+  => intensite electrique par industrie NON constructible ici : remonter aux volumes ASI.
+
+------------------------------------------------------------------------------
+Etape 2 -- granularite reelle du tarif : articles partageant la serie des moteurs diesel
+------------------------------------------------------------------------------
+  336 articles avec tarif, 179 series tarifaires distinctes
+  2 articles partagent exactement la serie de Diesel Engines :
+  1311010104 | internal combustion engines
+  1311010105 | Diesel Engines

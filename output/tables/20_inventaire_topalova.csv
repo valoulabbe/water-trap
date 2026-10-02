@@ -1,0 +1,178 @@
+fichier,n_lignes,n_vars,plage_temps,variable,etiquette,classe,etiq_valeurs,n_non_manq,n_distinct,min,max,signal_hs_nom,signal_6chiffres,mentionne_tarif
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),code61,District code as per 1961 census,numeric,0,3732,272,101,1717,FALSE,FALSE,FALSE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),year,"",numeric,0,3732,13,1987,1999,FALSE,FALSE,FALSE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),tariff,District scaled tariffs,numeric,0,3460,3264,0.00331416,0.693939,FALSE,FALSE,TRUE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),lagtariff,Lagged District Scaled Tarif,numeric,0,3460,3264,0.00331416,0.693939,FALSE,FALSE,TRUE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),trallmtariff,District unscaled tariffs,numeric,0,3460,3264,0.0303847,1.18014,FALSE,FALSE,TRUE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),lagtrallmtariff,Lagged District Unscaled Tarif,numeric,0,3460,3264,0.0303847,1.18014,FALSE,FALSE,TRUE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),districtname,"",character,0,3732,270,,,FALSE,FALSE,FALSE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),wage,Agricultural wage,numeric,0,2941,684,2.2,140,FALSE,FALSE,FALSE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),rwage,Agricultural wage (const prices),numeric,0,2941,1933,0.468092,20.9814,FALSE,FALSE,FALSE
+agriwage_data,3732,10,year: 1987-1999 (13 valeurs),logrwage,Log Agricultural wage (const prices),numeric,0,2941,1933,-0.75909,3.04364,FALSE,FALSE,FALSE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",groupnic,Industry identifier,numeric,0,1898,188,38,1035,FALSE,FALSE,FALSE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",yr,yr,numeric,0,1898,11,1987,1997,FALSE,FALSE,FALSE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",tariff,Industry tariff,numeric,0,1627,600,0,3.28077,FALSE,FALSE,TRUE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",S,Share of Employment,numeric,0,1898,1876,1.00747e-07,0.111822,FALSE,FALSE,FALSE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",S_K,Share of Capital,numeric,0,1898,1878,0,0.432259,FALSE,FALSE,FALSE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",lagtariff,Lagged Industry Tariff,numeric,0,1474,521,0,3.28077,FALSE,FALSE,TRUE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",logrealwagework,Log Wage per Worker (const prices),numeric,0,1895,1882,8.02688,12.1522,FALSE,FALSE,FALSE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",logoutput,Log output (const prices),numeric,0,1897,1885,1.89446,15.7107,FALSE,FALSE,FALSE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",logemployment,Log Number of Employees,numeric,0,1898,1843,0,13.8269,FALSE,FALSE,FALSE
+asi_data,1898,10,"yr: 1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997 (11 valeurs)",logK,Log Fixed Capital (const prices),numeric,0,1895,1825,0,16.2489,FALSE,FALSE,FALSE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",sector,"1-rural, 2-urban",numeric,0,928,2,1,2,FALSE,FALSE,FALSE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",avecoeff,Average coefficient on industry dummy,numeric,0,928,2,0.142262,0.448149,FALSE,FALSE,FALSE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",round,Survey round,numeric,0,928,3,38,55,FALSE,FALSE,FALSE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",coeff,Coefficient on industry dummy,numeric,0,801,799,-1.36677,2.60274,FALSE,FALSE,FALSE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",stderr,Standard error of coefficient on industry dummy,numeric,0,928,799,0,1,FALSE,FALSE,FALSE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",pr_group98,Industry identifiers,numeric,0,928,232,1,232,FALSE,FALSE,FALSE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",tariff,Industry tariff,numeric,0,484,181,0,2.43846,FALSE,FALSE,TRUE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",w1,Weight = 1/Stderr^2,numeric,0,801,799,1,7860.72,FALSE,FALSE,FALSE
+indpremia_data,928,9,"round: 38,43,55 (3 valeurs)",premium,Industry wage premium (coeff - avecoeff),numeric,0,801,800,-1.50903,2.46048,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",sex,"",numeric,0,1263381,2,1,2,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",moved,1 if Place of Birth Different than Place of Residence,numeric,0,1261780,3,0,1,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",mult,Survey multiplier,numeric,0,1263381,26413,0,54939100,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",moved2,1 if Moved within the past 10 years,numeric,0,1263381,2,0,1,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",moved3,1 if Moved within the past 10 yrs excl within district,numeric,0,1263381,2,0,1,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",movedrur_urb,1 if Moved within the past 10 yrs from urban to rural or viceverse,numeric,0,1263381,2,0,1,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",movedwork,1 if Moved within the past 10 years for work excl within district,numeric,0,1263381,2,0,1,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",sector,"1-rural, 2-urban",numeric,0,1263381,2,1,2,FALSE,FALSE,FALSE
+migration_data,1263381,9,"round: 43,55 (2 valeurs)",round,Survey round,numeric,0,1263381,2,43,55,FALSE,FALSE,FALSE
+price_data,5888,7,year: 1987-2002 (16 valeurs),code80,Item code,numeric,0,5888,368,1101010000,1.313e+09,FALSE,FALSE,FALSE
+price_data,5888,7,year: 1987-2002 (16 valeurs),year,"",numeric,0,5888,16,1987,2002,FALSE,FALSE,FALSE
+price_data,5888,7,year: 1987-2002 (16 valeurs),priceindex,Price Index,numeric,0,4991,3838,47.3661,3605.72,FALSE,FALSE,FALSE
+price_data,5888,7,year: 1987-2002 (16 valeurs),item80,Item description,character,0,5888,317,,,FALSE,FALSE,FALSE
+price_data,5888,7,year: 1987-2002 (16 valeurs),tariff,Product Tariff,numeric,0,5033,311,0,2.66429,FALSE,FALSE,TRUE
+price_data,5888,7,year: 1987-2002 (16 valeurs),logfiscprice,Log Price Index (fiscal year),numeric,0,5000,3836,3.82162,8.03117,FALSE,FALSE,FALSE
+price_data,5888,7,year: 1987-2002 (16 valeurs),lagtariff,Lagged Tariff,numeric,0,5033,311,0,2.66429,FALSE,FALSE,TRUE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",st_code43,State Code (as per 43rd round),numeric,0,1152,20,2,29,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",dist_code43,District Code (as per 43rd round),numeric,0,1149,57,1,56,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",round,NSS Survey Round,numeric,0,1152,3,38,55,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",n55,"Number of surveyed households in district in Sch 10, 55th Round",numeric,0,372,228,12,815,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",n43,"Number of surveyed households in district in Sch 10, 43rd Round",numeric,0,381,314,1,824,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce10,Log Per Capita Consumption 10th Percentile (Sch 10),numeric,0,753,617,3.43495,5.42023,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce20,Log Per Capita Consumption 20th Percentile (Sch 10),numeric,0,753,614,3.70535,5.60061,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce40,Log Per Capita Consumption 40th Percentile (Sch 10),numeric,0,753,637,4.00725,5.65592,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce60,Log Per Capita Consumption 60th Percentile (Sch 10),numeric,0,753,648,4.32904,5.77374,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce80,Log Per Capita Consumption 80th Percentile (Sch 10),numeric,0,753,666,4.54231,6.08364,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce90,Log Per Capita Consumption 90th Percentile (Sch 10),numeric,0,753,687,4.82636,6.4735,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",regcod50,Region Code (as per 43rd round),numeric,0,1149,68,21,311,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",inpov,Poverty rate,numeric,0,1134,817,0,0.859318,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",povgap,Poverty gap,numeric,0,1134,817,0,0.369853,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",n,Number of households in district,numeric,0,1134,266,1,4054,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",tariff,Scaled Tariff,numeric,0,732,733,0.00331416,0.693939,FALSE,FALSE,TRUE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",trallmtariff,Unscaled Tariff,numeric,0,732,733,0.0308444,1.59561,FALSE,FALSE,TRUE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",minmfgmfdi,district’s exposure to fdi,numeric,0,732,368,0,0.677278,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",minmfgmlicense,district’s exposure to licensing,numeric,0,732,733,0.000623729,1.16717,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",free,district’s exposure to NTB (scaled),numeric,0,732,733,0.00127417,0.336562,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logmean,Log Per Capita Consumption,numeric,0,1133,818,4.36896,6.68658,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_lit,Share literate,numeric,0,1098,367,0.104246,0.851054,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_scst,Share SC/ST,numeric,0,1098,367,0.0186018,0.984647,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_mfg,Share Manufacturing,numeric,0,1098,367,0.00969905,0.322756,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_farm,Share Farming,numeric,0,1098,367,0.170297,0.949399,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_min,Share Mining,numeric,0,1098,367,0,0.224559,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_constr,Share Construction,numeric,0,1098,367,0.0010646,0.122921,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_trade,Share Trade,numeric,0,1098,367,0.00928323,0.151387,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tran,Share Transport,numeric,0,1098,367,0.00123288,0.0928155,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_serv,Share Service,numeric,0,1098,367,0.0200391,0.271842,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",post,1 if round==55,numeric,0,1152,2,0,1,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_servpost,Share Service * Post,numeric,0,1098,368,0,0.271842,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tranpost,Share Transport * Post,numeric,0,1098,368,0,0.0928155,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tradepost,Share Trade * Post,numeric,0,1098,368,0,0.151387,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_minpost,Share Mining * Post,numeric,0,1098,367,0,0.224559,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_farmpost,Share Farming * Post,numeric,0,1098,368,0,0.949399,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_mfgpost,Share Manufacturing * Post,numeric,0,1098,368,0,0.322756,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_litpost,Share literate * Post,numeric,0,1098,368,0,0.851054,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_scstpost,Share SC/ST * Post,numeric,0,1098,368,0,0.984647,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",moved_fromoutside,Share of migrants in the past 10 years from outside district,numeric,0,752,709,0,0.26275,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",m_moved_fromoutside,Share of male migrants in the past 10 years from outside district,numeric,0,752,645,0,0.315041,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logtotalpop,Log Total District Population (Census),numeric,0,746,747,9.84411,15.9704,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logtotalpopmale,Log Total District Male Population (Census),numeric,0,746,747,9.14527,15.2989,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",district,Unique district identifier,numeric,0,1149,385,2001,29003,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",stateyear,State-year identifier,numeric,0,1152,60,2038,29055,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",goodlaw,1 if State has Pro-Employer Labor Laws,numeric,0,1101,3,0,1,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",post_law,Goodlaw * Post,numeric,0,1152,2,0,1,FALSE,FALSE,FALSE
+rural_data,1152,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",bankpercap,"Number of Banks per 10,000 people",numeric,0,740,739,0.301678,2.5564,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",st_code43,State Code (as per 43rd round),numeric,0,227,31,2,32,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",regcod50,Region Code (as per 43rd round),numeric,0,224,80,21,331,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",round,NSS Survey Round,numeric,0,227,3,38,55,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",n55,"Number of surveyed households in region in Sch 10, 55th Round",numeric,0,77,78,84,3787,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",n43,"Number of surveyed households in region in Sch 10, 43rd Round",numeric,0,76,76,70,4057,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce10,Log Per Capita Consumption 10th Percentile (Sch 10),numeric,0,153,147,3.69248,5.22633,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce20,Log Per Capita Consumption 20th Percentile (Sch 10),numeric,0,153,149,3.9658,5.41801,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce40,Log Per Capita Consumption 40th Percentile (Sch 10),numeric,0,153,148,4.36626,5.64368,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce60,Log Per Capita Consumption 60th Percentile (Sch 10),numeric,0,153,148,4.55333,5.85369,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce80,Log Per Capita Consumption 80th Percentile (Sch 10),numeric,0,153,147,4.79719,6.28928,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logpce90,Log Per Capita Consumption 90th Percentile (Sch 10),numeric,0,153,148,4.93407,6.33337,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logtotalpop,Log Total region Population (Census),numeric,0,131,132,9.84411,17.8894,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logtotalpopmale,Log Total region Male Population (Census),numeric,0,131,132,9.14527,17.2191,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",inpov,Poverty rate,numeric,0,200,199,0.00131342,0.807565,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",povgap,Poverty gap,numeric,0,200,199,0.000103314,0.314876,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",n,Number of households in district,numeric,0,200,189,30,4054,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",tariff,Scaled Tariff,numeric,0,128,129,0.00752653,0.411076,FALSE,FALSE,TRUE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",trallmtariff,Unscaled Tariff,numeric,0,128,129,0.0945709,1.08346,FALSE,FALSE,TRUE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",minmfgmtariff,"",numeric,0,128,129,0.241516,1.16165,FALSE,FALSE,TRUE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",agralltariff,"",numeric,0,128,129,0.0242936,1.34258,FALSE,FALSE,TRUE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",minmfgmfdi,region's exposure to fdi,numeric,0,128,66,0,0.568263,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",minmfgmlicense,region's exposure to licensing,numeric,0,128,129,0.0027415,0.768332,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",free,region's exposure to NTB-scaled,numeric,0,128,129,0.00205501,0.21091,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logmean,Log Per Capita Consumption,numeric,0,201,200,4.36896,6.68658,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_lit,Share literate,numeric,0,192,65,0.19357,0.801896,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_scst,Share SC/ST,numeric,0,192,65,0.0186018,0.852902,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_mfg,Share Manufacturing,numeric,0,192,65,0.0133218,0.322756,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_farm,Share Farming,numeric,0,192,65,0.170297,0.908245,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_min,Share Mining,numeric,0,192,65,8.61069e-05,0.0572199,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_constr,Share Construction,numeric,0,192,65,0.00317467,0.0881611,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_trade,Share Trade,numeric,0,192,65,0.0137402,0.134265,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tran,Share Transport,numeric,0,192,65,0.00367632,0.0928155,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_serv,Share Service,numeric,0,192,65,0.0321823,0.271842,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",post,1 if round==55,numeric,0,204,3,0,1,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",stateyear,State-year identifier,numeric,0,204,61,2038,29055,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",goodlaw,1 if State has Pro-Employer Labor Laws,numeric,0,186,3,0,1,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",post_law,Goodlaw * Post,numeric,0,204,3,0,1,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_servpost,Share Service * Post,numeric,0,192,66,0,0.271842,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tranpost,Share Transport * Post,numeric,0,192,66,0,0.0928155,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tradepost,Share Trade * Post,numeric,0,192,66,0,0.134265,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_minpost,Share Mining * Post,numeric,0,192,66,0,0.0572199,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_farmpost,Share Farming * Post,numeric,0,192,66,0,0.908245,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_mfgpost,Share Manufacturing * Post,numeric,0,192,66,0,0.322756,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_litpost,Share literate * Post,numeric,0,192,66,0,0.801896,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_scstpost,Share SC/ST * Post,numeric,0,192,66,0,0.852902,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",moved_fromoutside,Share of migrants in the past 10 years from outside district,numeric,0,133,134,0,0.26275,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",m_moved_fromoutside,Share of male migrants in the past 10 years from outside district,numeric,0,133,133,0,0.315041,FALSE,FALSE,FALSE
+rural_region_data,227,48,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",bankpercap,"Number of Banks per 10,000 people",numeric,0,128,128,0.391422,2.47907,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",st_code43,State Code (as per 43rd round),numeric,0,204,20,2,29,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",regcod50,Region Code (as per 43rd round),numeric,0,201,68,21,311,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",round,NSS Survey Round,numeric,0,204,3,38,55,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",inpov,Poverty rate,numeric,0,198,197,0,0.701332,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",povgap,Poverty gap,numeric,0,198,197,0,0.231447,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",n,Number of households in district,numeric,0,198,153,9,2811,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",tariff,Scaled Tariff,numeric,0,128,129,0.0275327,0.445306,FALSE,FALSE,TRUE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",trallmtariff,Unscaled Tariff,numeric,0,128,129,0.174307,1.03181,FALSE,FALSE,TRUE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",minmfgmtariff,"",numeric,0,128,129,0.197632,1.20888,FALSE,FALSE,TRUE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",agralltariff,"",numeric,0,128,129,0.102691,0.978733,FALSE,FALSE,TRUE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",minmfgmfdi,region's exposure to fdi,numeric,0,128,66,0,0.546576,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",minmfgmlicense,region's exposure to licensing,numeric,0,128,129,0.003761,0.696845,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",free,region's exposure to NTB-scaled,numeric,0,128,129,0.00738203,0.281567,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",logmean,Log Per Capita Consumption,numeric,0,199,198,4.67069,6.97038,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_lit,Share literate,numeric,0,192,65,0.447269,0.819696,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_scst,Share SC/ST,numeric,0,192,65,0.0248128,0.357592,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_mfg,Share Manufacturing,numeric,0,192,65,0.0806016,0.505956,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_farm,Share Farming,numeric,0,192,65,0.011518,0.369195,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_min,Share Mining,numeric,0,192,65,5.55042e-05,0.137795,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_constr,Share Construction,numeric,0,192,65,0.0184588,0.0988098,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_trade,Share Trade,numeric,0,192,65,0.153,0.300452,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tran,Share Transport,numeric,0,192,65,0.0457633,0.192634,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_serv,Share Service,numeric,0,192,65,0.150558,0.444121,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",post,1 if round==55,numeric,0,204,2,0,1,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",stateyear,State-year identifier,numeric,0,204,60,2038,29055,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",goodlaw,1 if State has Pro-Employer Labor Laws,numeric,0,186,3,0,1,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",post_law,Goodlaw * Post,numeric,0,204,2,0,1,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_servpost,Share Service * Post,numeric,0,192,66,0,0.444121,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tranpost,Share Transport * Post,numeric,0,192,66,0,0.192634,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_tradepost,Share Trade * Post,numeric,0,192,66,0,0.300452,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_minpost,Share Mining * Post,numeric,0,192,66,0,0.137795,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_farmpost,Share Farming * Post,numeric,0,192,66,0,0.369195,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_mfgpost,Share Manufacturing * Post,numeric,0,192,66,0,0.505956,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_litpost,Share literate * Post,numeric,0,192,66,0,0.819696,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",pcnt_scstpost,Share SC/ST * Post,numeric,0,192,66,0,0.357592,FALSE,FALSE,FALSE
+urban_data,204,36,"round: 38,43,55 (3 valeurs) ; stateyear: 2038-29055 (60 valeurs)",bankpercap,"Number of Banks per 10,000 people",numeric,0,128,128,0.391422,2.47907,FALSE,FALSE,FALSE
