@@ -1,0 +1,175 @@
+==============================================================================
+LOG: output/logs/23_imports_8502.log
+Run started: 2026-10-02 16:40:45
+==============================================================================
+
+
+------------------------------------------------------------------------------
+CRITERE (fixe et commite avant extraction)
+------------------------------------------------------------------------------
+  N = 850211+850212+850213 ; D1 = (84+85) - 8502 ; D2 = TOTAL - 84 - 85 ; valeurs CIF USD
+  AVANT = 1988-1990 (traitement A) ou 1989-1990 (traitement B) ; APRES = 1995-2000 ; 1991-1994 exclus
+  par denominateur : (a) L >= log 1,5 = 0.4055 ; (b) min(APRES) > max(AVANT)
+  k : OUI si (a) et (b) ; NON si aucun ; LIMITE sinon
+  verdict : 2 OUI = DECOLLE ; 2 NON = NE DECOLLE PAS ; OUI + NON = NE TRANCHE PAS ; sinon LIMITE
+  A et B en desaccord : INSTABLE
+
+------------------------------------------------------------------------------
+LIMITES CONNUES (non quantifiees)
+------------------------------------------------------------------------------
+  - devaluation de juillet 1991 : importations plus cheres en roupies au moment ou le tarif baisse
+  - les importations repondent aussi au revenu et a la suppression des licences, pas seulement au tarif
+  - valeurs CIF en USD, sensibles au taux de change ; CIF = hors droits de douane
+  - D2 contient le petrole, dont la valeur suit le cours mondial
+  - tarif propre au 8502 non observe ; celui des moteurs diesel n'est qu'un repere
+  - convention d'annee (civile / fiscale avril-mars) NON TRANCHEE ; fenetres valides sous les deux
+
+------------------------------------------------------------------------------
+Extraction (apercu public Comtrade, sans cle)
+------------------------------------------------------------------------------
+[2026-10-02 16:40:46] 1988 : appel
+  [OK]   1988 : JSON valide (error vide, count > 0)
+  [OK]   1988 : ecrit -> raw/comtrade/ind_M_1988.json
+[2026-10-02 16:40:55] 1989 : appel
+  [OK]   1989 : JSON valide (error vide, count > 0)
+  [OK]   1989 : ecrit -> raw/comtrade/ind_M_1989.json
+[2026-10-02 16:41:01] 1990 : appel
+  [OK]   1990 : JSON valide (error vide, count > 0)
+  [OK]   1990 : ecrit -> raw/comtrade/ind_M_1990.json
+[2026-10-02 16:41:08] 1991 : appel
+  [OK]   1991 : JSON valide (error vide, count > 0)
+  [OK]   1991 : ecrit -> raw/comtrade/ind_M_1991.json
+[2026-10-02 16:41:14] 1992 : appel
+  [OK]   1992 : JSON valide (error vide, count > 0)
+  [OK]   1992 : ecrit -> raw/comtrade/ind_M_1992.json
+[2026-10-02 16:41:20] 1993 : appel
+  [OK]   1993 : JSON valide (error vide, count > 0)
+  [OK]   1993 : ecrit -> raw/comtrade/ind_M_1993.json
+[2026-10-02 16:41:27] 1994 : appel
+  [OK]   1994 : JSON valide (error vide, count > 0)
+  [OK]   1994 : ecrit -> raw/comtrade/ind_M_1994.json
+[2026-10-02 16:41:34] 1995 : appel
+  [OK]   1995 : JSON valide (error vide, count > 0)
+  [OK]   1995 : ecrit -> raw/comtrade/ind_M_1995.json
+[2026-10-02 16:41:42] 1996 : appel
+  [OK]   1996 : JSON valide (error vide, count > 0)
+  [OK]   1996 : ecrit -> raw/comtrade/ind_M_1996.json
+[2026-10-02 16:41:48] 1997 : appel
+  [OK]   1997 : JSON valide (error vide, count > 0)
+  [OK]   1997 : ecrit -> raw/comtrade/ind_M_1997.json
+[2026-10-02 16:41:57] 1998 : appel
+  [OK]   1998 : JSON valide (error vide, count > 0)
+  [OK]   1998 : ecrit -> raw/comtrade/ind_M_1998.json
+[2026-10-02 16:42:04] 1999 : appel
+  [OK]   1999 : JSON valide (error vide, count > 0)
+  [OK]   1999 : ecrit -> raw/comtrade/ind_M_1999.json
+[2026-10-02 16:42:10] 2000 : appel
+  [OK]   2000 : JSON valide (error vide, count > 0)
+  [OK]   2000 : ecrit -> raw/comtrade/ind_M_2000.json
+  SHA256 :
+    1E021A1F213792C53DBEFDDC962913571B94B0364FA9B17EB6C6552749CC1D56  ind_M_1988.json
+    18CBB4D97AFDBCF899CFE7184BB68FEA8D37AC4673531EF4F93051F086F6C33D  ind_M_1989.json
+    94DFDB1F23459E8DD2A9E8BF4936A1C038D1B188F0D826925774E6D7B2575F52  ind_M_1990.json
+    9F56665092A8B49A08E4C9906C7150F37961C519BBB4BAFB79C19D504E6E5010  ind_M_1991.json
+    AC938392C9305BC7D821576F97DC5BE22F686CD6C2E5C7174A2749237D5357EA  ind_M_1992.json
+    6578BF28037F047E3EFBC7250DE38C3AB9D5B546F78106CA1FD33F1FF6D3D318  ind_M_1993.json
+    D9524E1058C2A69715CB0D0AC23CF16F201C2AE88384C8DAE365E79C9BAFD7F2  ind_M_1994.json
+    5F82A5C0940A54B6077C632364BA9E05EBF2F27656767D51F271BFA597613087  ind_M_1995.json
+    49F8642427D08ABDCE948C8A694EC08F85B67EE4E08B45F7DE2E89D0B044B053  ind_M_1996.json
+    E3D3676AD0417EC7786D1FD8920ACDA4AC365CB6996CF3C37CDA54B70C1AB347  ind_M_1997.json
+    AEB4D9E400673F3D9A49F5AE232015C49EC323F2577DD65A207908C964D27C7E  ind_M_1998.json
+    4162753CE0A7CBF1463D7F88FA96A531A8D793F28B159DE81A12962DCE2BC716  ind_M_1999.json
+    1FD0D3DBF0A57B2EABC9146A045BFA6B3BB77FBCA2642CE51187BA8914A2FBC2  ind_M_2000.json
+
+------------------------------------------------------------------------------
+Exhaustivite annee x code (avant tout calcul)
+------------------------------------------------------------------------------
+  [OK]   comtrade: all 9 named variables present
+  [OK]   toutes les lignes : Inde, partenaire Monde, importations
+  [OK]   partner2Code = 0 partout
+  [OK]   customsCode = C00 partout
+  [OK]   motCode = 0 partout
+  [OK]   comtrade: key (annee+code) unique
+  [OK]   nomenclature : H0 1988-1995, H1 1996-2000
+  couples attendus : 104 ; recus : 103 ; absents : 1
+Clé : <annee, code>
+   annee   code
+   <int> <char>
+1:  1988 850212
+  [OK]   aucune absence hors l'absence structurelle connue (850212, 1988)
+  [OK]   l'absence structurelle connue est bien la seule (850212, 1988)
+  [OK]   coherence : N <= 8502 chaque annee
+  [OK]   coherence : 84 + 85 < TOTAL chaque annee
+
+------------------------------------------------------------------------------
+Series annuelles (USD courants, CIF)
+------------------------------------------------------------------------------
+Clé : <annee>
+    annee N_musd D1_musd D2_musd s1_pm s2_pm
+    <int>  <num>   <num>   <num> <num> <num>
+ 1:  1988  13.65    2928   16380 4.662 0.833
+ 2:  1989  16.19    3141   18519 5.154 0.874
+ 3:  1990   9.75    3169   20591 3.077 0.474
+ 4:  1991   4.60    2219   17268 2.074 0.267
+ 5:  1992   5.03    2873   21569 1.751 0.233
+ 6:  1993   2.73    3013   20276 0.906 0.135
+ 7:  1994  17.08    4224   24378 4.045 0.701
+ 8:  1995  26.60    6190   30293 4.298 0.878
+ 9:  1996  31.11    5746   33259 5.414 0.935
+10:  1997  44.78    6372   34962 7.027 1.281
+11:  1998  27.06    5914   36458 4.575 0.742
+12:  1999  18.37    6135   43808 2.994 0.419
+13:  2000  11.89    6873   46032 1.729 0.258
+  s1, s2 en pour mille
+
+------------------------------------------------------------------------------
+VERDICT contre le critere ecrit d'avance
+------------------------------------------------------------------------------
+  traitement A (avant 1988-1990)
+    D1 : L = -0.0573 (x0.94) ; (a) FALSE ; (b) FALSE -> NON
+    D2 : L = -0.0570 (x0.94) ; (a) FALSE ; (b) FALSE -> NON
+    verdict : NE DECOLLE PAS
+  traitement B (avant 1989-1990)
+    D1 : L = -0.0048 (x1.00) ; (a) FALSE ; (b) FALSE -> NON
+    D2 : L = 0.0292 (x1.03) ; (a) FALSE ; (b) FALSE -> NON
+    verdict : NE DECOLLE PAS
+
+  >>> VERDICT : NE DECOLLE PAS
+
+------------------------------------------------------------------------------
+Lecture hors critere -- ventilation par sous-position (part dans N, moyenne de fenetre)
+------------------------------------------------------------------------------
+           fenetre N_musd p_850211 p_850212 p_850213 q_850211 q_850212 q_850213
+            <char>  <num>    <num>    <num>    <num>    <num>    <num>    <num>
+1: avant 1988-1990  13.20    0.079    0.039    0.882       32       18       71
+2: apres 1995-2000  26.63    0.119    0.083    0.797      140       51      188
+  850212 en 1988 compte pour 0 (traitement A) dans la fenetre avant
+  variation log des valeurs par sous-position (apres - avant 1989-1990, pour eviter le 0 de 1988) :
+    850211 : 2.257
+    850212 : 0.911
+    850213 : 0.613
+
+------------------------------------------------------------------------------
+Lecture hors critere -- valeur unitaire (USD CIF par unite, HORS droits)
+------------------------------------------------------------------------------
+Clé : <annee>
+    annee uv_diesel uv_8502
+    <int>     <num>   <num>
+ 1:  1988    248174  102759
+ 2:  1989     74957  146527
+ 3:  1990    104841   65988
+ 4:  1991     29319   76320
+ 5:  1992    109375   29876
+ 6:  1993     37925   21305
+ 7:  1994    146016  122151
+ 8:  1995    122037  133540
+ 9:  1996     42849  116216
+10:  1997    127938  154245
+11:  1998    102875   71651
+12:  1999     38515   26422
+13:  2000     48515    9665
+  uv_diesel : moy log apres - moy log avant (1989-1990) = -0.221
+  uv_8502 : moy log apres - moy log avant (1989-1990) = -0.505
+  Rappel : une valeur CIF ne contient pas le droit de douane. Une baisse de la valeur unitaire CIF
+  ne mesure pas le passage du tarif ; elle reflete prix etrangers, composition et taux de change.
+  figure : output/figures/23_parts_8502.pdf
