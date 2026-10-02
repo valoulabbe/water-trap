@@ -1,0 +1,64 @@
+==============================================================================
+LOG: output/logs/22_dose_prix_moteurs.log
+Run started: 2026-10-02 13:49:57
+==============================================================================
+
+
+------------------------------------------------------------------------------
+CRITERE (fixe et commite avant execution)
+------------------------------------------------------------------------------
+  dp_i = a + b * dt_i ; fenetres 1987-1990 / 1995-2001 ; MCO, grappes = serie tarifaire, CR1
+  C1 : b > 0, p unilateral < 0,05
+  C2 : E = b * dt_diesel <= -0.1054
+  C3 : b <= 0.501 (3 x 0,167, De Loecker et al. 2016)
+  C4 : residu diesel <= centile 90 des residus
+  verdict : C1-C4 = PASSE ; C1 ou C2 echoue = NE PASSE PAS ; C1, C2 mais pas C3 ou C4 = LIMITE
+
+------------------------------------------------------------------------------
+LIMITE CONNUE -- devaluation de juillet 1991
+------------------------------------------------------------------------------
+  La roupie est fortement devaluee en juillet 1991 : les importations rencherissent en roupies
+  au moment ou le tarif baisse. Effets de sens oppose sur le prix interieur des moteurs diesel.
+  La constante absorbe la part commune, pas l'incidence differentielle (biais vers b = 0).
+  Un prix qui ne bouge pas ne prouve PAS que le tarif n'a eu aucun effet. Non quantifie ici.
+  [OK]   price_data: row count == 5,888
+  [OK]   price_data: key (code80+year) unique
+  [OK]   articles traites presents
+
+------------------------------------------------------------------------------
+Echantillon (regles de presence, avant tout calcul de prix)
+------------------------------------------------------------------------------
+  E1 tarif observe chaque annee 1987-2001 : 334 articles sur 368
+  E2 prix observe chaque annee des deux fenetres : 275 articles
+  [OK]   l'article teste satisfait E1 et E2
+  E3 traites et electricite exclus : 269 articles
+  grappes tarifaires dans l'echantillon : 158
+  [OK]   E4 : au moins 50 articles
+  [OK]   E4 : au moins 20 grappes
+  [OK]   dt_diesel conforme a la valeur ecrite d'avance (-0,8346)
+  dt dans l'echantillon : moyenne -0.553, mediane -0.552, min -2.264, max 0.236
+
+------------------------------------------------------------------------------
+Estimation : dp = a + b * dt
+------------------------------------------------------------------------------
+  N = 269 articles, G = 158 grappes, moyenne de dp = 0.7044
+  a = 0.7789 (e.-t. 0.0298) ; b = 0.1349 (e.-t. 0.0549) ; t = 2.46 ; p unilateral (b > 0) = 0.0075
+  moteurs diesel : dt = -0.8346 ; dp observe = 0.7177 ; dp predit = 0.6663 ; residu = 0.0513 (rang 163/270 parmi les residus)
+  E = b * dt_diesel = -0.1126 (soit -10.6 %) ; IC 95 % [-0.2030, -0.0222]
+  repere De Loecker et al. : E pour chaque pente publiee
+    ef_annee          b = 0.136 -> E = -0.1135
+    ef_secteur_annee  b = 0.167 -> E = -0.1394
+    avec_intrants     b = 0.156 -> E = -0.1302
+    topalova_wpi      b = 0.096 -> E = -0.0801
+
+------------------------------------------------------------------------------
+VERDICT contre le critere ecrit d'avance
+------------------------------------------------------------------------------
+  C1 b > 0 et p < 0,05      : OUI (b = 0.1349, p = 0.0075)
+  C2 E <= -0.1054           : OUI (E = -0.1126)
+  C3 b <= 0.501            : OUI
+  C4 residu <= q90 = 0.3175 : OUI (residu = 0.0513)
+
+  >>> VERDICT : PASSE
+  tables : output/tables/22_dose_verdict.csv / .tex
+  figure : output/figures/22_dose_prix_tarif.pdf
