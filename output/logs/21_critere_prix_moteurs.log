@@ -1,0 +1,49 @@
+==============================================================================
+LOG: output/logs/21_critere_prix_moteurs.log
+Run started: 2026-10-02 13:33:05
+==============================================================================
+
+
+------------------------------------------------------------------------------
+CRITERE (fixe avant lecture des prix du panier)
+------------------------------------------------------------------------------
+  article traite : 1311010105 (Diesel Engines) ; variable : logfiscprice
+  deflateur : panier temoin (moyenne non ponderee des log-prix) ; invariance a tout deflateur commun
+  AVANT = 1987-1990 ; APRES = 1995-2001 ; 1991-1994 transition exclue
+  S1 : D <= log(0,90) = -0.1054
+  S2 : D < centile 10 % de la distribution placebo des articles du panier
+  verdict : S1 et S2 = PASSE ; aucun = NE PASSE PAS ; un seul = LIMITE
+  panier : tarif observe 1987-2001, amplitude < 0.10, prix presents sur les deux fenetres, traites exclus ; minimum 10 articles
+
+------------------------------------------------------------------------------
+LIMITE CONNUE -- devaluation de juillet 1991
+------------------------------------------------------------------------------
+  La roupie est fortement devaluee en juillet 1991 : les importations rencherissent en roupies
+  au moment ou le tarif baisse. Effets de sens oppose sur le prix interieur des moteurs diesel.
+  Un prix relatif qui ne bouge pas ne prouve PAS que le tarif n'a eu aucun effet ; il dit seulement
+  que le prix paye n'a pas baisse relativement au panier. Non quantifie dans cet exercice.
+  [OK]   price_data: row count == 5,888
+  [OK]   price_data: key (code80+year) unique
+  [OK]   articles traites presents
+
+------------------------------------------------------------------------------
+Etape 2 -- panier temoin : regle sur le tarif
+------------------------------------------------------------------------------
+  R1 tarif observe chaque annee 1987-2001 : 334 articles sur 368
+  R2 amplitude du tarif < 0.10 : 7 articles
+  R3 prix presents chaque annee des deux fenetres : 5 articles
+  R4 traites exclus : 5 articles dans le panier
+
+  code       | tarif min-max | 1987 -> 2001 | description
+  1101010106 | 0.000-0.000   | 0.000 -> 0.000 | Barley
+  1200030001 | 0.000-0.000   | 0.000 -> 0.000 | Elec. (Domestic)
+  1200030002 | 0.000-0.000   | 0.000 -> 0.000 | Elec. (Power)
+  1200030003 | 0.000-0.000   | 0.000 -> 0.000 | Elec. (Irrigation)
+  1200030004 | 0.000-0.000   | 0.000 -> 0.000 | Elec. (Industrial)
+  panier ecrit : output/tables/21_panier_temoin.csv
+  tarif de l'article traite :
+         code         item80 n_tar     t_min t_max t_1987    t_2001
+       <char>         <char> <int>     <num> <num>  <num>     <num>
+1: 1311010105 Diesel Engines    15 0.1863636   1.1    1.1 0.2318182
+  [FAIL] panier d'au moins 10 articles -- sinon ARRET avant tout prix
+         seulement 5 articles retenus
