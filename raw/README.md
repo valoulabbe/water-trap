@@ -149,3 +149,25 @@ compléter au dépôt.
 | Fichier | Contenu | Téléchargé le | SHA256 |
 | --- | --- | --- | --- |
 | giz/(à compléter) | Prix diesel, essence, super, 1991–2020 | | |
+
+## Arsenic à Araihazar (Bangladesh) — HydroShare
+Source : Jameel, M. Y. (2021). *Groundwater arsenic measurements from Araihazar,
+Bangladesh*, HydroShare, https://doi.org/10.4211/hs.8e1373d87419447c945625af13f0a2ea
+(données de Jameel et al. 2021, GeoHealth, doi:10.1029/2021GH000464). Arsenic en
+ppb (µg/L). Licence : non vérifiée.
+
+| Fichier | Contenu | Téléchargé le | SHA256 |
+| --- | --- | --- | --- |
+| hydroshare/Dataset1.csv | Mesures appariées kit de terrain / laboratoire (ICP-MS) : `Sample`, `Kit category` (0, 10, 25, 50, 100, 200, 300, 500, 1000, et 999), `Laboratory measured As (ppb)`, lat/lon. 943 puits (la page annonce 950) | 2026-10-03 | 8B16A282F28FF8791CA43F654186EA4C049C15A5C0B4863ECEC390DF2D172D8B |
+| hydroshare/Dataset2.csv | 6 605 puits mesurés en laboratoire, analysés dans van Geen et al. (2003) : `Well_ID`, `Union`, `Village`, `As_ppb`, lat/lon, `Depth` (pieds), `Year` (installation, déclarée ; 52 valeurs hors 1960-2003 ou non numériques : 1900 ×44, 1950 ×2, 1951, 1930, 200, « N.A », « ? », 2 vides). Deux lots : `Well_ID` 1-8000 (5 964 puits, noms de village en majuscules, installations jusqu'en 2001) et 8001-8808 (634 puits, seuls à porter les installations 2002-2003) | 2026-10-03 | BAFE256A83EF7A6AD1CDC0F11C289D7D9DB179B6F3EC247CEE16A01013A437A9 |
+
+## Arsenic par village (Bangladesh) — van Geen et al. (2019)
+Source : supporting information de van Geen et al. (2019), « Effectiveness of
+Different Approaches to Arsenic Mitigation over 18 Years in Araihazar,
+Bangladesh: Implications for National Policy », *Environmental Science &
+Technology* 53(10) : 5596–5604, doi:10.1021/acs.est.9b01375. Conditions : celles
+de l'éditeur (ACS) pour les SI, non vérifiées.
+
+| Fichier | Contenu | Téléchargé le | SHA256 |
+| --- | --- | --- | --- |
+| vangeen2019/es9b01375_si_001.xlsx | Une feuille « all villages », 44 865 lignes : `Vid`, District, Upazila, Union, Mouza, village, `No. wells`, `Mean As from kit`, `%wells <=50 ug/L As`, `Safe depth (ft)` | 2026-10-03 | 6383CCF2D2E63D69FB3AFCCD949A909C2D5FD35EC4876146D52248F3AF5C5A4F |

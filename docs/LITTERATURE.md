@@ -1,6 +1,6 @@
 # Private Infrastructure Trap — Literature Note: Generators & Household Water Filters
 
-Sep 23, 2026 · @Someone
+Sep 23, 2026 · @valentine
 
 ## How to use this note
 
@@ -73,6 +73,112 @@ These are for background and calibration rather than citation-grade identificati
 - **Regulatory hook:** the National Green Tribunal has issued recommendations regulating RO use by TDS thresholds, on the grounds that RO is unjustified where piped water already meets BIS norms. A threshold set by a regulator on a continuous water-chemistry variable is worth checking for RD potential.
 
 The substantive point buried in these: **RO adoption in India is conditional on dissolved-solids chemistry, which is geological.** That is the bridge between this track and the groundwater track.
+
+## 3bis. Track C — groundwater: what moves the price of private water
+
+Added 2 October 2026. This track was not covered in the September pass, and it is the best-backed of the three: the cost shock has a published identification strategy and the public-versus-private choice has a published model in the same Indian setting. Farm electricity policy is the price of private water.
+
+**Sekhri, Sheetal (2011), "Public Provision and Protection of Natural Resources: Groundwater Irrigation in Rural India," *AEJ: Applied Economics* 3(4): 29–55.** DOI: [10.1257/app.3.4.29](https://www.aeaweb.org/articles?id=10.1257%2Fapp.3.4.29). The paper closest to our mechanism, and closer than Sekhri (2014). She evaluates a public groundwater provision programme on water tables in Northern India, theorising that public provision leads to sustainable use when the fixed cost of a private well is high, and exploits the cost difference created at a specific depth by the physical limits of surface pumps. Same cost-threshold logic as the trap, run in the opposite direction: public provision displacing private extraction rather than cheap private water displacing public investment. Do not skip — this is the paper a referee will ask how we differ from.
+
+**Sekhri, Sheetal (2014), "Wells, Water, and Welfare," *AEJ: Applied Economics* 6(3): 76–102.** DOI: [10.1257/app.6.3.76](https://www.aeaweb.org/articles?id=10.1257/app.6.3.76). Already in the project folder. Rural poverty is 9–10% higher where depth is below the 8-metre cutoff, and irrigation disputes rise by 25% around it. Useful for the welfare stakes, not for our design — and its microdata are the ones we could not obtain.
+
+**Badiani, Reena & Katrina Jessoe, "Electricity Prices, Groundwater, and Agriculture," NBER chapter in *Agricultural Productivity and Producer Behavior*, 157–183.** [Chapter page](https://www.nber.org/books-and-chapters/agricultural-productivity-and-producer-behavior/electricity-prices-groundwater-and-agriculture-environmental-and-agricultural-impacts-electricity); [working paper PDF](https://kkjessoe.faculty.ucdavis.edu/wp-content/uploads/sites/803/2024/01/BJ_ElectricityH2O.pdf). The design we would borrow. They exploit changes in state electricity prices over time, controlling for aggregate annual shocks and fixed district unobservables, and find an implied extensive-margin price elasticity of groundwater extraction of −0.18, with effects on the area under water-intensive crops. Two things matter for us: the variation is continuous state-year tariffs, not a handful of binary reform dates, which answers the few-treated-states objection; and they must hold a state agricultural tariff panel we would otherwise rebuild by hand.
+
+**Badiani, Jessoe & Plant, "Development and the Environment: The Implications of Agricultural Electricity Subsidies in India," *Journal of Environment & Development*.** [PDF](https://kkjessoe.faculty.ucdavis.edu/wp-content/uploads/sites/803/2024/01/BJP_JED.pdf). The policy-history companion, and the fastest route to a dated reform table. It traces free power from the 1977 Andhra Pradesh campaign through the 1999 AP Electricity Reform Act to the Congress platform of 2004, implemented shortly after the election. Read for the chronology, not the estimates.
+
+**Gupta, Disha (2023), "Free power, irrigation, and groundwater depletion: Impact of farm electricity policy of Punjab, India," *Agricultural Economics* 54(4): 515–541.** [RePEc entry](https://ideas.repec.org/p/ags/iaae21/315001.html). Direct precedent for treating a single state's free-power policy as the shock. Worth reading mainly to see how she handles the Punjab timeline, which is messier than it looks: free power from 1997 under SAD-BJP, withdrawn in 2002, restored around 2005. Reversals are usable variation but rule out a clean staggered-adoption design.
+
+**Fishman, Ram, Upmanu Lall, Vijay Modi & Nikunj Parekh (2016), "Can Electricity Pricing Save India's Groundwater?" *JAERE* 3(4): 819–855.** DOI: [10.1086/688496](https://www.journals.uchicago.edu/doi/10.1086/688496). A Gujarat field experiment paying farmers for electricity they "save". Take-up was high, water use did not move. Read it as a warning about the first stage: the link from the price of power to the quantity of water pumped is not automatic, so our first stage has to be shown, not assumed.
+
+**Cross-reference.** Ryan & Sudarshan (2022), already listed under Track A, belongs here too: in Rajasthan the binding instrument is rationed hours of supply rather than price, and farmers use roughly the socially optimal amount of water on average despite trivial extraction prices. If rationing binds, tariff variation may move nothing. Check which regime applies in the states we would use before committing.
+
+**The problem to settle first.** Farm power subsidies lower the cost of *irrigation* water; our outcome is *drinking* water provision. Same aquifer, often the same tubewell, but not the same good. Either we state and defend the link (rural households using irrigation tubewells domestically, as in Sekhri's setting) or we move the outcome to public irrigation infrastructure. This needs an answer before anything is estimated, not after.
+
+## 3ter. Track C — close reads
+
+Read 2 October 2026. The headline from reading these properly: the obstacle to the farm-power design is not the tariff data, which is reconstructible. It is that in the states with the worst groundwater pressure the market for water clears on **quantity, not price**, so a tariff change there moves nothing.
+
+| Paper | Read | Variation used | Sample | Headline estimate |
+| --- | --- | --- | --- | --- |
+| [Badiani & Jessoe](https://kkjessoe.faculty.ucdavis.edu/wp-content/uploads/sites/803/2024/01/BJ_ElectricityH2O.pdf) | Full text | State-year flat agricultural tariff (Rs per hp-month) | 587 district-years, 280 districts, 13 states; 1995, 1998, 2002, 2004 | −1.05 mcm of extraction per Rs; elasticity −0.18 |
+| [Badiani, Jessoe & Plant](https://kkjessoe.faculty.ucdavis.edu/wp-content/uploads/sites/803/2024/01/BJP_JED.pdf) | Full text | None (review) | — | Policy chronology 1910–2011 |
+| [Ryan & Sudarshan](https://www.nber.org/papers/w27473.pdf) | Full text | Geology as instrument for well depth | 4,262 farmers, 300 feeders, 4 districts of Rajasthan, Rabi 2016-17 | +1 sd depth (187 ft) → −INR 8,870 profit per Ha |
+| Fishman et al. | Full text | Voluntary metering + payment per unit "saved" | Gujarat | 75% take-up; can reject cuts above 7–13% |
+| Gupta (2023) | Not yet (pull the DSE working paper 316 version) | Punjab free-power policy | — | — |
+
+### Badiani & Jessoe — the design we would borrow
+
+**Their outcome is a well count, not a water measurement.** This is the single most useful thing in the paper for us. The CGWB *Dynamic Ground Water Resources* reports do not measure physical extraction; they estimate annual demand as the number of abstraction structures multiplied by the unit seasonal draft. So the dependent variable moves when wells are installed. Their first stage is therefore literally our treatment: cheaper power produces more private tubewells. We do not have to argue that water quantity is the right object.
+
+**The tariff panel is reconstructible.** Prices are a flat monthly fee per horsepower set by the State Electricity Board, with a volumetric rate of zero. They gathered them from *Tariff Schedules of Electric Power Utilities*, published 1997, 1998, 2002 and 2005, which also record the dates tariffs changed. Mean 83.5 Rs per hp-month; Tamil Nadu free; some states above 500. Those volumes are our source. Do not substitute the Planning Commission's average revenue per unit for agriculture: it is revenue divided by units sold, so it is a different object and endogenous to consumption.
+
+**Specification.** District and year fixed effects, standard errors clustered at state, controlling for district rainfall, a state-election dummy, generation and T&D losses. Baseline coefficient −0.417 mcm per rupee, rising to −1.054 with the full control set, implying elasticities of −0.07 and −0.18.
+
+**Three weaknesses to know before copying it.**
+
+1. *The effect is asymmetric.* Splitting the sample, price cuts drive everything; excluding state-years with price decreases leaves −3.2 with a standard error of 4.8. They read this as adoption: farmers install wells when the rate falls and do not abandon them when it rises. For a trap story this is the right direction, but it halves the usable variation.
+2. *The output IV is thin.* The second stage runs on 202 district-years with a first-stage F of 11.7. Fine for their claim, too weak to build on.
+3. *They name rationing as a reason their elasticity is low.* Where supply constrains pumping, price is not the binding margin. They flag it; Ryan & Sudarshan show it is true.
+
+**The version to copy is the earlier one.** The JED companion describes a 2011 draft of the same project that interacted state tariffs with district hydrogeology — mean minimum and maximum aquifer depth — citing Domenico et al. (1968) and Martin & Archer (1971) for the idea that price times depth is the price of groundwater. That is published precedent for exactly the exposure design we were considering, and it generates within-state variation instead of resting on a handful of treated states. We are not contacting researchers during the exploratory phase, so this is to be rebuilt rather than requested: the tariff series from the Tariff Schedules volumes, the depth interaction from our own CGWB wells.
+
+### Badiani, Jessoe & Plant — the chronology, and one sentence that matters
+
+The review's closing recommendations include investing in public provision of groundwater **in order to crowd out private well construction**, citing Sekhri (2011). Our second leg is already named in this literature as a policy instrument. Nobody has tested whether the causality also runs backwards, which is the project.
+
+It also frames Indian water and power as a *low-level equilibrium trap* (Nelson 1956; Briscoe 1999; Singh et al. 1993 on rural water supply in Kerala) — poor service, so nobody pays, so service stays poor. That is a second naming precedent for "trap", and in drinking water specifically.
+
+Dated chronology, usable as the reform table:
+
+| Year | Event |
+| --- | --- |
+| 1948 | Electricity Supply Act; vertically integrated State Electricity Boards set tariffs |
+| 1977 | Andhra Pradesh: first party to campaign on free power |
+| 1991 | Tamil Nadu makes farm power free; still free in 2011 |
+| 1996 | Minimum Action Plan: Rs 0.5/kWh farm tariff agreed; only 9 states had done it by 2001 |
+| 1999 | AP Electricity Reform Act; a 2000 order to raise farm tariffs 50% was abandoned after opposition |
+| 2003 | Electricity Act mandates metering for all user categories |
+| 2004 | AP Congress wins on a free-power platform and implements it |
+
+One number for Track A while we are here: roughly 69% of Indian firms had their own generator, at a private cost 24% above grid power (Bhattacharya & Patel 2008, as cited there).
+
+### Ryan & Sudarshan — the threat to the whole design
+
+**Rationing, not pricing, is the de facto groundwater policy.** States set power prices near zero and then cut supply to farm feeders for most of the day. In 2017 the daily ration was 6 hours in Rajasthan and Karnataka, 5 in Punjab, 7 in Andhra Pradesh, 8 in Gujarat, and 9 in Madhya Pradesh, Maharashtra, Haryana and Tamil Nadu. Those states hold 585 million people and produce 65% of India's agricultural output. In Rajasthan the tariff is Rs 0.9 per kWh, 15% of private marginal cost and 7% of social marginal cost — and the ration binds: over 80% of farmers report exactly 6 hours of supply, with use bunched just below it. Pump number and size are regulated too, so the extensive margin is closed off.
+
+The implication for us is blunt. A tariff change in a rationing state-year should do nothing, because quantity already clears the market. The Badiani–Jessoe design is only defensible where and when the ration was not binding. Before anything else on this track, we need the overlap between tariff variation and rationing adoption dates. If it is empty, the shock is unusable and the track closes.
+
+**Their identification, for the record.** Depth substitutes for the ration: since electricity only matters through water, the return to water is a sufficient statistic for the benefit of more hours. Well depth is instrumented with geology from the Bhuvan Bhujal Groundwater Prospect Maps — 62 rock-type categories, 20 aquifer types, fracture density within 2 km and 5 km, plus interactions — selected by post-double-selection LASSO from 419 candidates, first-stage F of 34, with subdivision and plot-size-decile fixed effects and errors clustered at the feeder. A one standard deviation increase in depth cuts profit by INR 8,870 per hectare, about three times the OLS estimate and 14% of output per hectare.
+
+Two notes. First, this is consistent with our failed Andhra Pradesh stage rather than contradicting it: they work *within* four hard-rock districts with subdivision fixed effects and their own survey, not across districts in alluvium. Second, those Groundwater Prospect Maps were produced under the Accelerated Rural Water Supply Programme — a drinking-water programme. Worth checking what they cover outside Rajasthan, since they are a public-provision artefact in their own right.
+
+### Fishman, Lall, Modi & Parekh — what the null actually bounds
+
+**The design.** North Gujarat, UGVCL's Kukarwada substation, 2011-12. Four of 28 agricultural feeders treated; well owners were offered a meter and 2.5 Rs per kWh for every unit consumed below a baseline entitlement, with no charge for going over. Baselines were set as verified pump horsepower times an assumed number of hours, estimated from aggregate feeder data. Of 113 eligible consumers, 84 consented — over 75%, against official expectations — and there was no meter tampering. Rebates were paid through reductions in the flat-rate bill, which caps the rebate at roughly 20% of consumption value.
+
+**The null is tight.** Feeder-level difference-in-differences on log monthly consumption, with feeder and year-month fixed effects, over 28 feeders and 927 feeder-months. Every point estimate is small and positive. They reject reductions above about 7% with OLS errors and 13% clustered at the feeder. Hour-meters on 98 wells reject effects above 0.5 hours of daily pump use, with Lee bounds from −0.42 to 1.14 hours.
+
+**Why this does not contradict Badiani & Jessoe.** Their margin is intensive — same wells, fewer hours — in an area where supply is already rationed to 8 hours a day and water tables run to 300 metres. Badiani & Jessoe's effect is extensive: new wells installed when the flat rate falls. Read together, the two papers say the price of power moves whether a tubewell gets dug and does not move how hard an existing one is run. For us that is the convenient reading, since our outcome is also extensive and decadal. It should be stated explicitly rather than assumed, because a referee will otherwise read Fishman as a null on the whole mechanism.
+
+**A methodological warning we should act on.** Treated farmers were 17 to 33 percentage points more likely to *report* saving water, driven entirely by claims of reducing hours — unverifiable — with no increase in reported use of observable irrigation technology, while the meters showed nothing. Relying on self-reports would have produced a large positive treatment effect out of thin air. Our household-survey outcomes (IHDS, DHS water source) are self-reported in exactly this way, and respondents in a surveyed village have some idea what the surveyor wants to hear.
+
+**Their Table 1 is a ready-made exposure table.** Average agricultural tariff in Rs per unit around 2011: Punjab and Tamil Nadu 0.00, Andhra Pradesh 0.09, Haryana 0.36, Rajasthan 1.21, Karnataka 1.45, Gujarat 1.77, Maharashtra 1.97, Uttar Pradesh 2.10, Madhya Pradesh 2.29, against an all-India cost of supply of 4.91. Share of sown area irrigated by groundwater: Haryana 62%, Punjab 61%, Uttar Pradesh 50%, Gujarat 30%, Rajasthan 23%, Tamil Nadu 22%, Andhra Pradesh 19%, Madhya Pradesh 16%, Karnataka 12%, Maharashtra 11%. The cross-state spread in the tariff is wide and it lines up only loosely with groundwater dependence, which is what an exposure design needs.
+
+The sources behind that table matter more than the numbers: the Planning Commission's annual report on the working of state power utilities, *All India Electricity Statistics*, and the **3rd Minor Irrigation Census (2001)** for electrically powered wells and the groundwater-irrigated share. The MI census blocked us at village level, but its state aggregates are published and usable.
+
+**One reference to add.** Sekhri & Nagavarapu, "Less is more? Implications of regulatory capture for natural resource depletion" (Virginia working paper), on regulatory capture of electricity regulation amplifying extraction. It sits between our two legs — politics shaping the price of private water — and should be tracked down.
+
+### What this changes
+
+1. The rationing map is now the first thing to build, before any tariff table. It decides whether the track lives.
+2. If it lives, the specification to run is tariffs interacted with pre-existing aquifer depth, following the 2011 Badiani–Jessoe draft, not a binary reform dummy.
+3. The extensive-margin asymmetry is a feature: well adoption responds to price cuts and does not reverse, which is the right time profile for a decadal census outcome.
+
+### Open questions for Jack
+
+1. Can we get the Tariff Schedules of Electric Power Utilities volumes (1997, 1998, 2002, 2005) through a library, given that we are not writing to the authors?
+2. Does the irrigation-versus-drinking-water link (section 3bis) survive, or do we switch the outcome to public irrigation?
+3. Is a design that only identifies off non-rationing state-years worth the sample it leaves?
 
 ## 4. The gap
 
