@@ -1,0 +1,116 @@
+vague,variable,code,libelle,n_non_pondere
+nfhs3,hv201,10,piped water,0
+nfhs3,hv201,11,piped into dwelling,21269
+nfhs3,hv201,12,piped to yard/plot,15320
+nfhs3,hv201,13,public tap/standpipe,18561
+nfhs3,hv201,20,tube well water,0
+nfhs3,hv201,21,tube well or borehole,32304
+nfhs3,hv201,30,dug well (open/protected),0
+nfhs3,hv201,31,protected well,3363
+nfhs3,hv201,32,unprotected well,9093
+nfhs3,hv201,40,surface water,0
+nfhs3,hv201,41,protected spring,1816
+nfhs3,hv201,42,unprotected spring,2374
+nfhs3,hv201,43,river/dam/lake/ponds/stream/canal/irrigation channel,2806
+nfhs3,hv201,51,rainwater,194
+nfhs3,hv201,61,tanker truck,919
+nfhs3,hv201,62,cart with small tank,200
+nfhs3,hv201,71,bottled water,518
+nfhs3,hv201,96,other,295
+nfhs3,hv201,99,,9
+nfhs3,hv202,10,piped water,0
+nfhs3,hv202,11,piped into dwelling,21468
+nfhs3,hv202,12,piped to yard/plot,15437
+nfhs3,hv202,13,public tap/standpipe,18618
+nfhs3,hv202,20,tube well water,0
+nfhs3,hv202,21,tube well or borehole,32397
+nfhs3,hv202,30,dug well (open/protected),0
+nfhs3,hv202,31,protected well,3375
+nfhs3,hv202,32,unprotected well,9103
+nfhs3,hv202,40,surface water,0
+nfhs3,hv202,41,protected spring,1816
+nfhs3,hv202,42,unprotected spring,2374
+nfhs3,hv202,43,river/dam/lake/ponds/stream/canal/irrigation channel,2807
+nfhs3,hv202,51,rainwater,194
+nfhs3,hv202,61,tanker truck,939
+nfhs3,hv202,62,cart with small tank,200
+nfhs3,hv202,96,other,299
+nfhs3,hv202,99,,14
+nfhs4,hv201,10,piped water,0
+nfhs4,hv201,11,piped into dwelling,102301
+nfhs4,hv201,12,piped to yard/plot,79463
+nfhs4,hv201,13,public tap/standpipe,86007
+nfhs4,hv201,20,tube well water,0
+nfhs4,hv201,21,tube well or borehole,230641
+nfhs4,hv201,30,dug well (open/protected),0
+nfhs4,hv201,31,protected well,20561
+nfhs4,hv201,32,unprotected well,33059
+nfhs4,hv201,40,surface water,0
+nfhs4,hv201,41,protected spring,5965
+nfhs4,hv201,42,unprotected spring,7445
+nfhs4,hv201,43,river/dam/lake/ponds/stream/canal/irrigation channel,10565
+nfhs4,hv201,51,rainwater,2074
+nfhs4,hv201,61,tanker truck,8236
+nfhs4,hv201,62,cart with small tank,1123
+nfhs4,hv201,71,bottled water,9715
+nfhs4,hv201,72,community ro plant,3198
+nfhs4,hv201,96,other,1156
+nfhs4,hv202,,,601509
+nfhs4,hv202,10,piped water,0
+nfhs4,hv202,11,piped into dwelling,0
+nfhs4,hv202,12,piped to yard/plot,0
+nfhs4,hv202,13,public tap/standpipe,0
+nfhs4,hv202,20,tube well water,0
+nfhs4,hv202,21,tube well or borehole,0
+nfhs4,hv202,30,dug well (open/protected),0
+nfhs4,hv202,31,protected well,0
+nfhs4,hv202,32,unprotected well,0
+nfhs4,hv202,40,surface water,0
+nfhs4,hv202,41,protected spring,0
+nfhs4,hv202,42,unprotected spring,0
+nfhs4,hv202,43,river/dam/lake/ponds/stream/canal/irrigation channel,0
+nfhs4,hv202,51,rainwater,0
+nfhs4,hv202,61,tanker truck,0
+nfhs4,hv202,62,cart with small tank,0
+nfhs4,hv202,71,bottled water,0
+nfhs4,hv202,96,other,0
+nfhs5,hv201,10,piped water,0
+nfhs5,hv201,11,piped into dwelling,121970
+nfhs5,hv201,12,piped to yard/plot,97198
+nfhs5,hv201,13,piped to neighbor,10726
+nfhs5,hv201,14,public tap/standpipe,80308
+nfhs5,hv201,20,tube well water,0
+nfhs5,hv201,21,tube well or borehole,212311
+nfhs5,hv201,30,dug well (open/protected),0
+nfhs5,hv201,31,protected well,23265
+nfhs5,hv201,32,unprotected well,23009
+nfhs5,hv201,40,surface from spring,0
+nfhs5,hv201,41,protected spring,7183
+nfhs5,hv201,42,unprotected spring,6304
+nfhs5,hv201,43,river/dam/lake/ponds/stream/canal/irrigation channel,8263
+nfhs5,hv201,51,rainwater,2927
+nfhs5,hv201,61,tanker truck,7249
+nfhs5,hv201,62,cart with small tank,1404
+nfhs5,hv201,71,bottled water,15881
+nfhs5,hv201,92,community ro plant,16277
+nfhs5,hv201,96,other,2424
+nfhs5,hv202,,,636699
+nfhs5,hv202,10,piped water,0
+nfhs5,hv202,11,piped into dwelling,0
+nfhs5,hv202,12,piped to yard/plot,0
+nfhs5,hv202,13,piped to neighbor,0
+nfhs5,hv202,14,public tap/standpipe,0
+nfhs5,hv202,20,tube well water,0
+nfhs5,hv202,21,tube well or borehole,0
+nfhs5,hv202,30,dug well (open/protected),0
+nfhs5,hv202,31,protected well,0
+nfhs5,hv202,32,unprotected well,0
+nfhs5,hv202,40,surface from spring,0
+nfhs5,hv202,41,protected spring,0
+nfhs5,hv202,42,unprotected spring,0
+nfhs5,hv202,43,river/dam/lake/ponds/stream/canal/irrigation channel,0
+nfhs5,hv202,51,rainwater,0
+nfhs5,hv202,61,tanker truck,0
+nfhs5,hv202,62,cart with small tank,0
+nfhs5,hv202,71,bottled water,0
+nfhs5,hv202,96,other,0

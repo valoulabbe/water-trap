@@ -1,0 +1,43 @@
+vague,variable,libelle,codes
+nfhs3,hv237,anything done to water to make safe to drink,0=no | 1=yes | 8=don't know
+nfhs3,hv237a,water usually treated by: boiling,0=no | 1=yes | 8=don't know
+nfhs3,hv237b,water usually treated by: adding bleach/chlorine,0=no | 1=yes | 8=don't know
+nfhs3,hv237c,water usually treated by: straining through cloth,0=no | 1=yes | 8=don't know
+nfhs3,hv237d,water usually treated by: using water filter,0=no | 1=yes | 8=don't know
+nfhs3,hv237e,water usually treated by: s-na,=
+nfhs3,hv237f,water usually treated by: let stand and settle,0=no | 1=yes | 8=don't know
+nfhs3,hv237g,water usually treated by: use alum,0=no | 1=yes | 8=don't know
+nfhs3,hv237h,water usually treated by: use electric purifier,0=no | 1=yes | 8=don't know
+nfhs3,hv237i,water usually treated by: c-na,=
+nfhs3,hv237j,water usually treated by: c-na,=
+nfhs3,hv237k,water usually treated by: c-na,=
+nfhs3,hv237x,water usually treated by: other,0=no | 1=yes | 8=don't know
+nfhs3,hv237z,water usually treated by: don't know,0=no | 1=yes | 8=don't know
+nfhs4,hv237,anything done to water to make safe to drink,0=no | 1=yes | 8=don't know
+nfhs4,hv237a,water usually treated by: boil,0=no | 1=yes | 8=don't know
+nfhs4,hv237b,water usually treated by: add bleach/chlorine,0=no | 1=yes | 8=don't know
+nfhs4,hv237c,water usually treated by: strain through a cloth,0=no | 1=yes | 8=don't know
+nfhs4,hv237d,water usually treated by: use water filter,0=no | 1=yes | 8=don't know
+nfhs4,hv237e,na - water usually treated by: solar disinfection,0=no | 1=yes | 8=don't know
+nfhs4,hv237f,water usually treated by: let it stand and settle,0=no | 1=yes | 8=don't know
+nfhs4,hv237g,water usually treated by: use alum,0=no | 1=yes | 8=don't know
+nfhs4,hv237h,water usually treated by: use electric purifier,0=no | 1=yes | 8=don't know
+nfhs4,hv237i,na - water usually treated by: cs,0=no | 1=yes | 8=don't know
+nfhs4,hv237j,na - water usually treated by: cs,0=no | 1=yes | 8=don't know
+nfhs4,hv237k,na - water usually treated by: cs,0=no | 1=yes | 8=don't know
+nfhs4,hv237x,water usually treated by: other,0=no | 1=yes | 8=don't know
+nfhs4,hv237z,water usually treated by: don't know,0=no | 1=yes: don't know what is done to water | 8=don't know
+nfhs5,hv237,anything done to water to make safe to drink,0=no | 1=yes | 8=don't know
+nfhs5,hv237a,water usually treated by: boil,0=no | 1=yes | 8=don't know
+nfhs5,hv237b,water usually treated by: add bleach/chlorine,0=no | 1=yes | 8=don't know
+nfhs5,hv237c,water usually treated by: strain through a cloth,0=no | 1=yes | 8=don't know
+nfhs5,hv237d,water usually treated by: use water filter,0=no | 1=yes | 8=don't know
+nfhs5,hv237e,water usually treated by: solar disinfection,0=no | 1=yes | 8=don't know
+nfhs5,hv237f,water usually treated by: let it stand and settle,0=no | 1=yes | 8=don't know
+nfhs5,hv237g,water usually treated by: use alum,0=no | 1=yes | 8=don't know
+nfhs5,hv237h,water usually treated by: electronic purifier,0=no | 1=yes | 8=don't know
+nfhs5,hv237i,na - water usually treated by: cs,0=no | 1=yes | 8=don't know
+nfhs5,hv237j,na - water usually treated by: cs,0=no | 1=yes | 8=don't know
+nfhs5,hv237k,na - water usually treated by: cs,0=no | 1=yes | 8=don't know
+nfhs5,hv237x,water usually treated by: other,0=no | 1=yes | 8=don't know
+nfhs5,hv237z,water usually treated by: don't know,0=no | 1=yes: don't know what is done to water | 8=don't know

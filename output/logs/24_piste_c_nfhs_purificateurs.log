@@ -1,0 +1,996 @@
+==============================================================================
+LOG: output/logs/24_piste_c_nfhs_purificateurs.log
+Run started: 2026-10-06 10:34:20
+==============================================================================
+
+ETAPE 24 -- PISTE C : FILTRE ET PURIFICATEUR ELECTRIQUE, NFHS-3/4/5
+Descriptif seulement : aucune regression, aucune issue, aucun critere.
+
+------------------------------------------------------------------------------
+Attentes ecrites avant execution
+------------------------------------------------------------------------------
+A1  N menages HR == rapports : nfhs3 = 109041 ; nfhs4 = 601509 ; nfhs5 = 636699
+A2  hv237, hv237d (filter), hv237h (electric|electronic purifier) presentes partout
+A3  non-reponse de chaque indicateur <= 2 % par vague
+A4  (reecrite 06/10) NFHS-5 Bihar urbain, purificateur electronique 9.5 % (rapport d'Etat FR374), a +/- 0.5 point
+    premiere A4 (16,7 % / 3,3 %, ensemble des menages) : echec, repere mal transmis
+A5  shcity = les 8 villes ; districts et Etat de Delhi trouves exactement une fois
+A6  toute grappe HR presente dans le GE (NFHS-4, NFHS-5)
+
+------------------------------------------------------------------------------
+Etape 0a. Cache allege : une lecture par .DTA (stage)
+------------------------------------------------------------------------------
+  [OK]   haven se charge
+  [OK]   nfhs3 : fichier HR present
+  [OK]   IAHR52FL.dta : format Stata 111 lisible par l'en-tete
+nfhs3 : IAHR52FL.dta, format Stata 111, 3588 variables, 109041 lignes (en-tete)
+[2026-10-06 10:34:21] cache nfhs3 : deja fait, relu depuis build/24_cache_nfhs3.rds (ecrit le 2026-10-06 10:26)
+[2026-10-06 10:34:21] cache nfhs3 : relu (0.1 s)
+  [OK]   nfhs3 (N de l'en-tete Stata): row count == 109,041
+  [OK]   A1 nfhs3 : 109041 menages == 109041 publies
+  [OK]   nfhs3: key (hhid) unique
+  [OK]   nfhs3 : hv000 commence par IA
+nfhs3 : annees d'entretien (hv007) 2005:7042 2006:101999
+  [OK]   nfhs4 : fichier HR present
+  [OK]   IAHR74FL.DTA : format Stata 113 lisible par l'en-tete
+nfhs4 : IAHR74FL.DTA, format Stata 113, 5265 variables, 601509 lignes (en-tete)
+[2026-10-06 10:34:21] cache nfhs4 : deja fait, relu depuis build/24_cache_nfhs4.rds (ecrit le 2026-10-06 10:26)
+[2026-10-06 10:34:23] cache nfhs4 : relu (1.7 s)
+  [OK]   nfhs4 (N de l'en-tete Stata): row count == 601,509
+  [OK]   A1 nfhs4 : 601509 menages == 601509 publies
+  [OK]   nfhs4: key (hhid) unique
+  [OK]   nfhs4 : hv000 commence par IA
+nfhs4 : annees d'entretien (hv007) 2015:302359 2016:299150
+  [OK]   nfhs5 : fichier HR present
+  [OK]   IAHR7EFL.DTA : format Stata 113 lisible par l'en-tete
+nfhs5 : IAHR7EFL.DTA, format Stata 113, 6482 variables, 636699 lignes (en-tete)
+[2026-10-06 10:34:24] cache nfhs5 : deja fait, relu depuis build/24_cache_nfhs5.rds (ecrit le 2026-10-06 10:27)
+[2026-10-06 10:34:26] cache nfhs5 : relu (1.6 s)
+  [OK]   nfhs5 (N de l'en-tete Stata): row count == 636,699
+  [OK]   A1 nfhs5 : 636699 menages == 636699 publies
+  [OK]   nfhs5: key (hhid) unique
+  [OK]   nfhs5 : hv000 commence par IA
+nfhs5 : annees d'entretien (hv007) 2019:304437 2020:177257 2021:155005
+
+------------------------------------------------------------------------------
+Etape 0b. Disponibilite de la serie hv237 (A2)
+------------------------------------------------------------------------------
+  vague variable                                           libelle
+ <char>   <char>                                            <char>
+  nfhs3    hv237      anything done to water to make safe to drink
+  nfhs3   hv237a                 water usually treated by: boiling
+  nfhs3   hv237b  water usually treated by: adding bleach/chlorine
+  nfhs3   hv237c water usually treated by: straining through cloth
+  nfhs3   hv237d      water usually treated by: using water filter
+  nfhs3   hv237e                    water usually treated by: s-na
+  nfhs3   hv237f    water usually treated by: let stand and settle
+  nfhs3   hv237g                water usually treated by: use alum
+  nfhs3   hv237h   water usually treated by: use electric purifier
+  nfhs3   hv237i                    water usually treated by: c-na
+  nfhs3   hv237j                    water usually treated by: c-na
+  nfhs3   hv237k                    water usually treated by: c-na
+  nfhs3   hv237x                   water usually treated by: other
+  nfhs3   hv237z              water usually treated by: don't know
+  nfhs4    hv237      anything done to water to make safe to drink
+  nfhs4   hv237a                    water usually treated by: boil
+  nfhs4   hv237b     water usually treated by: add bleach/chlorine
+  nfhs4   hv237c  water usually treated by: strain through a cloth
+  nfhs4   hv237d        water usually treated by: use water filter
+  nfhs4   hv237e na - water usually treated by: solar disinfection
+  nfhs4   hv237f water usually treated by: let it stand and settle
+  nfhs4   hv237g                water usually treated by: use alum
+  nfhs4   hv237h   water usually treated by: use electric purifier
+  nfhs4   hv237i                 na - water usually treated by: cs
+  nfhs4   hv237j                 na - water usually treated by: cs
+  nfhs4   hv237k                 na - water usually treated by: cs
+  nfhs4   hv237x                   water usually treated by: other
+  nfhs4   hv237z              water usually treated by: don't know
+  nfhs5    hv237      anything done to water to make safe to drink
+  nfhs5   hv237a                    water usually treated by: boil
+  nfhs5   hv237b     water usually treated by: add bleach/chlorine
+  nfhs5   hv237c  water usually treated by: strain through a cloth
+  nfhs5   hv237d        water usually treated by: use water filter
+  nfhs5   hv237e      water usually treated by: solar disinfection
+  nfhs5   hv237f water usually treated by: let it stand and settle
+  nfhs5   hv237g                water usually treated by: use alum
+  nfhs5   hv237h     water usually treated by: electronic purifier
+  nfhs5   hv237i                 na - water usually treated by: cs
+  nfhs5   hv237j                 na - water usually treated by: cs
+  nfhs5   hv237k                 na - water usually treated by: cs
+  nfhs5   hv237x                   water usually treated by: other
+  nfhs5   hv237z              water usually treated by: don't know
+  vague variable                                           libelle
+ <char>   <char>                                            <char>
+                                                         codes
+                                                        <char>
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                                             =
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                                             =
+                                                             =
+                                                             =
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+ 0=no | 1=yes: don't know what is done to water | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+                                   0=no | 1=yes | 8=don't know
+ 0=no | 1=yes: don't know what is done to water | 8=don't know
+                                                         codes
+                                                        <char>
+  [OK]   A2 nfhs3: all 3 named variables present
+  [OK]   A2 nfhs3 : hv237d = water usually treated by: using water filter
+  [OK]   A2 nfhs3 : hv237h = water usually treated by: use electric purifier
+  [OK]   A2 nfhs4: all 3 named variables present
+  [OK]   A2 nfhs4 : hv237d = water usually treated by: use water filter
+  [OK]   A2 nfhs4 : hv237h = water usually treated by: use electric purifier
+  [OK]   A2 nfhs5: all 3 named variables present
+  [OK]   A2 nfhs5 : hv237d = water usually treated by: use water filter
+  [OK]   A2 nfhs5 : hv237h = water usually treated by: electronic purifier
+Formulation (libelles DHS du fichier ; questionnaires absents de raw/) :
+  nfhs3 hv237 : « anything done to water to make safe to drink » ; methodes : « water usually treated by: ... » (une variable 0/1 par methode)
+  nfhs4 hv237 : « anything done to water to make safe to drink » ; methodes : « water usually treated by: ... » (une variable 0/1 par methode)
+  nfhs5 hv237 : « anything done to water to make safe to drink » ; methodes : « water usually treated by: ... » (une variable 0/1 par methode)
+
+------------------------------------------------------------------------------
+Etape 0c. Table menage harmonisee, univers et non-reponse (A3)
+------------------------------------------------------------------------------
+  [OK]   shslumc : libelles slum / non-slum
+nfhs3 : univers -- croisement non pondere hv237 x hv237d puis hv237 x hv237h
+ hv237 hv237d     N
+ <num>  <num> <int>
+     0     NA 59650
+     1      0 37452
+     1      1 11845
+     1      9    40
+     8     NA    22
+     9     NA    32
+ hv237 hv237h     N
+ <num>  <num> <int>
+     0     NA 59650
+     1      0 47333
+     1      1  1964
+     1      9    40
+     8     NA    22
+     9     NA    32
+  [OK]   shslumc : libelles slum / non-slum
+nfhs4 : univers -- croisement non pondere hv237 x hv237d puis hv237 x hv237h
+ hv237 hv237d      N
+ <num>  <num>  <int>
+     0      0 354423
+     1      0 195148
+     1      1  51835
+     8      8    103
+ hv237 hv237h      N
+ <num>  <num>  <int>
+     0      0 354423
+     1      0 221018
+     1      1  25965
+     8      8    103
+nfhs5 : univers -- croisement non pondere hv237 x hv237d puis hv237 x hv237h
+ hv237 hv237d      N
+ <num>  <num>  <int>
+     0      0 341918
+     1      0 233103
+     1      1  61616
+     8      8     62
+ hv237 hv237h      N
+ <num>  <num>  <int>
+     0      0 341918
+     1      0 265527
+     1      1  29192
+     8      8     62
+  vague periode menages menages_urbains menages_ruraux part_hv237_manquante
+ <char>  <char>   <int>           <int>          <int>                <num>
+  nfhs3 2005-06  109041           50236          58805                    0
+  nfhs4 2015-16  601509          175946         425563                    0
+  nfhs5 2019-21  636699          160138         476561                    0
+ part_hv237_nsp part_traite part_methode_nr_filtre part_methode_nr_purificateur
+          <num>       <num>                  <num>                        <num>
+   2.017590e-04   0.4524628           0.0003668345                 0.0003668345
+   1.712360e-04   0.4106057           0.0000000000                 0.0000000000
+   9.737725e-05   0.4628859           0.0000000000                 0.0000000000
+ nonrep_filtre nonrep_purificateur
+         <num>               <num>
+  8.620611e-04        8.620611e-04
+  1.712360e-04        1.712360e-04
+  9.737725e-05        9.737725e-05
+  [OK]   A3 nfhs3 filtre : non-reponse 0.09 % <= 2 %
+  [OK]   A3 nfhs3 purificateur : non-reponse 0.09 % <= 2 %
+  [OK]   A3 nfhs4 filtre : non-reponse 0.02 % <= 2 %
+  [OK]   A3 nfhs4 purificateur : non-reponse 0.02 % <= 2 %
+  [OK]   A3 nfhs5 filtre : non-reponse 0.01 % <= 2 %
+  [OK]   A3 nfhs5 purificateur : non-reponse 0.01 % <= 2 %
+
+------------------------------------------------------------------------------
+Etape 1a. Taux d'adoption ponderes : ensemble, urbain, rural (A4)
+------------------------------------------------------------------------------
+  vague     zone      methode      n n_oui   pct ic_bas ic_haut
+ <char>   <char>       <char>  <int> <int> <num>  <num>   <num>
+  nfhs3 ensemble       filtre 108947 11845  6.59   6.15    7.02
+  nfhs3 ensemble purificateur 108947  1964  1.19   1.03    1.35
+  nfhs3   urbain       filtre  50187  8806 13.46  12.36   14.56
+  nfhs3   urbain purificateur  50187  1866  3.38   2.89    3.86
+  nfhs3    rural       filtre  58760  3039  3.26   2.90    3.62
+  nfhs3    rural purificateur  58760    98  0.13   0.08    0.18
+  nfhs4 ensemble       filtre 601406 51835  6.63   6.45    6.82
+  nfhs4 ensemble purificateur 601406 25965  4.82   4.63    5.01
+  nfhs4   urbain       filtre 175926 26587 12.54  12.04   13.04
+  nfhs4   urbain purificateur 175926 18730 11.05  10.52   11.58
+  nfhs4    rural       filtre 425480 25248  3.47   3.37    3.57
+  nfhs4    rural purificateur 425480  7235  1.48   1.42    1.55
+  nfhs5 ensemble       filtre 636637 61616  6.97   6.81    7.13
+  nfhs5 ensemble purificateur 636637 29192  5.57   5.39    5.74
+  nfhs5   urbain       filtre 160125 24204 11.82  11.40   12.25
+  nfhs5   urbain purificateur 160125 19469 12.82  12.29   13.34
+  nfhs5    rural       filtre 476512 37412  4.55   4.44    4.66
+  nfhs5    rural purificateur 476512  9723  1.96   1.89    2.04
+  [OK]   A4 nfhs5 : Etat « bihar » trouve une fois (code 10)
+nfhs5 Bihar urbain, purificateur : n = 3788, 9.48 % [7.33 ; 11.64]
+  [OK]   A4 NFHS-5 Bihar urbain purificateur : 9.48 % contre repere 9.5 % (+/- 0.5)
+
+------------------------------------------------------------------------------
+Etape 1b. Les huit villes du NFHS-3, bidonville / hors bidonville (A5)
+------------------------------------------------------------------------------
+  [OK]   A5 shcity porte exactement les huit villes
+nfhs3 : menages de l'echantillon des villes : 18575 ; dont urbains (hv025) : 18575 ; bidonville renseigne : 18575
+  [OK]   nfhs4 : une variable de district
+  [OK]   A5 nfhs4 : district « chennai » trouve une fois (code 603)
+  [OK]   A5 nfhs4 : district « hyderabad » trouve une fois (code 536)
+  [OK]   A5 nfhs4 : district « indore » trouve une fois (code 439)
+  [OK]   A5 nfhs4 : district « kolkata » trouve une fois (code 342)
+  [OK]   A5 nfhs4 : district « meerut » trouve une fois (code 138)
+  [OK]   A5 nfhs4 : district « mumbai » trouve une fois (code 519)
+  [OK]   A5 nfhs4 : district « mumbai suburban » trouve une fois (code 518)
+  [OK]   A5 nfhs4 : district « nagpur » trouve une fois (code 505)
+  [OK]   A5 nfhs4 : Etat de Delhi trouve une fois (code 25)
+nfhs4 : menages urbains des huit villes (approximation district) : 13414
+  [OK]   nfhs5 : une variable de district
+  [OK]   A5 nfhs5 : district « chennai » trouve une fois (code 603)
+  [OK]   A5 nfhs5 : district « hyderabad » trouve une fois (code 885)
+  [OK]   A5 nfhs5 : district « indore » trouve une fois (code 439)
+  [OK]   A5 nfhs5 : district « kolkata » trouve une fois (code 342)
+  [OK]   A5 nfhs5 : district « meerut » trouve une fois (code 138)
+  [OK]   A5 nfhs5 : district « mumbai » trouve une fois (code 519)
+  [OK]   A5 nfhs5 : district « mumbai suburban » trouve une fois (code 518)
+  [OK]   A5 nfhs5 : district « nagpur » trouve une fois (code 505)
+  [OK]   A5 nfhs5 : Etat de Delhi trouve une fois (code 7)
+nfhs5 : menages urbains des huit villes (approximation district) : 14656
+Couverture de shslumc parmi les menages des huit villes (non pondere) :
+  vague     ville menages bidonville_renseigne
+ <char>    <char>   <int>                <int>
+  nfhs3   chennai    2037                 2037
+  nfhs3     delhi    3110                 3110
+  nfhs3 hyderabad    2741                 2741
+  nfhs3    indore    1877                 1877
+  nfhs3   kolkata    2291                 2291
+  nfhs3    meerut    2127                 2127
+  nfhs3    mumbai    2187                 2187
+  nfhs3    nagpur    2205                 2205
+  nfhs4   chennai     819                  819
+  nfhs4     delhi    5952                    0
+  nfhs4 hyderabad     766                  766
+  nfhs4    indore    1693                 1693
+  nfhs4   kolkata     749                  749
+  nfhs4    meerut    1499                 1499
+  nfhs4    mumbai    1317                    0
+  nfhs4    nagpur     619                  619
+  nfhs5   chennai     743                    0
+  nfhs5     delhi    9180                    0
+  nfhs5 hyderabad     703                    0
+  nfhs5    indore     607                    0
+  nfhs5   kolkata     879                    0
+  nfhs5    meerut     452                    0
+  nfhs5    mumbai    1461                    0
+  nfhs5    nagpur     631                    0
+  vague     ville menages bidonville_renseigne
+ <char>    <char>   <int>                <int>
+  vague     ville      bidonville      methode     n n_oui   pct ic_bas ic_haut
+ <char>    <char>          <char>       <char> <int> <int> <num>  <num>   <num>
+  nfhs3  8 villes        ensemble       filtre 18555  2920 15.69  14.42   16.96
+  nfhs3  8 villes        ensemble purificateur 18555   923  5.57   4.60    6.55
+  nfhs3  8 villes      bidonville       filtre  8664   940  8.89   7.21   10.56
+  nfhs3  8 villes      bidonville purificateur  8664   177  1.38   0.92    1.84
+  nfhs3  8 villes hors bidonville       filtre  9891  1980 19.18  17.46   20.90
+  nfhs3  8 villes hors bidonville purificateur  9891   746  7.73   6.26    9.19
+  nfhs3   chennai        ensemble       filtre  2036   196 11.36   8.61   14.11
+  nfhs3   chennai        ensemble purificateur  2036    52  3.33   1.90    4.75
+  nfhs3   chennai      bidonville       filtre   940    59  6.28   4.00    8.55
+  nfhs3   chennai      bidonville purificateur   940    10  1.06   0.37    1.76
+  nfhs3   chennai hors bidonville       filtre  1096   137 12.50   9.17   15.83
+  nfhs3   chennai hors bidonville purificateur  1096    42  3.83   2.09    5.58
+  nfhs3     delhi        ensemble       filtre  3107   416 16.03  12.99   19.07
+  nfhs3     delhi        ensemble purificateur  3107   222  8.76   5.79   11.72
+  nfhs3     delhi      bidonville       filtre  1196    53  4.43   2.03    6.83
+  nfhs3     delhi      bidonville purificateur  1196    20  1.67   0.19    3.15
+  nfhs3     delhi hors bidonville       filtre  1911   363 19.00  15.19   22.80
+  nfhs3     delhi hors bidonville purificateur  1911   202 10.57   6.83   14.31
+  nfhs3 hyderabad        ensemble       filtre  2737   915 35.49  31.15   39.83
+  nfhs3 hyderabad        ensemble purificateur  2737    96  3.93   1.13    6.73
+  nfhs3 hyderabad      bidonville       filtre  1326   397 29.94  23.42   36.46
+  nfhs3 hyderabad      bidonville purificateur  1326    37  2.79   0.57    5.01
+  nfhs3 hyderabad hors bidonville       filtre  1411   518 36.71  31.58   41.84
+  nfhs3 hyderabad hors bidonville purificateur  1411    59  4.18   0.80    7.57
+  nfhs3    indore        ensemble       filtre  1877   179 10.12   6.71   13.53
+  nfhs3    indore        ensemble purificateur  1877    90  6.23   3.42    9.05
+  nfhs3    indore      bidonville       filtre   980    85  8.67   4.22   13.13
+  nfhs3    indore      bidonville purificateur   980    26  2.65  -0.82    6.13
+  nfhs3    indore hors bidonville       filtre   897    94 10.48   6.35   14.60
+  nfhs3    indore hors bidonville purificateur   897    64  7.13   3.72   10.55
+  nfhs3   kolkata        ensemble       filtre  2291   309 15.13  12.59   17.68
+  nfhs3   kolkata        ensemble purificateur  2291   171  8.75   5.91   11.58
+  nfhs3   kolkata      bidonville       filtre  1104    88  7.97   4.49   11.45
+  nfhs3   kolkata      bidonville purificateur  1104    35  3.17   1.21    5.13
+  nfhs3   kolkata hors bidonville       filtre  1187   221 18.62  15.17   22.07
+  nfhs3   kolkata hors bidonville purificateur  1187   136 11.46   7.30   15.62
+  nfhs3    meerut        ensemble       filtre  2125   104  5.06   3.16    6.95
+  nfhs3    meerut        ensemble purificateur  2125   126  6.19   3.51    8.87
+  nfhs3    meerut      bidonville       filtre  1017    31  3.05   1.15    4.94
+  nfhs3    meerut      bidonville purificateur  1017    30  2.95  -0.09    5.99
+  nfhs3    meerut hors bidonville       filtre  1108    73  6.59   3.61    9.56
+  nfhs3    meerut hors bidonville purificateur  1108    96  8.66   4.54   12.79
+  nfhs3    mumbai        ensemble       filtre  2180   249 11.12   8.67   13.57
+  nfhs3    mumbai        ensemble purificateur  2180    78  3.26   1.91    4.60
+  nfhs3    mumbai      bidonville       filtre  1102    96  8.71   5.80   11.63
+  nfhs3    mumbai      bidonville purificateur  1102     8  0.73   0.16    1.29
+  nfhs3    mumbai hors bidonville       filtre  1078   153 14.19  10.06   18.32
+  nfhs3    mumbai hors bidonville purificateur  1078    70  6.49   3.48    9.50
+  nfhs3    nagpur        ensemble       filtre  2202   552 27.58  23.64   31.53
+  nfhs3    nagpur        ensemble purificateur  2202    88  4.61   2.77    6.44
+  nfhs3    nagpur      bidonville       filtre   999   131 13.11   9.81   16.42
+  nfhs3    nagpur      bidonville purificateur   999    11  1.10   0.01    2.19
+  nfhs3    nagpur hors bidonville       filtre  1203   421 35.00  29.56   40.44
+  nfhs3    nagpur hors bidonville purificateur  1203    77  6.40   3.69    9.11
+  nfhs4  8 villes        ensemble       filtre 13412  1435 11.93  10.17   13.68
+  nfhs4  8 villes        ensemble purificateur 13412  2290 13.25  11.49   15.00
+  nfhs4  8 villes      bidonville       filtre  2744   165  7.51   5.32    9.69
+  nfhs4  8 villes      bidonville purificateur  2744   149  5.93   3.47    8.39
+  nfhs4  8 villes hors bidonville       filtre  3400   387 16.42  12.72   20.12
+  nfhs4  8 villes hors bidonville purificateur  3400   435 12.09   8.92   15.25
+  nfhs4   chennai        ensemble       filtre   819    88 16.69   7.50   25.88
+  nfhs4   chennai        ensemble purificateur   819   100 15.59   7.53   23.65
+  nfhs4   chennai      bidonville       filtre   409    30  7.25   4.33   10.17
+  nfhs4   chennai      bidonville purificateur   409    34  8.21   3.43   13.00
+  nfhs4   chennai hors bidonville       filtre   410    58 17.93   7.70   28.16
+  nfhs4   chennai hors bidonville purificateur   410    66 16.55   7.46   25.65
+  nfhs4     delhi        ensemble       filtre  5951   780 11.36   8.89   13.82
+  nfhs4     delhi        ensemble purificateur  5951  1594 21.59  17.03   26.14
+  nfhs4 hyderabad        ensemble       filtre   766   141 22.62  15.52   29.73
+  nfhs4 hyderabad        ensemble purificateur   766    34  4.71   1.93    7.50
+  nfhs4 hyderabad      bidonville       filtre   394    51 13.59   7.93   19.25
+  nfhs4 hyderabad      bidonville purificateur   394    12  2.88   0.99    4.77
+  nfhs4 hyderabad hors bidonville       filtre   372    90 24.27  16.10   32.44
+  nfhs4 hyderabad hors bidonville purificateur   372    22  5.05   1.74    8.36
+  nfhs4    indore        ensemble       filtre  1692   131  8.78   5.34   12.22
+  nfhs4    indore        ensemble purificateur  1692   120  8.56   5.01   12.12
+  nfhs4    indore      bidonville       filtre   748    34  6.30  -0.08   12.68
+  nfhs4    indore      bidonville purificateur   748    45 10.24   0.89   19.60
+  nfhs4    indore hors bidonville       filtre   944    97  9.88   5.89   13.87
+  nfhs4    indore hors bidonville purificateur   944    75  7.82   4.77   10.87
+  nfhs4   kolkata        ensemble       filtre   749    83 14.20   8.55   19.85
+  nfhs4   kolkata        ensemble purificateur   749    64 13.34   6.74   19.94
+  nfhs4   kolkata      bidonville       filtre   375    19  5.11   1.92    8.30
+  nfhs4   kolkata      bidonville purificateur   375     9  2.39   0.97    3.81
+  nfhs4   kolkata hors bidonville       filtre   374    64 16.19   9.30   23.07
+  nfhs4   kolkata hors bidonville purificateur   374    55 15.73   7.71   23.75
+  nfhs4    meerut        ensemble       filtre  1499    38  4.43   0.87    7.98
+  nfhs4    meerut        ensemble purificateur  1499   237 18.71  11.65   25.76
+  nfhs4    meerut      bidonville       filtre   565     9  1.26   0.38    2.15
+  nfhs4    meerut      bidonville purificateur   565    41  7.36   3.47   11.26
+  nfhs4    meerut hors bidonville       filtre   934    29  5.01   0.89    9.13
+  nfhs4    meerut hors bidonville purificateur   934   196 20.80  12.49   29.11
+  nfhs4    mumbai        ensemble       filtre  1317   103  7.05   4.97    9.14
+  nfhs4    mumbai        ensemble purificateur  1317   112  7.09   4.80    9.37
+  nfhs4    nagpur        ensemble       filtre   619    71 13.93   8.81   19.06
+  nfhs4    nagpur        ensemble purificateur   619    29  7.24   0.52   13.97
+  nfhs4    nagpur      bidonville       filtre   253    22  8.67   4.54   12.80
+  nfhs4    nagpur      bidonville purificateur   253     8  3.11   0.52    5.71
+  nfhs4    nagpur hors bidonville       filtre   366    49 14.45   8.85   20.04
+  nfhs4    nagpur hors bidonville purificateur   366    21  7.64   0.31   14.98
+  nfhs5  8 villes        ensemble       filtre 14656  1695 11.18   9.96   12.40
+  nfhs5  8 villes        ensemble purificateur 14656  3694 21.23  18.99   23.46
+  nfhs5   chennai        ensemble       filtre   743    61  8.26   5.19   11.34
+  nfhs5   chennai        ensemble purificateur   743    98 13.12   8.60   17.63
+  nfhs5     delhi        ensemble       filtre  9180  1023 10.45   9.35   11.55
+  nfhs5     delhi        ensemble purificateur  9180  2781 29.90  27.51   32.30
+  nfhs5 hyderabad        ensemble       filtre   703   143 19.03  14.18   23.89
+  nfhs5 hyderabad        ensemble purificateur   703    91 11.65   7.45   15.85
+  nfhs5    indore        ensemble       filtre   607    48  8.44   3.95   12.92
+  nfhs5    indore        ensemble purificateur   607    61  9.75   4.87   14.62
+  nfhs5   kolkata        ensemble       filtre   879   110 12.17   7.90   16.43
+  nfhs5   kolkata        ensemble purificateur   879   150 16.74  10.41   23.07
+  nfhs5    meerut        ensemble       filtre   452    47 11.12   4.93   17.32
+  nfhs5    meerut        ensemble purificateur   452    87 20.07  13.49   26.64
+  nfhs5    mumbai        ensemble       filtre  1461   187 11.17   7.84   14.49
+  nfhs5    mumbai        ensemble purificateur  1461   374 22.92  15.86   29.99
+  nfhs5    nagpur        ensemble       filtre   631    76 11.57   6.05   17.09
+  nfhs5    nagpur        ensemble purificateur   631    52  8.45   3.07   13.82
+  vague     ville      bidonville      methode     n n_oui   pct ic_bas ic_haut
+ <char>    <char>          <char>       <char> <int> <int> <num>  <num>   <num>
+
+------------------------------------------------------------------------------
+Etape 2. Inventaire des variables de source d'eau (comptes NON ponderes)
+------------------------------------------------------------------------------
+  vague variable
+ <char>   <char>
+  nfhs3    hv201
+  nfhs3    hv202
+  nfhs3    hv204
+  nfhs3    hv205
+  nfhs3    hv206
+  nfhs3    hv207
+  nfhs3    hv208
+  nfhs3    hv209
+  nfhs3    hv234
+  nfhs3    hv235
+  nfhs3    hv236
+  nfhs3    hv238
+  nfhs3    hv239
+  nfhs3    sh47u
+  nfhs4    hv201
+  nfhs4    hv202
+  nfhs4    hv204
+  nfhs4    hv205
+  nfhs4    hv206
+  nfhs4    hv207
+  nfhs4    hv208
+  nfhs4    hv209
+  nfhs4   hv230a
+  nfhs4   hv230b
+  nfhs4    hv232
+  nfhs4   hv232b
+  nfhs4   hv232c
+  nfhs4   hv232d
+  nfhs4   hv232e
+  nfhs4   hv232y
+  nfhs4    hv234
+  nfhs4   hv234a
+  nfhs4    hv235
+  nfhs4    hv236
+  nfhs4    hv238
+  nfhs4    hv239
+  nfhs4    sh37x
+  nfhs5    hv201
+  nfhs5    hv202
+  nfhs5   hv201a
+  nfhs5    hv204
+  nfhs5    hv205
+  nfhs5    hv206
+  nfhs5    hv207
+  nfhs5    hv208
+  nfhs5    hv209
+  nfhs5   hv230a
+  nfhs5   hv230b
+  nfhs5    hv232
+  nfhs5   hv232b
+  nfhs5   hv232c
+  nfhs5   hv232d
+  nfhs5   hv232e
+  nfhs5   hv232y
+  nfhs5    hv234
+  nfhs5   hv234a
+  nfhs5    hv235
+  nfhs5    hv236
+  nfhs5    hv238
+  nfhs5   hv238a
+  nfhs5    hv239
+  nfhs5    sh37b
+  nfhs5    sh50x
+  vague variable
+ <char>   <char>
+                                                                          libelle
+                                                                           <char>
+                                                         source of drinking water
+                                                     source of non-drinking water
+                                      time to go, get water, and return (minutes)
+                                                          type of toilet facility
+                                                                  has electricity
+                                                                        has radio
+                                                                   has television
+                                                                 has refrigerator
+                                                       iodine-in-salt test result
+                                                     location of source for water
+                                                            person fetching water
+                     number of households sharing toilet (including this househol
+                                                food cooked on stove or open fire
+                                                                   has water pump
+                                                         source of drinking water
+                                                na - source of non-drinking water
+                                            time to get to water source (minutes)
+                                                          type of toilet facility
+                                                                  has electricity
+                                                                        has radio
+                                                                   has television
+                                                                 has refrigerator
+                                   place where household members wash their hands
+                                          presence of water at hand washing place
+                                                 items present: soap or detergent
+                                                    items present: ash, mud, sand
+                                                           na - items present: cs
+                                                           na - items present: cs
+                                                           na - items present: cs
+                                                              items present: none
+                                        na - result of salt test for iodine (ppm)
+                                                   result of salt test for iodine
+                                                     location of source for water
+                                                            person fetching water
+                                              number of households sharing toilet
+                                    food cooked on stove or open fire  (see sh39)
+                                                                       water pump
+                                                         source of drinking water
+                                                na - source of non-drinking water
+                       na - water not available for at least a day last two weeks
+                                            time to get to water source (minutes)
+                                                          type of toilet facility
+                                                                  has electricity
+                                                                        has radio
+                                                                   has television
+                                                                 has refrigerator
+                                   place where household members wash their hands
+                                          presence of water at hand washing place
+                                                 items present: soap or detergent
+                                                    items present: ash, mud, sand
+                                                           na - items present: cs
+                                                           na - items present: cs
+                                                           na - items present: cs
+                                                              items present: none
+                                        na - result of salt test for iodine (ppm)
+                                                   result of salt test for iodine
+                                                     location of source for water
+                                                            person fetching water
+                                              number of households sharing toilet
+                                                      location of toilet facility
+                                           na - food cooked on stove or open fire
+ in the past two weeks, was the water from this source not available for at least
+                                                                       water pump
+                                                                          libelle
+                                                                           <char>
+ part_non_manquante n_modalites_etiquetees
+              <num>                  <int>
+         1.00000000                     18
+         1.00000000                     17
+         1.00000000                      2
+         1.00000000                     15
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      5
+         0.65977018                      3
+         0.42477600                      5
+         0.19386286                      2
+         0.63533900                      3
+         1.00000000                      2
+         1.00000000                     19
+         0.00000000                     18
+         1.00000000                      3
+         1.00000000                     15
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      4
+         0.96673865                      2
+         0.96673865                      2
+         0.96673865                      2
+         0.00000000                      2
+         0.00000000                      2
+         0.00000000                      2
+         0.96673865                      2
+         0.00000000                      6
+         1.00000000                      4
+         0.69437199                      3
+         0.34802139                      5
+         0.09634270                      2
+         0.62006720                      3
+         1.00000000                      2
+         1.00000000                     20
+         0.00000000                     19
+         0.00000000                      3
+         1.00000000                      2
+         0.99999843                     17
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      2
+         1.00000000                      4
+         0.96565881                      2
+         0.99236060                      2
+         0.99236060                      2
+         0.00000000                      2
+         0.00000000                      2
+         0.00000000                      2
+         0.99236060                      2
+         0.00000000                      6
+         1.00000000                      4
+         0.63433114                      3
+         0.26817382                      5
+         0.08399416                      2
+         0.81916573                      3
+         0.00000000                      4
+         0.90868212                      3
+         1.00000000                      2
+ part_non_manquante n_modalites_etiquetees
+              <num>                  <int>
+  vague variable  code                                              libelle
+ <char>   <char> <num>                                               <char>
+  nfhs3    hv201    10                                          piped water
+  nfhs3    hv201    11                                  piped into dwelling
+  nfhs3    hv201    12                                   piped to yard/plot
+  nfhs3    hv201    13                                 public tap/standpipe
+  nfhs3    hv201    20                                      tube well water
+  nfhs3    hv201    21                                tube well or borehole
+  nfhs3    hv201    30                            dug well (open/protected)
+  nfhs3    hv201    31                                       protected well
+  nfhs3    hv201    32                                     unprotected well
+  nfhs3    hv201    40                                        surface water
+  nfhs3    hv201    41                                     protected spring
+  nfhs3    hv201    42                                   unprotected spring
+  nfhs3    hv201    43 river/dam/lake/ponds/stream/canal/irrigation channel
+  nfhs3    hv201    51                                            rainwater
+  nfhs3    hv201    61                                         tanker truck
+  nfhs3    hv201    62                                 cart with small tank
+  nfhs3    hv201    71                                        bottled water
+  nfhs3    hv201    96                                                other
+  nfhs3    hv201    99                                                 <NA>
+  nfhs3    hv202    10                                          piped water
+  nfhs3    hv202    11                                  piped into dwelling
+  nfhs3    hv202    12                                   piped to yard/plot
+  nfhs3    hv202    13                                 public tap/standpipe
+  nfhs3    hv202    20                                      tube well water
+  nfhs3    hv202    21                                tube well or borehole
+  nfhs3    hv202    30                            dug well (open/protected)
+  nfhs3    hv202    31                                       protected well
+  nfhs3    hv202    32                                     unprotected well
+  nfhs3    hv202    40                                        surface water
+  nfhs3    hv202    41                                     protected spring
+  nfhs3    hv202    42                                   unprotected spring
+  nfhs3    hv202    43 river/dam/lake/ponds/stream/canal/irrigation channel
+  nfhs3    hv202    51                                            rainwater
+  nfhs3    hv202    61                                         tanker truck
+  nfhs3    hv202    62                                 cart with small tank
+  nfhs3    hv202    96                                                other
+  nfhs3    hv202    99                                                 <NA>
+  nfhs4    hv201    10                                          piped water
+  nfhs4    hv201    11                                  piped into dwelling
+  nfhs4    hv201    12                                   piped to yard/plot
+  nfhs4    hv201    13                                 public tap/standpipe
+  nfhs4    hv201    20                                      tube well water
+  nfhs4    hv201    21                                tube well or borehole
+  nfhs4    hv201    30                            dug well (open/protected)
+  nfhs4    hv201    31                                       protected well
+  nfhs4    hv201    32                                     unprotected well
+  nfhs4    hv201    40                                        surface water
+  nfhs4    hv201    41                                     protected spring
+  nfhs4    hv201    42                                   unprotected spring
+  nfhs4    hv201    43 river/dam/lake/ponds/stream/canal/irrigation channel
+  nfhs4    hv201    51                                            rainwater
+  nfhs4    hv201    61                                         tanker truck
+  nfhs4    hv201    62                                 cart with small tank
+  nfhs4    hv201    71                                        bottled water
+  nfhs4    hv201    72                                   community ro plant
+  nfhs4    hv201    96                                                other
+  nfhs4    hv202    NA                                                 <NA>
+  nfhs4    hv202    10                                          piped water
+  nfhs4    hv202    11                                  piped into dwelling
+  nfhs4    hv202    12                                   piped to yard/plot
+  nfhs4    hv202    13                                 public tap/standpipe
+  nfhs4    hv202    20                                      tube well water
+  nfhs4    hv202    21                                tube well or borehole
+  nfhs4    hv202    30                            dug well (open/protected)
+  nfhs4    hv202    31                                       protected well
+  nfhs4    hv202    32                                     unprotected well
+  nfhs4    hv202    40                                        surface water
+  nfhs4    hv202    41                                     protected spring
+  nfhs4    hv202    42                                   unprotected spring
+  nfhs4    hv202    43 river/dam/lake/ponds/stream/canal/irrigation channel
+  nfhs4    hv202    51                                            rainwater
+  nfhs4    hv202    61                                         tanker truck
+  nfhs4    hv202    62                                 cart with small tank
+  nfhs4    hv202    71                                        bottled water
+  nfhs4    hv202    96                                                other
+  nfhs5    hv201    10                                          piped water
+  nfhs5    hv201    11                                  piped into dwelling
+  nfhs5    hv201    12                                   piped to yard/plot
+  nfhs5    hv201    13                                    piped to neighbor
+  nfhs5    hv201    14                                 public tap/standpipe
+  nfhs5    hv201    20                                      tube well water
+  nfhs5    hv201    21                                tube well or borehole
+  nfhs5    hv201    30                            dug well (open/protected)
+  nfhs5    hv201    31                                       protected well
+  nfhs5    hv201    32                                     unprotected well
+  nfhs5    hv201    40                                  surface from spring
+  nfhs5    hv201    41                                     protected spring
+  nfhs5    hv201    42                                   unprotected spring
+  nfhs5    hv201    43 river/dam/lake/ponds/stream/canal/irrigation channel
+  nfhs5    hv201    51                                            rainwater
+  nfhs5    hv201    61                                         tanker truck
+  nfhs5    hv201    62                                 cart with small tank
+  nfhs5    hv201    71                                        bottled water
+  nfhs5    hv201    92                                   community ro plant
+  nfhs5    hv201    96                                                other
+  nfhs5    hv202    NA                                                 <NA>
+  nfhs5    hv202    10                                          piped water
+  nfhs5    hv202    11                                  piped into dwelling
+  nfhs5    hv202    12                                   piped to yard/plot
+  nfhs5    hv202    13                                    piped to neighbor
+  nfhs5    hv202    14                                 public tap/standpipe
+  nfhs5    hv202    20                                      tube well water
+  nfhs5    hv202    21                                tube well or borehole
+  nfhs5    hv202    30                            dug well (open/protected)
+  nfhs5    hv202    31                                       protected well
+  nfhs5    hv202    32                                     unprotected well
+  nfhs5    hv202    40                                  surface from spring
+  nfhs5    hv202    41                                     protected spring
+  nfhs5    hv202    42                                   unprotected spring
+  nfhs5    hv202    43 river/dam/lake/ponds/stream/canal/irrigation channel
+  nfhs5    hv202    51                                            rainwater
+  nfhs5    hv202    61                                         tanker truck
+  nfhs5    hv202    62                                 cart with small tank
+  nfhs5    hv202    71                                        bottled water
+  nfhs5    hv202    96                                                other
+  vague variable  code                                              libelle
+ <char>   <char> <num>                                               <char>
+ n_non_pondere
+         <int>
+             0
+         21269
+         15320
+         18561
+             0
+         32304
+             0
+          3363
+          9093
+             0
+          1816
+          2374
+          2806
+           194
+           919
+           200
+           518
+           295
+             9
+             0
+         21468
+         15437
+         18618
+             0
+         32397
+             0
+          3375
+          9103
+             0
+          1816
+          2374
+          2807
+           194
+           939
+           200
+           299
+            14
+             0
+        102301
+         79463
+         86007
+             0
+        230641
+             0
+         20561
+         33059
+             0
+          5965
+          7445
+         10565
+          2074
+          8236
+          1123
+          9715
+          3198
+          1156
+        601509
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+        121970
+         97198
+         10726
+         80308
+             0
+        212311
+             0
+         23265
+         23009
+             0
+          7183
+          6304
+          8263
+          2927
+          7249
+          1404
+         15881
+         16277
+          2424
+        636699
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+             0
+ n_non_pondere
+         <int>
+hv201 : codes par vague (libelle absent = code non etiquete dans la vague)
+Clé : <code>
+  code                                                nfhs3
+ <num>                                               <char>
+    10                                          piped water
+    11                                  piped into dwelling
+    12                                   piped to yard/plot
+    13                                 public tap/standpipe
+    14                                                 <NA>
+    20                                      tube well water
+    21                                tube well or borehole
+    30                            dug well (open/protected)
+    31                                       protected well
+    32                                     unprotected well
+    40                                        surface water
+    41                                     protected spring
+    42                                   unprotected spring
+    43 river/dam/lake/ponds/stream/canal/irrigation channel
+    51                                            rainwater
+    61                                         tanker truck
+    62                                 cart with small tank
+    71                                        bottled water
+    72                                                 <NA>
+    92                                                 <NA>
+    96                                                other
+    99                                                 <NA>
+  code                                                nfhs3
+ <num>                                               <char>
+                                                nfhs4
+                                               <char>
+                                          piped water
+                                  piped into dwelling
+                                   piped to yard/plot
+                                 public tap/standpipe
+                                                 <NA>
+                                      tube well water
+                                tube well or borehole
+                            dug well (open/protected)
+                                       protected well
+                                     unprotected well
+                                        surface water
+                                     protected spring
+                                   unprotected spring
+ river/dam/lake/ponds/stream/canal/irrigation channel
+                                            rainwater
+                                         tanker truck
+                                 cart with small tank
+                                        bottled water
+                                   community ro plant
+                                                 <NA>
+                                                other
+                                                 <NA>
+                                                nfhs4
+                                               <char>
+                                                nfhs5 rupture_code
+                                               <char>       <lgcl>
+                                          piped water        FALSE
+                                  piped into dwelling        FALSE
+                                   piped to yard/plot        FALSE
+                                    piped to neighbor         TRUE
+                                 public tap/standpipe         TRUE
+                                      tube well water        FALSE
+                                tube well or borehole        FALSE
+                            dug well (open/protected)        FALSE
+                                       protected well        FALSE
+                                     unprotected well        FALSE
+                                  surface from spring         TRUE
+                                     protected spring        FALSE
+                                   unprotected spring        FALSE
+ river/dam/lake/ponds/stream/canal/irrigation channel        FALSE
+                                            rainwater        FALSE
+                                         tanker truck        FALSE
+                                 cart with small tank        FALSE
+                                        bottled water        FALSE
+                                                 <NA>         TRUE
+                                   community ro plant         TRUE
+                                                other        FALSE
+                                                 <NA>         TRUE
+                                                nfhs5 rupture_code
+                                               <char>       <lgcl>
+hv201 : libelles portes par plusieurs codes selon la vague
+              libelle  codes
+               <char> <char>
+ public tap/standpipe  13,14
+   community ro plant  72,92
+
+------------------------------------------------------------------------------
+Etape 3. Georeferencement (fichiers GE) (A6)
+------------------------------------------------------------------------------
+nfhs3 : aucun fichier GE dans raw/dhs/india
+  [OK]   nfhs4 GE: key (DHSCLUST) unique
+  [OK]   A6 nfhs4 : toute grappe HR presente dans le GE
+  [OK]   nfhs5 GE: key (DHSCLUST) unique
+  [OK]   A6 nfhs5 : toute grappe HR presente dans le GE
+  vague   fichier_ge grappes_hr grappes_ge ge_sans_menage valides source_gps
+ <char>       <char>      <int>      <int>          <int>   <int>      <int>
+  nfhs3         <NA>       3850         NA             NA      NA         NA
+  nfhs4 IAGE71FL.shp      28524      28526              2   28395      25011
+  nfhs5 IAGE7AFL.shp      30170      30197             27   30079      25744
+ source_gaz source_mis valides_parmi_hr valides_urbaines
+      <int>      <int>            <int>            <int>
+         NA         NA               NA               NA
+       3384        131            28393             8474
+       4335        118            30052             7726
+
+------------------------------------------------------------------------------
+Limites a consigner
+------------------------------------------------------------------------------
+- adoption declaree par le repondant ;
+- la question porte sur ce que le menage fait « habituellement » ;
+- coordonnees DHS deplacees aleatoirement (2 km urbain, 5 km rural, 10 km pour 1 % du rural) ;
+  grappes GAZ placees au gazetier ;
+- huit villes en NFHS-4/5 : approximation district urbain, pas le perimetre du NFHS-3.
+
+Run finished: 2026-10-06 10:34:41

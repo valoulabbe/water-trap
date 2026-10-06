@@ -1,0 +1,64 @@
+vague,variable,libelle,part_non_manquante,n_modalites_etiquetees
+nfhs3,hv201,source of drinking water,1,18
+nfhs3,hv202,source of non-drinking water,1,17
+nfhs3,hv204,"time to go, get water, and return (minutes)",1,2
+nfhs3,hv205,type of toilet facility,1,15
+nfhs3,hv206,has electricity,1,2
+nfhs3,hv207,has radio,1,2
+nfhs3,hv208,has television,1,2
+nfhs3,hv209,has refrigerator,1,2
+nfhs3,hv234,iodine-in-salt test result,1,5
+nfhs3,hv235,location of source for water,0.659770178189855,3
+nfhs3,hv236,person fetching water,0.424776001687439,5
+nfhs3,hv238,number of households sharing toilet (including this househol,0.193862858924625,2
+nfhs3,hv239,food cooked on stove or open fire,0.635339000926257,3
+nfhs3,sh47u,has water pump,1,2
+nfhs4,hv201,source of drinking water,1,19
+nfhs4,hv202,na - source of non-drinking water,0,18
+nfhs4,hv204,time to get to water source (minutes),1,3
+nfhs4,hv205,type of toilet facility,1,15
+nfhs4,hv206,has electricity,1,2
+nfhs4,hv207,has radio,1,2
+nfhs4,hv208,has television,1,2
+nfhs4,hv209,has refrigerator,1,2
+nfhs4,hv230a,place where household members wash their hands,1,4
+nfhs4,hv230b,presence of water at hand washing place,0.966738652289492,2
+nfhs4,hv232,items present: soap or detergent,0.966738652289492,2
+nfhs4,hv232b,"items present: ash, mud, sand",0.966738652289492,2
+nfhs4,hv232c,na - items present: cs,0,2
+nfhs4,hv232d,na - items present: cs,0,2
+nfhs4,hv232e,na - items present: cs,0,2
+nfhs4,hv232y,items present: none,0.966738652289492,2
+nfhs4,hv234,na - result of salt test for iodine (ppm),0,6
+nfhs4,hv234a,result of salt test for iodine,1,4
+nfhs4,hv235,location of source for water,0.694371987784056,3
+nfhs4,hv236,person fetching water,0.348021392863615,5
+nfhs4,hv238,number of households sharing toilet,0.0963426981142427,2
+nfhs4,hv239,food cooked on stove or open fire  (see sh39),0.62006719766454,3
+nfhs4,sh37x,water pump,1,2
+nfhs5,hv201,source of drinking water,1,20
+nfhs5,hv202,na - source of non-drinking water,0,19
+nfhs5,hv201a,na - water not available for at least a day last two weeks,0,3
+nfhs5,hv204,time to get to water source (minutes),1,2
+nfhs5,hv205,type of toilet facility,0.999998429399135,17
+nfhs5,hv206,has electricity,1,2
+nfhs5,hv207,has radio,1,2
+nfhs5,hv208,has television,1,2
+nfhs5,hv209,has refrigerator,1,2
+nfhs5,hv230a,place where household members wash their hands,1,4
+nfhs5,hv230b,presence of water at hand washing place,0.965658812091742,2
+nfhs5,hv232,items present: soap or detergent,0.992360597393745,2
+nfhs5,hv232b,"items present: ash, mud, sand",0.992360597393745,2
+nfhs5,hv232c,na - items present: cs,0,2
+nfhs5,hv232d,na - items present: cs,0,2
+nfhs5,hv232e,na - items present: cs,0,2
+nfhs5,hv232y,items present: none,0.992360597393745,2
+nfhs5,hv234,na - result of salt test for iodine (ppm),0,6
+nfhs5,hv234a,result of salt test for iodine,1,4
+nfhs5,hv235,location of source for water,0.634331136062724,3
+nfhs5,hv236,person fetching water,0.268173815256503,5
+nfhs5,hv238,number of households sharing toilet,0.0839941636471865,2
+nfhs5,hv238a,location of toilet facility,0.81916572823265,3
+nfhs5,hv239,na - food cooked on stove or open fire,0,4
+nfhs5,sh37b,"in the past two weeks, was the water from this source not available for at least",0.908682124520378,3
+nfhs5,sh50x,water pump,1,2

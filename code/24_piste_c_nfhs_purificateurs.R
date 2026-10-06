@@ -178,7 +178,8 @@ taux_pondere <- function(m, y, dom) {
 }
 
 ecrire_tex <- function(d, f, alignement) {
-  fmt <- function(x) if (is.numeric(x)) formatC(x, format = "f", digits = 1, big.mark = ",") else x
+  fmt <- function(x) if (is.integer(x)) formatC(x, format = "d", big.mark = ",") else
+    if (is.numeric(x)) formatC(x, format = "f", digits = 1) else x
   corps <- apply(as.data.frame(lapply(d, fmt)), 1, paste, collapse = " & ")
   writeLines(c(paste0("\\begin{tabular}{", alignement, "}"), "\\toprule",
                paste(gsub("_", "\\\\_", names(d)), collapse = " & "), "\\\\", "\\midrule",
@@ -366,6 +367,16 @@ for (v in c("nfhs4", "nfhs5")) {
   msg(v, " : menages urbains des huit villes (approximation district) : ",
       sum(!is.na(menages[[v]]$ville)))
 }
+
+# Couverture de la variable de bidonville par ville : une ligne « 8 villes,
+# bidonville » ne couvre que les villes ou shslumc est renseignee.
+couv_bid <- rbindlist(lapply(VAGUES$vague, function(v)
+  menages[[v]][!is.na(ville), .(menages = .N, bidonville_renseigne = sum(!is.na(bidonville))),
+               by = ville][, vague := v]))
+setcolorder(couv_bid, "vague")
+msg("Couverture de shslumc parmi les menages des huit villes (non pondere) :")
+print(couv_bid[order(vague, ville)], row.names = FALSE)
+fwrite(couv_bid, p_tab("24_etape1_couverture_bidonville.csv"))
 
 villes <- rbindlist(lapply(VAGUES$vague, function(v) {
   m <- menages[[v]]

@@ -1,0 +1,23 @@
+code,nfhs3,nfhs4,nfhs5,rupture_code
+10,piped water,piped water,piped water,FALSE
+11,piped into dwelling,piped into dwelling,piped into dwelling,FALSE
+12,piped to yard/plot,piped to yard/plot,piped to yard/plot,FALSE
+13,public tap/standpipe,public tap/standpipe,piped to neighbor,TRUE
+14,,,public tap/standpipe,TRUE
+20,tube well water,tube well water,tube well water,FALSE
+21,tube well or borehole,tube well or borehole,tube well or borehole,FALSE
+30,dug well (open/protected),dug well (open/protected),dug well (open/protected),FALSE
+31,protected well,protected well,protected well,FALSE
+32,unprotected well,unprotected well,unprotected well,FALSE
+40,surface water,surface water,surface from spring,TRUE
+41,protected spring,protected spring,protected spring,FALSE
+42,unprotected spring,unprotected spring,unprotected spring,FALSE
+43,river/dam/lake/ponds/stream/canal/irrigation channel,river/dam/lake/ponds/stream/canal/irrigation channel,river/dam/lake/ponds/stream/canal/irrigation channel,FALSE
+51,rainwater,rainwater,rainwater,FALSE
+61,tanker truck,tanker truck,tanker truck,FALSE
+62,cart with small tank,cart with small tank,cart with small tank,FALSE
+71,bottled water,bottled water,bottled water,FALSE
+72,,community ro plant,,TRUE
+92,,,community ro plant,TRUE
+96,other,other,other,FALSE
+99,,,,TRUE
