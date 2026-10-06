@@ -1,0 +1,2 @@
+n_agriculteurs,n_departs,n_sdo,n_col_geologie,part_intra,seuil_part_intra,r2cv_controles,r2cv_geo_controles,gain_r2cv,seuil_gain,r2_intra_echantillon,f_partiel,p_f_partiel,verdict
+4006,304,6,118,0.688662100361174,0.25,-0.000344405113057222,-4.08263906316733,-4.08229465805428,0.05,0.195516320267961,,,ECHOUE

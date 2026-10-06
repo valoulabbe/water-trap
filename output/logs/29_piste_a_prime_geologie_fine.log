@@ -1,0 +1,79 @@
+==============================================================================
+LOG: output/logs/29_piste_a_prime_geologie_fine.log
+Run started: 2026-10-06 17:04:34
+==============================================================================
+
+ETAPE 29 -- PISTE A' : LA GEOLOGIE FINE PREDIT-ELLE LA PROFONDEUR ? (RAJASTHAN)
+
+Critere fixe avant estimation : memo/piste_a_prime_geologie_fine_critere.md
+  (1) part intra-SDO de la variance de profondeur >= 0.25
+  (2) gain de R2 hors echantillon (10 plis de departs entiers) >= 0.05
+Aucun second stage, aucune variable de resultat.
+
+------------------------------------------------------------------------------
+29a. Echantillon (etape 1)
+------------------------------------------------------------------------------
+[2026-10-06 17:04:34] etape 1/1 echantillon : debut (sortie absente)
+  [OK]   marginal_analysis_sample: all 159 named variables present
+  [OK]   bloc geologie : 65 types de roche, 65 parts de roche, 20 aquiferes
+[2026-10-06 17:04:34] lecture de raw/nicholasryan2021/20200932data/rationing_commons/data/work/marginal_analysis_sample.dta
+  [OK]   marginal_analysis_sample: row count == 6,215
+  [OK]   marginal_analysis_sample: key (f_id) unique
+[2026-10-06 17:04:34] lecture des departs dans raw/nicholasryan2021/20200932data/rationing_commons/data/work/marginal_analysis_sample_crop_level.dta
+  [OK]   departs (un depart par agriculteur): key (f_id) unique
+  profondeur > 0 et renseignee : 4018 / 6215
+  bloc geologie complet : 4015 / 4018
+  altitude et pente numeriques : 4006 / 4015
+  depart connu : 4006 / 4006
+  [OK]   etape 1/1 echantillon : sortie ecrite -> build/29_echantillon.rds
+[2026-10-06 17:04:35] etape 1/1 echantillon : fini (0.9 s)
+  [OK]   echantillon >= 3800 agriculteurs (critere)
+  N = 4006 agriculteurs, 304 departs, 6 SDO
+        SDO agriculteurs departs prof_moy_pieds prof_et
+     <char>        <int>   <int>          <num>   <num>
+1:   Bansur          901      66          307.5   132.9
+2: Mundawar          772      58          373.7   173.7
+3: Kotputli          474      36          382.3   206.9
+4:      Dug          552      41           62.1    58.7
+5:   Nainwa          667      53          345.1   165.8
+6:  Hindoli          640      50          223.0   158.8
+
+------------------------------------------------------------------------------
+29b. Porte du premier stage
+------------------------------------------------------------------------------
+  bloc geologie : 118 colonnes non constantes
+  (1) part intra-SDO de la variance : 0.689  (seuil 0.25) -> PASSE
+  (2) R2 hors echantillon (intra-SDO) : controles seuls -0.000 ; geologie + controles -4.083
+      gain du bloc geologie : -4.082  (seuil 0.05) -> ECHOUE
+      (10 plis, 304 departs)
+
+  Pour information (hors critere) : tout l'echantillon, effets fixes de SDO,
+  erreurs groupees par depart.
+  R2 intra dans l'echantillon : controles seuls 0.003 ; geologie + controles 0.196
+  F partiel (Wald groupe) du bloc geologie : NA, p = NA, ddl = 114
+  coefficients non identifies (colineaires) : 4
+
+------------------------------------------------------------------------------
+29c. Rapporte a cote du verdict (hors critere)
+------------------------------------------------------------------------------
+  [OK]   depth_data.txt: all 4 named variables present
+  annee de forage appariee (meme profondeur) : 2799 / 4006 agriculteurs
+                                          variante     n r2cv_controles r2cv_geo_controles    gain
+                                            <char> <num>          <num>              <num>   <num>
+1:                              principal (rappel)  4006          0.000             -4.083  -4.082
+2:                         un pli par SDO (6 plis)  4006         -0.005            -42.152 -42.147
+3:                           profondeur winsorisee  4006          0.000             -4.268  -4.268
+4:                                fractures seules  4006          0.000             -0.002  -0.002
+5:                       roches et aquiferes seuls  4006          0.000             -5.287  -5.286
+6:       sans annee de forage, echantillon apparie  2799          0.008             -0.230  -0.238
+7: avec effets fixes d'annee de forage (2 modeles)  2799          0.067             -0.109  -0.176
+
+------------------------------------------------------------------------------
+29d. Verdict
+------------------------------------------------------------------------------
+Condition 1, part intra-SDO 0.689 >= 0.25 : remplie
+Condition 2, gain de R2 hors echantillon -4.082 >= 0.05 : NON remplie
+VERDICT DE LA PORTE A' : ECHOUE
+Rappel : passer A' ne rouvre pas la piste A (portes B et C restent).
+
+Run finished: 2026-10-06 17:04:37
