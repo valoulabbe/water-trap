@@ -171,3 +171,38 @@ de l'éditeur (ACS) pour les SI, non vérifiées.
 | Fichier | Contenu | Téléchargé le | SHA256 |
 | --- | --- | --- | --- |
 | vangeen2019/es9b01375_si_001.xlsx | Une feuille « all villages », 44 865 lignes : `Vid`, District, Upazila, Union, Mouza, village, `No. wells`, `Mean As from kit`, `%wells <=50 ug/L As`, `Safe depth (ft)` | 2026-10-03 | 6383CCF2D2E63D69FB3AFCCD949A909C2D5FD35EC4876146D52248F3AF5C5A4F |
+
+## Ryan & Sudarshan (2022) — « Rationing the Commons », paquet de réplication
+Source : supplementary materials de Ryan, N. et Sudarshan, A. (2022),
+« Rationing the Commons », *Journal of Political Economy* 130(1),
+doi:10.1086/717045, https://www.journals.uchicago.edu/doi/10.1086/717045#supplementary-materials.
+Conditions : celles de l'éditeur (JPE) pour les SI, non vérifiées.
+Zip décompressé sur place (`20200932data/rationing_commons/`, plus un
+`__MACOSX/` sans contenu utile) ; zip d'origine conservé, rien n'est modifié.
+
+Contenu : enquête de 6 215 agriculteurs (vers 2012) dans 6 SDO du Rajasthan
+(Bansur, Kotputli, Mundawar, Hindoli, Nainwa, Dug), profondeur du puits en
+pieds (~4 000 renseignées), instruments géologiques déjà construits par
+agriculteur (`rock_type_1-65`, `rock_area_*`, `aquifer_type_1-20`,
+`dist2fault_km`, `ltot_1km`, `ltot_5km`), `elevation`, `slope`. **Absents :**
+coordonnées des agriculteurs (`pii_farmer_locations.dta`, PII retenue), cartes
+sources (gw prospect maps, linéaments), étapes de nettoyage. Indicatrices de
+roche et d'aquifère sans étiquette. Noms de village, bloc, district en texte
+libre, avec fautes de frappe.
+
+| Fichier | Contenu | Téléchargé le | SHA256 |
+| --- | --- | --- | --- |
+| nicholasryan2021/20200932data.zip | Paquet complet (code, données, exhibits) | 2026-10-06 | FD9804CC28361096E76449E0419BC64652A7A44EAA2702222EA432296F40113F |
+| …/data/work/marginal_analysis_sample.dta | Niveau agriculteur, 6 215 lignes, 3 876 colonnes (instruments, contrôles, résultats) | 2026-10-06 | 380FDB7FEBB4FF60B1930CDF7B110CDC98A244C8801CA26190F86A8869DAAB81 |
+| …/data/work/marginal_analysis_sample_crop_level.dta | Niveau agriculteur × culture | 2026-10-06 | D7E274575243241501046AA5AC2E35329C547BC3C5C985FC0C7F6C8A2D0EA8E5 |
+| …/data/work/depth_data.txt | `SDO, f_id, year_dug, depth` (année de forage) | 2026-10-06 | 3FCB38DE271FE2734077394EC86B2EEE5483192BC1BA731F6178D7EA21850CF2 |
+| …/data/work/baseline_dynamics_raw.dta | Données des dynamiques | 2026-10-06 | F2E9CC338529042901E415E79D6FB82676FD5EEAFA23345418F1FEAFF11F761A |
+| …/data/work/production_inputs_outputs.dta | Intrants et produits | 2026-10-06 | 7A94F1CF77C1BF22E71FCE3E797D55B5D184FEF7A25AD52D7FAEA1ED05D8DEA8 |
+| …/data/work/production_inputs_outputs.txt | Idem, texte | 2026-10-06 | 1DB1E7A79FBCCEB8261848B1FB57C219E897A7A4394C4FE5336206ED4C095AFF |
+| …/data/work/production_function_estimates.mat | Estimations (Matlab) | 2026-10-06 | 916CBF52195F87823DB7A94BCB086005F86295204B75834BD4C3E8D009FE22A1 |
+| …/data/work/tfp_by_farmer_crop.csv | PTF par agriculteur × culture | 2026-10-06 | 98FA0BF3DD73761793E8D1C22A74C4A1E587F137548B7F1281BA5FFC71BEE081 |
+| …/data/work/gamma.txt | Paramètre | 2026-10-06 | CB4A32090CAE7CB568B0C5D0AC3697D18B3A7336EBB59BC91812B727424E0476 |
+| …/data/work/het_init_conditions.txt | Conditions initiales | 2026-10-06 | 4806D286793946D6C42D6537DB33B6C630515C16355B21349EA0EB4F45483C9A |
+| …/data/work/mean_init_conditions.txt | Conditions initiales | 2026-10-06 | 59FEB4B2842BEA54782AA52DA2D655FC25DFF619032476BF2286C0AAF023DEAE |
+| …/data/work/sdo_initial_conditions.txt | Conditions initiales par SDO | 2026-10-06 | 17CF70198C2126AD42261678007D0AF19491CB40135FF8454BF30AE6522600EB |
+| …/data/farmer_survey/clean/baseline_survey_farmer_crop_with_imputed_variables.dta | Enquête nettoyée, agriculteur × culture | 2026-10-06 | 4EC9A511CDB6D79AA2A7CE952A9E9AF99CCC66372BA4E6E1A40B88F3EDED1C1E |
