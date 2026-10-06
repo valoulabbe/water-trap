@@ -44,6 +44,16 @@
 #       Telangana a le meme Etat 2011 que l'Andhra Pradesh, le Ladakh le meme
 #       que le Jammu-et-Cachemire ; deux Etats NFHS distincts n'ont sinon
 #       jamais le meme Etat 2011.
+#       DECISION DE VALENTINE (06/10, apres le deuxieme passage) : en NFHS-5,
+#       les 31 districts du Telangana portent tous un code posterieur a 2011
+#       (redecoupage de 2016) ; le test « Telangana dans l'Etat 2011 de l'AP »
+#       y porte sur un ensemble vide. Il est REMPLACE en NFHS-5 par le test
+#       deja valide en NFHS-4 (10 districts sur 10 dans l'AP de 2011).
+#       APPUI SUR UNE CONNAISSANCE EXTERIEURE, non verifiee dans ces donnees :
+#       le Telangana a ete cree en 2014 par separation d'avec l'Andhra Pradesh
+#       (Andhra Pradesh Reorganisation Act, 2014) ; le redecoupage de 2016 est
+#       interne au Telangana ; la frontiere AP / Telangana n'a donc pas bouge
+#       entre 2015-16 et 2019-21. Le test du Ladakh (NFHS-5) reste inchange.
 #   E4  NFHS-3 et NFHS-5 : un meme Etat (nom normalise) a le meme code hv024.
 #
 # SEUIL D'EFFECTIF (ECRIT AVANT EXECUTION)
@@ -265,7 +275,18 @@ for (v in c("nfhs4", "nfhs5")) {
         sprintf("E3 %s : un seul Etat 2011 par Etat NFHS (sauf DNH-DD fusionnes)", v),
         paste(multi, collapse = ", "))
   et <- function(l) s[libelle == l, etats_2011]
-  check(et("telangana") == et("andhra pradesh"), sprintf("E3 %s : Telangana dans l'Etat 2011 de l'Andhra Pradesh (%s)", v, et("telangana")))
+  if (v == "nfhs4") {
+    check(et("telangana") == et("andhra pradesh"), sprintf("E3 %s : Telangana dans l'Etat 2011 de l'Andhra Pradesh (%s)", v, et("telangana")))
+  } else {
+    msg("E3 nfhs5 : Telangana -- ", s[libelle == "telangana", districts], " districts, dont ",
+        s[libelle == "telangana", districts_hors_2011], " a code posterieur a 2011 : test non realisable ici.")
+    msg("  REMPLACE (decision de Valentine, 06/10) par le test valide en NFHS-4, avec un appui sur une")
+    msg("  CONNAISSANCE EXTERIEURE : Telangana cree en 2014 par separation d'avec l'Andhra Pradesh")
+    msg("  (Andhra Pradesh Reorganisation Act, 2014) ; redecoupage de 2016 interne au Telangana ;")
+    msg("  frontiere AP / Telangana inchangee entre 2015-16 et 2019-21.")
+    check(corr[["nfhs4"]][libelle == "telangana", etats_2011] == corr[["nfhs4"]][libelle == "andhra pradesh", etats_2011],
+          "E3 nfhs5 : test du Telangana repris du NFHS-4 (valide)")
+  }
   if (v == "nfhs5") check(et("ladakh") == et("jammu & kashmir"),
                           sprintf("E3 nfhs5 : Ladakh dans l'Etat 2011 du Jammu-et-Cachemire (%s)", et("ladakh")))
   appar <- c("telangana", "andhra pradesh", "ladakh", "jammu & kashmir")
