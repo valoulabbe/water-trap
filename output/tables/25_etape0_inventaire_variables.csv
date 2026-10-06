@@ -1,0 +1,32 @@
+variable,libelle,modalites,part_non_manquante
+hv201,source of drinking water,"10=piped water | 11=piped into residence/yard/plot | 12=public tap | 20=well water | 21=handpump in residence/yard/plot | 22=public handpump | 23=well in residence/yard/plot | 24=open well | 25=public covered well | 26=public open well | 30=surface water | 31=spring | 32=river, stream | 33=pond, lake | 34=dam | 41=rainwater | 51=tanker truck | 96=other",0.999902687974396
+hv202,source of non-drinking wa - na,"",0
+hv203,same source of water      - na,"",0
+hv204,time to get to water source,996=on premises,0.533907834699306
+hv205,type of toilet facility,10=flush toilet | 11=own flush toilet | 12=shared flush toilet | 13=public flush toilet | 20=pit toilet latrine | 21=own pit toilet/latrine | 22=shared pit toilet/latrine | 23=public pit toilet/latrine | 30=no facility | 31=no facility/bush/field | 96=other,0.999913500421686
+hv206,has electricity,0=no | 1=yes,1
+hv207,has radio,0=no | 1=yes,0.999935125316264
+hv208,has television,0=no | 1=yes,1
+hv209,has refrigerator,0=no | 1=yes,0.99984862573795
+hv210,has bicycle,0=no | 1=yes,0.999881063079818
+hv211,has motorcycle,0=no | 1=yes,0.999805375948792
+hv212,has car,0=no | 1=yes,0.999913500421686
+hv213,main floor material       - na,"",0
+hv214,main wall material        - na,"",0
+hv215,main roof material        - na,"",0
+hv216,rooms for sleeping        - na,"",0
+hv217,relationship structure,"0=no adults | 1=one adult | 2=two adults, opp. sex | 3=two adults, same sex | 4=three+ related adult | 5=unrelated adults",1
+hv218,line number of head of househ.,"",1
+hv219,sex of head of household,1=male | 2=female,1
+hv220,age of head of household,97=97+ | 98=dk,0.99984862573795
+hv221,has telephone,0=no | 1=yes,0.999913500421686
+hv222,type of salt used for coo - na,"",0
+sh29,where do household members go for treatment,10=public sector | 11=government/municipal hospital | 12=government dispensary | 13=uhc/uhp/ufwc | 14=chc/rural hospital | 15=sub-centre | 16=government mobile clinic | 17=government paramedic | 18=other public sector health facility | 21=ngo/trust hospital/clinic | 22=ngo worker | 30=private sector | 31=private hospital/clinic | 32=private doctor | 33=private mobile clinic | 34=private paramedic | 35=vaidya/hakim/homeopath | 36=traditional healer | 37=pharmacy/drug store | 38=dai (tba) | 39=other private sector health facility | 41=shop | 42=home treatment | 60=other | 96=other,0.99983781329066
+sh32a,strain by cloth to purify water,0=no | 1=yes,0.999945937763554
+sh32b,use alum to purify water,0=no | 1=yes,0.999945937763554
+sh32c,use water filter to purify water,0=no | 1=yes,0.999945937763554
+sh32d,boil water to purify,0=no | 1=yes,0.999945937763554
+sh32e,use electronic purifier to purify water,0=no | 1=yes,0.999945937763554
+sh32f,use nothing to purify water,0=no | 1=yes,0.999945937763554
+sh32x,use other method to purify water,0=no | 1=yes,0.999945937763554
+sh47q,water pump,0=no | 1=yes,0.999881063079818

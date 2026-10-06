@@ -1,0 +1,424 @@
+==============================================================================
+LOG: output/logs/25_piste_c_nfhs2.log
+Run started: 2026-10-06 10:44:59
+==============================================================================
+
+ETAPE 25 -- PISTE C : NFHS-2 (1998-99), SERIE DE TRAITEMENT DE L'EAU
+Descriptif seulement : aucune regression, aucune issue, aucun critere.
+
+------------------------------------------------------------------------------
+Attentes ecrites avant execution
+------------------------------------------------------------------------------
+B1  N menages a +/- 500 de 92500
+B2  sh32a-f, sh32x presentes ; sh32c ~ filter ; sh32e ~ purifier
+B3  non-reponse de sh32c et sh32e <= 2 %
+B4  sh32f = 1 et une methode = 1 : <= 1 % des menages
+B5  table du script 24 : 18 lignes attendues (3 vagues x 3 zones x 2 methodes)
+Aucun repere publie local pour un taux 1998 : pas d'attente de niveau.
+
+------------------------------------------------------------------------------
+Etape 0a. Cache allege du HR NFHS-2 (stage)
+------------------------------------------------------------------------------
+  [OK]   haven se charge
+  [OK]   NFHS-2 : fichier HR present
+  [OK]   IAHR42FL.DTA : format Stata 113 lisible par l'en-tete
+nfhs2 : IAHR42FL.DTA, format Stata 113, 2023 variables, 92486 lignes (en-tete)
+[2026-10-06 10:44:59] cache nfhs2 : deja fait, relu depuis build/25_cache_nfhs2.rds (ecrit le 2026-10-06 10:44)
+[2026-10-06 10:44:59] cache nfhs2 : relu (0.2 s)
+  [OK]   nfhs2 (N de l'en-tete Stata): row count == 92,486
+  [OK]   B1 nfhs2 : 92486 menages, a +/- 500 de 92500
+  [OK]   nfhs2: key (hhid) unique
+  [OK]   nfhs2 : hv000 commence par IA
+nfhs2 : annees d'entretien (hv007) 0:1290 98:13134 99:78062
+
+------------------------------------------------------------------------------
+Etape 0b. Inventaire : variables d'eau et de traitement (libelles exacts)
+------------------------------------------------------------------------------
+ variable                                     libelle
+   <char>                                      <char>
+    hv201                    source of drinking water
+    hv202              source of non-drinking wa - na
+    hv203              same source of water      - na
+    hv204                 time to get to water source
+    hv205                     type of toilet facility
+    hv206                             has electricity
+    hv207                                   has radio
+    hv208                              has television
+    hv209                            has refrigerator
+    hv210                                 has bicycle
+    hv211                              has motorcycle
+    hv212                                     has car
+    hv213              main floor material       - na
+    hv214              main wall material        - na
+    hv215              main roof material        - na
+    hv216              rooms for sleeping        - na
+    hv217                      relationship structure
+    hv218              line number of head of househ.
+    hv219                    sex of head of household
+    hv220                    age of head of household
+    hv221                               has telephone
+    hv222              type of salt used for coo - na
+     sh29 where do household members go for treatment
+    sh32a             strain by cloth to purify water
+    sh32b                    use alum to purify water
+    sh32c            use water filter to purify water
+    sh32d                        boil water to purify
+    sh32e     use electronic purifier to purify water
+    sh32f                 use nothing to purify water
+    sh32x            use other method to purify water
+    sh47q                                  water pump
+ variable                                     libelle
+   <char>                                      <char>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 modalites
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <char>
+                                                                                                                                                                                                                                        10=piped water | 11=piped into residence/yard/plot | 12=public tap | 20=well water | 21=handpump in residence/yard/plot | 22=public handpump | 23=well in residence/yard/plot | 24=open well | 25=public covered well | 26=public open well | 30=surface water | 31=spring | 32=river, stream | 33=pond, lake | 34=dam | 41=rainwater | 51=tanker truck | 96=other
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           996=on premises
+                                                                                                                                                                                                                                                                                                                                         10=flush toilet | 11=own flush toilet | 12=shared flush toilet | 13=public flush toilet | 20=pit toilet latrine | 21=own pit toilet/latrine | 22=shared pit toilet/latrine | 23=public pit toilet/latrine | 30=no facility | 31=no facility/bush/field | 96=other
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 0=no adults | 1=one adult | 2=two adults, opp. sex | 3=two adults, same sex | 4=three+ related adult | 5=unrelated adults
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         1=male | 2=female
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            97=97+ | 98=dk
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+ 10=public sector | 11=government/municipal hospital | 12=government dispensary | 13=uhc/uhp/ufwc | 14=chc/rural hospital | 15=sub-centre | 16=government mobile clinic | 17=government paramedic | 18=other public sector health facility | 21=ngo/trust hospital/clinic | 22=ngo worker | 30=private sector | 31=private hospital/clinic | 32=private doctor | 33=private mobile clinic | 34=private paramedic | 35=vaidya/hakim/homeopath | 36=traditional healer | 37=pharmacy/drug store | 38=dai (tba) | 39=other private sector health facility | 41=shop | 42=home treatment | 60=other | 96=other
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              0=no | 1=yes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 modalites
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <char>
+ part_non_manquante
+              <num>
+          0.9999027
+          0.0000000
+          0.0000000
+          0.5339078
+          0.9999135
+          1.0000000
+          0.9999351
+          1.0000000
+          0.9998486
+          0.9998811
+          0.9998054
+          0.9999135
+          0.0000000
+          0.0000000
+          0.0000000
+          0.0000000
+          1.0000000
+          1.0000000
+          1.0000000
+          0.9998486
+          0.9999135
+          0.0000000
+          0.9998378
+          0.9999459
+          0.9999459
+          0.9999459
+          0.9999459
+          0.9999459
+          0.9999459
+          0.9999459
+          0.9998811
+ part_non_manquante
+              <num>
+Serie hv237 presente : FALSE
+Variables sh32* : sh32a, sh32b, sh32c, sh32d, sh32e, sh32f, sh32x
+  [OK]   B2 nfhs2: all 7 named variables present
+  [OK]   B2 sh32c = use water filter to purify water
+  [OK]   B2 sh32e = use electronic purifier to purify water
+
+------------------------------------------------------------------------------
+Etape 0c. Structure des reponses : exclusives ou multiples ?
+------------------------------------------------------------------------------
+  tissu        sh32a  valeurs : 0:76903 1:15578 NA:5
+  alun         sh32b  valeurs : 0:91149 1:1332 NA:5
+  filtre       sh32c  valeurs : 0:84981 1:7500 NA:5
+  ebullition   sh32d  valeurs : 0:79003 1:13478 NA:5
+  purificateur sh32e  valeurs : 0:91906 1:575 NA:5
+  rien         sh32f  valeurs : 0:34644 1:57837 NA:5
+  autre        sh32x  valeurs : 0:91788 1:693 NA:5
+Nombre de methodes de traitement declarees par menage (hors « rien »), non pondere :
+ n_methodes     N   part
+      <num> <int>  <num>
+          0 57842 0.6254
+          1 30307 0.3277
+          2  4169 0.0451
+          3   161 0.0017
+          4     7 0.0001
+Nombre total de cases cochees (y compris « rien ») : 
+ n_cases     N   part
+   <num> <int>  <num>
+       0     5 0.0001
+       1 88144 0.9531
+       2  4169 0.0451
+       3   161 0.0017
+       4     7 0.0001
+  [OK]   B4 « rien » et une methode : 0.000 % <= 1 %
+  [OK]   cache du script 24 present : build/24_cache_nfhs3.rds
+nfhs3 : methodes hv237 comptees : hv237a, hv237b, hv237c, hv237d, hv237f, hv237g, hv237h, hv237x
+  [OK]   cache du script 24 present : build/24_cache_nfhs4.rds
+nfhs4 : methodes hv237 comptees : hv237a, hv237b, hv237c, hv237d, hv237f, hv237g, hv237h, hv237x
+  [OK]   cache du script 24 present : build/24_cache_nfhs5.rds
+nfhs5 : methodes hv237 comptees : hv237a, hv237b, hv237c, hv237d, hv237e, hv237f, hv237g, hv237h, hv237x
+Repartition du nombre de methodes declarees, par vague (non pondere) :
+Clé : <n_methodes>
+ n_methodes        nfhs2        nfhs3        nfhs4        nfhs5
+      <num>        <num>        <num>        <num>        <num>
+          0 6.254136e-01 5.480140e-01 5.895739e-01 5.372727e-01
+          1 3.276928e-01 3.711907e-01 3.474262e-01 3.710670e-01
+          2 4.507709e-02 7.602645e-02 5.880211e-02 8.536059e-02
+          3 1.740804e-03 4.484552e-03 3.848654e-03 5.918024e-03
+          4 7.568713e-05 2.567841e-04 3.258472e-04 3.659500e-04
+          5 0.000000e+00 2.751259e-05 2.161231e-05 1.570601e-05
+          7 0.000000e+00 0.000000e+00 1.662486e-06 0.000000e+00
+
+------------------------------------------------------------------------------
+Etape 1a. Effectifs, non-reponse, poids (B3)
+------------------------------------------------------------------------------
+Poids : nhv005 manquant ou nul pour 1290 menages ; hv005 manquant ou nul pour 0
+hv005 == nhv005 pour 0 % des menages ; hv005 == shv005 pour 0 %
+Etats ou nhv005 est nul ou manquant :
+  etat menages nhv005_nul     nom
+ <num>   <int>      <int>  <char>
+    35    1290       1290 tripura
+  [OK]   design : une grappe (Etat, hv021) par grappe (Etat, hv001)
+Design : 1588 strates, 3215 grappes
+  vague periode menages menages_urbains menages_ruraux nonrep_filtre
+ <char>  <char>   <int>           <int>          <int>         <num>
+  nfhs2 1998-99   92486           30686          61800  5.406224e-05
+ nonrep_purificateur poids_nhv005_nul
+               <num>            <num>
+        5.406224e-05       0.01394806
+  [OK]   B3 nfhs2 filtre : non-reponse 0.01 % <= 2 %
+  [OK]   B3 nfhs2 purificateur : non-reponse 0.01 % <= 2 %
+
+------------------------------------------------------------------------------
+Etape 1b. Taux d'adoption 1998 par methode, ponderes
+------------------------------------------------------------------------------
+  poids     zone      methode     n n_oui   pct ic_bas ic_haut
+ <char>   <char>       <char> <int> <int> <num>  <num>   <num>
+ nhv005 ensemble        tissu 91191 15480 18.56  17.96   19.15
+ nhv005 ensemble         alun 91191  1249  1.23   1.11    1.34
+ nhv005 ensemble       filtre 91191  6919  5.82   5.46    6.18
+ nhv005 ensemble   ebullition 91191 13314  8.17   7.78    8.57
+ nhv005 ensemble purificateur 91191   560  0.42   0.35    0.48
+ nhv005 ensemble        autre 91191   690  0.74   0.63    0.84
+ nhv005   urbain        tissu 30434  6375 25.09  23.74   26.44
+ nhv005   urbain         alun 30434   421  1.36   1.11    1.60
+ nhv005   urbain       filtre 30434  5122 14.79  13.68   15.90
+ nhv005   urbain   ebullition 30434  6157 13.60  12.57   14.63
+ nhv005   urbain purificateur 30434   462  1.16   0.95    1.38
+ nhv005   urbain        autre 30434   198  0.64   0.46    0.82
+ nhv005    rural        tissu 60757  9105 16.05  15.43   16.68
+ nhv005    rural         alun 60757   828  1.18   1.05    1.30
+ nhv005    rural       filtre 60757  1797  2.39   2.15    2.63
+ nhv005    rural   ebullition 60757  7157  6.09   5.72    6.47
+ nhv005    rural purificateur 60757    98  0.13   0.10    0.17
+ nhv005    rural        autre 60757   492  0.77   0.65    0.89
+  hv005 ensemble        tissu 92481 15578 18.51  17.92   19.10
+  hv005 ensemble         alun 92481  1332  1.25   1.13    1.36
+  hv005 ensemble       filtre 92481  7500  5.98   5.62    6.34
+  hv005 ensemble   ebullition 92481 13478  8.19   7.79    8.58
+  hv005 ensemble purificateur 92481   575  0.42   0.35    0.48
+  hv005 ensemble        autre 92481   693  0.73   0.63    0.83
+  hv005   urbain        tissu 30685  6383 25.02  23.68   26.37
+  hv005   urbain         alun 30685   443  1.38   1.14    1.62
+  hv005   urbain       filtre 30685  5303 14.97  13.87   16.08
+  hv005   urbain   ebullition 30685  6197 13.61  12.58   14.64
+  hv005   urbain purificateur 30685   466  1.17   0.95    1.38
+  hv005   urbain        autre 30685   198  0.64   0.46    0.82
+  hv005    rural        tissu 61796  9195 16.02  15.40   16.65
+  hv005    rural         alun 61796   889  1.20   1.07    1.32
+  hv005    rural       filtre 61796  2197  2.54   2.30    2.79
+  hv005    rural   ebullition 61796  7281  6.12   5.74    6.49
+  hv005    rural purificateur 61796   109  0.13   0.10    0.17
+  hv005    rural        autre 61796   495  0.77   0.65    0.89
+  poids     zone      methode     n n_oui   pct ic_bas ic_haut
+ <char>   <char>       <char> <int> <int> <num>  <num>   <num>
+Ecart entre ponderations nhv005 et hv005 (points) :
+Clé : <zone, methode>
+     zone      methode ecart_points
+   <char>       <char>        <num>
+ ensemble         alun        0.021
+ ensemble        autre        0.002
+ ensemble   ebullition        0.018
+ ensemble       filtre        0.157
+ ensemble purificateur        0.003
+ ensemble        tissu        0.044
+    rural         alun        0.019
+    rural        autre        0.002
+    rural   ebullition        0.024
+    rural       filtre        0.151
+    rural purificateur        0.004
+    rural        tissu        0.031
+   urbain         alun        0.024
+   urbain        autre        0.002
+   urbain   ebullition        0.007
+   urbain       filtre        0.182
+   urbain purificateur        0.001
+   urbain        tissu        0.070
+
+------------------------------------------------------------------------------
+Etape 1c. Serie fine a quatre vagues : filtre et purificateur (B5)
+------------------------------------------------------------------------------
+  [OK]   B5 table du script 24 presente
+  [OK]   B5 table du script 24 : 18 lignes, 3 vagues x 3 zones x 2 methodes
+      methode     zone periode variable      n   pct ic_bas ic_haut
+       <char>   <char>  <char>   <char>  <int> <num>  <num>   <num>
+       filtre ensemble 1998-99    sh32c  91191  5.82   5.46    6.18
+       filtre ensemble 2005-06   hv237d 108947  6.59   6.15    7.02
+       filtre ensemble 2015-16   hv237d 601406  6.63   6.45    6.82
+       filtre ensemble 2019-21   hv237d 636637  6.97   6.81    7.13
+       filtre    rural 1998-99    sh32c  60757  2.39   2.15    2.63
+       filtre    rural 2005-06   hv237d  58760  3.26   2.90    3.62
+       filtre    rural 2015-16   hv237d 425480  3.47   3.37    3.57
+       filtre    rural 2019-21   hv237d 476512  4.55   4.44    4.66
+       filtre   urbain 1998-99    sh32c  30434 14.79  13.68   15.90
+       filtre   urbain 2005-06   hv237d  50187 13.46  12.36   14.56
+       filtre   urbain 2015-16   hv237d 175926 12.54  12.04   13.04
+       filtre   urbain 2019-21   hv237d 160125 11.82  11.40   12.25
+ purificateur ensemble 1998-99    sh32e  91191  0.42   0.35    0.48
+ purificateur ensemble 2005-06   hv237h 108947  1.19   1.03    1.35
+ purificateur ensemble 2015-16   hv237h 601406  4.82   4.63    5.01
+ purificateur ensemble 2019-21   hv237h 636637  5.57   5.39    5.74
+ purificateur    rural 1998-99    sh32e  60757  0.13   0.10    0.17
+ purificateur    rural 2005-06   hv237h  58760  0.13   0.08    0.18
+ purificateur    rural 2015-16   hv237h 425480  1.48   1.42    1.55
+ purificateur    rural 2019-21   hv237h 476512  1.96   1.89    2.04
+ purificateur   urbain 1998-99    sh32e  30434  1.16   0.95    1.38
+ purificateur   urbain 2005-06   hv237h  50187  3.38   2.89    3.86
+ purificateur   urbain 2015-16   hv237h 175926 11.05  10.52   11.58
+ purificateur   urbain 2019-21   hv237h 160125 12.82  12.29   13.34
+      methode     zone periode variable      n   pct ic_bas ic_haut
+       <char>   <char>  <char>   <char>  <int> <num>  <num>   <num>
+
+------------------------------------------------------------------------------
+Etape 2. Source d'eau en 1998 et raccord au codage recent (inventaire)
+------------------------------------------------------------------------------
+hv201 : « source of drinking water » ; non manquante 99.99 %
+hv202 : « source of non-drinking wa - na » ; non manquante 0 %
+hv203 : « same source of water      - na » ; non manquante 0 %
+hv204 : « time to get to water source » ; non manquante 53.39 %
+Clé : <code>
+  code                         libelle n_non_pondere
+ <num>                          <char>         <int>
+    NA                            <NA>             9
+    10                     piped water             0
+    11  piped into residence/yard/plot         24307
+    12                      public tap         16502
+    20                      well water             0
+    21 handpump in residence/yard/plot         12045
+    22                 public handpump         17505
+    23     well in residence/yard/plot          1143
+    24                       open well          5426
+    25             public covered well           963
+    26                public open well          9211
+    30                   surface water             0
+    31                          spring          1795
+    32                   river, stream          1774
+    33                      pond, lake          1012
+    34                             dam            50
+    41                       rainwater           109
+    51                    tanker truck           203
+    96                           other           432
+  [OK]   table de raccord : chaque code etiquete de hv201 1998 y figure une fois
+Clé : <code>
+  code                         libelle n_non_pondere
+ <num>                          <char>         <int>
+    NA                            <NA>             9
+    10                     piped water             0
+    11  piped into residence/yard/plot         24307
+    12                      public tap         16502
+    20                      well water             0
+    21 handpump in residence/yard/plot         12045
+    22                 public handpump         17505
+    23     well in residence/yard/plot          1143
+    24                       open well          5426
+    25             public covered well           963
+    26                public open well          9211
+    30                   surface water             0
+    31                          spring          1795
+    32                   river, stream          1774
+    33                      pond, lake          1012
+    34                             dam            50
+    41                       rainwater           109
+    51                    tanker truck           203
+    96                           other           432
+                      codes_recents
+                             <char>
+                               <NA>
+                                 10
+    11 + 12 (+ 13 voisin en NFHS-5)
+        13 (NFHS-3/4) ; 14 (NFHS-5)
+                             20, 30
+ 21 (sans distinction prive/public)
+ 21 (sans distinction prive/public)
+                           31 ou 32
+                           31 ou 32
+                                 31
+                                 32
+                                 40
+                           41 ou 42
+                                 43
+                                 43
+                                 43
+                                 51
+                                 61
+                                 96
+                                                       nature
+                                                       <char>
+                                                         <NA>
+                                              titre de groupe
+                     fusion : logement et cour reunis en 1998
+                              un a un, code deplace en NFHS-5
+        titre de groupe ; puits et forages separes apres 1998
+     propriete perdue : prive/public non distingue apres 1998
+     propriete perdue : prive/public non distingue apres 1998
+ propriete perdue ; protege/non protege non distingue en 1998
+                    protege/non protege non distingue en 1998
+          propriete perdue ; « couvert » ~ protege (jugement)
+       propriete perdue ; « ouvert » ~ non protege (jugement)
+                                              titre de groupe
+                    protege/non protege non distingue en 1998
+                                            un a un (riviere)
+                                         un a un (etang, lac)
+                                            un a un (barrage)
+                                                      un a un
+ un a un (camion-citerne) ; charrette 62 sans equivalent 1998
+                                                      un a un
+Modalites recentes sans equivalent en 1998 : 62 charrette, 71 eau en bouteille,
+72/92 usine RO communautaire, 13 voisin (NFHS-5) -- d'apres output/tables/24_etape2_hv201_ruptures.csv.
+
+------------------------------------------------------------------------------
+Etape 3. Georeferencement
+------------------------------------------------------------------------------
+Fichiers GE sous raw/dhs/india/1998 : aucun
+
+------------------------------------------------------------------------------
+Limites a consigner
+------------------------------------------------------------------------------
+- adoption declaree par le repondant ;
+- comparabilite des questionnaires entre phases DHS eloignees de vingt ans : pas de
+  filtre amont en 1998, « electronic » contre « electric purifier », questionnaire absent de raw/ ;
+- aucun repere publie local pour valider un taux 1998 ;
+- le NFHS-1 (1992-93) n'est pas examine.
+
+Run finished: 2026-10-06 10:45:07

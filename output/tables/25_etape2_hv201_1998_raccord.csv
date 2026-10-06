@@ -1,0 +1,20 @@
+code,libelle,n_non_pondere,codes_recents,nature
+,,9,,
+10,piped water,0,10,titre de groupe
+11,piped into residence/yard/plot,24307,11 + 12 (+ 13 voisin en NFHS-5),fusion : logement et cour reunis en 1998
+12,public tap,16502,13 (NFHS-3/4) ; 14 (NFHS-5),"un a un, code deplace en NFHS-5"
+20,well water,0,"20, 30",titre de groupe ; puits et forages separes apres 1998
+21,handpump in residence/yard/plot,12045,21 (sans distinction prive/public),propriete perdue : prive/public non distingue apres 1998
+22,public handpump,17505,21 (sans distinction prive/public),propriete perdue : prive/public non distingue apres 1998
+23,well in residence/yard/plot,1143,31 ou 32,propriete perdue ; protege/non protege non distingue en 1998
+24,open well,5426,31 ou 32,protege/non protege non distingue en 1998
+25,public covered well,963,31,propriete perdue ; « couvert » ~ protege (jugement)
+26,public open well,9211,32,propriete perdue ; « ouvert » ~ non protege (jugement)
+30,surface water,0,40,titre de groupe
+31,spring,1795,41 ou 42,protege/non protege non distingue en 1998
+32,"river, stream",1774,43,un a un (riviere)
+33,"pond, lake",1012,43,"un a un (etang, lac)"
+34,dam,50,43,un a un (barrage)
+41,rainwater,109,51,un a un
+51,tanker truck,203,61,un a un (camion-citerne) ; charrette 62 sans equivalent 1998
+96,other,432,96,un a un

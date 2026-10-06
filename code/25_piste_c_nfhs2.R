@@ -59,6 +59,8 @@
 #   de questionnaire, pas corrige.
 #   Erreur-type : linearisation, grappe hv021 dans la strate hv022 (hv001 si
 #   hv021 ne varie pas ; strate unique si hv022 ne varie pas ou manque).
+#   Les deux identifiants sont pris DANS l'Etat (hv024) : numerotation par
+#   Etat en NFHS-2 (corrige apres le premier passage, erreurs-types seules).
 #
 # LIMITES A CONSIGNER : adoption declaree ; comparabilite des questionnaires
 # entre phases DHS eloignees de vingt ans (formulation, filtre amont,
@@ -252,8 +254,15 @@ st[, nom := etats$libelle[match(etat, etats$code)]]
 msg("Etats ou nhv005 est nul ou manquant :")
 print(st[nhv005_nul > 0], row.names = FALSE)
 
+# En NFHS-2, hv001/hv021 (1-333) et hv022 (1-164) sont numerotes DANS chaque
+# Etat : grappe = (hv024, hv021), strate = (hv024, hv022). Constat du premier
+# passage (496 grappes au lieu de 3 215) ; ne change que les erreurs-types.
+etat_num <- num(d$hv024)
 strate <- num(d$hv022); if (all(is.na(strate)) || uniqueN(strate) == 1L) strate <- rep(1, nrow(d))
-psu <- if (uniqueN(num(d$hv021)) > 1L) num(d$hv021) else num(d$hv001)
+strate <- paste(etat_num, strate)
+psu <- paste(etat_num, if (uniqueN(num(d$hv021)) > 1L) num(d$hv021) else num(d$hv001))
+check(uniqueN(paste(strate, psu)) == uniqueN(paste(etat_num, num(d$hv001))),
+      "design : une grappe (Etat, hv021) par grappe (Etat, hv001)")
 msg("Design : ", uniqueN(strate), " strates, ", uniqueN(paste(strate, psu)), " grappes")
 urbain <- num(d$hv025) == 1
 
