@@ -1,0 +1,1348 @@
+vague,code,libelle,district_name,statut
+nfhs4,1,kupwara,Kupwara,meme nom
+nfhs4,2,badgam,Badgam,meme nom
+nfhs4,3,leh,Leh(Ladakh),nom different
+nfhs4,4,kargil,Kargil,meme nom
+nfhs4,5,punch,Punch,meme nom
+nfhs4,6,rajouri,Rajouri,meme nom
+nfhs4,7,kathua,Kathua,meme nom
+nfhs4,8,baramula,Baramula,meme nom
+nfhs4,9,bandipore,Bandipore,meme nom
+nfhs4,10,srinagar,Srinagar,meme nom
+nfhs4,11,ganderbal,Ganderbal,meme nom
+nfhs4,12,pulwama,Pulwama,meme nom
+nfhs4,13,shupiyan,Shupiyan,meme nom
+nfhs4,14,anantnag,Anantnag,meme nom
+nfhs4,15,kulgam,Kulgam,meme nom
+nfhs4,16,doda,Doda,meme nom
+nfhs4,17,ramban,Ramban,meme nom
+nfhs4,18,kishtwar,Kishtwar,meme nom
+nfhs4,19,udhampur,Udhampur,meme nom
+nfhs4,20,reasi,Reasi,meme nom
+nfhs4,21,jammu,Jammu,meme nom
+nfhs4,22,samba,Samba,meme nom
+nfhs4,23,chamba,Chamba,meme nom
+nfhs4,24,kangra,Kangra,meme nom
+nfhs4,25,lahul and spiti,Lahul & Spiti,nom different
+nfhs4,26,kullu,Kullu,meme nom
+nfhs4,27,mandi,Mandi,meme nom
+nfhs4,28,hamirpur,Hamirpur,meme nom
+nfhs4,29,una,Una,meme nom
+nfhs4,30,bilaspur,Bilaspur,meme nom
+nfhs4,31,solan,Solan,meme nom
+nfhs4,32,sirmaur,Sirmaur,meme nom
+nfhs4,33,shimla,Shimla,meme nom
+nfhs4,34,kinnaur,Kinnaur,meme nom
+nfhs4,35,gurdaspur,Gurdaspur,meme nom
+nfhs4,36,kapurthala,Kapurthala,meme nom
+nfhs4,37,jalandhar,Jalandhar,meme nom
+nfhs4,38,hoshiarpur,Hoshiarpur,meme nom
+nfhs4,39,sangrur,Shahid Bhagat Singh Nagar,nom different
+nfhs4,40,fatehgarh sahib,Fatehgarh Sahib,meme nom
+nfhs4,41,ludhiana,Ludhiana,meme nom
+nfhs4,42,moga,Moga,meme nom
+nfhs4,43,firozpur,Firozpur,meme nom
+nfhs4,44,muktsar,Muktsar,meme nom
+nfhs4,45,faridkot,Faridkot,meme nom
+nfhs4,46,bathinda,Bathinda,meme nom
+nfhs4,47,mansa,Mansa,meme nom
+nfhs4,48,patiala,Patiala,meme nom
+nfhs4,49,amritsar,Amritsar,meme nom
+nfhs4,50,tarn taran,Tarn Taran,meme nom
+nfhs4,51,rupnagar,Rupnagar,meme nom
+nfhs4,52,sahibzada ajit singh nagar,Sahibzada Ajit Singh Nagar,meme nom
+nfhs4,53,shahid bhagat singh nagar,Sangrur,nom different
+nfhs4,54,barnala,Barnala,meme nom
+nfhs4,55,chandigarh,Chandigarh,meme nom
+nfhs4,56,uttarkashi,Uttarkashi,meme nom
+nfhs4,57,chamoli,Chamoli,meme nom
+nfhs4,58,rudraprayag,Rudraprayag,meme nom
+nfhs4,59,tehri garhwal,Tehri Garhwal,meme nom
+nfhs4,60,dehradun,Dehradun,meme nom
+nfhs4,61,garhwal,Garhwal,meme nom
+nfhs4,62,pithoragarh,Pithoragarh,meme nom
+nfhs4,63,bageshwar,Bageshwar,meme nom
+nfhs4,64,almora,Almora,meme nom
+nfhs4,65,champawat,Champawat,meme nom
+nfhs4,66,nainital,Nainital,meme nom
+nfhs4,67,udham singh nagar,Udham Singh Nagar,meme nom
+nfhs4,68,hardwar,Hardwar,meme nom
+nfhs4,69,panchkula,Panchkula,meme nom
+nfhs4,70,ambala,Ambala,meme nom
+nfhs4,71,yamunanagar,Yamunanagar,meme nom
+nfhs4,72,kurukshetra,Kurukshetra,meme nom
+nfhs4,73,kaithal,Kaithal,meme nom
+nfhs4,74,karnal,Karnal,meme nom
+nfhs4,75,panipat,Panipat,meme nom
+nfhs4,76,sonipat,Sonipat,meme nom
+nfhs4,77,jind,Jind,meme nom
+nfhs4,78,fatehabad,Fatehabad,meme nom
+nfhs4,79,sirsa,Sirsa,meme nom
+nfhs4,80,hisar,Hisar,meme nom
+nfhs4,81,bhiwani,Bhiwani,meme nom
+nfhs4,82,rohtak,Rohtak,meme nom
+nfhs4,83,jhajjar,Jhajjar,meme nom
+nfhs4,84,mahendragarh,Mahendragarh,meme nom
+nfhs4,85,rewari,Rewari,meme nom
+nfhs4,86,gurgaon,Gurgaon,meme nom
+nfhs4,87,mewat,Mewat,meme nom
+nfhs4,88,faridabad,Faridabad,meme nom
+nfhs4,89,palwal,Palwal,meme nom
+nfhs4,90,north west,North West,meme nom
+nfhs4,91,north,North,meme nom
+nfhs4,92,north east,North East,meme nom
+nfhs4,93,east,East,meme nom
+nfhs4,94,new delhi,New Delhi,meme nom
+nfhs4,95,central,Central,meme nom
+nfhs4,96,west,West,meme nom
+nfhs4,97,south west,South West,meme nom
+nfhs4,98,south,South,meme nom
+nfhs4,99,ganganagar,Ganganagar,meme nom
+nfhs4,100,hanumangarh,Hanumangarh,meme nom
+nfhs4,101,bikaner,Bikaner,meme nom
+nfhs4,102,churu,Churu,meme nom
+nfhs4,103,jhunjhunun,Jhunjhunun,meme nom
+nfhs4,104,alwar,Alwar,meme nom
+nfhs4,105,bharatpur,Bharatpur,meme nom
+nfhs4,106,dhaulpur,Dhaulpur,meme nom
+nfhs4,107,karauli,Karauli,meme nom
+nfhs4,108,sawai madhopur,Sawai Madhopur,meme nom
+nfhs4,109,dausa,Dausa,meme nom
+nfhs4,110,jaipur,Jaipur,meme nom
+nfhs4,111,sikar,Sikar,meme nom
+nfhs4,112,nagaur,Nagaur,meme nom
+nfhs4,113,jodhpur,Jodhpur,meme nom
+nfhs4,114,jaisalmer,Jaisalmer,meme nom
+nfhs4,115,barmer,Barmer,meme nom
+nfhs4,116,jalor,Jalor,meme nom
+nfhs4,117,sirohi,Sirohi,meme nom
+nfhs4,118,pali,Pali,meme nom
+nfhs4,119,ajmer,Ajmer,meme nom
+nfhs4,120,tonk,Tonk,meme nom
+nfhs4,121,bundi,Bundi,meme nom
+nfhs4,122,bhilwara,Bhilwara,meme nom
+nfhs4,123,rajsamand,Rajsamand,meme nom
+nfhs4,124,dungarpur,Dungarpur,meme nom
+nfhs4,125,banswara,Banswara,meme nom
+nfhs4,126,chittaurgarh,Chittaurgarh,meme nom
+nfhs4,127,kota,Kota,meme nom
+nfhs4,128,baran,Baran,meme nom
+nfhs4,129,jhalawar,Jhalawar,meme nom
+nfhs4,130,udaipur,Udaipur,meme nom
+nfhs4,131,pratapgarh,Pratapgarh,meme nom
+nfhs4,132,saharanpur,Saharanpur,meme nom
+nfhs4,133,muzaffarnagar,Muzaffarnagar,meme nom
+nfhs4,134,bijnor,Bijnor,meme nom
+nfhs4,135,moradabad,Moradabad,meme nom
+nfhs4,136,rampur,Rampur,meme nom
+nfhs4,137,jyotiba phule nagar,Jyotiba Phule Nagar,meme nom
+nfhs4,138,meerut,Meerut,meme nom
+nfhs4,139,baghpat,Baghpat,meme nom
+nfhs4,140,ghaziabad,Ghaziabad,meme nom
+nfhs4,141,gautam buddha nagar,Gautam Buddha Nagar,meme nom
+nfhs4,142,bulandshahr,Bulandshahr,meme nom
+nfhs4,143,aligarh,Aligarh,meme nom
+nfhs4,144,mahamaya nagar,Mahamaya Nagar,meme nom
+nfhs4,145,mathura,Mathura,meme nom
+nfhs4,146,agra,Agra,meme nom
+nfhs4,147,firozabad,Firozabad,meme nom
+nfhs4,148,mainpuri,Mainpuri,meme nom
+nfhs4,149,budaun,Budaun,meme nom
+nfhs4,150,bareilly,Bareilly,meme nom
+nfhs4,151,pilibhit,Pilibhit,meme nom
+nfhs4,152,shahjahanpur,Shahjahanpur,meme nom
+nfhs4,153,kheri,Kheri,meme nom
+nfhs4,154,sitapur,Sitapur,meme nom
+nfhs4,155,hardoi,Hardoi,meme nom
+nfhs4,156,unnao,Unnao,meme nom
+nfhs4,157,lucknow,Lucknow,meme nom
+nfhs4,158,rae bareli,Rae Bareli,meme nom
+nfhs4,159,farrukhabad,Farrukhabad,meme nom
+nfhs4,160,kannauj,Kannauj,meme nom
+nfhs4,161,etawah,Etawah,meme nom
+nfhs4,162,auraiya,Auraiya,meme nom
+nfhs4,163,kanpur dehat,Kanpur Dehat,meme nom
+nfhs4,164,kanpur nagar,Kanpur Nagar,meme nom
+nfhs4,165,jalaun,Jalaun,meme nom
+nfhs4,166,jhansi,Jhansi,meme nom
+nfhs4,167,lalitpur,Lalitpur,meme nom
+nfhs4,168,hamirpur,Hamirpur,meme nom
+nfhs4,169,mahoba,Mahoba,meme nom
+nfhs4,170,banda,Banda,meme nom
+nfhs4,171,chitrakoot,Chitrakoot,meme nom
+nfhs4,172,fatehpur,Fatehpur,meme nom
+nfhs4,173,pratapgarh,Pratapgarh,meme nom
+nfhs4,174,kaushambi,Kaushambi,meme nom
+nfhs4,175,allahabad,Allahabad,meme nom
+nfhs4,176,bara banki,Bara Banki,meme nom
+nfhs4,177,faizabad,Faizabad,meme nom
+nfhs4,178,ambedkar nagar,Ambedkar Nagar,meme nom
+nfhs4,179,sultanpur,Sultanpur,meme nom
+nfhs4,180,bahraich,Bahraich,meme nom
+nfhs4,181,shrawasti,Shrawasti,meme nom
+nfhs4,182,balrampur,Balrampur,meme nom
+nfhs4,183,gonda,Gonda,meme nom
+nfhs4,184,siddharth nagar,Siddharthnagar,meme nom
+nfhs4,185,basti,Basti,meme nom
+nfhs4,186,sant kabir nagar,Sant Kabir Nagar,meme nom
+nfhs4,187,mahrajganj,Mahrajganj,meme nom
+nfhs4,188,gorakhpur,Gorakhpur,meme nom
+nfhs4,189,kushinagar,Kushinagar,meme nom
+nfhs4,190,deoria,Deoria,meme nom
+nfhs4,191,azamgarh,Azamgarh,meme nom
+nfhs4,192,mau,Mau,meme nom
+nfhs4,193,ballia,Ballia,meme nom
+nfhs4,194,jaunpur,Jaunpur,meme nom
+nfhs4,195,ghazipur,Ghazipur,meme nom
+nfhs4,196,chandauli,Chandauli,meme nom
+nfhs4,197,varanasi,Varanasi,meme nom
+nfhs4,198,sant ravidas nagar (bhadohi),Sant Ravidas Nagar (Bhadohi),meme nom
+nfhs4,199,mirzapur,Mirzapur,meme nom
+nfhs4,200,sonbhadra,Sonbhadra,meme nom
+nfhs4,201,etah,Etah,meme nom
+nfhs4,202,kanshiram nagar,Kanshiram Nagar,meme nom
+nfhs4,203,pashchim champaran,Pashchim Champaran,meme nom
+nfhs4,204,purba champaran,Purba Champaran,meme nom
+nfhs4,205,sheohar,Sheohar,meme nom
+nfhs4,206,sitamarhi,Sitamarhi,meme nom
+nfhs4,207,madhubani,Madhubani,meme nom
+nfhs4,208,supaul,Supaul,meme nom
+nfhs4,209,araria,Araria,meme nom
+nfhs4,210,kishanganj,Kishanganj,meme nom
+nfhs4,211,purnia,Purnia,meme nom
+nfhs4,212,katihar,Katihar,meme nom
+nfhs4,213,madhepura,Madhepura,meme nom
+nfhs4,214,saharsa,Saharsa,meme nom
+nfhs4,215,darbhanga,Darbhanga,meme nom
+nfhs4,216,muzaffarpur,Muzaffarpur,meme nom
+nfhs4,217,gopalganj,Gopalganj,meme nom
+nfhs4,218,siwan,Siwan,meme nom
+nfhs4,219,saran,Saran,meme nom
+nfhs4,220,vaishali,Vaishali,meme nom
+nfhs4,221,samastipur,Samastipur,meme nom
+nfhs4,222,begusarai,Begusarai,meme nom
+nfhs4,223,khagaria,Khagaria,meme nom
+nfhs4,224,bhagalpur,Bhagalpur,meme nom
+nfhs4,225,banka,Banka,meme nom
+nfhs4,226,munger,Munger,meme nom
+nfhs4,227,lakhisarai,Lakhisarai,meme nom
+nfhs4,228,sheikhpura,Sheikhpura,meme nom
+nfhs4,229,nalanda,Nalanda,meme nom
+nfhs4,230,patna,Patna,meme nom
+nfhs4,231,bhojpur,Bhojpur,meme nom
+nfhs4,232,buxar,Buxar,meme nom
+nfhs4,233,kaimur (bhabua),Kaimur (Bhabua),meme nom
+nfhs4,234,rohtas,Rohtas,meme nom
+nfhs4,235,aurangabad,Aurangabad,meme nom
+nfhs4,236,gaya,Gaya,meme nom
+nfhs4,237,nawada,Nawada,meme nom
+nfhs4,238,jamui,Jamui,meme nom
+nfhs4,239,jehanabad,Jehanabad,meme nom
+nfhs4,240,arwal,Arwal,meme nom
+nfhs4,241,north  district,North  District,meme nom
+nfhs4,242,west district,West District,meme nom
+nfhs4,243,south district,South District,meme nom
+nfhs4,244,east district,East District,meme nom
+nfhs4,245,tawang,Tawang,meme nom
+nfhs4,246,west kameng,West Kameng,meme nom
+nfhs4,247,east kameng,East Kameng,meme nom
+nfhs4,248,papumpare,Papum Pare,meme nom
+nfhs4,249,upper subansiri,Upper Subansiri,meme nom
+nfhs4,250,west siang,West Siang,meme nom
+nfhs4,251,east siang,East Siang,meme nom
+nfhs4,252,upper siang,Upper Siang,meme nom
+nfhs4,253,changlang,Changlang,meme nom
+nfhs4,254,tirap,Tirap,meme nom
+nfhs4,255,lower subansiri,Lower Subansiri,meme nom
+nfhs4,256,kurung kumey,Kurung Kumey,meme nom
+nfhs4,257,dibang valley,Dibang Valley,meme nom
+nfhs4,258,lower dibang valley,Lower Dibang Valley,meme nom
+nfhs4,259,lohit,Lohit,meme nom
+nfhs4,260,anjaw,Anjaw,meme nom
+nfhs4,261,mon,Mon,meme nom
+nfhs4,262,mokokchung,Mokokchung,meme nom
+nfhs4,263,zunheboto,Zunheboto,meme nom
+nfhs4,264,wokha,Wokha,meme nom
+nfhs4,265,dimapur,Dimapur,meme nom
+nfhs4,266,phek,Phek,meme nom
+nfhs4,267,tuensang,Tuensang,meme nom
+nfhs4,268,longleng,Longleng,meme nom
+nfhs4,269,kiphire,Kiphire,meme nom
+nfhs4,270,kohima,Kohima,meme nom
+nfhs4,271,peren,Peren,meme nom
+nfhs4,272,senapati (excluding 3 sub-divisions),Senapati,nom different
+nfhs4,273,tamenglong,Tamenglong,meme nom
+nfhs4,274,churachandpur,Churachandpur,meme nom
+nfhs4,275,bishnupur,Bishnupur,meme nom
+nfhs4,276,thoubal,Thoubal,meme nom
+nfhs4,277,imphal west,Imphal West,meme nom
+nfhs4,278,imphal east,Imphal East,meme nom
+nfhs4,279,ukhrul,Ukhrul,meme nom
+nfhs4,280,chandel,Chandel,meme nom
+nfhs4,281,mamit,Mamit,meme nom
+nfhs4,282,kolasib,Kolasib,meme nom
+nfhs4,283,aizawl,Aizawl,meme nom
+nfhs4,284,champhai,Champhai,meme nom
+nfhs4,285,serchhip,Serchhip,meme nom
+nfhs4,286,lunglei,Lunglei,meme nom
+nfhs4,287,lawngtlai,Lawngtlai,meme nom
+nfhs4,288,saiha,Saiha,meme nom
+nfhs4,289,west tripura,West Tripura,meme nom
+nfhs4,290,south tripura,South Tripura,meme nom
+nfhs4,291,dhalai,Dhalai,meme nom
+nfhs4,292,north tripura,North Tripura,meme nom
+nfhs4,293,west garo hills,West Garo Hills,meme nom
+nfhs4,294,east garo hills,East Garo Hills,meme nom
+nfhs4,295,south garo hills,South Garo Hills,meme nom
+nfhs4,296,west khasi hills,West Khasi Hills,meme nom
+nfhs4,297,ribhoi,Ribhoi,meme nom
+nfhs4,298,east khasi hills,East Khasi Hills,meme nom
+nfhs4,299,jaintia hills,Jaintia Hills,meme nom
+nfhs4,300,kokrajhar,Kokrajhar,meme nom
+nfhs4,301,dhubri,Dhubri,meme nom
+nfhs4,302,goalpara,Goalpara,meme nom
+nfhs4,303,barpeta,Barpeta,meme nom
+nfhs4,304,morigaon,Morigaon,meme nom
+nfhs4,305,nagaon,Nagaon,meme nom
+nfhs4,306,sonitpur,Sonitpur,meme nom
+nfhs4,307,lakhimpur,Lakhimpur,meme nom
+nfhs4,308,dhemaji,Dhemaji,meme nom
+nfhs4,309,tinsukia,Tinsukia,meme nom
+nfhs4,310,dibrugarh,Dibrugarh,meme nom
+nfhs4,311,sivasagar,Sivasagar,meme nom
+nfhs4,312,jorhat,Jorhat,meme nom
+nfhs4,313,golaghat,Golaghat,meme nom
+nfhs4,314,karbi anglong,Karbi Anglong,meme nom
+nfhs4,315,dima hasao,Dima Hasao,meme nom
+nfhs4,316,cachar,Cachar,meme nom
+nfhs4,317,karimganj,Karimganj,meme nom
+nfhs4,318,hailakandi,Hailakandi,meme nom
+nfhs4,319,bongaigaon,Bongaigaon,meme nom
+nfhs4,320,chirang,Chirang,meme nom
+nfhs4,321,kamrup,Kamrup,meme nom
+nfhs4,322,kamrup metropolitan,Kamrup Metropolitan,meme nom
+nfhs4,323,nalbari,Nalbari,meme nom
+nfhs4,324,baksa,Baksa,meme nom
+nfhs4,325,darrang,Darrang,meme nom
+nfhs4,326,udalguri,Udalguri,meme nom
+nfhs4,327,darjiling,Darjiling,meme nom
+nfhs4,328,jalpaiguri,Jalpaiguri,meme nom
+nfhs4,329,koch bihar,Koch Bihar,meme nom
+nfhs4,330,uttar dinajpur,Uttar Dinajpur,meme nom
+nfhs4,331,dakshin dinajpur,Dakshin Dinajpur,meme nom
+nfhs4,332,maldah,Maldah,meme nom
+nfhs4,333,murshidabad,Murshidabad,meme nom
+nfhs4,334,birbhum,Birbhum,meme nom
+nfhs4,335,barddhaman,Barddhaman,meme nom
+nfhs4,336,nadia,Nadia,meme nom
+nfhs4,337,north twenty four parganas,North Twenty Four Parganas,meme nom
+nfhs4,338,hugli,Hugli,meme nom
+nfhs4,339,bankura,Bankura,meme nom
+nfhs4,340,puruliya,Puruliya,meme nom
+nfhs4,341,haora,Haora,meme nom
+nfhs4,342,kolkata,Kolkata,meme nom
+nfhs4,343,south twenty four parganas,South Twenty Four Parganas,meme nom
+nfhs4,344,paschim medinipur,Paschim Medinipur,meme nom
+nfhs4,345,purba medinipur,Purba Medinipur,meme nom
+nfhs4,346,garhwa,Garhwa,meme nom
+nfhs4,347,chatra,Chatra,meme nom
+nfhs4,348,kodarma,Kodarma,meme nom
+nfhs4,349,giridih,Giridih,meme nom
+nfhs4,350,deoghar,Deoghar,meme nom
+nfhs4,351,godda,Godda,meme nom
+nfhs4,352,sahibganj,Sahibganj,meme nom
+nfhs4,353,pakur,Pakur,meme nom
+nfhs4,354,dhanbad,Dhanbad,meme nom
+nfhs4,355,bokaro,Bokaro,meme nom
+nfhs4,356,lohardaga,Lohardaga,meme nom
+nfhs4,357,purbi singhbhum,Purbi Singhbhum,meme nom
+nfhs4,358,palamu,Palamu,meme nom
+nfhs4,359,latehar,Latehar,meme nom
+nfhs4,360,hazaribagh,Hazaribagh,meme nom
+nfhs4,361,ramgarh,Ramgarh,meme nom
+nfhs4,362,dumka,Dumka,meme nom
+nfhs4,363,jamtara,Jamtara,meme nom
+nfhs4,364,ranchi,Ranchi,meme nom
+nfhs4,365,khunti,Khunti,meme nom
+nfhs4,366,gumla,Gumla,meme nom
+nfhs4,367,simdega,Simdega,meme nom
+nfhs4,368,pashchimi singhbhum,Pashchimi Singhbhum,meme nom
+nfhs4,369,saraikela kharsawan,Saraikela-Kharsawan,meme nom
+nfhs4,370,bargarh,Bargarh,meme nom
+nfhs4,371,jharsuguda,Jharsuguda,meme nom
+nfhs4,372,sambalpur,Sambalpur,meme nom
+nfhs4,373,debagarh,Debagarh,meme nom
+nfhs4,374,sundargarh,Sundargarh,meme nom
+nfhs4,375,kendujhar,Kendujhar,meme nom
+nfhs4,376,mayurbhanj,Mayurbhanj,meme nom
+nfhs4,377,baleshwar,Baleshwar,meme nom
+nfhs4,378,bhadrak,Bhadrak,meme nom
+nfhs4,379,kendrapara,Kendrapara,meme nom
+nfhs4,380,jagatsinghapur,Jagatsinghapur,meme nom
+nfhs4,381,cuttack,Cuttack,meme nom
+nfhs4,382,jajapur,Jajapur,meme nom
+nfhs4,383,dhenkanal,Dhenkanal,meme nom
+nfhs4,384,anugul,Anugul,meme nom
+nfhs4,385,nayagarh,Nayagarh,meme nom
+nfhs4,386,khordha,Khordha,meme nom
+nfhs4,387,puri,Puri,meme nom
+nfhs4,388,ganjam,Ganjam,meme nom
+nfhs4,389,gajapati,Gajapati,meme nom
+nfhs4,390,kandhamal,Kandhamal,meme nom
+nfhs4,391,baudh,Baudh,meme nom
+nfhs4,392,subarnapur,Subarnapur,meme nom
+nfhs4,393,balangir,Balangir,meme nom
+nfhs4,394,nuapada,Nuapada,meme nom
+nfhs4,395,kalahandi,Kalahandi,meme nom
+nfhs4,396,rayagada,Rayagada,meme nom
+nfhs4,397,nabarangapur,Nabarangapur,meme nom
+nfhs4,398,koraput,Koraput,meme nom
+nfhs4,399,malkangiri,Malkangiri,meme nom
+nfhs4,400,korea (koriya),Koriya,nom different
+nfhs4,401,surguja,Surguja,meme nom
+nfhs4,402,jashpur,Jashpur,meme nom
+nfhs4,403,raigarh,Raigarh,meme nom
+nfhs4,404,korba,Korba,meme nom
+nfhs4,405,janjgir - champa,Janjgir - Champa,meme nom
+nfhs4,406,bilaspur,Bilaspur,meme nom
+nfhs4,407,kabirdham,Kabeerdham,nom different
+nfhs4,408,rajnandgaon,Rajnandgaon,meme nom
+nfhs4,409,durg,Durg,meme nom
+nfhs4,410,raipur,Raipur,meme nom
+nfhs4,411,mahasamund,Mahasamund,meme nom
+nfhs4,412,dhamtari,Dhamtari,meme nom
+nfhs4,413,uttar bastar kanker,Uttar Bastar Kanker,meme nom
+nfhs4,414,bastar,Bastar,meme nom
+nfhs4,415,narayanpur,Narayanpur,meme nom
+nfhs4,416,dakshin bastar dantewada,Dakshin Bastar Dantewada,meme nom
+nfhs4,417,bijapur,Bijapur,meme nom
+nfhs4,418,sheopur,Sheopur,meme nom
+nfhs4,419,morena,Morena,meme nom
+nfhs4,420,bhind,Bhind,meme nom
+nfhs4,421,gwalior,Gwalior,meme nom
+nfhs4,422,datia,Datia,meme nom
+nfhs4,423,shivpuri,Shivpuri,meme nom
+nfhs4,424,tikamgarh,Tikamgarh,meme nom
+nfhs4,425,chhatarpur,Chhatarpur,meme nom
+nfhs4,426,panna,Panna,meme nom
+nfhs4,427,sagar,Sagar,meme nom
+nfhs4,428,damoh,Damoh,meme nom
+nfhs4,429,satna,Satna,meme nom
+nfhs4,430,rewa,Rewa,meme nom
+nfhs4,431,umaria,Umaria,meme nom
+nfhs4,432,neemuch,Neemuch,meme nom
+nfhs4,433,mandsaur,Mandsaur,meme nom
+nfhs4,434,ratlam,Ratlam,meme nom
+nfhs4,435,ujjain,Ujjain,meme nom
+nfhs4,436,shajapur,Shajapur,meme nom
+nfhs4,437,dewas,Dewas,meme nom
+nfhs4,438,dhar,Dhar,meme nom
+nfhs4,439,indore,Indore,meme nom
+nfhs4,440,khargone (west nimar),Khargone (West Nimar),meme nom
+nfhs4,441,barwani,Barwani,meme nom
+nfhs4,442,rajgarh,Rajgarh,meme nom
+nfhs4,443,vidisha,Vidisha,meme nom
+nfhs4,444,bhopal,Bhopal,meme nom
+nfhs4,445,sehore,Sehore,meme nom
+nfhs4,446,raisen,Raisen,meme nom
+nfhs4,447,betul,Betul,meme nom
+nfhs4,448,harda,Harda,meme nom
+nfhs4,449,hoshangabad,Hoshangabad,meme nom
+nfhs4,450,katni,Katni,meme nom
+nfhs4,451,jabalpur,Jabalpur,meme nom
+nfhs4,452,narsimhapur,Narsimhapur,meme nom
+nfhs4,453,dindori,Dindori,meme nom
+nfhs4,454,mandla,Mandla,meme nom
+nfhs4,455,chhindwara,Chhindwara,meme nom
+nfhs4,456,seoni,Seoni,meme nom
+nfhs4,457,balaghat,Balaghat,meme nom
+nfhs4,458,guna,Guna,meme nom
+nfhs4,459,ashoknagar,Ashoknagar,meme nom
+nfhs4,460,shahdol,Shahdol,meme nom
+nfhs4,461,anuppur,Anuppur,meme nom
+nfhs4,462,sidhi,Sidhi,meme nom
+nfhs4,463,singrauli,Singrauli,meme nom
+nfhs4,464,jhabua,Jhabua,meme nom
+nfhs4,465,alirajpur,Alirajpur,meme nom
+nfhs4,466,khandwa (east nimar),Khandwa (East Nimar),meme nom
+nfhs4,467,burhanpur,Burhanpur,meme nom
+nfhs4,468,kachchh,Kachchh,meme nom
+nfhs4,469,banaskantha,Banas Kantha,meme nom
+nfhs4,470,patan,Patan,meme nom
+nfhs4,471,mahesana,Mahesana,meme nom
+nfhs4,472,sabarkantha,Sabar Kantha,meme nom
+nfhs4,473,gandhinagar,Gandhinagar,meme nom
+nfhs4,474,ahmadabad,Ahmadabad,meme nom
+nfhs4,475,surendranagar,Surendranagar,meme nom
+nfhs4,476,rajkot,Rajkot,meme nom
+nfhs4,477,jamnagar,Jamnagar,meme nom
+nfhs4,478,porbandar,Porbandar,meme nom
+nfhs4,479,junagadh,Junagadh,meme nom
+nfhs4,480,amreli,Amreli,meme nom
+nfhs4,481,bhavnagar,Bhavnagar,meme nom
+nfhs4,482,anand,Anand,meme nom
+nfhs4,483,kheda,Kheda,meme nom
+nfhs4,484,panchmahal,Panch Mahals,nom different
+nfhs4,485,dohad,Dohad,meme nom
+nfhs4,486,vadodara,Vadodara,meme nom
+nfhs4,487,narmada,Narmada,meme nom
+nfhs4,488,bharuch,Bharuch,meme nom
+nfhs4,489,the dangs,The Dangs,meme nom
+nfhs4,490,navsari,Navsari,meme nom
+nfhs4,491,valsad,Valsad,meme nom
+nfhs4,492,surat,Surat,meme nom
+nfhs4,493,tapi,Tapi,meme nom
+nfhs4,494,diu,Diu,meme nom
+nfhs4,495,daman,Daman,meme nom
+nfhs4,496,dadra & nagar haveli,Dadra & Nagar Haveli,meme nom
+nfhs4,497,nandurbar,Nandurbar,meme nom
+nfhs4,498,dhule,Dhule,meme nom
+nfhs4,499,jalgaon,Jalgaon,meme nom
+nfhs4,500,buldana,Buldana,meme nom
+nfhs4,501,akola,Akola,meme nom
+nfhs4,502,washim,Washim,meme nom
+nfhs4,503,amravati,Amravati,meme nom
+nfhs4,504,wardha,Wardha,meme nom
+nfhs4,505,nagpur,Nagpur,meme nom
+nfhs4,506,bhandara,Bhandara,meme nom
+nfhs4,507,gondiya,Gondiya,meme nom
+nfhs4,508,gadchiroli,Gadchiroli,meme nom
+nfhs4,509,chandrapur,Chandrapur,meme nom
+nfhs4,510,yavatmal,Yavatmal,meme nom
+nfhs4,511,nanded,Nanded,meme nom
+nfhs4,512,hingoli,Hingoli,meme nom
+nfhs4,513,parbhani,Parbhani,meme nom
+nfhs4,514,jalna,Jalna,meme nom
+nfhs4,515,aurangabad,Aurangabad,meme nom
+nfhs4,516,nashik,Nashik,meme nom
+nfhs4,517,thane,Thane,meme nom
+nfhs4,518,mumbai suburban,Mumbai Suburban,meme nom
+nfhs4,519,mumbai,Mumbai,meme nom
+nfhs4,520,raigarh,Raigarh,meme nom
+nfhs4,521,pune,Pune,meme nom
+nfhs4,522,ahmadnagar,Ahmadnagar,meme nom
+nfhs4,523,bid,Bid,meme nom
+nfhs4,524,latur,Latur,meme nom
+nfhs4,525,osmanabad,Osmanabad,meme nom
+nfhs4,526,solapur,Solapur,meme nom
+nfhs4,527,satara,Satara,meme nom
+nfhs4,528,ratnagiri,Ratnagiri,meme nom
+nfhs4,529,sindhudurg,Sindhudurg,meme nom
+nfhs4,530,kolhapur,Kolhapur,meme nom
+nfhs4,531,sangli,Sangli,meme nom
+nfhs4,532,adilabad,Adilabad,meme nom
+nfhs4,533,nizamabad,Nizamabad,meme nom
+nfhs4,534,karimnagar,Karimnagar,meme nom
+nfhs4,535,medak,Medak,meme nom
+nfhs4,536,hyderabad,Hyderabad,meme nom
+nfhs4,537,rangareddy,Rangareddy,meme nom
+nfhs4,538,mahbubnagar,Mahbubnagar,meme nom
+nfhs4,539,nalgonda,Nalgonda,meme nom
+nfhs4,540,warangal,Warangal,meme nom
+nfhs4,541,khammam,Khammam,meme nom
+nfhs4,542,srikakulam,Srikakulam,meme nom
+nfhs4,543,vizianagaram,Vizianagaram,meme nom
+nfhs4,544,visakhapatnam,Visakhapatnam,meme nom
+nfhs4,545,east godavari,East Godavari,meme nom
+nfhs4,546,west godavari,West Godavari,meme nom
+nfhs4,547,krishna,Krishna,meme nom
+nfhs4,548,guntur,Guntur,meme nom
+nfhs4,549,prakasam,Prakasam,meme nom
+nfhs4,550,sri potti sriramulu nellore,Sri Potti Sriramulu Nellore,meme nom
+nfhs4,551,y.s.r.,Y.S.R.,meme nom
+nfhs4,552,kurnool,Kurnool,meme nom
+nfhs4,553,anantapur,Anantapur,meme nom
+nfhs4,554,chittoor,Chittoor,meme nom
+nfhs4,555,belgaum,Belgaum,meme nom
+nfhs4,556,bagalkot,Bagalkot,meme nom
+nfhs4,557,bijapur,Bijapur,meme nom
+nfhs4,558,bidar,Bidar,meme nom
+nfhs4,559,raichur,Raichur,meme nom
+nfhs4,560,koppal,Koppal,meme nom
+nfhs4,561,gadag,Gadag,meme nom
+nfhs4,562,dharwad,Dharwad,meme nom
+nfhs4,563,uttara kannada,Uttara Kannada,meme nom
+nfhs4,564,haveri,Haveri,meme nom
+nfhs4,565,bellary,Bellary,meme nom
+nfhs4,566,chitradurga,Chitradurga,meme nom
+nfhs4,567,davanagere,Davanagere,meme nom
+nfhs4,568,shimoga,Shimoga,meme nom
+nfhs4,569,udupi,Udupi,meme nom
+nfhs4,570,chikmagalur,Chikmagalur,meme nom
+nfhs4,571,tumkur,Tumkur,meme nom
+nfhs4,572,bangalore,Bangalore,meme nom
+nfhs4,573,mandya,Mandya,meme nom
+nfhs4,574,hassan,Hassan,meme nom
+nfhs4,575,dakshina kannada,Dakshina Kannada,meme nom
+nfhs4,576,kodagu,Kodagu,meme nom
+nfhs4,577,mysore,Mysore,meme nom
+nfhs4,578,chamarajanagar,Chamarajanagar,meme nom
+nfhs4,579,gulbarga,Gulbarga,meme nom
+nfhs4,580,yadgir,Yadgir,meme nom
+nfhs4,581,kolar,Kolar,meme nom
+nfhs4,582,chikkaballapura,Chikkaballapura,meme nom
+nfhs4,583,bangalore rural,Bangalore Rural,meme nom
+nfhs4,584,ramanagara,Ramanagara,meme nom
+nfhs4,585,north goa,North Goa,meme nom
+nfhs4,586,south goa,South Goa,meme nom
+nfhs4,587,lakshadweep,Lakshadweep,meme nom
+nfhs4,588,kasaragod,Kasaragod,meme nom
+nfhs4,589,kannur,Kannur,meme nom
+nfhs4,590,wayanad,Wayanad,meme nom
+nfhs4,591,kozhikode,Kozhikode,meme nom
+nfhs4,592,malappuram,Malappuram,meme nom
+nfhs4,593,palakkad,Palakkad,meme nom
+nfhs4,594,thrissur,Thrissur,meme nom
+nfhs4,595,ernakulam,Ernakulam,meme nom
+nfhs4,596,idukki,Idukki,meme nom
+nfhs4,597,kottayam,Kottayam,meme nom
+nfhs4,598,alappuzha,Alappuzha,meme nom
+nfhs4,599,pathanamthitta,Pathanamthitta,meme nom
+nfhs4,600,kollam,Kollam,meme nom
+nfhs4,601,thiruvananthapuram,Thiruvananthapuram,meme nom
+nfhs4,602,thiruvallur,Thiruvallur,meme nom
+nfhs4,603,chennai,Chennai,meme nom
+nfhs4,604,kancheepuram,Kancheepuram,meme nom
+nfhs4,605,vellore,Vellore,meme nom
+nfhs4,606,tiruvannamalai,Tiruvannamalai,meme nom
+nfhs4,607,viluppuram,Viluppuram,meme nom
+nfhs4,608,salem,Salem,meme nom
+nfhs4,609,namakkal,Namakkal,meme nom
+nfhs4,610,erode,Erode,meme nom
+nfhs4,611,the nilgiris,The Nilgiris,meme nom
+nfhs4,612,dindigul,Dindigul,meme nom
+nfhs4,613,karur,Karur,meme nom
+nfhs4,614,tiruchirappalli,Tiruchirappalli,meme nom
+nfhs4,615,perambalur,Perambalur,meme nom
+nfhs4,616,ariyalur,Ariyalur,meme nom
+nfhs4,617,cuddalore,Cuddalore,meme nom
+nfhs4,618,nagapattinam,Nagapattinam,meme nom
+nfhs4,619,thiruvarur,Thiruvarur,meme nom
+nfhs4,620,thanjavur,Thanjavur,meme nom
+nfhs4,621,pudukkottai,Pudukkottai,meme nom
+nfhs4,622,sivaganga,Sivaganga,meme nom
+nfhs4,623,madurai,Madurai,meme nom
+nfhs4,624,theni,Theni,meme nom
+nfhs4,625,virudhunagar,Virudhunagar,meme nom
+nfhs4,626,ramanathapuram,Ramanathapuram,meme nom
+nfhs4,627,thoothukkudi,Thoothukkudi,meme nom
+nfhs4,628,tirunelveli,Tirunelveli,meme nom
+nfhs4,629,kanniyakumari,Kanniyakumari,meme nom
+nfhs4,630,dharmapuri,Dharmapuri,meme nom
+nfhs4,631,krishnagiri,Krishnagiri,meme nom
+nfhs4,632,coimbatore,Coimbatore,meme nom
+nfhs4,633,tiruppur,Tiruppur,meme nom
+nfhs4,634,yanam,Yanam,meme nom
+nfhs4,635,puducherry,Puducherry,meme nom
+nfhs4,636,mahe,Mahe,meme nom
+nfhs4,637,karaikal,Karaikal,meme nom
+nfhs4,638,nicobars,Nicobars,meme nom
+nfhs4,639,north & middle andaman,North  & Middle Andaman,meme nom
+nfhs4,640,south andaman,South Andaman,meme nom
+nfhs5,1,kupwara,Kupwara,meme nom
+nfhs5,2,badgam,Badgam,meme nom
+nfhs5,3,leh(ladakh),Leh(Ladakh),meme nom
+nfhs5,4,kargil,Kargil,meme nom
+nfhs5,5,punch,Punch,meme nom
+nfhs5,6,rajouri,Rajouri,meme nom
+nfhs5,7,kathua,Kathua,meme nom
+nfhs5,8,baramula,Baramula,meme nom
+nfhs5,9,bandipore,Bandipore,meme nom
+nfhs5,10,srinagar,Srinagar,meme nom
+nfhs5,11,ganderbal,Ganderbal,meme nom
+nfhs5,12,pulwama,Pulwama,meme nom
+nfhs5,13,shupiyan,Shupiyan,meme nom
+nfhs5,14,anantnag,Anantnag,meme nom
+nfhs5,15,kulgam,Kulgam,meme nom
+nfhs5,16,doda,Doda,meme nom
+nfhs5,17,ramban,Ramban,meme nom
+nfhs5,18,kishtwar,Kishtwar,meme nom
+nfhs5,19,udhampur,Udhampur,meme nom
+nfhs5,20,reasi,Reasi,meme nom
+nfhs5,21,jammu,Jammu,meme nom
+nfhs5,22,samba,Samba,meme nom
+nfhs5,23,chamba,Chamba,meme nom
+nfhs5,24,kangra,Kangra,meme nom
+nfhs5,25,lahul & spiti,Lahul & Spiti,meme nom
+nfhs5,26,kullu,Kullu,meme nom
+nfhs5,27,mandi,Mandi,meme nom
+nfhs5,28,hamirpur,Hamirpur,meme nom
+nfhs5,29,una,Una,meme nom
+nfhs5,30,bilaspur,Bilaspur,meme nom
+nfhs5,31,solan,Solan,meme nom
+nfhs5,32,sirmaur,Sirmaur,meme nom
+nfhs5,33,shimla,Shimla,meme nom
+nfhs5,34,kinnaur,Kinnaur,meme nom
+nfhs5,36,kapurthala,Kapurthala,meme nom
+nfhs5,37,jalandhar,Jalandhar,meme nom
+nfhs5,38,hoshiarpur,Hoshiarpur,meme nom
+nfhs5,39,shahid bhagat singh nagar,Shahid Bhagat Singh Nagar,meme nom
+nfhs5,40,fatehgarh sahib,Fatehgarh Sahib,meme nom
+nfhs5,41,ludhiana,Ludhiana,meme nom
+nfhs5,42,moga,Moga,meme nom
+nfhs5,44,muktsar,Muktsar,meme nom
+nfhs5,45,faridkot,Faridkot,meme nom
+nfhs5,46,bathinda,Bathinda,meme nom
+nfhs5,47,mansa,Mansa,meme nom
+nfhs5,48,patiala,Patiala,meme nom
+nfhs5,49,amritsar,Amritsar,meme nom
+nfhs5,50,tarn taran,Tarn Taran,meme nom
+nfhs5,51,rupnagar,Rupnagar,meme nom
+nfhs5,52,sahibzada ajit singh nagar,Sahibzada Ajit Singh Nagar,meme nom
+nfhs5,53,sangrur,Sangrur,meme nom
+nfhs5,54,barnala,Barnala,meme nom
+nfhs5,55,chandigarh,Chandigarh,meme nom
+nfhs5,56,uttarkashi,Uttarkashi,meme nom
+nfhs5,57,chamoli,Chamoli,meme nom
+nfhs5,58,rudraprayag,Rudraprayag,meme nom
+nfhs5,59,tehri garhwal,Tehri Garhwal,meme nom
+nfhs5,60,dehradun,Dehradun,meme nom
+nfhs5,61,garhwal,Garhwal,meme nom
+nfhs5,62,pithoragarh,Pithoragarh,meme nom
+nfhs5,63,bageshwar,Bageshwar,meme nom
+nfhs5,64,almora,Almora,meme nom
+nfhs5,65,champawat,Champawat,meme nom
+nfhs5,66,nainital,Nainital,meme nom
+nfhs5,67,udham singh nagar,Udham Singh Nagar,meme nom
+nfhs5,68,hardwar,Hardwar,meme nom
+nfhs5,69,panchkula,Panchkula,meme nom
+nfhs5,70,ambala,Ambala,meme nom
+nfhs5,71,yamunanagar,Yamunanagar,meme nom
+nfhs5,72,kurukshetra,Kurukshetra,meme nom
+nfhs5,73,kaithal,Kaithal,meme nom
+nfhs5,74,karnal,Karnal,meme nom
+nfhs5,75,panipat,Panipat,meme nom
+nfhs5,76,sonipat,Sonipat,meme nom
+nfhs5,77,jind,Jind,meme nom
+nfhs5,78,fatehabad,Fatehabad,meme nom
+nfhs5,79,sirsa,Sirsa,meme nom
+nfhs5,80,hisar,Hisar,meme nom
+nfhs5,82,rohtak,Rohtak,meme nom
+nfhs5,83,jhajjar,Jhajjar,meme nom
+nfhs5,84,mahendragarh,Mahendragarh,meme nom
+nfhs5,85,rewari,Rewari,meme nom
+nfhs5,86,gurgaon,Gurgaon,meme nom
+nfhs5,87,mewat,Mewat,meme nom
+nfhs5,88,faridabad,Faridabad,meme nom
+nfhs5,89,palwal,Palwal,meme nom
+nfhs5,99,ganganagar,Ganganagar,meme nom
+nfhs5,100,hanumangarh,Hanumangarh,meme nom
+nfhs5,101,bikaner,Bikaner,meme nom
+nfhs5,102,churu,Churu,meme nom
+nfhs5,103,jhunjhunun,Jhunjhunun,meme nom
+nfhs5,104,alwar,Alwar,meme nom
+nfhs5,105,bharatpur,Bharatpur,meme nom
+nfhs5,106,dhaulpur,Dhaulpur,meme nom
+nfhs5,107,karauli,Karauli,meme nom
+nfhs5,108,sawai madhopur,Sawai Madhopur,meme nom
+nfhs5,109,dausa,Dausa,meme nom
+nfhs5,110,jaipur,Jaipur,meme nom
+nfhs5,111,sikar,Sikar,meme nom
+nfhs5,112,nagaur,Nagaur,meme nom
+nfhs5,113,jodhpur,Jodhpur,meme nom
+nfhs5,114,jaisalmer,Jaisalmer,meme nom
+nfhs5,115,barmer,Barmer,meme nom
+nfhs5,116,jalor,Jalor,meme nom
+nfhs5,117,sirohi,Sirohi,meme nom
+nfhs5,118,pali,Pali,meme nom
+nfhs5,119,ajmer,Ajmer,meme nom
+nfhs5,120,tonk,Tonk,meme nom
+nfhs5,121,bundi,Bundi,meme nom
+nfhs5,122,bhilwara,Bhilwara,meme nom
+nfhs5,123,rajsamand,Rajsamand,meme nom
+nfhs5,124,dungarpur,Dungarpur,meme nom
+nfhs5,125,banswara,Banswara,meme nom
+nfhs5,126,chittaurgarh,Chittaurgarh,meme nom
+nfhs5,127,kota,Kota,meme nom
+nfhs5,128,baran,Baran,meme nom
+nfhs5,129,jhalawar,Jhalawar,meme nom
+nfhs5,130,udaipur,Udaipur,meme nom
+nfhs5,131,pratapgarh,Pratapgarh,meme nom
+nfhs5,132,saharanpur,Saharanpur,meme nom
+nfhs5,134,bijnor,Bijnor,meme nom
+nfhs5,136,rampur,Rampur,meme nom
+nfhs5,137,jyotiba phule nagar,Jyotiba Phule Nagar,meme nom
+nfhs5,138,meerut,Meerut,meme nom
+nfhs5,139,baghpat,Baghpat,meme nom
+nfhs5,141,gautam buddha nagar,Gautam Buddha Nagar,meme nom
+nfhs5,142,bulandshahr,Bulandshahr,meme nom
+nfhs5,143,aligarh,Aligarh,meme nom
+nfhs5,144,mahamaya nagar,Mahamaya Nagar,meme nom
+nfhs5,145,mathura,Mathura,meme nom
+nfhs5,146,agra,Agra,meme nom
+nfhs5,147,firozabad,Firozabad,meme nom
+nfhs5,148,mainpuri,Mainpuri,meme nom
+nfhs5,150,bareilly,Bareilly,meme nom
+nfhs5,151,pilibhit,Pilibhit,meme nom
+nfhs5,152,shahjahanpur,Shahjahanpur,meme nom
+nfhs5,153,kheri,Kheri,meme nom
+nfhs5,154,sitapur,Sitapur,meme nom
+nfhs5,155,hardoi,Hardoi,meme nom
+nfhs5,156,unnao,Unnao,meme nom
+nfhs5,157,lucknow,Lucknow,meme nom
+nfhs5,159,farrukhabad,Farrukhabad,meme nom
+nfhs5,160,kannauj,Kannauj,meme nom
+nfhs5,161,etawah,Etawah,meme nom
+nfhs5,162,auraiya,Auraiya,meme nom
+nfhs5,163,kanpur dehat,Kanpur Dehat,meme nom
+nfhs5,164,kanpur nagar,Kanpur Nagar,meme nom
+nfhs5,165,jalaun,Jalaun,meme nom
+nfhs5,166,jhansi,Jhansi,meme nom
+nfhs5,167,lalitpur,Lalitpur,meme nom
+nfhs5,168,hamirpur,Hamirpur,meme nom
+nfhs5,169,mahoba,Mahoba,meme nom
+nfhs5,170,banda,Banda,meme nom
+nfhs5,171,chitrakoot,Chitrakoot,meme nom
+nfhs5,172,fatehpur,Fatehpur,meme nom
+nfhs5,173,pratapgarh,Pratapgarh,meme nom
+nfhs5,174,kaushambi,Kaushambi,meme nom
+nfhs5,175,allahabad,Allahabad,meme nom
+nfhs5,176,bara banki,Bara Banki,meme nom
+nfhs5,177,faizabad,Faizabad,meme nom
+nfhs5,178,ambedkar nagar,Ambedkar Nagar,meme nom
+nfhs5,180,bahraich,Bahraich,meme nom
+nfhs5,181,shrawasti,Shrawasti,meme nom
+nfhs5,182,balrampur,Balrampur,meme nom
+nfhs5,183,gonda,Gonda,meme nom
+nfhs5,184,siddharthnagar,Siddharthnagar,meme nom
+nfhs5,185,basti,Basti,meme nom
+nfhs5,186,sant kabir nagar,Sant Kabir Nagar,meme nom
+nfhs5,187,mahrajganj,Mahrajganj,meme nom
+nfhs5,188,gorakhpur,Gorakhpur,meme nom
+nfhs5,189,kushinagar,Kushinagar,meme nom
+nfhs5,190,deoria,Deoria,meme nom
+nfhs5,191,azamgarh,Azamgarh,meme nom
+nfhs5,192,mau,Mau,meme nom
+nfhs5,193,ballia,Ballia,meme nom
+nfhs5,194,jaunpur,Jaunpur,meme nom
+nfhs5,195,ghazipur,Ghazipur,meme nom
+nfhs5,196,chandauli,Chandauli,meme nom
+nfhs5,197,varanasi,Varanasi,meme nom
+nfhs5,198,sant ravidas nagar (bhadohi),Sant Ravidas Nagar (Bhadohi),meme nom
+nfhs5,199,mirzapur,Mirzapur,meme nom
+nfhs5,200,sonbhadra,Sonbhadra,meme nom
+nfhs5,201,etah,Etah,meme nom
+nfhs5,202,kanshiram nagar,Kanshiram Nagar,meme nom
+nfhs5,203,pashchim champaran,Pashchim Champaran,meme nom
+nfhs5,204,purba champaran,Purba Champaran,meme nom
+nfhs5,205,sheohar,Sheohar,meme nom
+nfhs5,206,sitamarhi,Sitamarhi,meme nom
+nfhs5,207,madhubani,Madhubani,meme nom
+nfhs5,208,supaul,Supaul,meme nom
+nfhs5,209,araria,Araria,meme nom
+nfhs5,210,kishanganj,Kishanganj,meme nom
+nfhs5,211,purnia,Purnia,meme nom
+nfhs5,212,katihar,Katihar,meme nom
+nfhs5,213,madhepura,Madhepura,meme nom
+nfhs5,214,saharsa,Saharsa,meme nom
+nfhs5,215,darbhanga,Darbhanga,meme nom
+nfhs5,216,muzaffarpur,Muzaffarpur,meme nom
+nfhs5,217,gopalganj,Gopalganj,meme nom
+nfhs5,218,siwan,Siwan,meme nom
+nfhs5,219,saran,Saran,meme nom
+nfhs5,220,vaishali,Vaishali,meme nom
+nfhs5,221,samastipur,Samastipur,meme nom
+nfhs5,222,begusarai,Begusarai,meme nom
+nfhs5,223,khagaria,Khagaria,meme nom
+nfhs5,224,bhagalpur,Bhagalpur,meme nom
+nfhs5,225,banka,Banka,meme nom
+nfhs5,226,munger,Munger,meme nom
+nfhs5,227,lakhisarai,Lakhisarai,meme nom
+nfhs5,228,sheikhpura,Sheikhpura,meme nom
+nfhs5,229,nalanda,Nalanda,meme nom
+nfhs5,230,patna,Patna,meme nom
+nfhs5,231,bhojpur,Bhojpur,meme nom
+nfhs5,232,buxar,Buxar,meme nom
+nfhs5,233,kaimur (bhabua),Kaimur (Bhabua),meme nom
+nfhs5,234,rohtas,Rohtas,meme nom
+nfhs5,235,aurangabad,Aurangabad,meme nom
+nfhs5,236,gaya,Gaya,meme nom
+nfhs5,237,nawada,Nawada,meme nom
+nfhs5,238,jamui,Jamui,meme nom
+nfhs5,239,jehanabad,Jehanabad,meme nom
+nfhs5,240,arwal,Arwal,meme nom
+nfhs5,241,north  district,North  District,meme nom
+nfhs5,242,west district,West District,meme nom
+nfhs5,243,south district,South District,meme nom
+nfhs5,244,east district,East District,meme nom
+nfhs5,245,tawang,Tawang,meme nom
+nfhs5,246,west kameng,West Kameng,meme nom
+nfhs5,247,east kameng,East Kameng,meme nom
+nfhs5,248,papum pare,Papum Pare,meme nom
+nfhs5,249,upper subansiri,Upper Subansiri,meme nom
+nfhs5,252,upper siang,Upper Siang,meme nom
+nfhs5,253,changlang,Changlang,meme nom
+nfhs5,255,lower subansiri,Lower Subansiri,meme nom
+nfhs5,257,dibang valley,Dibang Valley,meme nom
+nfhs5,258,lower dibang valley,Lower Dibang Valley,meme nom
+nfhs5,260,anjaw,Anjaw,meme nom
+nfhs5,261,mon,Mon,meme nom
+nfhs5,262,mokokchung,Mokokchung,meme nom
+nfhs5,263,zunheboto,Zunheboto,meme nom
+nfhs5,264,wokha,Wokha,meme nom
+nfhs5,265,dimapur,Dimapur,meme nom
+nfhs5,266,phek,Phek,meme nom
+nfhs5,267,tuensang,Tuensang,meme nom
+nfhs5,268,longleng,Longleng,meme nom
+nfhs5,269,kiphire,Kiphire,meme nom
+nfhs5,270,kohima,Kohima,meme nom
+nfhs5,271,peren,Peren,meme nom
+nfhs5,272,senapati,Senapati,meme nom
+nfhs5,273,tamenglong,Tamenglong,meme nom
+nfhs5,274,churachandpur,Churachandpur,meme nom
+nfhs5,275,bishnupur,Bishnupur,meme nom
+nfhs5,276,thoubal,Thoubal,meme nom
+nfhs5,277,imphal west,Imphal West,meme nom
+nfhs5,278,imphal east,Imphal East,meme nom
+nfhs5,279,ukhrul,Ukhrul,meme nom
+nfhs5,280,chandel,Chandel,meme nom
+nfhs5,281,mamit,Mamit,meme nom
+nfhs5,282,kolasib,Kolasib,meme nom
+nfhs5,283,aizawl,Aizawl,meme nom
+nfhs5,284,champhai,Champhai,meme nom
+nfhs5,285,serchhip,Serchhip,meme nom
+nfhs5,286,lunglei,Lunglei,meme nom
+nfhs5,287,lawngtlai,Lawngtlai,meme nom
+nfhs5,288,saiha,Saiha,meme nom
+nfhs5,291,dhalai,Dhalai,meme nom
+nfhs5,295,south garo hills,South Garo Hills,meme nom
+nfhs5,297,ribhoi,Ribhoi,meme nom
+nfhs5,298,east khasi hills,East Khasi Hills,meme nom
+nfhs5,300,kokrajhar,Kokrajhar,meme nom
+nfhs5,302,goalpara,Goalpara,meme nom
+nfhs5,303,barpeta,Barpeta,meme nom
+nfhs5,304,morigaon,Morigaon,meme nom
+nfhs5,307,lakhimpur,Lakhimpur,meme nom
+nfhs5,308,dhemaji,Dhemaji,meme nom
+nfhs5,309,tinsukia,Tinsukia,meme nom
+nfhs5,310,dibrugarh,Dibrugarh,meme nom
+nfhs5,313,golaghat,Golaghat,meme nom
+nfhs5,315,dima hasao,Dima Hasao,meme nom
+nfhs5,316,cachar,Cachar,meme nom
+nfhs5,317,karimganj,Karimganj,meme nom
+nfhs5,318,hailakandi,Hailakandi,meme nom
+nfhs5,319,bongaigaon,Bongaigaon,meme nom
+nfhs5,320,chirang,Chirang,meme nom
+nfhs5,321,kamrup,Kamrup,meme nom
+nfhs5,322,kamrup metropolitan,Kamrup Metropolitan,meme nom
+nfhs5,323,nalbari,Nalbari,meme nom
+nfhs5,324,baksa,Baksa,meme nom
+nfhs5,325,darrang,Darrang,meme nom
+nfhs5,326,udalguri,Udalguri,meme nom
+nfhs5,327,darjiling,Darjiling,meme nom
+nfhs5,328,jalpaiguri,Jalpaiguri,meme nom
+nfhs5,329,koch bihar,Koch Bihar,meme nom
+nfhs5,330,uttar dinajpur,Uttar Dinajpur,meme nom
+nfhs5,331,dakshin dinajpur,Dakshin Dinajpur,meme nom
+nfhs5,332,maldah,Maldah,meme nom
+nfhs5,333,murshidabad,Murshidabad,meme nom
+nfhs5,334,birbhum,Birbhum,meme nom
+nfhs5,336,nadia,Nadia,meme nom
+nfhs5,337,north twenty four parganas,North Twenty Four Parganas,meme nom
+nfhs5,338,hugli,Hugli,meme nom
+nfhs5,339,bankura,Bankura,meme nom
+nfhs5,340,puruliya,Puruliya,meme nom
+nfhs5,341,haora,Haora,meme nom
+nfhs5,342,kolkata,Kolkata,meme nom
+nfhs5,343,south twenty four parganas,South Twenty Four Parganas,meme nom
+nfhs5,344,paschim medinipur,Paschim Medinipur,meme nom
+nfhs5,345,purba medinipur,Purba Medinipur,meme nom
+nfhs5,346,garhwa,Garhwa,meme nom
+nfhs5,347,chatra,Chatra,meme nom
+nfhs5,348,kodarma,Kodarma,meme nom
+nfhs5,349,giridih,Giridih,meme nom
+nfhs5,350,deoghar,Deoghar,meme nom
+nfhs5,351,godda,Godda,meme nom
+nfhs5,352,sahibganj,Sahibganj,meme nom
+nfhs5,353,pakur,Pakur,meme nom
+nfhs5,354,dhanbad,Dhanbad,meme nom
+nfhs5,355,bokaro,Bokaro,meme nom
+nfhs5,356,lohardaga,Lohardaga,meme nom
+nfhs5,357,purbi singhbhum,Purbi Singhbhum,meme nom
+nfhs5,358,palamu,Palamu,meme nom
+nfhs5,359,latehar,Latehar,meme nom
+nfhs5,360,hazaribagh,Hazaribagh,meme nom
+nfhs5,361,ramgarh,Ramgarh,meme nom
+nfhs5,362,dumka,Dumka,meme nom
+nfhs5,363,jamtara,Jamtara,meme nom
+nfhs5,364,ranchi,Ranchi,meme nom
+nfhs5,365,khunti,Khunti,meme nom
+nfhs5,366,gumla,Gumla,meme nom
+nfhs5,367,simdega,Simdega,meme nom
+nfhs5,368,pashchimi singhbhum,Pashchimi Singhbhum,meme nom
+nfhs5,369,saraikela-kharsawan,Saraikela-Kharsawan,meme nom
+nfhs5,370,bargarh,Bargarh,meme nom
+nfhs5,371,jharsuguda,Jharsuguda,meme nom
+nfhs5,372,sambalpur,Sambalpur,meme nom
+nfhs5,373,debagarh,Debagarh,meme nom
+nfhs5,374,sundargarh,Sundargarh,meme nom
+nfhs5,375,kendujhar,Kendujhar,meme nom
+nfhs5,376,mayurbhanj,Mayurbhanj,meme nom
+nfhs5,377,baleshwar,Baleshwar,meme nom
+nfhs5,378,bhadrak,Bhadrak,meme nom
+nfhs5,379,kendrapara,Kendrapara,meme nom
+nfhs5,380,jagatsinghapur,Jagatsinghapur,meme nom
+nfhs5,381,cuttack,Cuttack,meme nom
+nfhs5,382,jajapur,Jajapur,meme nom
+nfhs5,383,dhenkanal,Dhenkanal,meme nom
+nfhs5,384,anugul,Anugul,meme nom
+nfhs5,385,nayagarh,Nayagarh,meme nom
+nfhs5,386,khordha,Khordha,meme nom
+nfhs5,387,puri,Puri,meme nom
+nfhs5,388,ganjam,Ganjam,meme nom
+nfhs5,389,gajapati,Gajapati,meme nom
+nfhs5,390,kandhamal,Kandhamal,meme nom
+nfhs5,391,baudh,Baudh,meme nom
+nfhs5,392,subarnapur,Subarnapur,meme nom
+nfhs5,393,balangir,Balangir,meme nom
+nfhs5,394,nuapada,Nuapada,meme nom
+nfhs5,395,kalahandi,Kalahandi,meme nom
+nfhs5,396,rayagada,Rayagada,meme nom
+nfhs5,397,nabarangapur,Nabarangapur,meme nom
+nfhs5,398,koraput,Koraput,meme nom
+nfhs5,399,malkangiri,Malkangiri,meme nom
+nfhs5,400,koriya,Koriya,meme nom
+nfhs5,402,jashpur,Jashpur,meme nom
+nfhs5,403,raigarh,Raigarh,meme nom
+nfhs5,404,korba,Korba,meme nom
+nfhs5,405,janjgir - champa,Janjgir - Champa,meme nom
+nfhs5,407,kabeerdham,Kabeerdham,meme nom
+nfhs5,408,rajnandgaon,Rajnandgaon,meme nom
+nfhs5,411,mahasamund,Mahasamund,meme nom
+nfhs5,412,dhamtari,Dhamtari,meme nom
+nfhs5,413,uttar bastar kanker,Uttar Bastar Kanker,meme nom
+nfhs5,415,narayanpur,Narayanpur,meme nom
+nfhs5,417,bijapur,Bijapur,meme nom
+nfhs5,418,sheopur,Sheopur,meme nom
+nfhs5,419,morena,Morena,meme nom
+nfhs5,420,bhind,Bhind,meme nom
+nfhs5,421,gwalior,Gwalior,meme nom
+nfhs5,422,datia,Datia,meme nom
+nfhs5,423,shivpuri,Shivpuri,meme nom
+nfhs5,424,tikamgarh,Tikamgarh,meme nom
+nfhs5,425,chhatarpur,Chhatarpur,meme nom
+nfhs5,426,panna,Panna,meme nom
+nfhs5,427,sagar,Sagar,meme nom
+nfhs5,428,damoh,Damoh,meme nom
+nfhs5,429,satna,Satna,meme nom
+nfhs5,430,rewa,Rewa,meme nom
+nfhs5,431,umaria,Umaria,meme nom
+nfhs5,432,neemuch,Neemuch,meme nom
+nfhs5,433,mandsaur,Mandsaur,meme nom
+nfhs5,434,ratlam,Ratlam,meme nom
+nfhs5,435,ujjain,Ujjain,meme nom
+nfhs5,437,dewas,Dewas,meme nom
+nfhs5,438,dhar,Dhar,meme nom
+nfhs5,439,indore,Indore,meme nom
+nfhs5,440,khargone (west nimar),Khargone (West Nimar),meme nom
+nfhs5,441,barwani,Barwani,meme nom
+nfhs5,442,rajgarh,Rajgarh,meme nom
+nfhs5,443,vidisha,Vidisha,meme nom
+nfhs5,444,bhopal,Bhopal,meme nom
+nfhs5,445,sehore,Sehore,meme nom
+nfhs5,446,raisen,Raisen,meme nom
+nfhs5,447,betul,Betul,meme nom
+nfhs5,448,harda,Harda,meme nom
+nfhs5,449,hoshangabad,Hoshangabad,meme nom
+nfhs5,450,katni,Katni,meme nom
+nfhs5,451,jabalpur,Jabalpur,meme nom
+nfhs5,452,narsimhapur,Narsimhapur,meme nom
+nfhs5,453,dindori,Dindori,meme nom
+nfhs5,454,mandla,Mandla,meme nom
+nfhs5,455,chhindwara,Chhindwara,meme nom
+nfhs5,456,seoni,Seoni,meme nom
+nfhs5,457,balaghat,Balaghat,meme nom
+nfhs5,458,guna,Guna,meme nom
+nfhs5,459,ashoknagar,Ashoknagar,meme nom
+nfhs5,460,shahdol,Shahdol,meme nom
+nfhs5,461,anuppur,Anuppur,meme nom
+nfhs5,462,sidhi,Sidhi,meme nom
+nfhs5,463,singrauli,Singrauli,meme nom
+nfhs5,464,jhabua,Jhabua,meme nom
+nfhs5,465,alirajpur,Alirajpur,meme nom
+nfhs5,466,khandwa (east nimar),Khandwa (East Nimar),meme nom
+nfhs5,467,burhanpur,Burhanpur,meme nom
+nfhs5,468,kachchh,Kachchh,meme nom
+nfhs5,469,banas kantha,Banas Kantha,meme nom
+nfhs5,470,patan,Patan,meme nom
+nfhs5,471,mahesana,Mahesana,meme nom
+nfhs5,473,gandhinagar,Gandhinagar,meme nom
+nfhs5,478,porbandar,Porbandar,meme nom
+nfhs5,480,amreli,Amreli,meme nom
+nfhs5,482,anand,Anand,meme nom
+nfhs5,485,dohad,Dohad,meme nom
+nfhs5,487,narmada,Narmada,meme nom
+nfhs5,488,bharuch,Bharuch,meme nom
+nfhs5,489,the dangs,The Dangs,meme nom
+nfhs5,490,navsari,Navsari,meme nom
+nfhs5,491,valsad,Valsad,meme nom
+nfhs5,492,surat,Surat,meme nom
+nfhs5,493,tapi,Tapi,meme nom
+nfhs5,494,diu,Diu,meme nom
+nfhs5,495,daman,Daman,meme nom
+nfhs5,496,dadra & nagar haveli,Dadra & Nagar Haveli,meme nom
+nfhs5,497,nandurbar,Nandurbar,meme nom
+nfhs5,498,dhule,Dhule,meme nom
+nfhs5,499,jalgaon,Jalgaon,meme nom
+nfhs5,500,buldana,Buldana,meme nom
+nfhs5,501,akola,Akola,meme nom
+nfhs5,502,washim,Washim,meme nom
+nfhs5,503,amravati,Amravati,meme nom
+nfhs5,504,wardha,Wardha,meme nom
+nfhs5,505,nagpur,Nagpur,meme nom
+nfhs5,506,bhandara,Bhandara,meme nom
+nfhs5,507,gondiya,Gondiya,meme nom
+nfhs5,508,gadchiroli,Gadchiroli,meme nom
+nfhs5,509,chandrapur,Chandrapur,meme nom
+nfhs5,510,yavatmal,Yavatmal,meme nom
+nfhs5,511,nanded,Nanded,meme nom
+nfhs5,512,hingoli,Hingoli,meme nom
+nfhs5,513,parbhani,Parbhani,meme nom
+nfhs5,514,jalna,Jalna,meme nom
+nfhs5,515,aurangabad,Aurangabad,meme nom
+nfhs5,516,nashik,Nashik,meme nom
+nfhs5,518,mumbai suburban,Mumbai Suburban,meme nom
+nfhs5,519,mumbai,Mumbai,meme nom
+nfhs5,520,raigarh,Raigarh,meme nom
+nfhs5,521,pune,Pune,meme nom
+nfhs5,522,ahmadnagar,Ahmadnagar,meme nom
+nfhs5,523,bid,Bid,meme nom
+nfhs5,524,latur,Latur,meme nom
+nfhs5,525,osmanabad,Osmanabad,meme nom
+nfhs5,526,solapur,Solapur,meme nom
+nfhs5,527,satara,Satara,meme nom
+nfhs5,528,ratnagiri,Ratnagiri,meme nom
+nfhs5,529,sindhudurg,Sindhudurg,meme nom
+nfhs5,530,kolhapur,Kolhapur,meme nom
+nfhs5,531,sangli,Sangli,meme nom
+nfhs5,542,srikakulam,Srikakulam,meme nom
+nfhs5,543,vizianagaram,Vizianagaram,meme nom
+nfhs5,544,visakhapatnam,Visakhapatnam,meme nom
+nfhs5,545,east godavari,East Godavari,meme nom
+nfhs5,546,west godavari,West Godavari,meme nom
+nfhs5,547,krishna,Krishna,meme nom
+nfhs5,548,guntur,Guntur,meme nom
+nfhs5,549,prakasam,Prakasam,meme nom
+nfhs5,550,sri potti sriramulu nellore,Sri Potti Sriramulu Nellore,meme nom
+nfhs5,551,y.s.r.,Y.S.R.,meme nom
+nfhs5,552,kurnool,Kurnool,meme nom
+nfhs5,553,anantapur,Anantapur,meme nom
+nfhs5,554,chittoor,Chittoor,meme nom
+nfhs5,555,belgaum,Belgaum,meme nom
+nfhs5,556,bagalkot,Bagalkot,meme nom
+nfhs5,557,bijapur,Bijapur,meme nom
+nfhs5,558,bidar,Bidar,meme nom
+nfhs5,559,raichur,Raichur,meme nom
+nfhs5,560,koppal,Koppal,meme nom
+nfhs5,561,gadag,Gadag,meme nom
+nfhs5,562,dharwad,Dharwad,meme nom
+nfhs5,563,uttara kannada,Uttara Kannada,meme nom
+nfhs5,564,haveri,Haveri,meme nom
+nfhs5,565,bellary,Bellary,meme nom
+nfhs5,566,chitradurga,Chitradurga,meme nom
+nfhs5,567,davanagere,Davanagere,meme nom
+nfhs5,568,shimoga,Shimoga,meme nom
+nfhs5,569,udupi,Udupi,meme nom
+nfhs5,570,chikmagalur,Chikmagalur,meme nom
+nfhs5,571,tumkur,Tumkur,meme nom
+nfhs5,572,bangalore,Bangalore,meme nom
+nfhs5,573,mandya,Mandya,meme nom
+nfhs5,574,hassan,Hassan,meme nom
+nfhs5,575,dakshina kannada,Dakshina Kannada,meme nom
+nfhs5,576,kodagu,Kodagu,meme nom
+nfhs5,577,mysore,Mysore,meme nom
+nfhs5,578,chamarajanagar,Chamarajanagar,meme nom
+nfhs5,579,gulbarga,Gulbarga,meme nom
+nfhs5,580,yadgir,Yadgir,meme nom
+nfhs5,581,kolar,Kolar,meme nom
+nfhs5,582,chikkaballapura,Chikkaballapura,meme nom
+nfhs5,583,bangalore rural,Bangalore Rural,meme nom
+nfhs5,584,ramanagara,Ramanagara,meme nom
+nfhs5,585,north goa,North Goa,meme nom
+nfhs5,586,south goa,South Goa,meme nom
+nfhs5,587,lakshadweep,Lakshadweep,meme nom
+nfhs5,588,kasaragod,Kasaragod,meme nom
+nfhs5,589,kannur,Kannur,meme nom
+nfhs5,590,wayanad,Wayanad,meme nom
+nfhs5,591,kozhikode,Kozhikode,meme nom
+nfhs5,592,malappuram,Malappuram,meme nom
+nfhs5,593,palakkad,Palakkad,meme nom
+nfhs5,594,thrissur,Thrissur,meme nom
+nfhs5,595,ernakulam,Ernakulam,meme nom
+nfhs5,596,idukki,Idukki,meme nom
+nfhs5,597,kottayam,Kottayam,meme nom
+nfhs5,598,alappuzha,Alappuzha,meme nom
+nfhs5,599,pathanamthitta,Pathanamthitta,meme nom
+nfhs5,600,kollam,Kollam,meme nom
+nfhs5,601,thiruvananthapuram,Thiruvananthapuram,meme nom
+nfhs5,602,thiruvallur,Thiruvallur,meme nom
+nfhs5,603,chennai,Chennai,meme nom
+nfhs5,604,kancheepuram,Kancheepuram,meme nom
+nfhs5,605,vellore,Vellore,meme nom
+nfhs5,606,tiruvannamalai,Tiruvannamalai,meme nom
+nfhs5,607,viluppuram,Viluppuram,meme nom
+nfhs5,608,salem,Salem,meme nom
+nfhs5,609,namakkal,Namakkal,meme nom
+nfhs5,610,erode,Erode,meme nom
+nfhs5,611,the nilgiris,The Nilgiris,meme nom
+nfhs5,612,dindigul,Dindigul,meme nom
+nfhs5,613,karur,Karur,meme nom
+nfhs5,614,tiruchirappalli,Tiruchirappalli,meme nom
+nfhs5,615,perambalur,Perambalur,meme nom
+nfhs5,616,ariyalur,Ariyalur,meme nom
+nfhs5,617,cuddalore,Cuddalore,meme nom
+nfhs5,618,nagapattinam,Nagapattinam,meme nom
+nfhs5,619,thiruvarur,Thiruvarur,meme nom
+nfhs5,620,thanjavur,Thanjavur,meme nom
+nfhs5,621,pudukkottai,Pudukkottai,meme nom
+nfhs5,622,sivaganga,Sivaganga,meme nom
+nfhs5,623,madurai,Madurai,meme nom
+nfhs5,624,theni,Theni,meme nom
+nfhs5,625,virudhunagar,Virudhunagar,meme nom
+nfhs5,626,ramanathapuram,Ramanathapuram,meme nom
+nfhs5,627,thoothukkudi,Thoothukkudi,meme nom
+nfhs5,628,tirunelveli,Tirunelveli,meme nom
+nfhs5,629,kanniyakumari,Kanniyakumari,meme nom
+nfhs5,630,dharmapuri,Dharmapuri,meme nom
+nfhs5,631,krishnagiri,Krishnagiri,meme nom
+nfhs5,632,coimbatore,Coimbatore,meme nom
+nfhs5,633,tiruppur,Tiruppur,meme nom
+nfhs5,634,yanam,Yanam,meme nom
+nfhs5,635,puducherry,Puducherry,meme nom
+nfhs5,636,mahe,Mahe,meme nom
+nfhs5,637,karaikal,Karaikal,meme nom
+nfhs5,638,nicobars,Nicobars,meme nom
+nfhs5,639,north  & middle andaman,North  & Middle Andaman,meme nom
+nfhs5,640,south andaman,South Andaman,meme nom
+nfhs5,801,east siang,,code absent du recensement 2011
+nfhs5,802,kra daadi,,code absent du recensement 2011
+nfhs5,803,kurung kumey,,code absent du recensement 2011
+nfhs5,804,lohit,,code absent du recensement 2011
+nfhs5,805,longding,,code absent du recensement 2011
+nfhs5,806,namsai,,code absent du recensement 2011
+nfhs5,807,siang,,code absent du recensement 2011
+nfhs5,808,tirap,,code absent du recensement 2011
+nfhs5,809,west siang,,code absent du recensement 2011
+nfhs5,810,biswanath,,code absent du recensement 2011
+nfhs5,811,charaideo,,code absent du recensement 2011
+nfhs5,812,dhubri,,code absent du recensement 2011
+nfhs5,813,hojai,,code absent du recensement 2011
+nfhs5,814,jorhat,,code absent du recensement 2011
+nfhs5,815,karbi anglong,,code absent du recensement 2011
+nfhs5,816,majuli,,code absent du recensement 2011
+nfhs5,817,nagaon,,code absent du recensement 2011
+nfhs5,818,sivasagar,,code absent du recensement 2011
+nfhs5,819,sonitpur,,code absent du recensement 2011
+nfhs5,820,south salmara mancachar,,code absent du recensement 2011
+nfhs5,821,west karbi anglong,,code absent du recensement 2011
+nfhs5,822,balod,,code absent du recensement 2011
+nfhs5,823,baloda bazar,,code absent du recensement 2011
+nfhs5,824,balrampur,,code absent du recensement 2011
+nfhs5,825,bastar,,code absent du recensement 2011
+nfhs5,826,bemetara,,code absent du recensement 2011
+nfhs5,827,bilaspur,,code absent du recensement 2011
+nfhs5,828,dantewada,,code absent du recensement 2011
+nfhs5,829,durg,,code absent du recensement 2011
+nfhs5,830,gariyaband,,code absent du recensement 2011
+nfhs5,831,kodagaon,,code absent du recensement 2011
+nfhs5,832,mungeli,,code absent du recensement 2011
+nfhs5,833,raipur,,code absent du recensement 2011
+nfhs5,834,sukma,,code absent du recensement 2011
+nfhs5,835,surajpur,,code absent du recensement 2011
+nfhs5,836,surguja,,code absent du recensement 2011
+nfhs5,837,central,,code absent du recensement 2011
+nfhs5,838,east,,code absent du recensement 2011
+nfhs5,839,new delhi,,code absent du recensement 2011
+nfhs5,840,north,,code absent du recensement 2011
+nfhs5,841,north east,,code absent du recensement 2011
+nfhs5,842,north west,,code absent du recensement 2011
+nfhs5,843,shahdara,,code absent du recensement 2011
+nfhs5,844,south,,code absent du recensement 2011
+nfhs5,845,south east,,code absent du recensement 2011
+nfhs5,846,south west,,code absent du recensement 2011
+nfhs5,847,west,,code absent du recensement 2011
+nfhs5,848,ahmadabad,,code absent du recensement 2011
+nfhs5,849,aravali,,code absent du recensement 2011
+nfhs5,850,bhavnagar,,code absent du recensement 2011
+nfhs5,851,botad,,code absent du recensement 2011
+nfhs5,852,chhota udaipur,,code absent du recensement 2011
+nfhs5,853,devbhumi dwarka,,code absent du recensement 2011
+nfhs5,854,gir somnath,,code absent du recensement 2011
+nfhs5,855,jamnagar,,code absent du recensement 2011
+nfhs5,856,junagadh,,code absent du recensement 2011
+nfhs5,857,kheda,,code absent du recensement 2011
+nfhs5,858,mahisagar,,code absent du recensement 2011
+nfhs5,859,morbi,,code absent du recensement 2011
+nfhs5,860,panch mahals,,code absent du recensement 2011
+nfhs5,861,rajkot,,code absent du recensement 2011
+nfhs5,862,sabar kantha,,code absent du recensement 2011
+nfhs5,863,surendranagar,,code absent du recensement 2011
+nfhs5,864,vadodara,,code absent du recensement 2011
+nfhs5,865,bhiwani,,code absent du recensement 2011
+nfhs5,866,charkhi dadri,,code absent du recensement 2011
+nfhs5,867,agar malwa,,code absent du recensement 2011
+nfhs5,868,shajapur,,code absent du recensement 2011
+nfhs5,869,palghar,,code absent du recensement 2011
+nfhs5,870,thane,,code absent du recensement 2011
+nfhs5,871,east garo hills,,code absent du recensement 2011
+nfhs5,872,east jantia hills,,code absent du recensement 2011
+nfhs5,873,north garo hills,,code absent du recensement 2011
+nfhs5,874,south west garo hills,,code absent du recensement 2011
+nfhs5,875,south west khasi hills,,code absent du recensement 2011
+nfhs5,876,west garo hills,,code absent du recensement 2011
+nfhs5,877,west jaintia hills,,code absent du recensement 2011
+nfhs5,878,west khasi hills,,code absent du recensement 2011
+nfhs5,879,fazilka,,code absent du recensement 2011
+nfhs5,880,firozpur,,code absent du recensement 2011
+nfhs5,881,gurdaspur,,code absent du recensement 2011
+nfhs5,882,pathankot,,code absent du recensement 2011
+nfhs5,883,adilabad,,code absent du recensement 2011
+nfhs5,884,bhadradri kothagudem,,code absent du recensement 2011
+nfhs5,885,hyderabad,,code absent du recensement 2011
+nfhs5,886,jagitial,,code absent du recensement 2011
+nfhs5,887,jangoan,,code absent du recensement 2011
+nfhs5,888,jayashankar bhupalapally,,code absent du recensement 2011
+nfhs5,889,jogulamba gadwal,,code absent du recensement 2011
+nfhs5,890,kamareddy,,code absent du recensement 2011
+nfhs5,891,karimnagar,,code absent du recensement 2011
+nfhs5,892,khammam,,code absent du recensement 2011
+nfhs5,893,komaram bheem asifabad,,code absent du recensement 2011
+nfhs5,894,mahabubabad,,code absent du recensement 2011
+nfhs5,895,mahabubnagar,,code absent du recensement 2011
+nfhs5,896,mancherial,,code absent du recensement 2011
+nfhs5,897,medak,,code absent du recensement 2011
+nfhs5,898,medchal-malkajgiri,,code absent du recensement 2011
+nfhs5,899,nagarkurnool,,code absent du recensement 2011
+nfhs5,900,nalgonda,,code absent du recensement 2011
+nfhs5,901,nirmal,,code absent du recensement 2011
+nfhs5,902,nizamabad,,code absent du recensement 2011
+nfhs5,903,peddapalli,,code absent du recensement 2011
+nfhs5,904,rajanna sircilla,,code absent du recensement 2011
+nfhs5,905,ranga reddy,,code absent du recensement 2011
+nfhs5,906,sangareddy,,code absent du recensement 2011
+nfhs5,907,siddipet,,code absent du recensement 2011
+nfhs5,908,suryapet,,code absent du recensement 2011
+nfhs5,909,vikarabad,,code absent du recensement 2011
+nfhs5,910,wanaparthy,,code absent du recensement 2011
+nfhs5,911,warangal rural,,code absent du recensement 2011
+nfhs5,912,warangal urban,,code absent du recensement 2011
+nfhs5,913,yadadri bhuvanagiri,,code absent du recensement 2011
+nfhs5,914,gomati,,code absent du recensement 2011
+nfhs5,915,khowai,,code absent du recensement 2011
+nfhs5,916,north tripura,,code absent du recensement 2011
+nfhs5,917,sepahijala,,code absent du recensement 2011
+nfhs5,918,south tripura,,code absent du recensement 2011
+nfhs5,919,unakoti,,code absent du recensement 2011
+nfhs5,920,west tripura,,code absent du recensement 2011
+nfhs5,921,amethi,,code absent du recensement 2011
+nfhs5,922,budaun,,code absent du recensement 2011
+nfhs5,923,ghaziabad,,code absent du recensement 2011
+nfhs5,924,hapur,,code absent du recensement 2011
+nfhs5,925,moradabad,,code absent du recensement 2011
+nfhs5,926,muzaffarnagar,,code absent du recensement 2011
+nfhs5,927,rae bareli,,code absent du recensement 2011
+nfhs5,928,sambhal,,code absent du recensement 2011
+nfhs5,929,shamli,,code absent du recensement 2011
+nfhs5,930,sultanpur,,code absent du recensement 2011
+nfhs5,931,paschim barddhaman,,code absent du recensement 2011
+nfhs5,932,purba barddhaman,,code absent du recensement 2011

@@ -1,0 +1,233 @@
+==============================================================================
+LOG: output/logs/26_piste_c_questionnaire_districts.log
+Run started: 2026-10-06 10:51:16
+==============================================================================
+
+ETAPE 26 -- PISTE C : EFFET QUESTIONNAIRE 1998/2005 ET MAILLE DISTRICT
+Descriptif seulement : aucune regression, aucune issue construite.
+
+------------------------------------------------------------------------------
+Attentes ecrites avant execution
+------------------------------------------------------------------------------
+Point 1 : VRAIE si, national ET urbain, S_bas >= 2/3 et S_bas - B_bas >= +10 pts ;
+          FAUSSE si |S_bas - B_bas| < 10 pts (uniforme) ou S_bas - B_bas <= -10 pts ;
+          LIMITE sinon ; domaine ignore si |Delta(traite)| < 2 pts.
+C1 sdist renseignee >= 99 % ; C2 NFHS-4 libelles = noms SHRUG 2011 >= 80 % ;
+C3 aucune variable de district dans le HR du NFHS-3.
+  [OK]   cache present : build/25_cache_nfhs2.rds
+  [OK]   cache present : build/24_cache_nfhs3.rds
+  [OK]   cache present : build/24_cache_nfhs4.rds
+  [OK]   cache present : build/24_cache_nfhs5.rds
+
+------------------------------------------------------------------------------
+Point 1a. Table menage harmonisee 1998 / 2005
+------------------------------------------------------------------------------
+1998 : 91196 menages a poids nhv005 positif ; traite manquant : 5
+2005 : 109041 menages ; traite manquant : 94 (dont hv237 = 1 sans aucune methode : 40)
+
+------------------------------------------------------------------------------
+Point 1b. Decomposition de l'ecart de la part traitee
+------------------------------------------------------------------------------
+  [OK]   national : somme des contributions == part traitee (1998 et 2005)
+
+national : part traitee 31.58 % (1998) -> 34.36 % (2005), ecart +2.78 points
+           groupe      methode prev_1998 prev_2005 d_prev d_contrib part_ecart
+           <char>       <char>     <num>     <num>  <num>     <num>      <num>
+        appareils       filtre      5.82      6.59   0.76      0.60       21.5
+        appareils purificateur      0.42      1.19   0.77      0.73       26.4
+ faible saillance         alun      1.23      1.31   0.08      0.06        2.2
+ faible saillance       chlore      0.00      2.33   2.33      1.72       62.1
+ faible saillance  decantation      0.00      0.62   0.62      0.44       15.9
+ faible saillance   ebullition      8.17     10.38   2.21      1.71       61.5
+ faible saillance        tissu     18.56     16.60  -1.96     -2.17      -78.3
+         residuel        autre      0.74      0.37  -0.37     -0.32      -11.6
+         residuel  ne_sait_pas      0.00      0.01   0.01      0.01        0.3
+ melange_1998
+        <num>
+         16.3
+          1.2
+          3.0
+          0.0
+          0.0
+         21.9
+         55.6
+          2.0
+          0.0
+           groupe delta_points part_ecart part_melange_1998
+           <char>        <num>      <num>             <num>
+ faible saillance         1.76       63.3              80.6
+         residuel        -0.31      -11.2               2.0
+        appareils         1.33       47.9              17.4
+  [OK]   urbain : somme des contributions == part traitee (1998 et 2005)
+
+urbain : part traitee 49.61 % (1998) -> 48.97 % (2005), ecart -0.64 points
+           groupe      methode prev_1998 prev_2005 d_prev d_contrib part_ecart
+           <char>       <char>     <num>     <num>  <num>     <num>      <num>
+        appareils       filtre     14.79     13.46  -1.33     -1.34      209.4
+        appareils purificateur      1.16      3.38   2.21      2.10     -327.8
+ faible saillance         alun      1.36      2.06   0.70      0.62      -96.7
+ faible saillance       chlore      0.00      2.18   2.18      1.51     -235.9
+ faible saillance  decantation      0.00      0.79   0.79      0.51      -79.2
+ faible saillance   ebullition     13.60     16.01   2.41      2.03     -317.5
+ faible saillance        tissu     25.09     19.10  -5.99     -5.94      927.8
+         residuel        autre      0.64      0.49  -0.15     -0.14       21.9
+         residuel  ne_sait_pas      0.00      0.01   0.01      0.01       -2.0
+ melange_1998
+        <num>
+         26.4
+          2.1
+          1.9
+          0.0
+          0.0
+         22.0
+         46.5
+          1.1
+          0.0
+           groupe delta_points part_ecart part_melange_1998
+           <char>        <num>      <num>             <num>
+ faible saillance        -1.27      198.5              70.4
+         residuel        -0.13       19.9               1.1
+        appareils         0.76     -118.4              28.5
+  domaine traite_1998 traite_2005 delta S_bas B_bas S_moins_B appareils
+   <char>       <num>       <num> <num> <num> <num>     <num>     <num>
+ national       31.58       34.36  2.78  63.3  80.6     -17.3      47.9
+   urbain       49.61       48.97 -0.64 198.5  70.4     128.1    -118.4
+ purificateur           lecture
+        <num>            <char>
+         26.4         appareils
+       -327.8 ecart trop faible
+VERDICT POINT 1 (contre les seuils ecrits avant execution) : FAUSSE
+
+------------------------------------------------------------------------------
+Point 2a. sdist dans le NFHS-2 (C1)
+------------------------------------------------------------------------------
+sdist : « district » ; modalites etiquetees : 0
+  [OK]   C1 sdist renseignee pour 100.00 % des menages (>= 99 %)
+Districts distincts (Etat, sdist) : 440 ; codes sdist distincts tous Etats confondus : 63 ; un meme code dans plusieurs Etats : 45 codes
+Menages par district : 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   17.0   108.0   167.5   210.2   246.2  2763.0 
+Districts avec au moins un menage urbain : 333 ; menages urbains par district (ces districts) :
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  10.00   28.00   49.00   92.15   90.00 2564.00 
+  etat districts sdist_min sdist_max menages_med              nom
+ <num>     <int>     <num>     <num>       <num>           <char>
+     2        23         1        23       160.0   andhra pradesh
+    34        11         1        11       112.0 arunachalpradesh
+     3        20         1        23       143.5            assam
+     4        41         1        42       150.0            bihar
+     5         2         1         2       799.5              goa
+     6        19         1        19       185.0          gujarat
+     7        16         1        16       154.0          haryana
+     8        11         1        11       236.0 himachal pradesh
+     9         9         1        12       279.0            jammu
+    10        20         1        20       208.0        karnataka
+    11        14         1        14       209.0           kerala
+    12        44         1        45       144.0   madhya pradesh
+    13        28         1        29       109.5      maharashtra
+    14         8         1         8       130.5          manipur
+    15         5         1         5       178.0        meghalaya
+    16         3         1         3       194.0          mizoram
+    17         7         1         7       105.0         nagaland
+    30         1         1         1      2763.0        new delhi
+    18        13         1        13       353.0           orissa
+    19        12         1        12       222.0           punjab
+    20        27         1        27       224.0        rajasthan
+    21         4         1         4       285.5           sikkim
+    22        21         1        21       174.0       tamil nadu
+    35         3         1         3       339.0          tripura
+    24        61         2        63       143.0    uttar pradesh
+    23        17         1        17       246.0      west bengal
+  etat districts sdist_min sdist_max menages_med              nom
+ <num>     <int>     <num>     <num>       <num>           <char>
+Recensement 1991 (SHRUG, shrid_pc91dist_key) : 452 districts, 31 Etats ; ids de district numerotes dans l'Etat : TRUE
+
+------------------------------------------------------------------------------
+Point 2b. NFHS-3 : maille district ? (C3)
+------------------------------------------------------------------------------
+data.table est vide (0 ligne et 2 colonne): variable,libelle
+  [OK]   C3 NFHS-3 : aucune variable de district dans le dictionnaire HR
+
+------------------------------------------------------------------------------
+Point 2c. NFHS-4 / NFHS-5 : raccord direct aux districts du recensement 2011 (C2)
+------------------------------------------------------------------------------
+  [OK]   SHRUG district 2011: key (code) unique
+SHRUG district.gpkg : 641 lignes, 641 codes
+nfhs4 (shdistri) : 640 districts observes ; meme nom = 632 ; nom different = 8
+nfhs5 (shdist) : 707 districts observes ; code absent du recensement 2011 = 132 ; meme nom = 575
+Noms differents (NFHS-4, extrait) :
+  code                              libelle             district_name
+ <num>                               <char>                    <char>
+     3                                  leh               Leh(Ladakh)
+    25                      lahul and spiti             Lahul & Spiti
+    39                              sangrur Shahid Bhagat Singh Nagar
+    53            shahid bhagat singh nagar                   Sangrur
+   272 senapati (excluding 3 sub-divisions)                  Senapati
+   400                       korea (koriya)                    Koriya
+   407                            kabirdham                Kabeerdham
+   484                           panchmahal              Panch Mahals
+NFHS-5 : codes absents du recensement 2011 (nouveaux districts), extrait :
+  code                 libelle
+ <num>                  <char>
+   801              east siang
+   802               kra daadi
+   803            kurung kumey
+   804                   lohit
+   805                longding
+   806                  namsai
+   807                   siang
+   808                   tirap
+   809              west siang
+   810               biswanath
+   811               charaideo
+   812                  dhubri
+   813                   hojai
+   814                  jorhat
+   815           karbi anglong
+   816                  majuli
+   817                  nagaon
+   818               sivasagar
+   819                sonitpur
+   820 south salmara mancachar
+   821      west karbi anglong
+   822                   balod
+   823            baloda bazar
+   824               balrampur
+   825                  bastar
+   826                bemetara
+   827                bilaspur
+   828               dantewada
+   829                    durg
+   830              gariyaband
+   831                kodagaon
+   832                 mungeli
+   833                  raipur
+   834                   sukma
+   835                surajpur
+   836                 surguja
+   837                 central
+   838                    east
+   839               new delhi
+   840                   north
+  code                 libelle
+ <num>                  <char>
+NFHS-5, codes du recensement 2011 au nom different (redecoupage possible), extrait :
+data.table est vide (0 ligne et 3 colonne): code,libelle,district_name
+  vague                          statut     N
+ <char>                          <char> <int>
+  nfhs4                        meme nom   632
+  nfhs4                   nom different     8
+  nfhs5 code absent du recensement 2011   132
+  nfhs5                        meme nom   575
+  [OK]   C2 NFHS-4 : 98.8 % des codes <= 640 au nom SHRUG identique (>= 80 %)
+Ponts SHRUG en local : shrid_pc91dist_key (572258 shrids) et shrid_pc11dist_key (596508 shrids) -- cle commune shrid2.
+
+------------------------------------------------------------------------------
+Limites a consigner
+------------------------------------------------------------------------------
+- point 1 : decomposition ponctuelle, sans intervalle ; diffusion reelle et effet
+  questionnaire confondus pour le purificateur lui-meme ;
+- point 2 : codes sdist sans etiquette ; codes d'Etat NFHS-2 differents du recensement ;
+  aucun raccord construit.
+
+Run finished: 2026-10-06 10:51:23
