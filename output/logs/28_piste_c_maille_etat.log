@@ -1,0 +1,77 @@
+==============================================================================
+LOG: output/logs/28_piste_c_maille_etat.log
+Run started: 2026-10-06 11:02:55
+==============================================================================
+
+ETAPE 28 -- PISTE C : MAILLE ETAT DE 1998 x MILIEU, QUATRE VAGUES
+Descriptif seulement : aucune regression, aucune issue construite.
+
+------------------------------------------------------------------------------
+Decisions de Valentine consignees (06/10), avant execution
+------------------------------------------------------------------------------
+1. Le recul a 1998 TIENT pour la serie urbaine. Le critere du point 1 (script 26)
+   a echoue sur une premisse posee par Valentine et fausse : l'ecart de 7,7 points
+   etait non pondere ; pondere, il est nul en ville (49,6 % contre 49,0 %). On ne
+   peut pas decomposer un ecart inexistant : le verdict FAUSSE ne porte aucune
+   information sur les donnees. Le national (ecart de 2,8 points) n'est pas le
+   terrain de la piste, qui est urbaine.
+   CRITERE MAL SPECIFIE PAR VALENTINE -- deuxieme fois sur cette piste, apres le
+   repere 16,7 % / 3,3 % de l'attente A4 du script 24. Memo : memo/piste_c_recul_1998.md.
+2. Codes ambigus de hv201 tranches : « piped to neighbor » (NFHS-5, 13) cote reseau,
+   variante hors reseau ; usine RO communautaire (NFHS-4 72, NFHS-5 92) hors reseau,
+   variante menages exclus. Table : code/ref/piste_c_hv201_reseau.csv.
+
+------------------------------------------------------------------------------
+Attentes et seuil ecrits avant execution
+------------------------------------------------------------------------------
+E1 table des Etats complete ; E2 scissions 2000 en districts entiers (SHRUG) ;
+E3 Telangana / Ladakh dans un seul Etat 2011 avec leur Etat d'origine ; E4 codes NFHS-3 = NFHS-5.
+Cellule exploitable : >= 300 menages ET >= 15 grappes. Etat utilisable :
+cellule urbaine exploitable aux 4 vagues. Maille Etat TIENT si >= 20 Etats sur 26.
+  [OK]   cache present : build/25_cache_nfhs2.rds
+  [OK]   cache present : build/24_cache_nfhs3.rds
+  [OK]   cache present : build/24_cache_nfhs4.rds
+  [OK]   cache present : build/24_cache_nfhs5.rds
+
+------------------------------------------------------------------------------
+A1. Table de correspondance des Etats (E1)
+------------------------------------------------------------------------------
+  [OK]   table des Etats: all 5 named variables present
+  [OK]   table des Etats: key (vague+code) unique
+  [OK]   26 Etats de 1998 dans la table
+  [OK]   E1 nfhs2 : 26 codes hv024 observes = table, libelles exacts
+  [OK]   E1 nfhs2 : les 26 Etats de 1998 presents
+  [OK]   E1 nfhs2 : seules des UT sont hors maille
+  [OK]   E1 nfhs3 : 29 codes hv024 observes = table, libelles exacts
+  [OK]   E1 nfhs3 : les 26 Etats de 1998 presents
+  [OK]   E1 nfhs3 : seules des UT sont hors maille
+  [OK]   E1 nfhs4 : 36 codes hv024 observes = table, libelles exacts
+  [OK]   E1 nfhs4 : les 26 Etats de 1998 presents
+  [OK]   E1 nfhs4 : seules des UT sont hors maille
+  [OK]   E1 nfhs5 : 36 codes hv024 observes = table, libelles exacts
+  [OK]   E1 nfhs5 : les 26 Etats de 1998 presents
+  [OK]   E1 nfhs5 : seules des UT sont hors maille
+Statuts par vague :
+Clé : <statut>
+                  statut nfhs2 nfhs3 nfhs4 nfhs5
+                  <char> <int> <int> <int> <int>
+               etat 1998    26     0     0     0
+        hors maille 1998     0     0     6     5
+               meme etat     0    26    26    26
+ scission 2000 regroupee     0     3     3     3
+ scission 2014 regroupee     0     0     1     1
+ scission 2019 regroupee     0     0     0     1
+
+------------------------------------------------------------------------------
+A2. NFHS-3 et NFHS-5 : memes codes pour un meme Etat (E4)
+------------------------------------------------------------------------------
+Clé : <nom>
+data.table est vide (0 ligne et 3 colonne): nom,code3,code5
+  [OK]   E4 les 29 Etats du NFHS-3 ont le meme code hv024 en NFHS-5
+Codes NFHS-2 (propres a la vague) et NFHS-4 (ordre alphabetique) : raccord par nom seulement.
+
+------------------------------------------------------------------------------
+A3. Scissions de 2000 et autres transferts 1991 -> 2011 (SHRUG) (E2)
+------------------------------------------------------------------------------
+  [FAIL] shrid_pc91dist_key: key (shrid2) unique
+         31 duplicate key rows
