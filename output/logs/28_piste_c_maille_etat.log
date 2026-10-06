@@ -1,6 +1,6 @@
 ==============================================================================
 LOG: output/logs/28_piste_c_maille_etat.log
-Run started: 2026-10-06 11:02:55
+Run started: 2026-10-06 16:31:15
 ==============================================================================
 
 ETAPE 28 -- PISTE C : MAILLE ETAT DE 1998 x MILIEU, QUATRE VAGUES
@@ -73,5 +73,456 @@ Codes NFHS-2 (propres a la vague) et NFHS-4 (ordre alphabetique) : raccord par n
 ------------------------------------------------------------------------------
 A3. Scissions de 2000 et autres transferts 1991 -> 2011 (SHRUG) (E2)
 ------------------------------------------------------------------------------
-  [FAIL] shrid_pc91dist_key: key (shrid2) unique
-         31 duplicate key rows
+  [OK]   doublons de la cle 1991 : aucun shrid ne relie deux Etats (30 shrids, 61 lignes)
+  [OK]   PCA 1991 au shrid: key (shrid2) unique
+Cle 1991 : 30 shrids en double ; menages concernes (PCA 1991) = 1 016 902 sur 148 415 611 (0.685 %) ; shrids sans PCA : 1 ; plus gros shrid : 798 997 menages
+ etat_recensement shrids menages sans_pca part_menages_etat
+           <char>  <int>   <num>    <int>            <char>
+               23      7  806488        0           7.052 %
+               13      4  107955        0           0.977 %
+               11      6   49833        0           0.628 %
+               02      2   24687        0           0.179 %
+               07      4   19497        0           0.261 %
+               26      2    5738        0           0.047 %
+               15      1    2275        0           0.811 %
+               05      3     344        1           0.002 %
+               19      1      85        0           0.001 %
+  [OK]   doublons de la cle 2011 : aucun shrid ne relie deux Etats (108 shrids, 223 lignes)
+  [OK]   PCA 2011 au shrid: key (shrid2) unique
+Cle 2011 : 108 shrids en double ; menages concernes (PCA 2011) = 6 763 967 sur 249 477 691 (2.711 %) ; shrids sans PCA : 0 ; plus gros shrid : 3 435 999 menages
+ etat_recensement shrids menages sans_pca part_menages_etat
+           <char>  <int>   <num>    <int>            <char>
+               07      1 3435999        0         100.000 %
+               27      1 2779943        0          11.383 %
+               01      2  204812        0           9.662 %
+               19      2  117118        0           0.575 %
+               14      2   64629        0          11.585 %
+               33      6   51531        0           0.278 %
+               08     21   32413        0           0.255 %
+               28      2   30892        0           0.147 %
+               23      4   23629        0           0.157 %
+               24      2    4538        0           0.037 %
+               06      5    3617        0           0.074 %
+               15      7    3447        0           1.547 %
+               17     20    3066        0           0.559 %
+               10      4    2722        0           0.014 %
+               29      1    2649        0           0.020 %
+               12     24    1203        0           0.445 %
+               05      1     739        0           0.036 %
+               03      2     647        0           0.012 %
+               20      1     373        0           0.006 %
+Toutes les lignes sont gardees (decision (a)) : un shrid en double compte dans chacun de ses
+districts ; au niveau Etat il ne change rien, puisqu'il reste dans un seul Etat.
+shrids : pc91 572258 ; pc11 596508 ; presents dans les deux 565175 (98.8 % des shrids pc91)
+  [OK]   noms des Etats 2011 (SHRUG): key (nom) unique
+Etats 1991 dans SHRUG : 31 ; Etats 2011 : 34 (le recensement de 1991 n'a pas eu lieu au Jammu-et-Cachemire)
+Etats 1991 a plusieurs destinations 2011 (>= 1 % des shrids) :
+ pc91_state_id                  destinations n_dest
+        <char>                        <char>  <int>
+            25   uttar pradesh + uttarakhand      2
+            05             bihar + jharkhand      2
+            13 chhattisgarh + madhya pradesh      2
+  [OK]   E2 un Etat 1991 se partage en bihar + jharkhand
+  bihar + jharkhand : 42 districts de 1991 ; part minimale dans un seul Etat 2011 = 100 %
+  [OK]   E2 bihar + jharkhand : chaque district 1991 >= 99 % dans un seul Etat 2011
+  [OK]   E2 un Etat 1991 se partage en chhattisgarh + madhya pradesh
+  chhattisgarh + madhya pradesh : 45 districts de 1991 ; part minimale dans un seul Etat 2011 = 99.95 %
+  [OK]   E2 chhattisgarh + madhya pradesh : chaque district 1991 >= 99 % dans un seul Etat 2011
+  [OK]   E2 un Etat 1991 se partage en uttar pradesh + uttarakhand
+  uttar pradesh + uttarakhand : 63 districts de 1991 ; part minimale dans un seul Etat 2011 = 100 %
+  [OK]   E2 uttar pradesh + uttarakhand : chaque district 1991 >= 99 % dans un seul Etat 2011
+CONSTAT -- autres Etats 1991 a plusieurs destinations (>= 1 %) : aucun
+CONSTAT -- flux mineurs (< 1 % des shrids d'un Etat 1991, bruit de rattachement ou transfert local) :
+data.table est vide (0 ligne et 4 colonne): origine_principale_1991,vers_2011,shrids,part
+
+------------------------------------------------------------------------------
+A4. Scissions de 2014 et 2019 : districts NFHS-4/5 -> Etats 2011 (E3)
+------------------------------------------------------------------------------
+  [OK]   E3 nfhs4 : chaque district dans un seul Etat NFHS
+  code                     libelle          etat_1998 districts
+ <num>                      <char>             <char>     <int>
+     1 andaman and nicobar islands                            3
+     2              andhra pradesh     andhra pradesh        13
+     3           arunachal pradesh  arunachal pradesh        16
+     4                       assam              assam        27
+     5                       bihar              bihar        38
+     6                  chandigarh                            1
+     7                chhattisgarh     madhya pradesh        18
+     8      dadra and nagar haveli                            1
+     9               daman and diu                            2
+    10                         goa                goa         2
+    11                     gujarat            gujarat        26
+    12                     haryana            haryana        21
+    13            himachal pradesh   himachal pradesh        12
+    14           jammu and kashmir jammu et cachemire        22
+    15                   jharkhand              bihar        24
+    16                   karnataka          karnataka        30
+    17                      kerala             kerala        14
+    18                 lakshadweep                            1
+    19              madhya pradesh     madhya pradesh        50
+    20                 maharashtra        maharashtra        35
+    21                     manipur            manipur         9
+    22                   meghalaya          meghalaya         7
+    23                     mizoram            mizoram         8
+    24                    nagaland           nagaland        11
+    25                       delhi              delhi         9
+    26                      odisha             orissa        30
+    27                  puducherry                            4
+    28                      punjab             punjab        20
+    29                   rajasthan          rajasthan        33
+    30                      sikkim             sikkim         4
+    31                  tamil nadu         tamil nadu        32
+    32                     tripura            tripura         4
+    33               uttar pradesh      uttar pradesh        71
+    34                 uttarakhand      uttar pradesh        13
+    35                 west bengal        west bengal        19
+    36                   telangana     andhra pradesh        10
+  code                     libelle          etat_1998 districts
+ <num>                      <char>             <char>     <int>
+ districts_hors_2011              etats_2011 n_etats_2011  vague
+               <int>                  <char>        <int> <char>
+                   0 andaman nicobar islands            1  nfhs4
+                   0          andhra pradesh            1  nfhs4
+                   0       arunachal pradesh            1  nfhs4
+                   0                   assam            1  nfhs4
+                   0                   bihar            1  nfhs4
+                   0              chandigarh            1  nfhs4
+                   0            chhattisgarh            1  nfhs4
+                   0      dadra nagar haveli            1  nfhs4
+                   0               daman diu            1  nfhs4
+                   0                     goa            1  nfhs4
+                   0                 gujarat            1  nfhs4
+                   0                 haryana            1  nfhs4
+                   0        himachal pradesh            1  nfhs4
+                   0           jammu kashmir            1  nfhs4
+                   0               jharkhand            1  nfhs4
+                   0               karnataka            1  nfhs4
+                   0                  kerala            1  nfhs4
+                   0             lakshadweep            1  nfhs4
+                   0          madhya pradesh            1  nfhs4
+                   0             maharashtra            1  nfhs4
+                   0                 manipur            1  nfhs4
+                   0               meghalaya            1  nfhs4
+                   0                 mizoram            1  nfhs4
+                   0                nagaland            1  nfhs4
+                   0                   delhi            1  nfhs4
+                   0                  odisha            1  nfhs4
+                   0              puducherry            1  nfhs4
+                   0                  punjab            1  nfhs4
+                   0               rajasthan            1  nfhs4
+                   0                  sikkim            1  nfhs4
+                   0              tamil nadu            1  nfhs4
+                   0                 tripura            1  nfhs4
+                   0           uttar pradesh            1  nfhs4
+                   0             uttarakhand            1  nfhs4
+                   0             west bengal            1  nfhs4
+                   0          andhra pradesh            1  nfhs4
+ districts_hors_2011              etats_2011 n_etats_2011  vague
+               <int>                  <char>        <int> <char>
+  [OK]   E3 nfhs4 : un seul Etat 2011 par Etat NFHS (sauf DNH-DD fusionnes)
+  [OK]   E3 nfhs4 : Telangana dans l'Etat 2011 de l'Andhra Pradesh (andhra pradesh)
+  [OK]   E3 nfhs4 : deux Etats NFHS distincts n'ont pas le meme Etat 2011 (hors paires attendues)
+  [OK]   E3 nfhs5 : chaque district dans un seul Etat NFHS
+  code                              libelle          etat_1998 districts
+ <num>                               <char>             <char>     <int>
+     1                      jammu & kashmir jammu et cachemire        20
+     2                     himachal pradesh   himachal pradesh        12
+     3                               punjab             punjab        22
+     4                           chandigarh                            1
+     5                          uttarakhand      uttar pradesh        13
+     6                              haryana            haryana        22
+     7                         nct of delhi              delhi        11
+     8                            rajasthan          rajasthan        33
+     9                        uttar pradesh      uttar pradesh        75
+    10                                bihar              bihar        38
+    11                               sikkim             sikkim         4
+    12                    arunachal pradesh  arunachal pradesh        20
+    13                             nagaland           nagaland        11
+    14                              manipur            manipur         9
+    15                              mizoram            mizoram         8
+    16                              tripura            tripura         8
+    17                            meghalaya          meghalaya        11
+    18                                assam              assam        33
+    19                          west bengal        west bengal        20
+    20                            jharkhand              bihar        24
+    21                               odisha             orissa        30
+    22                         chhattisgarh     madhya pradesh        27
+    23                       madhya pradesh     madhya pradesh        51
+    24                              gujarat            gujarat        33
+    25 dadra & nagar haveli and daman & diu                            3
+    27                          maharashtra        maharashtra        36
+    28                       andhra pradesh     andhra pradesh        13
+    29                            karnataka          karnataka        30
+    30                                  goa                goa         2
+    31                          lakshadweep                            1
+    32                               kerala             kerala        14
+    33                           tamil nadu         tamil nadu        32
+    34                           puducherry                            4
+    35            andaman & nicobar islands                            3
+    36                            telangana     andhra pradesh        31
+    37                               ladakh jammu et cachemire         2
+  code                              libelle          etat_1998 districts
+ <num>                               <char>             <char>     <int>
+ districts_hors_2011                     etats_2011 n_etats_2011  vague
+               <int>                         <char>        <int> <char>
+                   0                  jammu kashmir            1  nfhs5
+                   0               himachal pradesh            1  nfhs5
+                   4                         punjab            1  nfhs5
+                   0                     chandigarh            1  nfhs5
+                   0                    uttarakhand            1  nfhs5
+                   2                        haryana            1  nfhs5
+                  11                                           0  nfhs5
+                   0                      rajasthan            1  nfhs5
+                  10                  uttar pradesh            1  nfhs5
+                   0                          bihar            1  nfhs5
+                   0                         sikkim            1  nfhs5
+                   9              arunachal pradesh            1  nfhs5
+                   0                       nagaland            1  nfhs5
+                   0                        manipur            1  nfhs5
+                   0                        mizoram            1  nfhs5
+                   7                        tripura            1  nfhs5
+                   8                      meghalaya            1  nfhs5
+                  12                          assam            1  nfhs5
+                   2                    west bengal            1  nfhs5
+                   0                      jharkhand            1  nfhs5
+                   0                         odisha            1  nfhs5
+                  15                   chhattisgarh            1  nfhs5
+                   2                 madhya pradesh            1  nfhs5
+                  17                        gujarat            1  nfhs5
+                   0 dadra nagar haveli + daman diu            2  nfhs5
+                   2                    maharashtra            1  nfhs5
+                   0                 andhra pradesh            1  nfhs5
+                   0                      karnataka            1  nfhs5
+                   0                            goa            1  nfhs5
+                   0                    lakshadweep            1  nfhs5
+                   0                         kerala            1  nfhs5
+                   0                     tamil nadu            1  nfhs5
+                   0                     puducherry            1  nfhs5
+                   0        andaman nicobar islands            1  nfhs5
+                  31                                           0  nfhs5
+                   0                  jammu kashmir            1  nfhs5
+ districts_hors_2011                     etats_2011 n_etats_2011  vague
+               <int>                         <char>        <int> <char>
+  [OK]   E3 nfhs5 : un seul Etat 2011 par Etat NFHS (sauf DNH-DD fusionnes)
+E3 nfhs5 : Telangana -- 31 districts, dont 31 a code posterieur a 2011 : test non realisable ici.
+  REMPLACE (decision de Valentine, 06/10) par le test valide en NFHS-4, avec un appui sur une
+  CONNAISSANCE EXTERIEURE : Telangana cree en 2014 par separation d'avec l'Andhra Pradesh
+  (Andhra Pradesh Reorganisation Act, 2014) ; redecoupage de 2016 interne au Telangana ;
+  frontiere AP / Telangana inchangee entre 2015-16 et 2019-21.
+  [OK]   E3 nfhs5 : test du Telangana repris du NFHS-4 (valide)
+  [OK]   E3 nfhs5 : Ladakh dans l'Etat 2011 du Jammu-et-Cachemire (jammu kashmir)
+  [OK]   E3 nfhs5 : deux Etats NFHS distincts n'ont pas le meme Etat 2011 (hors paires attendues)
+Les districts NFHS-5 de code > 640 (nouveaux depuis 2011) n'ont pas d'Etat 2011 verifiable ;
+ils sont rattaches par hv024 (colonne districts_hors_2011).
+
+------------------------------------------------------------------------------
+B. Cellules Etat de 1998 x milieu x vague : effectifs et purificateur
+------------------------------------------------------------------------------
+  [OK]   chaque menage a un Etat dans la table
+Menages hors maille 1998 (UT) : nfhs4 = 9384 ; nfhs5 = 10502
+Cellules sans aucun menage : 0
+  [OK]   grille de 208 cellules (26 Etats x 2 milieux x 4 vagues)
+Cellules URBAINES : menages / grappes / purificateur % [IC]
+Clé : <etat_1998>
+          etat_1998                           1998-99
+             <char>                            <char>
+     andhra pradesh    1018 /  36 /   0.7 [-0.4; 1.8]
+  arunachal pradesh   174 /   6 /   0.0 [ 0.0; 0.0] *
+              assam     838 /  33 /   2.3 [ 1.0; 3.5]
+              bihar     701 /  31 /   1.0 [-0.2; 2.3]
+              delhi    2564 /  90 /   4.1 [ 2.8; 5.5]
+                goa     623 /  20 /   1.8 [ 0.2; 3.3]
+            gujarat    1709 /  46 /   1.9 [ 0.8; 3.1]
+            haryana     891 /  33 /   1.8 [ 0.2; 3.5]
+   himachal pradesh    1086 /  33 /   1.6 [ 0.8; 2.3]
+ jammu et cachemire     887 /  50 /   1.0 [ 0.3; 1.7]
+          karnataka    1552 /  41 /   0.6 [ 0.2; 1.1]
+             kerala     855 /  33 /   0.6 [ 0.1; 1.1]
+     madhya pradesh    1798 /  56 /   0.7 [ 0.2; 1.2]
+        maharashtra    3662 / 136 /   1.3 [ 0.6; 1.9]
+            manipur   536 /  14 /   0.6 [-0.2; 1.3] *
+          meghalaya   256 /   9 /   0.4 [-0.4; 1.1] *
+            mizoram     781 /  23 /   0.8 [-0.1; 1.6]
+           nagaland   237 /   9 /   0.4 [-0.4; 1.2] *
+             orissa     932 /  33 /   1.3 [ 0.3; 2.3]
+             punjab    1066 /  33 /   2.3 [ 0.9; 3.6]
+          rajasthan    1546 /  53 /   0.5 [ 0.2; 0.9]
+             sikkim   164 /   5 /   0.0 [ 0.0; 0.0] *
+         tamil nadu    2388 /  70 /   0.8 [ 0.4; 1.2]
+            tripura   251 /   8 /   1.6 [-0.9; 4.1] *
+      uttar pradesh    1835 /  67 /   0.6 [ 0.1; 1.1]
+        west bengal    2335 /  61 /   1.2 [ 0.4; 2.0]
+          etat_1998                           1998-99
+             <char>                            <char>
+                         2005-06                          2015-16
+                          <char>                           <char>
+  4098 /  91 /   0.8 [ 0.3; 1.4]   5996 / 296 /   5.9 [ 4.7; 7.1]
+   477 /  17 /   1.0 [ 0.3; 1.8]   3170 / 166 /   9.6 [ 7.6;11.5]
+  1187 /  29 /   4.4 [ 1.2; 7.5]   3467 / 170 /   8.3 [ 6.7; 9.9]
+  2076 /  65 /   2.2 [ 0.8; 3.6]  11026 / 531 /   8.3 [ 6.9; 9.6]
+  3107 / 104 /   8.8 [ 5.8;11.7]   5951 / 319 /  21.6 [17.0;26.1]
+  1600 /  63 /   4.0 [ 1.8; 6.2]    796 /  38 /   6.2 [ 4.0; 8.3]
+  1336 /  43 /   2.4 [ 0.7; 4.1]   7553 / 369 /  15.1 [12.5;17.7]
+   641 /  29 /   3.7 [ 1.8; 5.7]   6295 / 290 /  20.1 [17.5;22.8]
+   930 /  34 /   1.2 [ 0.5; 1.8]    734 /  40 /  14.4 [10.8;18.0]
+   844 /  32 /   6.2 [ 0.6;11.8]   3513 / 167 /  15.8 [12.1;19.4]
+  2046 /  64 /   3.5 [ 1.7; 5.3]   8006 / 386 /   9.2 [ 7.0;11.4]
+  1019 /  34 /   2.6 [ 0.9; 4.4]   4294 / 198 /   4.8 [ 3.3; 6.3]
+  3807 / 124 /   2.8 [ 1.0; 4.6]  20692 / 962 /   6.8 [ 5.9; 7.7]
+  5836 / 203 /   2.9 [ 2.0; 3.9]   9723 / 504 /  10.7 [ 8.3;13.0]
+  1555 /  57 /   0.6 [ 0.2; 1.1]   4124 / 195 /   2.6 [ 1.9; 3.4]
+   821 /  25 /   1.7 [ 0.4; 3.0]   1525 /  72 /   8.8 [ 6.0;11.7]
+   781 /  31 /   1.4 [ 0.4; 2.4]   5499 / 264 /   2.3 [ 1.3; 3.3]
+  1888 /  76 /   0.7 [ 0.2; 1.2]   3351 / 162 /   9.3 [ 7.7;11.0]
+  1172 /  32 /   4.1 [ 0.9; 7.3]   5803 / 281 /  10.7 [ 8.6;12.8]
+  1140 /  34 /   7.8 [ 4.2;11.4]   6224 / 289 /  43.9 [40.4;47.5]
+  1138 /  32 /   5.1 [ 1.3; 8.9]   9312 / 439 /  12.4 [10.5;14.3]
+   710 /  19 /   3.4 [ 0.8; 5.9]   1227 /  57 /   8.6 [ 6.6;10.5]
+  3237 / 110 /   2.4 [ 0.7; 4.2]  11562 / 543 /   8.7 [ 7.3;10.2]
+   388 /  17 /   2.1 [-0.4; 4.5]   1288 /  62 /   5.2 [ 3.0; 7.4]
+  5008 / 165 /   3.7 [ 1.8; 5.6] 24829 / 1197 /  11.2 [10.0;12.3]
+  3345 / 119 /   4.5 [ 2.8; 6.1]   4382 / 212 /   8.0 [ 6.1; 9.9]
+                         2005-06                          2015-16
+                          <char>                           <char>
+                         2019-21
+                          <char>
+ 10352 / 513 /   6.1 [ 5.2; 7.0]
+  3714 / 176 /   6.0 [ 4.7; 7.2]
+  3988 / 186 /  10.2 [ 8.2;12.1]
+  8089 / 385 /   8.7 [ 7.1;10.3]
+  9180 / 447 /  29.9 [27.5;32.3]
+  1143 /  52 /  16.7 [13.1;20.2]
+  9230 / 442 /  14.3 [11.9;16.8]
+  5745 / 282 /  27.6 [25.0;30.2]
+   914 /  44 /  25.6 [20.6;30.6]
+  3831 / 180 /  15.5 [12.7;18.2]
+  7727 / 375 /   8.1 [ 6.3; 9.9]
+  5045 / 243 /   4.6 [ 3.7; 5.5]
+ 13517 / 671 /   7.1 [ 6.1; 8.1]
+ 10294 / 514 /  16.4 [13.9;18.9]
+  2008 /  95 /   2.6 [ 1.6; 3.5]
+  1186 /  54 /   6.3 [ 2.9; 9.7]
+  3082 / 144 /   3.0 [ 1.8; 4.2]
+  2425 / 111 /  15.3 [12.2;18.4]
+  3707 / 184 /  16.0 [13.1;18.9]
+  6132 / 307 /  32.6 [29.7;35.5]
+  6823 / 322 /  12.4 [10.7;14.1]
+   600 /  30 /   6.1 [ 3.7; 8.4]
+ 11806 / 582 /  10.3 [ 9.1;11.5]
+  1382 /  65 /   4.6 [ 2.2; 7.0]
+ 16411 / 816 /  13.6 [12.3;15.0]
+  5441 / 253 /  10.5 [ 8.3;12.6]
+                         2019-21
+                          <char>
+(* = sous le seuil : < 300 menages ou < 15 grappes)
+Cellules RURALES : menages / grappes
+Clé : <etat_1998>
+          etat_1998       1998-99       2005-06       2015-16      2019-21
+             <char>        <char>        <char>        <char>       <char>
+     andhra pradesh    2854 /  97    2566 / 104   12050 / 578 28344 / 1335
+  arunachal pradesh    1245 /  44    1049 /  48   11422 / 565  14552 / 682
+              assam    2283 /  67    2248 /  58   21073 / 991 26130 / 1200
+              bihar    5644 / 202    3417 / 132  51459 / 2393 50599 / 2405
+              delhi   199 /  10 *   214 /   8 *    98 /   5 *    306 /  15
+                goa     976 /  30    1628 /  63     792 /  38    713 /  32
+            gujarat    2223 /  87    1879 /  70   12967 / 619  20136 / 944
+            haryana    1950 /  67    1661 /  62   11037 / 508  12484 / 595
+   himachal pradesh    2357 /  67    1849 /  72    8490 / 416   9783 / 460
+ jammu et cachemire    1899 /  67    1567 /  65   14379 / 670  16071 / 744
+          karnataka    2721 /  92    3285 / 112   15829 / 754  18846 / 885
+             kerala    1979 /  67    2002 /  91    7259 / 333   7278 / 345
+     madhya pradesh    4947 / 177    4709 / 156  51610 / 2394 54571 / 2594
+        maharashtra    2168 /  82    2465 /  86   17163 / 836  21349 / 996
+            manipur    1153 /  36    1939 /  93    7600 / 361   5873 / 283
+          meghalaya     984 /  41    1078 /  46    5800 / 272   8960 / 408
+            mizoram     592 /  27     732 /  33    5898 / 281   4174 / 192
+           nagaland     896 /  41    1977 / 124    7861 / 378   7687 / 350
+             orissa    3757 / 100    2728 /  83  24429 / 1138 22759 / 1076
+             punjab    1901 /  67    1828 /  65   10225 / 471  12688 / 608
+          rajasthan    4765 / 180    2144 /  74  25601 / 1195 24991 / 1163
+             sikkim    1135 /  45    1192 /  41    3434 / 158   2916 / 138
+         tamil nadu    2893 /  88    3106 / 104   14467 / 673  16122 / 762
+            tripura    1039 /  42    1184 /  39    3222 / 153   5827 / 271
+      uttar pradesh    6846 / 266    7666 / 286  66570 / 3172 66461 / 3124
+        west bengal    2390 /  97    2647 /  86   10945 / 510  12743 / 587
+          etat_1998       1998-99       2005-06       2015-16      2019-21
+             <char>        <char>        <char>        <char>       <char>
+Clé : <milieu>
+ milieu 1998-99 2005-06 2015-16 2019-21
+ <char>   <int>   <int>   <int>   <int>
+  rural      25      25      25      26
+ urbain      20      26      26      26
+Total : 199 cellules exploitables sur 208 ; urbaines : 98 sur 104
+          etat_1998 vagues_ok menages_min grappes_min vague_limitante
+             <char>     <int>       <int>       <int>          <char>
+        maharashtra         4        3662         136         1998-99
+              delhi         4        2564          90         1998-99
+         tamil nadu         4        2388          70         1998-99
+        west bengal         4        2335          61         1998-99
+      uttar pradesh         4        1835          67         1998-99
+     madhya pradesh         4        1798          56         1998-99
+          karnataka         4        1552          41         1998-99
+            gujarat         4        1336          43         2005-06
+          rajasthan         4        1138          32         2005-06
+             punjab         4        1066          33         1998-99
+     andhra pradesh         4        1018          36         1998-99
+             orissa         4         932          32         1998-99
+             kerala         4         855          33         1998-99
+ jammu et cachemire         4         844          32         2005-06
+              assam         4         838          29         1998-99
+            mizoram         4         781          23         1998-99
+   himachal pradesh         4         734          33         2015-16
+              bihar         4         701          31         1998-99
+            haryana         4         641          29         2005-06
+                goa         4         623          20         1998-99
+            manipur         3         536          14         1998-99
+          meghalaya         3         256           9         1998-99
+            tripura         3         251           8         1998-99
+           nagaland         3         237           9         1998-99
+  arunachal pradesh         3         174           6         1998-99
+             sikkim         3         164           5         1998-99
+          etat_1998 vagues_ok menages_min grappes_min vague_limitante
+             <char>     <int>       <int>       <int>          <char>
+ utilisable
+     <lgcl>
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+       TRUE
+      FALSE
+      FALSE
+      FALSE
+      FALSE
+      FALSE
+      FALSE
+ utilisable
+     <lgcl>
+Etats utilisables (cellule urbaine exploitable aux 4 vagues) : 20 sur 26
+VERDICT MAILLE ETAT (seuil ecrit avant execution, >= 20 Etats) : TIENT
+
+------------------------------------------------------------------------------
+Limites a consigner
+------------------------------------------------------------------------------
+- la correspondance des Etats est un codage de jugement (code/ref/piste_c_etats_1998.csv) ;
+- 1998 : libelle « jammu » ; le recensement de 1991 n'a pas couvert le Jammu-et-Cachemire,
+  la frontiere de cet Etat n'est donc pas verifiable par SHRUG ;
+- transferts infra-district (ex. mandals du Khammam passes a l'AP en 2014) invisibles a
+  la maille district ; absorbes ici par le regroupement AP + Telangana.
+
+Run finished: 2026-10-06 16:31:31

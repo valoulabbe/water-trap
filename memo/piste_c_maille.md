@@ -92,3 +92,28 @@ changent rien : c'est l'option (a), décidée par Valentine le 06/10.
 - **Mandals du Khammam (2014).** Quelques sous-districts sont passés à
   l'Andhra Pradesh. Ce transfert est invisible au niveau du district, et le
   regroupement Andhra Pradesh + Telangana l'absorbe.
+
+## Verdict de la vérification B (script 28, seuil écrit avant exécution)
+
+**Critère, écrit avant exécution.** Une cellule est exploitable si elle
+compte au moins 300 ménages et au moins 15 grappes. Un État est utilisable
+si sa cellule urbaine est exploitable dans les quatre vagues. La maille
+tient si au moins 20 des 26 États sont utilisables.
+
+**Verdict : la maille TIENT, mais à la limite exacte : 20 États
+utilisables sur 26, sans aucune marge.**
+
+- 199 cellules exploitables sur 208. En urbain : 98 sur 104 (1998-99 : 20 ;
+  2005-06, 2015-16 et 2019-21 : 26).
+- Les 6 États non utilisables échouent tous sur la seule vague de 1998-99,
+  en urbain : Arunachal Pradesh (174 ménages / 6 grappes), Sikkim (164 / 5),
+  Nagaland (237 / 9), Tripura (251 / 8), Meghalaya (256 / 9) et Manipur
+  (536 / 14).
+- Une seule cellule rurale échoue : Delhi rural, dans trois vagues.
+
+**Ce que permettrait un regroupement, non construit.** Les six États
+réunis en une unité « Nord-Est » compteraient 1 618 ménages urbains et
+51 grappes en 1998-99, ce qui passe le seuil. On aurait alors 21 unités,
+mais on perdrait la variation interne à ce groupe : le purificateur urbain
+y va de 2,6 % (Manipur) à 15,3 % (Nagaland) en 2019-21. Un découpage en
+grandes régions (cinq ou six zones) ne laisserait que cinq ou six unités.

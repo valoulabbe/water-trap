@@ -1,0 +1,73 @@
+code,libelle,etat_1998,districts,districts_hors_2011,etats_2011,n_etats_2011,vague
+14,jammu and kashmir,jammu et cachemire,22,0,jammu kashmir,1,nfhs4
+13,himachal pradesh,himachal pradesh,12,0,himachal pradesh,1,nfhs4
+28,punjab,punjab,20,0,punjab,1,nfhs4
+6,chandigarh,"",1,0,chandigarh,1,nfhs4
+34,uttarakhand,uttar pradesh,13,0,uttarakhand,1,nfhs4
+12,haryana,haryana,21,0,haryana,1,nfhs4
+25,delhi,delhi,9,0,delhi,1,nfhs4
+29,rajasthan,rajasthan,33,0,rajasthan,1,nfhs4
+33,uttar pradesh,uttar pradesh,71,0,uttar pradesh,1,nfhs4
+5,bihar,bihar,38,0,bihar,1,nfhs4
+30,sikkim,sikkim,4,0,sikkim,1,nfhs4
+3,arunachal pradesh,arunachal pradesh,16,0,arunachal pradesh,1,nfhs4
+24,nagaland,nagaland,11,0,nagaland,1,nfhs4
+21,manipur,manipur,9,0,manipur,1,nfhs4
+23,mizoram,mizoram,8,0,mizoram,1,nfhs4
+32,tripura,tripura,4,0,tripura,1,nfhs4
+22,meghalaya,meghalaya,7,0,meghalaya,1,nfhs4
+4,assam,assam,27,0,assam,1,nfhs4
+35,west bengal,west bengal,19,0,west bengal,1,nfhs4
+15,jharkhand,bihar,24,0,jharkhand,1,nfhs4
+26,odisha,orissa,30,0,odisha,1,nfhs4
+7,chhattisgarh,madhya pradesh,18,0,chhattisgarh,1,nfhs4
+19,madhya pradesh,madhya pradesh,50,0,madhya pradesh,1,nfhs4
+11,gujarat,gujarat,26,0,gujarat,1,nfhs4
+9,daman and diu,"",2,0,daman diu,1,nfhs4
+8,dadra and nagar haveli,"",1,0,dadra nagar haveli,1,nfhs4
+20,maharashtra,maharashtra,35,0,maharashtra,1,nfhs4
+36,telangana,andhra pradesh,10,0,andhra pradesh,1,nfhs4
+2,andhra pradesh,andhra pradesh,13,0,andhra pradesh,1,nfhs4
+16,karnataka,karnataka,30,0,karnataka,1,nfhs4
+10,goa,goa,2,0,goa,1,nfhs4
+18,lakshadweep,"",1,0,lakshadweep,1,nfhs4
+17,kerala,kerala,14,0,kerala,1,nfhs4
+31,tamil nadu,tamil nadu,32,0,tamil nadu,1,nfhs4
+27,puducherry,"",4,0,puducherry,1,nfhs4
+1,andaman and nicobar islands,"",3,0,andaman nicobar islands,1,nfhs4
+1,jammu & kashmir,jammu et cachemire,20,0,jammu kashmir,1,nfhs5
+37,ladakh,jammu et cachemire,2,0,jammu kashmir,1,nfhs5
+2,himachal pradesh,himachal pradesh,12,0,himachal pradesh,1,nfhs5
+3,punjab,punjab,22,4,punjab,1,nfhs5
+4,chandigarh,"",1,0,chandigarh,1,nfhs5
+5,uttarakhand,uttar pradesh,13,0,uttarakhand,1,nfhs5
+6,haryana,haryana,22,2,haryana,1,nfhs5
+8,rajasthan,rajasthan,33,0,rajasthan,1,nfhs5
+9,uttar pradesh,uttar pradesh,75,10,uttar pradesh,1,nfhs5
+10,bihar,bihar,38,0,bihar,1,nfhs5
+11,sikkim,sikkim,4,0,sikkim,1,nfhs5
+12,arunachal pradesh,arunachal pradesh,20,9,arunachal pradesh,1,nfhs5
+13,nagaland,nagaland,11,0,nagaland,1,nfhs5
+14,manipur,manipur,9,0,manipur,1,nfhs5
+15,mizoram,mizoram,8,0,mizoram,1,nfhs5
+16,tripura,tripura,8,7,tripura,1,nfhs5
+17,meghalaya,meghalaya,11,8,meghalaya,1,nfhs5
+18,assam,assam,33,12,assam,1,nfhs5
+19,west bengal,west bengal,20,2,west bengal,1,nfhs5
+20,jharkhand,bihar,24,0,jharkhand,1,nfhs5
+21,odisha,orissa,30,0,odisha,1,nfhs5
+22,chhattisgarh,madhya pradesh,27,15,chhattisgarh,1,nfhs5
+23,madhya pradesh,madhya pradesh,51,2,madhya pradesh,1,nfhs5
+24,gujarat,gujarat,33,17,gujarat,1,nfhs5
+25,dadra & nagar haveli and daman & diu,"",3,0,dadra nagar haveli + daman diu,2,nfhs5
+27,maharashtra,maharashtra,36,2,maharashtra,1,nfhs5
+28,andhra pradesh,andhra pradesh,13,0,andhra pradesh,1,nfhs5
+29,karnataka,karnataka,30,0,karnataka,1,nfhs5
+30,goa,goa,2,0,goa,1,nfhs5
+31,lakshadweep,"",1,0,lakshadweep,1,nfhs5
+32,kerala,kerala,14,0,kerala,1,nfhs5
+33,tamil nadu,tamil nadu,32,0,tamil nadu,1,nfhs5
+34,puducherry,"",4,0,puducherry,1,nfhs5
+35,andaman & nicobar islands,"",3,0,andaman nicobar islands,1,nfhs5
+7,nct of delhi,delhi,11,11,"",0,nfhs5
+36,telangana,andhra pradesh,31,31,"",0,nfhs5
