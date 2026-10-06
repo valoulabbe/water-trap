@@ -1,8 +1,9 @@
 # Piste C — définition de l'issue (décision du 06/10/2026)
 
 Statut : **décision écrite et commitée avant toute construction.** Aucune
-variable d'issue n'existe encore dans le dépôt. Les deux cas marqués AMBIGU
-restent à trancher par Valentine ; la construction attend cette décision.
+variable d’issue n’existe encore dans le dépôt. Les deux cas d’abord marqués
+AMBIGU ont été **tranchés par Valentine le 06/10** (section « Cas tranchés »),
+selon les recommandations ci-dessous, chacun avec sa variante de robustesse.
 
 ## Décision
 
@@ -28,14 +29,28 @@ C'est le type de rupture qui a fait tomber la piste D.
 Table complète, avec libellés exacts : `code/ref/piste_c_hv201_reseau.csv`.
 Les codes « titre » (10, 20, 30, 40) n'ont aucune observation.
 
-| Vague | Réseau | AMBIGU | Hors réseau |
+| Vague | Réseau | Hors réseau | Variante de robustesse |
 | --- | --- | --- | --- |
-| NFHS-2 1998-99 | 11, 12 | — | 21–26, 31–34, 41, 51, 96 |
-| NFHS-3 2005-06 | 11, 12, 13 | — | 21, 31, 32, 41–43, 51, 61, 62, 71, 96 |
-| NFHS-4 2015-16 | 11, 12, 13 | 72 (RO communautaire) | 21, 31, 32, 41–43, 51, 61, 62, 71, 96 |
-| NFHS-5 2019-21 | 11, 12, 14 | 13 (voisin), 92 (RO communautaire) | 21, 31, 32, 41–43, 51, 61, 62, 71, 96 |
+| NFHS-2 1998-99 | 11, 12 | 21–26, 31–34, 41, 51, 96 | — |
+| NFHS-3 2005-06 | 11, 12, 13 | 21, 31, 32, 41–43, 51, 61, 62, 71, 96 | — |
+| NFHS-4 2015-16 | 11, 12, 13 | 21, 31, 32, 41–43, 51, 61, 62, **72**, 71, 96 | 72 exclu |
+| NFHS-5 2019-21 | 11, 12, **13**, 14 | 21, 31, 32, 41–43, 51, 61, 62, 71, **92**, 96 | 13 hors réseau ; 92 exclu |
 
-## Cas ambigus
+La colonne `cote_variante` de la table porte la variante.
+
+## Cas tranchés (décision de Valentine, 06/10/2026)
+
+- **« Piped to neighbor » (NFHS-5, 13) : côté réseau.** Variante de
+  robustesse : hors réseau.
+- **Usine RO communautaire (NFHS-4, 72 ; NFHS-5, 92) : hors réseau.**
+  Variante de robustesse : ménages exclus de l’échantillon.
+
+Les deux variantes sont rapportées à côté du résultat principal ; une
+instabilité entre les deux est un signal à rapporter, pas à résoudre.
+
+La discussion qui a motivé ces choix est conservée ci-dessous.
+
+## Discussion des cas d’abord ambigus
 
 ### « Piped to neighbor » (NFHS-5, code 13)
 
@@ -52,8 +67,8 @@ Les codes « titre » (10, 20, 30, 40) n'ont aucune observation.
   côté réseau, les classer hors réseau en 2019-21 crée une baisse
   artificielle du raccordement à la dernière vague, au moment même où le
   purificateur se diffuse.
-- Recommandation (à confirmer) : côté réseau, avec une variante hors réseau
-  rapportée à côté.
+- Recommandation, retenue le 06/10 : côté réseau, avec une variante hors
+  réseau rapportée à côté.
 
 ### Usine RO communautaire (NFHS-4 code 72, NFHS-5 code 92)
 
@@ -65,8 +80,8 @@ Les codes « titre » (10, 20, 30, 40) n'ont aucune observation.
 - **Comparabilité.** Le code apparaît en 2015-16. Avant, ces ménages se
   déclaraient probablement « borne publique » (réseau) ou « forage » (hors
   réseau). Le sens de la rupture est inconnu.
-- Recommandation (à confirmer) : hors réseau, conformément à la définition,
-  avec une variante qui exclut ces ménages de l'échantillon.
+- Recommandation, retenue le 06/10 : hors réseau, conformément à la
+  définition, avec une variante qui exclut ces ménages de l’échantillon.
 
 ### Autres cas, signalés et non ambigus au sens de la définition
 
@@ -89,8 +104,9 @@ piste D (réallocation).
 correction n'est donc possible qu'en 2005-06.
 
 Ce biais épargne le purificateur : un ménage équipé d'un purificateur
-traite l'eau du robinet, donc continue de déclarer le réseau. Il touche en revanche l'eau en bouteille et les usines RO, deux
-substituts privés ou collectifs concurrents.
+traite l’eau du robinet, donc continue de déclarer le réseau. Il touche en
+revanche l’eau en bouteille et les usines RO, deux substituts privés ou
+collectifs concurrents.
 
 ## Ce qui n'est pas fait
 

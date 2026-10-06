@@ -1,76 +1,76 @@
-vague,code,libelle,cote,note
-nfhs2,10,piped water,titre,titre de groupe ; aucune observation
-nfhs2,11,piped into residence/yard/plot,reseau,logement et cour reunis en 1998 ; les deux sont du cote reseau : la fusion ne deplace pas la frontiere
-nfhs2,12,public tap,reseau,borne publique
-nfhs2,20,well water,titre,titre de groupe ; aucune observation
-nfhs2,21,handpump in residence/yard/plot,hors reseau,
-nfhs2,22,public handpump,hors reseau,public mais hors reseau ; la distinction prive/public disparait apres 1998
-nfhs2,23,well in residence/yard/plot,hors reseau,
-nfhs2,24,open well,hors reseau,
-nfhs2,25,public covered well,hors reseau,public mais hors reseau
-nfhs2,26,public open well,hors reseau,public mais hors reseau
-nfhs2,30,surface water,titre,titre de groupe ; aucune observation
-nfhs2,31,spring,hors reseau,
-nfhs2,32,"river, stream",hors reseau,
-nfhs2,33,"pond, lake",hors reseau,
-nfhs2,34,dam,hors reseau,
-nfhs2,41,rainwater,hors reseau,
-nfhs2,51,tanker truck,hors reseau,camion-citerne : municipal possible (public hors reseau) ; present a toutes les vagues donc sans effet de rupture
-nfhs2,96,other,hors reseau,residuel ; peut cacher une forme de reseau (non verifiable)
-nfhs3,10,piped water,titre,titre de groupe ; aucune observation
-nfhs3,11,piped into dwelling,reseau,
-nfhs3,12,piped to yard/plot,reseau,
-nfhs3,13,public tap/standpipe,reseau,borne publique
-nfhs3,20,tube well water,titre,titre de groupe ; aucune observation
-nfhs3,21,tube well or borehole,hors reseau,inclut les pompes a main publiques (non distinguees)
-nfhs3,30,dug well (open/protected),titre,titre de groupe ; aucune observation
-nfhs3,31,protected well,hors reseau,
-nfhs3,32,unprotected well,hors reseau,
-nfhs3,40,surface water,titre,titre de groupe ; aucune observation
-nfhs3,41,protected spring,hors reseau,
-nfhs3,42,unprotected spring,hors reseau,
-nfhs3,43,river/dam/lake/ponds/stream/canal/irrigation channel,hors reseau,
-nfhs3,51,rainwater,hors reseau,
-nfhs3,61,tanker truck,hors reseau,camion-citerne : municipal possible (public hors reseau)
-nfhs3,62,cart with small tank,hors reseau,
-nfhs3,71,bottled water,hors reseau,source de BOISSON : un menage raccorde qui boit de l'eau en bouteille tombe ici (cf. piste D)
-nfhs3,96,other,hors reseau,residuel
-nfhs4,10,piped water,titre,titre de groupe ; aucune observation
-nfhs4,11,piped into dwelling,reseau,
-nfhs4,12,piped to yard/plot,reseau,
-nfhs4,13,public tap/standpipe,reseau,borne publique
-nfhs4,20,tube well water,titre,titre de groupe ; aucune observation
-nfhs4,21,tube well or borehole,hors reseau,inclut les pompes a main publiques (non distinguees)
-nfhs4,30,dug well (open/protected),titre,titre de groupe ; aucune observation
-nfhs4,31,protected well,hors reseau,
-nfhs4,32,unprotected well,hors reseau,
-nfhs4,40,surface water,titre,titre de groupe ; aucune observation
-nfhs4,41,protected spring,hors reseau,
-nfhs4,42,unprotected spring,hors reseau,
-nfhs4,43,river/dam/lake/ponds/stream/canal/irrigation channel,hors reseau,
-nfhs4,51,rainwater,hors reseau,
-nfhs4,61,tanker truck,hors reseau,camion-citerne : municipal possible (public hors reseau)
-nfhs4,62,cart with small tank,hors reseau,
-nfhs4,71,bottled water,hors reseau,source de BOISSON : un menage raccorde qui boit de l'eau en bouteille tombe ici (cf. piste D)
-nfhs4,72,community ro plant,AMBIGU,public (ou associatif) mais hors reseau ; code nouveau en 2015-16 : on ne sait pas ou ces menages se classaient avant ; voir memo
-nfhs4,96,other,hors reseau,residuel
-nfhs5,10,piped water,titre,titre de groupe ; aucune observation
-nfhs5,11,piped into dwelling,reseau,
-nfhs5,12,piped to yard/plot,reseau,
-nfhs5,13,piped to neighbor,AMBIGU,eau du reseau sans raccordement propre ; code nouveau en 2019-21 ; voir memo
-nfhs5,14,public tap/standpipe,reseau,borne publique ; code 13 aux vagues precedentes
-nfhs5,20,tube well water,titre,titre de groupe ; aucune observation
-nfhs5,21,tube well or borehole,hors reseau,inclut les pompes a main publiques (non distinguees)
-nfhs5,30,dug well (open/protected),titre,titre de groupe ; aucune observation
-nfhs5,31,protected well,hors reseau,
-nfhs5,32,unprotected well,hors reseau,
-nfhs5,40,surface from spring,titre,titre de groupe ; aucune observation ; libelle different des vagues precedentes (surface water)
-nfhs5,41,protected spring,hors reseau,
-nfhs5,42,unprotected spring,hors reseau,
-nfhs5,43,river/dam/lake/ponds/stream/canal/irrigation channel,hors reseau,
-nfhs5,51,rainwater,hors reseau,
-nfhs5,61,tanker truck,hors reseau,camion-citerne : municipal possible (public hors reseau)
-nfhs5,62,cart with small tank,hors reseau,
-nfhs5,71,bottled water,hors reseau,source de BOISSON : un menage raccorde qui boit de l'eau en bouteille tombe ici (cf. piste D)
-nfhs5,92,community ro plant,AMBIGU,public (ou associatif) mais hors reseau ; code 72 en NFHS-4 ; voir memo
-nfhs5,96,other,hors reseau,residuel
+vague,code,libelle,cote,cote_variante,note
+nfhs2,10,piped water,titre,titre,titre de groupe ; aucune observation
+nfhs2,11,piped into residence/yard/plot,reseau,reseau,logement et cour reunis en 1998 ; les deux sont du cote reseau : la fusion ne deplace pas la frontiere
+nfhs2,12,public tap,reseau,reseau,borne publique
+nfhs2,20,well water,titre,titre,titre de groupe ; aucune observation
+nfhs2,21,handpump in residence/yard/plot,hors reseau,hors reseau,""
+nfhs2,22,public handpump,hors reseau,hors reseau,public mais hors reseau ; la distinction prive/public disparait apres 1998
+nfhs2,23,well in residence/yard/plot,hors reseau,hors reseau,""
+nfhs2,24,open well,hors reseau,hors reseau,""
+nfhs2,25,public covered well,hors reseau,hors reseau,public mais hors reseau
+nfhs2,26,public open well,hors reseau,hors reseau,public mais hors reseau
+nfhs2,30,surface water,titre,titre,titre de groupe ; aucune observation
+nfhs2,31,spring,hors reseau,hors reseau,""
+nfhs2,32,"river, stream",hors reseau,hors reseau,""
+nfhs2,33,"pond, lake",hors reseau,hors reseau,""
+nfhs2,34,dam,hors reseau,hors reseau,""
+nfhs2,41,rainwater,hors reseau,hors reseau,""
+nfhs2,51,tanker truck,hors reseau,hors reseau,camion-citerne : municipal possible (public hors reseau) ; present a toutes les vagues donc sans effet de rupture
+nfhs2,96,other,hors reseau,hors reseau,residuel ; peut cacher une forme de reseau (non verifiable)
+nfhs3,10,piped water,titre,titre,titre de groupe ; aucune observation
+nfhs3,11,piped into dwelling,reseau,reseau,""
+nfhs3,12,piped to yard/plot,reseau,reseau,""
+nfhs3,13,public tap/standpipe,reseau,reseau,borne publique
+nfhs3,20,tube well water,titre,titre,titre de groupe ; aucune observation
+nfhs3,21,tube well or borehole,hors reseau,hors reseau,inclut les pompes a main publiques (non distinguees)
+nfhs3,30,dug well (open/protected),titre,titre,titre de groupe ; aucune observation
+nfhs3,31,protected well,hors reseau,hors reseau,""
+nfhs3,32,unprotected well,hors reseau,hors reseau,""
+nfhs3,40,surface water,titre,titre,titre de groupe ; aucune observation
+nfhs3,41,protected spring,hors reseau,hors reseau,""
+nfhs3,42,unprotected spring,hors reseau,hors reseau,""
+nfhs3,43,river/dam/lake/ponds/stream/canal/irrigation channel,hors reseau,hors reseau,""
+nfhs3,51,rainwater,hors reseau,hors reseau,""
+nfhs3,61,tanker truck,hors reseau,hors reseau,camion-citerne : municipal possible (public hors reseau)
+nfhs3,62,cart with small tank,hors reseau,hors reseau,""
+nfhs3,71,bottled water,hors reseau,hors reseau,source de BOISSON : un menage raccorde qui boit de l'eau en bouteille tombe ici (cf. piste D)
+nfhs3,96,other,hors reseau,hors reseau,residuel
+nfhs4,10,piped water,titre,titre,titre de groupe ; aucune observation
+nfhs4,11,piped into dwelling,reseau,reseau,""
+nfhs4,12,piped to yard/plot,reseau,reseau,""
+nfhs4,13,public tap/standpipe,reseau,reseau,borne publique
+nfhs4,20,tube well water,titre,titre,titre de groupe ; aucune observation
+nfhs4,21,tube well or borehole,hors reseau,hors reseau,inclut les pompes a main publiques (non distinguees)
+nfhs4,30,dug well (open/protected),titre,titre,titre de groupe ; aucune observation
+nfhs4,31,protected well,hors reseau,hors reseau,""
+nfhs4,32,unprotected well,hors reseau,hors reseau,""
+nfhs4,40,surface water,titre,titre,titre de groupe ; aucune observation
+nfhs4,41,protected spring,hors reseau,hors reseau,""
+nfhs4,42,unprotected spring,hors reseau,hors reseau,""
+nfhs4,43,river/dam/lake/ponds/stream/canal/irrigation channel,hors reseau,hors reseau,""
+nfhs4,51,rainwater,hors reseau,hors reseau,""
+nfhs4,61,tanker truck,hors reseau,hors reseau,camion-citerne : municipal possible (public hors reseau)
+nfhs4,62,cart with small tank,hors reseau,hors reseau,""
+nfhs4,71,bottled water,hors reseau,hors reseau,source de BOISSON : un menage raccorde qui boit de l'eau en bouteille tombe ici (cf. piste D)
+nfhs4,72,community ro plant,hors reseau,exclu,public (ou associatif) mais hors reseau ; code nouveau en 2015-16 ; AMBIGU tranche le 06/10 par Valentine : hors reseau ; variante de robustesse : menages exclus de l'echantillon
+nfhs4,96,other,hors reseau,hors reseau,residuel
+nfhs5,10,piped water,titre,titre,titre de groupe ; aucune observation
+nfhs5,11,piped into dwelling,reseau,reseau,""
+nfhs5,12,piped to yard/plot,reseau,reseau,""
+nfhs5,13,piped to neighbor,reseau,hors reseau,eau du reseau sans raccordement propre ; code nouveau en 2019-21 ; AMBIGU tranche le 06/10 par Valentine : cote reseau ; variante de robustesse : hors reseau
+nfhs5,14,public tap/standpipe,reseau,reseau,borne publique ; code 13 aux vagues precedentes
+nfhs5,20,tube well water,titre,titre,titre de groupe ; aucune observation
+nfhs5,21,tube well or borehole,hors reseau,hors reseau,inclut les pompes a main publiques (non distinguees)
+nfhs5,30,dug well (open/protected),titre,titre,titre de groupe ; aucune observation
+nfhs5,31,protected well,hors reseau,hors reseau,""
+nfhs5,32,unprotected well,hors reseau,hors reseau,""
+nfhs5,40,surface from spring,titre,titre,titre de groupe ; aucune observation ; libelle different des vagues precedentes (surface water)
+nfhs5,41,protected spring,hors reseau,hors reseau,""
+nfhs5,42,unprotected spring,hors reseau,hors reseau,""
+nfhs5,43,river/dam/lake/ponds/stream/canal/irrigation channel,hors reseau,hors reseau,""
+nfhs5,51,rainwater,hors reseau,hors reseau,""
+nfhs5,61,tanker truck,hors reseau,hors reseau,camion-citerne : municipal possible (public hors reseau)
+nfhs5,62,cart with small tank,hors reseau,hors reseau,""
+nfhs5,71,bottled water,hors reseau,hors reseau,source de BOISSON : un menage raccorde qui boit de l'eau en bouteille tombe ici (cf. piste D)
+nfhs5,92,community ro plant,hors reseau,exclu,public (ou associatif) mais hors reseau ; code 72 en NFHS-4 ; AMBIGU tranche le 06/10 par Valentine : hors reseau ; variante de robustesse : menages exclus de l'echantillon
+nfhs5,96,other,hors reseau,hors reseau,residuel
