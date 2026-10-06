@@ -1,0 +1,128 @@
+vague,code,libelle,etat_1998,statut
+nfhs2,2,andhra pradesh,andhra pradesh,etat 1998
+nfhs2,3,assam,assam,etat 1998
+nfhs2,4,bihar,bihar,etat 1998
+nfhs2,5,goa,goa,etat 1998
+nfhs2,6,gujarat,gujarat,etat 1998
+nfhs2,7,haryana,haryana,etat 1998
+nfhs2,8,himachal pradesh,himachal pradesh,etat 1998
+nfhs2,9,jammu,jammu et cachemire,etat 1998 ; libelle « jammu » : couverture du Cachemire et du Ladakh en 1998 a verifier
+nfhs2,10,karnataka,karnataka,etat 1998
+nfhs2,11,kerala,kerala,etat 1998
+nfhs2,12,madhya pradesh,madhya pradesh,etat 1998
+nfhs2,13,maharashtra,maharashtra,etat 1998
+nfhs2,14,manipur,manipur,etat 1998
+nfhs2,15,meghalaya,meghalaya,etat 1998
+nfhs2,16,mizoram,mizoram,etat 1998
+nfhs2,17,nagaland,nagaland,etat 1998
+nfhs2,18,orissa,orissa,etat 1998
+nfhs2,19,punjab,punjab,etat 1998
+nfhs2,20,rajasthan,rajasthan,etat 1998
+nfhs2,21,sikkim,sikkim,etat 1998
+nfhs2,22,tamil nadu,tamil nadu,etat 1998
+nfhs2,23,west bengal,west bengal,etat 1998
+nfhs2,24,uttar pradesh,uttar pradesh,etat 1998
+nfhs2,30,new delhi,delhi,etat 1998 ; libelle « new delhi » = Delhi entier
+nfhs2,34,arunachalpradesh,arunachal pradesh,etat 1998
+nfhs2,35,tripura,tripura,etat 1998 ; terrain en 2000 ; nhv005 nul
+nfhs3,1,[jm] jammu and kashmir,jammu et cachemire,meme etat
+nfhs3,2,[hp] himachal pradesh,himachal pradesh,meme etat
+nfhs3,3,[pj] punjab,punjab,meme etat
+nfhs3,5,[uc] uttaranchal,uttar pradesh,scission 2000 regroupee
+nfhs3,6,[hr] haryana,haryana,meme etat
+nfhs3,7,[dl] delhi,delhi,meme etat
+nfhs3,8,[rj] rajasthan,rajasthan,meme etat
+nfhs3,9,[up] uttar pradesh,uttar pradesh,meme etat
+nfhs3,10,[bh] bihar,bihar,meme etat
+nfhs3,11,[sk] sikkim,sikkim,meme etat
+nfhs3,12,[ar] arunachal pradesh,arunachal pradesh,meme etat
+nfhs3,13,[na] nagaland,nagaland,meme etat
+nfhs3,14,[mn] manipur,manipur,meme etat
+nfhs3,15,[mz] mizoram,mizoram,meme etat
+nfhs3,16,[tr] tripura,tripura,meme etat
+nfhs3,17,[mg] meghalaya,meghalaya,meme etat
+nfhs3,18,[as] assam,assam,meme etat
+nfhs3,19,[wb] west bengal,west bengal,meme etat
+nfhs3,20,[jh] jharkhand,bihar,scission 2000 regroupee
+nfhs3,21,[or] orissa,orissa,meme etat
+nfhs3,22,[ch] chhattisgarh,madhya pradesh,scission 2000 regroupee
+nfhs3,23,[mp] madhya pradesh,madhya pradesh,meme etat
+nfhs3,24,[gj] gujarat,gujarat,meme etat
+nfhs3,27,[mh] maharashtra,maharashtra,meme etat
+nfhs3,28,[ap] andhra pradesh,andhra pradesh,meme etat
+nfhs3,29,[ka] karnataka,karnataka,meme etat
+nfhs3,30,[go] goa,goa,meme etat
+nfhs3,32,[ke] kerala,kerala,meme etat
+nfhs3,33,[tn] tamil nadu,tamil nadu,meme etat
+nfhs4,1,andaman and nicobar islands,,hors maille 1998 (UT non enquetee en 1998)
+nfhs4,2,andhra pradesh,andhra pradesh,meme etat (sans le Telangana depuis 2014)
+nfhs4,3,arunachal pradesh,arunachal pradesh,meme etat
+nfhs4,4,assam,assam,meme etat
+nfhs4,5,bihar,bihar,meme etat
+nfhs4,6,chandigarh,,hors maille 1998 (UT non enquetee en 1998)
+nfhs4,7,chhattisgarh,madhya pradesh,scission 2000 regroupee
+nfhs4,8,dadra and nagar haveli,,hors maille 1998 (UT non enquetee en 1998)
+nfhs4,9,daman and diu,,hors maille 1998 (UT non enquetee en 1998)
+nfhs4,10,goa,goa,meme etat
+nfhs4,11,gujarat,gujarat,meme etat
+nfhs4,12,haryana,haryana,meme etat
+nfhs4,13,himachal pradesh,himachal pradesh,meme etat
+nfhs4,14,jammu and kashmir,jammu et cachemire,meme etat
+nfhs4,15,jharkhand,bihar,scission 2000 regroupee
+nfhs4,16,karnataka,karnataka,meme etat
+nfhs4,17,kerala,kerala,meme etat
+nfhs4,18,lakshadweep,,hors maille 1998 (UT non enquetee en 1998)
+nfhs4,19,madhya pradesh,madhya pradesh,meme etat
+nfhs4,20,maharashtra,maharashtra,meme etat
+nfhs4,21,manipur,manipur,meme etat
+nfhs4,22,meghalaya,meghalaya,meme etat
+nfhs4,23,mizoram,mizoram,meme etat
+nfhs4,24,nagaland,nagaland,meme etat
+nfhs4,25,delhi,delhi,meme etat
+nfhs4,26,odisha,orissa,meme etat (renomme 2011)
+nfhs4,27,puducherry,,hors maille 1998 (UT non enquetee en 1998)
+nfhs4,28,punjab,punjab,meme etat
+nfhs4,29,rajasthan,rajasthan,meme etat
+nfhs4,30,sikkim,sikkim,meme etat
+nfhs4,31,tamil nadu,tamil nadu,meme etat
+nfhs4,32,tripura,tripura,meme etat
+nfhs4,33,uttar pradesh,uttar pradesh,meme etat
+nfhs4,34,uttarakhand,uttar pradesh,scission 2000 regroupee
+nfhs4,35,west bengal,west bengal,meme etat
+nfhs4,36,telangana,andhra pradesh,scission 2014 regroupee
+nfhs5,1,jammu & kashmir,jammu et cachemire,meme etat (sans le Ladakh depuis 2019)
+nfhs5,2,himachal pradesh,himachal pradesh,meme etat
+nfhs5,3,punjab,punjab,meme etat
+nfhs5,4,chandigarh,,hors maille 1998 (UT non enquetee en 1998)
+nfhs5,5,uttarakhand,uttar pradesh,scission 2000 regroupee
+nfhs5,6,haryana,haryana,meme etat
+nfhs5,7,nct of delhi,delhi,meme etat
+nfhs5,8,rajasthan,rajasthan,meme etat
+nfhs5,9,uttar pradesh,uttar pradesh,meme etat
+nfhs5,10,bihar,bihar,meme etat
+nfhs5,11,sikkim,sikkim,meme etat
+nfhs5,12,arunachal pradesh,arunachal pradesh,meme etat
+nfhs5,13,nagaland,nagaland,meme etat
+nfhs5,14,manipur,manipur,meme etat
+nfhs5,15,mizoram,mizoram,meme etat
+nfhs5,16,tripura,tripura,meme etat
+nfhs5,17,meghalaya,meghalaya,meme etat
+nfhs5,18,assam,assam,meme etat
+nfhs5,19,west bengal,west bengal,meme etat
+nfhs5,20,jharkhand,bihar,scission 2000 regroupee
+nfhs5,21,odisha,orissa,meme etat (renomme 2011)
+nfhs5,22,chhattisgarh,madhya pradesh,scission 2000 regroupee
+nfhs5,23,madhya pradesh,madhya pradesh,meme etat
+nfhs5,24,gujarat,gujarat,meme etat
+nfhs5,25,dadra & nagar haveli and daman & diu,,hors maille 1998 (UT fusionnees en 2020)
+nfhs5,27,maharashtra,maharashtra,meme etat
+nfhs5,28,andhra pradesh,andhra pradesh,meme etat (sans le Telangana depuis 2014)
+nfhs5,29,karnataka,karnataka,meme etat
+nfhs5,30,goa,goa,meme etat
+nfhs5,31,lakshadweep,,hors maille 1998 (UT non enquetee en 1998)
+nfhs5,32,kerala,kerala,meme etat
+nfhs5,33,tamil nadu,tamil nadu,meme etat
+nfhs5,34,puducherry,,hors maille 1998 (UT non enquetee en 1998)
+nfhs5,35,andaman & nicobar islands,,hors maille 1998 (UT non enquetee en 1998)
+nfhs5,36,telangana,andhra pradesh,scission 2014 regroupee
+nfhs5,37,ladakh,jammu et cachemire,scission 2019 regroupee
