@@ -1,12 +1,14 @@
 ==============================================================================
 LOG: output/logs/27_piste_c_hv201_reseau_controle.log
-Run started: 2026-10-06 10:53:38
+Run started: 2026-10-06 10:59:20
 ==============================================================================
 
 ETAPE 27 -- PISTE C : CONTROLE DE LA TABLE RESEAU / HORS RESEAU (hv201)
-  [OK]   table de reference: all 5 named variables present
+  [OK]   table de reference: all 6 named variables present
   [OK]   R1 table de reference: key (vague+code) unique
-  [OK]   R1 cote dans {reseau, hors reseau, AMBIGU, titre}
+  [OK]   R1 cote dans {reseau, hors reseau, titre} (plus d'AMBIGU)
+  [OK]   R1 cote_variante dans {reseau, hors reseau, exclu, titre}
+  [OK]   R1 variante differente de cote seulement pour NFHS-5 13, NFHS-4 72, NFHS-5 92
   [OK]   table de reference : quatre vagues
 
 ------------------------------------------------------------------------------
@@ -16,7 +18,7 @@ nfhs2
   [OK]   R2 nfhs2 : 18 codes etiquetes = table, libelles exacts
   [OK]   R3 nfhs2 : codes observes non etiquetes = connus (aucun)
   [OK]   R4 nfhs2 : codes titre sans observation
-nfhs2 : reseau = 11, 12 ; AMBIGU = aucun ; hors reseau = 21, 22, 23, 24, 25, 26, 31, 32, 33, 34, 41, 51, 96
+nfhs2 : reseau = 11, 12 ; variante = aucune ; hors reseau = 21, 22, 23, 24, 25, 26, 31, 32, 33, 34, 41, 51, 96
 
 ------------------------------------------------------------------------------
 nfhs3
@@ -25,7 +27,7 @@ nfhs3
   [OK]   R2 nfhs3 : 18 codes etiquetes = table, libelles exacts
   [OK]   R3 nfhs3 : codes observes non etiquetes = connus (99)
   [OK]   R4 nfhs3 : codes titre sans observation
-nfhs3 : reseau = 11, 12, 13 ; AMBIGU = aucun ; hors reseau = 21, 31, 32, 41, 42, 43, 51, 61, 62, 71, 96
+nfhs3 : reseau = 11, 12, 13 ; variante = aucune ; hors reseau = 21, 31, 32, 41, 42, 43, 51, 61, 62, 71, 96
 
 ------------------------------------------------------------------------------
 nfhs4
@@ -34,7 +36,7 @@ nfhs4
   [OK]   R2 nfhs4 : 19 codes etiquetes = table, libelles exacts
   [OK]   R3 nfhs4 : codes observes non etiquetes = connus (aucun)
   [OK]   R4 nfhs4 : codes titre sans observation
-nfhs4 : reseau = 11, 12, 13 ; AMBIGU = 72 ; hors reseau = 21, 31, 32, 41, 42, 43, 51, 61, 62, 71, 96
+nfhs4 : reseau = 11, 12, 13 ; variante = 72 -> exclu ; hors reseau = 21, 31, 32, 41, 42, 43, 51, 61, 62, 71, 72, 96
 
 ------------------------------------------------------------------------------
 nfhs5
@@ -43,6 +45,6 @@ nfhs5
   [OK]   R2 nfhs5 : 20 codes etiquetes = table, libelles exacts
   [OK]   R3 nfhs5 : codes observes non etiquetes = connus (aucun)
   [OK]   R4 nfhs5 : codes titre sans observation
-nfhs5 : reseau = 11, 12, 14 ; AMBIGU = 13, 92 ; hors reseau = 21, 31, 32, 41, 42, 43, 51, 61, 62, 71, 96
+nfhs5 : reseau = 11, 12, 13, 14 ; variante = 13 -> hors reseau, 92 -> exclu ; hors reseau = 21, 31, 32, 41, 42, 43, 51, 61, 62, 71, 92, 96
 
-Run finished: 2026-10-06 10:53:41
+Run finished: 2026-10-06 10:59:25
