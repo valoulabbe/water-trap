@@ -132,6 +132,9 @@ pli_dep <- data.table(sdo_feeder_code = dep,
                       pli = sample(rep_len(seq_len(N_PLIS), length(dep))))
 dat <- merge(dat, pli_dep, by = "sdo_feeder_code")
 setorder(dat, f_id)
+# exportes pour la variante LASSO (code/30_piste_a_prime_lasso.py), qui doit
+# reprendre exactement ces plis
+fwrite(pli_dep, p_build("29_plis_departs.csv"))
 
 demean <- function(M, g) M - apply(M, 2, function(v) ave(v, g))
 

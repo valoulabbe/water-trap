@@ -1,0 +1,2 @@
+n_agriculteurs,n_departs,n_candidats,r2cv_controles,r2cv_lasso_controles,gain_r2cv,seuil_gain,n_retenus_min,n_retenus_max,n_retenus_tout,f_partiel_tout,verdict
+4006,304,341,-0.0003444051130572223,0.10897569254584372,0.10932009765890094,0.05,9,13,10,28.53542497637006,PASSE

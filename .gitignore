@@ -12,3 +12,5 @@ renv/staging/
 
 # système
 .DS_Store
+# Python
+__pycache__/

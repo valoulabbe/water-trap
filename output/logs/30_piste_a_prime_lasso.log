@@ -1,0 +1,84 @@
+==============================================================================
+LOG: output\logs\30_piste_a_prime_lasso.log
+Run started: 2026-10-06 17:15:18
+python 3.11.9 ; numpy 2.2.2 ; pandas 2.3.3 ; scipy 1.15.2 ; scikit-learn 1.7.2
+==============================================================================
+ETAPE 30 -- PISTE A'-L : SELECTION LASSO DES AUTEURS, PREMIER STAGE HORS ECHANTILLON
+Critere fixe avant estimation : memo/piste_a_prime_lasso_critere.md
+  gain de R2 hors echantillon (plis de A', selection refaite par pli) >= 0.05
+Aucun second stage, aucune variable de resultat.
+
+------------------------------------------------------------------------------
+30a. Echantillon (etape 1)
+------------------------------------------------------------------------------
+  [OK]   plis de A' presents (build\29_plis_departs.csv)
+[2026-10-06 17:15:18] etape 1/1 echantillon : deja fait, relu depuis build\30_echantillon.pkl
+  [OK]   echantillon identique a A' : N = 4006
+  [OK]   memes 304 departs que A'
+  [OK]   chaque agriculteur a un pli
+
+------------------------------------------------------------------------------
+30b. Porte
+------------------------------------------------------------------------------
+  [OK]   candidats, fractures : 3 colonnes
+  [OK]   candidats, parts de roche : 65 colonnes
+  [OK]   candidats, types de roche : 65 colonnes
+  [OK]   candidats, aquiferes : 20 colonnes
+  [OK]   candidats, carres des fractures : 3 colonnes
+  [OK]   candidats, carres des parts : 65 colonnes
+  [OK]   candidats, fractures x fractures : 3 colonnes
+  [OK]   candidats, fractures x parts : 195 colonnes
+  candidats non constants : 341 / 419
+[2026-10-06 17:15:19] validation croisee, ponderations groupees par depart
+  R2 hors echantillon (intra-SDO) : controles seuls -0.000 ; post-lasso + controles 0.109
+  gain : 0.109  (seuil 0.05) -> PASSE
+  instruments retenus par pli : [11, 12, 10, 12, 9, 10, 10, 9, 11, 13]
+
+------------------------------------------------------------------------------
+30c. Rapporte a cote du verdict (hors critere)
+------------------------------------------------------------------------------
+[2026-10-06 17:15:26] selection sur tout l'echantillon
+  retenus sur tout l'echantillon (10) : rock_area_6 rock_area_14 aquifer_type_4 rock_area2_4 rock_area2_10 ltot1km_area1119 ltot5km_area1115 dist2fault_area116 dist2fault_area1116 dist2fault_area1125
+  liste des auteurs (13) : rock_area_1 rock_area_4 rock_area_6 rock_area_15 rock_area_20 rock_type_34 rock_area2_4 rock_area2_10 ltot5km_area115 ltot5km_area1115 dist2fault_area112 dist2fault_area1114 aquifer_type_4
+  en commun : 5 : aquifer_type_4 ltot5km_area1115 rock_area2_10 rock_area2_4 rock_area_6
+  F partiel post-lasso (groupe par depart) : 28.54  (q = 10, 304 departs)
+  frequence de selection sur les 10 plis :
+         instrument  plis_sur_10  tout_echantillon  liste_auteurs
+        rock_area_6           10              True           True
+      rock_area2_10           10              True           True
+     aquifer_type_4           10              True           True
+dist2fault_area1116           10              True          False
+       rock_area_14            9              True          False
+        rock_area_4            8             False           True
+   ltot1km_area1119            8              True          False
+ dist2fault_area116            7              True          False
+dist2fault_area1125            7              True          False
+   ltot5km_area1115            6              True           True
+       rock_area_15            6             False           True
+   ltot5km_area1119            4             False          False
+       rock_area2_4            3              True           True
+dist2fault_area1146            2             False          False
+       rock_area_10            2             False          False
+       rock_area_20            2             False           True
+    ltot5km_area116            1             False          False
+       rock_type_55            1             False          False
+      rock_area2_20            1             False          False
+[2026-10-06 17:15:27] variante : ponderations heteroscedastiques
+[2026-10-06 17:15:37] variante : un pli par SDO
+[2026-10-06 17:15:39] variante : liste fixe choisie sur tout l'echantillon (fuit)
+[2026-10-06 17:15:39] variante : liste des auteurs, fixe
+                                         variante  r2cv_controles  r2cv_lasso_controles  gain
+                               principal (rappel)          -0.000                 0.109 0.109
+                  ponderations heteroscedastiques          -0.000                 0.114 0.115
+                          un pli par SDO (6 plis)          -0.005                 0.020 0.026
+naif : liste fixe, choisie sur tout l'echantillon          -0.000                 0.111 0.112
+                          liste des auteurs, fixe          -0.000                 0.118 0.118
+
+------------------------------------------------------------------------------
+30d. Verdict
+------------------------------------------------------------------------------
+Gain de R2 hors echantillon 0.109 >= 0.05 : rempli
+VERDICT DE LA PORTE A'-L : PASSE
+Rappel : passer A'-L ne rouvre pas la piste A (portes B et C restent).
+
+Run finished: 2026-10-06 17:15:39
