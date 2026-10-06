@@ -29,6 +29,13 @@
 #       un seul Etat de 2011 (decoupage en districts entiers).
 #       Les AUTRES transferts entre Etats 1991 -> 2011 ne sont pas une
 #       attente : ils sont listes comme constats (discontinuites a signaler).
+#       DECISION DE VALENTINE (06/10, apres le premier passage) : les cles
+#       SHRUG shrid -> district ne sont pas uniques (30 shrids en 1991, 108 en
+#       2011, tous rattaches a plusieurs districts d'un MEME Etat). Option (a) :
+#       le controle d'unicite est remplace par « aucun shrid en double ne relie
+#       deux Etats » (arret dur sinon) et toutes les lignes sont gardees. Le
+#       poids de ces cas est consigne en MENAGES (PCA 1991 / 2011 au shrid),
+#       pas en shrids : aucun seuil, constat seulement.
 #   E3  Scissions de 2014 et 2019 (districts NFHS-4/5 de code <= 640 =
 #       districts du recensement 2011, cf. script 26) : dans chaque vague,
 #       un code de district appartient a un seul Etat NFHS ; chaque Etat
@@ -92,6 +99,8 @@ F_K91 <- p_raw("shrug", "shrug-pc-keys-dta", "shrid_pc91dist_key.dta")
 F_K11 <- p_raw("shrug", "shrug-pc-keys-dta", "shrid_pc11dist_key.dta")
 F_NOMS <- p_raw("shrug", "shrug-shrid-keys-dta", "shrid_loc_names.dta")
 F_D11 <- p_raw("shrug", "shrug-pc11dist-poly-gpkg", "district.gpkg")
+F_P91 <- p_raw("shrug", "shrug-pca91-dta", "pc91_pca_clean_shrid.dta")
+F_P11 <- p_raw("shrug", "shrug-pca11-dta", "pc11_pca_clean_shrid.dta")
 
 N_MIN <- 300L; G_MIN <- 15L; ETATS_MIN <- 20L
 SCISSIONS_2000 <- list(c("bihar", "jharkhand"), c("madhya pradesh", "chhattisgarh"),
@@ -164,8 +173,38 @@ hr("A3. Scissions de 2000 et autres transferts 1991 -> 2011 (SHRUG) (E2)")
 k91 <- as.data.table(haven::read_dta(F_K91))
 k11 <- as.data.table(haven::read_dta(F_K11))
 noms <- as.data.table(haven::read_dta(F_NOMS, col_select = c("shrid2", "state_name")))
-check_unique(k91, "shrid2", "shrid_pc91dist_key"); check_unique(k11, "shrid2", "shrid_pc11dist_key")
-kk <- merge(k91, k11, by = "shrid2")
+# Doublons des cles shrid -> district (decision (a) du 06/10) : aucun ne doit
+# relier deux Etats ; leur poids est consigne en menages (PCA au shrid).
+poids_doublons <- function(k, id_etat, id_dist, f_pca, var_hh, annee) {
+  dup <- k[shrid2 %in% k[duplicated(shrid2), shrid2]]
+  s <- dup[, .(lignes = .N, etats = uniqueN(get(id_etat)), districts = uniqueN(get(id_dist)),
+               etat = get(id_etat)[1]), by = shrid2]
+  check(all(s$etats == 1L), sprintf("doublons de la cle %s : aucun shrid ne relie deux Etats (%d shrids, %d lignes)",
+                                    annee, nrow(s), nrow(dup)))
+  p <- as.data.table(haven::read_dta(f_pca, col_select = tidyselect::all_of(c("shrid2", var_hh))))
+  check_unique(p, "shrid2", paste("PCA", annee, "au shrid"))
+  setnames(p, var_hh, "hh")
+  p[, hh := as.numeric(hh)]
+  et <- merge(k[!duplicated(shrid2), .(shrid2, etat = get(id_etat))], p, by = "shrid2", all.x = TRUE)
+  tot_etat <- et[, .(hh_etat = sum(hh, na.rm = TRUE)), by = etat]
+  s <- merge(s, p, by = "shrid2", all.x = TRUE)
+  par_etat <- merge(s[, .(shrids = .N, hh = sum(hh, na.rm = TRUE), sans_pca = sum(is.na(hh))), by = etat],
+                    tot_etat, by = "etat")[, part_etat := hh / hh_etat]
+  hh_dup <- sum(s$hh, na.rm = TRUE); hh_tot <- sum(tot_etat$hh_etat)
+  msg("Cle ", annee, " : ", nrow(s), " shrids en double ; menages concernes (PCA ", annee, ") = ",
+      format(hh_dup, big.mark = " "), " sur ", format(hh_tot, big.mark = " "),
+      sprintf(" (%.3f %%)", 100 * hh_dup / hh_tot), " ; shrids sans PCA : ", sum(is.na(s$hh)),
+      " ; plus gros shrid : ", format(max(s$hh, na.rm = TRUE), big.mark = " "), " menages")
+  print(par_etat[order(-hh), .(etat_recensement = etat, shrids, menages = hh, sans_pca,
+                               part_menages_etat = sprintf("%.3f %%", 100 * part_etat))], row.names = FALSE)
+  s[, .(cle = annee, shrid2, etat_recensement = etat, lignes, districts, menages_pca = hh)]
+}
+doublons <- rbind(poids_doublons(k91, "pc91_state_id", "pc91_district_id", F_P91, "pc91_pca_no_hh", "1991"),
+                  poids_doublons(k11, "pc11_state_id", "pc11_district_id", F_P11, "pc11_pca_no_hh", "2011"))
+fwrite(doublons, p_tab("28_A_shrug_doublons_menages.csv"))
+msg("Toutes les lignes sont gardees (decision (a)) : un shrid en double compte dans chacun de ses")
+msg("districts ; au niveau Etat il ne change rien, puisqu'il reste dans un seul Etat.")
+kk <- merge(k91, k11, by = "shrid2", allow.cartesian = TRUE)
 msg("shrids : pc91 ", nrow(k91), " ; pc11 ", nrow(k11), " ; presents dans les deux ", nrow(kk),
     " (", round(100 * nrow(kk) / nrow(k91), 1), " % des shrids pc91)")
 nom11 <- merge(k11[, .(shrid2, pc11_state_id)], noms, by = "shrid2")[
