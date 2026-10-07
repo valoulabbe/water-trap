@@ -40,6 +40,28 @@ Fichiers décompressés dans un dossier au nom de chaque zip ; zip d'origine con
 | geology/ngdr/NGDR_Geology_2M.parquet | Carte géologique de l'Inde au 1:2M, 4 531 polygones (GeoParquet 1.1, WKB, EPSG:4326) : unité stratigraphique, âge, super-groupe, groupe. Pas de type de roche ni de classe d'aquifère | GSI / National Geoscience Data Repository (geodataindia.gov.in), republié par ramSeraph/indian_land_features, release `geology` (2025-02-13) ; rangé par le republieur sous « not-so-open » ; licence annoncée « CC0 1.0, attribuer DataMeet et la source gouvernementale » | 2026-09-23 | 8BBEC03D2F0A3898648B3E95F4EF967F51F889395A29D6EA11748420973E6526 |
 | geology/ngdr/NGDR_Geology_2M.geojsonl.7z | Même couche en GeoJSONSeq compressé. **Inutilisable ici** : l'extraction par tar (Windows) échoue (PPMd) et produit un fichier corrompu ; GDAL local sans /vsi7z/. Conservé pour provenance ; lire le .parquet | idem | 2026-09-23 | 98C84FA8EF98CB7676334ED687FCEC76AF293BB469FD0F4F0AA9AEFF97631650 |
 
+## Géologie fine — lithologie, linéaments, Groundwater Prospects
+Source commune : republication en GeoParquet par ramSeraph/indian_land_features
+(GitHub), releases `geology` (2025-02-13), `geomorphology` (2025-01-09 et
+2025-02-13) et `groundwater-prospects` (2025-02-20) ; fichiers .parquet mis à
+jour par le republieur le 2026-03-09. Rangé sous « not-so-open » ; licence
+annoncée « CC0 1.0, attribuer DataMeet et la source gouvernementale ». Lecture :
+`arrow` (GDAL local sans pilote Parquet), filtre sur la colonne `bbox`
+(struct xmin, ymin, xmax, ymax). Inventaire et réserves :
+`memo/piste_a_porte_b_donnees.md`.
+
+| Fichier | Contenu | Source gouvernementale | Téléchargé le | SHA256 |
+| --- | --- | --- | --- | --- |
+| geology/ngdr/NGDR_Lithology_50k.parquet | Lithologie GSI au 1:50k, 3 966 842 polygones, Inde entière : `lithologic`, `formation`, `group_name`, `supergroup`, `age`, `toposheet_` | NGDR (geodataindia.gov.in) | 2026-10-07 | 8DF26351E08332E23612DBCDBF92301116A0EC09306BB7B5897B2AF978B98ED7 |
+| geology/ngdr/NGDR_Lineament_250k.parquet | Linéaments au 1:250k, 35 330 lignes : `l1descript`, `l2descript` | NGDR | 2026-10-07 | E5FF280228B243AA4949D65B3C34B016A2FCA3D63437CC1BDC6DA7081FA04138 |
+| geology/bhuvan/Bhuvan_Lineament_50k_0506.parquet | Linéaments au 1:50k (2005-06), 236 334 lignes : `Des` (type, ex. « Structural Lineaments-Joint/Fracture »), `Level1`, `Level2`, `st_code` | NRSC Bhuvan | 2026-10-07 | 2D208A28A5B755E2FC21290594C753C745FBE8C43665E02A989B4104B9B9A944 |
+| geology/bhuvan/Bhuvan_Groundwater_Prospects_STRU.parquet | Groundwater Prospects, structures (linéaments), 859 695 lignes, schéma hétérogène selon l'État | NRSC Bhuvan Bhujal (RGNDWM) | 2026-10-07 | 6EDDA6A0BFC66F25BC55CD9F3CF3828E1F361BE701DA6C47DA69D65CCFECD620 |
+| geology/bhuvan/Bhuvan_Groundwater_Prospects_LGEOM.00.parquet | Groundwater Prospects, lithologie × géomorphologie au 1:50k, partie ouest (70,9–81,6° E), 408 657 polygones, 141 colonnes hétérogènes selon l'État | NRSC Bhuvan Bhujal (RGNDWM) | 2026-10-07 | AA5290439E38A2FFCE2E31B311773331427A2CC632340611AEBCDE7A41721321 |
+| geology/bhuvan/Bhuvan_Groundwater_Prospects_LGEOM.01.parquet | Idem, partie est (79,7–97,4° E) | NRSC Bhuvan Bhujal (RGNDWM) | 2026-10-07 | 15514DCF07E7394AC8EC3E03247BB6065FDCF83734232AE49BB824380553E022 |
+
+Réserve : les Groundwater Prospects ont été produits pour localiser les sources
+**publiques** d'eau potable (ARWSP/RGNDWM) ; voir le mémo cité.
+
 ## Terrain — CartoDEM v3r1 (1 seconde d'arc, ~30 m)
 Source : NRSC/ISRO Bhuvan, dérivé en COG par ramSeraph/indian_land_features, release `cartodem-30m-v3r1` ; licence annoncée « CC0 1.0, attribuer DataMeet et la source gouvernementale ». Seules les 34 tuiles de 1° × 1° contenant un puits de l'échantillon de l'étape 10 (socle de l'AP) sont téléchargées. Nom de tuile : `cdn` + bande de 4° de latitude (c = 8–12° N, d = 12–16°, e = 16–20°) + zone UTM (43 = 72–78° E, 44 = 78–84°) + case a–x (six par ligne, du nord au sud). Téléchargé le 2026-09-24. SHA256 par fichier :
 
