@@ -1,0 +1,86 @@
+==============================================================================
+LOG: output\logs\31_piste_a_prime_lasso_c4.log
+Run started: 2026-10-07 11:52:20
+python 3.11.9 ; numpy 2.2.2 ; pandas 2.3.3 ; scipy 1.15.2 ; scikit-learn 1.7.2
+==============================================================================
+ETAPE 31 -- PISTE A'-L-C4 : LE PREMIER STAGE PUBLIE (C4) TIENT-IL HORS ECHANTILLON ?
+Critere fixe avant estimation : memo/piste_a_prime_lasso_c4_critere.md
+  gain de R2 hors echantillon (plis de A', selection refaite par pli) >= 0.05
+Aucun second stage, aucune variable de resultat.
+
+------------------------------------------------------------------------------
+31a. Echantillon de C4 (etape 1)
+------------------------------------------------------------------------------
+  [OK]   plis de A' presents (build\29_plis_departs.csv)
+[2026-10-07 11:52:20] etape 1/1 echantillon : deja fait, relu depuis build\31_echantillon.pkl
+  [OK]   lignes == 8973 (C4)
+  [OK]   agriculteurs == 3999 (C4)
+  [OK]   controles non constants == 28 (C4)
+  [OK]   chaque ligne a un pli de A'
+  8973 lignes, 3999 agriculteurs, 304 departs, 6 SDO
+
+------------------------------------------------------------------------------
+31b. Porte
+------------------------------------------------------------------------------
+  [OK]   candidats, fractures : 3 colonnes
+  [OK]   candidats, parts de roche : 65 colonnes
+  [OK]   candidats, types de roche : 65 colonnes
+  [OK]   candidats, aquiferes : 20 colonnes
+  [OK]   candidats, carres des fractures : 3 colonnes
+  [OK]   candidats, carres des parts : 65 colonnes
+  [OK]   candidats, fractures x fractures : 3 colonnes
+  [OK]   candidats, fractures x parts : 195 colonnes
+  candidats non constants : 341 / 419
+[2026-10-07 11:52:21] validation croisee, ponderations groupees par depart
+  R2 hors echantillon (intra-SDO, lignes) : controles seuls -0.010 ; post-lasso + controles 0.062
+  gain : 0.072  (seuil 0.05) -> PASSE
+  instruments retenus par pli : [10, 10, 4, 11, 9, 9, 9, 9, 10, 10]
+
+------------------------------------------------------------------------------
+31c. Rapporte a cote du verdict (hors critere)
+------------------------------------------------------------------------------
+  R2 par agriculteur : controles -0.010 ; post-lasso 0.079 ; gain 0.089
+[2026-10-07 11:52:40] selection sur tout l'echantillon
+  retenus sur tout l'echantillon (9) : rock_area_4 rock_area_6 rock_area_14 rock_area_15 aquifer_type_4 rock_area2_10 ltot1km_area1119 dist2fault_area116 dist2fault_area1116
+  liste publiee C4 (16) : rock_area_1 rock_area_4 rock_area_6 rock_area_15 rock_area_20 aquifer_type_4 rock_area2_4 rock_area2_10 ltot5km_area119 ltot5km_area1115 ltot5km_area1130 dist2fault_area112 dist2fault_area116 dist2fault_area1114 dist2fault_area1120 dist2fault_area1146
+  en commun : 6 / 16 : aquifer_type_4 dist2fault_area116 rock_area2_10 rock_area_15 rock_area_4 rock_area_6
+  [SIGNALE] recouvrement < 8 : l'implementation differe de lassopack sur l'echantillon des auteurs
+  [OK]   les 16 instruments publies sont parmi les candidats
+  notre selection : F i.i.d. 114.48 ; F groupe par depart 27.10 (q = 9)
+  liste publiee de 16 : F i.i.d. 86.81 (publie : 86.82) ; F groupe par depart 18.29
+  frequence de selection sur les 10 plis :
+         instrument  plis_sur_10  tout_echantillon  liste_c4
+ dist2fault_area116           10              True      True
+     aquifer_type_4            9              True      True
+   ltot1km_area1119            9              True     False
+      rock_area2_10            9              True      True
+dist2fault_area1116            9              True     False
+        rock_area_6            9              True      True
+       rock_area_15            8              True      True
+       rock_area_14            8              True     False
+        rock_area_4            7              True      True
+       rock_area2_4            4             False      True
+   ltot5km_area1115            2             False      True
+dist2fault_area1125            2             False     False
+      rock_area2_14            2             False     False
+    ltot5km_area116            1             False     False
+   ltot5km_area1119            1             False     False
+dist2fault_area1114            1             False      True
+[2026-10-07 11:52:42] variante : un pli par SDO
+[2026-10-07 11:52:48] variante : liste publiee de 16, fixe
+[2026-10-07 11:52:48] variante : sans deciles de terre
+                   variante  r2cv_controles  r2cv_lasso_controles   gain
+         principal (rappel)          -0.010                 0.062  0.072
+         R2 par agriculteur          -0.010                 0.079  0.089
+    un pli par SDO (6 plis)          -0.026                -0.029 -0.004
+liste publiee C4 (16), fixe          -0.010                 0.109  0.120
+      sans deciles de terre          -0.006                 0.068  0.074
+
+------------------------------------------------------------------------------
+31d. Verdict
+------------------------------------------------------------------------------
+Gain de R2 hors echantillon 0.072 >= 0.05 : rempli
+VERDICT DE LA PORTE A'-L-C4 : PASSE
+Rappel : les portes B et C restent la question pour la piste A.
+
+Run finished: 2026-10-07 11:53:08

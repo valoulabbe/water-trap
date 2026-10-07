@@ -1,0 +1,17 @@
+instrument,plis_sur_10,tout_echantillon,liste_c4
+dist2fault_area116,10,True,True
+aquifer_type_4,9,True,True
+ltot1km_area1119,9,True,False
+rock_area2_10,9,True,True
+dist2fault_area1116,9,True,False
+rock_area_6,9,True,True
+rock_area_15,8,True,True
+rock_area_14,8,True,False
+rock_area_4,7,True,True
+rock_area2_4,4,False,True
+ltot5km_area1115,2,False,True
+dist2fault_area1125,2,False,False
+rock_area2_14,2,False,False
+ltot5km_area116,1,False,False
+ltot5km_area1119,1,False,False
+dist2fault_area1114,1,False,True
