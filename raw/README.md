@@ -59,6 +59,8 @@ annoncée « CC0 1.0, attribuer DataMeet et la source gouvernementale ». Lectur
 | geology/bhuvan/Bhuvan_Groundwater_Prospects_LGEOM.00.parquet | Groundwater Prospects, lithologie × géomorphologie au 1:50k, partie ouest (70,9–81,6° E), 408 657 polygones, 141 colonnes hétérogènes selon l'État | NRSC Bhuvan Bhujal (RGNDWM) | 2026-10-07 | AA5290439E38A2FFCE2E31B311773331427A2CC632340611AEBCDE7A41721321 |
 | geology/bhuvan/Bhuvan_Groundwater_Prospects_LGEOM.01.parquet | Idem, partie est (79,7–97,4° E) | NRSC Bhuvan Bhujal (RGNDWM) | 2026-10-07 | 15514DCF07E7394AC8EC3E03247BB6065FDCF83734232AE49BB824380553E022 |
 
+**Doublons du republieur (constat du 2026-10-07)** : la lithologie au 1:50k porte chacun de ses 360 622 polygones exactement 11 fois (même `gid`, même géométrie) ; les linéaments ont 802 géométries en double au 1:50k (0,3 %) et 372 au 1:250k (1 %). Le script 32 retire les géométries identiques à la lecture.
+
 Réserve : les Groundwater Prospects ont été produits pour localiser les sources
 **publiques** d'eau potable (ARWSP/RGNDWM) ; voir le mémo cité.
 

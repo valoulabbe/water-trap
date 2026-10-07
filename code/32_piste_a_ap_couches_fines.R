@@ -96,6 +96,14 @@ lire <- function(files, cols = NULL) {
   q <- ds |> filter(bbox$xmax >= x0, bbox$xmin <= x1, bbox$ymax >= y0, bbox$ymin <= y1)
   q <- if (is.null(cols)) select(q, -bbox) else select(q, all_of(c(cols, "geometry")))
   x <- collect(q)
+  # Doublons du republieur (constat du 07/10) : la lithologie 1:50k porte
+  # chaque `gid` exactement 11 fois ; les lineaments ont quelques geometries
+  # en double (0,3 % au 1:50k, 1 % au 1:250k). On retire les lignes dont la
+  # geometrie est identique octet pour octet a une ligne deja vue.
+  n0 <- nrow(x)
+  x <- x[!duplicated(lapply(x$geometry, as.raw)), ]
+  tmsg("    doublons de geometrie retires : ", format(n0 - nrow(x), big.mark = ","),
+       " (", format(n0, big.mark = ","), " -> ", format(nrow(x), big.mark = ","), ")")
   g <- st_as_sfc(structure(lapply(x$geometry, as.raw), class = "WKB"), crs = 4326)
   x$geometry <- NULL
   st_transform(st_sf(as.data.frame(x), geometry = g), LAEA)
@@ -165,8 +173,11 @@ classe_point <- function(poly, lab) {
   j <- st_join(puits[, "WLCODE"], poly[, "classe"], join = st_intersects, left = TRUE)
   j <- as.data.table(st_drop_geometry(j))
   n_mult <- j[, .N, by = WLCODE][N > 1, .N]
-  msg(sprintf("    %s : puits dans plusieurs polygones %d (premier garde), hors couche %d",
-              lab, n_mult, j[is.na(classe), uniqueN(WLCODE)]))
+  n_conf <- j[!is.na(classe), uniqueN(classe), by = WLCODE][V1 > 1, .N]
+  msg(sprintf("    %s : puits dans plusieurs polygones %d, dont de classes differentes %d ; hors couche %d",
+              lab, n_mult, n_conf, j[is.na(classe), uniqueN(WLCODE)]))
+  check(n_conf == 0, sprintf("%s : aucun puits dans des polygones de classes differentes", lab),
+        sprintf("%d puits en conflit", n_conf))
   j <- j[!duplicated(WLCODE)]
   j[is.na(classe), classe := "(hors couche)"]
   j
@@ -187,6 +198,12 @@ parts <- function(poly, garde, prefixe) {
     out <- merge(out, w, by = "WLCODE", all.x = TRUE)
   }
   for (v in setdiff(names(out), "WLCODE")) set(out, which(is.na(out[[v]])), v, 0)
+  for (r in RAYONS) {
+    cols <- grep(sprintf("^%s_s%d_", prefixe, r / 1000), names(out), value = TRUE)
+    smax <- if (length(cols)) max(rowSums(out[, ..cols])) else 0
+    check(smax <= 1.001, sprintf("%s : somme des parts a %d km <= 1 (max %.3f)", prefixe, r / 1000, smax),
+          "surfaces comptees plusieurs fois : polygones superposes ou dupliques")
+  }
   out
 }
 

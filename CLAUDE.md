@@ -175,6 +175,9 @@ disabled behind `RD_LEGACY <- FALSE`; the well→village link stays active.
   `github.com/ramSeraph/indian_land_features` as GeoParquet; inventory and
   caveats in `memo/piste_a_porte_b_donnees.md`. The Groundwater Prospects were
   made to site PUBLIC drinking-water sources: an exclusion threat in itself.
+  **The republished lithology 1:50k holds every polygon exactly 11 times**
+  (360,622 unique `gid`, 3,966,842 rows); lineaments have ~0.3–1 % duplicate
+  geometries. Deduplicate on read (done in `code/32_*.R`).
 
 ## Style for outputs
 - Code comments and log messages in French, matching the existing scripts.
