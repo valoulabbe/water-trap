@@ -29,10 +29,11 @@ Fichiers décompressés dans un dossier au nom de chaque zip ; zip d'origine con
 | 113902-V1.zip | Réplication Sekhri (2014), AEJ: Applied 6(3) | openICPSR projet 113902, V1 | 2026-09-18 | 2AC1D9D3EF1E8624ADB7858E8E1B24F73326A88EAA62930022FFB3010B17641A |
 | 113803-V1.zip | Réplication Sekhri (2011), AEJ: Applied 3(4) — code et Readme uniquement, aucune donnée | openICPSR projet 113803, V1 | 2026-09-18 | B99D959198E664CF813197886BEE036C22D16BA9C88327717B2DA48224624ECE |
 
-   ## CGWB — puits d'observation
-   | Fichier | Contenu | Source | Téléchargé le | SHA256 |
-   | --- | --- | --- | --- | --- |
-   | CGWB_data_wide.csv | 28 076 puits, niveaux trimestriels mai 1996–janv. 2017, lat/lon | github.com/craigdsouza/cgwb (données CGWB obtenues par mail par T. Hora, U. Waterloo ; copie non officielle, sans licence) | 2026-09-18 | 9C229185FB0153CBF0074CA65842622724866089097F33F3E8E64AC4FD65C14D |
+## CGWB — puits d'observation
+| Fichier | Contenu | Source | Téléchargé le | SHA256 |
+| --- | --- | --- | --- | --- |
+| CGWB_data_wide.csv | 28 076 puits, niveaux trimestriels mai 1996–janv. 2017, lat/lon | github.com/craigdsouza/cgwb (données CGWB obtenues par mail par T. Hora, U. Waterloo ; copie non officielle, sans licence) | 2026-09-18 | 9C229185FB0153CBF0074CA65842622724866089097F33F3E8E64AC4FD65C14D |
+
 ## Géologie — carte GSI 1:2M (NGDR)
 | Fichier | Contenu | Source | Téléchargé le | SHA256 |
 | --- | --- | --- | --- | --- |
@@ -206,3 +207,24 @@ libre, avec fautes de frappe.
 | …/data/work/mean_init_conditions.txt | Conditions initiales | 2026-10-06 | 59FEB4B2842BEA54782AA52DA2D655FC25DFF619032476BF2286C0AAF023DEAE |
 | …/data/work/sdo_initial_conditions.txt | Conditions initiales par SDO | 2026-10-06 | 17CF70198C2126AD42261678007D0AF19491CB40135FF8454BF30AE6522600EB |
 | …/data/farmer_survey/clean/baseline_survey_farmer_crop_with_imputed_variables.dta | Enquête nettoyée, agriculteur × culture | 2026-10-06 | 4EC9A511CDB6D79AA2A7CE952A9E9AF99CCC66372BA4E6E1A40B88F3EDED1C1E |
+
+## Topalova (2010) — paquet de réplication
+Source : openICPSR, projet 113765, V1 (Topalova, P. 2010, « Factor Immobility and
+Regional Impacts of Trade Liberalization: Evidence on Poverty from India »,
+*AEJ: Applied* 2(4)). Conditions : `113765-V1/LICENSE.txt`. Zip décompressé sur
+place, zip d'origine conservé. Contenu : `_data/` (tarifs par article WPI
+1987-2002, sans HS6 ; données rurales, urbaines, salaires agricoles, ASI,
+prix, migration), `Tables.do`, `Readme.pdf`.
+
+| Fichier | Téléchargé le | SHA256 |
+| --- | --- | --- |
+| topalova2010/113765-V1.zip | 2026-10-02 | 2C75031A4341DBC0083490F3D3E9C63FA13F58293504420F2CA6B90815C265F4 |
+
+## UN Comtrade — importations de l'Inde, 1988-2000
+13 fichiers `comtrade/ind_M_<année>.json`, téléchargés le 2026-10-02. Les
+SHA256 par fichier sont dans `comtrade/SHA256SUMS.txt`. La requête exacte (URL,
+classification, filtres) n'a pas été consignée : à compléter.
+
+## DHS — Ghana, Inde, Indonésie
+Provenance, conditions d'utilisation (aucune redistribution) et SHA256 par
+archive : `dhs/README.md`.

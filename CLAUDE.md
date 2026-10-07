@@ -89,9 +89,14 @@ hard-stop helpers in `code/00_utils.R` (`check`, `check_rows`, `check_vars`,
   sizes from the files and logs. Don't guess the bottleneck.
 
 ## Tooling
-- **R only**, with `renv` (`renv.lock` is committed; run `renv::snapshot()`
+- **R by default**, with `renv` (`renv.lock` is committed; run `renv::snapshot()`
   after installing anything). Core: data.table, sf, arrow (GeoParquet), ggplot2.
   Only if a design needs them: rdrobust, rddensity, fixest.
+- **Exception, Python for LASSO** (decided by Valentine, 06/10/2026):
+  `code/30_*.py` onward. System Python 3.11 with numpy, pandas, scipy,
+  scikit-learn (not under renv); each script writes the versions to its log.
+  The rigorous LASSO (`rlasso`) lives in `code/30_piste_a_prime_lasso.py` and is
+  reused from there, not copied.
 - **App-control DLL blocking:** a Windows policy intermittently blocks loading
   package DLLs from the renv cache (seen on `cli.dll`, hence haven). SHRUG
   `.dta` files are therefore converted once to `build/*.rds` by
@@ -163,7 +168,13 @@ disabled behind `RD_LEGACY <- FALSE`; the well→village link stays active.
   polygons. It is **stratigraphic** (unit 504, age 72, supergroup 18; supergroup
   empty on ~60 % of the area). It has no rock-type or aquifer-class field. Any
   lithology classification built from it is a judgement coding for the user to
-  review. The CGWB principal-aquifer layer is not available locally.
+  review. The CGWB principal-aquifer layer is not available locally, nor are
+  Bhukosh, GLiM or WHYMAP (despite a ticked box in ROADMAP).
+- **Fine geology layers** (GSI lithology 1:50k, Bhuvan lineaments 1:50k, NGDR
+  lineaments 1:250k, Bhuvan Groundwater Prospects 1:50k) are public on
+  `github.com/ramSeraph/indian_land_features` as GeoParquet; inventory and
+  caveats in `memo/piste_a_porte_b_donnees.md`. The Groundwater Prospects were
+  made to site PUBLIC drinking-water sources: an exclusion threat in itself.
 
 ## Style for outputs
 - Code comments and log messages in French, matching the existing scripts.
