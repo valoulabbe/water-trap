@@ -189,6 +189,36 @@ classe_point <- function(poly, lab) {
   j
 }
 
+# Superpositions residuelles apres dedoublonnage (constat du 07/10 : 79 paires,
+# 1,97 km2 sur 206 012 km2, defauts de numerisation en bord de feuille). Option
+# A retenue (Valentine, 07/10) : dans la zone utile (5 km autour des puits),
+# chaque paire dont les interieurs se recouvrent est resolue en retirant la
+# partie commune du polygone de rang le plus eleve (le premier garde la
+# surface). Les parts ne comptent ainsi chaque surface qu'une fois.
+sans_superposition <- function(poly, lab) {
+  zone <- st_union(st_buffer(st_geometry(puits), max(RAYONS)))
+  sub <- poly[lengths(st_intersects(poly, zone)) > 0, ]
+  rel <- st_relate(sub, sub, pattern = "2********")
+  paires <- rbindlist(lapply(seq_along(rel), function(i) {
+    j <- rel[[i]][rel[[i]] > i]
+    if (length(j)) data.table(i = i, j = j)
+  }))
+  g <- st_geometry(sub)
+  a0 <- sum(as.numeric(st_area(g)))
+  n_diff <- 0L
+  for (k in seq_len(nrow(paires))) {
+    i <- paires$i[k]; j <- paires$j[k]
+    if (sub$classe[i] != sub$classe[j]) n_diff <- n_diff + 1L
+    d <- st_collection_extract(st_difference(g[j], g[i]), "POLYGON")
+    g[j] <- if (length(d)) st_union(d) else st_sfc(st_multipolygon(), crs = st_crs(g))
+  }
+  st_geometry(sub) <- g
+  a1 <- sum(as.numeric(st_area(g)))
+  msg(sprintf("    %s : %d polygones dans la zone, %d paires superposees (%d de classes differentes), %.3f km2 retires",
+              lab, nrow(sub), nrow(paires), n_diff, (a0 - a1) / 1e6))
+  sub[!st_is_empty(sub), ]
+}
+
 parts <- function(poly, garde, prefixe) {
   out <- data.table(WLCODE = ech$WLCODE)
   for (r in RAYONS) {
@@ -240,7 +270,7 @@ bloc_classes <- function(poly, prefixe, lab) {
   ind <- data.table(WLCODE = pc$WLCODE)
   for (k in seq_along(garde)) set(ind, j = sprintf("%s_c_%02d", prefixe, k),
                                   value = as.numeric(pc$classe == garde[k]))
-  merge(ind, parts(poly, garde, prefixe), by = "WLCODE")
+  merge(ind, parts(sans_superposition(poly, lab), garde, prefixe), by = "WLCODE")
 }
 
 var <- stage("etape 6/6 variables", p_build("32_variables.rds"), function() {
