@@ -173,7 +173,11 @@ if __name__ == "__main__":
     var = [("bloc L, principal (rappel)", r_c, r_l)]
     for nom in ["P", "L+P", "L-250k", "lithologie seule", "fractures seules"]:
         log.t(f"bloc {nom}")
-        Z, _ = Zde(nom)
+        Z, cols = Zde(nom)
+        if not cols:
+            log(f"  bloc {nom} : sans objet (aucune colonne non constante)")
+            var.append((f"bloc {nom} (sans objet)", np.nan, np.nan))
+            continue
         a, b, _ = A.cv(y, Z, C, plis, dist, groupe=False)
         var.append((f"bloc {nom}", a, b))
     log.t("bloc L, un pli par district")

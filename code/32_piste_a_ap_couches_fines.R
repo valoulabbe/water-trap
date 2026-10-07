@@ -223,7 +223,9 @@ sans_superposition <- function(poly, lab) {
   g <- st_geometry(sub)
   a0 <- sum(as.numeric(st_area(g)))
   n_diff <- 0L
+  tmsg("    ", lab, " : ", nrow(paires), " paires superposees a resoudre")
   for (k in seq_len(nrow(paires))) {
+    if (k %% 500L == 0L) tmsg("      ", k, "/", nrow(paires))
     i <- paires$i[k]; j <- paires$j[k]
     if (sub$classe[i] != sub$classe[j]) n_diff <- n_diff + 1L
     g[j] <- surfaces(st_difference(g[j], g[i]))
@@ -286,6 +288,15 @@ bloc_classes <- function(poly, prefixe, lab) {
   ind <- data.table(WLCODE = pc$WLCODE)
   for (k in seq_along(garde)) set(ind, j = sprintf("%s_c_%02d", prefixe, k),
                                   value = as.numeric(pc$classe == garde[k]))
+  # Une seule classe gardee : la couche ne distingue aucun puits d'un autre.
+  # Ses parts ne mesureraient que la couverture de la couche ; on ne les
+  # calcule pas (constat du 07/10 sur les prospects : tous les puits dans
+  # "(non renseigne)", 25 min de calcul de superpositions sans objet).
+  if (length(garde) < 2L) {
+    msg(sprintf("    [SIGNALE] %s : bloc degenere (%d classe gardee) -- parts non calculees",
+                lab, length(garde)))
+    return(ind)
+  }
   merge(ind, parts(sans_superposition(poly, lab), garde, prefixe), by = "WLCODE")
 }
 
