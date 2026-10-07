@@ -32,6 +32,40 @@ Deux distinctions à tenir. **Positif contre normatif :** que le public se retir
 | B — Électricité | Groupe électrogène | Prix du capital (importations, droits de douane), TVA diesel par État, normes CPCB en NCR | À cadrer, littérature à lire |
 | C — Eau potable | Filtre domestique | Arrivée du marché de masse : Pureit national début 2008, Tata Swach déc. 2009 | Close le 27/09 — pas de point pré-choc, et filtre marginal hors Inde |
 
+### Le squelette commun à toutes les pistes
+
+Toutes les pistes, l'ancienne régression sur discontinuité comprise, cherchent à faire la même chose. Elles ne diffèrent que par la source de variation.
+
+Pour tester le piège, il faut une cause qui rende le **substitut privé** cher ici et bon marché là, pour une raison sans lien avec le revenu, la gouvernance ou le coût du réseau public. Il faut ensuite regarder si le **réseau public** est plus présent là où le privé est cher.
+
+Chaque design doit donc franchir trois étapes :
+
+1. **Pertinence :** la source de variation fait bien bouger le coût du privé.
+2. **Exclusion :** elle n'atteint le réseau public que par ce coût, et pas par le revenu, l'éloignement, ou le coût du réseau lui-même.
+3. **Résultat :** la provision publique (réseau, raccordement) réagit.
+
+|  | RD à 8 m (abandonnée le 23/09) | Piste A : géologie | Piste B : groupe électrogène | Piste C : purificateur domestique |
+| --- | --- | --- | --- | --- |
+| **Substitut privé** | pompe d'aspiration, puits peu profond | forage et pompe | groupe diesel | purificateur domestique |
+| **Réseau public visé** | eau courante | eau courante | réseau électrique | eau courante traitée |
+| **Ce qui fait varier le coût du privé** | la physique : au-delà d'environ 8 m, l'aspiration ne marche plus | la roche, les fractures et l'aquifère fixent la profondeur de l'eau | le prix du capital, les droits d'import, la TVA sur le diesel, les règles du CPCB | l'arrivée des purificateurs bon marché (Pureit en 2008, Tata Swach en 2009) |
+| **1. Pertinence** | garantie par la physique ; il fallait seulement connaître la profondeur au village | **pas garantie : il faut la démontrer** | à démontrer | à démontrer : l'adoption suit-elle l'arrivée ? |
+| **2. Comparaison** | villages juste de part et d'autre de 8 m, donc presque identiques | villages voisins sur des roches différentes | États ou années où le diesel coûte plus ou moins | avant et après l'arrivée, selon l'exposition |
+| **2. Menace sur l'exclusion** | faible, car la comparaison est très locale | la roche suit le relief, l'éloignement et la part ST (échec dans l'AP) | le diesel coûte aussi à l'État, et la demande change en même temps | le revenu et la demande d'eau propre évoluent en même temps |
+| **3. Résultat** | le réseau saute-t-il à 8 m ? | le réseau est-il plus présent là où la géologie rend l'eau chère ? | le réseau électrique recule-t-il là où le groupe est bon marché ? | le réseau recule-t-il après l'arrivée des purificateurs ? |
+
+**Où se place le travail des 6 et 7 octobre.** Dans la RD, l'étape 1 était gratuite : la physique garantit qu'au-delà de 8 m l'eau privée coûte plus cher, et le seul travail était de reconstruire la profondeur au village, ce qui était le rôle de l'interpolation des scripts 06 et 07. Avec la géologie, l'étape 1 n'est plus gratuite : rien ne garantit qu'une roche donne une nappe plus profonde, il faut le montrer hors échantillon, sinon la géologie n'est qu'un indicateur de géographie.
+
+| Test | Données | Résultat |
+| --- | --- | --- |
+| Carte au 1:2M | Andhra Pradesh | échec |
+| Couches fines, bloc entier en MCO | Rajasthan, Ryan & Sudarshan | échec par surajustement (gain −4,08) |
+| Couches fines, sélection LASSO des auteurs | Rajasthan, Ryan & Sudarshan | succès local (gain +0,109, F = 28,5), mais transport faible (0,026 en retirant une sous-division entière) |
+
+L'étape 2 est l'équivalent du « juste de part et d'autre de 8 m » : la RD comparait des voisins presque identiques, et avec la géologie on s'en rapproche en comparant des villages **du même sous-district** sur des roches différentes, d'où les effets fixes fins. C'est la porte C, encore entière. L'étape 3, l'eau publique, reste le but dans tous les cas, et ne se regarde qu'une fois les étapes 1 et 2 franchies et le critère écrit.
+
+**En une phrase.** La RD tirait sa variation de la physique, propre et locale, mais il fallait la profondeur. La piste A la tire de la géologie, qui couvre tout le territoire, mais il faut prouver qu'elle joue sur le coût de l'eau privée et qu'elle n'est pas un simple marqueur de géographie. Les pistes B et C appliquent le même raisonnement à d'autres réseaux ou à d'autres chocs.
+
 ### Piste A — La géologie comme instrument
 
 Ryan & Sudarshan (JPE 2022) instrumentent la profondeur du puits du paysan par le type de roche (62 catégories), le type d'aquifère (20), la densité de fractures et leurs interactions, en contrôlant élévation, pente et qualité des sols ; l'exclusion est l'absence d'effet direct sur les profits. Avantage pour nous : plus besoin de la profondeur observée village par village, donc plus besoin des microdonnées MI. Limite : la géologie est invariante dans le temps, et à l'échelle de l'Inde « alluvial vs socle » sépare aussi le revenu, la densité et la capacité administrative.
@@ -262,6 +296,22 @@ La question devient donc testable : **la contamination révélée déplace-t-ell
 **Le risque connu : la fenêtre après est courte**, environ 875 installations sur 2000-2003, Dataset2 s'arrêtant en 2003. Si la puissance est manifestement insuffisante, le test s'arrête là.
 
 **Limites à consigner :** années d'installation déclarées de mémoire par le propriétaire (biais de rappel) ; la zone HEALS a reçu une campagne d'éducation bien plus intense que le reste d'Araihazar ; la profondeur est déclarée, pas mesurée.
+
+**Arrêt de la recherche de données le 03/10/2026 : Jack est dans l'article.** Les remerciements de Khan, Ahmed, Dey, Rahman, Habib, Barnwal, Juy, Kim, Kim & van Geen, « Well Water Arsenic Mitigation in Bangladesh: Benefits Outweighing Risks of Sharing Private Environmental Data », *Environ. Sci. Technol.* 59(41), octobre 2025 ([PMC12550806](https://pmc.ncbi.nlm.nih.gov/articles/PMC12550806)) indiquent que **Jack Willis et Michael Best jouent un rôle clé dans les expériences de terrain en cours** sur l'usage des données de test pour réduire l'exposition. Le terrain n'est donc pas à découvrir : c'est le sien, avec van Geen et Kazi Matin Ahmed (université de Dhaka).
+
+**Pourquoi on arrête de chercher.** La règle de non-contact visait à ne pas déranger des chercheurs extérieurs pendant l'exploration. Elle n'a pas de sens quand les données sont celles du projet du PI. Reconstituer par bouts des fichiers publics tronqués pendant que Jack co-dirige les expériences qui produisent la version complète est du travail perdu.
+
+**Ce que les données publiques ne permettent pas** (vérifié le 03/10) :
+
+| Fichier | Ce qu'il a | Ce qui manque |
+| --- | --- | --- |
+| HydroShare `Dataset2.csv` | As labo, coordonnées, profondeur, **année d'installation**, village | Deux lots d'enquête confondus avec les cohortes : le lot 1 (recensement 2000-01) ne contient aucune installation 2002-03, toute la cohorte « après » vient du lot 2, de sélection inconnue |
+| Dépôt GitHub `yao-yl/As-measurement-code` | Deux recensements exhaustifs, 4 574 puits (2000-01) et 8 229 (2012-13), coordonnées, profondeur, As | **Ni année d'installation ni village**, et profondeur **tronquée à 30 m dans les deux vagues** — la marge qui nous intéresse (seuil 45 m, basculement vers l'intermédiaire) a été coupée |
+| `2014vs15.csv` du même dépôt | Année d'installation | 308 puits seulement, ré-identifiés donc sélectionnés sur la survie |
+
+**Ce que révèle l'article, et qui vaut la question à Jack.** Une **seconde campagne nationale**, l'Arsenic Risk Reduction Program (ARRP), a testé **6,3 millions de puits en 2021-2023**, par smartphone, avec résultat, **coordonnées GPS et profondeur**. Comparée à BAMWSP (4,7 M de puits, 2000-2005), elle donne un avant/après national au puits. Et le volet public y est mesuré : les puits profonds du DPHE passent de 73 025 au début des années 2000 à **plus de 231 669** en 2021-2023, mais **95 880 d'entre eux ont été installés dans 32 836 villages où moins de 40 % des puits sont contaminés** (2,9 par village), contre 3,3 par village dans les 2 927 villages où plus de 80 % le sont. L'allocation publique est quasiment orthogonale au besoin, à l'échelle nationale.
+
+**Prochaine action : une question à Jack**, pas un prompt pour Claude Code. Les données ARRP, ou celles d'Araihazar avec profondeur et année d'installation, sont-elles accessibles dans le cadre du projet ? L'appui est solide : cinq pistes fermées avec critères écrits d'avance, et une proposition qui s'adosse à ses propres terrains.
 
 ### À trancher avec Jack
 
