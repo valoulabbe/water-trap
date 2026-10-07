@@ -65,6 +65,12 @@ f_l250 <- p_raw("geology", "ngdr", "NGDR_Lineament_250k.parquet")
 f_pro  <- p_raw("geology", "bhuvan", sprintf("Bhuvan_Groundwater_Prospects_LGEOM.%02d.parquet", 0:1))
 for (f in c(f_lith, f_l50, f_l250, f_pro)) check(file.exists(f), paste0("source presente : ", f))
 
+# La table exportee n'existe que si TOUT le script a abouti : on retire
+# l'ancienne des le debut, pour qu'un arret en cours de route ne laisse pas au
+# script 33 une table perimee (incident du 07/10, 12:41).
+f_out <- p_build("32_puits_variables.csv")
+if (file.exists(f_out)) file.remove(f_out)
+
 msg("ETAPE 32 -- PISTE A, AP : VARIABLES GEOLOGIQUES FINES AUX PUITS")
 msg("Critere : memo/piste_a_ap_fine_critere.md. Aucune estimation ici.")
 
@@ -263,7 +269,7 @@ out <- merge(ech[, .(WLCODE, pc11_district_id, depth, elev, slope_win, relelev_w
              data.table(WLCODE = puits$WLCODE, x_laea = xy[, 1], y_laea = xy[, 2]), by = "WLCODE")
 out <- merge(out, var, by = "WLCODE")
 check_rows(out, N_ATTENDU, "table exportee")
-fwrite(out, p_build("32_puits_variables.csv"))
+fwrite(out, f_out)
 msg("  ecrit : build/32_puits_variables.csv (", ncol(out), " colonnes)")
 
 log_close()

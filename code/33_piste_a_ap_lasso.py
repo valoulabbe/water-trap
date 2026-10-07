@@ -110,6 +110,12 @@ if __name__ == "__main__":
     log.hr("33a. Donnees")
     check(os.path.exists(F_IN), "entree presente (" + F_IN + ")",
           "lancer d'abord : Rscript code/32_piste_a_ap_couches_fines.R")
+    # la table doit etre plus recente que toutes les sorties d'etape du script 32
+    amont = [os.path.join("build", f) for f in os.listdir("build")
+             if f.startswith("32_") and f != os.path.basename(F_IN)]
+    perimes = [f for f in amont if os.path.getmtime(f) > os.path.getmtime(F_IN)]
+    check(not perimes, "entree a jour (plus recente que les etapes du script 32)",
+          "plus recent que la table : " + ", ".join(perimes) + " -- le script 32 n'a pas abouti")
     d = pd.read_csv(F_IN)
     check(len(d) == N_ATTENDU, f"N = {N_ATTENDU} puits (echantillon du script 10)", f"observe {len(d)}")
     check(d["WLCODE"].is_unique, "WLCODE unique")
