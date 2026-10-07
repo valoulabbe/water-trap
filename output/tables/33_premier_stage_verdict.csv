@@ -1,0 +1,2 @@
+n_puits,n_districts,n_cellules,n_colonnes_L,r2cv_controles,r2cv_lasso_controles,gain_r2cv,seuil_gain,n_retenus_min,n_retenus_max,n_retenus_tout,f_iid,f_groupe_district,verdict
+825,23,448,214,0.03822494490058692,0.03822494490058692,0.0,0.05,0,0,0,,,ECHOUE

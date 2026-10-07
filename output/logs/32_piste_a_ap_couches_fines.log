@@ -1,0 +1,72 @@
+==============================================================================
+LOG: output/logs/32_piste_a_ap_couches_fines.log
+Run started: 2026-10-07 15:15:47
+==============================================================================
+
+  [OK]   source presente : raw/geology/ngdr/NGDR_Lithology_50k.parquet
+  [OK]   source presente : raw/geology/bhuvan/Bhuvan_Lineament_50k_0506.parquet
+  [OK]   source presente : raw/geology/ngdr/NGDR_Lineament_250k.parquet
+  [OK]   source presente : raw/geology/bhuvan/Bhuvan_Groundwater_Prospects_LGEOM.00.parquet
+  [OK]   source presente : raw/geology/bhuvan/Bhuvan_Groundwater_Prospects_LGEOM.01.parquet
+ETAPE 32 -- PISTE A, AP : VARIABLES GEOLOGIQUES FINES AUX PUITS
+Critere : memo/piste_a_ap_fine_critere.md. Aucune estimation ici.
+
+------------------------------------------------------------------------------
+32a. Echantillon (etape 1)
+------------------------------------------------------------------------------
+  [OK]   sortie du script 10 presente : build/10_echantillon.rds
+  [OK]   sortie du script 10 presente : build/10_terrain.rds
+  [OK]   sortie du script 10 presente : build/10_sol.rds
+[2026-10-07 15:15:47] etape 1/6 echantillon : deja fait, relu depuis build/32_echantillon.rds (ecrit le 2026-10-07 12:36)
+[2026-10-07 15:15:47] etape 1/6 echantillon : relu (0.0 s)
+  [OK]   echantillon (script 10): row count == 825
+  [OK]   echantillon: key (WLCODE) unique
+  emprise (deg) : lon 76.75-84.79, lat 12.65-19.83
+
+------------------------------------------------------------------------------
+32b. Couches dans l'emprise (etapes 2-5)
+------------------------------------------------------------------------------
+[2026-10-07 15:15:47] etape 2/6 lithologie 1:50k : deja fait, relu depuis build/32_lithologie_ap.gpkg (ecrit le 2026-10-07 12:37)
+[2026-10-07 15:15:48] etape 2/6 lithologie 1:50k : relu (1.5 s)
+[2026-10-07 15:15:48] etape 3/6 lineaments 1:50k : deja fait, relu depuis build/32_lineaments50_ap.gpkg (ecrit le 2026-10-07 12:37)
+[2026-10-07 15:15:49] etape 3/6 lineaments 1:50k : relu (0.3 s)
+[2026-10-07 15:15:49] etape 4/6 lineaments 1:250k : deja fait, relu depuis build/32_lineaments250_ap.gpkg (ecrit le 2026-10-07 12:37)
+[2026-10-07 15:15:49] etape 4/6 lineaments 1:250k : relu (0.0 s)
+[2026-10-07 15:15:49] etape 5/6 prospects : deja fait, relu depuis build/32_prospects_ap.gpkg (ecrit le 2026-10-07 12:41)
+[2026-10-07 15:15:59] etape 5/6 prospects : relu (10.1 s)
+  prospects : champ retenu = Geom_Code_1
+
+------------------------------------------------------------------------------
+32c. Variables aux puits (etape 6)
+------------------------------------------------------------------------------
+[2026-10-07 15:15:59] etape 6/6 variables : debut (amont plus recent : build/32_echantillon.rds, build/32_lithologie_ap.gpkg, build/32_lineaments50_ap.gpkg, build/32_lineaments250_ap.gpkg, build/32_prospects_ap.gpkg)
+[2026-10-07 15:15:59]     lithologie
+    lithologie 1:50k : puits dans plusieurs polygones 7, dont de classes differentes 0 ; hors couche 0
+  [OK]   lithologie 1:50k : aucun puits dans des polygones de classes differentes
+    lithologie 1:50k : 57 classes aux puits, 26 gardees (>= 5 puits)
+[2026-10-07 15:16:24]     lithologie 1:50k : 80 paires superposees a resoudre
+    lithologie 1:50k : 11123 polygones dans la zone, 80 paires superposees (42 de classes differentes), 1.970 km2 retires
+  [OK]   lit : somme des parts a 1 km <= 1 (max 1.000)
+  [OK]   lit : somme des parts a 5 km <= 1 (max 1.000)
+[2026-10-07 15:16:37]     prospects
+    prospects : puits dans plusieurs polygones 7, dont de classes differentes 0 ; hors couche 0
+  [OK]   prospects : aucun puits dans des polygones de classes differentes
+    prospects : 1 classes aux puits, 1 gardees (>= 5 puits)
+    [SIGNALE] prospects : bloc degenere (1 classe gardee) -- parts non calculees
+[2026-10-07 15:16:45]     fractures 1:50k
+[2026-10-07 15:16:46]     fractures 1:250k
+  [OK]   etape 6/6 variables : sortie ecrite -> build/32_variables.rds
+[2026-10-07 15:16:47] etape 6/6 variables : fini (48.0 s)
+  [OK]   variables : une ligne par puits: row count == 825
+  [OK]   variables: key (WLCODE) unique
+  colonnes : lithologie 78, prospects 1, fractures 1:50k 3, 1:250k 3
+     f50_dist f50_l1 f50_l5 f250_dist f250_l5
+0%       0.00   0.00   0.00      0.00    0.00
+25%      0.53   0.00   7.19      0.88    2.03
+50%      1.20   0.00  14.32      2.09    7.08
+75%      2.30   1.27  26.07      4.06   15.15
+100%    10.93   9.29 150.24     18.80  114.85
+  [OK]   table exportee: row count == 825
+  ecrit : build/32_puits_variables.csv (95 colonnes)
+
+Run finished: 2026-10-07 15:16:47

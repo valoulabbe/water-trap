@@ -1,0 +1,74 @@
+==============================================================================
+LOG: output\logs\33_piste_a_ap_lasso.log
+Run started: 2026-10-07 15:16:57
+python 3.11.9 ; numpy 2.2.2 ; pandas 2.3.3 ; scipy 1.15.2 ; scikit-learn 1.7.2
+==============================================================================
+ETAPE 33 -- PISTE A, AP : PREMIER STAGE AVEC COUCHES FINES (LASSO, HORS ECHANTILLON)
+Critere fixe avant estimation : memo/piste_a_ap_fine_critere.md
+  gain de R2 hors echantillon du bloc L (10 plis de cellules de 20 km) >= 0.05
+Aucun second stage, aucune variable de resultat.
+
+------------------------------------------------------------------------------
+33a. Donnees
+------------------------------------------------------------------------------
+  [OK]   entree presente (build\32_puits_variables.csv)
+  [OK]   entree a jour (plus recente que les etapes du script 32)
+  [OK]   N = 825 puits (echantillon du script 10)
+  [OK]   WLCODE unique
+  [OK]   profondeur et controles complets
+  [OK]   bloc L sans valeur manquante
+  bloc L : 214 colonnes, dont non constantes 214
+  [OK]   bloc P sans valeur manquante
+  bloc P : 1 colonnes, dont non constantes 0
+  [OK]   bloc L+P sans valeur manquante
+  bloc L+P : 215 colonnes, dont non constantes 214
+  [OK]   bloc L-250k sans valeur manquante
+  bloc L-250k : 214 colonnes, dont non constantes 212
+  [OK]   bloc lithologie seule sans valeur manquante
+  bloc lithologie seule : 130 colonnes, dont non constantes 130
+  [OK]   bloc fractures seules sans valeur manquante
+  bloc fractures seules : 6 colonnes, dont non constantes 6
+  825 puits, 23 districts, 448 cellules de 20 km -> 10 plis
+
+------------------------------------------------------------------------------
+33b. Porte : bloc L
+------------------------------------------------------------------------------
+[2026-10-07 15:16:57] validation croisee, bloc L, ponderations heteroscedastiques
+  R2 hors echantillon (intra-district) : controles seuls 0.038 ; post-lasso + controles 0.038
+  gain : 0.000  (seuil 0.05) -> ECHOUE
+  instruments retenus par pli : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+------------------------------------------------------------------------------
+33c. Rapporte a cote du verdict (hors critere)
+------------------------------------------------------------------------------
+  bloc L, retenus sur tout l'echantillon (0) : (aucun)
+  F post-lasso : sans objet (aucun instrument retenu)
+  frequence de selection sur les 10 plis :
+  (aucune selection)
+[2026-10-07 15:16:57] bloc P
+  bloc P : sans objet (aucune colonne non constante)
+[2026-10-07 15:16:57] bloc L+P
+[2026-10-07 15:16:57] bloc L-250k
+[2026-10-07 15:16:57] bloc lithologie seule
+[2026-10-07 15:16:57] bloc fractures seules
+[2026-10-07 15:16:57] bloc L, un pli par district
+[2026-10-07 15:16:58] bloc L, plis de puits au hasard
+[2026-10-07 15:16:58] bloc L, ponderations groupees par district
+                                    variante  r2cv_controles  r2cv_lasso_controles   gain
+                  bloc L, principal (rappel)           0.038                 0.038  0.000
+                         bloc P (sans objet)             NaN                   NaN    NaN
+                                    bloc L+P           0.038                 0.038  0.000
+                                 bloc L-250k           0.038                 0.038 -0.000
+                       bloc lithologie seule           0.038                 0.038  0.000
+                       bloc fractures seules           0.038                 0.038  0.000
+bloc L, un pli par district (regle du 24/09)           0.033                 0.033  0.000
+             bloc L, plis de puits au hasard           0.040                 0.040  0.000
+  bloc L, ponderations groupees par district           0.038                 0.035 -0.003
+
+------------------------------------------------------------------------------
+33d. Verdict
+------------------------------------------------------------------------------
+Gain de R2 hors echantillon du bloc L 0.000 >= 0.05 : NON rempli
+VERDICT DE LA PORTE AP COUCHES FINES : ECHOUE
+
+Run finished: 2026-10-07 15:16:58
