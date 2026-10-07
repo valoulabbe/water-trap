@@ -75,3 +75,7 @@ La condition 1 (part intra-SDO 0,689) est déjà établie par A′.
 
 ## Hors périmètre
 Aucune variable de résultat, aucun second stage, aucun appariement SHRUG.
+
+**Erratum (07/10/2026).** La liste de la l. 2157 vient de la régression de
+profit pondérée, pas du premier stage publié (C4, 16 instruments). Voir
+l'erratum de `memo/piste_a_prime_lasso_verdict.md`.

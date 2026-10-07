@@ -92,3 +92,29 @@ réouverture de la piste A ; deux portes restent :
 - Vu le point 3, le premier stage de la région retenue devra repasser une
   porte du même type (sélection refaite par pli, seuil 0,05), sur ses propres
   puits.
+
+## Erratum (07/10/2026, après lecture du README et de `main.sh` des auteurs)
+
+Le verdict (gain 0,109, PASSE) tient selon son critère, qui annonçait l'unité
+agriculteur et les contrôles de A′. Trois corrections :
+1. **Ce n'est pas la spécification du tableau C4.** Les auteurs estiment
+   leur premier stage sur `marginal_analysis_sample_crop_level.dta` (8 973
+   lignes agriculteur × culture). Leurs contrôles non pénalisés sont au nombre
+   de 28 : déciles de terre, effets fixes de SDO, altitude, pente et 12
+   contrôles de sol. A′-L a utilisé le fichier agriculteur, sans sol ni
+   déciles. Le titre « sélection LASSO des auteurs » vaut pour la méthode de
+   sélection, pas pour l'échantillon ni les contrôles.
+2. **Mauvaise liste de comparaison.** La « liste des auteurs » (13
+   instruments, l. 2157) vient de la régression de profit pondérée. La liste
+   du premier stage publié (C4, « Main ») compte 16 instruments (voir
+   l'erratum de `piste_a_prime_geologie_fine_verdict.md`). Notre sélection
+   sur tout l'échantillon en partage **6** avec elle (`rock_area_6`,
+   `aquifer_type_4`, `rock_area2_4`, `rock_area2_10`, `ltot5km_area1115`,
+   `dist2fault_area116`), et non 5. La ligne « Liste des auteurs, fixe »
+   (0,118) porte sur la liste de 13.
+3. **Phrase pour Jack.** Remplacer « F = 28,5 » par une formulation qui ne le
+   rapproche pas du F publié : le nôtre est groupé par départ sur 10
+   instruments post-lasso, celui des auteurs est i.i.d. sur 16 instruments.
+
+Variante qui reproduit C4 (fichier, échantillon, contrôles) :
+`memo/piste_a_prime_lasso_c4_critere.md`.

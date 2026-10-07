@@ -68,3 +68,30 @@ Sudarshan.** La lecture ci-dessous l'explique.
 Une variante LASSO conforme au code des auteurs, avec un critère écrit avant
 exécution : `memo/piste_a_prime_lasso_critere.md`. Les portes B et C restent
 sans objet tant qu'aucune version de A′ ne passe.
+
+## Erratum (07/10/2026, après lecture du README et de `main.sh` des auteurs)
+
+Le verdict n'est pas modifié. Trois affirmations de la section « Lecture »
+sont fausses ou imprécises :
+1. **« F = 137 » n'est pas un F de premier stage des fractures.** Dans le
+   tableau C4, colonne « Fractures », 137 est le F global d'une régression de
+   la profondeur sur 31 régresseurs (déciles de terre, effets fixes de SDO,
+   altitude, pente, 12 contrôles de sol et les 3 fractures). Groupement par
+   agriculteur, R² 0,37 (`rationing_main.log`, l. 33522–33545). Seule
+   `ltot_1km` y est significative (−7,1 pieds par km de linéament). Aucun F
+   des seules fractures n'est publié.
+2. **Les l. 1944 et 2157 ne sont pas le premier stage publié.** Elles viennent
+   de la régression de profit pondérée (`main_lasso_iv … weight(d_over_h)`, 13
+   instruments retenus). Le premier stage publié (C4, colonne « Main »)
+   retient **16 instruments** (l. 33515 et suivantes du log) :
+   `rock_area_1 rock_area_4 rock_area_6 rock_area_15 rock_area_20
+   aquifer_type_4 rock_area2_4 rock_area2_10 ltot5km_area119
+   ltot5km_area1115 ltot5km_area1130 dist2fault_area112 dist2fault_area116
+   dist2fault_area1114 dist2fault_area1120 dist2fault_area1146`.
+   Le F de 86,8 publié dans C4 est un F de faible identification **i.i.d.**
+   sur ces 16 instruments ; la version groupée est vide dans le log.
+3. **Unité et fichier.** Le premier stage des auteurs est estimé sur
+   `marginal_analysis_sample_crop_level.dta` : 8 973 lignes agriculteur ×
+   culture, 3 999 agriculteurs. `main.sh` n'utilise pas le fichier agriculteur
+   `marginal_analysis_sample.dta` lu par A′ ; seul `maps/gen_predicted_depth.do`
+   le lit, avec les coordonnées retirées du paquet.
