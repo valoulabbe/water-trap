@@ -195,6 +195,23 @@ classe_point <- function(poly, lab) {
 # chaque paire dont les interieurs se recouvrent est resolue en retirant la
 # partie commune du polygone de rang le plus eleve (le premier garde la
 # surface). Les parts ne comptent ainsi chaque surface qu'une fois.
+# Garde la partie surfacique d'un resultat de st_difference, quel que soit son
+# type : POLYGON / MULTIPOLYGON tels quels, GEOMETRYCOLLECTION -> polygones,
+# et vide si le reste n'est que lignes ou points (incident du 07/10, 12:54 :
+# st_collection_extract refuse un type singulier autre que POLYGON).
+surfaces <- function(x) {
+  vide <- st_sfc(st_multipolygon(), crs = st_crs(x))
+  x <- x[!st_is_empty(x)]
+  if (!length(x)) return(vide)
+  ty <- as.character(st_geometry_type(x))
+  x <- x[ty %in% c("POLYGON", "MULTIPOLYGON", "GEOMETRYCOLLECTION")]
+  if (!length(x)) return(vide)
+  if (any(as.character(st_geometry_type(x)) == "GEOMETRYCOLLECTION")) {
+    x <- suppressWarnings(st_collection_extract(st_cast(x, "GEOMETRYCOLLECTION"), "POLYGON"))
+  }
+  if (!length(x)) vide else st_union(x)
+}
+
 sans_superposition <- function(poly, lab) {
   zone <- st_union(st_buffer(st_geometry(puits), max(RAYONS)))
   sub <- poly[lengths(st_intersects(poly, zone)) > 0, ]
@@ -209,8 +226,7 @@ sans_superposition <- function(poly, lab) {
   for (k in seq_len(nrow(paires))) {
     i <- paires$i[k]; j <- paires$j[k]
     if (sub$classe[i] != sub$classe[j]) n_diff <- n_diff + 1L
-    d <- st_collection_extract(st_difference(g[j], g[i]), "POLYGON")
-    g[j] <- if (length(d)) st_union(d) else st_sfc(st_multipolygon(), crs = st_crs(g))
+    g[j] <- surfaces(st_difference(g[j], g[i]))
   }
   st_geometry(sub) <- g
   a1 <- sum(as.numeric(st_area(g)))
