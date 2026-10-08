@@ -1,0 +1,272 @@
+==============================================================================
+LOG: output/logs/14_piste_i_salinite.log
+Run started: 2026-10-08 17:56:07
+==============================================================================
+
+ETAPE 14 -- PISTE I : SALINITE DES EAUX SOUTERRAINES (DESCRIPTIF)
+Aucune regression, aucune variable de resultat lue.
+
+------------------------------------------------------------------------------
+1. EMPILEMENT DES 30 CSV
+------------------------------------------------------------------------------
+  [OK]   E1 : 30 fichiers csv
+[2026-10-08 17:56:07] etape 1/3 empilement : debut (sortie absente)
+  [OK]   E1 : en-tete identique dans les 30 fichiers
+  [OK]   etape 1/3 empilement : sortie ecrite -> build/14_qualite_brut.rds
+[2026-10-08 17:56:10] etape 1/3 empilement : fini (2.3 s)
+  [OK]   E1 : lignes empilees: row count == 165,162
+  [OK]   qualite CGWB: all 13 named variables present
+
+------------------------------------------------------------------------------
+2. INVENTAIRE
+------------------------------------------------------------------------------
+[2026-10-08 17:56:10] etape 2/3 typage : debut (sortie absente)
+  [OK]   etape 2/3 typage : sortie ecrite -> build/14_qualite.rds
+[2026-10-08 17:56:11] etape 2/3 typage : fini (1.2 s)
+Ruptures de format (valeurs non vides illisibles), par fichier :
+data.table est vide (0 ligne et 8 colonne): fichier,n,date_illisible,date_vide,lat_non_num,lon_non_num...
+Formats de date observes (chiffres -> 9) :
+              forme      N
+             <char>  <int>
+1: 99-99-9999 99:99 165162
+Mois d'acquisition (toutes lignes) :
+     mois      N
+    <int>  <int>
+ 1:     1      1
+ 2:     2     50
+ 3:     3      2
+ 4:     4      9
+ 5:     5 161762
+ 6:     6   2297
+ 7:     7     36
+ 8:     8    243
+ 9:     9      4
+10:    10      4
+11:    12    754
+Agences :
+   agence      N
+   <char>  <int>
+1:   CGWB 165162
+Codes LGD manquants : Etat 0, district 0
+Noms de station vides : 0
+Etats LGD par fichier (un fichier = un Etat attendu) :
+data.table est vide (0 ligne et 3 colonne): fichier,n_etats_lgd,etats
+                       fichier lignes stations districts annee_min annee_max
+                        <char>  <int>    <int>     <int>     <int>     <int>
+ 1:        Andaman_Nicobar.csv    634      106         2      2004      2021
+ 2:         Andhra_Pradesh.csv  10950     1542        14      2000      2023
+ 3:      Arunachal_Pradesh.csv    104       16         6      2005      2021
+ 4:                  Assam.csv   1874      341        26      2000      2021
+ 5:                  Bihar.csv   3112      767        37      2000      2021
+ 6:             Chandigarh.csv     36        7         1      2000      2021
+ 7:            Chhatisgarh.csv  10350     1293        23      2000      2024
+ 8: Dadra_and_nagar_haveli.csv    169       23         1      2000      2020
+ 9:                  Delhi.csv   1169      199         9      2000      2021
+10:                    Goa.csv    674       90         2      2000      2023
+11:                Gujarat.csv   9807      967        27      2000      2021
+12:               Hariyana.csv   7033      831        22      2000      2024
+13:       Himachal_Pradesh.csv   1218      120         8      2000      2024
+14:      Jammu_and_Kashmir.csv   2894      292        11      2000      2021
+15:              Jharkhand.csv   1632      367        21      2000      2023
+16:              Karnataka.csv  13007     2036        27      2000      2025
+17:         Madhya_Pradesh.csv  19230     1702        51      2000      2022
+18:              Meghalaya.csv    235       47         8      2005      2021
+19:               Nagaland.csv     44       19         4      2005      2020
+20:                 Odisha.csv  15400     1943        30      2000      2021
+21:                 Panjab.csv   5175      730        22      2000      2023
+22:             Puducherry.csv     83       11         3      2000      2022
+23:              Rajasthan.csv  12350     1629        33      2000      2024
+24:             Tamil_Nadu.csv   8419     1216        32      2000      2024
+25:              Telangana.csv   5072      925        11      2000      2021
+26:                Tripura.csv    440       96         8      2000      2021
+27:          Uttar_Pradesh.csv   7329     1959        70      2000      2023
+28:            Uttarakhand.csv    903      157         8      2000      2023
+29:            West_Bengal.csv   7570     1514        21      2000      2021
+30:            maharashtra.csv  18249     1850        34      2000      2024
+                       fichier lignes stations districts annee_min annee_max
+                        <char>  <int>    <int>     <int>     <int>     <int>
+    n_annees part_coord_ok part_ec_ok part_tds
+       <int>         <num>      <num>    <num>
+ 1:       13        1.0000     1.0000   0.3123
+ 2:       24        0.9892     0.9989   0.1757
+ 3:       15        1.0000     1.0000   0.2692
+ 4:       18        1.0000     0.9909   0.1793
+ 5:       18        1.0000     1.0000   0.1973
+ 6:       17        1.0000     1.0000   0.1667
+ 7:       24        1.0000     0.9887   0.1683
+ 8:       21        1.0000     1.0000   0.2130
+ 9:       22        1.0000     0.9974   0.1352
+10:       23        1.0000     0.9955   0.1365
+11:       22        1.0000     1.0000   0.2212
+12:       25        1.0000     0.9254   0.0779
+13:       22        1.0000     0.9984   0.0829
+14:       19        1.0000     1.0000   0.1358
+15:       19        1.0000     1.0000   0.1538
+16:       25        1.0000     0.9712   0.1428
+17:       23        1.0000     1.0000   0.1995
+18:       17        1.0000     0.9915   0.1872
+19:        7        1.0000     1.0000   0.1364
+20:       18        0.9999     0.9948   0.2145
+21:       24        1.0000     0.9227   0.0574
+22:       20        1.0000     1.0000   0.1446
+23:       25        0.9999     0.9999   0.2535
+24:       25        0.9974     0.9994   0.1261
+25:       22        0.9980     0.9996   0.1964
+26:       17        1.0000     0.9841   0.2386
+27:       21        1.0000     0.9933   0.0664
+28:       23        1.0000     1.0000   0.0963
+29:       21        1.0000     0.9996   0.1196
+30:       25        1.0000     0.9997   0.2588
+    n_annees part_coord_ok part_ec_ok part_tds
+       <int>         <num>      <num>    <num>
+   lignes stations districts annee_min annee_max part_coord_ok part_ec_ok
+    <int>    <int>     <int>     <int>     <int>         <num>      <num>
+1: 165162    22795       570      2000      2025     0.9990797  0.9902702
+    part_tds
+       <num>
+1: 0.1782916
+Lignes par annee :
+    annee     N
+    <int> <int>
+ 1:  2000  6444
+ 2:  2001  5559
+ 3:  2002  6657
+ 4:  2003  5961
+ 5:  2004  6854
+ 6:  2005  5693
+ 7:  2006  5488
+ 8:  2007  6148
+ 9:  2008  6182
+10:  2009  6916
+11:  2010  6383
+12:  2011  6433
+13:  2012  7736
+14:  2013  8666
+15:  2014  8850
+16:  2015  7057
+17:  2016 10298
+18:  2017  9122
+19:  2018  9610
+20:  2019  7897
+21:  2020  7895
+22:  2021  5779
+23:  2022  4996
+24:  2023  2522
+25:  2024    15
+26:  2025     1
+    annee     N
+    <int> <int>
+  [OK]   E2 : coordonnees valides >= 99 %
+  [OK]   E3 : EC renseignee >= 90 %
+Station-annees avec plusieurs lignes : 960 (1946 lignes) sur 164176
+Stations dont les coordonnees varient de plus de 0,01 degre (~1 km) : 248 sur 22769
+Distribution de l'EC (uS/cm, lignes ec_ok) :
+        0%       0.1%         1%        10%        25%        50%        75% 
+       2.0       42.0       90.0      290.0      498.0      845.0     1460.0 
+       90%        99%      99.9%       100% 
+    2600.0     7898.9    16800.0 57006760.0 
+EC > 50 000 uS/cm (au-dela de l'eau de mer) : 8 lignes
+Facteur empirique k = TDS/EC (23288 lignes) : mediane 0.65, P10-P90 0.485-0.686  (k retenu d'avance : 0.64)
+Seuil EC retenu : 781.2 uS/cm ; avec k empirique : 769.2 uS/cm (controle seulement)
+
+------------------------------------------------------------------------------
+3. VARIATION INTRA-DISTRICT (LE CHIFFRE QUI DECIDE)
+------------------------------------------------------------------------------
+  [OK]   stations: key (sta) unique
+Stations avec EC : 22715 ; districts : 571
+Echantillons par station :
+    n_ech     N
+    <num> <int>
+ 1:     1  3404
+ 2:     2  2553
+ 3:     3  2094
+ 4:     4  1590
+ 5:     5  1527
+ 6:     6  1614
+ 7:     7  1369
+ 8:     8  1200
+ 9:     9   917
+10:    10  6447
+Station, tous districts : variance totale log(EC) = 0.597 ; part intra-district = 0.447
+Station, districts >= 10 stations (22440 stations) : variance = 0.594 ; part intra = 0.451
+Echantillons : decomposition de la somme des carres de log(EC) :
+              entre_districts entre_stations_intra_district 
+                        0.450                         0.271 
+                intra_station 
+                        0.279 
+Variance intra-station (annee a annee, 19292 stations a >= 2 annees) : 0.261
+Variance intra-district entre stations (districts >= 2 stations) : 0.274
+Rapport bruit / signal intra-district : 0.952
+Districts : 571 ; avec >= 10 stations : 502
+Part des districts avec des stations des deux cotes de 781 uS/cm : 0.862 (tous) ; 0.932 (>= 10 stations)
+Ecart interquartile de log(EC) par district (>= 10 stations) :
+  10%   25%   50%   75%   90% 
+0.341 0.426 0.550 0.712 0.880 
+Filtre C2 pas a pas : >= 10 stations 502 ; + IQR >= log 2 139 ; + 20 % de chaque cote 52
+                           etat districts dix_stations passent
+                         <char>     <int>        <int>   <int>
+ 1:                  Tamil Nadu        32           32       9
+ 2:                      Odisha        30           30       5
+ 3:              Andhra Pradesh        14           13       5
+ 4:                   Karnataka        27           27       5
+ 5:                       Bihar        37           34       4
+ 6:                   Jharkhand        21           15       4
+ 7:                 Maharashtra        34           33       4
+ 8:                   Telangana        11           10       3
+ 9:                 West Bengal        21           21       2
+10:                     Gujarat        27           24       2
+11:                 Uttarakhand         8            5       2
+12:                   Rajasthan        33           33       2
+13:               Uttar Pradesh        70           67       2
+14:      Dadra And Nagar Haveli         1            1       1
+15:                      Punjab        22           22       1
+16:                     Haryana        22           22       1
+17:           Arunachal Pradesh         6            0       0
+18:                    Nagaland         4            1       0
+19:                     Tripura         8            4       0
+20:                   Meghalaya         7            2       0
+21:                       Assam        26           17       0
+22:             Jammu & Kashmir        11            6       0
+23:                Chhattisgarh        23           17       0
+24:              Madhya Pradesh        51           51       0
+25:            Himachal Pradesh         8            5       0
+26:                         Goa         2            2       0
+27:                  Puducherry         3            0       0
+28: Andaman And Nicobar Islands         2            2       0
+29:                  Chandigarh         1            0       0
+30:                       Delhi         9            6       0
+                           etat districts dix_stations passent
+                         <char>     <int>        <int>   <int>
+
+------------------------------------------------------------------------------
+4. FAISABILITE DE L'APPARIEMENT AUX GRAPPES NFHS
+------------------------------------------------------------------------------
+[2026-10-08 17:56:14] etape 3/3 grappes DHS : debut (sortie absente)
+  [OK]   nfhs4: all 4 named variables present
+  [OK]   nfhs5: all 4 named variables present
+  [OK]   etape 3/3 grappes DHS : sortie ecrite -> build/14_dhs_ge.rds
+[2026-10-08 17:56:16] etape 3/3 grappes DHS : fini (1.4 s)
+  [OK]   E6 : nfhs4 grappes a coordonnees valides == 28,395
+  [OK]   E6 : nfhs5 grappes a coordonnees valides == 30,079
+Stations avec EC et coordonnees : 22689
+[2026-10-08 17:56:17] nfhs4 : plus proche station calculee (1.0 s)
+[2026-10-08 17:56:18] nfhs5 : plus proche station calculee (0.8 s)
+    vague urbain grappes d_med_km d_p75_km part_10km part_5km
+   <char> <char>   <int>    <num>    <num>     <num>    <num>
+1:  nfhs4      R   19921     5.77    10.08     0.748    0.424
+2:  nfhs4      U    8474     2.59     5.43     0.853    0.728
+3:  nfhs4   tous   28395     4.83     9.03     0.779    0.514
+4:  nfhs5      R   22353     5.71     9.83     0.758    0.432
+5:  nfhs5      U    7726     2.45     5.16     0.862    0.741
+6:  nfhs5   tous   30079     4.86     8.94     0.785    0.511
+Distances geodesiques (s2, WGS84). Coordonnees DHS deplacees : 2 km en ville, 5 km en rural (10 km pour 1 % des rurales).
+
+------------------------------------------------------------------------------
+VERDICT CONTRE LE CRITERE ECRIT D'AVANCE
+------------------------------------------------------------------------------
+C1 part intra-district = 0.447 (seuil 0,40) : PASSE
+C2 districts qui passent = 52 dans 16 Etats (seuils 150 / 10) : ECHOUE
+C3 bruit / signal = 0.952 (seuil 0,50) : ECHOUE
+VERDICT : NON
+
+Run finished: 2026-10-08 17:56:18
