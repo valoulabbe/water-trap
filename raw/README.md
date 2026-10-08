@@ -171,3 +171,59 @@ de l'éditeur (ACS) pour les SI, non vérifiées.
 | Fichier | Contenu | Téléchargé le | SHA256 |
 | --- | --- | --- | --- |
 | vangeen2019/es9b01375_si_001.xlsx | Une feuille « all villages », 44 865 lignes : `Vid`, District, Upazila, Union, Mouza, village, `No. wells`, `Mean As from kit`, `%wells <=50 ug/L As`, `Safe depth (ft)` | 2026-10-03 | 6383CCF2D2E63D69FB3AFCCD949A909C2D5FD35EC4876146D52248F3AF5C5A4F |
+
+## Qualité chimique des eaux souterraines (CGWB) — dépôt tiers GitHub
+**Travail de tiers, PAS une source officielle.** Les CSV sont des exports
+CGWB / India-WRIS, mais ils ont transité par un intermédiaire (dépôt personnel
+d'un développeur, construit pour un tableau de bord), comme le fichier CGWB des
+niveaux (`cgwb/CGWB_data_wide.csv`, septembre). Rien ne garantit qu'ils soient
+complets ni non retouchés ; India-WRIS ne répond pas depuis cette machine, donc
+aucune comparaison avec la source n'est possible à ce jour. Pas de fichier de
+licence dans le dépôt.
+
+Source : https://github.com/nishant8975/Groundwater-Quality-Intelligence-System-
+(tiret final dans le nom), cloné le 2026-10-08 dans `cgwb_quality/repo/`.
+Commit `fd934abc7e35f3cec101c4dff29daab9cd0609ff` (2026-10-04 10:32 +0530,
+« README file completion ») ; dernier commit touchant `data/raw/` : `2bd01ec`
+(2026-10-04). Le README du dépôt annonce 30 fichiers et 165 162 échantillons.
+Absents : Kerala, Sikkim, Manipur, Mizoram, Ladakh, Lakshadweep, Daman et Diu.
+
+| Fichier | Contenu | Téléchargé le | SHA256 |
+| --- | --- | --- | --- |
+| cgwb_quality/GQIS_fd934ab.zip | `git archive --format=zip` du commit fd934ab (git 2.52.0.windows.1). Une archive zip n'est pas reproductible octet par octet d'une version de git à l'autre : la référence durable est le SHA du commit, plus les empreintes par fichier ci-dessous | 2026-10-08 | 159F824843226A39843D6DE29F593C93A9AF359539E0B2D2BBCD2083A5DBE038 |
+| cgwb_quality/SHA256SUMS_csv.txt | SHA256 des 30 CSV de `repo/data/raw/` (un par État ou UT, 46 colonnes, en-tête identique dans les 30 fichiers) | 2026-10-08 | 566FEE0CF319B6513B6CCC888A3CB57D7BE898D6D1714595480EF7BA8E0E651D |
+
+Empreintes SHA256 des CSV (`cgwb_quality/repo/data/raw/`) :
+
+```
+cee7ad438b08fc8bc03833fe9f9055c594e61d1cf6ec824146168938e9c3874d  Andaman_Nicobar.csv
+85052223a789dba1768b9af62b2e6aed638800249bb6d8eafbb0d9e3329c82c1  Andhra_Pradesh.csv
+9a4c2ff022f92403f523b7f67cf07c3531c91861d93c629b7c480b9663a9cc67  Arunachal_Pradesh.csv
+3844aadadd7375ec8d97a47329588aa2eadea36d807f34b136e751b9e636100d  Assam.csv
+0ed12f613d0bc6fc21409ea9742ff20c0df5cfb6d18b55f15106fcc1232752a6  Bihar.csv
+c0966c6708f0ccab12c203f886e99dd28ad4e0d779824e8445ceb2cff521ce8f  Chandigarh.csv
+b46d93470752f54ee47667e4725cdcecb9eb21abbb15e6cfeae2df60bad0cb6f  Chhatisgarh.csv
+785e6d0fc61dacba9ac769715d72c524b3561c96d8e126916a862ec0201d38c5  Dadra_and_nagar_haveli.csv
+5832b22691526eea48d6f7d69b0f0a8c172186e9766a8d06653fed70dadc2575  Delhi.csv
+d41a022731643885a9fcd6d6b78cf12b336ce97b79899de22846d4774870ca92  Goa.csv
+d42022942d30dccd9ad5096b93ab114ddc402eb86f02ba44ea7e30841b216668  Gujarat.csv
+ddadd03b0561cdfd9cb14420ba7f7b518803b85370605b89383639364e13d5d1  Hariyana.csv
+b4d91a933f04d2270f283571828452e6d51f41236803934d4dbb6a6cc0ab3c40  Himachal_Pradesh.csv
+4bc8e97ba00fb2c3b935ecff0d49397c1537f48a9ff19e52f3277adb8a727d06  Jammu_and_Kashmir.csv
+6a941c919d71657d2f2146f9f245044bed45a1c04d56e9f8263a050aa3d882b6  Jharkhand.csv
+acf9384b7c65ea026786002de24b3f9cb29fbb25f70356a716f43c2bf8e1a2b8  Karnataka.csv
+1f9b4c71775246ce900d4cfefbb26b2b592dd6ab3941dbaa1ee4fde5e26d3416  Madhya_Pradesh.csv
+5046cc9851d39dd60c2e501c2bb7f2c25e866b666a21386ba276a8e9157c4cd1  Meghalaya.csv
+56560747b89bcab363a78e297aa752d8879fdc15d3a13e596f8ca25864592059  Nagaland.csv
+76ca73da5c2ba2bb14d5a72c0caad9923e5d37bbba010141d26b12ca9579b036  Odisha.csv
+b5881b53a16dd3282914b86d1a1868d7cd4e47c9fc23c3e7f5294af8dadf388c  Panjab.csv
+a89594fbec236f4593bf83477a25323e86f6173ca59366d2a9ab866c5732e270  Puducherry.csv
+d38897a7506f996fe51f8d01a48242643fc81ee70983083c808e8346b07b9e38  Rajasthan.csv
+c607fe99b4b53e3949c38d4e95b72964d0ab8d1c1024f7d32ab63f9120ceee21  Tamil_Nadu.csv
+4df141a51c44b9899d32398199d3d455d468bcb7c22a8da44908b3dacc345524  Telangana.csv
+cd1f8454f7249d9bcda5df5e11afb572eaa0e3e7f8dbc07f424aa2b09b01ed7a  Tripura.csv
+fa34340035f67daa42c37d85adc0f6c73bd0e95ebc9d7f2f6b1d6fed8c0e5697  Uttar_Pradesh.csv
+2273b1f3937ff4e95b8fd6f5158672fc69757a28b106c34385f6874f2a35faaf  Uttarakhand.csv
+516b4bee67e778006e83fe8b16900af3844fb399b825f6336433204ba8642f28  West_Bengal.csv
+31509bdbaa941125712da1c1ee8977b0a9460c42bce863c55af1691d5ca931e7  maharashtra.csv
+```
