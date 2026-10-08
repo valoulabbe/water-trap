@@ -39,6 +39,48 @@ Fichiers décompressés dans un dossier au nom de chaque zip ; zip d'origine con
 | geology/ngdr/NGDR_Geology_2M.parquet | Carte géologique de l'Inde au 1:2M, 4 531 polygones (GeoParquet 1.1, WKB, EPSG:4326) : unité stratigraphique, âge, super-groupe, groupe. Pas de type de roche ni de classe d'aquifère | GSI / National Geoscience Data Repository (geodataindia.gov.in), republié par ramSeraph/indian_land_features, release `geology` (2025-02-13) ; rangé par le republieur sous « not-so-open » ; licence annoncée « CC0 1.0, attribuer DataMeet et la source gouvernementale » | 2026-09-23 | 8BBEC03D2F0A3898648B3E95F4EF967F51F889395A29D6EA11748420973E6526 |
 | geology/ngdr/NGDR_Geology_2M.geojsonl.7z | Même couche en GeoJSONSeq compressé. **Inutilisable ici** : l'extraction par tar (Windows) échoue (PPMd) et produit un fichier corrompu ; GDAL local sans /vsi7z/. Conservé pour provenance ; lire le .parquet | idem | 2026-09-23 | 98C84FA8EF98CB7676334ED687FCEC76AF293BB469FD0F4F0AA9AEFF97631650 |
 
+## Géologie 1:50 000 — Bhujal (NRSC/Bhuvan) et lithologie NGDR
+
+Téléchargées le 2026-10-07. Même republieur que la carte au 1:2M ci-dessus :
+GitHub `ramSeraph/indian_land_features`, releases **« Groundwater Prospects »**
+(LGEOM, STRU) et **« Indian Geology »** (lithologie NGDR) ; les fichiers LGEOM
+sont publiés **en deux parties** par la release, d'où les suffixes `.00` et `.01`
+— ce ne sont pas des téléchargements interrompus. Licence annoncée par le
+republieur : « CC0 1.0, attribuer DataMeet et la source gouvernementale ».
+La release Groundwater Prospects porte un `notes.txt` **non encore lu**.
+GeoParquet (`geometry` en WKB, colonne `bbox`), à lire avec
+`arrow::read_parquet()` (voir CLAUDE.md).
+
+| Fichier | Contenu | Source | Téléchargé le | SHA256 |
+| --- | --- | --- | --- | --- |
+| geology/bhuvan/Bhuvan_Groundwater_Prospects_LGEOM.00.parquet | Lithologie × géomorphologie des cartes Bhujal (prospects d'eau souterraine), partie 1/2 : **408 657 polygones**, 135 colonnes | NRSC/Bhuvan, republié par ramSeraph/indian_land_features, release `Groundwater Prospects` | 2026-10-07 | AA5290439E38A2FFCE2E31B311773331427A2CC632340611AEBCDE7A41721321 |
+| geology/bhuvan/Bhuvan_Groundwater_Prospects_LGEOM.01.parquet | Partie 2/2 : **411 895 polygones**, même schéma (total 820 552) | idem | 2026-10-07 | 15514DCF07E7394AC8EC3E03247BB6065FDCF83734232AE49BB824380553E022 |
+| geology/bhuvan/Bhuvan_Groundwater_Prospects_STRU.parquet | Structures (linéaires) des mêmes cartes : **859 695 entités**, 48 colonnes (`STRU_NAME`, `SUB_STRU`, `TYPE`) | idem | 2026-10-07 | 6EDDA6A0BFC66F25BC55CD9F3CF3828E1F361BE701DA6C47DA69D65CCFECD620 |
+| geology/bhuvan/Bhuvan_Lineament_50k_0506.parquet | Linéaments au 1:50 000, 2005-06 : **236 334 entités**, schéma propre (`Level1`, `Level2`, `Magnitude`, `st_code`) | NRSC/Bhuvan, republié par ramSeraph/indian_land_features | 2026-10-07 | 2D208A28A5B755E2FC21290594C753C745FBE8C43665E02A989B4104B9B9A944 |
+| geology/ngdr/NGDR_Lithology_50k.parquet | Lithologie au 1:50 000 : **3 966 842 polygones**, 30 colonnes, schéma propre et typé (`age`, `supergroup`, `group_name`, `formation`, `member`, `lithologic`, `stratigraphy_new`) | GSI / NGDR, republié par ramSeraph/indian_land_features, release `Indian Geology` | 2026-10-07 | 8DF26351E08332E23612DBCDBF92301116A0EC09306BB7B5897B2AF978B98ED7 |
+| geology/ngdr/NGDR_Lineament_250k.parquet | Linéaments au 1:250 000 : **35 330 entités** (`l1descript`, `l2descript`) | idem | 2026-10-07 | E5FF280228B243AA4949D65B3C34B016A2FCA3D63437CC1BDC6DA7081FA04138 |
+
+**Trois réserves constatées à l'inspection des schémas (2026-10-08), à traiter
+avant tout usage.**
+
+1. **LGEOM est une union de couches par État, non harmonisée.** 135 colonnes, et
+   le même concept y revient sous plusieurs noms : `Rock_type`, `Rock_Type_1`,
+   `ROCK_TYPE_2`, `ROCK_GR`, `ROCK_GROUP_1` ; `Descr_L1`…`L5` doublés en
+   `DESCR_L1_1`…`L5_1` ; `GWMP_CODE` et `GWMAP_CODE`. La colonne `sname` donne
+   l'État et est la clé de l'harmonisation.
+2. **Aucun champ explicite de matériau d'aquifère.** Les 20 classes d'aquifère de
+   Ryan & Sudarshan viennent de `AQ_MAT`, présent dans les shapefiles de bloc
+   (`HYDROGEOMORPHIC_DIVISION.shp`, voir `raw/nicholasryan2021/…/code/maps/depth_maps.R`),
+   pas dans cette couche nationale. À vérifier : `GWMP_CODE` / `GWMAP_CODE`
+   encodent-ils la classe de prospect, et peut-on en dériver l'équivalent ?
+3. **La densité de polygones varie d'un facteur 100 entre États**, et elle est
+   la plus faible exactement dans la plaine indo-gangétique : Chhattisgarh
+   123 731, AP 92 022, Odisha 90 304, Maharashtra 74 014, Rajasthan 71 785,
+   contre **UP 11 795, Bihar 6 255, Pendjab 1 189, Haryana 1 122**. C'est
+   cohérent avec une alluvion uniforme, mais ça veut dire que l'instrument n'a
+   quasiment pas de variation intra-État là où les variables d'eau SHRUG sont
+   les plus propres (UP). À regarder avant de choisir le périmètre.
+
 ## Terrain — CartoDEM v3r1 (1 seconde d'arc, ~30 m)
 Source : NRSC/ISRO Bhuvan, dérivé en COG par ramSeraph/indian_land_features, release `cartodem-30m-v3r1` ; licence annoncée « CC0 1.0, attribuer DataMeet et la source gouvernementale ». Seules les 34 tuiles de 1° × 1° contenant un puits de l'échantillon de l'étape 10 (socle de l'AP) sont téléchargées. Nom de tuile : `cdn` + bande de 4° de latitude (c = 8–12° N, d = 12–16°, e = 16–20°) + zone UTM (43 = 72–78° E, 44 = 78–84°) + case a–x (six par ligne, du nord au sud). Téléchargé le 2026-09-24. SHA256 par fichier :
 
