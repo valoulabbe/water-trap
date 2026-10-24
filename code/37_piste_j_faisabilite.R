@@ -3,6 +3,19 @@
 #   de la question de fond (partage public / prive par richesse). Comptes
 #   d'unites identifiantes et de variation, rien d'autre.
 #
+# CONSTATS ETABLIS PAR DOCUMENTATION (plus importants que les comptes) :
+#   1. NFHS-3 ne porte AUCUN identifiant de district : NFHS3SUP.PDF 1.5 a)
+#      et 5.0 (confidentialite du test VIH ; "no district-level
+#      identification is possible with NFHS-3 data").
+#   2. PAS DE PANEL : les grappes ne se reapparient pas entre vagues. NFHS-3
+#      a des PSU brouilles et renumerotes, lien a la base de sondage detruit
+#      (NFHS3SUP 5.0) ; aucune cle de liaison entre vagues, GPS deplaces a
+#      chaque enquete. Toute comparaison dans le temps passe par des unites
+#      agregees, et NFHS-3 n'en a pas sous l'Etat.
+#   3. hv270 de NFHS-5 ("wealth index combined") N'EST PAS ETABLI comme le
+#      meme construit que hv270 de NFHS-3 et NFHS-4 (Recode Manual DHS-7
+#      inaccessible depuis cette machine ; detail plus bas).
+#
 # INTERDICTION : aucune variable reseau_public_*, souterrain_* ni derivee
 # n'est lue, croisee ni tabulee (CLAUDE.md : pas de resultat avant le
 # critere). Seules variables lues : identifiants geographiques (hv001,
