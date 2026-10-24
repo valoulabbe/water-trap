@@ -1,0 +1,13 @@
+secteur,g_source,n,pct
+ensemble,souterrain_hand_pump,16124,59.0131943006607
+ensemble,souterrain_puits_non_protege,2229,6.9753285133114
+ensemble,souterrain_puits_protege,2150,5.60959752240367
+ensemble,souterrain_tube_well,8822,28.4018796636242
+rural,souterrain_hand_pump,13586,67.7955554541641
+rural,souterrain_puits_non_protege,1391,5.64057381374368
+rural,souterrain_puits_protege,1239,4.76936308886542
+rural,souterrain_tube_well,5016,21.7945076432268
+urbain,souterrain_hand_pump,2538,24.0124535904666
+urbain,souterrain_puits_non_protege,838,12.2947867244605
+urbain,souterrain_puits_protege,911,8.95822177390302
+urbain,souterrain_tube_well,3806,54.7345379111699

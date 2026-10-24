@@ -1,0 +1,16 @@
+secteur,g_benef,n,pct
+ensemble,jamais,28770,98.1820295089643
+ensemble,non_connu,33,0.0978938125652616
+ensemble,oui_3_dernieres_annees,256,0.789880606999746
+ensemble,oui_avant_3_ans,258,0.906264767768458
+ensemble,oui_date_inconnue,8,0.0239313037022458
+rural,jamais,20808,98.1614633681316
+rural,non_connu,10,0.0229359882144467
+rural,oui_3_dernieres_annees,203,0.811547101564553
+rural,oui_avant_3_ans,206,0.984992696131133
+rural,oui_date_inconnue,5,0.019060845958228
+urbain,jamais,7962,98.2639926792452
+urbain,non_connu,23,0.396626616699209
+urbain,oui_3_dernieres_annees,53,0.70353214727382
+urbain,oui_avant_3_ans,52,0.592506797774967
+urbain,oui_date_inconnue,3,0.0433417590067757

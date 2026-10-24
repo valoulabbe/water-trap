@@ -83,6 +83,42 @@
 # Le renommage (script 35 et code/ref/35_hv201_classes.csv) n'est fait que
 # si le verdict tombe en indeterminee ou en disqualifiee, pas avant.
 #
+# ===========================================================================
+# APRES EXECUTION (ajoute apres le verdict ; le critere ci-dessus est inchange)
+# ===========================================================================
+# VERDICT : NON DISQUALIFIEE (all-India C_bas 0.12 %, C_haut 1.84 % ; rural
+# et urbain idem). 99.5 % de U a un financement INCONNU (acces 1-3) : le
+# verdict repose sur 15.1, ou 98.2 % de U declare n'avoir jamais beneficie.
+#
+# LIMITE, DELTA C_bas : 2.25 % (2012) -> 0.12 % (2018), -2.13 points de taux
+# dans U (rural -2.53, urbain -0.70). U pese environ 28 % des menages. Une
+# derive de C_bas de 2.13 points de taux deplace donc environ 0.6 point de
+# menages. Le mouvement de souterrain_prive entre NFHS-4 et NFHS-5 etant de
+# 1.8 point, jusqu'a un tiers de ce mouvement peut relever de la derive de
+# mesure et non d'un changement de comportement. Deux lectures restent
+# ouvertes et ne se departagent pas avec ces donnees : une baisse reelle des
+# sources partagees sur parcelle entre 2012 et 2018, ou une derive de
+# pratique d'enquete non ecrite, le manuel etant inchange.
+# (Le seuil "stable a moins de 2 points" etait en points de taux dans U,
+# alors que les seuils 10 / 5 % sont justifies en points de menages :
+# l'enonce "franchit le seuil de 0.13 point" n'est pas interpretable et est
+# retire.)
+#
+# EXPLICATIONS TESTEES ET REJETEES :
+#   - Changement d'instruction aux enqueteurs : ins69chap3.pdf 3.4.4 / 3.4.4.1
+#     (round 69) et NSS_76_ins_Ch3.pdf 3.5.4 / 3.5.4.1 (round 76) sont
+#     identiques en substance (comparaison mot a mot) : definition de
+#     l'acces, liste des codes, texte sur le financement des codes 4-7,
+#     exemple du code 9 (menages de deux batiments distincts). Seuls ecarts :
+#     le code 9 est introduit par "In all other remaining cases" (69) contre
+#     "If access ... is not covered by any of the codes 1 to 7" (76), et
+#     deux reformulations mineures ("household's" / "of household"). Aucun
+#     ne touche les codes 4-7.
+#   - Erreur de plage de codes : code/ref/36_nss_codes_source_acces.csv relu,
+#     groupe souterrain du round 69 = 5, 6, 7 ; sources 8 et 9 en "autre".
+# La decomposition C_bas = (part collective 4-7) x (part publique parmi les
+# collectives) est en 36l : elle dit OU est la variation, pas POURQUOI.
+#
 # ATTENDU MECANIQUE, signale avant execution : les codes 4-5 designent un
 # usage COLLECTIF ; une source sur la parcelle en usage collectif est rare
 # par construction. C_bas sera donc faible et la branche "disqualifiee"
@@ -254,11 +290,17 @@ choisit_poids <- function(d, cand, eff, tol, r) {
   msg("NSS ", r, " : effectifs publies rural ", format(eff[["rural"]], big.mark = " "),
       ", urbain ", format(eff[["urbain"]], big.mark = " "), " (tolerance ", format(tol, big.mark = " "), ")")
   op <- options(width = 200); print(res[, .(candidat, rural = round(rural), urbain = round(urbain), ok)]); options(op)
-  check(sum(res$ok) == 1L, paste0("NSS ", r, " : un et un seul candidat de poids reproduit les effectifs"),
-        sprintf("%d candidat(s) valide(s)", sum(res$ok)))
+  check(sum(res$ok) >= 1L, paste0("NSS ", r, " : au moins un candidat de poids reproduit les effectifs"),
+        "aucun candidat valide")
+  # plusieurs candidats valides : admis seulement s'ils sont le MEME poids,
+  # menage par menage (ex. round 69 : Combined_Weight == regle NSS/NSC)
   k <- res[ok == TRUE, candidat]
-  note("NSS ", r, " : poids retenu -> ", k)
-  cand[[k]]
+  ecart <- max(vapply(k, function(x) max(abs(cand[[x]] - cand[[k[1]]])), numeric(1)))
+  check(ecart < 0.01, paste0("NSS ", r, " : les candidats valides sont identiques menage par menage"),
+        sprintf("ecart max %.4f entre %s", ecart, paste(k, collapse = " / ")))
+  note("NSS ", r, " : poids retenu -> ", k[1],
+       if (length(k) > 1) paste0(" (identique a : ", paste(k[-1], collapse = ", "), ")") else "")
+  cand[[k[1]]]
 }
 
 m76[, w := choisit_poids(m76, list(
@@ -482,6 +524,26 @@ msg(sprintf("DELTA C_bas all-India : %.2f %% (2012) -> %.2f %% (2018), ecart %+.
             de$C_bas_69, de$C_bas_76, de$delta_C_bas,
             if (de$stable) "STABLE a moins de 2 points : le constat de niveau ne disqualifie pas les comparaisons entre vagues"
             else "INSTABLE : la contamination bouge, les comparaisons entre vagues sont exposees"))
+msg(sprintf("En points de menages (U ~ 28 %% des menages) : derive ~ %.1f point, a comparer a +1.8 point de souterrain_prive NFHS-4 -> 5",
+            abs(de$delta_C_bas) * 0.28))
+
+# --- decomposition de C_bas -----------------------------------------------------
+# C_bas = a x b : a = part de U en usage collectif (acces 4-7), b = part sur
+# fonds publics (4-5) parmi ces collectives. Aucune conclusion tiree ici :
+# la table dit OU est la variation, pas POURQUOI.
+hr("36l. Decomposition de C_bas : usage collectif x fonds publics, rounds 69 et 76")
+decomp <- function(d, r) rbind(copy(d)[, secteur := "ensemble"], d)[, {
+  coll <- g_acces %in% c("fonds_publics", "fonds_prives")
+  list(round = r, n = .N, n_collectif = sum(coll),
+       a_collectif_4_7      = 100 * sum(w[coll]) / sum(w),
+       b_publics_parmi_coll = if (any(coll)) 100 * sum(w[g_acces == "fonds_publics"]) / sum(w[coll]) else NA_real_,
+       C_bas                = 100 * sum(w[g_acces == "fonds_publics"]) / sum(w))
+}, by = secteur]
+dec <- rbind(decomp(U69, 69L), decomp(U76, 76L))
+setcolorder(dec, c("round", "secteur"))
+setorderv(dec, c("secteur", "round"))
+op <- options(width = 200); print(dec); options(op)
+fwrite(dec, p_tab("36_nss_decomposition_C_bas.csv"))
 
 msg(""); msg("Termine. Tables dans output/tables/36_*.csv")
 log_close()

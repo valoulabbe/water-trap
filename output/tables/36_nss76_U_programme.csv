@@ -1,0 +1,11 @@
+secteur,g_programme,n,pct
+ensemble,AMRUT,9,1.22312723859733
+ensemble,NRDWP,91,32.5023097457801
+ensemble,autre,112,49.6007160749797
+ensemble,non_connu,44,16.6738469406429
+rural,NRDWP,91,39.5722948352668
+rural,autre,74,41.3579269120281
+rural,non_connu,38,19.0697782527051
+urbain,AMRUT,9,6.84611793294932
+urbain,autre,38,87.4946696197759
+urbain,non_connu,6,5.65921244727473

@@ -1,0 +1,43 @@
+secteur,source,libelle,groupe,dans_table,n,pct
+ensemble,,,,FALSE,11,0.0130643015517705
+ensemble,1,bottled water,embouteille,TRUE,1759,2.76504334995282
+ensemble,2,piped water into dwelling,reseau_domicile,TRUE,16825,15.5185041682356
+ensemble,3,piped water to yard/plot,reseau_domicile,TRUE,13632,13.8406548173921
+ensemble,4,public tap/standpipe,reseau_borne,TRUE,15183,13.8496603424366
+ensemble,5,tube well/borehole,souterrain_tube_well_ou_hand_pump,TRUE,34796,42.1064223388608
+ensemble,6,well: protected,souterrain_puits_protege,TRUE,2444,2.17097715819113
+ensemble,7,well: unprotected,souterrain_puits_non_protege,TRUE,6411,6.81776466409819
+ensemble,8,spring: protected,autre,TRUE,968,0.274107825886571
+ensemble,9,spring: unprotected,autre,TRUE,660,0.233597666336306
+ensemble,10,rainwater collection,autre,TRUE,116,0.114683780651206
+ensemble,11,surface water: tank/pond,autre,TRUE,671,0.372433251379968
+ensemble,12,"other surface water (river, dam, stream, canal, lake, etc.)",autre,TRUE,598,0.434012339020336
+ensemble,19,"others (tanker-truck, cart with small tank or drum, etc)",autre,TRUE,1474,1.48907399600658
+rural,,,,FALSE,7,0.0185028787893607
+rural,1,bottled water,embouteille,TRUE,464,1.6476538739954
+rural,2,piped water into dwelling,reseau_domicile,TRUE,3462,6.47033186539526
+rural,3,piped water to yard/plot,reseau_domicile,TRUE,5745,10.4346305226274
+rural,4,public tap/standpipe,reseau_borne,TRUE,8736,14.3347419388826
+rural,5,tube well/borehole,souterrain_tube_well_ou_hand_pump,TRUE,25284,52.3877699364233
+rural,6,well: protected,souterrain_puits_protege,TRUE,1725,2.67675376629647
+rural,7,well: unprotected,souterrain_puits_non_protege,TRUE,4852,8.95012907888468
+rural,8,spring: protected,autre,TRUE,881,0.389759697839091
+rural,9,spring: unprotected,autre,TRUE,580,0.332575361472461
+rural,10,rainwater collection,autre,TRUE,86,0.150568037795542
+rural,11,surface water: tank/pond,autre,TRUE,501,0.512699822052788
+rural,12,"other surface water (river, dam, stream, canal, lake, etc.)",autre,TRUE,512,0.626608631671078
+rural,19,"others (tanker-truck, cart with small tank or drum, etc)",autre,TRUE,558,1.06727458787454
+urbain,,,,FALSE,4,0.00131161087228436
+urbain,1,bottled water,embouteille,TRUE,1295,5.17970665355966
+urbain,2,piped water into dwelling,reseau_domicile,TRUE,13363,35.0714801846423
+urbain,3,piped water to yard/plot,reseau_domicile,TRUE,7887,21.201026516539
+urbain,4,public tap/standpipe,reseau_borne,TRUE,6447,12.8014056779742
+urbain,5,tube well/borehole,souterrain_tube_well_ou_hand_pump,TRUE,9512,19.8885714554985
+urbain,6,well: protected,souterrain_puits_protege,TRUE,719,1.07800085790133
+urbain,7,well: unprotected,souterrain_puits_non_protege,TRUE,1559,2.20975446435094
+urbain,8,spring: protected,autre,TRUE,87,0.0241857197579874
+urbain,9,spring: unprotected,autre,TRUE,80,0.0197082271896905
+urbain,10,rainwater collection,autre,TRUE,30,0.0371383940442849
+urbain,11,surface water: tank/pond,autre,TRUE,170,0.0693191195449303
+urbain,12,"other surface water (river, dam, stream, canal, lake, etc.)",autre,TRUE,86,0.0178143970484882
+urbain,19,"others (tanker-truck, cart with small tank or drum, etc)",autre,TRUE,916,2.40057672107641

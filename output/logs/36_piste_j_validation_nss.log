@@ -1,0 +1,753 @@
+==============================================================================
+LOG: output/logs/36_piste_j_validation_nss.log
+Run started: 2026-10-24 19:39:32
+==============================================================================
+
+ETAPE 36 -- PISTE J : VALIDATION DE LA DISTINCTION PRIVE / PARTAGE PAR LE NSS 76
+Controle de validite de la mesure. Critere ecrit dans l'en-tete avant tout chiffre.
+
+------------------------------------------------------------------------------
+36a. Table de codes (code/ref)
+------------------------------------------------------------------------------
+  [OK]   table de codes presente -> code/ref/36_nss_codes_source_acces.csv
+  [OK]   ref: all 5 named variables present
+  [OK]   ref: key (round+item+code) unique
+   round              item     N
+   <int>            <char> <int>
+1:    76            source    17
+2:    69            source    13
+3:    76             acces     8
+4:    69             acces     8
+5:    76          distance     7
+6:    69          distance     7
+7:    76      benefice_eau     3
+8:    76 benefice_eau_3ans     3
+9:    76     programme_eau     5
+
+------------------------------------------------------------------------------
+36b. Lecture NSS 76 et 69 (etapes 1 et 2)
+------------------------------------------------------------------------------
+[2026-10-24 19:39:32] etape 1/2 NSS 76 : deja fait, relu depuis build/36_nss76_menages.rds (ecrit le 2026-10-24 19:31)
+[2026-10-24 19:39:32] etape 1/2 NSS 76 : relu (0.1 s)
+[2026-10-24 19:39:32] etape 2/2 NSS 69 : deja fait, relu depuis build/36_nss69_menages.rds (ecrit le 2026-10-24 19:31)
+[2026-10-24 19:39:32] etape 2/2 NSS 69 : relu (0.1 s)
+  [OK]   NSS 76 : Sector 1 = 63736 menages ruraux, 2 = 43102 urbains (echantillon publie)
+  [OK]   NSS 69 : Sector 1 = 53393 menages ruraux, 2 = 42155 urbains (echantillon publie)
+
+------------------------------------------------------------------------------
+36c. Poids : candidat qui reproduit les effectifs publies
+------------------------------------------------------------------------------
+NSS 76 : effectifs publies rural 178 380 000, urbain 92 720 000 (tolerance 10 000)
+                 candidat     rural   urbain     ok
+                   <char>     <num>    <num> <lgcl>
+1:             Multiplier 178381593 92723932   TRUE
+2:       Multiplier / NSC  89224400 46457887  FALSE
+3:       Multiplier / 100   1783816   927239  FALSE
+4: Multiplier / (100 NSC)    892244   464579  FALSE
+  [OK]   NSS 76 : au moins un candidat de poids reproduit les effectifs
+  [OK]   NSS 76 : les candidats valides sont identiques menage par menage
+  NSS 76 : poids retenu -> Multiplier
+NSS 69 : effectifs publies rural 174 012 700, urbain 80 524 600 (tolerance 100)
+                    candidat     rural    urbain     ok
+                      <char>     <num>     <num> <lgcl>
+1:           Combined_Weight 174012652  80524645   TRUE
+2:                 MLT / 100 347429172 161038874  FALSE
+3:           MLT / (100 NSC) 173706721  34498138  FALSE
+4: MLT/100 si NSS==NSC, /200 174012652  80524645   TRUE
+  [OK]   NSS 69 : au moins un candidat de poids reproduit les effectifs
+  [OK]   NSS 69 : les candidats valides sont identiques menage par menage
+  NSS 69 : poids retenu -> Combined_Weight (identique a : MLT/100 si NSS==NSC, /200)
+
+------------------------------------------------------------------------------
+36d. Codes observes contre la table de codes
+------------------------------------------------------------------------------
+  [OK]   NSS 76 : tout code source observe est dans la table
+  NSS 76 source : 0 manquant(s)
+  [OK]   NSS 76 : tout code acces observe est dans la table
+  NSS 76 acces : 0 manquant(s)
+  [OK]   NSS 76 : tout code distance observe est dans la table
+  NSS 76 distance : 619 manquant(s)
+  [OK]   NSS 69 : tout code source observe est dans la table
+  NSS 69 source : 11 manquant(s)
+  [OK]   NSS 69 : tout code acces observe est dans la table
+  NSS 69 acces : 32 manquant(s)
+  [OK]   NSS 69 : tout code distance observe est dans la table
+  NSS 69 distance : 948 manquant(s)
+  [OK]   NSS 76 : tout code benef observe est dans la table
+  [OK]   NSS 76 : tout code benef_3ans observe est dans la table
+  [OK]   NSS 76 : tout code programme observe est dans la table
+  NSS 76 : quintile de depense par tete manquant pour 0 menages
+
+------------------------------------------------------------------------------
+36e. Sortie 1 -- distribution de la source principale, code par code
+------------------------------------------------------------------------------
+
+NSS 76 : source principale, % des menages
+     secteur source                                                     libelle                       groupe dans_table     n         pct
+      <char>  <int>                                                      <char>                       <char>     <lgcl> <int>       <num>
+ 1: ensemble      1                                               bottled water                  embouteille       TRUE  5880  6.80688101
+ 2: ensemble      2                                   piped water into dwelling              reseau_domicile       TRUE 26418 21.43984471
+ 3: ensemble      3                                    piped water to yard/plot              reseau_domicile       TRUE 13635 12.28685017
+ 4: ensemble      4                                  piped water from neighbour                reseau_voisin       TRUE  1137  0.96219702
+ 5: ensemble      5                                        public tap/standpipe                 reseau_borne       TRUE  9594  9.19081337
+ 6: ensemble      6                                                   tube well         souterrain_tube_well       TRUE 11185 10.69530719
+ 7: ensemble      7                                                   hand pump         souterrain_hand_pump       TRUE 28176 30.54190495
+ 8: ensemble      8                                             well: protected     souterrain_puits_protege       TRUE  3081  2.46594520
+ 9: ensemble      9                                           well: unprotected souterrain_puits_non_protege       TRUE  3921  3.69627702
+10: ensemble     10                                        tanker-truck: public                        autre       TRUE   262  0.30358839
+11: ensemble     11                                       tanker-truck: private                        autre       TRUE   566  0.44565941
+12: ensemble     12                                           spring: protected                        autre       TRUE  1032  0.18693100
+13: ensemble     13                                         spring: unprotected                        autre       TRUE   361  0.18343312
+14: ensemble     14                                        rainwater collection                        autre       TRUE   224  0.15450695
+15: ensemble     15                                    surface water: tank/pond                        autre       TRUE   497  0.25175551
+16: ensemble     16 other surface water (river, dam, stream, canal, lake, etc.)                        autre       TRUE   370  0.20822554
+17: ensemble     19                  others (cart with small tank or drum, etc)                        autre       TRUE   499  0.17987945
+18:    rural      1                                               bottled water                  embouteille       TRUE  2006  3.98397273
+19:    rural      2                                   piped water into dwelling              reseau_domicile       TRUE  8354 11.33767624
+20:    rural      3                                    piped water to yard/plot              reseau_domicile       TRUE  7050 10.34331234
+21:    rural      4                                  piped water from neighbour                reseau_voisin       TRUE   656  0.95374737
+22:    rural      5                                        public tap/standpipe                 reseau_borne       TRUE  6596 10.28116766
+23:    rural      6                                                   tube well         souterrain_tube_well       TRUE  6910 10.86712662
+24:    rural      7                                                   hand pump         souterrain_hand_pump       TRUE 24422 42.91690773
+25:    rural      8                                             well: protected     souterrain_puits_protege       TRUE  2032  2.88200368
+26:    rural      9                                           well: unprotected souterrain_puits_non_protege       TRUE  2967  4.37737937
+27:    rural     10                                        tanker-truck: public                        autre       TRUE    64  0.05486937
+28:    rural     11                                       tanker-truck: private                        autre       TRUE   296  0.41534616
+29:    rural     12                                           spring: protected                        autre       TRUE   832  0.25662256
+30:    rural     13                                         spring: unprotected                        autre       TRUE   334  0.27019193
+31:    rural     14                                        rainwater collection                        autre       TRUE   179  0.21232881
+32:    rural     15                                    surface water: tank/pond                        autre       TRUE   422  0.35704035
+33:    rural     16 other surface water (river, dam, stream, canal, lake, etc.)                        autre       TRUE   321  0.29507701
+34:    rural     19                  others (cart with small tank or drum, etc)                        autre       TRUE   295  0.19523006
+35:   urbain      1                                               bottled water                  embouteille       TRUE  3874 12.23757041
+36:   urbain      2                                   piped water into dwelling              reseau_domicile       TRUE 18064 40.87431933
+37:   urbain      3                                    piped water to yard/plot              reseau_domicile       TRUE  6585 16.02581341
+38:   urbain      4                                  piped water from neighbour                reseau_voisin       TRUE   481  0.97845239
+39:   urbain      5                                        public tap/standpipe                 reseau_borne       TRUE  2998  7.09319811
+40:   urbain      6                                                   tube well         souterrain_tube_well       TRUE  4275 10.36476227
+41:   urbain      7                                                   hand pump         souterrain_hand_pump       TRUE  3754  6.73496904
+42:   urbain      8                                             well: protected     souterrain_puits_protege       TRUE  1049  1.66553508
+43:   urbain      9                                           well: unprotected souterrain_puits_non_protege       TRUE   954  2.38597750
+44:   urbain     10                                        tanker-truck: public                        autre       TRUE   198  0.78207216
+45:   urbain     11                                       tanker-truck: private                        autre       TRUE   270  0.50397581
+46:   urbain     12                                           spring: protected                        autre       TRUE   200  0.05285890
+47:   urbain     13                                         spring: unprotected                        autre       TRUE    27  0.01652718
+48:   urbain     14                                        rainwater collection                        autre       TRUE    45  0.04326968
+49:   urbain     15                                    surface water: tank/pond                        autre       TRUE    75  0.04920933
+50:   urbain     16 other surface water (river, dam, stream, canal, lake, etc.)                        autre       TRUE    49  0.04114134
+51:   urbain     19                  others (cart with small tank or drum, etc)                        autre       TRUE   204  0.15034806
+     secteur source                                                     libelle                       groupe dans_table     n         pct
+      <char>  <int>                                                      <char>                       <char>     <lgcl> <int>       <num>
+
+NSS 69 : source principale, % des menages
+     secteur source                                                     libelle                            groupe dans_table     n          pct
+      <char>  <int>                                                      <char>                            <char>     <lgcl> <int>        <num>
+ 1: ensemble     NA                                                        <NA>                              <NA>      FALSE    11  0.013064302
+ 2: ensemble      1                                               bottled water                       embouteille       TRUE  1759  2.765043350
+ 3: ensemble      2                                   piped water into dwelling                   reseau_domicile       TRUE 16825 15.518504168
+ 4: ensemble      3                                    piped water to yard/plot                   reseau_domicile       TRUE 13632 13.840654817
+ 5: ensemble      4                                        public tap/standpipe                      reseau_borne       TRUE 15183 13.849660342
+ 6: ensemble      5                                          tube well/borehole souterrain_tube_well_ou_hand_pump       TRUE 34796 42.106422339
+ 7: ensemble      6                                             well: protected          souterrain_puits_protege       TRUE  2444  2.170977158
+ 8: ensemble      7                                           well: unprotected      souterrain_puits_non_protege       TRUE  6411  6.817764664
+ 9: ensemble      8                                           spring: protected                             autre       TRUE   968  0.274107826
+10: ensemble      9                                         spring: unprotected                             autre       TRUE   660  0.233597666
+11: ensemble     10                                        rainwater collection                             autre       TRUE   116  0.114683781
+12: ensemble     11                                    surface water: tank/pond                             autre       TRUE   671  0.372433251
+13: ensemble     12 other surface water (river, dam, stream, canal, lake, etc.)                             autre       TRUE   598  0.434012339
+14: ensemble     19    others (tanker-truck, cart with small tank or drum, etc)                             autre       TRUE  1474  1.489073996
+15:    rural     NA                                                        <NA>                              <NA>      FALSE     7  0.018502879
+16:    rural      1                                               bottled water                       embouteille       TRUE   464  1.647653874
+17:    rural      2                                   piped water into dwelling                   reseau_domicile       TRUE  3462  6.470331865
+18:    rural      3                                    piped water to yard/plot                   reseau_domicile       TRUE  5745 10.434630523
+19:    rural      4                                        public tap/standpipe                      reseau_borne       TRUE  8736 14.334741939
+20:    rural      5                                          tube well/borehole souterrain_tube_well_ou_hand_pump       TRUE 25284 52.387769936
+21:    rural      6                                             well: protected          souterrain_puits_protege       TRUE  1725  2.676753766
+22:    rural      7                                           well: unprotected      souterrain_puits_non_protege       TRUE  4852  8.950129079
+23:    rural      8                                           spring: protected                             autre       TRUE   881  0.389759698
+24:    rural      9                                         spring: unprotected                             autre       TRUE   580  0.332575361
+25:    rural     10                                        rainwater collection                             autre       TRUE    86  0.150568038
+26:    rural     11                                    surface water: tank/pond                             autre       TRUE   501  0.512699822
+27:    rural     12 other surface water (river, dam, stream, canal, lake, etc.)                             autre       TRUE   512  0.626608632
+28:    rural     19    others (tanker-truck, cart with small tank or drum, etc)                             autre       TRUE   558  1.067274588
+29:   urbain     NA                                                        <NA>                              <NA>      FALSE     4  0.001311611
+30:   urbain      1                                               bottled water                       embouteille       TRUE  1295  5.179706654
+31:   urbain      2                                   piped water into dwelling                   reseau_domicile       TRUE 13363 35.071480185
+32:   urbain      3                                    piped water to yard/plot                   reseau_domicile       TRUE  7887 21.201026517
+33:   urbain      4                                        public tap/standpipe                      reseau_borne       TRUE  6447 12.801405678
+34:   urbain      5                                          tube well/borehole souterrain_tube_well_ou_hand_pump       TRUE  9512 19.888571455
+35:   urbain      6                                             well: protected          souterrain_puits_protege       TRUE   719  1.078000858
+36:   urbain      7                                           well: unprotected      souterrain_puits_non_protege       TRUE  1559  2.209754464
+37:   urbain      8                                           spring: protected                             autre       TRUE    87  0.024185720
+38:   urbain      9                                         spring: unprotected                             autre       TRUE    80  0.019708227
+39:   urbain     10                                        rainwater collection                             autre       TRUE    30  0.037138394
+40:   urbain     11                                    surface water: tank/pond                             autre       TRUE   170  0.069319120
+41:   urbain     12 other surface water (river, dam, stream, canal, lake, etc.)                             autre       TRUE    86  0.017814397
+42:   urbain     19    others (tanker-truck, cart with small tank or drum, etc)                             autre       TRUE   916  2.400576721
+     secteur source                                                     libelle                            groupe dans_table     n          pct
+      <char>  <int>                                                      <char>                            <char>     <lgcl> <int>        <num>
+
+------------------------------------------------------------------------------
+36f. Controle pondere, NSS 76 contre le rapport 584 (Statement 2)
+------------------------------------------------------------------------------
+  [OK]   NSS 76 : source 1 Bottled water, rural == 4.0 (tol. 0.05)
+  [OK]   NSS 76 : source 2 Piped water into dwelling, rural == 11.3 (tol. 0.05)
+  [OK]   NSS 76 : source 3 Piped water to yard/plot, rural == 10.3 (tol. 0.05)
+  [OK]   NSS 76 : source 4 Piped water from neighbour, rural == 1.0 (tol. 0.05)
+  [OK]   NSS 76 : source 5 Public tap/stand pipe, rural == 10.3 (tol. 0.05)
+  [OK]   NSS 76 : source 6 Tube well, rural == 10.9 (tol. 0.05)
+  [OK]   NSS 76 : source 7 Hand pump, rural == 42.9 (tol. 0.05)
+  [OK]   NSS 76 : source 8 Protected well, rural == 2.9 (tol. 0.05)
+  [OK]   NSS 76 : source 9 Unprotected well, rural == 4.4 (tol. 0.05)
+  [OK]   NSS 76 : source 10 Public tanker truck, rural == 0.1 (tol. 0.05)
+  [OK]   NSS 76 : source 11 Private tanker truck, rural == 0.4 (tol. 0.05)
+  [OK]   NSS 76 : source 12 Protected spring, rural == 0.3 (tol. 0.05)
+  [OK]   NSS 76 : source 13 Unprotected spring, rural == 0.3 (tol. 0.05)
+  [OK]   NSS 76 : source 14 Rainwater collection, rural == 0.2 (tol. 0.05)
+  [OK]   NSS 76 : source 15 Surface water: tank/pond, rural == 0.4 (tol. 0.05)
+  [OK]   NSS 76 : source 16 Surface water: other, rural == 0.3 (tol. 0.05)
+  [OK]   NSS 76 : source 19 Others, rural == 0.2 (tol. 0.05)
+  [OK]   NSS 76 : source 1 Bottled water, urbain == 12.2 (tol. 0.05)
+  [OK]   NSS 76 : source 2 Piped water into dwelling, urbain == 40.9 (tol. 0.05)
+  [OK]   NSS 76 : source 3 Piped water to yard/plot, urbain == 16.0 (tol. 0.05)
+  [OK]   NSS 76 : source 4 Piped water from neighbour, urbain == 1.0 (tol. 0.05)
+  [OK]   NSS 76 : source 5 Public tap/stand pipe, urbain == 7.1 (tol. 0.05)
+  [OK]   NSS 76 : source 6 Tube well, urbain == 10.4 (tol. 0.05)
+  [OK]   NSS 76 : source 7 Hand pump, urbain == 6.7 (tol. 0.05)
+  [OK]   NSS 76 : source 8 Protected well, urbain == 1.7 (tol. 0.05)
+  [OK]   NSS 76 : source 9 Unprotected well, urbain == 2.4 (tol. 0.05)
+  [OK]   NSS 76 : source 10 Public tanker truck, urbain == 0.8 (tol. 0.05)
+  [OK]   NSS 76 : source 11 Private tanker truck, urbain == 0.5 (tol. 0.05)
+  [OK]   NSS 76 : source 12 Protected spring, urbain == 0.1 (tol. 0.05)
+  [OK]   NSS 76 : source 13 Unprotected spring, urbain == 0.0 (tol. 0.05)
+  [OK]   NSS 76 : source 14 Rainwater collection, urbain == 0.0 (tol. 0.05)
+  [OK]   NSS 76 : source 15 Surface water: tank/pond, urbain == 0.0 (tol. 0.05)
+  [OK]   NSS 76 : source 16 Surface water: other, urbain == 0.0 (tol. 0.05)
+  [OK]   NSS 76 : source 19 Others, urbain == 0.2 (tol. 0.05)
+  [OK]   NSS 76 : source 1 Bottled water, ensemble == 6.8 (tol. 0.05)
+  [OK]   NSS 76 : source 2 Piped water into dwelling, ensemble == 21.4 (tol. 0.05)
+  [OK]   NSS 76 : source 3 Piped water to yard/plot, ensemble == 12.3 (tol. 0.05)
+  [OK]   NSS 76 : source 4 Piped water from neighbour, ensemble == 1.0 (tol. 0.05)
+  [OK]   NSS 76 : source 5 Public tap/stand pipe, ensemble == 9.2 (tol. 0.05)
+  [OK]   NSS 76 : source 6 Tube well, ensemble == 10.7 (tol. 0.05)
+  [OK]   NSS 76 : source 7 Hand pump, ensemble == 30.5 (tol. 0.05)
+  [OK]   NSS 76 : source 8 Protected well, ensemble == 2.5 (tol. 0.05)
+  [OK]   NSS 76 : source 9 Unprotected well, ensemble == 3.7 (tol. 0.05)
+  [OK]   NSS 76 : source 10 Public tanker truck, ensemble == 0.3 (tol. 0.05)
+  [OK]   NSS 76 : source 11 Private tanker truck, ensemble == 0.4 (tol. 0.05)
+  [OK]   NSS 76 : source 12 Protected spring, ensemble == 0.2 (tol. 0.05)
+  [OK]   NSS 76 : source 13 Unprotected spring, ensemble == 0.2 (tol. 0.05)
+  [OK]   NSS 76 : source 14 Rainwater collection, ensemble == 0.2 (tol. 0.05)
+  [OK]   NSS 76 : source 15 Surface water: tank/pond, ensemble == 0.3 (tol. 0.05)
+  [OK]   NSS 76 : source 16 Surface water: other, ensemble == 0.2 (tol. 0.05)
+  [OK]   NSS 76 : source 19 Others, ensemble == 0.2 (tol. 0.05)
+
+Population U (NSS 76) : source 6-9 et distance 1-2 -> 29 325 menages
+
+------------------------------------------------------------------------------
+36g. Sortie 2 -- U : tube well / hand pump / puits protege / non protege
+------------------------------------------------------------------------------
+
+NSS 76, U : repartition par type de source (% de U)
+     secteur                     g_source     n       pct
+      <char>                       <char> <int>     <num>
+ 1: ensemble         souterrain_hand_pump 16124 59.013194
+ 2: ensemble souterrain_puits_non_protege  2229  6.975329
+ 3: ensemble     souterrain_puits_protege  2150  5.609598
+ 4: ensemble         souterrain_tube_well  8822 28.401880
+ 5:    rural         souterrain_hand_pump 13586 67.795555
+ 6:    rural souterrain_puits_non_protege  1391  5.640574
+ 7:    rural     souterrain_puits_protege  1239  4.769363
+ 8:    rural         souterrain_tube_well  5016 21.794508
+ 9:   urbain         souterrain_hand_pump  2538 24.012454
+10:   urbain souterrain_puits_non_protege   838 12.294787
+11:   urbain     souterrain_puits_protege   911  8.958222
+12:   urbain         souterrain_tube_well  3806 54.734538
+
+NSS 76, U : type de source par quintile de depense par tete
+     secteur quintile                     g_source     n       pct
+      <char>    <int>                       <char> <int>     <num>
+ 1: ensemble        1         souterrain_hand_pump  5029 83.129360
+ 2: ensemble        1 souterrain_puits_non_protege   204  2.613443
+ 3: ensemble        1     souterrain_puits_protege   159  1.850556
+ 4: ensemble        1         souterrain_tube_well   858 12.406641
+ 5: ensemble        2         souterrain_hand_pump  5198 75.677695
+ 6: ensemble        2 souterrain_puits_non_protege   299  3.469172
+ 7: ensemble        2     souterrain_puits_protege   256  2.829959
+ 8: ensemble        2         souterrain_tube_well  1434 18.023174
+ 9: ensemble        3         souterrain_hand_pump  3327 57.379343
+10: ensemble        3 souterrain_puits_non_protege   474  7.490513
+11: ensemble        3     souterrain_puits_protege   440  5.475872
+12: ensemble        3         souterrain_tube_well  1816 29.654272
+13: ensemble        4         souterrain_hand_pump  1981 32.512473
+14: ensemble        4 souterrain_puits_non_protege   730 13.717248
+15: ensemble        4     souterrain_puits_protege   645  9.503734
+16: ensemble        4         souterrain_tube_well  2510 44.266546
+17: ensemble        5         souterrain_hand_pump   589 10.488276
+18: ensemble        5 souterrain_puits_non_protege   522 13.931344
+19: ensemble        5     souterrain_puits_protege   650 14.469192
+20: ensemble        5         souterrain_tube_well  2204 61.111187
+21:    rural        1         souterrain_hand_pump  4770 84.162996
+22:    rural        1 souterrain_puits_non_protege   184  2.498428
+23:    rural        1     souterrain_puits_protege   142  1.761005
+24:    rural        1         souterrain_tube_well   719 11.577571
+25:    rural        2         souterrain_hand_pump  4699 76.865196
+26:    rural        2 souterrain_puits_non_protege   238  3.083581
+27:    rural        2     souterrain_puits_protege   205  2.705320
+28:    rural        2         souterrain_tube_well  1210 17.345904
+29:    rural        3         souterrain_hand_pump  2736 60.713131
+30:    rural        3 souterrain_puits_non_protege   338  6.736833
+31:    rural        3     souterrain_puits_protege   279  5.089918
+32:    rural        3         souterrain_tube_well  1282 27.460118
+33:    rural        4         souterrain_hand_pump  1179 37.633869
+34:    rural        4 souterrain_puits_non_protege   419 13.311288
+35:    rural        4     souterrain_puits_protege   342  9.709522
+36:    rural        4         souterrain_tube_well  1231 39.345320
+37:    rural        5         souterrain_hand_pump   202 16.853800
+38:    rural        5 souterrain_puits_non_protege   212 16.734261
+39:    rural        5     souterrain_puits_protege   271 21.836379
+40:    rural        5         souterrain_tube_well   574 44.575559
+41:   urbain        1         souterrain_hand_pump   259 55.179275
+42:   urbain        1 souterrain_puits_non_protege    20  5.723532
+43:   urbain        1     souterrain_puits_protege    17  4.272059
+44:   urbain        1         souterrain_tube_well   139 34.825134
+45:   urbain        2         souterrain_hand_pump   499 59.286908
+46:   urbain        2 souterrain_puits_non_protege    61  8.791400
+47:   urbain        2     souterrain_puits_protege    51  4.550319
+48:   urbain        2         souterrain_tube_well   224 27.371374
+49:   urbain        3         souterrain_hand_pump   591 39.657543
+50:   urbain        3 souterrain_puits_non_protege   136 11.496932
+51:   urbain        3     souterrain_puits_protege   161  7.527535
+52:   urbain        3         souterrain_tube_well   534 41.317989
+53:   urbain        4         souterrain_hand_pump   802 23.869115
+54:   urbain        4 souterrain_puits_non_protege   311 14.402384
+55:   urbain        4     souterrain_puits_protege   303  9.156425
+56:   urbain        4         souterrain_tube_well  1279 52.572075
+57:   urbain        5         souterrain_hand_pump   387  7.325810
+58:   urbain        5 souterrain_puits_non_protege   310 12.538822
+59:   urbain        5     souterrain_puits_protege   379 10.809088
+60:   urbain        5         souterrain_tube_well  1630 69.326280
+     secteur quintile                     g_source     n       pct
+      <char>    <int>                       <char> <int>     <num>
+
+------------------------------------------------------------------------------
+36h. Sortie 3 -- U x acces (item 4) ; financement INCONNU = codes 1-3
+------------------------------------------------------------------------------
+
+NSS 76, U : acces par type de source (% du type de source)
+     secteur                     g_source                      g_acces     n         pct
+      <char>                       <char>                       <char> <int>       <num>
+ 1: ensemble         souterrain_hand_pump                  autre_acces    29  0.13464384
+ 2: ensemble         souterrain_hand_pump   commun_financement_inconnu  3601 21.73613718
+ 3: ensemble         souterrain_hand_pump exclusif_financement_inconnu 12338 77.16825574
+ 4: ensemble         souterrain_hand_pump                 fonds_prives    11  0.05277647
+ 5: ensemble         souterrain_hand_pump                fonds_publics    26  0.15429483
+ 6: ensemble         souterrain_hand_pump   voisin_financement_inconnu   119  0.75389195
+ 7: ensemble souterrain_puits_non_protege                  autre_acces    16  0.59229295
+ 8: ensemble souterrain_puits_non_protege   commun_financement_inconnu   244 10.24487523
+ 9: ensemble souterrain_puits_non_protege exclusif_financement_inconnu  1885 85.65286037
+10: ensemble souterrain_puits_non_protege                 fonds_prives    12  0.45009938
+11: ensemble souterrain_puits_non_protege   voisin_financement_inconnu    72  3.05987208
+12: ensemble     souterrain_puits_protege                  autre_acces    24  0.79872018
+13: ensemble     souterrain_puits_protege   commun_financement_inconnu   327 13.64146559
+14: ensemble     souterrain_puits_protege exclusif_financement_inconnu  1764 84.31572459
+15: ensemble     souterrain_puits_protege                 fonds_prives     3  0.09390833
+16: ensemble     souterrain_puits_protege   voisin_financement_inconnu    32  1.15018131
+17: ensemble         souterrain_tube_well                  autre_acces    36  0.40688920
+18: ensemble         souterrain_tube_well   commun_financement_inconnu  1932 26.10314861
+19: ensemble         souterrain_tube_well exclusif_financement_inconnu  6779 72.74218976
+20: ensemble         souterrain_tube_well                 fonds_prives    13  0.11100155
+21: ensemble         souterrain_tube_well                fonds_publics     7  0.08585066
+22: ensemble         souterrain_tube_well   voisin_financement_inconnu    55  0.55092022
+23:    rural         souterrain_hand_pump                  autre_acces    18  0.08507643
+24:    rural         souterrain_hand_pump   commun_financement_inconnu  2771 20.82674531
+25:    rural         souterrain_hand_pump exclusif_financement_inconnu 10661 78.09088448
+26:    rural         souterrain_hand_pump                 fonds_prives     6  0.04616877
+27:    rural         souterrain_hand_pump                fonds_publics    21  0.15773362
+28:    rural         souterrain_hand_pump   voisin_financement_inconnu   109  0.79339138
+29:    rural souterrain_puits_non_protege                  autre_acces    13  0.68960274
+30:    rural souterrain_puits_non_protege   commun_financement_inconnu   161 11.12598547
+31:    rural souterrain_puits_non_protege exclusif_financement_inconnu  1163 84.50397029
+32:    rural souterrain_puits_non_protege                 fonds_prives     5  0.32772430
+33:    rural souterrain_puits_non_protege   voisin_financement_inconnu    49  3.35271720
+34:    rural     souterrain_puits_protege                  autre_acces    23  1.16199955
+35:    rural     souterrain_puits_protege   commun_financement_inconnu   131 11.49385014
+36:    rural     souterrain_puits_protege exclusif_financement_inconnu  1065 86.09024404
+37:    rural     souterrain_puits_protege   voisin_financement_inconnu    20  1.25390628
+38:    rural         souterrain_tube_well                  autre_acces    29  0.57083104
+39:    rural         souterrain_tube_well   commun_financement_inconnu   761 19.55647119
+40:    rural         souterrain_tube_well exclusif_financement_inconnu  4173 78.86007050
+41:    rural         souterrain_tube_well                 fonds_prives     8  0.13899994
+42:    rural         souterrain_tube_well                fonds_publics     7  0.13995002
+43:    rural         souterrain_tube_well   voisin_financement_inconnu    38  0.73367731
+44:   urbain         souterrain_hand_pump                  autre_acces    11  0.69237750
+45:   urbain         souterrain_hand_pump   commun_financement_inconnu   830 31.96863577
+46:   urbain         souterrain_hand_pump exclusif_financement_inconnu  1677 66.78681553
+47:   urbain         souterrain_hand_pump                 fonds_prives     5  0.12712636
+48:   urbain         souterrain_hand_pump                fonds_publics     5  0.11560150
+49:   urbain         souterrain_hand_pump   voisin_financement_inconnu    10  0.30944333
+50:   urbain souterrain_puits_non_protege                  autre_acces     3  0.41437294
+51:   urbain souterrain_puits_non_protege   commun_financement_inconnu    83  8.63386432
+52:   urbain souterrain_puits_non_protege exclusif_financement_inconnu   722 87.75347656
+53:   urbain souterrain_puits_non_protege                 fonds_prives     7  0.67384843
+54:   urbain souterrain_puits_non_protege   voisin_financement_inconnu    23  2.52443775
+55:   urbain     souterrain_puits_protege                  autre_acces     1  0.02791390
+56:   urbain     souterrain_puits_protege   commun_financement_inconnu   196 18.19827683
+57:   urbain     souterrain_puits_protege exclusif_financement_inconnu   699 80.55054858
+58:   urbain     souterrain_puits_protege                 fonds_prives     3  0.29316304
+59:   urbain     souterrain_puits_protege   voisin_financement_inconnu    12  0.93009764
+60:   urbain         souterrain_tube_well                  autre_acces     7  0.14672871
+61:   urbain         souterrain_tube_well   commun_financement_inconnu  1171 36.49211859
+62:   urbain         souterrain_tube_well exclusif_financement_inconnu  2606 63.03368034
+63:   urbain         souterrain_tube_well                 fonds_prives     5  0.06657069
+64:   urbain         souterrain_tube_well   voisin_financement_inconnu    17  0.26090166
+     secteur                     g_source                      g_acces     n         pct
+      <char>                       <char>                       <char> <int>       <num>
+
+NSS 76, U : part au financement INCONNU (acces 1-3), public, prive, par type de source
+     secteur                     g_source     n financement_inconnu_1_3 fonds_publics_4_5 fonds_prives_6_7 autre_ou_manquant
+      <char>                       <char> <int>                   <num>             <num>            <num>             <num>
+ 1: ensemble         souterrain_tube_well  8822                99.39626        0.08585066       0.11100155        0.40688920
+ 2: ensemble         souterrain_hand_pump 16124                99.65828        0.15429483       0.05277647        0.13464384
+ 3: ensemble     souterrain_puits_protege  2150                99.10737        0.00000000       0.09390833        0.79872018
+ 4: ensemble souterrain_puits_non_protege  2229                98.95761        0.00000000       0.45009938        0.59229295
+ 5:    rural         souterrain_hand_pump 13586                99.71102        0.15773362       0.04616877        0.08507643
+ 6:    rural         souterrain_tube_well  5016                99.15022        0.13995002       0.13899994        0.57083104
+ 7:    rural     souterrain_puits_protege  1239                98.83800        0.00000000       0.00000000        1.16199955
+ 8:    rural souterrain_puits_non_protege  1391                98.98267        0.00000000       0.32772430        0.68960274
+ 9:   urbain         souterrain_tube_well  3806                99.78670        0.00000000       0.06657069        0.14672871
+10:   urbain         souterrain_hand_pump  2538                99.06489        0.11560150       0.12712636        0.69237750
+11:   urbain     souterrain_puits_protege   911                99.67892        0.00000000       0.29316304        0.02791390
+12:   urbain souterrain_puits_non_protege   838                98.91178        0.00000000       0.67384843        0.41437294
+
+NSS 76, U : financement par quintile de depense par tete
+     secteur quintile     n financement_inconnu_1_3 fonds_publics_4_5 fonds_prives_6_7 autre_ou_manquant
+      <char>    <int> <int>                   <num>             <num>            <num>             <num>
+ 1: ensemble        1  6250                99.69784       0.182108469       0.02625056        0.09379709
+ 2: ensemble        2  7187                99.52892       0.134238028       0.10311852        0.23372447
+ 3: ensemble        3  6057                99.43655       0.115248416       0.06730379        0.38089690
+ 4: ensemble        4  5866                99.30267       0.037583280       0.17908160        0.48066720
+ 5: ensemble        5  3965                99.41732       0.039340445       0.18696104        0.35638020
+ 6:    rural        1  5815                99.70248       0.188843116       0.02130373        0.08737194
+ 7:    rural        2  6352                99.51926       0.143963479       0.10472435        0.23205528
+ 8:    rural        3  4635                99.42412       0.108921575       0.07564049        0.39131551
+ 9:    rural        4  3171                99.27090       0.050889265       0.15108494        0.52712300
+10:    rural        5  1259                99.14843       0.114403296       0.12525875        0.61190667
+11:   urbain        1   435                99.57245       0.000000000       0.16001557        0.26753671
+12:   urbain        2   835                99.66228       0.000000000       0.08095360        0.25676395
+13:   urbain        3  1422                99.50262       0.148880724       0.02298745        0.32551348
+14:   urbain        4  2695                99.35628       0.015126832       0.22633144        0.40226395
+15:   urbain        5  2706                99.55090       0.002048347       0.21761546        0.22943167
+
+------------------------------------------------------------------------------
+36i. Sortie 4 -- U x item 15.1 (benefice d'un programme public d'eau)
+------------------------------------------------------------------------------
+
+NSS 76, U : benefice 15.1 (jamais / 3 dernieres annees / avant / non connu)
+     secteur                g_benef     n         pct
+      <char>                 <char> <int>       <num>
+ 1: ensemble                 jamais 28770 98.18202951
+ 2: ensemble              non_connu    33  0.09789381
+ 3: ensemble oui_3_dernieres_annees   256  0.78988061
+ 4: ensemble        oui_avant_3_ans   258  0.90626477
+ 5: ensemble      oui_date_inconnue     8  0.02393130
+ 6:    rural                 jamais 20808 98.16146337
+ 7:    rural              non_connu    10  0.02293599
+ 8:    rural oui_3_dernieres_annees   203  0.81154710
+ 9:    rural        oui_avant_3_ans   206  0.98499270
+10:    rural      oui_date_inconnue     5  0.01906085
+11:   urbain                 jamais  7962 98.26399268
+12:   urbain              non_connu    23  0.39662662
+13:   urbain oui_3_dernieres_annees    53  0.70353215
+14:   urbain        oui_avant_3_ans    52  0.59250680
+15:   urbain      oui_date_inconnue     3  0.04334176
+
+NSS 76, U : benefice 15.1 par type de source
+     secteur                     g_source                g_benef     n          pct
+      <char>                       <char>                 <char> <int>        <num>
+ 1: ensemble         souterrain_hand_pump                 jamais 15829 9.824309e+01
+ 2: ensemble         souterrain_hand_pump              non_connu     5 1.325592e-02
+ 3: ensemble         souterrain_hand_pump oui_3_dernieres_annees   134 6.674546e-01
+ 4: ensemble         souterrain_hand_pump        oui_avant_3_ans   153 1.053495e+00
+ 5: ensemble         souterrain_hand_pump      oui_date_inconnue     3 2.270691e-02
+ 6: ensemble souterrain_puits_non_protege                 jamais  2183 9.823667e+01
+ 7: ensemble souterrain_puits_non_protege              non_connu     4 7.033924e-02
+ 8: ensemble souterrain_puits_non_protege oui_3_dernieres_annees    18 8.816888e-01
+ 9: ensemble souterrain_puits_non_protege        oui_avant_3_ans    22 6.987044e-01
+10: ensemble souterrain_puits_non_protege      oui_date_inconnue     2 1.125997e-01
+11: ensemble     souterrain_puits_protege                 jamais  2088 9.742654e+01
+12: ensemble     souterrain_puits_protege              non_connu     5 2.707495e-01
+13: ensemble     souterrain_puits_protege oui_3_dernieres_annees    30 1.118895e+00
+14: ensemble     souterrain_puits_protege        oui_avant_3_ans    26 1.183262e+00
+15: ensemble     souterrain_puits_protege      oui_date_inconnue     1 5.539047e-04
+16: ensemble         souterrain_tube_well                 jamais  8670 9.819096e+01
+17: ensemble         souterrain_tube_well              non_connu    19 2.463806e-01
+18: ensemble         souterrain_tube_well oui_3_dernieres_annees    74 9.567258e-01
+19: ensemble         souterrain_tube_well        oui_avant_3_ans    57 5.966168e-01
+20: ensemble         souterrain_tube_well      oui_date_inconnue     2 9.316153e-03
+21:    rural         souterrain_hand_pump                 jamais 13317 9.814921e+01
+22:    rural         souterrain_hand_pump              non_connu     3 1.232398e-02
+23:    rural         souterrain_hand_pump oui_3_dernieres_annees   122 7.059103e-01
+24:    rural         souterrain_hand_pump        oui_avant_3_ans   142 1.114198e+00
+25:    rural         souterrain_hand_pump      oui_date_inconnue     2 1.836171e-02
+26:    rural souterrain_puits_non_protege                 jamais  1359 9.815944e+01
+27:    rural souterrain_puits_non_protege              non_connu     4 1.088099e-01
+28:    rural souterrain_puits_non_protege oui_3_dernieres_annees    11 7.704836e-01
+29:    rural souterrain_puits_non_protege        oui_avant_3_ans    16 8.526768e-01
+30:    rural souterrain_puits_non_protege      oui_date_inconnue     1 1.085942e-01
+31:    rural     souterrain_puits_protege                 jamais  1204 9.760593e+01
+32:    rural     souterrain_puits_protege              non_connu     1 1.321630e-01
+33:    rural     souterrain_puits_protege oui_3_dernieres_annees    18 9.103772e-01
+34:    rural     souterrain_puits_protege        oui_avant_3_ans    15 1.350719e+00
+35:    rural     souterrain_puits_protege      oui_date_inconnue     1 8.149588e-04
+36:    rural         souterrain_tube_well                 jamais  4928 9.832169e+01
+37:    rural         souterrain_tube_well              non_connu     2 9.819187e-03
+38:    rural         souterrain_tube_well oui_3_dernieres_annees    52 1.129149e+00
+39:    rural         souterrain_tube_well        oui_avant_3_ans    33 5.372893e-01
+40:    rural         souterrain_tube_well      oui_date_inconnue     1 2.056589e-03
+41:   urbain         souterrain_hand_pump                 jamais  2512 9.929944e+01
+42:   urbain         souterrain_hand_pump              non_connu     2 2.374223e-02
+43:   urbain         souterrain_hand_pump oui_3_dernieres_annees    12 2.347497e-01
+44:   urbain         souterrain_hand_pump        oui_avant_3_ans    11 3.704690e-01
+45:   urbain         souterrain_hand_pump      oui_date_inconnue     1 7.159926e-02
+46:   urbain souterrain_puits_non_protege                 jamais   824 9.837788e+01
+47:   urbain souterrain_puits_non_protege oui_3_dernieres_annees     7 1.085015e+00
+48:   urbain souterrain_puits_non_protege        oui_avant_3_ans     6 4.171833e-01
+49:   urbain souterrain_puits_non_protege      oui_date_inconnue     1 1.199233e-01
+50:   urbain     souterrain_puits_protege                 jamais   884 9.704592e+01
+51:   urbain     souterrain_puits_protege              non_connu     4 5.648024e-01
+52:   urbain     souterrain_puits_protege oui_3_dernieres_annees    12 1.561329e+00
+53:   urbain     souterrain_puits_protege        oui_avant_3_ans    11 8.279511e-01
+54:   urbain         souterrain_tube_well                 jamais  3742 9.798351e+01
+55:   urbain         souterrain_tube_well              non_connu    17 6.217816e-01
+56:   urbain         souterrain_tube_well oui_3_dernieres_annees    22 6.831068e-01
+57:   urbain         souterrain_tube_well        oui_avant_3_ans    24 6.907642e-01
+58:   urbain         souterrain_tube_well      oui_date_inconnue     1 2.083641e-02
+     secteur                     g_source                g_benef     n          pct
+      <char>                       <char>                 <char> <int>        <num>
+
+NSS 76, U : benefice 15.1 par quintile de depense par tete
+     secteur quintile                g_benef     n          pct
+      <char>    <int>                 <char> <int>        <num>
+ 1: ensemble        1                 jamais  6086 9.750692e+01
+ 2: ensemble        1              non_connu     1 1.620231e-02
+ 3: ensemble        1 oui_3_dernieres_annees    73 1.085874e+00
+ 4: ensemble        1        oui_avant_3_ans    87 1.357815e+00
+ 5: ensemble        1      oui_date_inconnue     3 3.318703e-02
+ 6: ensemble        2                 jamais  7074 9.841948e+01
+ 7: ensemble        2              non_connu     4 2.832076e-02
+ 8: ensemble        2 oui_3_dernieres_annees    49 6.283769e-01
+ 9: ensemble        2        oui_avant_3_ans    59 9.041540e-01
+10: ensemble        2      oui_date_inconnue     1 1.966896e-02
+11: ensemble        3                 jamais  5957 9.845871e+01
+12: ensemble        3              non_connu     4 4.415381e-02
+13: ensemble        3 oui_3_dernieres_annees    51 7.056195e-01
+14: ensemble        3        oui_avant_3_ans    43 7.758147e-01
+15: ensemble        3      oui_date_inconnue     2 1.570424e-02
+16: ensemble        4                 jamais  5762 9.853198e+01
+17: ensemble        4              non_connu     8 8.068401e-02
+18: ensemble        4 oui_3_dernieres_annees    55 7.272827e-01
+19: ensemble        4        oui_avant_3_ans    40 6.459364e-01
+20: ensemble        4      oui_date_inconnue     1 1.411584e-02
+21: ensemble        5                 jamais  3891 9.818281e+01
+22: ensemble        5              non_connu    16 5.209570e-01
+23: ensemble        5 oui_3_dernieres_annees    28 7.377685e-01
+24: ensemble        5        oui_avant_3_ans    29 5.190356e-01
+25: ensemble        5      oui_date_inconnue     1 3.943042e-02
+26:    rural        1                 jamais  5660 9.751165e+01
+27:    rural        1              non_connu     1 1.680150e-02
+28:    rural        1 oui_3_dernieres_annees    71 1.106372e+00
+29:    rural        1        oui_avant_3_ans    81 1.344725e+00
+30:    rural        1      oui_date_inconnue     2 2.045331e-02
+31:    rural        2                 jamais  6248 9.838127e+01
+32:    rural        2              non_connu     3 2.708183e-02
+33:    rural        2 oui_3_dernieres_annees    48 6.551397e-01
+34:    rural        2        oui_avant_3_ans    52 9.154116e-01
+35:    rural        2      oui_date_inconnue     1 2.109396e-02
+36:    rural        3                 jamais  4555 9.837378e+01
+37:    rural        3              non_connu     3 3.249262e-02
+38:    rural        3 oui_3_dernieres_annees    43 7.405773e-01
+39:    rural        3        oui_avant_3_ans    33 8.529526e-01
+40:    rural        3      oui_date_inconnue     1 1.939882e-04
+41:    rural        4                 jamais  3112 9.896824e+01
+42:    rural        4              non_connu     3 2.192112e-02
+43:    rural        4 oui_3_dernieres_annees    32 4.866137e-01
+44:    rural        4        oui_avant_3_ans    24 5.232226e-01
+45:    rural        5                 jamais  1233 9.790972e+01
+46:    rural        5 oui_3_dernieres_annees     9 1.068438e+00
+47:    rural        5        oui_avant_3_ans    16 9.030436e-01
+48:    rural        5      oui_date_inconnue     1 1.187974e-01
+49:   urbain        1                 jamais   426 9.737910e+01
+50:   urbain        1 oui_3_dernieres_annees     2 5.315943e-01
+51:   urbain        1        oui_avant_3_ans     6 1.711789e+00
+52:   urbain        1      oui_date_inconnue     1 3.775137e-01
+53:   urbain        2                 jamais   826 9.894683e+01
+54:   urbain        2              non_connu     1 4.542139e-02
+55:   urbain        2 oui_3_dernieres_annees     1 2.589764e-01
+56:   urbain        2        oui_avant_3_ans     7 7.487681e-01
+57:   urbain        3                 jamais  1402 9.891015e+01
+58:   urbain        3              non_connu     1 1.061425e-01
+59:   urbain        3 oui_3_dernieres_annees     8 5.197904e-01
+60:   urbain        3        oui_avant_3_ans    10 3.657641e-01
+61:   urbain        3      oui_date_inconnue     1 9.815386e-02
+62:   urbain        4                 jamais  2650 9.779570e+01
+63:   urbain        4              non_connu     5 1.798579e-01
+64:   urbain        4 oui_3_dernieres_annees    23 1.133459e+00
+65:   urbain        4        oui_avant_3_ans    16 8.530398e-01
+66:   urbain        4      oui_date_inconnue     1 3.793907e-02
+67:   urbain        5                 jamais  2658 9.831848e+01
+68:   urbain        5              non_connu    16 7.797745e-01
+69:   urbain        5 oui_3_dernieres_annees    19 5.734882e-01
+70:   urbain        5        oui_avant_3_ans    13 3.282560e-01
+     secteur quintile                g_benef     n          pct
+      <char>    <int>                 <char> <int>        <num>
+
+NSS 76, U, beneficiaires dans les 3 ans : programme du principal benefice
+     secteur g_programme     n       pct
+      <char>      <char> <int>     <num>
+ 1: ensemble       AMRUT     9  1.223127
+ 2: ensemble       NRDWP    91 32.502310
+ 3: ensemble       autre   112 49.600716
+ 4: ensemble   non_connu    44 16.673847
+ 5:    rural       NRDWP    91 39.572295
+ 6:    rural       autre    74 41.357927
+ 7:    rural   non_connu    38 19.069778
+ 8:   urbain       AMRUT     9  6.846118
+ 9:   urbain       autre    38 87.494670
+10:   urbain   non_connu     6  5.659212
+
+------------------------------------------------------------------------------
+36j. Sortie 5 -- acces x distance, sources souterraines, rounds 69 et 76
+------------------------------------------------------------------------------
+
+Sources souterraines : acces par distance (% de la case distance), rounds 69 et 76
+    round  secteur    g_distance                      g_acces     n          pct
+    <int>   <char>        <char>                       <char> <int>        <num>
+ 1:    69 ensemble hors_parcelle                  autre_acces   124 4.676640e-01
+ 2:    69 ensemble hors_parcelle   commun_financement_inconnu   205 9.031027e-01
+ 3:    69 ensemble hors_parcelle exclusif_financement_inconnu   340 1.511902e+00
+ 4:    69 ensemble hors_parcelle                 fonds_prives  1204 5.586414e+00
+ 5:    69 ensemble hors_parcelle                fonds_publics 17941 8.054868e+01
+ 6:    69 ensemble hors_parcelle                     manquant     3 6.952728e-03
+ 7:    69 ensemble hors_parcelle   voisin_financement_inconnu  3064 1.097528e+01
+ 8:    69 ensemble      manquant   commun_financement_inconnu     5 2.121656e+01
+ 9:    69 ensemble      manquant exclusif_financement_inconnu     7 6.530938e+01
+10:    69 ensemble      manquant                fonds_publics     2 1.037432e+01
+11:    69 ensemble      manquant   voisin_financement_inconnu     3 3.099742e+00
+12:    69 ensemble  sur_parcelle                  autre_acces   378 8.352459e-01
+13:    69 ensemble  sur_parcelle   commun_financement_inconnu  5184 2.864228e+01
+14:    69 ensemble  sur_parcelle exclusif_financement_inconnu 14227 6.655532e+01
+15:    69 ensemble  sur_parcelle                 fonds_prives   193 9.388035e-01
+16:    69 ensemble  sur_parcelle                fonds_publics   550 2.247499e+00
+17:    69 ensemble  sur_parcelle                     manquant     2 4.242435e-03
+18:    69 ensemble  sur_parcelle   voisin_financement_inconnu   219 7.766078e-01
+19:    69    rural hors_parcelle                  autre_acces    90 4.260403e-01
+20:    69    rural hors_parcelle   commun_financement_inconnu   142 8.408840e-01
+21:    69    rural hors_parcelle exclusif_financement_inconnu   269 1.472273e+00
+22:    69    rural hors_parcelle                 fonds_prives  1033 5.419803e+00
+23:    69    rural hors_parcelle                fonds_publics 14745 8.100471e+01
+24:    69    rural hors_parcelle                     manquant     3 7.542488e-03
+25:    69    rural hors_parcelle   voisin_financement_inconnu  2380 1.082875e+01
+26:    69    rural      manquant   commun_financement_inconnu     3 8.824019e+00
+27:    69    rural      manquant exclusif_financement_inconnu     7 8.513909e+01
+28:    69    rural      manquant                fonds_publics     1 6.036887e+00
+29:    69    rural  sur_parcelle                  autre_acces   221 8.489875e-01
+30:    69    rural  sur_parcelle   commun_financement_inconnu  2653 2.484957e+01
+31:    69    rural  sur_parcelle exclusif_financement_inconnu  9596 6.983623e+01
+32:    69    rural  sur_parcelle                 fonds_prives   139 1.021662e+00
+33:    69    rural  sur_parcelle                fonds_publics   439 2.663459e+00
+34:    69    rural  sur_parcelle   voisin_financement_inconnu   140 7.800853e-01
+35:    69   urbain hors_parcelle                  autre_acces    34 9.583702e-01
+36:    69   urbain hors_parcelle   commun_financement_inconnu    63 1.636605e+00
+37:    69   urbain hors_parcelle exclusif_financement_inconnu    71 1.979101e+00
+38:    69   urbain hors_parcelle                 fonds_prives   171 7.550608e+00
+39:    69   urbain hors_parcelle                fonds_publics  3196 7.517256e+01
+40:    69   urbain hors_parcelle   voisin_financement_inconnu   684 1.270275e+01
+41:    69   urbain      manquant   commun_financement_inconnu     2 6.203154e+01
+42:    69   urbain      manquant                fonds_publics     1 2.465968e+01
+43:    69   urbain      manquant   voisin_financement_inconnu     3 1.330878e+01
+44:    69   urbain  sur_parcelle                  autre_acces   157 7.850116e-01
+45:    69   urbain  sur_parcelle   commun_financement_inconnu  2531 4.250708e+01
+46:    69   urbain  sur_parcelle exclusif_financement_inconnu  4631 5.456147e+01
+47:    69   urbain  sur_parcelle                 fonds_prives    54 6.359032e-01
+48:    69   urbain  sur_parcelle                fonds_publics   111 7.268958e-01
+49:    69   urbain  sur_parcelle                     manquant     2 1.975126e-02
+50:    69   urbain  sur_parcelle   voisin_financement_inconnu    79 7.638954e-01
+51:    76 ensemble hors_parcelle                  autre_acces    44 2.578372e-01
+52:    76 ensemble hors_parcelle   commun_financement_inconnu   201 1.163712e+00
+53:    76 ensemble hors_parcelle exclusif_financement_inconnu   531 3.091511e+00
+54:    76 ensemble hors_parcelle                 fonds_prives   705 3.431227e+00
+55:    76 ensemble hors_parcelle                fonds_publics 13630 8.166357e+01
+56:    76 ensemble hors_parcelle   voisin_financement_inconnu  1923 1.039215e+01
+57:    76 ensemble      manquant                fonds_publics     4 1.000000e+02
+58:    76 ensemble  sur_parcelle                  autre_acces   105 2.811412e-01
+59:    76 ensemble  sur_parcelle   commun_financement_inconnu  6104 2.172082e+01
+60:    76 ensemble  sur_parcelle exclusif_financement_inconnu 22766 7.690394e+01
+61:    76 ensemble  sur_parcelle                 fonds_prives    39 9.933539e-02
+62:    76 ensemble  sur_parcelle                fonds_publics    33 1.154375e-01
+63:    76 ensemble  sur_parcelle   voisin_financement_inconnu   278 8.793241e-01
+64:    76    rural hors_parcelle                  autre_acces    41 2.716876e-01
+65:    76    rural hors_parcelle   commun_financement_inconnu   162 1.101639e+00
+66:    76    rural hors_parcelle exclusif_financement_inconnu   463 3.098292e+00
+67:    76    rural hors_parcelle                 fonds_prives   621 3.306322e+00
+68:    76    rural hors_parcelle                fonds_publics 12136 8.203134e+01
+69:    76    rural hors_parcelle   voisin_financement_inconnu  1673 1.019072e+01
+70:    76    rural      manquant                fonds_publics     3 1.000000e+02
+71:    76    rural  sur_parcelle                  autre_acces    83 2.764054e-01
+72:    76    rural  sur_parcelle   commun_financement_inconnu  3824 1.955760e+01
+73:    76    rural  sur_parcelle exclusif_financement_inconnu 17062 7.900178e+01
+74:    76    rural  sur_parcelle                 fonds_prives    19 8.008026e-02
+75:    76    rural  sur_parcelle                fonds_publics    28 1.374378e-01
+76:    76    rural  sur_parcelle   voisin_financement_inconnu   216 9.467013e-01
+77:    76   urbain hors_parcelle                  autre_acces     3 9.051650e-02
+78:    76   urbain hors_parcelle   commun_financement_inconnu    39 1.913588e+00
+79:    76   urbain hors_parcelle exclusif_financement_inconnu    68 3.009581e+00
+80:    76   urbain hors_parcelle                 fonds_prives    84 4.940152e+00
+81:    76   urbain hors_parcelle                fonds_publics  1494 7.722064e+01
+82:    76   urbain hors_parcelle   voisin_financement_inconnu   250 1.282552e+01
+83:    76   urbain      manquant                fonds_publics     1 1.000000e+02
+84:    76   urbain  sur_parcelle                  autre_acces    22 3.000150e-01
+85:    76   urbain  sur_parcelle   commun_financement_inconnu  2280 3.034200e+01
+86:    76   urbain  sur_parcelle exclusif_financement_inconnu  5704 6.854335e+01
+87:    76   urbain  sur_parcelle                 fonds_prives    20 1.760737e-01
+88:    76   urbain  sur_parcelle                fonds_publics     5 2.775876e-02
+89:    76   urbain  sur_parcelle   voisin_financement_inconnu    62 6.108027e-01
+    round  secteur    g_distance                      g_acces     n          pct
+    <int>   <char>        <char>                       <char> <int>        <num>
+
+------------------------------------------------------------------------------
+36k. VERDICT contre le critere de l'en-tete
+------------------------------------------------------------------------------
+    secteur     n      C_bas   C_haut        I          verdict
+     <char> <int>      <num>    <num>    <num>           <char>
+1: ensemble 29325 0.11543751 1.835514 99.50409 NON DISQUALIFIEE
+2:    rural 21232 0.13743780 1.953038 99.50608 NON DISQUALIFIEE
+3:   urbain  8093 0.02775876 1.367139 99.49615 NON DISQUALIFIEE
+
+VERDICT all-India : NON DISQUALIFIEE (C_bas 0.12 %, C_haut 1.84 %, financement inconnu 99.5 %)
+
+Population U (NSS 69) : source 5-7 et distance 1-2 -> 20 753 menages
+Clé : <secteur>
+    secteur  n_69  C_bas_69  n_76   C_bas_76 delta_C_bas stable
+     <char> <int>     <num> <int>      <num>       <num> <lgcl>
+1: ensemble 20753 2.2474988 29325 0.11543751  -2.1320613  FALSE
+2:    rural 13188 2.6634593 21232 0.13743780  -2.5260215  FALSE
+3:   urbain  7565 0.7268958  8093 0.02775876  -0.6991371   TRUE
+DELTA C_bas all-India : 2.25 % (2012) -> 0.12 % (2018), ecart -2.13 point -> INSTABLE : la contamination bouge, les comparaisons entre vagues sont exposees
+En points de menages (U ~ 28 % des menages) : derive ~ 0.6 point, a comparer a +1.8 point de souterrain_prive NFHS-4 -> 5
+
+------------------------------------------------------------------------------
+36l. Decomposition de C_bas : usage collectif x fonds publics, rounds 69 et 76
+------------------------------------------------------------------------------
+   round  secteur     n n_collectif a_collectif_4_7 b_publics_parmi_coll      C_bas
+   <int>   <char> <int>       <int>           <num>                <num>      <num>
+1:    69 ensemble 20753         743       3.1863023             70.53627 2.24749877
+2:    76 ensemble 29325          72       0.2147729             53.74864 0.11543751
+3:    69    rural 13188         578       3.6851211             72.27603 2.66345926
+4:    76    rural 21232          47       0.2175181             63.18455 0.13743780
+5:    69   urbain  7565         165       1.3627990             53.33845 0.72689582
+6:    76   urbain  8093          25       0.2038325             13.61842 0.02775876
+
+Termine. Tables dans output/tables/36_*.csv
+
+Run finished: 2026-10-24 19:39:35
