@@ -1,0 +1,72 @@
+round,item,code,libelle,groupe,source
+76,source,1,bottled water,embouteille,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,2,piped water into dwelling,reseau_domicile,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,3,piped water to yard/plot,reseau_domicile,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,4,piped water from neighbour,reseau_voisin,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,5,public tap/standpipe,reseau_borne,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,6,tube well,souterrain_tube_well,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,7,hand pump,souterrain_hand_pump,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,8,well: protected,souterrain_puits_protege,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,9,well: unprotected,souterrain_puits_non_protege,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,10,tanker-truck: public,autre,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,11,tanker-truck: private,autre,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,12,spring: protected,autre,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,13,spring: unprotected,autre,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,14,rainwater collection,autre,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,15,surface water: tank/pond,autre,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,16,"other surface water (river, dam, stream, canal, lake, etc.)",autre,NSS_76_sch_1.2.pdf bloc 5 item 1
+76,source,19,"others (cart with small tank or drum, etc)",autre,NSS_76_sch_1.2.pdf bloc 5 item 1
+69,source,1,bottled water,embouteille,Schedule_69_1.pdf bloc 4 item 1
+69,source,2,piped water into dwelling,reseau_domicile,Schedule_69_1.pdf bloc 4 item 1
+69,source,3,piped water to yard/plot,reseau_domicile,Schedule_69_1.pdf bloc 4 item 1
+69,source,4,public tap/standpipe,reseau_borne,Schedule_69_1.pdf bloc 4 item 1
+69,source,5,tube well/borehole,souterrain_tube_well_ou_hand_pump,Schedule_69_1.pdf bloc 4 item 1
+69,source,6,well: protected,souterrain_puits_protege,Schedule_69_1.pdf bloc 4 item 1
+69,source,7,well: unprotected,souterrain_puits_non_protege,Schedule_69_1.pdf bloc 4 item 1
+69,source,8,spring: protected,autre,Schedule_69_1.pdf bloc 4 item 1
+69,source,9,spring: unprotected,autre,Schedule_69_1.pdf bloc 4 item 1
+69,source,10,rainwater collection,autre,Schedule_69_1.pdf bloc 4 item 1
+69,source,11,surface water: tank/pond,autre,Schedule_69_1.pdf bloc 4 item 1
+69,source,12,"other surface water (river, dam, stream, canal, lake, etc.)",autre,Schedule_69_1.pdf bloc 4 item 1
+69,source,19,"others (tanker-truck, cart with small tank or drum, etc)",autre,Schedule_69_1.pdf bloc 4 item 1
+76,acces,1,exclusive use of household,exclusif_financement_inconnu,NSS_76_sch_1.2.pdf bloc 5 item 4 ; NSS_76_ins_Ch3.pdf 3.5.4
+76,acces,2,common use of households in the building,commun_financement_inconnu,NSS_76_sch_1.2.pdf bloc 5 item 4 ; NSS_76_ins_Ch3.pdf 3.5.4
+76,acces,3,neighbour's source,voisin_financement_inconnu,NSS_76_sch_1.2.pdf bloc 5 item 4 ; NSS_76_ins_Ch3.pdf 3.5.4
+76,acces,4,community use: public source restricted to particular community,fonds_publics,NSS_76_sch_1.2.pdf bloc 5 item 4 ; NSS_76_ins_Ch3.pdf 3.5.4.1
+76,acces,5,community use: public source unrestricted,fonds_publics,NSS_76_sch_1.2.pdf bloc 5 item 4 ; NSS_76_ins_Ch3.pdf 3.5.4.1
+76,acces,6,community use: private source restricted to particular community,fonds_prives,NSS_76_sch_1.2.pdf bloc 5 item 4 ; NSS_76_ins_Ch3.pdf 3.5.4.1
+76,acces,7,community use: private source unrestricted,fonds_prives,NSS_76_sch_1.2.pdf bloc 5 item 4 ; NSS_76_ins_Ch3.pdf 3.5.4.1
+76,acces,9,others,autre_acces,NSS_76_sch_1.2.pdf bloc 5 item 4
+69,acces,1,household's exclusive use,exclusif_financement_inconnu,Schedule_69_1.pdf bloc 4 item 4 ; ins69chap3.pdf item 4
+69,acces,2,common use of households in the building,commun_financement_inconnu,Schedule_69_1.pdf bloc 4 item 4
+69,acces,3,neighbour's source,voisin_financement_inconnu,Schedule_69_1.pdf bloc 4 item 4
+69,acces,4,community use: public source restricted to particular community,fonds_publics,Schedule_69_1.pdf bloc 4 item 4 ; ins69chap3.pdf item 4
+69,acces,5,community use: public source unrestricted,fonds_publics,Schedule_69_1.pdf bloc 4 item 4 ; ins69chap3.pdf item 4
+69,acces,6,community use: private source restricted to particular community,fonds_prives,Schedule_69_1.pdf bloc 4 item 4 ; ins69chap3.pdf item 4
+69,acces,7,community use: private source unrestricted,fonds_prives,Schedule_69_1.pdf bloc 4 item 4 ; ins69chap3.pdf item 4
+69,acces,9,others,autre_acces,Schedule_69_1.pdf bloc 4 item 4
+76,distance,1,within dwelling,sur_parcelle,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,2,outside dwelling but within the premises,sur_parcelle,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,3,outside premises: less than 0.2 km,hors_parcelle,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,4,0.2 to 0.5 km,hors_parcelle,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,5,0.5 to 1.0 km,hors_parcelle,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,6,1.0 to 1.5 km,hors_parcelle,NSS_76_sch_1.2.pdf bloc 5 item 5
+76,distance,7,1.5 km or more,hors_parcelle,NSS_76_sch_1.2.pdf bloc 5 item 5
+69,distance,1,within dwelling,sur_parcelle,Schedule_69_1.pdf bloc 4 item 5
+69,distance,2,outside dwelling but within the premises,sur_parcelle,Schedule_69_1.pdf bloc 4 item 5
+69,distance,3,outside premises: less than 0.2 km,hors_parcelle,Schedule_69_1.pdf bloc 4 item 5
+69,distance,4,0.2 to 0.5 km,hors_parcelle,Schedule_69_1.pdf bloc 4 item 5
+69,distance,5,0.5 to 1.0 km,hors_parcelle,Schedule_69_1.pdf bloc 4 item 5
+69,distance,6,1.0 to 1.5 km,hors_parcelle,Schedule_69_1.pdf bloc 4 item 5
+69,distance,7,1.5 km or more,hors_parcelle,Schedule_69_1.pdf bloc 4 item 5
+76,benefice_eau,1,yes,oui,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 1 ; NSS_76_ins_Ch3.pdf 3.4.9.3
+76,benefice_eau,2,no,jamais,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 1 ; NSS_76_ins_Ch3.pdf 3.4.9.3
+76,benefice_eau,3,not known,non_connu,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 1 ; NSS_76_ins_Ch3.pdf 3.4.9.3
+76,benefice_eau_3ans,1,yes,oui,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 2
+76,benefice_eau_3ans,2,no,non,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 2
+76,benefice_eau_3ans,3,not known,non_connu,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 2
+76,programme_eau,1,National Rural Drinking Water Programme (NRDWP),NRDWP,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 3
+76,programme_eau,2,Atal Mission for Rejuvenation and Urban Transformation (AMRUT),AMRUT,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 3
+76,programme_eau,3,Smart Cities Mission,Smart_Cities,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 3
+76,programme_eau,5,not known,non_connu,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 3
+76,programme_eau,9,other scheme,autre,NSS_76_sch_1.2.pdf bloc 3 item 15.1 col. 3
