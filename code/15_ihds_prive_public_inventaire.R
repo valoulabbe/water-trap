@@ -32,6 +32,10 @@
 #     « Safe Drinking Water » ; VQ9Y annee d'entretien.
 #   Cle village : IDPSU est vide dans DS0012 ; lien par STATEID + DISTID + PSUID.
 #
+# NUMERO : 15 est aussi pris par code/15_piste_c_nfhs_traitement.R sur la
+# branche piste-c-purificateurs. Noms differents, pas de conflit git ; a
+# trancher si les deux arrivent sur la meme branche.
+#
 # LANCEMENT (racine du depot) :
 #     Rscript code/15_ihds_prive_public_inventaire.R           # reprend
 #     Rscript code/15_ihds_prive_public_inventaire.R --force   # refait tout
