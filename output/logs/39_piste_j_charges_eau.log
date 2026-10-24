@@ -1,0 +1,73 @@
+==============================================================================
+LOG: output/logs/39_piste_j_charges_eau.log
+Run started: 2026-10-24 21:01:53
+==============================================================================
+
+ETAPE 39 -- PISTE J : CHARGES D'EAU DES MENAGES A EAU COURANTE SUR PLACE (NSS 76)
+Lecture prevue ecrite dans l'en-tete avant tout chiffre.
+
+------------------------------------------------------------------------------
+39a. Lecture et controles
+------------------------------------------------------------------------------
+  [OK]   fichier present -> raw/nss/76/L01_sample_household.csv
+  [OK]   L01_sample_household.csv : colonnes presentes
+  [OK]   L01_sample_household.csv: key (HHID) unique
+  [OK]   L01_sample_household.csv: row count == 106,838
+  [OK]   fichier present -> raw/nss/76/L03_Household_characteristics.csv
+  [OK]   L03_Household_characteristics.csv : colonnes presentes
+  [OK]   L03_Household_characteristics.csv: key (HHID) unique
+  [OK]   L03_Household_characteristics.csv: row count == 106,838
+  [OK]   fichier present -> raw/nss/76/L05_Particulars_of_living_facilities.csv
+  [OK]   L05_Particulars_of_living_facilities.csv : colonnes presentes
+  [OK]   L05_Particulars_of_living_facilities.csv: key (HHID) unique
+  [OK]   L05_Particulars_of_living_facilities.csv: row count == 106,838
+  [OK]   NSS 76 apres fusion: row count == 106,838
+  [OK]   poids Multiplier : Sector 1 == 178 380 000 menages (rapport 584, Statement 1)
+  [OK]   poids Multiplier : Sector 2 == 92 720 000 menages (rapport 584, Statement 1)
+  [OK]   quintile defini pour tous les menages
+Population : source principale 02 ou 03 -> 40 053 menages
+  codes observes de amt_paid_water dans la population : 1, 2, 3, 4 ; manquants : 0
+  [OK]   amt_paid_water dans {1, 2, 3, 4} (item 21.1)
+  codes observes de water_metered : 1, 2 ; manquants : 0
+  [OK]   water_metered dans {1, 2} (item 20)
+Denominateur (21.1 et item 20 renseignes) : 40 053 menages
+
+------------------------------------------------------------------------------
+39b. Indicateurs par quintile de depense par tete
+------------------------------------------------------------------------------
+     secteur quintile     n menages_ponderes principal_sans_compteur_ni_charge sans_charge_seul sans_compteur_seul
+      <char>    <int> <int>            <num>                             <num>            <num>              <num>
+ 1: ensemble        1  2940          7636363                          23.48297         24.43500           89.48900
+ 2: ensemble        2  4802         11504570                          25.29915         26.25905           88.69043
+ 3: ensemble        3  7207         17226840                          25.71025         26.84751           85.89085
+ 4: ensemble        4 11570         23553423                          27.49811         29.88381           79.21459
+ 5: ensemble        5 13534         31513737                          23.44143         27.48196           64.60485
+ 6:    rural        1  2174          6149030                          23.11366         23.97273           90.03810
+ 7:    rural        2  3320          8557599                          24.61828         25.05114           90.39662
+ 8:    rural        3  4295         11379424                          26.18355         26.52378           89.88515
+ 9:    rural        4  4210          9502231                          29.37904         29.73086           88.37389
+10:    rural        5  1405          3086609                          31.05400         31.80922           83.78405
+11:   urbain        1   766          1487333                          25.00978         26.34617           87.21886
+12:   urbain        2  1482          2946971                          27.27632         29.76664           83.73589
+13:   urbain        3  2912          5847416                          24.78918         27.47750           78.11770
+14:   urbain        4  7360         14051192                          26.22611         29.98725           73.02055
+15:   urbain        5 12129         28427128                          22.61486         27.01211           62.52237
+
+------------------------------------------------------------------------------
+39c. LECTURE contre la regle de l'en-tete
+------------------------------------------------------------------------------
+    secteur                        indicateur       Q1       Q3       Q4       Q5     D_Q5_Q1            issue
+     <char>                            <char>    <num>    <num>    <num>    <num>       <num>           <char>
+1: ensemble principal_sans_compteur_ni_charge 23.48297 25.71025 27.49811 23.44143 -0.04153994 NON DISCRIMINANT
+2:    rural principal_sans_compteur_ni_charge 23.11366 26.18355 29.37904 31.05400  7.94033136 NON DISCRIMINANT
+3:   urbain principal_sans_compteur_ni_charge 25.00978 24.78918 26.22611 22.61486 -2.39491762 NON DISCRIMINANT
+4: ensemble                  sans_charge_seul 24.43500 26.84751 29.88381 27.48196  3.04695824 NON DISCRIMINANT
+5:    rural                  sans_charge_seul 23.97273 26.52378 29.73086 31.80922  7.83649484 NON DISCRIMINANT
+6:   urbain                  sans_charge_seul 26.34617 27.47750 29.98725 27.01211  0.66593681 NON DISCRIMINANT
+
+ISSUE (indicateur principal, ensemble) : NON DISCRIMINANT
+LECTURE : NON DISCRIMINANT. Le test n'a rien tranche : l'interpretation du verdict du 38 reste ouverte entre 'premisse fausse' et 'instrument aveugle'.
+
+Termine. Tables dans output/tables/39_*.csv
+
+Run finished: 2026-10-24 21:01:55
