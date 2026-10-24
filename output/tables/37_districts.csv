@@ -1,0 +1,5 @@
+vague,districts,district_codes_distincts,menages_min,menages_q1,menages_mediane,menages_q3,menages_max,grappes_min,grappes_q1,grappes_mediane,grappes_q3,grappes_max,districts_30_menages,districts_50_menages,districts_100_menages,note
+nfhs2,440,63,17,108,167.5,246.25,2763,1,4,6,9,101,432,414,341,""
+nfhs3,,,,,,,,,,,,,,,,"pas de variable district (NFHS3SUP 1.5, 5.0)"
+nfhs4,640,640,599,803.75,885,924,2446,31,38,43,43,112,640,640,640,""
+nfhs5,707,707,213,882,908,931,990,12,42,42,45,45,707,707,707,""

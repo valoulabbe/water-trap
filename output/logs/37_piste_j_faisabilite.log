@@ -1,0 +1,106 @@
+==============================================================================
+LOG: output/logs/37_piste_j_faisabilite.log
+Run started: 2026-10-24 20:26:19
+==============================================================================
+
+[2026-10-24 20:26:20] etape 1/1 identifiants, poids, richesse : debut (sortie absente)
+  [OK]   nfhs2 : fichier present -> raw/dhs/india/1998/IAHR42DT/IAHR42FL.DTA
+[2026-10-24 20:26:20]   lecture raw/dhs/india/1998/IAHR42DT/IAHR42FL.DTA : hv001, hv002, hv005, hv024, sdist
+  [OK]   nfhs3 : fichier present -> raw/dhs/india/2005/IAHR52DT/IAHR52FL.dta
+[2026-10-24 20:26:22]   lecture raw/dhs/india/2005/IAHR52DT/IAHR52FL.dta : hv001, hv002, hv005, hv024, hv270, hv271
+  [OK]   nfhs4 : fichier present -> raw/dhs/india/2015/IAHR74DT/IAHR74FL.DTA
+[2026-10-24 20:26:26]   lecture raw/dhs/india/2015/IAHR74DT/IAHR74FL.DTA : hv001, hv002, hv005, hv024, hv270, hv271, shdistri
+  [OK]   nfhs5 : fichier present -> raw/dhs/india/2019/IAHR7EDT/IAHR7EFL.DTA
+[2026-10-24 20:26:57]   lecture raw/dhs/india/2019/IAHR7EDT/IAHR7EFL.DTA : hv001, hv002, hv005, hv024, hv270, hv271, shdist
+  [OK]   etape 1/1 identifiants, poids, richesse : sortie ecrite -> build/37_nfhs_geo_richesse.rds
+[2026-10-24 20:27:44] etape 1/1 identifiants, poids, richesse : fini (83.8 s)
+  [OK]   nfhs2 : seules des variables autorisees sont chargees
+  [OK]   nfhs2 : identifiants et poids presents
+  [OK]   nfhs2 : hv001, hv024 renseignes, hv005 positif
+  [OK]   nfhs2 menages: key (hv024+hv001+hv002) unique
+  [OK]   nfhs3 : seules des variables autorisees sont chargees
+  [OK]   nfhs3 : identifiants et poids presents
+  [OK]   nfhs3 : hv001, hv024 renseignes, hv005 positif
+  [OK]   nfhs3 menages: key (hv024+hv001+hv002) unique
+  [OK]   nfhs4 : seules des variables autorisees sont chargees
+  [OK]   nfhs4 : identifiants et poids presents
+  [OK]   nfhs4 : hv001, hv024 renseignes, hv005 positif
+  [OK]   nfhs4 menages: key (hv024+hv001+hv002) unique
+  [OK]   nfhs5 : seules des variables autorisees sont chargees
+  [OK]   nfhs5 : identifiants et poids presents
+  [OK]   nfhs5 : hv001, hv024 renseignes, hv005 positif
+  [OK]   nfhs5 menages: key (hv024+hv001+hv002) unique
+
+------------------------------------------------------------------------------
+RESUME -- chiffres qui decident (detail en 37a a 37f)
+------------------------------------------------------------------------------
+nfhs2 (1998-99) : 3 215 grappes, mediane 28 menages/grappe ; variance hv271 intra-grappe n.d. ; grappes >= 3 quintiles n.d. ; districts 440 (>= 50 menages : 414)
+nfhs3 (2005-06) : 3 850 grappes, mediane 27 menages/grappe ; variance hv271 intra-grappe 35.6 % ; grappes >= 3 quintiles 85.5 % ; districts aucun (>= 50 menages : -)
+nfhs4 (2015-16) : 28 524 grappes, mediane 21 menages/grappe ; variance hv271 intra-grappe 36.3 % ; grappes >= 3 quintiles 89.6 % ; districts 640 (>= 50 menages : 640)
+nfhs5 (2019-21) : 30 170 grappes, mediane 22 menages/grappe ; variance hv271 intra-grappe 38.9 % ; grappes >= 3 quintiles 89.9 % ; districts 707 (>= 50 menages : 707)
+Panel : NON. NFHS-3 a PSU brouilles et lien a la base de sondage detruit (NFHS3SUP 5.0) ; aucune cle de liaison entre vagues, GPS deplaces a chaque enquete.
+Districts NFHS-3 / NFHS-4 : appariement IMPOSSIBLE, NFHS-3 sans identifiant de district (NFHS3SUP 1.5, 5.0).
+hv201 = 13 piped to neighbor, NFHS-5 : 1.62 % des menages
+hv270 NFHS-5 = meme construit que NFHS-3/4 : NON ETABLI (Recode Manual inaccessible).
+
+------------------------------------------------------------------------------
+37a. Grappes : nombre et menages par grappe (cle hv024 x hv001)
+------------------------------------------------------------------------------
+Index: <vague>
+    vague menages hv001_distincts grappes   min    q1 mediane    q3   max sous_10 sous_15 sous_20
+   <char>   <int>           <int>   <int> <num> <num>   <num> <num> <num>   <int>   <int>   <int>
+1:  nfhs2   92486             333    3215     7    23      28    33    73       3      88     404
+2:  nfhs3  109041            3850    3850     9    22      27    32    72       2     128     526
+3:  nfhs4  601509           28524   28524     1    21      21    22    28      19     100    2647
+4:  nfhs5  636699           30170   30170     1    21      22    22    27      40     251    3054
+  nfhs2 : hv001 seul (333) != (hv024, hv001) (3215) -> hv001 n'est pas unique nationalement
+
+------------------------------------------------------------------------------
+37b. Variance de hv271 : intra / inter grappe (ponderee hv005) ; grappes a >= 3 quintiles
+------------------------------------------------------------------------------
+Index: <vague>
+    vague      n part_intra part_inter grappes part_grappes_3_quintiles
+   <char>  <int>      <num>      <num>   <int>                    <num>
+1:  nfhs2  92486         NA         NA      NA                       NA
+2:  nfhs3 109041   35.62942   64.37058    3850                 85.48052
+3:  nfhs4 601509   36.30651   63.69349   28524                 89.60524
+4:  nfhs5 636699   38.90163   61.09837   30170                 89.91382
+
+------------------------------------------------------------------------------
+37c. Districts (cle hv024 x district)
+------------------------------------------------------------------------------
+Index: <vague>
+    vague districts district_codes_distincts menages_min menages_q1 menages_mediane menages_q3 menages_max grappes_min grappes_q1 grappes_mediane grappes_q3 grappes_max districts_30_menages districts_50_menages
+   <char>     <int>                    <int>       <num>      <num>           <num>      <num>       <num>       <num>      <num>           <num>      <num>       <num>                <int>                <int>
+1:  nfhs2       440                       63          17     108.00           167.5     246.25        2763           1          4               6          9         101                  432                  414
+2:  nfhs3        NA                       NA          NA         NA              NA         NA          NA          NA         NA              NA         NA          NA                   NA                   NA
+3:  nfhs4       640                      640         599     803.75           885.0     924.00        2446          31         38              43         43         112                  640                  640
+4:  nfhs5       707                      707         213     882.00           908.0     931.00         990          12         42              42         45          45                  707                  707
+   districts_100_menages                                         note
+                   <int>                                       <char>
+1:                   341                                             
+2:                    NA pas de variable district (NFHS3SUP 1.5, 5.0)
+3:                   640                                             
+4:                   707                                             
+
+------------------------------------------------------------------------------
+37d. Appariement des districts NFHS-3 / NFHS-4
+------------------------------------------------------------------------------
+IMPOSSIBLE : NFHS-3 n'a aucune variable district dans le fichier menage ; NFHS3SUP.PDF 1.5 a) et 5.0.
+Arret sur ce point. NFHS-4 (shdistri, 640 noms) et NFHS-5 (shdist, 707 noms) portent des noms.
+
+------------------------------------------------------------------------------
+37e. Panel ou coupes successives
+------------------------------------------------------------------------------
+NFHS-3 : PSU et menages brouilles puis renumerotes par Etat, lien a la base de sondage rompu (NFHS3SUP 5.0).
+NFHS-4 / NFHS-5 : aucune variable de liaison ; GPS deplaces aleatoirement a chaque enquete (2 / 5 / 10 km).
+Independance de la selection NFHS-5 vs NFHS-4 : non documentee localement (rapport NFHS-5 vol. II, annexe A, a telecharger).
+
+------------------------------------------------------------------------------
+37f. Distribution brute de hv201 (deja produite, script 35)
+------------------------------------------------------------------------------
+NFHS-5, hv201 = 13 piped to neighbor : 1.62 % des menages (table complete : output/tables/35_nfhs_distribution_hv201.csv)
+
+Termine. Tables dans output/tables/37_*.csv
+
+Run finished: 2026-10-24 20:27:52
