@@ -1,0 +1,63 @@
+vague,hv201,etiquette_dta,dans_table,n,pct
+nfhs2,11,piped into residence/yard/plot,TRUE,24307,21.0003058311677
+nfhs2,12,public tap,TRUE,16502,17.6356938429433
+nfhs2,21,handpump in residence/yard/plot,TRUE,12045,15.4252053701472
+nfhs2,22,public handpump,TRUE,17505,23.7961959572622
+nfhs2,23,well in residence/yard/plot,TRUE,1143,1.17872165947025
+nfhs2,24,open well,TRUE,5426,6.20010068404077
+nfhs2,25,public covered well,TRUE,963,0.95240129921292
+nfhs2,26,public open well,TRUE,9211,10.3966508878276
+nfhs2,31,spring,TRUE,1795,0.542596858921216
+nfhs2,32,"river, stream",TRUE,1774,1.19795385094577
+nfhs2,33,"pond, lake",TRUE,1012,0.832037243521269
+nfhs2,34,dam,TRUE,50,0.0609860981738894
+nfhs2,41,rainwater,TRUE,109,0.0392876005009609
+nfhs2,51,tanker truck,TRUE,203,0.178575253941825
+nfhs2,96,other,TRUE,432,0.546284107720877
+nfhs2,,(manquant NA),FALSE,9,0.0170034542022248
+nfhs3,11,piped into dwelling,TRUE,21269,13.0546727218754
+nfhs3,12,piped to yard/plot,TRUE,15320,11.4579423544399
+nfhs3,13,public tap/standpipe,TRUE,18561,17.4983437204042
+nfhs3,21,tube well or borehole,TRUE,32304,42.7690164145329
+nfhs3,31,protected well,TRUE,3363,2.45091221047499
+nfhs3,32,unprotected well,TRUE,9093,9.27922312523719
+nfhs3,41,protected spring,TRUE,1816,0.231345225421708
+nfhs3,42,unprotected spring,TRUE,2374,0.584324306309414
+nfhs3,43,river/dam/lake/ponds/stream/canal/irrigation channel,TRUE,2806,1.48447864468535
+nfhs3,51,rainwater,TRUE,194,0.114004423167926
+nfhs3,61,tanker truck,TRUE,919,0.405820143318206
+nfhs3,62,cart with small tank,TRUE,200,0.117269857377515
+nfhs3,71,bottled water,TRUE,518,0.376842643998108
+nfhs3,96,other,TRUE,295,0.163027959038534
+nfhs3,99,(non etiquete),FALSE,9,0.0127762497186644
+nfhs4,11,piped into dwelling,TRUE,102301,16.5896711071246
+nfhs4,12,piped to yard/plot,TRUE,79463,13.5529286833984
+nfhs4,13,public tap/standpipe,TRUE,86007,15.862188075757
+nfhs4,21,tube well or borehole,TRUE,230641,39.233316623008
+nfhs4,31,protected well,TRUE,20561,3.65416325200017
+nfhs4,32,unprotected well,TRUE,33059,4.232257778696
+nfhs4,41,protected spring,TRUE,5965,0.330175049520697
+nfhs4,42,unprotected spring,TRUE,7445,0.391417477647684
+nfhs4,43,river/dam/lake/ponds/stream/canal/irrigation channel,TRUE,10565,0.672662710290673
+nfhs4,51,rainwater,TRUE,2074,0.158192900592184
+nfhs4,61,tanker truck,TRUE,8236,1.32202217647022
+nfhs4,62,cart with small tank,TRUE,1123,0.16470165771701
+nfhs4,71,bottled water,TRUE,9715,3.13646915505951
+nfhs4,72,community ro plant,TRUE,3198,0.538553900810621
+nfhs4,96,other,TRUE,1156,0.161279451907246
+nfhs5,11,piped into dwelling,TRUE,121970,19.4092206721809
+nfhs5,12,piped to yard/plot,TRUE,97198,13.4835195962429
+nfhs5,13,piped to neighbor,TRUE,10726,1.62034829660371
+nfhs5,14,public tap/standpipe,TRUE,80308,13.3450845130456
+nfhs5,21,tube well or borehole,TRUE,212311,36.0159631586476
+nfhs5,31,protected well,TRUE,23265,3.41182621296322
+nfhs5,32,unprotected well,TRUE,23009,2.73527486897218
+nfhs5,41,protected spring,TRUE,7183,0.371822302480432
+nfhs5,42,unprotected spring,TRUE,6304,0.29365463474866
+nfhs5,43,river/dam/lake/ponds/stream/canal/irrigation channel,TRUE,8263,0.691521171358101
+nfhs5,51,rainwater,TRUE,2927,0.237831193130097
+nfhs5,61,tanker truck,TRUE,7249,1.21009634426058
+nfhs5,62,cart with small tank,TRUE,1404,0.255252115445342
+nfhs5,71,bottled water,TRUE,15881,3.78439516684524
+nfhs5,92,community ro plant,TRUE,16277,2.74869229920725
+nfhs5,96,other,TRUE,2424,0.385497453868289

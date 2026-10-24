@@ -1,0 +1,61 @@
+vague,hv201,libelle_dhs,loc_1_2,loc_3,loc_na,note
+nfhs2,11,piped into residence/yard/plot,reseau_public_domicile,reseau_public_domicile,reseau_public_domicile,
+nfhs2,12,public tap,reseau_public_partage,reseau_public_partage,reseau_public_partage,
+nfhs2,21,handpump in residence/yard/plot,souterrain_prive,souterrain_prive,souterrain_prive,prive natif dans hv201
+nfhs2,22,public handpump,souterrain_partage,souterrain_partage,souterrain_partage,public natif dans hv201
+nfhs2,23,well in residence/yard/plot,souterrain_prive,souterrain_prive,souterrain_prive,prive natif dans hv201
+nfhs2,24,open well,souterrain_indetermine,souterrain_indetermine,souterrain_indetermine,ni prive ni public dans le libelle
+nfhs2,25,public covered well,souterrain_partage,souterrain_partage,souterrain_partage,public natif dans hv201
+nfhs2,26,public open well,souterrain_partage,souterrain_partage,souterrain_partage,public natif dans hv201
+nfhs2,31,spring,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs2,32,"river, stream",surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs2,33,"pond, lake",surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs2,34,dam,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs2,41,rainwater,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs2,51,tanker truck,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs2,96,other,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs3,11,piped into dwelling,reseau_public_domicile,reseau_public_domicile,reseau_public_domicile,
+nfhs3,12,piped to yard/plot,reseau_public_domicile,reseau_public_domicile,reseau_public_domicile,
+nfhs3,13,public tap/standpipe,reseau_public_partage,reseau_public_partage,reseau_public_partage,
+nfhs3,21,tube well or borehole,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs3,31,protected well,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs3,32,unprotected well,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs3,41,protected spring,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs3,42,unprotected spring,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs3,43,river/dam/lake/ponds/stream/canal/irrigation channel,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs3,51,rainwater,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs3,61,tanker truck,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs3,62,cart with small tank,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs3,71,bottled water,embouteille,embouteille,embouteille,
+nfhs3,96,other,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs4,11,piped into dwelling,reseau_public_domicile,reseau_public_domicile,reseau_public_domicile,
+nfhs4,12,piped to yard/plot,reseau_public_domicile,reseau_public_domicile,reseau_public_domicile,
+nfhs4,13,public tap/standpipe,reseau_public_partage,reseau_public_partage,reseau_public_partage,
+nfhs4,21,tube well or borehole,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs4,31,protected well,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs4,32,unprotected well,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs4,41,protected spring,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs4,42,unprotected spring,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs4,43,river/dam/lake/ponds/stream/canal/irrigation channel,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs4,51,rainwater,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs4,61,tanker truck,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs4,62,cart with small tank,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs4,71,bottled water,embouteille,embouteille,embouteille,
+nfhs4,72,community ro plant,ro_communautaire,ro_communautaire,ro_communautaire,
+nfhs4,96,other,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs5,11,piped into dwelling,reseau_public_domicile,reseau_public_domicile,reseau_public_domicile,
+nfhs5,12,piped to yard/plot,reseau_public_domicile,reseau_public_domicile,reseau_public_domicile,
+nfhs5,13,piped to neighbor,reseau_public_partage,reseau_public_partage,reseau_public_partage,jugement : code propre a NFHS-5 (reseau mais pas a domicile)
+nfhs5,14,public tap/standpipe,reseau_public_partage,reseau_public_partage,reseau_public_partage,code 14 en NFHS-5 (13 avant)
+nfhs5,21,tube well or borehole,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs5,31,protected well,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs5,32,unprotected well,souterrain_prive,souterrain_partage,souterrain_loc_inconnue,prive/partage reconstruit par hv235
+nfhs5,41,protected spring,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs5,42,unprotected spring,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs5,43,river/dam/lake/ponds/stream/canal/irrigation channel,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs5,51,rainwater,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs5,61,tanker truck,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs5,62,cart with small tank,surface_et_autre,surface_et_autre,surface_et_autre,
+nfhs5,71,bottled water,embouteille,embouteille,embouteille,
+nfhs5,92,community ro plant,ro_communautaire,ro_communautaire,ro_communautaire,code 92 en NFHS-5 (72 en NFHS-4)
+nfhs5,96,other,surface_et_autre,surface_et_autre,surface_et_autre,
