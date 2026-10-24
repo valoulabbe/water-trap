@@ -1,0 +1,53 @@
+==============================================================================
+LOG: output/logs/38_piste_j_intra_grappe.log
+Run started: 2026-10-24 20:37:58
+==============================================================================
+
+ETAPE 38 -- PISTE J : TEST INTRA-GRAPPE, PRIVE PLUTOT QUE PUBLIC SUR LA PARCELLE
+Critere ecrit dans l'en-tete avant tout chiffre.
+
+------------------------------------------------------------------------------
+38a. Entrees
+------------------------------------------------------------------------------
+  [OK]   sortie d'etape du script 35 presente -> build/35_nfhs_menages.rds
+  [OK]   table de correspondance presente -> code/ref/35_hv201_classes.csv
+  [OK]   nfhs3 (build 35): all 7 named variables present
+  [OK]   nfhs4 (build 35): all 7 named variables present
+  [OK]   nfhs5 (build 35): all 7 named variables present
+
+------------------------------------------------------------------------------
+38b. Estimation par vague et par champ
+------------------------------------------------------------------------------
+  [OK]   nfhs3 : chaque menage a une classe
+  [OK]   nfhs3 : chaque menage a une classe
+  [OK]   nfhs3 : chaque menage a une classe
+  [OK]   nfhs4 : chaque menage a une classe
+  [OK]   nfhs4 : chaque menage a une classe
+  [OK]   nfhs4 : chaque menage a une classe
+  [OK]   nfhs5 : chaque menage a une classe
+  [OK]   nfhs5 : chaque menage a une classe
+  [OK]   nfhs5 : chaque menage a une classe
+    vague       role    champ grappes_souspop menages_souspop grappes_estim menages_estim base_estim_pct base_souspop_pond_pct        coef          se      ic_bas     ic_haut effet_pts ic_bas_pts ic_haut_pts qualification
+   <char>     <char>   <char>           <int>           <int>         <int>         <int>          <num>                 <num>       <num>       <num>       <num>       <num>     <num>      <num>       <num>        <char>
+1:  nfhs3 principale ensemble            3433           56478          1208         22643       39.91521              48.13695 -0.08339913 0.005883224 -0.09494161 -0.07185665 -8.339913  -9.494161   -7.185665   negatif net
+2:  nfhs3 principale    rural            1842           21909           553          8041       49.65800              69.19964 -0.08323505 0.008998139 -0.10090983 -0.06556027 -8.323505 -10.090983   -6.556027   negatif net
+3:  nfhs3 principale   urbain            1591           34569           655         14602       34.55006              22.73815 -0.08351028 0.007766511 -0.09876059 -0.06825998 -8.351028  -9.876059   -6.825998   negatif net
+4:  nfhs4 principale ensemble           26937          336190         10837        144371       46.03902              47.33335 -0.05333769 0.002163899 -0.05757933 -0.04909605 -5.333769  -5.757933   -4.909605   negatif net
+5:  nfhs4 principale    rural           18621          213505          6835         83893       51.39404              64.03410 -0.04828397 0.002710938 -0.05359825 -0.04296969 -4.828397  -5.359825   -4.296969   negatif net
+6:  nfhs4 principale   urbain            8316          122685          4002         60478       38.61073              24.13198 -0.06261136 0.003575593 -0.06962152 -0.05560121 -6.261136  -6.962152   -5.560121   negatif net
+7:  nfhs5 robustesse ensemble           29272          388285         13651        186144       48.06064              46.78254 -0.03813958 0.001886246 -0.04183688 -0.03444228 -3.813958  -4.183688   -3.444228   negatif net
+8:  nfhs5 robustesse    rural           21615          274181         10038        131779       52.08265              60.79664 -0.03746834 0.002086320 -0.04155795 -0.03337874 -3.746834  -4.155795   -3.337874   negatif net
+9:  nfhs5 robustesse   urbain            7657          114104          3613         54365       38.31141              23.56687 -0.04054182 0.004340522 -0.04905193 -0.03203170 -4.054182  -4.905193   -3.203170   negatif net
+
+------------------------------------------------------------------------------
+38c. VERDICT contre le critere de l'en-tete
+------------------------------------------------------------------------------
+nfhs3 (ensemble) : negatif net
+nfhs4 (ensemble) : negatif net
+
+VERDICT : CONTRE LE PIEGE (echelle de provision)
+Robustesse NFHS-5 (ensemble) : negatif net
+
+Termine. Tables dans output/tables/38_*.csv
+
+Run finished: 2026-10-24 20:38:14

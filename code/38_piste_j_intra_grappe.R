@@ -107,8 +107,18 @@
 #     financement inconnu dans le NSS 76).
 #   - reseau_public_domicile peut contenir des forages prives raccordes a
 #     des robinets et declares "piped into dwelling" (script 35, reserve sur
-#     la pompe) : erreur de classement qui tire le coefficient vers zero si
-#     elle est plus frequente chez les riches.
+#     la pompe). CORRIGE APRES EXECUTION (la version initiale disait "vers
+#     zero", ce qui etait faux) : un menage riche avec forage, cuve et
+#     robinets declare "piped into dwelling", donc y = 0 alors qu'il est sur
+#     du prive. Les riches sont mal classes vers le public, et ce biais
+#     pousse le coefficient vers le NEGATIF. Il va donc dans le meme sens
+#     que le resultat : c'est une explication CONCURRENTE du verdict, pas
+#     une raison de le renforcer. Le verdict CONTRE tient contre le critere,
+#     mais son interpretation reste ouverte entre deux lectures :
+#       (1) la premisse du piege est fausse pour l'eau de boisson en Inde ;
+#       (2) l'instrument ne voit pas la sortie des riches, parce qu'elle
+#           passe par des robinets.
+#     Le script 39 (charges d'eau, NSS 76) est construit pour les departager.
 #   - hv271 est relatif a chaque vague ; NFHS-5 "combined" non etabli comme
 #     le meme construit (script 37). Les coefficients se comparent en signe,
 #     pas en niveau, entre vagues.
